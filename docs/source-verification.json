@@ -1,0 +1,165 @@
+{
+  "checkedAt": "2026-10-26T20:07:40.841772+00:00",
+  "checks": [
+    {
+      "id": "pubmed-em",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "status": "verified",
+      "http": 200,
+      "finalUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=0&term=%28%22Ann+Emerg+Med%22%5BJournal%5D+OR+%22Acad+Emerg+Med%22%5BJournal%5D+OR+%22J+Emerg+Med%22%5BJournal%5D+OR+%22Am+J+Emerg+Med%22%5BJournal%5D+OR+%22Emerg+Med+J%22%5BJournal%5D+OR+%22J+Am+Coll+Emerg+Physicians+Open%22%5BJournal%5D+OR+%22West+J+Emerg+Med%22%5BJournal%5D+OR+%22Resuscitation%22%5BJournal%5D+OR+%22Prehosp+Emerg+Care%22%5BJournal%5D%29",
+      "resultCount": 74555,
+      "queryTranslation": "\"Ann Emerg Med\"[Journal] OR \"Acad Emerg Med\"[Journal] OR \"J Emerg Med\"[Journal] OR \"Am J Emerg Med\"[Journal] OR \"Emerg Med J\"[Journal] OR \"J Am Coll Emerg Physicians Open\"[Journal] OR \"West J Emerg Med\"[Journal] OR \"Resuscitation\"[Journal] OR \"Prehosp Emerg Care\"[Journal]"
+    },
+    {
+      "id": "pubmed-general",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "status": "verified",
+      "http": 200,
+      "finalUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=0&term=%28%22N+Engl+J+Med%22%5BJournal%5D+OR+%22JAMA%22%5BJournal%5D+OR+%22BMJ%22%5BJournal%5D+OR+%22Lancet%22%5BJournal%5D+OR+%22JAMA+Intern+Med%22%5BJournal%5D+OR+%22JAMA+Netw+Open%22%5BJournal%5D+OR+%22Nat+Med%22%5BJournal%5D%29+AND+%28emergency+OR+acute+OR+resuscitation+OR+shock+OR+stroke+OR+bleeding+OR+poisoning+OR+sepsis+OR+trauma+OR+cardiac+arrest%29",
+      "resultCount": 65663,
+      "queryTranslation": "(\"N Engl J Med\"[Journal] OR \"JAMA\"[Journal] OR \"BMJ\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA Intern Med\"[Journal] OR \"JAMA Netw Open\"[Journal] OR \"Nat Med\"[Journal]) AND (\"emerge\"[All Fields] OR \"emerged\"[All Fields] OR \"emergence\"[All Fields] OR \"emergences\"[All Fields] OR \"emergencies\"[MeSH Terms] OR \"emergencies\"[All Fields] OR \"emergency\"[All Fields] OR \"emergent\"[All Fields] OR \"emergently\"[All Fields] OR \"emergents\"[All Fields] OR \"emerges\"[All Fields] OR \"emerging\"[All Fields] OR (\"acute\"[All Fields] OR \"acutely\"[All Fields] OR \"acutes\"[All Fields]) OR (\"resuscitability\"[All Fields] OR \"resuscitate\"[All Fields] OR \"resuscitated\"[All Fields] OR \"resuscitates\"[All Fields] OR \"resuscitating\"[All Fields] OR \"resuscitation\"[MeSH Terms] OR \"resuscitation\"[All Fields] OR \"resuscitations\"[All Fields] OR \"resuscitative\"[All Fields] OR \"resuscitator\"[All Fields] OR \"resuscitators\"[All Fields]) OR (\"shock\"[MeSH Terms] OR \"shock\"[All Fields] OR \"shocked\"[All Fields] OR \"shocking\"[All Fields] OR \"shocks\"[All Fields]) OR (\"stroke\"[MeSH Terms] OR \"stroke\"[All Fields] OR \"strokes\"[All Fields] OR \"stroke s\"[All Fields]) OR (\"bleedings\"[All Fields] OR \"hemorrhage\"[MeSH Terms] OR \"hemorrhage\"[All Fields] OR \"bleed\"[All Fields] OR \"bleeding\"[All Fields] OR \"bleeds\"[All Fields]) OR (\"poisoned\"[All Fields] OR \"poisoning\"[MeSH Terms] OR \"poisoning\"[All Fields] OR \"poisonings\"[All Fields] OR \"poisoning\"[MeSH Subheading] OR \"poisonous\"[All Fields] OR \"poisons\"[Pharmacological Action] OR \"poisons\"[Supplementary Concept] OR \"poisons\"[All Fields] OR \"poison\"[All Fields] OR \"poisons\"[MeSH Terms]) OR (\"sepsis\"[MeSH Terms] OR \"sepsis\"[All Fields]) OR (\"injuries\"[MeSH Subheading] OR \"injuries\"[All Fields] OR \"trauma\"[All Fields] OR \"wounds and injuries\"[MeSH Terms] OR (\"wounds\"[All Fields] AND \"injuries\"[All Fields]) OR \"wounds and injuries\"[All Fields] OR \"trauma s\"[All Fields] OR \"traumas\"[All Fields]) OR (\"heart arrest\"[MeSH Terms] OR (\"heart\"[All Fields] AND \"arrest\"[All Fields]) OR \"heart arrest\"[All Fields] OR (\"cardiac\"[All Fields] AND \"arrest\"[All Fields]) OR \"cardiac arrest\"[All Fields]))"
+    },
+    {
+      "id": "pubmed-specialty",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "status": "verified",
+      "http": 200,
+      "finalUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=0&term=%28%22Circulation%22%5BJournal%5D+OR+%22Stroke%22%5BJournal%5D+OR+%22Chest%22%5BJournal%5D+OR+%22Crit+Care+Med%22%5BJournal%5D+OR+%22Intensive+Care+Med%22%5BJournal%5D+OR+%22Clin+Infect+Dis%22%5BJournal%5D+OR+%22Blood%22%5BJournal%5D+OR+%22Pediatrics%22%5BJournal%5D+OR+%22Obstet+Gynecol%22%5BJournal%5D+OR+%22J+Trauma+Acute+Care+Surg%22%5BJournal%5D+OR+%22Clin+Toxicol+%28Phila%29%22%5BJournal%5D+OR+%22Kidney+Int%22%5BJournal%5D+OR+%22Am+J+Psychiatry%22%5BJournal%5D%29+AND+%28emergency+OR+acute+OR+resuscitation+OR+shock+OR+stroke+OR+bleeding+OR+poisoning+OR+sepsis+OR+trauma+OR+cardiac+arrest%29",
+      "resultCount": 124159,
+      "queryTranslation": "(\"Circulation\"[Journal] OR \"Stroke\"[Journal] OR \"Chest\"[Journal] OR \"Crit Care Med\"[Journal] OR \"Intensive Care Med\"[Journal] OR \"Clin Infect Dis\"[Journal] OR \"Blood\"[Journal] OR \"Pediatrics\"[Journal] OR \"Obstet Gynecol\"[Journal] OR \"J Trauma Acute Care Surg\"[Journal] OR \"clin toxicol phila\"[Journal] OR \"Kidney Int\"[Journal] OR \"Am J Psychiatry\"[Journal]) AND (\"emerge\"[All Fields] OR \"emerged\"[All Fields] OR \"emergence\"[All Fields] OR \"emergences\"[All Fields] OR \"emergencies\"[MeSH Terms] OR \"emergencies\"[All Fields] OR \"emergency\"[All Fields] OR \"emergent\"[All Fields] OR \"emergently\"[All Fields] OR \"emergents\"[All Fields] OR \"emerges\"[All Fields] OR \"emerging\"[All Fields] OR (\"acute\"[All Fields] OR \"acutely\"[All Fields] OR \"acutes\"[All Fields]) OR (\"resuscitability\"[All Fields] OR \"resuscitate\"[All Fields] OR \"resuscitated\"[All Fields] OR \"resuscitates\"[All Fields] OR \"resuscitating\"[All Fields] OR \"resuscitation\"[MeSH Terms] OR \"resuscitation\"[All Fields] OR \"resuscitations\"[All Fields] OR \"resuscitative\"[All Fields] OR \"resuscitator\"[All Fields] OR \"resuscitators\"[All Fields]) OR (\"shock\"[MeSH Terms] OR \"shock\"[All Fields] OR \"shocked\"[All Fields] OR \"shocking\"[All Fields] OR \"shocks\"[All Fields]) OR (\"Stroke\"[MeSH Terms] OR \"Stroke\"[All Fields] OR \"strokes\"[All Fields] OR \"stroke s\"[All Fields]) OR (\"bleedings\"[All Fields] OR \"hemorrhage\"[MeSH Terms] OR \"hemorrhage\"[All Fields] OR \"bleed\"[All Fields] OR \"bleeding\"[All Fields] OR \"bleeds\"[All Fields]) OR (\"poisoned\"[All Fields] OR \"poisoning\"[MeSH Terms] OR \"poisoning\"[All Fields] OR \"poisonings\"[All Fields] OR \"poisoning\"[MeSH Subheading] OR \"poisonous\"[All Fields] OR \"poisons\"[Pharmacological Action] OR \"poisons\"[Supplementary Concept] OR \"poisons\"[All Fields] OR \"poison\"[All Fields] OR \"poisons\"[MeSH Terms]) OR (\"sepsis\"[MeSH Terms] OR \"sepsis\"[All Fields]) OR (\"injuries\"[MeSH Subheading] OR \"injuries\"[All Fields] OR \"trauma\"[All Fields] OR \"wounds and injuries\"[MeSH Terms] OR (\"wounds\"[All Fields] AND \"injuries\"[All Fields]) OR \"wounds and injuries\"[All Fields] OR \"trauma s\"[All Fields] OR \"traumas\"[All Fields]) OR (\"heart arrest\"[MeSH Terms] OR (\"heart\"[All Fields] AND \"arrest\"[All Fields]) OR \"heart arrest\"[All Fields] OR (\"cardiac\"[All Fields] AND \"arrest\"[All Fields]) OR \"cardiac arrest\"[All Fields]))"
+    },
+    {
+      "id": "pubmed-guidance",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "status": "verified",
+      "http": 200,
+      "finalUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=0&term=%28emergency+OR+acute+OR+resuscitation+OR+shock+OR+stroke+OR+bleeding+OR+poisoning+OR+sepsis+OR+trauma+OR+cardiac+arrest%29+AND+%28guideline%5BPublication+Type%5D+OR+practice+guideline%5BPublication+Type%5D+OR+consensus%5BTitle%5D+OR+scientific+statement%5BTitle%5D+OR+clinical+policy%5BTitle%5D+OR+position+statement%5BTitle%5D%29",
+      "resultCount": 21008,
+      "queryTranslation": "(\"emerge\"[All Fields] OR \"emerged\"[All Fields] OR \"emergence\"[All Fields] OR \"emergences\"[All Fields] OR \"emergencies\"[MeSH Terms] OR \"emergencies\"[All Fields] OR \"emergency\"[All Fields] OR \"emergent\"[All Fields] OR \"emergently\"[All Fields] OR \"emergents\"[All Fields] OR \"emerges\"[All Fields] OR \"emerging\"[All Fields] OR (\"acute\"[All Fields] OR \"acutely\"[All Fields] OR \"acutes\"[All Fields]) OR (\"resuscitability\"[All Fields] OR \"resuscitate\"[All Fields] OR \"resuscitated\"[All Fields] OR \"resuscitates\"[All Fields] OR \"resuscitating\"[All Fields] OR \"resuscitation\"[MeSH Terms] OR \"resuscitation\"[All Fields] OR \"resuscitations\"[All Fields] OR \"resuscitative\"[All Fields] OR \"resuscitator\"[All Fields] OR \"resuscitators\"[All Fields]) OR (\"shock\"[MeSH Terms] OR \"shock\"[All Fields] OR \"shocked\"[All Fields] OR \"shocking\"[All Fields] OR \"shocks\"[All Fields]) OR (\"stroke\"[MeSH Terms] OR \"stroke\"[All Fields] OR \"strokes\"[All Fields] OR \"stroke s\"[All Fields]) OR (\"bleedings\"[All Fields] OR \"hemorrhage\"[MeSH Terms] OR \"hemorrhage\"[All Fields] OR \"bleed\"[All Fields] OR \"bleeding\"[All Fields] OR \"bleeds\"[All Fields]) OR (\"poisoned\"[All Fields] OR \"poisoning\"[MeSH Terms] OR \"poisoning\"[All Fields] OR \"poisonings\"[All Fields] OR \"poisoning\"[MeSH Subheading] OR \"poisonous\"[All Fields] OR \"poisons\"[Pharmacological Action] OR \"poisons\"[Supplementary Concept] OR \"poisons\"[All Fields] OR \"poison\"[All Fields] OR \"poisons\"[MeSH Terms]) OR (\"sepsis\"[MeSH Terms] OR \"sepsis\"[All Fields]) OR (\"injuries\"[MeSH Subheading] OR \"injuries\"[All Fields] OR \"trauma\"[All Fields] OR \"wounds and injuries\"[MeSH Terms] OR (\"wounds\"[All Fields] AND \"injuries\"[All Fields]) OR \"wounds and injuries\"[All Fields] OR \"trauma s\"[All Fields] OR \"traumas\"[All Fields]) OR (\"heart arrest\"[MeSH Terms] OR (\"heart\"[All Fields] AND \"arrest\"[All Fields]) OR \"heart arrest\"[All Fields] OR (\"cardiac\"[All Fields] AND \"arrest\"[All Fields]) OR \"cardiac arrest\"[All Fields])) AND (\"guideline\"[Publication Type] OR \"practice guideline\"[Publication Type] OR \"consensus\"[Title] OR \"scientific statement\"[Title] OR \"clinical policy\"[Title] OR \"position statement\"[Title])"
+    },
+    {
+      "id": "journalfeed",
+      "url": "https://journalfeed.org/",
+      "status": "verified",
+      "http": 200,
+      "finalUrl": "https://journalfeed.org/"
+    },
+    {
+      "id": "acep",
+      "url": "https://www.acep.org/patient-care/clinical-policies",
+      "status": "verified",
+      "http": 200,
+      "finalUrl": "https://www.acep.org/patient-care/clinical-policies"
+    },
+    {
+      "id": "aha-asa",
+      "url": "https://professional.heart.org/en/guidelines-and-statements",
+      "status": "unverified",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "acc",
+      "url": "https://www.acc.org/guidelines",
+      "status": "verified",
+      "http": 200,
+      "finalUrl": "https://www.acc.org/guidelines"
+    },
+    {
+      "id": "aap",
+      "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
+      "status": "unverified",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "acs",
+      "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
+      "status": "access-challenge",
+      "http": 200,
+      "finalUrl": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/"
+    },
+    {
+      "id": "ena",
+      "url": "https://www.ena.org/practice-resources",
+      "status": "verified",
+      "http": 200,
+      "finalUrl": "https://www.ena.org/practice-resources"
+    },
+    {
+      "id": "saem",
+      "url": "https://www.saem.org/publications/grace",
+      "status": "verified",
+      "http": 200,
+      "finalUrl": "https://www.saem.org/publications/grace"
+    },
+    {
+      "id": "aaem",
+      "url": "https://www.aaem.org/statements/",
+      "status": "verified",
+      "http": 200,
+      "finalUrl": "https://www.aaem.org/statements/"
+    },
+    {
+      "id": "ash",
+      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
+      "status": "verified",
+      "http": 200,
+      "finalUrl": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care"
+    },
+    {
+      "id": "chest",
+      "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
+      "status": "verified",
+      "http": 200,
+      "finalUrl": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines"
+    },
+    {
+      "id": "sccm",
+      "url": "https://www.sccm.org/clinical-resources/guidelines",
+      "status": "verified",
+      "http": 200,
+      "finalUrl": "https://www.sccm.org/clinical-resources/guidelines"
+    },
+    {
+      "id": "idsa",
+      "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
+      "status": "verified",
+      "http": 200,
+      "finalUrl": "https://www.idsociety.org/practice-guideline/practice-guidelines/"
+    },
+    {
+      "id": "acmt",
+      "url": "https://www.acmt.net/statements/",
+      "status": "verified",
+      "http": 200,
+      "finalUrl": "https://www.acmt.net/statements/"
+    },
+    {
+      "id": "east-trauma",
+      "url": "https://www.east.org/education-resources/practice-management-guidelines",
+      "status": "unverified",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "eso-stroke",
+      "url": "https://eso-stroke.org/guidelines/",
+      "status": "verified",
+      "http": 200,
+      "finalUrl": "https://eso-stroke.org/guidelines/"
+    },
+    {
+      "id": "acog",
+      "url": "https://www.acog.org/clinical",
+      "status": "verified",
+      "http": 200,
+      "finalUrl": "https://www.acog.org/clinical"
+    },
+    {
+      "id": "erc",
+      "url": "https://www.erc.edu/science-research/guidelines/",
+      "status": "verified",
+      "http": 200,
+      "finalUrl": "https://www.erc.edu/science-research/guidelines/guidelines-2025/"
+    }
+  ],
+  "note": "URL access/query verification only, not a completed editorial literature search. Access-restricted sources require official browser/search verification or remain failed."
+}

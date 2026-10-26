@@ -1,0 +1,99 @@
+name: Validate, publish PDFs, and deploy
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      failure_probe:
+        description: 'Deliberately fail validation to verify the live site is preserved'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: em-weekly-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      ASTRO_TELEMETRY_DISABLED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.25.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Failure probe (no tracked source changes)
+        if: inputs.failure_probe == true
+        run: python3 -c "import json; p='content/articles/preoxi.json'; d=json.load(open(p)); d['sampleSize']=-1; open(p,'w').write(json.dumps(d))"
+      - run: pnpm validate && pnpm test && pnpm check
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: sudo apt-get update && sudo apt-get install -y fonts-dejavu-core
+      - name: Generate weekly PDFs
+        id: pdf
+        continue-on-error: true
+        run: pnpm pdf
+      - name: Upload and verify public PDF assets
+        id: release
+        if: steps.pdf.outcome == 'success'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: pnpm release
+      - name: Mark generation failure explicitly
+        if: steps.pdf.outcome == 'failure'
+        run: |
+          python3 - <<'PY'
+          import json,pathlib
+          for p in pathlib.Path('content/issues').glob('*.json'):
+              d=json.loads(p.read_text()); d['pdf']['status']='failed'; p.write_text(json.dumps(d,indent=2)+'\n')
+          PY
+      - run: pnpm build && pnpm check:links
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm test:browser
+      - name: Refuse to deploy an obsolete snapshot
+        run: |
+          git fetch origin main
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4
+        id: deploy
+      - name: Record successful deployment and PDF manifests
+        env:
+          PAGE_URL: ${{ steps.deploy.outputs.page_url }}
+        run: |
+          python3 scripts/record-deployment.py
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/issues state/publishing.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'state: record verified PDFs and successful deployment [skip ci]'
+            git push origin HEAD:main
+          fi
+      - name: Flag PDF failure for account notification
+        if: steps.pdf.outcome == 'failure' || steps.release.outcome == 'failure'
+        run: |
+          echo 'Website deployed with explicit PDF status. PDF generation/upload requires attention.' >> "$GITHUB_STEP_SUMMARY"
+          exit 1

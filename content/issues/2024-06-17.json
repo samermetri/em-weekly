@@ -1,0 +1,26 @@
+{
+  "id": "2024-06-17",
+  "title": "Emergency Medicine Literature Brief - June 17, 2024",
+  "coverageStart": "2024-06-10",
+  "coverageEnd": "2024-06-16",
+  "publishedDate": "2026-10-26",
+  "sample": true,
+  "overview": "Historical sample issue: a focused look at preoxygenation evidence. This demonstrates the brief format and is not a current weekly literature review.",
+  "clinicalTakeaways": [
+    "Airway: PREOXI found less peri-intubation hypoxemia with NIV than an oxygen mask in critically ill adults. Consider patient suitability when applying this regimen."
+  ],
+  "items": [
+    {
+      "articleId": "preoxi",
+      "section": "Practice-Changing / High Priority",
+      "catchUp": false
+    }
+  ],
+  "otherUpdates": [],
+  "searchAudit": null,
+  "pdf": {
+    "status": "pending",
+    "releaseUrl": null,
+    "sha256": null
+  }
+}

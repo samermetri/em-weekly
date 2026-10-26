@@ -1,0 +1,13 @@
+{
+  "name": "EM Weekly",
+  "repository": "samermetri/em-weekly",
+  "timezone": "America/Los_Angeles",
+  "maxNewArticlesPerDay": 5,
+  "discoveryOverlapDays": 14,
+  "firstDiscoveryDays": 30,
+  "weeklyTargetStudies": [
+    3,
+    6
+  ],
+  "additionalMajorGuidelines": true
+}

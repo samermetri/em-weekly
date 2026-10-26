@@ -1,0 +1,37 @@
+{
+  "name": "em-weekly",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "pnpm validate && astro build",
+    "preview": "astro preview --host 127.0.0.1",
+    "validate": "tsx scripts/validate.ts",
+    "test": "tsx --test tests/*.test.ts",
+    "check": "astro check",
+    "discover": "tsx scripts/discover.ts",
+    "pdf": "python3 scripts/render-pdfs.py",
+    "release": "python3 scripts/release-pdfs.py",
+    "check:links": "tsx scripts/check-links.ts",
+    "test:browser": "playwright test",
+    "publish:content": "tsx scripts/publish-content.ts"
+  },
+  "dependencies": {
+    "@fontsource/dm-sans": "^5.3.0",
+    "@fontsource/manrope": "^5.3.0",
+    "astro": "7.4.2",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  },
+  "packageManager": "pnpm@11.25.0"
+}

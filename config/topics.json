@@ -1,0 +1,62 @@
+[
+  {
+    "id": "airway",
+    "name": "Airway & ventilation",
+    "description": "Preoxygenation, intubation, and respiratory support.",
+    "number": "01"
+  },
+  {
+    "id": "resuscitation",
+    "name": "Resuscitation",
+    "description": "Sepsis, shock, cardiac arrest, and critical care.",
+    "number": "02"
+  },
+  {
+    "id": "cardiology",
+    "name": "Cardiology",
+    "description": "ACS, arrhythmias, and acute cardiovascular care.",
+    "number": "03"
+  },
+  {
+    "id": "neurology",
+    "name": "Neurology & stroke",
+    "description": "Time-critical neurological care and stroke.",
+    "number": "04"
+  },
+  {
+    "id": "trauma",
+    "name": "Trauma & bleeding",
+    "description": "Injury, hemorrhage, and anticoagulation.",
+    "number": "05"
+  },
+  {
+    "id": "pediatrics",
+    "name": "Pediatrics",
+    "description": "Evidence for the youngest patients in the ED.",
+    "number": "06"
+  },
+  {
+    "id": "toxicology",
+    "name": "Toxicology",
+    "description": "Poisoning, overdose, and antidotes.",
+    "number": "07"
+  },
+  {
+    "id": "guidelines",
+    "name": "Guidelines & policies",
+    "description": "Official guidance across emergency care.",
+    "number": "08"
+  },
+  {
+    "id": "infectious-disease",
+    "name": "Infectious disease",
+    "description": "Acute infections, antimicrobials, and sepsis.",
+    "number": "09"
+  },
+  {
+    "id": "obstetrics",
+    "name": "Obstetric emergencies",
+    "description": "Acute pregnancy and postpartum care.",
+    "number": "10"
+  }
+]

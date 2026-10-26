@@ -1,0 +1,2 @@
+import type {APIRoute} from 'astro';import {articles,issues,href} from '../lib/data';
+export const GET:APIRoute=({site})=>new Response(`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${['','articles/','weekly/','topics/','methods/',...articles.map(a=>`articles/${a.id}/`),...issues.map(i=>`weekly/${i.id}/`)].map(p=>`<url><loc>${new URL(href(p),site)}</loc></url>`).join('')}</urlset>`,{headers:{'Content-Type':'application/xml'}});

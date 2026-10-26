@@ -1,0 +1,203 @@
+{
+  "version": 1,
+  "pubmedFetchUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+  "pubmedSummaryUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+  "maxResultsPerSource": 1000,
+  "timeoutMs": 20000,
+  "retries": 2,
+  "requestsPerSecond": 2,
+  "sources": [
+    {
+      "id": "pubmed-em",
+      "kind": "pubmed",
+      "label": "Emergency medicine journals",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "query": "(\"Ann Emerg Med\"[Journal] OR \"Acad Emerg Med\"[Journal] OR \"J Emerg Med\"[Journal] OR \"Am J Emerg Med\"[Journal] OR \"Emerg Med J\"[Journal] OR \"J Am Coll Emerg Physicians Open\"[Journal] OR \"West J Emerg Med\"[Journal] OR \"Resuscitation\"[Journal] OR \"Prehosp Emerg Care\"[Journal])",
+      "journals": [
+        "Ann Emerg Med",
+        "Acad Emerg Med",
+        "J Emerg Med",
+        "Am J Emerg Med",
+        "Emerg Med J",
+        "J Am Coll Emerg Physicians Open",
+        "West J Emerg Med",
+        "Resuscitation",
+        "Prehosp Emerg Care"
+      ]
+    },
+    {
+      "id": "pubmed-general",
+      "kind": "pubmed",
+      "label": "Major general medical journals",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "query": "(\"N Engl J Med\"[Journal] OR \"JAMA\"[Journal] OR \"BMJ\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA Intern Med\"[Journal] OR \"JAMA Netw Open\"[Journal] OR \"Nat Med\"[Journal]) AND (emergency OR acute OR resuscitation OR shock OR stroke OR bleeding OR poisoning OR sepsis OR trauma OR cardiac arrest)",
+      "journals": [
+        "N Engl J Med",
+        "JAMA",
+        "BMJ",
+        "Lancet",
+        "JAMA Intern Med",
+        "JAMA Netw Open",
+        "Nat Med"
+      ]
+    },
+    {
+      "id": "pubmed-specialty",
+      "kind": "pubmed",
+      "label": "ED-relevant specialty journals",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "query": "(\"Circulation\"[Journal] OR \"Stroke\"[Journal] OR \"Chest\"[Journal] OR \"Crit Care Med\"[Journal] OR \"Intensive Care Med\"[Journal] OR \"Clin Infect Dis\"[Journal] OR \"Blood\"[Journal] OR \"Pediatrics\"[Journal] OR \"Obstet Gynecol\"[Journal] OR \"J Trauma Acute Care Surg\"[Journal] OR \"Clin Toxicol (Phila)\"[Journal] OR \"Kidney Int\"[Journal] OR \"Am J Psychiatry\"[Journal]) AND (emergency OR acute OR resuscitation OR shock OR stroke OR bleeding OR poisoning OR sepsis OR trauma OR cardiac arrest)",
+      "journals": [
+        "Circulation",
+        "Stroke",
+        "Chest",
+        "Crit Care Med",
+        "Intensive Care Med",
+        "Clin Infect Dis",
+        "Blood",
+        "Pediatrics",
+        "Obstet Gynecol",
+        "J Trauma Acute Care Surg",
+        "Clin Toxicol (Phila)",
+        "Kidney Int",
+        "Am J Psychiatry"
+      ]
+    },
+    {
+      "id": "pubmed-guidance",
+      "kind": "pubmed",
+      "label": "Separate guideline and statement search",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "query": "(emergency OR acute OR resuscitation OR shock OR stroke OR bleeding OR poisoning OR sepsis OR trauma OR cardiac arrest) AND (guideline[Publication Type] OR practice guideline[Publication Type] OR consensus[Title] OR scientific statement[Title] OR clinical policy[Title] OR position statement[Title])"
+    }
+  ],
+  "manualChecks": [
+    {
+      "id": "journalfeed",
+      "label": "JournalFeed",
+      "url": "https://journalfeed.org/",
+      "kind": "secondary-discovery",
+      "verification": "pending"
+    },
+    {
+      "id": "acep",
+      "label": "ACEP",
+      "url": "https://www.acep.org/patient-care/clinical-policies",
+      "kind": "guideline",
+      "verification": "pending"
+    },
+    {
+      "id": "aha-asa",
+      "label": "AHA / ASA",
+      "url": "https://professional.heart.org/en/guidelines-and-statements",
+      "kind": "guideline",
+      "verification": "pending"
+    },
+    {
+      "id": "acc",
+      "label": "ACC",
+      "url": "https://www.acc.org/guidelines",
+      "kind": "guideline",
+      "verification": "pending"
+    },
+    {
+      "id": "aap",
+      "label": "AAP",
+      "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
+      "kind": "guideline",
+      "verification": "pending"
+    },
+    {
+      "id": "acs",
+      "label": "ACS",
+      "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
+      "kind": "guideline",
+      "verification": "pending"
+    },
+    {
+      "id": "ena",
+      "label": "ENA",
+      "url": "https://www.ena.org/practice-resources",
+      "kind": "guideline",
+      "verification": "pending"
+    },
+    {
+      "id": "saem",
+      "label": "SAEM",
+      "url": "https://www.saem.org/publications/grace",
+      "kind": "guideline",
+      "verification": "pending"
+    },
+    {
+      "id": "aaem",
+      "label": "AAEM",
+      "url": "https://www.aaem.org/statements/",
+      "kind": "guideline",
+      "verification": "pending"
+    },
+    {
+      "id": "ash",
+      "label": "ASH",
+      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
+      "kind": "guideline",
+      "verification": "pending"
+    },
+    {
+      "id": "chest",
+      "label": "CHEST",
+      "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
+      "kind": "guideline",
+      "verification": "pending"
+    },
+    {
+      "id": "sccm",
+      "label": "SCCM",
+      "url": "https://www.sccm.org/clinical-resources/guidelines",
+      "kind": "guideline",
+      "verification": "pending"
+    },
+    {
+      "id": "idsa",
+      "label": "IDSA",
+      "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
+      "kind": "guideline",
+      "verification": "pending"
+    },
+    {
+      "id": "acmt",
+      "label": "ACMT",
+      "url": "https://www.acmt.net/statements/",
+      "kind": "guideline",
+      "verification": "pending"
+    },
+    {
+      "id": "east-trauma",
+      "label": "EAST trauma",
+      "url": "https://www.east.org/education-resources/practice-management-guidelines",
+      "kind": "guideline",
+      "verification": "pending"
+    },
+    {
+      "id": "eso-stroke",
+      "label": "ESO stroke",
+      "url": "https://eso-stroke.org/guidelines/",
+      "kind": "guideline",
+      "verification": "pending"
+    },
+    {
+      "id": "acog",
+      "label": "ACOG",
+      "url": "https://www.acog.org/clinical",
+      "kind": "guideline",
+      "verification": "pending"
+    },
+    {
+      "id": "erc",
+      "label": "ERC",
+      "url": "https://www.erc.edu/science-research/guidelines/",
+      "kind": "guideline",
+      "verification": "pending"
+    }
+  ],
+  "reuse": "Metadata and original concise summaries only. Never copy whole abstracts, bypass access controls, or redistribute publisher PDFs. Manual sources have no assumed feed; retrieve official pages and independently search for dated updates."
+}

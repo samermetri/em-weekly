@@ -1,0 +1,20 @@
+{
+  "enabled": false,
+  "timezone": "America/Los_Angeles",
+  "daily": {
+    "hour": 7,
+    "minute": 0,
+    "days": "daily",
+    "prompt": "automation/daily.md"
+  },
+  "weekly": {
+    "hour": 8,
+    "minute": 0,
+    "days": [
+      "Monday"
+    ],
+    "prompt": "automation/weekly.md"
+  },
+  "enableOnlyAfter": "automation/cloud-smoke-test.md passes in the intended cloud environment",
+  "runner": "ChatGPT cloud; no local heartbeat or API billing"
+}

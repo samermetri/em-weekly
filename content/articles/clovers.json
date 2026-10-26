@@ -1,0 +1,53 @@
+{
+  "sitePublishedDate": "2026-10-26",
+  "discoveredDate": "2026-10-26",
+  "source": "New England Journal of Medicine",
+  "studyType": "Randomized trial",
+  "status": "published",
+  "aiGenerated": true,
+  "humanReview": "Not yet human-reviewed",
+  "corrections": [],
+  "sample": true,
+  "pinned": false,
+  "excluded": false,
+  "section": "Practice-Changing / High Priority",
+  "reviewedMaterial": "abstract",
+  "fullTextStatus": "Open-access full text available",
+  "retrievedAt": "2026-10-26",
+  "guidelineStrength": null,
+  "id": "clovers",
+  "title": "Early Restrictive or Liberal Fluid Management for Sepsis-Induced Hypotension",
+  "shortTitle": "CLOVERS: fluids first, or earlier vasopressors?",
+  "authors": [
+    "Shapiro NI",
+    "Douglas IS",
+    "Brower RG",
+    "et al."
+  ],
+  "firstOnlineDate": "2023-01-21",
+  "doi": "10.1056/NEJMoa2212663",
+  "pmid": "36688507",
+  "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10685906/",
+  "topics": [
+    "resuscitation",
+    "infectious-disease"
+  ],
+  "summary": "CLOVERS randomized 1,563 adults after initial fluid resuscitation to a restrictive strategy prioritizing vasopressors or a liberal fluid strategy. Death before discharge home by day 90 occurred in 14.0% versus 14.9% (difference -0.9 percentage points; 95% CI -4.4 to 2.6; P=0.61).",
+  "whyItMatters": "The trial did not demonstrate a mortality advantage for either strategy after initial fluids; it does not resolve management before resuscitation.",
+  "limitations": "Unblinded and stopped for futility. Patients had already received 1-3 L; results do not establish equivalence or apply to all shock states.",
+  "population": "Adults with sepsis-induced hypotension after 1-3 L of IV fluid, across 60 US centers.",
+  "sampleSize": 1563,
+  "intervention": "Restrictive fluids with earlier vasopressors over 24 hours",
+  "comparator": "Liberal fluids before vasopressors over 24 hours",
+  "primaryEndpoint": "Death before discharge home by day 90",
+  "findings": [
+    "Primary outcome: 109/782 (14.0%) vs 116/781 (14.9%)."
+  ],
+  "evidenceNotes": "Abstract reviewed; open-access full text linked for further appraisal.",
+  "ranking": {
+    "edImpact": 5,
+    "design": 5,
+    "novelty": 3,
+    "guidelineRelevance": 2
+  }
+}

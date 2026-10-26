@@ -1,0 +1,53 @@
+{
+  "sitePublishedDate": "2026-10-26",
+  "discoveredDate": "2026-10-26",
+  "source": "New England Journal of Medicine",
+  "studyType": "Randomized trial",
+  "status": "published",
+  "aiGenerated": true,
+  "humanReview": "Not yet human-reviewed",
+  "corrections": [],
+  "sample": true,
+  "pinned": false,
+  "excluded": false,
+  "section": "Practice-Changing / High Priority",
+  "reviewedMaterial": "abstract",
+  "fullTextStatus": "Open-access full text available",
+  "retrievedAt": "2026-10-26",
+  "guidelineStrength": null,
+  "id": "device",
+  "title": "Video versus Direct Laryngoscopy for Tracheal Intubation of Critically Ill Adults",
+  "shortTitle": "DEVICE: first-pass success with video laryngoscopy",
+  "authors": [
+    "Prekker ME",
+    "Driver BE",
+    "Trent SA",
+    "et al."
+  ],
+  "firstOnlineDate": "2023-06-16",
+  "doi": "10.1056/NEJMoa2301601",
+  "pmid": "37326325",
+  "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11075576/",
+  "topics": [
+    "airway"
+  ],
+  "summary": "In 1,417 critically ill adults, video laryngoscopy achieved first-pass success in 85.1% versus 70.8% with direct laryngoscopy (difference 14.3 percentage points; 95% CI 9.9 to 18.7). Severe complications occurred in 21.4% versus 20.9% (difference 0.5 points; 95% CI -3.9 to 4.9).",
+  "whyItMatters": "Video laryngoscopy improved first-pass success in ED and ICU intubations, largely performed by trainees; complication benefit was not demonstrated.",
+  "limitations": "Stopped early for efficacy. Most operators were residents or fellows, limiting generalization to experienced operators.",
+  "population": "Critically ill adults in 17 US EDs and ICUs.",
+  "sampleSize": 1417,
+  "intervention": "Video laryngoscopy",
+  "comparator": "Direct laryngoscopy",
+  "primaryEndpoint": "Successful intubation on the first attempt",
+  "findings": [
+    "First-pass success: 600/705 vs 504/712.",
+    "Severe complications: 151/705 vs 149/712."
+  ],
+  "evidenceNotes": "Abstract reviewed; full-text access was not used.",
+  "ranking": {
+    "edImpact": 5,
+    "design": 5,
+    "novelty": 4,
+    "guidelineRelevance": 1
+  }
+}

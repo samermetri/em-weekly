@@ -1,0 +1,54 @@
+{
+  "sitePublishedDate": "2026-10-26",
+  "discoveredDate": "2026-10-26",
+  "source": "New England Journal of Medicine",
+  "studyType": "Randomized trial",
+  "status": "published",
+  "aiGenerated": true,
+  "humanReview": "Not yet human-reviewed",
+  "corrections": [],
+  "sample": true,
+  "pinned": true,
+  "excluded": false,
+  "section": "Practice-Changing / High Priority",
+  "reviewedMaterial": "abstract",
+  "fullTextStatus": "Open-access full text available",
+  "retrievedAt": "2026-10-26",
+  "guidelineStrength": null,
+  "id": "preoxi",
+  "title": "Noninvasive Ventilation for Preoxygenation during Emergency Intubation",
+  "shortTitle": "PREOXI: a better start before intubation",
+  "authors": [
+    "Gibbs KW",
+    "Semler MW",
+    "Driver BE",
+    "et al."
+  ],
+  "firstOnlineDate": "2024-06-13",
+  "doi": "10.1056/NEJMoa2313680",
+  "pmid": "38869091",
+  "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11282951/",
+  "topics": [
+    "airway",
+    "resuscitation"
+  ],
+  "summary": "PREOXI randomized 1,301 critically ill adults to NIV or an oxygen mask before intubation. Hypoxemia (SpO2 <85%) occurred in 9.1% versus 18.5% (absolute difference -9.4 percentage points; 95% CI -13.2 to -5.6).",
+  "whyItMatters": "Supports choosing NIV for preoxygenation in suitable critically ill adults to reduce peri-intubation hypoxemia. This studied regimen does not establish a survival benefit.",
+  "limitations": "Unblinded trial in US EDs and ICUs. Applicability depends on patient suitability for NIV; infrequent safety events do not establish equivalence.",
+  "population": "Critically ill adults undergoing intubation in 24 US EDs and ICUs.",
+  "sampleSize": 1301,
+  "intervention": "NIV preoxygenation",
+  "comparator": "Oxygen-mask preoxygenation",
+  "primaryEndpoint": "SpO2 <85% from induction through two minutes after intubation",
+  "findings": [
+    "Hypoxemia: 57/624 (9.1%) with NIV vs 118/637 (18.5%) with an oxygen mask; difference -9.4 percentage points (95% CI -13.2 to -5.6).",
+    "Aspiration: 0.9% vs 1.4%; difference -0.4 percentage points (95% CI -1.6 to 0.7)."
+  ],
+  "evidenceNotes": "Abstract-based summary; methods text also checked for design. Open-access full text available for further appraisal.",
+  "ranking": {
+    "edImpact": 5,
+    "design": 5,
+    "novelty": 4,
+    "guidelineRelevance": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "lastSuccessfulResearchCheck": null,
+  "lastSuccessfulDeployment": null,
+  "sources": {},
+  "queue": [],
+  "completedIssues": [],
+  "cloudConnection": {
+    "status": "not-tested",
+    "reason": "Local Keychain GitHub write verified. Intended cloud scheduler repository write and dispatch not yet tested."
+  }
+}
