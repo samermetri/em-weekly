@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
   "lastSuccessfulResearchCheck": null,
-  "lastSuccessfulDeployment": null,
+  "lastSuccessfulDeployment": {
+    "at": "2026-10-26T20:18:09.411099+00:00",
+    "commit": "9f5c1f1b759d209ae2d55d621c8ab59705d54cc2",
+    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/40394232691",
+    "url": "https://samermetri.github.io/em-weekly/"
+  },
   "sources": {},
   "queue": [],
-  "completedIssues": [],
+  "completedIssues": [
+    "2024-06-17"
+  ],
   "cloudConnection": {
     "status": "not-tested",
     "reason": "Local Keychain GitHub write verified. Intended cloud scheduler repository write and dispatch not yet tested."
