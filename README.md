@@ -12,11 +12,12 @@ A public emergency medicine reading room with original, source-linked summaries 
 
 Install Node 24 and pnpm 11.25.0. Run `pnpm install --frozen-lockfile`, then `pnpm dev`. To test the deployed repository subpath use `GITHUB_REPOSITORY=samermetri/em-weekly pnpm build` and the same environment for `pnpm preview`. A root deployment can set BASE_PATH=/ and SITE_URL=https://your-host. Self-hosted Manrope and DM Sans font assets ship with the site.
 
-Checks: `pnpm validate`, `pnpm test`, `pnpm check`, `pnpm build`, `pnpm check:links`. Browser checks: `pnpm exec playwright install chromium` then `GITHUB_REPOSITORY=samermetri/em-weekly pnpm test:browser`. Python 3.12: `pip install -r requirements.txt`, then `pnpm pdf`. PDF fonts are converted from the same bundled DM Sans and Manrope assets on every platform. Output is output/pdf, deliberately excluded from Git. CI generates release artifacts; article and issue JSON remain in normal Git history.
+Checks: `pnpm validate`, `pnpm test`, `pnpm check`, `pnpm build`, `pnpm check:links`. Browser checks: `pnpm exec playwright install chromium` then `GITHUB_REPOSITORY=samermetri/em-weekly pnpm test:browser`. Weekly briefs and articles are JSON records. The weekly page offers Print / Save as PDF using local browser printing and print CSS. No weekly PDF assets are generated or stored.
+
 
 ## GitHub Pages setup
 
-Use a PUBLIC GitHub repository, standard Ubuntu Actions runners, and GitHub Pages → Build and deployment → Source: GitHub Actions. Push main. The publish workflow creates dated GitHub Releases, verifies public PDF downloads/checksums, builds, tests, uploads a Pages artifact and deploys. Built-in GITHUB_TOKEN permissions are contents:write, pages:write and id-token:write for this workflow only. No paid service or custom secret is required for this part. See publishing.md for GITHUB_TOKEN recursion restrictions and failure recovery.
+Use a PUBLIC GitHub repository, standard Ubuntu Actions runners, and GitHub Pages → Build and deployment → Source: GitHub Actions. Push main. The publish workflow validates JSON, builds, tests, uploads a Pages artifact and deploys. Built-in GITHUB_TOKEN permissions are contents:write, pages:write and id-token:write for this workflow only. No paid service or custom secret is required for this part. See publishing.md for GITHUB_TOKEN recursion restrictions and failure recovery.
 
 ## Cloud editorial setup
 

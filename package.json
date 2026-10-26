@@ -14,8 +14,6 @@
     "test": "tsx --test tests/*.test.ts",
     "check": "astro check",
     "discover": "tsx scripts/discover.ts",
-    "pdf": "python3 scripts/render-pdfs.py",
-    "release": "python3 scripts/release-pdfs.py",
     "check:links": "tsx scripts/check-links.ts",
     "test:browser": "playwright test",
     "publish:content": "tsx scripts/publish-content.ts"

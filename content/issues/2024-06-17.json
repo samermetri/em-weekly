@@ -17,10 +17,5 @@
     }
   ],
   "otherUpdates": [],
-  "searchAudit": null,
-  "pdf": {
-    "status": "ready",
-    "releaseUrl": "https://github.com/samermetri/em-weekly/releases/download/issue-2024-06-17/2024-06-17-e7d49b24e951.pdf",
-    "sha256": "e7d49b24e951cb50b0dde3ed2144cc679747cc18d1d52a107d9aa412049d299e"
-  }
+  "searchAudit": null
 }
