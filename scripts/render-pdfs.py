@@ -59,7 +59,7 @@ for file in sorted(pathlib.Path('content/issues').glob('*.json')):
    for label,key in [('Why it matters','whyItMatters'),('Limitations','limitations')]:boxes.append([p(label,'label'),p(esc(a[key]),'body')])
    box=Table([[card(boxes[0],253,MINT,13),'',card(boxes[1],253,WARM,13)]],colWidths=[253,14,253]);box.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),0),('TOPPADDING',(0,0),(-1,-1),0),('BOTTOMPADDING',(0,0),(-1,-1),0)]));story.extend([Spacer(1,4),box,Spacer(1,16)])
    link='https://doi.org/'+a['doi'] if a['doi'] else a['canonicalUrl']
-   story.append(p('<b>Source:</b> <link href="'+esc(link)+'" color="#345a43">'+esc(a['doi'] or link)+'</link> &nbsp; · &nbsp; <b>Full text:</b> <link href="'+esc(a['canonicalUrl'])+'" color="#345a43">'+esc(a['fullTextStatus'])+'</link>','small'))
+   story.append(p('<b>Source:</b> <link href="'+esc(link)+'" color="#345a43">'+esc(a['doi'] or link)+'</link> &nbsp; · &nbsp; <b>Full text:</b> <link href="'+esc(a.get('officialPdfUrl') or a['canonicalUrl'])+'" color="#345a43">'+esc(a['fullTextStatus'])+'</link>','small'))
    story.append(p(esc(a['evidenceNotes'])+' AI-generated; '+esc(a['humanReview'])+'.','tiny'));story.append(Spacer(1,15))
  if i['otherUpdates']:
   story.append(p('Other notable updates','section'))

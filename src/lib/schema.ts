@@ -6,7 +6,7 @@ export const sections = ['Practice-Changing / High Priority','Guidelines & State
 export const articleSchema = z.object({
  id:z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),title:text,shortTitle:text,authors:z.array(text).min(1),source:text,
  firstOnlineDate:date,sitePublishedDate:date,discoveredDate:date,retrievedAt:date,
- doi:z.string().regex(/^10\.\d{4,9}\/\S+$/i).nullable(),pmid:z.string().regex(/^\d+$/).nullable(),canonicalUrl:https,
+ doi:z.string().regex(/^10\.\d{4,9}\/\S+$/i).nullable(),pmid:z.string().regex(/^\d+$/).nullable(),canonicalUrl:https,officialPdfUrl:https.nullable().optional(),
  studyType:z.enum(['Randomized trial','Observational study','Diagnostic study','Meta-analysis','Guideline','Consensus statement','Review','Preprint','Commentary','Quality improvement']),
  status:z.enum(['published','held']),topics:z.array(z.string()).min(1),summary:text,whyItMatters:text,limitations:text,
  population:text,sampleSize:z.number().int().positive().nullable(),intervention:text,comparator:text,primaryEndpoint:text,findings:z.array(text).min(1),

@@ -225,5 +225,41 @@
       "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     }
   ],
-  "reuse": "Metadata and original concise summaries only. Never copy whole abstracts, bypass access controls, or redistribute publisher PDFs. Manual sources have no assumed feed; retrieve official pages and independently search for dated updates."
+  "reuse": "Metadata and original concise summaries only. Never copy whole abstracts, bypass access controls, or redistribute publisher PDFs. Manual sources have no assumed feed; retrieve official pages and independently search for dated updates.",
+  "allowedPrimaryHosts": [
+    "academic.oup.com",
+    "ahajournals.org",
+    "annemergmed.com",
+    "bmj.com",
+    "doi.org",
+    "eso-stroke.org",
+    "jamanetwork.com",
+    "journal.chestnet.org",
+    "journals.lww.com",
+    "link.springer.com",
+    "nature.com",
+    "nejm.org",
+    "onlinelibrary.wiley.com",
+    "pmc.ncbi.nlm.nih.gov",
+    "professional.heart.org",
+    "publications.aap.org",
+    "pubmed.ncbi.nlm.nih.gov",
+    "resuscitationjournal.com",
+    "sciencedirect.com",
+    "thelancet.com",
+    "www.aaem.org",
+    "www.acc.org",
+    "www.acep.org",
+    "www.acmt.net",
+    "www.acog.org",
+    "www.chestnet.org",
+    "www.east.org",
+    "www.ena.org",
+    "www.erc.edu",
+    "www.facs.org",
+    "www.hematology.org",
+    "www.idsociety.org",
+    "www.saem.org",
+    "www.sccm.org"
+  ]
 }

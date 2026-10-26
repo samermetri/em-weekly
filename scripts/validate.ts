@@ -12,6 +12,7 @@ const ids=new Set<string>();
 for(const [n,a] of allArticles.entries()){
  assert(!ids.has(a.id),`Duplicate slug ${a.id}`);ids.add(a.id);
  assert(!duplicate(a,allArticles.slice(0,n)),`Duplicate identifiers for ${a.id}`);
+ for(const link of [a.canonicalUrl,a.officialPdfUrl].filter(Boolean) as string[]){const host=new URL(link).hostname;assert(config.allowedPrimaryHosts.some((h:string)=>host===h||host.endsWith('.'+h)),`Unapproved primary source host ${host}`);}
  assert(a.topics.every(t=>topicIds.has(t)),`Unknown topic on ${a.id}`);
  assert(fs.existsSync(`content/articles/${a.id}.json`),'Article filename must match id');
 }
