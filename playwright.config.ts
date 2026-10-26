@@ -1,2 +1,2 @@
 import {defineConfig} from '@playwright/test';
-export default defineConfig({testDir:'tests/browser',use:{baseURL:process.env.TEST_URL||'http://127.0.0.1:4321/em-weekly/',headless:true},webServer:process.env.TEST_URL?undefined:{command:'pnpm exec astro preview --host 127.0.0.1',url:'http://127.0.0.1:4321/em-weekly/',reuseExistingServer:!process.env.CI},reporter:'list'});
+export default defineConfig({testDir:'tests/browser',use:{baseURL:process.env.TEST_URL||'http://127.0.0.1:4321/em-weekly/',headless:true,channel:process.env.CI?'chrome':undefined},webServer:process.env.TEST_URL?undefined:{command:'pnpm exec astro preview --ignore-lock --host 127.0.0.1',url:'http://127.0.0.1:4321/em-weekly/',reuseExistingServer:!process.env.CI},reporter:'list'});

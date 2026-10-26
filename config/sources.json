@@ -23,7 +23,9 @@
         "West J Emerg Med",
         "Resuscitation",
         "Prehosp Emerg Care"
-      ]
+      ],
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "pubmed-general",
@@ -39,7 +41,9 @@
         "JAMA Intern Med",
         "JAMA Netw Open",
         "Nat Med"
-      ]
+      ],
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "pubmed-specialty",
@@ -61,14 +65,18 @@
         "Clin Toxicol (Phila)",
         "Kidney Int",
         "Am J Psychiatry"
-      ]
+      ],
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "pubmed-guidance",
       "kind": "pubmed",
       "label": "Separate guideline and statement search",
       "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
-      "query": "(emergency OR acute OR resuscitation OR shock OR stroke OR bleeding OR poisoning OR sepsis OR trauma OR cardiac arrest) AND (guideline[Publication Type] OR practice guideline[Publication Type] OR consensus[Title] OR scientific statement[Title] OR clinical policy[Title] OR position statement[Title])"
+      "query": "(emergency OR acute OR resuscitation OR shock OR stroke OR bleeding OR poisoning OR sepsis OR trauma OR cardiac arrest) AND (guideline[Publication Type] OR practice guideline[Publication Type] OR consensus[Title] OR scientific statement[Title] OR clinical policy[Title] OR position statement[Title])",
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     }
   ],
   "manualChecks": [
@@ -77,126 +85,144 @@
       "label": "JournalFeed",
       "url": "https://journalfeed.org/",
       "kind": "secondary-discovery",
-      "verification": "pending"
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "acep",
       "label": "ACEP",
       "url": "https://www.acep.org/patient-care/clinical-policies",
       "kind": "guideline",
-      "verification": "pending"
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "aha-asa",
       "label": "AHA / ASA",
       "url": "https://professional.heart.org/en/guidelines-and-statements",
       "kind": "guideline",
-      "verification": "pending"
+      "verification": "unverified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "acc",
       "label": "ACC",
       "url": "https://www.acc.org/guidelines",
       "kind": "guideline",
-      "verification": "pending"
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "aap",
       "label": "AAP",
       "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
       "kind": "guideline",
-      "verification": "pending"
+      "verification": "unverified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "acs",
       "label": "ACS",
       "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
       "kind": "guideline",
-      "verification": "pending"
+      "verification": "access-challenge",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "ena",
       "label": "ENA",
       "url": "https://www.ena.org/practice-resources",
       "kind": "guideline",
-      "verification": "pending"
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "saem",
       "label": "SAEM",
       "url": "https://www.saem.org/publications/grace",
       "kind": "guideline",
-      "verification": "pending"
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "aaem",
       "label": "AAEM",
       "url": "https://www.aaem.org/statements/",
       "kind": "guideline",
-      "verification": "pending"
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "ash",
       "label": "ASH",
       "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
       "kind": "guideline",
-      "verification": "pending"
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "chest",
       "label": "CHEST",
       "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
       "kind": "guideline",
-      "verification": "pending"
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "sccm",
       "label": "SCCM",
       "url": "https://www.sccm.org/clinical-resources/guidelines",
       "kind": "guideline",
-      "verification": "pending"
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "idsa",
       "label": "IDSA",
       "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
       "kind": "guideline",
-      "verification": "pending"
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "acmt",
       "label": "ACMT",
       "url": "https://www.acmt.net/statements/",
       "kind": "guideline",
-      "verification": "pending"
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "east-trauma",
       "label": "EAST trauma",
       "url": "https://www.east.org/education-resources/practice-management-guidelines",
       "kind": "guideline",
-      "verification": "pending"
+      "verification": "unverified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "eso-stroke",
       "label": "ESO stroke",
       "url": "https://eso-stroke.org/guidelines/",
       "kind": "guideline",
-      "verification": "pending"
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "acog",
       "label": "ACOG",
       "url": "https://www.acog.org/clinical",
       "kind": "guideline",
-      "verification": "pending"
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     },
     {
       "id": "erc",
       "label": "ERC",
       "url": "https://www.erc.edu/science-research/guidelines/",
       "kind": "guideline",
-      "verification": "pending"
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
     }
   ],
   "reuse": "Metadata and original concise summaries only. Never copy whole abstracts, bypass access controls, or redistribute publisher PDFs. Manual sources have no assumed feed; retrieve official pages and independently search for dated updates."

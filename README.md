@@ -12,7 +12,7 @@ A public emergency medicine reading room with original, source-linked summaries 
 
 Install Node 24 and pnpm 11.25.0. Run `pnpm install --frozen-lockfile`, then `pnpm dev`. To test the deployed repository subpath use `GITHUB_REPOSITORY=samermetri/em-weekly pnpm build` and the same environment for `pnpm preview`. A root deployment can set BASE_PATH=/ and SITE_URL=https://your-host. Self-hosted Manrope and DM Sans font assets ship with the site.
 
-Checks: `pnpm validate`, `pnpm test`, `pnpm check`, `pnpm build`, `pnpm check:links`. Browser checks: `pnpm exec playwright install chromium` then `GITHUB_REPOSITORY=samermetri/em-weekly pnpm test:browser`. Python 3.12: `pip install -r requirements.txt`, then `pnpm pdf`. Linux PDF fonts: fonts-dejavu-core; macOS: Arial. Output is output/pdf, deliberately excluded from Git. CI generates release artifacts; article and issue JSON remain in normal Git history.
+Checks: `pnpm validate`, `pnpm test`, `pnpm check`, `pnpm build`, `pnpm check:links`. Browser checks: `pnpm exec playwright install chromium` then `GITHUB_REPOSITORY=samermetri/em-weekly pnpm test:browser`. Python 3.12: `pip install -r requirements.txt`, then `pnpm pdf`. PDF fonts are converted from the same bundled DM Sans and Manrope assets on every platform. Output is output/pdf, deliberately excluded from Git. CI generates release artifacts; article and issue JSON remain in normal Git history.
 
 ## GitHub Pages setup
 

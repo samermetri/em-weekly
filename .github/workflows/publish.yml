@@ -47,7 +47,6 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
-      - run: sudo apt-get update && sudo apt-get install -y fonts-dejavu-core
       - name: Generate weekly PDFs
         id: pdf
         continue-on-error: true
@@ -68,7 +67,7 @@ jobs:
               d=json.loads(p.read_text()); d['pdf']['status']='failed'; p.write_text(json.dumps(d,indent=2)+'\n')
           PY
       - run: pnpm build && pnpm check:links
-      - run: pnpm exec playwright install --with-deps chromium
+      - run: google-chrome --version
       - run: pnpm test:browser
       - name: Refuse to deploy an obsolete snapshot
         run: |

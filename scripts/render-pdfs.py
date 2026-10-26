@@ -8,16 +8,18 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 
 OUT=pathlib.Path('output/pdf');OUT.mkdir(parents=True,exist_ok=True)
-for regular,bold in [('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf','/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'),('/System/Library/Fonts/Supplemental/Arial.ttf','/System/Library/Fonts/Supplemental/Arial Bold.ttf')]:
- if pathlib.Path(regular).exists():
-  pdfmetrics.registerFont(TTFont('EMBody',regular));pdfmetrics.registerFont(TTFont('EMBold',bold));pdfmetrics.registerFontFamily('EMBody',normal='EMBody',bold='EMBold',italic='EMBody',boldItalic='EMBold');break
-else:raise RuntimeError('Install fonts-dejavu-core or provide Arial TrueType fonts')
+from fontTools.ttLib import TTFont as SourceFont
+font_dir=pathlib.Path('tmp/pdf-fonts');font_dir.mkdir(parents=True,exist_ok=True)
+for family,package,weight in [('EMBody','dm-sans',400),('EMBold','dm-sans',700),('EMHeading','manrope',700)]:
+ source=pathlib.Path(f'node_modules/@fontsource/{package}/files/{package}-latin-{weight}-normal.woff')
+ target=font_dir/(family+'.ttf');font=SourceFont(source,recalcTimestamp=False);font.flavor=None;font.save(target);pdfmetrics.registerFont(TTFont(family,str(target)))
+pdfmetrics.registerFontFamily('EMBody',normal='EMBody',bold='EMBold',italic='EMBody',boldItalic='EMBold')
 GREEN=colors.HexColor('#345a43');INK=colors.HexColor('#24372d');MUTED=colors.HexColor('#617166');LINE=colors.HexColor('#dde5d6');MINT=colors.HexColor('#f0f5eb');WARM=colors.HexColor('#f8f6f0')
 styles={
- 'title':ParagraphStyle('title',fontName='EMBold',fontSize=27,leading=33,textColor=INK,spaceAfter=11),
+ 'title':ParagraphStyle('title',fontName='EMHeading',fontSize=27,leading=33,textColor=INK,spaceAfter=11),
  'date':ParagraphStyle('date',fontName='EMBody',fontSize=11,leading=17,textColor=GREEN,spaceAfter=16),
  'section':ParagraphStyle('section',fontName='EMBold',fontSize=9,leading=14,textColor=GREEN,spaceBefore=20,spaceAfter=10,keepWithNext=True),
- 'entry':ParagraphStyle('entry',fontName='EMBold',fontSize=17,leading=23,textColor=INK,spaceAfter=9,keepWithNext=True),
+ 'entry':ParagraphStyle('entry',fontName='EMHeading',fontSize=17,leading=23,textColor=INK,spaceAfter=9,keepWithNext=True),
  'body':ParagraphStyle('body',fontName='EMBody',fontSize=10.5,leading=16.5,textColor=INK,spaceAfter=10),
  'label':ParagraphStyle('label',fontName='EMBold',fontSize=9,leading=14,textColor=GREEN,spaceAfter=6,keepWithNext=True),
  'small':ParagraphStyle('small',fontName='EMBody',fontSize=8.5,leading=13,textColor=MUTED,spaceAfter=8),
@@ -36,7 +38,7 @@ def page_frame(canvas,doc):
  canvas.setFillColor(GREEN);canvas.setFont('EMBold',12);canvas.drawString(77,h-45,'EM Weekly.')
  canvas.setFillColor(MUTED);canvas.setFont('EMBody',7);canvas.drawRightString(w-46,h-43,'EVIDENCE FOR THE EVERYDAY ED')
  canvas.setStrokeColor(LINE);canvas.line(46,h-64,w-46,h-64)
- canvas.line(46,43,w-46,43);canvas.setFont('EMBody',7);canvas.setFillColor(MUTED);canvas.drawString(46,29,'EM WEEKLY  /  AI-generated · Not yet human-reviewed');canvas.drawRightString(w-46,29,f'{doc.page:02d}');canvas.restoreState()
+ canvas.line(46,43,w-46,43);canvas.setFont('EMBody',7);canvas.setFillColor(MUTED);canvas.drawString(46,52,'For professional education. Read the primary source and apply clinical judgment.');canvas.drawString(46,29,'EM WEEKLY  /  AI-generated · Not yet human-reviewed');canvas.drawRightString(w-46,29,f'{doc.page:02d}');canvas.restoreState()
 
 for file in sorted(pathlib.Path('content/issues').glob('*.json')):
  i=json.loads(file.read_text());date_label=i['title'].split(' - ',1)[-1]
@@ -62,5 +64,5 @@ for file in sorted(pathlib.Path('content/issues').glob('*.json')):
  if i['otherUpdates']:
   story.append(p('Other notable updates','section'))
   for update in i['otherUpdates']:story.append(p(esc(update)))
- story.extend([Spacer(1,4),HRFlowable(width='100%',color=LINE,thickness=.6),Spacer(1,10),p('For professional education. Read the primary source and apply clinical judgment. Automated selection does not establish a standard of care. Coverage uses first-online dates in America/Los_Angeles.','tiny')])
+ # Professional-use note lives in the page footer to prevent an orphan disclaimer page.
  target=OUT/(i['id']+'.pdf');doc=SimpleDocTemplate(str(target),pagesize=letter,rightMargin=46,leftMargin=46,topMargin=88,bottomMargin=60,title=i['title'],author='EM Weekly',pageCompression=1,invariant=1);doc.build(story,onFirstPage=page_frame,onLaterPages=page_frame);print(target)
