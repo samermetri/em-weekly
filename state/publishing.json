@@ -3,17 +3,18 @@
   "sources": {},
   "schemaVersion": 1,
   "cloudConnection": {
-    "reason": "Hosted Clinical Supabase read/write verified in the isolated EM Weekly project. Actions acknowledgement and actual scheduled connector access are pending.",
-    "status": "not-tested"
+    "reason": "Hosted scheduled Clinical research connector writes verified without repeated approval; exact daily revision 3 and weekly revision 2 passed build/browser checks and were acknowledged by deployed snapshot 331da6b8. Normal scheduled research begins after activation.",
+    "status": "tested",
+    "testAudit": "state/audits/cloud-connection-test.json"
   },
   "completedIssues": [
     "2024-06-17",
     "2026-10-26"
   ],
   "lastSuccessfulDeployment": {
-    "at": "2026-10-27T01:54:04.376420+00:00",
-    "commit": "e8efbdd7d1a1172a53f88e3aeabeb78a3c99f905",
-    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/40435205845",
+    "at": "2026-10-27T01:59:06.015884+00:00",
+    "commit": "6474c11f1b8daa0e2d14ccbc888c851ec346f231",
+    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/40435665025",
     "url": "https://samermetri.github.io/em-weekly/"
   },
   "lastSuccessfulResearchCheck": null

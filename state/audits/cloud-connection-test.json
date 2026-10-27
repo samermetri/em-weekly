@@ -1,0 +1,32 @@
+{
+  "method": "supabase",
+  "status": "passed",
+  "testedAt": "2026-10-27T01:54:05.980721Z",
+  "projectRef": "vbzmghfxaorxlvoebgbj",
+  "repository": "samermetri/em-weekly",
+  "sourceUrls": [
+    "https://pubmed.ncbi.nlm.nih.gov/29485925/",
+    "https://www.sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-guidelines-2021"
+  ],
+  "environment": "Clinical ChatGPT hosted scheduled tasks, isolated EM Weekly Supabase connector, GitHub Actions and public GitHub Pages",
+  "snapshotHash": "331da6b83cd324bb403b197cde6648fde9bd8f4564bd62c156d0a40dc75c0633",
+  "deploymentUrl": "https://samermetri.github.io/em-weekly/",
+  "probeRevisions": {
+    "hosted-2026-10-26": 1,
+    "scheduled-2026-10-26": 1,
+    "daily-connection-2026-10-26": 3,
+    "weekly-connection-2026-10-26": 2
+  },
+  "workflowRunUrl": "https://github.com/samermetri/em-weekly/actions/runs/40435205845",
+  "scheduledRunUrls": [
+    "https://chatgpt.com/c/6adffb86-b2d0-8333-8794-b86f3eb362e8",
+    "https://chatgpt.com/c/6ae0035f-7e54-8326-98c6-a163fc0b0db4",
+    "https://chatgpt.com/c/6ae001ce-4128-8326-85c6-fcf080fe4039"
+  ],
+  "scheduledTaskIds": [
+    "6adff969411c819089b5520d659556a3",
+    "6adfff3a47a48190b358587a5d3bad35",
+    "6ae0005e79308190a4ccccb115a35a8c"
+  ],
+  "permissionConfiguration": "Owner approved Allow Supabase for this conversation in EM Weekly test and recurring chats. Both recurring writers completed setup without another prompt; the timed daily rerun wrote revision 3. Scheduler Advanced shows Same chat for every run. Daily restored to 07:00 and weekly Monday 08:00 Pacific Time. The acknowledgement run was triggered by an authenticated setup push; GitHub timer scheduling remains configured and separately monitored."
+}
