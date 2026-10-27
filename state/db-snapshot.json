@@ -1,14 +1,15 @@
 {
-  "snapshotHash": "b2ca5c4ec76da4cc495d33ae83b2574620f18e3980c090e4b23f2638e2039e35",
+  "snapshotHash": "331da6b83cd324bb403b197cde6648fde9bd8f4564bd62c156d0a40dc75c0633",
   "documentRevisions": {
     "article:clovers": 1,
     "article:device": 1,
     "article:preoxi": 1,
     "issue:2024-06-17": 1,
     "issue:2026-10-26": 1,
-    "probe:daily-connection-2026-10-26": 1,
+    "probe:daily-connection-2026-10-26": 3,
     "probe:hosted-2026-10-26": 1,
     "probe:scheduled-2026-10-26": 1,
+    "probe:weekly-connection-2026-10-26": 2,
     "state:publishing": 2
   }
 }
