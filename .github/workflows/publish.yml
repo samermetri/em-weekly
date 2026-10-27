@@ -99,6 +99,7 @@ jobs:
         if: steps.plan.outputs.build == 'true'
         with:
           path: dist
+          retention-days: 1
       - uses: actions/deploy-pages@v4
         if: steps.plan.outputs.build == 'true'
         id: deploy

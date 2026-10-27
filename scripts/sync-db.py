@@ -44,25 +44,48 @@ def connect():
         raise ValueError('EM_WEEKLY_DATABASE_URL is required')
     return psycopg.connect(dsn, connect_timeout=20, prepare_threshold=None, sslmode='verify-full', sslrootcert=str(ROOT / 'db/supabase-ca.crt'))
 
+def local_snapshot_matches(snapshot):
+    """Do not let a cheap remote check preserve locally changed editorial files."""
+    try:
+        revisions = snapshot['documentRevisions']
+        rows = [(kind, p.stem, json.loads(p.read_text()), revisions.get(kind + ':' + p.stem))
+                for kind, folder in FOLDERS.items() for p in (ROOT / folder).glob('*.json')]
+        state = json.loads((ROOT / 'state/publishing.json').read_text())
+        rows.append(('state', 'publishing', state, revisions.get('state:publishing')))
+        rows.sort(key=lambda r: (r[0], r[1]))
+        _, current = prepare(rows, state.get('lastSuccessfulDeployment'))
+        return current['snapshotHash'] == snapshot['snapshotHash'] and current['documentRevisions'] == revisions
+    except (KeyError, ValueError, OSError, TypeError):
+        return False
+
 def pull():
     with connect() as db:
         db.execute('set transaction isolation level repeatable read')
-        rows = db.execute("select kind,id,body,revision from em_weekly.documents where kind <> 'config' order by kind,id").fetchall()
-        local_state = json.loads((ROOT / 'state/publishing.json').read_text())
-        files, snapshot = prepare(rows, local_state.get('lastSuccessfulDeployment'))
+        # Return one small digest, not the growing archive, on unchanged polls.
+        # The revision trigger and repeatable-read transaction keep both reads consistent.
+        fingerprint = db.execute("select md5(coalesce(string_agg(kind || ':' || id || ':' || revision::text, E'\\n' order by kind,id),'')) from em_weekly.documents where kind <> 'config'").fetchone()[0]
         old_snapshot = json.loads(SNAPSHOT.read_text()) if SNAPSHOT.exists() else {}
-        changed = snapshot != old_snapshot
-        # JSON edits are written only after the complete snapshot passes identity checks.
-        for target, body in files.items():
-            target.parent.mkdir(parents=True, exist_ok=True)
-            if not target.exists() or json.loads(target.read_text()) != json.loads(body):
-                target.write_text(body)
-        SNAPSHOT.write_text(json.dumps(snapshot, indent=2) + '\n')
+        unchanged = old_snapshot.get('revisionFingerprint') == fingerprint and local_snapshot_matches(old_snapshot)
+        if unchanged:
+            snapshot = old_snapshot
+            changed = False
+        else:
+            rows = db.execute("select kind,id,body,revision from em_weekly.documents where kind <> 'config' order by kind,id").fetchall()
+            local_state = json.loads((ROOT / 'state/publishing.json').read_text())
+            files, snapshot = prepare(rows, local_state.get('lastSuccessfulDeployment'))
+            snapshot['revisionFingerprint'] = fingerprint
+            changed = snapshot != old_snapshot
+            # JSON edits are written only after the complete snapshot passes identity checks.
+            for target, body in files.items():
+                target.parent.mkdir(parents=True, exist_ok=True)
+                if not target.exists() or json.loads(target.read_text()) != json.loads(body):
+                    target.write_text(body)
+            SNAPSHOT.write_text(json.dumps(snapshot, indent=2) + '\n')
         db.execute("update em_weekly.publication set checked_at=now() where id='main'")
     if output := os.environ.get('GITHUB_OUTPUT'):
         with open(output, 'a') as f:
             f.write(f'changed={str(changed).lower()}\n')
-    print(f'Imported {len(rows)} editorial documents; changed={str(changed).lower()}; snapshot={snapshot["snapshotHash"]}')
+    print(f'Editorial check: archive_downloaded={str(not unchanged).lower()}; changed={str(changed).lower()}; snapshot={snapshot["snapshotHash"]}')
 
 def report(status):
     from psycopg.types.json import Jsonb

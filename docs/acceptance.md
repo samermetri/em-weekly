@@ -14,7 +14,7 @@ Updated October 27, 2026. The website and private database publishing bridge are
 ## Validation and hosted deployment
 
 - Thirteen TypeScript unit checks: normalized identifier deduplication, rerun stability, LA/DST week boundaries, missed weeks, strict schemas, isolated checkpoints, deployment timestamps, complete weekly inclusion, and safe cloud-audit paths.
-- Two Python checks: safe import paths/incomplete snapshot rejection and stable content hashes/deployment-state preservation.
+- Three Python checks: safe import paths/incomplete snapshot rejection, stable content hashes/deployment-state preservation, and unchanged-poll bandwidth avoidance with forced import after a revision or local edit.
 - TypeScript diagnostics: zero errors/warnings. Build and 311 internal links/assets passed.
 - All fourteen browser tests passed locally and in deployment CI. Eight signed-out public tests also passed against the HTTPS custom domain, including print invocation, filenames, native/copy sharing, all three digest articles, filtering and mobile navigation.
 - Deployment of the website changes and database bridge: https://github.com/samermetri/em-weekly/actions/runs/40430357795 (success).
