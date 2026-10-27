@@ -15,7 +15,7 @@ const printTitle=`EM Weekly - ${a.id.toUpperCase()} - ${a.firstOnlineDate}`;
   {a.sample&&<p class="notice">Historical sample · This article is not presented as new evidence this week.</p>}
   <div class="article-top"><span class="tag">{a.studyType}</span><span class="study-type">{a.source}</span></div>
   <h1>{a.title}</h1>
-  <p class="byline">{a.authors.join(', ')}</p>
+  <p class="byline"><span class="full-authors">{a.authors.join(', ')}</span><span class="print-authors">{a.authors.slice(0,3).join(', ')}{a.authors.length>3?' et al.':''}</span></p>
   <div class="detail-dates">
    <span>First online <strong>{formatDate(a.firstOnlineDate)}</strong></span>
    <span>On EM Weekly <strong>{formatDate(a.sitePublishedDate)}</strong></span>

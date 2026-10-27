@@ -261,5 +261,7 @@
     "www.idsociety.org",
     "www.saem.org",
     "www.sccm.org"
-  ]
+  ],
+  "pubmedSearchUrl": "https://pubmed.ncbi.nlm.nih.gov/",
+  "pubmedSearchHelpUrl": "https://pubmed.ncbi.nlm.nih.gov/help/"
 }

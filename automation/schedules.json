@@ -25,7 +25,16 @@
     "newChatEachRun": false,
     "firstSuccessfulHostedRun": "https://chatgpt.com/c/6ae001ce-4128-8326-85c6-fcf080fe4039",
     "instructionsFile": "automation/weekly-schedule.md",
-    "instructionDelivery": "Complete operational workflow and owner editorial requirements saved directly in task; database supplies reference data only"
+    "instructionDelivery": "Complete operational workflow and owner editorial requirements saved directly in task; database supplies reference data only",
+    "normalWorkflowCheck": {
+      "status": "passed",
+      "result": "No eligible completed coverage week before launch; no writes",
+      "checkedAt": "2026-10-27T02:04:00Z",
+      "chatUrl": "https://chatgpt.com/c/6ae001ce-4128-8326-85c6-fcf080fe4039",
+      "firstEligibleCoverageStart": "2026-10-26",
+      "firstEligibleCoverageEnd": "2026-11-01",
+      "firstScheduledIssue": "2026-11-02"
+    }
   },
   "enableOnlyAfter": "automation/cloud-smoke-test.md passes in the intended cloud environment",
   "runner": "ChatGPT cloud; no local heartbeat or API billing",

@@ -14,7 +14,7 @@ Every document has a kind/id primary key, exact JSON body, revision, and updated
 
 First-online dates determine whether evidence is new. Every weekly digest includes all public articles added to EM Weekly during its Monday-Sunday coverage week in America/Los_Angeles, using sitePublishedDate. The renderer automatically adds any in-week public article omitted from the saved issue list. Older evidence requires a catch-up label. Never duplicate a normal issue's coverage or repeat its article in another normal issue. Samples are separate and excluded from automated normal selection. Daily selection is selective, with a maximum of five new articles per LA day; weekly inclusion has no second article cap.
 
-Separate guideline searches and a final cross-check remain mandatory. Failed sources retain their prior successful checkpoint. Metadata discovery alone is not a completed research check. Recovery processes oldest missing coverage weeks first, at most two per run, beginning with config/site.json coverageStart.
+Separate guideline searches and a final cross-check remain mandatory. Failed sources retain their prior successful checkpoint. Metadata discovery alone is not a completed research check. When hosted E-utilities access fails, the saved tasks may use the official PubMed HTML search with identical queries/date intervals and verified complete pagination; incomplete counts/pages never advance a checkpoint. See https://pubmed.ncbi.nlm.nih.gov/help/ for the supported search parameters. Recovery processes oldest missing coverage weeks first, at most two per run, beginning with config/site.json coverageStart.
 
 ## Free build and deployment
 
@@ -30,7 +30,7 @@ After an editorial write, verify that Supabase publication.status is success and
 
 ## Printing and sharing
 
-Articles and weekly issues offer Print / Save as PDF. Print CSS renders locally on the reader's computer, using descriptive document titles as suggested filenames. The browser's Save as PDF dialog controls the final filename and settings. The three sample article summaries have been visually checked as one page each. Longer future articles may use additional pages to preserve readable text.
+Articles and weekly issues offer Print / Save as PDF. Print CSS renders locally on the reader's computer, using descriptive document titles as suggested filenames. The browser's Save as PDF dialog controls the final filename and settings. All five current article summaries have been checked as one page each. Print uses the first three authors plus et al., omits the duplicated study-at-a-glance table, and retains the summary, findings, limitations, guidance strength, source details and review status. Longer future articles may use additional pages to preserve readable text.
 
 The weekly digest includes every in-week article and may span multiple pages. Production generates or stores no PDFs. Existing legacy Release PDFs are retained but no longer linked. Source/publisher links open in a new tab. Share invokes the device share sheet when supported; otherwise it copies a clean permanent URL, with a selectable-link fallback.
 
