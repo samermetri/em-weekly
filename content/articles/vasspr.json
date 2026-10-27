@@ -1,0 +1,80 @@
+{
+  "id": "vasspr",
+  "doi": "10.1001/jama.2026.21333",
+  "pmid": "42872917",
+  "title": "Effect of Vasopressin Initiation Threshold on Septic Shock Mortality: The VASSPR Cluster Crossover Randomized Strategy Trial",
+  "pinned": false,
+  "sample": false,
+  "source": "JAMA",
+  "status": "published",
+  "topics": [
+    "resuscitation",
+    "infectious-disease"
+  ],
+  "authors": [
+    "Ithan D Peltan",
+    "Danielle Groat",
+    "Jason R Jacobs",
+    "Elisabeth H Tillman",
+    "Carolyn Klippel",
+    "Ben J Brintz",
+    "Stephanie Chauv",
+    "Natalia Arizmendez",
+    "Sarah J Beesley",
+    "Jason R Carr",
+    "Jennifer H Edwards",
+    "Eliotte L Hirshberg",
+    "Michael J Lanspa",
+    "Harmony Schneider",
+    "Ping Hu",
+    "Tamara D Moores Todd",
+    "Joseph R Bledsoe",
+    "Austin T Smith",
+    "Matthew W Semler",
+    "Jonathan D Casey",
+    "Colin K Grissom",
+    "Samuel M Brown",
+    "Lindsay M Leither"
+  ],
+  "ranking": {
+    "design": 5,
+    "novelty": 4,
+    "edImpact": 5,
+    "guidelineRelevance": 4
+  },
+  "section": "Practice-Changing / High Priority",
+  "summary": "VASSPR was a pragmatic, open-label, cluster-randomized cluster-crossover strategy trial across 13 US hospitals involving 3,959 adults receiving vasopressors for septic shock. Hospitals alternated between recommending fixed-dose vasopressin 0.03 U/min when other vasopressors reached 0.1 versus 0.4 micrograms/kg/min norepinephrine-equivalent. Twenty-eight-day mortality was 31.8% versus 33.0% (adjusted marginal OR 0.98, 95% CI 0.87-1.06; adjusted risk difference -0.4 percentage points, 95% CI -2.7 to 1.3), with no difference in kidney replacement therapy-free days.",
+  "excluded": false,
+  "findings": [
+    "28-day mortality: 628/1975 (31.8%) with the lower-threshold strategy versus 655/1984 (33.0%) with the higher-threshold strategy; adjusted marginal OR 0.98 (95% CI 0.87-1.06), adjusted risk difference -0.4 percentage points (95% CI -2.7 to 1.3).",
+    "Kidney replacement therapy-free days through day 28 were a median of 29 in both groups.",
+    "Among patients reaching at least 0.07 micrograms/kg/min norepinephrine-equivalent, vasopressin was given to 68.0% versus 42.7%, demonstrating meaningful strategy separation.",
+    "Persistent or new cardiogenic shock occurred in 7.4% versus 6.3% (adjusted marginal OR 1.19, 95% CI 1.01-1.42); this was exploratory and not adjusted for multiple comparisons."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "Hospital strategy recommending vasopressin when total other vasopressors reached 0.4 micrograms/kg/min norepinephrine-equivalent.",
+  "population": "Adults receiving vasopressors for septic shock at 13 hospitals in Idaho and Utah.",
+  "sampleSize": 3959,
+  "shortTitle": "VASSPR: earlier vasopressin did not reduce mortality",
+  "aiGenerated": true,
+  "corrections": [
+    {
+      "date": "2026-10-26",
+      "description": "Adjusted topic labels to the supported resuscitation and infectious-disease categories."
+    }
+  ],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "The intervention was an open-label hospital strategy rather than mandated patient-level treatment, and strict strategy adherence was imperfect. The 13 hospitals were within two US states, and the possible increase in cardiogenic shock with the lower-threshold strategy was an exploratory safety finding without multiplicity adjustment.",
+  "retrievedAt": "2026-10-26",
+  "canonicalUrl": "https://jamanetwork.com/journals/jama/fullarticle/2855462",
+  "intervention": "Hospital strategy recommending vasopressin 0.03 U/min when total other vasopressors reached 0.1 micrograms/kg/min norepinephrine-equivalent.",
+  "whyItMatters": "A policy of routinely adding vasopressin at a much lower norepinephrine-equivalent threshold did not improve mortality. The trial argues against assuming a universal early threshold is superior, while leaving clinician-specific vasopressin use and the optimal threshold unresolved.",
+  "evidenceNotes": "Full article reviewed through a publisher guest-access page. Routine PDF access requires sign-in or subscription; no paywall-bypassing copy was used.",
+  "discoveredDate": "2026-10-26",
+  "fullTextStatus": "Abstract available; full text paywalled",
+  "firstOnlineDate": "2026-10-14",
+  "primaryEndpoint": "All-cause mortality at 28 days.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-10-26"
+}

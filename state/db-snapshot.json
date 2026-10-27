@@ -1,9 +1,12 @@
 {
-  "snapshotHash": "ef5a8658c3ae22266e06d6623bbef0f4a2418224fd1e6a654254872593481293",
+  "snapshotHash": "441cda0a08dc82602d6fd2cddcd17a58a91bceedf4da4c4335f28f464288af4d",
   "documentRevisions": {
+    "article:aap-pediatric-uti-2026": 2,
     "article:clovers": 1,
     "article:device": 1,
     "article:preoxi": 1,
+    "article:vasspr": 2,
+    "audit:2026-10-26": 1,
     "audit:cloud-connection-test": 1,
     "issue:2024-06-17": 1,
     "issue:2026-10-26": 1,
@@ -11,6 +14,6 @@
     "probe:hosted-2026-10-26": 1,
     "probe:scheduled-2026-10-26": 1,
     "probe:weekly-connection-2026-10-26": 2,
-    "state:publishing": 3
+    "state:publishing": 4
   }
 }

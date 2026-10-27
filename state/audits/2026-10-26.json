@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-26",
+  "sources": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Configured NCBI E-utilities discovery endpoint was not reachable from the hosted web environment. Recovery web searches were performed, but this source checkpoint was not advanced.",
+      "status": "failed",
+      "sourceId": "pubmed-em",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Configured NCBI E-utilities discovery endpoint was not reachable from the hosted web environment. Recovery searches of major journals were performed, but this source checkpoint was not advanced.",
+      "status": "failed",
+      "sourceId": "pubmed-general",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Configured NCBI E-utilities discovery endpoint was not reachable from the hosted web environment. Recovery specialty-journal searches were performed, but this source checkpoint was not advanced.",
+      "status": "failed",
+      "sourceId": "pubmed-specialty",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Configured PubMed guidance search could not run through E-utilities. Official-society searches were completed separately, but the PubMed guidance checkpoint was not advanced.",
+      "status": "failed",
+      "sourceId": "pubmed-guidance",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://journalfeed.org/",
+      "notes": "Checked as secondary candidate discovery only; no item was accepted without primary-source verification.",
+      "status": "success",
+      "sourceId": "journalfeed",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://www.acep.org/patient-care/clinical-policies",
+      "notes": "ACEP clinical policy page and dated official-domain search checked; no new in-window clinical policy meeting publication threshold identified.",
+      "status": "success",
+      "sourceId": "acep",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://professional.heart.org/en/guidelines-and-statements",
+      "notes": "AHA/ASA guideline and statement searches checked. The 2026 acute ischemic stroke guideline predates the recovery window; no new in-window acute-care statement meeting threshold identified.",
+      "status": "success",
+      "sourceId": "aha-asa",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://www.acc.org/guidelines",
+      "notes": "ACC current guidance and dated October search checked. Several 2026 documents were present, but no newly dated in-window ED practice guideline outranked selected items.",
+      "status": "success",
+      "sourceId": "acc",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
+      "notes": "AAP official search identified the September 28 pediatric UTI guideline; official guideline and PDF were reviewed and selected as a catch-up publication.",
+      "status": "success",
+      "sourceId": "aap",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
+      "notes": "ACS trauma best-practice and 2026 standards pages checked. Current standards are operational and effective later; no new in-window clinical guideline selected.",
+      "status": "success",
+      "sourceId": "acs",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://www.ena.org/practice-resources",
+      "notes": "ENA practice-resource library checked; no clearly dated new in-window clinical guideline with greater ED practice impact identified.",
+      "status": "success",
+      "sourceId": "ena",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://www.saem.org/publications/grace",
+      "notes": "SAEM GRACE page checked; latest listed GRACE-5 is from 2025, with no new in-window GRACE guideline.",
+      "status": "success",
+      "sourceId": "saem",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://www.aaem.org/statements/",
+      "notes": "AAEM statements searched; current items were primarily workforce or organizational policy and did not meet clinical inclusion threshold.",
+      "status": "success",
+      "sourceId": "aaem",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
+      "notes": "ASH guideline pages checked. A 2026 ITP guideline page was identified, but an in-window first-online date and ED-acute-bleeding applicability were not established; retained for further review.",
+      "status": "success",
+      "sourceId": "ash",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
+      "notes": "CHEST current guideline pages and October material checked; no new in-window acute ED guideline meeting threshold identified.",
+      "status": "success",
+      "sourceId": "chest",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://www.sccm.org/clinical-resources/guidelines",
+      "notes": "SCCM and Surviving Sepsis Campaign pages checked. The 2026 adult SSC guideline predates this initial 30-day discovery window; VASSPR was separately selected as new evidence.",
+      "status": "success",
+      "sourceId": "sccm",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
+      "notes": "IDSA current guideline pages checked. Recent COVID, histoplasmosis, and S aureus bacteremia updates were published before the September 27 recovery-window start.",
+      "status": "success",
+      "sourceId": "idsa",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://www.acmt.net/statements/",
+      "notes": "ACMT position and practice statements checked; no newly dated in-window toxicology statement meeting threshold identified.",
+      "status": "success",
+      "sourceId": "acmt",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://www.east.org/education-resources/practice-management-guidelines",
+      "notes": "EAST current PMGs checked. A 2026 BCVI update is listed without a verified in-window publication date in the retrieved page; retained for follow-up rather than published.",
+      "status": "success",
+      "sourceId": "east-trauma",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://eso-stroke.org/guidelines/",
+      "notes": "ESO guideline directory and dated search checked; no newly verified in-window guideline meeting threshold identified.",
+      "status": "success",
+      "sourceId": "eso-stroke",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://www.acog.org/clinical",
+      "notes": "ACOG clinical updates and obstetric emergency resources checked; no new in-window ED-facing obstetric guideline meeting threshold identified.",
+      "status": "success",
+      "sourceId": "acog",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    },
+    {
+      "url": "https://www.erc.edu/science-research/guidelines/",
+      "notes": "ERC guideline page checked; current resuscitation guideline set is 2025, with no new 2026 guideline identified.",
+      "status": "success",
+      "sourceId": "erc",
+      "checkedAt": "2026-10-27T02:08:36.956Z"
+    }
+  ],
+  "coverageEnd": "2026-10-26",
+  "coverageStart": "2026-09-27",
+  "finalCrossCheck": [
+    "2026-10-26 query: major emergency medicine randomized trials October 2026 - ICare-FASTER and pediatric trauma telemedicine were identified; ICare-FASTER retained in queue because the daily cap was reached.",
+    "2026-10-26 query: site:nejm.org October 2026 emergency randomized trial acute emergency medicine - no in-window major ED RCT identified that outranked selected items.",
+    "2026-10-26 query: site:jamanetwork.com October 2026 emergency department randomized trial acute care - VASSPR selected; pediatric trauma telemedicine trial excluded from today publication for lower immediate practice effect.",
+    "2026-10-26 query: site:thelancet.com October 2026 emergency trial acute care resuscitation - no qualifying in-window major ED practice-changing trial identified.",
+    "2026-10-26 query: site:bmj.com October 2026 emergency department randomized trial acute care - no qualifying in-window major ED practice-changing trial identified.",
+    "2026-10-26 query: ACEP clinical policies October 2026 emergency medicine - no new in-window ACEP clinical policy identified.",
+    "2026-10-26 query: AHA ASA guidelines statements October 2026 acute stroke emergency - no new in-window acute stroke guideline identified; 2026 AIS guideline predates recovery window.",
+    "2026-10-26 query: SCCM guidelines October 2026 sepsis - current SSC 2026 guidance checked; no new in-window update, while VASSPR supplied new septic-shock vasopressor evidence.",
+    "2026-10-26 query: IDSA practice guideline October 2026 emergency infectious disease - recent identified guideline updates predated the September 27 recovery-window start.",
+    "2026-10-26 query: CHEST guidelines October 2026 pulmonary embolism emergency - no newly dated in-window acute-care guideline meeting threshold identified.",
+    "2026-10-26 query: hematology guidelines October 2026 bleeding anticoagulation - ASH 2026 ITP material identified for date/applicability follow-up; no verified in-window acute bleeding guideline published today.",
+    "2026-10-26 query: ACMT statements October 2026 toxicology - no new in-window clinical toxicology statement meeting threshold identified.",
+    "2026-10-26 query: EAST practice management guideline October 2026 trauma - 2026 BCVI update identified but first-online date was not established from retrieved official material; queued for follow-up.",
+    "2026-10-26 query: AAP clinical practice guidelines October 2026 pediatrics - September 28 pediatric UTI guideline verified on official page/PDF and selected as catch-up.",
+    "2026-10-26 query: ACOG clinical October 2026 emergency obstetric guideline - no new in-window ED-facing obstetric recommendation meeting threshold identified."
+  ],
+  "excludedCandidates": [
+    {
+      "reason": "Pediatric trauma telemedicine cluster-randomized trial found similar parent experience, distress, and transfer outcomes; useful operational evidence but lower immediate practice effect than today selected items.",
+      "identifier": "10.1001/jamanetworkopen.2026.36546"
+    },
+    {
+      "reason": "New policy identified but focused on governance and implementation of generative AI rather than an ED clinical management decision.",
+      "identifier": "AAP generative AI pediatric policy, October 3 2026"
+    },
+    {
+      "reason": "Operational trauma-center standards effective October 2027 rather than a new bedside ED clinical management guideline.",
+      "identifier": "2026 ACS Resources for Optimal Care of the Injured Patient"
+    }
+  ],
+  "finalCrossCheckCompleted": true,
+  "guidelineSearchCompleted": false
+}

@@ -1,0 +1,79 @@
+{
+  "id": "aap-pediatric-uti-2026",
+  "doi": "10.1542/peds.2026-078565",
+  "pmid": "42803578",
+  "title": "Clinical Practice Guideline for the Diagnosis and Treatment of Urinary Tract Infection in Children From 8 Days to 5 Years of Age",
+  "pinned": false,
+  "sample": false,
+  "source": "American Academy of Pediatrics / Pediatrics",
+  "status": "published",
+  "topics": [
+    "pediatrics",
+    "infectious-disease",
+    "guidelines"
+  ],
+  "authors": [
+    "Brian K Alverson",
+    "David S Hains",
+    "Stephen M Downs",
+    "Rana E El Feghaly",
+    "Catherine S Forster",
+    "Shabnam Jain",
+    "Andrea Johnston",
+    "Tej K Mattoo",
+    "Caleb P Nelson",
+    "Olusoji Olakanpo",
+    "Hansel J Otero",
+    "Craig A Peters",
+    "Nicole M Poppinga",
+    "Dipanwita Saha",
+    "Alan R Schroeder",
+    "Emily Senerth",
+    "Lauren Pilcher",
+    "Susan K Flinn",
+    "Rebecca L Morgan",
+    "Reem A Mustafa"
+  ],
+  "ranking": {
+    "design": 4,
+    "novelty": 5,
+    "edImpact": 5,
+    "guidelineRelevance": 5
+  },
+  "section": "Guidelines & Statements",
+  "summary": "The 2026 AAP guideline expands UTI guidance to medically noncomplex children from 8 days through 5 years and uses GRADE methodology. It suggests antibiotic courses of 7 days or less for most children, with age- and syndrome-specific durations, and recommends oral rather than hospitalization-requiring parenteral or sequential therapy for children older than 28 days and younger than 5 years who tolerate oral treatment and do not otherwise require admission. It also updates post-UTI imaging, including renal/bladder ultrasonography after a first febrile UTI and a suggestion against routine VCUG when ultrasonography is normal.",
+  "excluded": false,
+  "findings": [
+    "The guideline contains 8 Key Action Statements: 2 strong and 6 conditional recommendations, with certainty ranging from low to very low.",
+    "For most pediatric UTI, the panel suggests a shorter antibiotic course of 7 days or less rather than more than 7 days; suggested durations vary by age and clinical syndrome.",
+    "For children older than 28 days and younger than 5 years who tolerate oral therapy and do not otherwise need hospitalization, the panel recommends oral antibiotics rather than parenteral or sequential therapy requiring hospitalization.",
+    "After a first febrile UTI in children younger than 5 years, the guideline recommends renal/bladder ultrasonography and suggests against routine VCUG when ultrasonography is normal."
+  ],
+  "studyType": "Guideline",
+  "comparator": "Prior AAP UTI guidance and the longer or more intensive management strategies addressed by individual recommendations.",
+  "population": "Medically noncomplex infants and children 8 days through 5 years of age with suspected or diagnosed urinary tract infection.",
+  "sampleSize": null,
+  "shortTitle": "AAP 2026: pediatric UTI diagnosis and treatment",
+  "aiGenerated": true,
+  "corrections": [
+    {
+      "date": "2026-10-26",
+      "description": "Adjusted topic labels to supported site categories and corrected the publisher link to the retrieved canonical URL."
+    }
+  ],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Most recommendations are conditional and supported by low- or very-low-certainty evidence. The guideline is intended for medically noncomplex children and does not replace separate higher-risk pathways for young febrile infants or children with major comorbidity.",
+  "retrievedAt": "2026-10-26",
+  "canonicalUrl": "https://publications.aap.org/pediatrics/article/158/4/e2026078565/209460/Clinical-Practice-Guideline-for-the-Diagnosis-and",
+  "intervention": "Updated diagnostic, antibiotic-duration, route-of-therapy, imaging, and recurrence-prevention recommendations for pediatric UTI.",
+  "whyItMatters": "For stable young children with UTI, this supports shorter antibiotic courses and less routine IV treatment or admission when oral therapy is feasible. It also gives ED clinicians a clearer framework for discharge imaging follow-up after a first febrile UTI.",
+  "evidenceNotes": "Official AAP guideline page and publisher PDF reviewed. Catch-up: previously missed important publication. The publisher labels the article free to read but not Open Access.",
+  "discoveredDate": "2026-10-26",
+  "fullTextStatus": "Official PDF available",
+  "officialPdfUrl": "https://publications.aap.org/pediatrics/article-pdf/1971229/pediatrics.2026078565.pdf",
+  "firstOnlineDate": "2026-09-28",
+  "primaryEndpoint": "Eight Key Action Statements and four Good Practice Statements covering evaluation, treatment, imaging, and prevention.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": "Eight Key Action Statements: 2 strong and 6 conditional recommendations; supporting certainty is predominantly low to very low.",
+  "sitePublishedDate": "2026-10-26"
+}

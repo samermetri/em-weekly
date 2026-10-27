@@ -1,6 +1,51 @@
 {
-  "queue": [],
-  "sources": {},
+  "queue": [
+    {
+      "doi": "10.1161/CIRCULATIONAHA.126.080866",
+      "pmid": "42895015",
+      "reason": "ICare-FASTER is a large ED stepped-wedge cluster-randomized trial with a 13% adjusted reduction in ED length of stay using point-of-care hs-cTnI in an accelerated pathway; held because the five-record LA-day publication cap was reached and primary full text was not reviewed.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-general",
+      "canonicalUrl": "https://doi.org/10.1161/CIRCULATIONAHA.126.080866",
+      "discoveredDate": "2026-10-26"
+    },
+    {
+      "doi": null,
+      "pmid": null,
+      "reason": "ASH lists 2026 immune thrombocytopenia guidance. Verify first-online date, exact recommendations, and acute severe-bleeding relevance before considering publication.",
+      "status": "needs-primary-review",
+      "sourceId": "ash",
+      "canonicalUrl": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/immune-thrombocytopenia-guidelines",
+      "discoveredDate": "2026-10-26"
+    },
+    {
+      "doi": null,
+      "pmid": null,
+      "reason": "EAST lists a 2026 BCVI update. Verify first-online date and recommendation changes against the official guideline before considering publication.",
+      "status": "needs-primary-review",
+      "sourceId": "east-trauma",
+      "canonicalUrl": "https://www.east.org/education-resources/practice-management-guidelines/details/142/evaluation-and-management-of-blunt-cerebrovascular-injury-bcvi",
+      "discoveredDate": "2026-10-26"
+    }
+  ],
+  "sources": {
+    "pubmed-em": {
+      "lastError": "NCBI E-utilities discovery endpoint inaccessible from hosted web environment; checkpoint not advanced.",
+      "lastAttemptAt": "2026-10-27T02:08:36.956Z"
+    },
+    "pubmed-general": {
+      "lastError": "NCBI E-utilities discovery endpoint inaccessible from hosted web environment; checkpoint not advanced.",
+      "lastAttemptAt": "2026-10-27T02:08:36.956Z"
+    },
+    "pubmed-guidance": {
+      "lastError": "NCBI E-utilities guidance endpoint inaccessible from hosted web environment; checkpoint not advanced.",
+      "lastAttemptAt": "2026-10-27T02:08:36.956Z"
+    },
+    "pubmed-specialty": {
+      "lastError": "NCBI E-utilities discovery endpoint inaccessible from hosted web environment; checkpoint not advanced.",
+      "lastAttemptAt": "2026-10-27T02:08:36.956Z"
+    }
+  },
   "schemaVersion": 1,
   "cloudConnection": {
     "reason": "Hosted scheduled Clinical research connector writes verified without repeated approval; exact daily revision 3 and weekly revision 2 passed build/browser checks and were acknowledged by deployed snapshot 331da6b8. Normal scheduled research begins after activation.",
@@ -12,9 +57,9 @@
     "2026-10-26"
   ],
   "lastSuccessfulDeployment": {
-    "at": "2026-10-27T02:03:17.744178+00:00",
-    "commit": "5f95412a58edf0fe189ef5d7758d5a34bc600a62",
-    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/40436106721",
+    "at": "2026-10-27T02:17:29.846095+00:00",
+    "commit": "3e356b3623d984af1932df75b4333af454d75327",
+    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/40437503911",
     "url": "https://samermetri.github.io/em-weekly/"
   },
   "lastSuccessfulResearchCheck": null
