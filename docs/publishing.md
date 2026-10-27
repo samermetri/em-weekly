@@ -24,6 +24,8 @@ scripts/sync-db.py imports a repeatable-read snapshot, checks identities and saf
 
 Publication is serialized. A stale Git snapshot cannot deploy. The successful workflow commits imported JSON and deployment state to main without force, then records its exact snapshot hash and document revisions in Supabase publication. GITHUB_TOKEN commits do not recursively trigger another run. A failed pull, validation, build, browser check, or deployment preserves the previous public site; a failure acknowledgement preserves the prior successful hash/URL. See the linked Actions run for diagnostics.
 
+The Clinical account may request write approval even when its connector is authenticated. Unattended operation requires an owner-approved conversation-specific Supabase permission for each scheduled editorial chat, and a hosted scheduler rerun that completes without another approval. Do not broaden global app permissions or other account scopes as a workaround.
+
 After an editorial write, verify that Supabase publication.status is success and its document_revisions includes the written revision of every changed document. Report saved/pending until that is true. A database write, a local push, or an interactive connector test alone is not an end-to-end scheduled publishing test.
 
 ## Printing and sharing

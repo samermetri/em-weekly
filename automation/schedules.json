@@ -16,5 +16,15 @@
     "prompt": "automation/weekly.md"
   },
   "enableOnlyAfter": "automation/cloud-smoke-test.md passes in the intended cloud environment",
-  "runner": "ChatGPT cloud; no local heartbeat or API billing"
+  "runner": "ChatGPT cloud; no local heartbeat or API billing",
+  "connectionTest": {
+    "automationId": "6adff969411c819089b5520d659556a3",
+    "name": "EM Weekly scheduled connection test",
+    "scheduledFor": "2026-10-26T18:15:00-07:00",
+    "timezone": "America/Los_Angeles",
+    "status": "approval-required",
+    "probeId": "scheduled-2026-10-26",
+    "chatId": "6adffb86-b2d0-8333-8794-b86f3eb362e8",
+    "reason": "Timed Clinical run reached the correct Supabase INSERT and paused for write approval. Conversation-specific persistent access requires owner confirmation."
+  }
 }
