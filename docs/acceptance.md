@@ -1,6 +1,6 @@
 # Acceptance status
 
-Verified October 26, 2026. The website and private database publishing bridge are deployed. The owner-approved hosted research schedules are active, with saved connector access verified by an unattended timed rerun. The GitHub timer is configured; its first timer-triggered run has not yet been observed.
+Updated October 27, 2026. The website and private database publishing bridge are deployed. The owner-approved hosted research schedules are active, with saved connector access verified by an unattended timed rerun. The GitHub deployment timer has now been observed completing successfully.
 
 ## Public website
 
@@ -13,10 +13,10 @@ Verified October 26, 2026. The website and private database publishing bridge ar
 
 ## Validation and hosted deployment
 
-- Twelve TypeScript unit checks: normalized identifier deduplication, rerun stability, LA/DST week boundaries, missed weeks, strict schemas, isolated checkpoints, deployment timestamps, complete weekly inclusion, and safe cloud-audit paths.
+- Thirteen TypeScript unit checks: normalized identifier deduplication, rerun stability, LA/DST week boundaries, missed weeks, strict schemas, isolated checkpoints, deployment timestamps, complete weekly inclusion, and safe cloud-audit paths.
 - Two Python checks: safe import paths/incomplete snapshot rejection and stable content hashes/deployment-state preservation.
-- TypeScript diagnostics: zero errors/warnings. Build and 227 local subpath links/assets passed.
-- All eight browser tests passed against the signed-out PUBLIC site, including print invocation, filenames, native/copy sharing, all three digest articles, filtering and mobile navigation.
+- TypeScript diagnostics: zero errors/warnings. Build and 311 internal links/assets passed.
+- All fourteen browser tests passed against the signed-out PUBLIC site, including print invocation, filenames, native/copy sharing, all three digest articles, filtering and mobile navigation.
 - Deployment of the website changes and database bridge: https://github.com/samermetri/em-weekly/actions/runs/40430357795 (success).
 - Normal database-driven rerun: https://github.com/samermetri/em-weekly/actions/runs/40431034931 (success), with stable snapshot hash and identifiers.
 - Deliberate validation failure: https://github.com/samermetri/em-weekly/actions/runs/40430892420. It failed before deploy; public overview SHA-256 remained 0c0a027adc23e60887e86da1982a32b11adee16fabf06fc1a074d7d166b3944f. Supabase retained the previous successful hash and deployment URL while reporting the failure. Normal rerun restored success.
@@ -26,7 +26,7 @@ Verified October 26, 2026. The website and private database publishing bridge ar
 
 - Separate organization EM Weekly: dbvujtddkrjjrfnccsum. Project EM Weekly: vbzmghfxaorxlvoebgbj, us-west-1. Creation quote: $0/month, Free plan.
 - Separate Clinical Supabase connection named EM Weekly. KP Shift Tracker and other organizations were not modified.
-- Private em_weekly.documents holds original JSON, configuration, checkpoints and probes. em_weekly.publication acknowledges exact deployed revisions. No reader data, publisher full texts or PDFs are stored.
+- Private em_weekly.documents holds original JSON, configuration, checkpoints and probes. em_weekly.publication acknowledges exact deployed revisions. Optional private reader favorites/folders are stored separately with RLS. No publisher full texts or PDFs are stored.
 - Builder role has read access to export documents and update access to its single publication row. Verified: no article UPDATE and no anonymous schema access. RLS is enabled. Security advisor returned no lints.
 - The unique builder credential is encrypted as GitHub secret EM_WEEKLY_DATABASE_URL, never committed. TLS verifies Supabase's CA and hostname. The temporary plaintext setup credential was removed.
 - Actions uses a repeatable-read snapshot, strict validation, serialized publication and stale-Git protection. Unchanged scheduled checks skip the site build. A 15-minute polling schedule is configured; platform delays are possible.
@@ -47,4 +47,13 @@ Existing Clinical literature-brief and delivery-check schedules were preserved. 
 
 ## Deployment timer observation
 
-GitHub's active default-branch workflow contains the offset 15-minute cron 11,26,41,56 * * * *. Push and dispatch runs have succeeded, including the exact scheduled-writer probe acknowledgement above. At the last setup check, no event=schedule run had yet appeared in GitHub's run history. Do not describe this as an observed timer-triggered deployment until one actually runs. GitHub may delay scheduled starts; no exact delivery-time guarantee is made. The private database retains content while waiting for publication, and editorial tasks check the acknowledgement rather than claiming a database save is live publication.
+GitHub’s active default-branch workflow contains the offset 15-minute cron 11,26,41,56 * * * *. Actual event=schedule runs have completed successfully, including https://github.com/samermetri/em-weekly/actions/runs/40561173202 at 2026-10-27T18:34Z. The earlier timer run 40463572402 imported and acknowledged scheduled writer revisions. Platform delays remain possible; a database save is reported as pending until an exact successful acknowledgement exists.
+
+## Reader accounts and custom domain
+
+- Custom hostname emweekly.samermetri.com is configured in GitHub Pages. Its origin HTTPS certificate was approved and normal TLS access returned 200; HTTPS enforcement and the Cloudflare CNAME proxy are enabled.
+- Cloudflare Free rules are saved for public origin caching, one-year hashed assets and account/library/admin bypass. A normal TLS request through Cloudflare returned MISS, then HIT on the same public page. No plan or existing zone SSL setting was changed.
+- Supabase Auth confirmation/reset SMTP is enabled with Resend, and the user entered and saved the private send-only key. Site URL and both exact HTTPS redirects were verified saved. Delivery requires the first real signup/confirmation test.
+- Private favorites/folders and protected admin RPCs are deployed to Supabase. SQL authorization tests passed in a rolled-back transaction: cross-user isolation, composite ownership, forged metadata rejection, anonymous/reader admin denial, email-confirmation-based admin grant, new article insert, revision conflicts and recoverable withdrawal.
+- Browser tests cover public zero-database reading, signup/reset, folder organization/cache reuse, reader admin denial, admin edits/review/withdrawal/restore, adding a held manual article and mobile overflow. No real users or emails were created by these mock browser tests.
+- Owner allowlist is configured for the user-provided email. No real account existed at setup; owner signup and email confirmation remain the final user step. Never set an owner password or mark their email confirmed through SQL.

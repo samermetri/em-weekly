@@ -4,7 +4,7 @@
 
 The Clinical ChatGPT account researches and saves original JSON through its Supabase connection named EM Weekly. Organization EM Weekly (dbvujtddkrjjrfnccsum), project EM Weekly (vbzmghfxaorxlvoebgbj), region us-west-1, Free plan, quoted $0/month. KP Shifts and its connection are separate and must never be modified. The Clinical GitHub connection is disabled by its administrator; the database route does not require it.
 
-The private em_weekly schema contains documents (articles, issues, audits, publishing state, setup configuration, and connection probes) and publication (the build/deployment acknowledgement). The static website remains hosted at https://samermetri.github.io/em-weekly/. Readers never connect to Supabase and need no account. No PDF files, publisher full texts, reader data, or AI API keys are stored.
+The private em_weekly schema contains documents (articles, issues, audits, publishing state, setup configuration, and connection probes) and publication (the build/deployment acknowledgement). The static website is hosted on GitHub Pages at https://emweekly.samermetri.com/. Public reading needs no account and makes no Supabase requests. Optional Supabase Auth accounts store private favorites/folders in RLS-protected public tables. No PDF files, publisher full texts or AI API keys are stored.
 
 ## Editorial writes
 
@@ -20,7 +20,7 @@ Separate guideline searches and a final cross-check remain mandatory. Failed sou
 
 GitHub Actions polls Supabase every 15 minutes and on explicit pushes/dispatch. Scheduled starts may be delayed by GitHub; this is not a hard delivery-time guarantee. The scoped em_weekly_builder database role can read export documents and update the single publication acknowledgement row. It cannot edit editorial content, configuration, schema, or other projects. Its unique credential is encrypted in the repository secret EM_WEEKLY_DATABASE_URL. TLS verifies Supabase's CA certificate and hostname. No service-role or personal database admin credential is used by Actions.
 
-scripts/sync-db.py imports a repeatable-read snapshot, checks identities and safe paths, preserves the last deployment state, and records a content hash/revisions. An unchanged scheduled check stops before installing Node dependencies or building. Changed content passes strict Zod schemas, deduplication, eligibility/audit checks, unit tests, TypeScript, a static build, subpath-link checks, and browser tests before deployment. Code pushes run checks even when content is unchanged.
+scripts/sync-db.py imports a repeatable-read snapshot, checks identities and safe paths, preserves the last deployment state, and records a content hash/revisions. An unchanged scheduled check stops before installing Node dependencies or building. Changed content passes strict Zod schemas, deduplication, eligibility/audit checks, unit tests, TypeScript, a static build, internal-link checks, and browser tests before deployment. Code pushes run checks even when content is unchanged.
 
 Publication is serialized. A stale Git snapshot cannot deploy. The successful workflow commits imported JSON and deployment state to main without force, then records its exact snapshot hash and document revisions in Supabase publication. GITHUB_TOKEN commits do not recursively trigger another run. A failed pull, validation, build, browser check, or deployment preserves the previous public site; a failure acknowledgement preserves the prior successful hash/URL. See the linked Actions run for diagnostics.
 
@@ -36,10 +36,22 @@ The weekly digest includes every in-week article and may span multiple pages. Pr
 
 ## Corrections, rollback and failure test
 
-Use pinned:true to feature, excluded:true to remove from public lists, and status:held to withhold. Review issues citing an article before withholding it. Add dated corrections and reset humanReview to Not yet human-reviewed after an AI revision. Validation never marks content human-reviewed. Re-publishing updates both HTML and browser print output from the same JSON.
+Use pinned:true to feature, excluded:true to remove from public lists, and status:held to withhold. Withheld articles are removed from weekly renderings as well; stale issue overviews and clinical takeaways are suppressed when an issue contains a withdrawn article. Add dated corrections and reset humanReview to Not yet human-reviewed after an AI revision. Validation never marks content human-reviewed. Re-publishing updates both HTML and browser print output from the same JSON.
 
 For a content rollback, restore the intended JSON body in Supabase with a new revision so the next poll cannot overwrite the correction. For code rollback, revert the responsible commit and push without force. Dispatch publish.yml with failure_probe:true to verify that intentional schema failure cannot replace the public site. Never delete existing release assets or force-push main.
 
 ## Cost and secrets
 
-Keep additional spend at $0: public GitHub repository, standard Ubuntu runners, github.io hostname, included Clinical ChatGPT usage, Supabase Free project. No paid API, premium runner, purchased domain, paid database add-on, upgrade, or automatic paid fallback is authorized. Monitor free-tier quotas and failures; pause/report rather than buying capacity. Secrets belong only in approved secret stores, never repository content, prompts, source pages, or logs.
+Keep additional spend at $0: public GitHub repository, standard Ubuntu runners, the existing Cloudflare Free zone and owned domain, included Clinical ChatGPT usage, Supabase Free project and Resend Free SMTP. No paid API, premium runner, purchased domain, paid database add-on, upgrade, or automatic paid fallback is authorized. Monitor free-tier quotas and failures; pause/report rather than buying capacity. Secrets belong only in approved secret stores, never repository content, prompts, source pages, or logs.
+
+## Accounts, administration and cache boundaries
+
+Apply db/accounts.sql and db/account-limits.sql once after db/schema.sql. Reader tables enforce auth.uid ownership with RLS; folder associations reference both the folder and bookmark owner. Private functions have fixed search paths and explicit execution grants. The three private RLS tables without client policies deliberately deny direct access. The private owner email allowlist grants an admin role only after Supabase confirms that email; user_metadata never grants a role. Do not expose a service-role key or let a public user assign roles.
+
+The static `/admin/` shell contains no unpublished content. Its RPCs independently verify the admin role before listing or changing JSON. Writes require the read revision; stale edits fail. Existing edits append dated corrections and private before/after history. Delete is a recoverable withdrawal. New editor-written entries retain their own origin label and begin held. Validation/build/deploy must complete before saved revisions are described as public.
+
+Custom SMTP uses smtp.resend.com port 465, username resend, from emweekly@updates.samermetri.com. The send-only key is stored only in Supabase SMTP settings. Site URL and exact confirmation/recovery redirects point to the HTTPS account page. The owner must create their own password and verify email before admin activation.
+
+Public pages are static; origin HTML cache max-age is 600 seconds. Cloudflare rules cache the existing origin policy and keep hashed `/_astro/` assets for a year. `/account`, `/library` and `/admin` bypass the edge cache; API fetches use no-store. Per-user local library caches expire after five minutes and clear on logout. No automatic account polling, realtime subscriptions or database queries during ordinary article reading. Account updates are fetched on use/Refresh.
+
+Keep the DNS record DNS-only until GitHub has provisioned a valid origin certificate, then enable Cloudflare proxy without weakening the zone’s existing Full SSL setting. Test an edge cache HIT and account bypass after proxy activation. Storage is bounded to 100 folders, 5,000 published-article bookmarks and 10,000 associations per user. Free plan quotas still apply; never enable paid capacity automatically.

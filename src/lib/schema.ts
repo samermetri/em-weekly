@@ -11,7 +11,7 @@ export const articleSchema = z.object({
  status:z.enum(['published','held']),topics:z.array(z.string()).min(1),summary:text,whyItMatters:text,limitations:text,
  population:text,sampleSize:z.number().int().positive().nullable(),intervention:text,comparator:text,primaryEndpoint:text,findings:z.array(text).min(1),
  reviewedMaterial:z.enum(['abstract','full text','official society summary']),fullTextStatus:z.enum(['Open-access full text available','Official PDF available','Abstract available; full text paywalled','Official society summary available']),
- evidenceNotes:text,guidelineStrength:text.nullable(),aiGenerated:z.literal(true),humanReview:z.enum(['Not yet human-reviewed','Human-reviewed']),
+ evidenceNotes:text,guidelineStrength:text.nullable(),aiGenerated:z.boolean(),humanReview:z.enum(['Not yet human-reviewed','Human-reviewed']),
  corrections:z.array(z.object({date,description:text})),sample:z.boolean(),pinned:z.boolean(),excluded:z.boolean(),section:z.enum(sections),
  ranking:z.object({edImpact:z.number().int().min(0).max(5),design:z.number().int().min(0).max(5),novelty:z.number().int().min(0).max(5),guidelineRelevance:z.number().int().min(0).max(5)}).strict()
 }).strict().refine(a=>a.firstOnlineDate<=a.sitePublishedDate,'Online publication cannot follow site publication');

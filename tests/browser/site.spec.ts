@@ -20,7 +20,7 @@ test('article links, compact review metadata, print filename and native sharing'
 });
 test('sharing copies a clean link when native sharing is unavailable',async({page})=>{
  await page.addInitScript(()=>{Object.defineProperty(navigator,'share',{value:undefined,configurable:true});Object.defineProperty(navigator,'clipboard',{value:{writeText:async(value:string)=>{(window as any).__copied=value;}},configurable:true});});
- await page.goto('articles/device/');await page.getByRole('button',{name:'Share',exact:true}).click();await expect(page.getByRole('status')).toHaveText('Link copied');await expect.poll(()=>page.evaluate(()=>(window as any).__copied)).toBe('https://emweekly.samermetri.com/articles/device/');
+ await page.goto('articles/device/');await page.getByRole('button',{name:'Share',exact:true}).click();await expect(page.locator('.share-status')).toHaveText('Link copied');await expect.poll(()=>page.evaluate(()=>(window as any).__copied)).toBe('https://emweekly.samermetri.com/articles/device/');
 });
 test('weekly preview includes all three articles and uses a dated print filename',async({page})=>{
  await page.addInitScript(()=>{window.print=()=>{(window as any).__printedTitle=document.title;};});
