@@ -1,0 +1,11 @@
+{
+  "id": "scheduled-2026-10-26",
+  "status": "scheduled-written",
+  "writtenAt": "2026-10-27T01:29:25.346Z",
+  "sourceUrls": [
+    "https://pubmed.ncbi.nlm.nih.gov/29485925/",
+    "https://www.sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-guidelines-2021"
+  ],
+  "environment": "Clinical ChatGPT hosted scheduled cloud task",
+  "scheduledTaskId": "6adff969411c819089b5520d659556a3"
+}
