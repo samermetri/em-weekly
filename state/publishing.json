@@ -2,15 +2,16 @@
   "schemaVersion": 1,
   "lastSuccessfulResearchCheck": null,
   "lastSuccessfulDeployment": {
-    "at": "2026-10-26T20:54:49.225745+00:00",
-    "commit": "2427d08ee3e4a18b8f1ed9fad4de379df20cc3bb",
-    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/40399694826",
+    "at": "2026-10-27T01:05:15.982186+00:00",
+    "commit": "290669e5084fd558bc3406e81a886f04f5c0682a",
+    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/40430357795",
     "url": "https://samermetri.github.io/em-weekly/"
   },
   "sources": {},
   "queue": [],
   "completedIssues": [
-    "2024-06-17"
+    "2024-06-17",
+    "2026-10-26"
   ],
   "cloudConnection": {
     "status": "not-tested",
