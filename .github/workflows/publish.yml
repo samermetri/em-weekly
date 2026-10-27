@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '11,26,41,56 * * * *'
   workflow_dispatch:
     inputs:
       failure_probe:
