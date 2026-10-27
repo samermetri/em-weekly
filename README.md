@@ -20,7 +20,7 @@ Weekly digests include every public article added during the coverage week. Arti
 
 The Clinical ChatGPT account saves original JSON through its separate EM Weekly Supabase connection. Free organization EM Weekly, project vbzmghfxaorxlvoebgbj. The private em_weekly schema holds editorial JSON, instructions/checkpoints, and publication acknowledgements. GitHub Actions polls for changes, validates/builds the static site, and records the exact deployed document revisions. The public browser never connects to the database.
 
-Read docs/publishing.md and automation/cloud-smoke-test.md before activation. Included cloud usage and a supported hosted scheduler are required; a desktop automation does not satisfy computer-off operation. Daily research is intended for 07:00 and the weekly digest Monday 08:00 America/Los_Angeles. Check automation/schedules.json for actual activation evidence rather than assuming these schedules are enabled.
+Read docs/publishing.md and automation/cloud-smoke-test.md before activation. Included cloud usage and a supported hosted scheduler are required; a desktop automation does not satisfy computer-off operation. Daily research is active at 07:00 and the weekly digest Monday 08:00 America/Los_Angeles. Hosted connector writes and a timed daily rerun passed. See automation/schedules.json and docs/acceptance.md for exact evidence and the separate GitHub deployment-timer observation status.
 
 The builder requires Python 3.12, requirements-db.txt, and the repository secret EM_WEEKLY_DATABASE_URL for its limited database role. db/schema.sql documents the bootstrap schema; do not apply it twice. db/supabase-ca.crt is Supabase's public CA certificate, downloaded from the dashboard. Never commit private credentials.
 

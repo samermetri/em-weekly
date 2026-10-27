@@ -1,6 +1,6 @@
 # Acceptance status
 
-Verified October 26, 2026. The website and private database publishing bridge are deployed. Unattended editorial scheduling is awaiting conversation-specific Supabase write permission and a rerun without approval.
+Verified October 26, 2026. The website and private database publishing bridge are deployed. The owner-approved hosted research schedules are active, with saved connector access verified by an unattended timed rerun. The GitHub timer is configured; its first timer-triggered run has not yet been observed.
 
 ## Public website
 
@@ -13,7 +13,7 @@ Verified October 26, 2026. The website and private database publishing bridge ar
 
 ## Validation and hosted deployment
 
-- Eleven TypeScript unit checks: normalized identifier deduplication, rerun stability, LA/DST week boundaries, missed weeks, strict schemas, isolated checkpoints, deployment timestamps, complete weekly inclusion.
+- Twelve TypeScript unit checks: normalized identifier deduplication, rerun stability, LA/DST week boundaries, missed weeks, strict schemas, isolated checkpoints, deployment timestamps, complete weekly inclusion, and safe cloud-audit paths.
 - Two Python checks: safe import paths/incomplete snapshot rejection and stable content hashes/deployment-state preservation.
 - TypeScript diagnostics: zero errors/warnings. Build and 193 local subpath links/assets passed.
 - All eight browser tests passed against the signed-out PUBLIC site, including print invocation, filenames, native/copy sharing, all three digest articles, filtering and mobile navigation.
@@ -32,10 +32,19 @@ Verified October 26, 2026. The website and private database publishing bridge ar
 - Actions uses a repeatable-read snapshot, strict validation, serialized publication and stale-Git protection. Unchanged scheduled checks skip the site build. A 15-minute polling schedule is configured; platform delays are possible.
 - The hosted Clinical test independently inserted and read probe:hosted-2026-10-26 revision 1. Actions acknowledged that exact revision and snapshot 46a3ae2107fd1aa59395dec69bdc5b28184c91ebcd99b7361ed875fac608100b in the successful deployment above.
 
-## Scheduled editorial gate
+## Hosted scheduling and activation
 
-A real one-time Clinical cloud schedule was created for October 26 at 6:15 PM America/Los_Angeles: automation 6adff969411c819089b5520d659556a3. It generated chat https://chatgpt.com/c/6adffb86-b2d0-8333-8794-b86f3eb362e8 and reached a Supabase INSERT for the correct project and probe:scheduled-2026-10-26. ChatGPT paused it at an explicit write-approval prompt. No scheduled probe has been inserted yet.
+The owner approved Allow Supabase for this conversation for the EM Weekly test and recurring editorial chats. Global app permissions and OAuth organization scopes were not broadened. Scheduler Advanced shows Same chat for every run, Pacific Time, GPT-6.1 Sol with Medium effort.
 
-The approval menu offers Allow Supabase for this conversation. The owner has been asked to approve this persistent, conversation-specific permission for the test and the two editorial chats. This approval is still pending. Do not change global app permissions or broaden OAuth organization scopes. After approval, complete a scheduler rerun without another prompt and verify its deployed revision before enabling normal daily/weekly operation.
+- The one-time 6:15 PM Clinical test completed after that approval: automation 6adff969411c819089b5520d659556a3, probe scheduled-2026-10-26 revision 1, https://chatgpt.com/c/6adffb86-b2d0-8333-8794-b86f3eb362e8.
+- Daily hosted setup runs wrote revisions 1 and 2 without another prompt. Its subsequent clock-driven test completed without operator approval at 01:50:47 UTC, revision 3: https://chatgpt.com/c/6ae0035f-7e54-8326-98c6-a163fc0b0db4.
+- The weekly recurring writer independently verified both primary sources and wrote/read its own probe at revision 2 without another prompt: https://chatgpt.com/c/6ae001ce-4128-8326-85c6-fcf080fe4039.
+- Actions https://github.com/samermetri/em-weekly/actions/runs/40435205845 successfully imported, validated, browser-tested and deployed those exact revisions. Acknowledged snapshot: 331da6b83cd324bb403b197cde6648fde9bd8f4564bd62c156d0a40dc75c0633. That acknowledgement was triggered by an authenticated setup push, not by the GitHub timer.
+- The strict database connection proof is saved in state/audits/cloud-connection-test.json. Supabase state cloudConnection is tested. config/schedule-control editorialEnabled was activated at 2026-10-27T01:56:00Z only after the deployed revision acknowledgement.
+- Daily task 6adfff3a47a48190b358587a5d3bad35 is active at 07:00 America/Los_Angeles. Weekly task 6ae0005e79308190a4ccccb115a35a8c is active Monday 08:00 America/Los_Angeles. Both were restored from temporary setup-test times and verified in the scheduler UI. Their prompts load the versioned daily/weekly instructions from the isolated database.
 
-Daily/weekly site-publishing schedules remain disabled in automation/schedules.json. Existing Clinical literature-brief and delivery-check schedules have been preserved. The complete versioned daily/weekly prompts are saved in automation/ and mirrored in Supabase configuration. Preferred cadence remains daily 07:00 and Monday 08:00 America/Los_Angeles. No local heartbeat, paid API, credits, or paid fallback is used.
+Existing Clinical literature-brief and delivery-check schedules were preserved. No local heartbeat, paid API, credits, or paid fallback is used. The first normal research run is still pending: connection probes do not certify current literature coverage, and lastSuccessfulResearchCheck remains null. Historical samples remain labeled.
+
+## Deployment timer observation
+
+GitHub's active default-branch workflow contains the offset 15-minute cron 11,26,41,56 * * * *. Push and dispatch runs have succeeded, including the exact scheduled-writer probe acknowledgement above. At the last setup check, no event=schedule run had yet appeared in GitHub's run history. Do not describe this as an observed timer-triggered deployment until one actually runs. GitHub may delay scheduled starts; no exact delivery-time guarantee is made. The private database retains content while waiting for publication, and editorial tasks check the acknowledgement rather than claiming a database save is live publication.

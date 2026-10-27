@@ -1,5 +1,5 @@
 {
-  "enabled": false,
+  "enabled": true,
   "timezone": "America/Los_Angeles",
   "daily": {
     "hour": 7,
@@ -9,7 +9,8 @@
     "automationId": "6adfff3a47a48190b358587a5d3bad35",
     "name": "EM Weekly daily research",
     "bootstrap": "automation/daily-schedule.md",
-    "newChatEachRun": false
+    "newChatEachRun": false,
+    "firstSuccessfulScheduledRun": "https://chatgpt.com/c/6ae0035f-7e54-8326-98c6-a163fc0b0db4"
   },
   "weekly": {
     "hour": 8,
@@ -21,7 +22,8 @@
     "automationId": "6ae0005e79308190a4ccccb115a35a8c",
     "name": "EM Weekly weekly brief",
     "bootstrap": "automation/weekly-schedule.md",
-    "newChatEachRun": false
+    "newChatEachRun": false,
+    "firstSuccessfulHostedRun": "https://chatgpt.com/c/6ae001ce-4128-8326-85c6-fcf080fe4039"
   },
   "enableOnlyAfter": "automation/cloud-smoke-test.md passes in the intended cloud environment",
   "runner": "ChatGPT cloud; no local heartbeat or API billing",
@@ -30,9 +32,17 @@
     "name": "EM Weekly scheduled connection test",
     "scheduledFor": "2026-10-26T18:15:00-07:00",
     "timezone": "America/Los_Angeles",
-    "status": "saved-permission-rerun",
+    "status": "passed",
     "probeId": "scheduled-2026-10-26",
     "chatId": "6adffb86-b2d0-8333-8794-b86f3eb362e8",
-    "reason": "Owner approved conversation-specific Supabase access. Both recurring writers passed hosted setup checks; final timed reruns are in progress."
+    "reason": "Owner approved saved Supabase access. Hosted recurring writers completed without another prompt; timed daily revision 3 and weekly revision 2 were acknowledged by the successful deployed snapshot.",
+    "audit": "state/audits/cloud-connection-test.json",
+    "workflowRunUrl": "https://github.com/samermetri/em-weekly/actions/runs/40435205845"
+  },
+  "activatedAt": "2026-10-27T01:56:00Z",
+  "deploymentPoll": {
+    "cron": "11,26,41,56 * * * *",
+    "status": "configured; first timer-triggered GitHub run not yet observed",
+    "lastVerifiedPushRun": "https://github.com/samermetri/em-weekly/actions/runs/40435205845"
   }
 }
