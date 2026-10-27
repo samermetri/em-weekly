@@ -2,6 +2,8 @@ name: Validate and deploy
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '*/15 * * * *'
   workflow_dispatch:
     inputs:
       failure_probe:
@@ -26,45 +28,100 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     env:
       ASTRO_TELEMETRY_DISABLED: '1'
+      DB_ENABLED: ${{ secrets.EM_WEEKLY_DATABASE_URL != '' }}
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
+      - uses: actions/setup-python@v5
+        if: env.DB_ENABLED == 'true'
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-db.txt
+      - name: Install database client
+        if: env.DB_ENABLED == 'true'
+        run: pip install -r requirements-db.txt
+      - name: Import consistent editorial snapshot
+        id: sync
+        if: env.DB_ENABLED == 'true'
+        env:
+          EM_WEEKLY_DATABASE_URL: ${{ secrets.EM_WEEKLY_DATABASE_URL }}
+        run: python3 scripts/sync-db.py pull
+      - name: Decide whether a build is needed
+        id: plan
+        env:
+          EVENT: ${{ github.event_name }}
+          CHANGED: ${{ steps.sync.outputs.changed }}
+        run: |
+          if [ "$EVENT" = 'schedule' ] && [ "$DB_ENABLED" != 'true' ]; then
+            echo 'Database connection is required for scheduled publishing.' >&2
+            exit 1
+          fi
+          if [ "$EVENT" != 'schedule' ] || [ "$CHANGED" = 'true' ]; then
+            echo 'build=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'build=false' >> "$GITHUB_OUTPUT"
+          fi
       - uses: pnpm/action-setup@v4
+        if: steps.plan.outputs.build == 'true'
         with:
           version: 11.25.0
       - uses: actions/setup-node@v4
+        if: steps.plan.outputs.build == 'true'
         with:
           node-version: '24'
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+        if: steps.plan.outputs.build == 'true'
       - name: Failure probe (no tracked source changes)
         if: inputs.failure_probe == true
         run: python3 -c "import json; p='content/articles/preoxi.json'; d=json.load(open(p)); d['sampleSize']=-1; open(p,'w').write(json.dumps(d))"
       - run: pnpm validate && pnpm test && pnpm check
+        if: steps.plan.outputs.build == 'true'
+      - run: python3 -m unittest discover -s tests -p '*_test.py'
+        if: steps.plan.outputs.build == 'true'
       - run: pnpm build && pnpm check:links
+        if: steps.plan.outputs.build == 'true'
       - run: google-chrome --version
+        if: steps.plan.outputs.build == 'true'
       - run: pnpm test:browser
+        if: steps.plan.outputs.build == 'true'
       - name: Refuse to deploy an obsolete snapshot
+        if: steps.plan.outputs.build == 'true'
         run: |
           git fetch origin main
           test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
       - uses: actions/configure-pages@v5
+        if: steps.plan.outputs.build == 'true'
       - uses: actions/upload-pages-artifact@v3
+        if: steps.plan.outputs.build == 'true'
         with:
           path: dist
       - uses: actions/deploy-pages@v4
+        if: steps.plan.outputs.build == 'true'
         id: deploy
       - name: Record successful deployment
+        if: steps.plan.outputs.build == 'true'
         env:
           PAGE_URL: ${{ steps.deploy.outputs.page_url }}
         run: |
           python3 scripts/record-deployment.py
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add content/issues state/publishing.json
+          git add content/articles content/issues state
           if ! git diff --cached --quiet; then
-            git commit -m 'state: record successful deployment [skip ci]'
+            git commit -m 'state: record editorial snapshot and successful deployment [skip ci]'
             git push origin HEAD:main
           fi
+      - name: Acknowledge deployed document revisions
+        if: steps.plan.outputs.build == 'true' && env.DB_ENABLED == 'true'
+        env:
+          EM_WEEKLY_DATABASE_URL: ${{ secrets.EM_WEEKLY_DATABASE_URL }}
+        run: python3 scripts/sync-db.py success
+      - name: Report failure while preserving last successful deployment
+        if: failure() && env.DB_ENABLED == 'true'
+        env:
+          EM_WEEKLY_DATABASE_URL: ${{ secrets.EM_WEEKLY_DATABASE_URL }}
+        run: python3 scripts/sync-db.py failed

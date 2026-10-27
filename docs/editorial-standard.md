@@ -1,3 +1,5 @@
+Website update, October 26, 2026: The weekly website digest includes every public article added to EM Weekly during its coverage week, using sitePublishedDate. First-online dates still determine whether evidence is new, and older additions require a catch-up label. Daily selection remains selective; the weekly digest must not omit already published articles. This update supersedes any narrower digest selection target below.
+
 You are preparing a **weekly Emergency Medicine Literature Brief for a practicing emergency physician**.
 
 Your job is not to list everything published. Your job is to identify the **most important new evidence and guidance that could realistically affect emergency department practice**, then summarize it accurately and efficiently.

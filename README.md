@@ -1,36 +1,31 @@
 # EM Weekly
 
-A public emergency medicine reading room with original, source-linked summaries and weekly literature briefs. Astro + TypeScript, static output, GitHub Pages. No login, server, paid AI API, purchased domain, or subscription beyond existing ChatGPT usage.
+Public emergency medicine article summaries and weekly briefs. Astro + TypeScript, JSON content, GitHub Pages. No reader login or paid AI API.
 
 - Website: https://samermetri.github.io/em-weekly/
 - Repository: https://github.com/samermetri/em-weekly
-- Editorial requirements: [docs/editorial-standard.md](docs/editorial-standard.md)
-- Publishing, secrets, corrections and rollback: [docs/publishing.md](docs/publishing.md)
-- Current acceptance evidence and blockers: [docs/acceptance.md](docs/acceptance.md)
+- Editorial standard: [docs/editorial-standard.md](docs/editorial-standard.md)
+- Architecture, printing, secrets and recovery: [docs/publishing.md](docs/publishing.md)
+- Verified evidence and outstanding gates: [docs/acceptance.md](docs/acceptance.md)
 
 ## Local development
 
-Install Node 24 and pnpm 11.25.0. Run `pnpm install --frozen-lockfile`, then `pnpm dev`. To test the deployed repository subpath use `GITHUB_REPOSITORY=samermetri/em-weekly pnpm build` and the same environment for `pnpm preview`. A root deployment can set BASE_PATH=/ and SITE_URL=https://your-host. Self-hosted Manrope and DM Sans font assets ship with the site.
+Node 24, pnpm 11.25.0: `pnpm install --frozen-lockfile`, then `pnpm dev`. Use `GITHUB_REPOSITORY=samermetri/em-weekly pnpm build` and the same environment for `pnpm preview` to test the production subpath.
 
-Checks: `pnpm validate`, `pnpm test`, `pnpm check`, `pnpm build`, `pnpm check:links`. Browser checks: `pnpm exec playwright install chromium` then `GITHUB_REPOSITORY=samermetri/em-weekly pnpm test:browser`. Weekly briefs and articles are JSON records. The weekly page offers Print / Save as PDF using local browser printing and print CSS. No weekly PDF assets are generated or stored.
+Checks: `pnpm validate`, `pnpm test`, `pnpm check`, `pnpm build`, `pnpm check:links`, `pnpm test:browser`. Browser tests require Playwright Chromium locally; CI uses preinstalled Google Chrome. Self-hosted DM Sans and Manrope fonts are bundled.
 
+Weekly digests include every public article added during the coverage week. Article summaries and issues offer browser Print / Save as PDF with local CSS and descriptive suggested filenames. No PDF assets are generated or stored. Share uses the device share sheet or copies the permanent article URL.
 
-## GitHub Pages setup
+## Hosted editorial publishing
 
-Use a PUBLIC GitHub repository, standard Ubuntu Actions runners, and GitHub Pages → Build and deployment → Source: GitHub Actions. Push main. The publish workflow validates JSON, builds, tests, uploads a Pages artifact and deploys. Built-in GITHUB_TOKEN permissions are contents:write, pages:write and id-token:write for this workflow only. No paid service or custom secret is required for this part. See publishing.md for GITHUB_TOKEN recursion restrictions and failure recovery.
+The Clinical ChatGPT account saves original JSON through its separate EM Weekly Supabase connection. Free organization EM Weekly, project vbzmghfxaorxlvoebgbj. The private em_weekly schema holds editorial JSON, instructions/checkpoints, and publication acknowledgements. GitHub Actions polls for changes, validates/builds the static site, and records the exact deployed document revisions. The public browser never connects to the database.
 
-## Cloud editorial setup
+Read docs/publishing.md and automation/cloud-smoke-test.md before activation. Included cloud usage and a supported hosted scheduler are required; a desktop automation does not satisfy computer-off operation. Daily research is intended for 07:00 and the weekly digest Monday 08:00 America/Los_Angeles. Check automation/schedules.json for actual activation evidence rather than assuming these schedules are enabled.
 
-First configure a supported hosted ChatGPT/Codex environment with this GitHub repository and a repository-limited write connection. Enable web access to approved source domains and GitHub Actions status/dispatch access. Test `automation/cloud-smoke-test.md` in that environment while the desktop is disconnected. This is separate from the verified GitHub Actions pipeline. Do not enable recurring editorial schedules before the test passes.
+The builder requires Python 3.12, requirements-db.txt, and the repository secret EM_WEEKLY_DATABASE_URL for its limited database role. db/schema.sql documents the bootstrap schema; do not apply it twice. db/supabase-ca.crt is Supabase's public CA certificate, downloaded from the dashboard. Never commit private credentials.
 
-In ChatGPT's Scheduled view (or a chat with a supported Cloud environment): create a new scheduled task, choose the configured CLOUD environment, paste automation/daily.md as its instructions and set daily 07:00, timezone America/Los_Angeles. Create a second task with automation/weekly.md, Monday 08:00, same timezone/environment. Review the scheduler's timezone and next-fire time across DST. Record the two schedule IDs and first hosted run evidence in automation/schedules.json. If the account UI does not expose a hosted repo-capable environment or the connection cannot push/dispatch, leave schedules disabled and resolve that exact access gap. A desktop Codex automation cannot satisfy computer-off operation.
+## Sources and samples
 
-The prompts are complete and version-controlled; cadence is separate in automation/schedules.json. The linked setup may differ by account, so verify the actual controls rather than assuming availability. Official guidance: https://learn.chatgpt.com/docs/automations and https://developers.openai.com/training/walkthroughs/scheduled-tasks.
+config/sources.json contains verified PubMed groups and separate official society checks. `python3 scripts/verify-sources.py` records access outcomes; `pnpm discover` queues metadata with overlap and does not claim completed research. Primary material must be retrieved before summarizing. Every record distinguishes source availability, material reviewed, and human review.
 
-## Adding sources
-
-Edit config/sources.json in a reviewed setup change. PubMed groups use verified esearch URLs and journal queries; check docs/source-verification.json for live probe results. `python3 scripts/verify-sources.py` rechecks query translation and URLs and records errors. Sources requiring a browser/challenge are not assumed verified by HTTP status alone. No RSS/feed URL is fabricated: society pages are explicit manual/cloud web checks. Add official domains only, document reuse/access restrictions, verify first-online date fields, then update the separate guideline and final-cross-check lists. Respect NCBI request limits. `pnpm discover` queues metadata with overlap; it does not write summaries or claim full research success.
-
-## Editorial format
-
-Typical issue: 3–6 strong studies plus all important new guidelines, fewer when appropriate. Separate guideline search is mandatory. Use first-online dates and avoid repeated coverage. Major missed items receive a catch-up label once. Each item includes Summary, Why it matters, Limitations, Source and Full text, with AI/material-reviewed/human-review labels. Read the full editorial standard before selecting. The initial historical sample demonstrates format and is excluded from current weekly selection.
+The initial articles and two issues are clearly labeled historical samples. The October 26 format preview contains all three articles added that week, with their real 2023–2024 first-online dates. They are excluded from normal current evidence and automatic research backlogs.

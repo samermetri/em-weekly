@@ -13,7 +13,7 @@ The additional editorial standard is preserved in docs/editorial-standard.md and
 - Three real primary-source-linked historical sample articles: PREOXI, DEVICE and CLOVERS. Not represented as current evidence.
 - One historical sample weekly issue (June 10-16, 2024) contains PREOXI, whose first-online date falls within that week. The record was created October 26, 2026 and is explicitly marked sample.
 - Browser-generated print sample visually inspected: one page, selectable text and clickable citations. Production stores JSON and HTML; generated weekly PDF assets are no longer part of publishing.
-- 10 deduplication/schema/DST/missed-week/rerun/checkpoint/deployment-state tests passed.
+- 11 deduplication/schema/DST/missed-week/rerun/checkpoint/deployment-state tests passed.
 - TypeScript check completed with zero errors/warnings before final deployment verification; CI repeats it on every publication.
 - Static build and 172 repository-subpath local links/assets passed.
 - PubMed's four configured queries verified via its live API. Official-source URL access evidence is in docs/source-verification.json; access failures are retained, not labeled successful research.
@@ -39,3 +39,9 @@ End-to-end editorial publication remains NOT CLOUD-TESTED. A hosted Clinical Cha
 A second hosted Clinical probe successfully used the Supabase connector for list_organizations, list_projects, and SELECT 1. It exposed SQL write capabilities, but no write or scheduled run has been tested yet. The user requested a separate EM Weekly organization and a free project. Provisioning and the database-to-Actions connection are pending; do not label them working.
 
 Recurring site-publishing schedules remain disabled in automation/schedules.json. Existing Clinical literature-brief/delivery schedules have not been changed. Repository-based prompts describe the original route and are not active. They must be adapted and tested against the database route before activation. No paid API or local heartbeat substitute.
+
+## October 26 website and database update
+
+The browser-print update deployed successfully: https://github.com/samermetri/em-weekly/actions/runs/40399694826. New local changes open primary-source links in a new tab, compact the AI label into date metadata, remove promotional copy and the Why it matters banner, add per-article print/share actions with descriptive suggested filenames, and include all in-week site articles in the digest. Three sample articles each rendered to one readable page. The complete three-article sample digest rendered to two pages without split article entries or an orphan page. Eight browser checks, eleven TypeScript unit checks, two Python importer checks, and TypeScript diagnostics passed during this update.
+
+Created the separate EM Weekly organization dbvujtddkrjjrfnccsum and project vbzmghfxaorxlvoebgbj after a $0/month quote. Its separate Clinical connector is named EM Weekly. Initialized private schema em_weekly and seeded article/issue/state/config JSON. The limited builder login passed CA/hostname verification; permissions confirmed no article UPDATE and no anonymous schema access. Supabase security advisor returned no lints. The unique builder credential is encrypted as EM_WEEKLY_DATABASE_URL in the repository's Actions secrets. No private credential is committed. Hosted write, Actions import/deploy acknowledgement, and actual scheduled connector access still require verification; do not infer them from these setup checks.

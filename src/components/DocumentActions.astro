@@ -1,0 +1,32 @@
+---
+import Icon from './Icon.astro';
+const {title,printTitle,shareUrl=new URL(Astro.url.pathname,Astro.site).href}=Astro.props;
+---
+<div class="document-actions" data-document-title={title} data-print-title={printTitle} data-share-url={shareUrl}>
+  <button class="btn primary print-button" type="button"><Icon name="download" size={16}/> Print / Save as PDF</button>
+  <button class="btn share-button" type="button"><Icon name="share" size={16}/> Share</button>
+  <span class="share-status" role="status" aria-live="polite"></span>
+  <label class="share-fallback" hidden>Copy article link <input type="text" readonly value={shareUrl}/></label>
+</div>
+<script>
+const actions=document.querySelector<HTMLElement>('.document-actions');
+if(actions){
+ const originalTitle=document.title;
+ function printDocument(){document.fonts.ready.then(()=>{document.title=actions!.dataset.printTitle||originalTitle;requestAnimationFrame(()=>window.print());});}
+ window.addEventListener('afterprint',()=>{document.title=originalTitle;});
+ actions.querySelector('.print-button')?.addEventListener('click',printDocument);
+ if(new URLSearchParams(location.search).get('print')==='1'){history.replaceState(null,'',location.pathname);printDocument();}
+ actions.querySelector('.share-button')?.addEventListener('click',async()=>{
+  const url=actions.dataset.shareUrl!;const title=actions.dataset.documentTitle!;
+  const status=actions.querySelector<HTMLElement>('.share-status')!;
+  try{
+   if(navigator.share){await navigator.share({title,url});return;}
+   await navigator.clipboard.writeText(url);status.textContent='Link copied';
+  }catch(error){
+   if(error instanceof DOMException&&error.name==='AbortError')return;
+   const fallback=actions.querySelector<HTMLElement>('.share-fallback')!;fallback.hidden=false;
+   const field=fallback.querySelector('input')!;field.focus();field.select();status.textContent='Copy the link below';
+  }
+ });
+}
+</script>

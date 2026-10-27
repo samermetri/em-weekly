@@ -9,5 +9,15 @@
     3,
     6
   ],
-  "additionalMajorGuidelines": true
+  "additionalMajorGuidelines": true,
+  "weeklyCoverageBasis": "sitePublishedDate",
+  "coverageStart": "2026-10-26",
+  "supabase": {
+    "organization": "EM Weekly",
+    "organizationId": "dbvujtddkrjjrfnccsum",
+    "project": "EM Weekly",
+    "projectRef": "vbzmghfxaorxlvoebgbj",
+    "schema": "em_weekly",
+    "connection": "EM Weekly"
+  }
 }

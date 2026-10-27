@@ -10,3 +10,14 @@ export function missingWeeks(start:string,instant:Date,completed:string[]){const
 export function upsertQueue<T extends {pmid?:string|null;doi?:string|null;canonicalUrl?:string}>(queue:T[],incoming:T[],published:{pmid?:string|null;doi?:string|null;canonicalUrl?:string}[]){const out=[...queue];for(const a of incoming){if(duplicate(a,published))continue;const old=duplicate(a,out);if(old)Object.assign(old,a);else out.push(a);}return out;}
 
 export function sourceCheckpoint(prior:Record<string,unknown>,result:{ok:true;through:string;at:string;count:number}|{ok:false;at:string;error:string}):Record<string,unknown>{return result.ok?{...prior,successfulThrough:result.through,lastSuccessfulAt:result.at,lastError:null,resultCount:result.count}:{...prior,lastAttemptAt:result.at,lastError:result.error};}
+
+// An issue includes every public article added to the site during its coverage week.
+// Explicit items retain editorial section choices and allow labeled catch-up additions.
+export function weeklyItems(issue:{coverageStart:string;coverageEnd:string;sample:boolean;items:{articleId:string;section:Article['section'];catchUp:boolean}[]},records:Article[]){
+ const items=[...issue.items];
+ for(const a of records){
+  if(a.status!=='published'||a.excluded||a.sample!==issue.sample||a.sitePublishedDate<issue.coverageStart||a.sitePublishedDate>issue.coverageEnd)continue;
+  if(!items.some(item=>item.articleId===a.id))items.push({articleId:a.id,section:a.section,catchUp:!issue.sample&&a.firstOnlineDate<issue.coverageStart});
+ }
+ return items;
+}

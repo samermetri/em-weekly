@@ -1,0 +1,33 @@
+{
+  "id": "2026-10-26",
+  "items": [
+    {
+      "catchUp": false,
+      "section": "Practice-Changing / High Priority",
+      "articleId": "clovers"
+    },
+    {
+      "catchUp": false,
+      "section": "Practice-Changing / High Priority",
+      "articleId": "device"
+    },
+    {
+      "catchUp": false,
+      "section": "Practice-Changing / High Priority",
+      "articleId": "preoxi"
+    }
+  ],
+  "title": "EM Weekly - October 26, 2026",
+  "sample": true,
+  "overview": "Sample weekly digest containing all three historical articles added to EM Weekly this week. These studies are from 2023–2024; this is a format preview, not a current literature review.",
+  "coverageEnd": "2026-11-01",
+  "searchAudit": null,
+  "otherUpdates": [],
+  "coverageStart": "2026-10-26",
+  "publishedDate": "2026-10-26",
+  "clinicalTakeaways": [
+    "PREOXI: NIV preoxygenation reduced peri-intubation hypoxemia compared with an oxygen mask in selected critically ill adults.",
+    "DEVICE: Video laryngoscopy increased first-attempt success in critically ill adults; operator experience and setting affect applicability.",
+    "CLOVERS: A restrictive fluid strategy with earlier vasopressors did not significantly reduce mortality compared with liberal fluids in sepsis-induced hypotension."
+  ]
+}

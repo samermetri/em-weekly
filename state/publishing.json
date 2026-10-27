@@ -14,6 +14,6 @@
   ],
   "cloudConnection": {
     "status": "not-tested",
-    "reason": "Local Keychain GitHub write verified. Intended cloud scheduler repository write and dispatch not yet tested."
+    "reason": "Hosted Clinical Supabase read/write verified in the isolated EM Weekly project. Actions acknowledgement and actual scheduled connector access are pending."
   }
 }
