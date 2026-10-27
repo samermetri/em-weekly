@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-test('overview and subpath navigation work for a signed-out reader',async({page})=>{await page.goto('./');await expect(page.getByRole('heading',{name:'Emergency medicine literature'})).toBeVisible();await page.getByRole('link',{name:'Explore the literature'}).click();await expect(page).toHaveURL(/\/em-weekly\/articles\//);});
+test('overview and subpath navigation work for a signed-out reader',async({page})=>{await page.goto('./');await expect(page.getByRole('heading',{name:'Emergency medicine literature'})).toBeVisible();await page.getByRole('link',{name:'Explore the literature'}).click();await expect(page).toHaveURL(/\/articles\//);});
 test('search, topic, online-date filters and empty reset',async({page})=>{await page.goto('articles/');await page.getByRole('searchbox').fill('PREOXI');await expect(page.locator('.search-result:visible')).toHaveCount(1);await page.getByRole('button',{name:'Reset',exact:true}).click();await page.getByLabel('Topic',{exact:true}).selectOption('resuscitation');expect(await page.locator('.search-result:visible').evaluateAll(rows=>rows.every(row=>(row as HTMLElement).dataset.topics?.split(',').includes('resuscitation')))).toBe(true);await page.getByLabel('First online, from').fill('2100-01-01');await expect(page.getByRole('heading',{name:'No matching articles'})).toBeVisible();await page.getByRole('button',{name:'Clear filters'}).click();await expect(page.locator('.search-result:visible')).not.toHaveCount(0);});
 test('topic shortcut preserves selected topic',async({page})=>{await page.goto('articles/?topic=cardiology');await expect(page.getByLabel('Topic',{exact:true})).toHaveValue('cardiology');expect(await page.locator('.search-result:visible').evaluateAll(rows=>rows.every(row=>(row as HTMLElement).dataset.topics?.split(',').includes('cardiology')))).toBe(true);});
 test('mobile navigation and content fit the screen',async({page})=>{await page.setViewportSize({width:390,height:844});await page.goto('./');await page.getByRole('button',{name:'Toggle navigation'}).click();await page.getByRole('link',{name:'Sources & Methods'}).click();await expect(page.getByRole('heading',{name:'Sources & methods'})).toBeVisible();const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth);expect(overflow).toBe(false);});
@@ -16,11 +16,11 @@ test('article links, compact review metadata, print filename and native sharing'
  await page.getByRole('button',{name:'Print / Save as PDF',exact:true}).click();
  await expect.poll(()=>page.evaluate(()=>(window as any).__printedTitle)).toBe('EM Weekly - PREOXI - 2024-06-13');
  await page.getByRole('button',{name:'Share',exact:true}).click();
- await expect.poll(()=>page.evaluate(()=>(window as any).__shared?.url)).toBe('https://samermetri.github.io/em-weekly/articles/preoxi/');
+ await expect.poll(()=>page.evaluate(()=>(window as any).__shared?.url)).toBe('https://emweekly.samermetri.com/articles/preoxi/');
 });
 test('sharing copies a clean link when native sharing is unavailable',async({page})=>{
  await page.addInitScript(()=>{Object.defineProperty(navigator,'share',{value:undefined,configurable:true});Object.defineProperty(navigator,'clipboard',{value:{writeText:async(value:string)=>{(window as any).__copied=value;}},configurable:true});});
- await page.goto('articles/device/');await page.getByRole('button',{name:'Share',exact:true}).click();await expect(page.getByRole('status')).toHaveText('Link copied');await expect.poll(()=>page.evaluate(()=>(window as any).__copied)).toBe('https://samermetri.github.io/em-weekly/articles/device/');
+ await page.goto('articles/device/');await page.getByRole('button',{name:'Share',exact:true}).click();await expect(page.getByRole('status')).toHaveText('Link copied');await expect.poll(()=>page.evaluate(()=>(window as any).__copied)).toBe('https://emweekly.samermetri.com/articles/device/');
 });
 test('weekly preview includes all three articles and uses a dated print filename',async({page})=>{
  await page.addInitScript(()=>{window.print=()=>{(window as any).__printedTitle=document.title;};});
