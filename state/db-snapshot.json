@@ -15,5 +15,6 @@
     "probe:scheduled-2026-10-26": 1,
     "probe:weekly-connection-2026-10-26": 2,
     "state:publishing": 4
-  }
+  },
+  "revisionFingerprint": "7260d0a1cb9ddd85c5bf60537b41e495"
 }
