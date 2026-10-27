@@ -8,9 +8,10 @@
     "prompt": "automation/daily.md",
     "automationId": "6adfff3a47a48190b358587a5d3bad35",
     "name": "EM Weekly daily research",
-    "bootstrap": "automation/daily-schedule.md",
     "newChatEachRun": false,
-    "firstSuccessfulScheduledRun": "https://chatgpt.com/c/6ae0035f-7e54-8326-98c6-a163fc0b0db4"
+    "firstSuccessfulScheduledRun": "https://chatgpt.com/c/6ae0035f-7e54-8326-98c6-a163fc0b0db4",
+    "instructionsFile": "automation/daily-schedule.md",
+    "instructionDelivery": "Complete operational workflow and owner editorial requirements saved directly in task; database supplies reference data only"
   },
   "weekly": {
     "hour": 8,
@@ -21,9 +22,10 @@
     "prompt": "automation/weekly.md",
     "automationId": "6ae0005e79308190a4ccccb115a35a8c",
     "name": "EM Weekly weekly brief",
-    "bootstrap": "automation/weekly-schedule.md",
     "newChatEachRun": false,
-    "firstSuccessfulHostedRun": "https://chatgpt.com/c/6ae001ce-4128-8326-85c6-fcf080fe4039"
+    "firstSuccessfulHostedRun": "https://chatgpt.com/c/6ae001ce-4128-8326-85c6-fcf080fe4039",
+    "instructionsFile": "automation/weekly-schedule.md",
+    "instructionDelivery": "Complete operational workflow and owner editorial requirements saved directly in task; database supplies reference data only"
   },
   "enableOnlyAfter": "automation/cloud-smoke-test.md passes in the intended cloud environment",
   "runner": "ChatGPT cloud; no local heartbeat or API billing",
