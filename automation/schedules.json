@@ -5,7 +5,11 @@
     "hour": 7,
     "minute": 0,
     "days": "daily",
-    "prompt": "automation/daily.md"
+    "prompt": "automation/daily.md",
+    "automationId": "6adfff3a47a48190b358587a5d3bad35",
+    "name": "EM Weekly daily research",
+    "bootstrap": "automation/daily-schedule.md",
+    "newChatEachRun": false
   },
   "weekly": {
     "hour": 8,
@@ -13,7 +17,11 @@
     "days": [
       "Monday"
     ],
-    "prompt": "automation/weekly.md"
+    "prompt": "automation/weekly.md",
+    "automationId": "6ae0005e79308190a4ccccb115a35a8c",
+    "name": "EM Weekly weekly brief",
+    "bootstrap": "automation/weekly-schedule.md",
+    "newChatEachRun": false
   },
   "enableOnlyAfter": "automation/cloud-smoke-test.md passes in the intended cloud environment",
   "runner": "ChatGPT cloud; no local heartbeat or API billing",
@@ -22,9 +30,9 @@
     "name": "EM Weekly scheduled connection test",
     "scheduledFor": "2026-10-26T18:15:00-07:00",
     "timezone": "America/Los_Angeles",
-    "status": "approval-required",
+    "status": "saved-permission-rerun",
     "probeId": "scheduled-2026-10-26",
     "chatId": "6adffb86-b2d0-8333-8794-b86f3eb362e8",
-    "reason": "Timed Clinical run reached the correct Supabase INSERT and paused for write approval. Conversation-specific persistent access requires owner confirmation."
+    "reason": "Owner approved conversation-specific Supabase access. Both recurring writers passed hosted setup checks; final timed reruns are in progress."
   }
 }
