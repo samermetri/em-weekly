@@ -1,0 +1,62 @@
+{
+  "id": "aha-systemic-stroke-complications-2024",
+  "doi": "10.1161/STR.0000000000000477",
+  "pmid": "39633600",
+  "title": "Addressing Systemic Complications of Acute Stroke: A Scientific Statement From the American Heart Association",
+  "pinned": false,
+  "sample": false,
+  "source": "Stroke / American Heart Association",
+  "status": "published",
+  "topics": [
+    "neurology",
+    "guidelines"
+  ],
+  "authors": [
+    "Sandeep Kumar",
+    "Sherry H-Y Chou",
+    "Craig J Smith",
+    "Anusha Nallaparaju",
+    "Osvaldo Jose Laurido-Soto",
+    "Anne D Leonard",
+    "Ajay K Singla",
+    "Ann Leonhardt-Caprio",
+    "Daniel Joseph Stein"
+  ],
+  "ranking": {
+    "design": 2,
+    "novelty": 3,
+    "edImpact": 3,
+    "guidelineRelevance": 4
+  },
+  "section": "Guidelines & Statements",
+  "summary": "This AHA scientific statement synthesizes evidence on systemic, nonneurological complications after ischemic and hemorrhagic stroke, including fever, infection, respiratory, gastrointestinal, renal, and urinary problems. It emphasizes that early systemic complications contribute to mortality and disability, supports organized stroke-unit and multidisciplinary care, and highlights protocol-based management of fever, hyperglycemia, and dysphagia. The statement also stresses that many prevention and treatment questions lack well-conducted randomized trials.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Systemic nonneurological complications after ischemic and hemorrhagic stroke are common, span multiple organ systems, and contribute to early mortality and long-term disability.",
+    "Organized stroke-unit care with protocol-based management is associated with better outcomes; the AHA summary highlights the QASC approach targeting fever, hyperglycemia, and dysphagia.",
+    "There is a marked lack of well-conducted randomized trials for prevention and treatment of many systemic post-stroke complications, supporting multidisciplinary surveillance while limiting certainty around specific interventions."
+  ],
+  "studyType": "Consensus statement",
+  "comparator": "Fragmented or routine nonprotocolized care as discussed in the supporting literature; the scientific statement itself is not a comparative trial.",
+  "population": "Patients with ischemic or hemorrhagic stroke who develop or are at risk for systemic complications during hospitalization.",
+  "sampleSize": null,
+  "shortTitle": "AHA systemic complications of acute stroke",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "This is an AHA scientific statement rather than a randomized trial or a single formally graded clinical-practice guideline. Much of the evidence on individual systemic complications is fragmented or based on expert interpretation, and many recommendations apply primarily to inpatient stroke-unit care rather than the ED.",
+  "retrievedAt": "2026-10-27",
+  "canonicalUrl": "https://professional.heart.org/en/science-news/addressing-systemic-complications-of-acute-stroke",
+  "intervention": "Organized, protocol-based, multidisciplinary prevention, recognition, and management of systemic complications after acute stroke, including fever, hyperglycemia, dysphagia, infection, respiratory, gastrointestinal, renal, and urinary problems.",
+  "whyItMatters": "Acute stroke patients may spend substantial time in the ED before definitive stroke-unit placement. Early recognition of aspiration/dysphagia, fever or infection, glycemic problems, respiratory compromise, and other systemic complications—and a structured handoff to multidisciplinary stroke care—can reduce avoidable downstream harm even though this statement does not establish a new single ED drug or imaging threshold.",
+  "evidenceNotes": "Historical backfill. PubMed abstract and the official American Heart Association Professional Heart Daily summary were reviewed. PubMed and AHA both verify first-online publication on 2024-12-05; DOI 10.1161/STR.0000000000000477 and PMID 39633600 were cross-checked. An official publisher PDF is available, but it was not reviewed end-to-end in this run, so reviewedMaterial remains official society summary. A targeted correction/retraction search did not surface a correction or retraction. This record is historical; later applicable stroke guidelines should govern current disease-specific acute-treatment recommendations.",
+  "discoveredDate": "2026-10-27",
+  "fullTextStatus": "Official PDF available",
+  "officialPdfUrl": "https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000477",
+  "firstOnlineDate": "2024-12-05",
+  "primaryEndpoint": "Evidence synthesis and clinical suggestions for prevention, recognition, and management of systemic complications after acute stroke; there is no trial primary endpoint.",
+  "reviewedMaterial": "official society summary",
+  "guidelineStrength": "American Heart Association scientific statement synthesizing existing literature, prior guidelines, and expert opinion; it is not a single uniformly GRADE-rated recommendation set.",
+  "sitePublishedDate": "2026-10-27"
+}

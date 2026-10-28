@@ -1,0 +1,59 @@
+{
+  "id": "embolise-mmae-subdural-2024",
+  "doi": "10.1056/NEJMoa2313472",
+  "pmid": "39565988",
+  "title": "Adjunctive Middle Meningeal Artery Embolization for Subdural Hematoma",
+  "pinned": false,
+  "sample": false,
+  "source": "New England Journal of Medicine",
+  "status": "published",
+  "topics": [
+    "trauma",
+    "neurology"
+  ],
+  "authors": [
+    "Jason M Davies",
+    "Jared Knopman",
+    "Maxim Mokin",
+    "Ameer E Hassan",
+    "Adnan H Siddiqui",
+    "EMBOLISE Investigators"
+  ],
+  "ranking": {
+    "design": 5,
+    "novelty": 4,
+    "edImpact": 4,
+    "guidelineRelevance": 3
+  },
+  "section": "Practice-Changing / High Priority",
+  "summary": "EMBOLISE was a prospective multicenter randomized trial of 400 patients with symptomatic subacute or chronic subdural hematoma requiring surgical evacuation. Adjunctive middle meningeal artery embolization reduced hematoma recurrence or progression leading to repeat surgery within 90 days from 11.3% with surgery alone to 4.1% (RR 0.36, 95% CI 0.11-0.80; P=0.008). Neurologic functional deterioration was 11.9% versus 9.8%; 90-day mortality was 5.1% versus 3.0%.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Repeat surgery for hematoma recurrence or progression occurred in 4.1% with embolization plus surgery versus 11.3% with surgery alone (RR 0.36, 95% CI 0.11-0.80; P=0.008).",
+    "Neurologic functional deterioration at 90 days was 11.9% versus 9.8% (risk difference 2.1 percentage points, 95% CI -4.8 to 8.9).",
+    "Ninety-day mortality was 5.1% versus 3.0%.",
+    "Serious embolization-related adverse events occurred in 2.0%, including two disabling strokes."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "Surgical evacuation alone.",
+  "population": "Adults with symptomatic subacute or chronic subdural hematoma with an indication for surgical evacuation.",
+  "sampleSize": 400,
+  "shortTitle": "EMBOLISE: adjunctive MMA embolization for subdural hematoma",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Surgery occurred before randomization in 34% of participants. Serious embolization-related adverse events occurred in 2.0%, including two disabling strokes, and the trial was funded by Medtronic; later MMA embolization trials produced heterogeneous efficacy results, so patient selection remains important.",
+  "retrievedAt": "2026-10-27",
+  "canonicalUrl": "https://www.nejm.org/doi/full/10.1056/NEJMoa2313472",
+  "intervention": "Middle meningeal artery embolization plus surgical evacuation.",
+  "whyItMatters": "For ED patients with symptomatic nonacute subdural hematoma who are admitted for neurosurgical evacuation, this trial supports discussing adjunctive MMA embolization with neurosurgery or neurointerventional teams as a strategy to reduce repeat surgery. It does not make embolization an ED procedure or establish benefit for every chronic subdural hematoma phenotype.",
+  "evidenceNotes": "NEJM publisher metadata verifies publication online on 2024-11-20; PubMed verifies DOI 10.1056/NEJMoa2313472 and PMID 39565988. The publisher abstract and PubMed abstract were reviewed; the full article was not reviewed end-to-end. Subsequent randomized MMA embolization evidence was heterogeneous, including MAGIC-MT, and later society guidance supports selected use while patient selection remains debated. No retraction was identified in the targeted cross-check.",
+  "discoveredDate": "2026-10-27",
+  "fullTextStatus": "Abstract available; full text paywalled",
+  "firstOnlineDate": "2024-11-20",
+  "primaryEndpoint": "Hematoma recurrence or progression leading to repeat surgery within 90 days after index treatment.",
+  "reviewedMaterial": "abstract",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-10-27"
+}

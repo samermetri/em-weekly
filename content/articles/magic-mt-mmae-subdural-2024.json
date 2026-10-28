@@ -1,0 +1,59 @@
+{
+  "id": "magic-mt-mmae-subdural-2024",
+  "doi": "10.1056/NEJMoa2401201",
+  "pmid": "39565989",
+  "title": "Middle Meningeal Artery Embolization for Nonacute Subdural Hematoma",
+  "pinned": false,
+  "sample": false,
+  "source": "New England Journal of Medicine",
+  "status": "published",
+  "topics": [
+    "trauma",
+    "neurology"
+  ],
+  "authors": [
+    "Jianmin Liu",
+    "Wei Ni",
+    "Qiao Zuo",
+    "Heng Yang",
+    "Ying Mao",
+    "MAGIC-MT Investigators"
+  ],
+  "ranking": {
+    "design": 5,
+    "novelty": 4,
+    "edImpact": 4,
+    "guidelineRelevance": 3
+  },
+  "section": "Practice-Changing / High Priority",
+  "summary": "MAGIC-MT randomized 722 patients in China with symptomatic nonacute subdural hematoma and mass effect to middle meningeal artery embolization or usual care after the treatment plan had been assigned to burr-hole drainage or nonsurgical management. The 90-day primary outcome of symptomatic recurrence or progression was 6.7% with embolization versus 9.9% with usual care (difference -3.3 percentage points, 95% CI -7.4 to 0.8; P=0.10), so the primary efficacy endpoint was not significantly improved. Serious adverse events were lower in the embolization group (6.7% vs 11.6%; P=0.02).",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Symptomatic recurrence or progression at 90 days was 6.7% with embolization versus 9.9% with usual care (difference -3.3 percentage points, 95% CI -7.4 to 0.8; P=0.10).",
+    "The primary efficacy endpoint therefore did not show a statistically significant benefit.",
+    "Serious adverse events occurred in 6.7% versus 11.6% (P=0.02), a secondary safety finding.",
+    "Burr-hole drainage was performed in 78.3% of participants and occurred after embolization in 99.6% of those undergoing drainage."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "Usual care with the preselected surgical or nonsurgical management strategy.",
+  "population": "Adults with symptomatic nonacute subdural hematoma producing mass effect; patients requiring craniotomy or emergency hematoma evacuation were excluded.",
+  "sampleSize": 722,
+  "shortTitle": "MAGIC-MT: MMA embolization for nonacute subdural hematoma",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "The primary efficacy endpoint was not statistically significant, and the lower serious-adverse-event rate was a secondary safety result. The trial was open-label, conducted in China, excluded patients requiring craniotomy or emergency evacuation, and 78.3% underwent burr-hole drainage, limiting generalization to other subdural populations.",
+  "retrievedAt": "2026-10-27",
+  "canonicalUrl": "https://www.nejm.org/doi/full/10.1056/NEJMoa2401201",
+  "intervention": "Middle meningeal artery embolization with liquid embolic material added to the preselected surgical or nonsurgical management strategy.",
+  "whyItMatters": "This large trial tempers a blanket assumption that MMA embolization improves all clinically important outcomes in nonacute subdural hematoma. ED disposition still centers on clinical status and neurosurgical evaluation; embolization is a downstream selected-patient strategy rather than a universal addition.",
+  "evidenceNotes": "NEJM publisher metadata verifies publication online on 2024-11-20; PubMed verifies DOI 10.1056/NEJMoa2401201 and PMID 39565989. The publisher abstract and PubMed abstract were reviewed; the full article was not reviewed end-to-end. This negative primary efficacy result is important context for the simultaneously published positive EMBOLISE and STEM trials and for later MMA embolization guidance. No retraction was identified in the targeted cross-check.",
+  "discoveredDate": "2026-10-27",
+  "fullTextStatus": "Abstract available; full text paywalled",
+  "firstOnlineDate": "2024-11-20",
+  "primaryEndpoint": "Symptomatic recurrence or progression of subdural hematoma within 90 days after randomization.",
+  "reviewedMaterial": "abstract",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-10-27"
+}

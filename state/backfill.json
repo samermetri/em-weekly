@@ -4,7 +4,7 @@
   "windows": [
     {
       "end": "2024-11-02",
-      "notes": "Partial: IVIO and PARAMEDIC-3 remain retained. The queued ACS/ACRM TBI guidance was resolved from the official 2024-10-28 ACS release, and the 2024-11-01 ACMT fentanyl-exposure statement was added with explicit qualification that 2025 ACMT/AACT guidance is newer. Exact configured PubMed searches failed earlier today, so comprehensive source coverage remains incomplete.",
+      "notes": "Partial: on 2026-10-28 LA the exact configured NCBI E-utilities searches and identical official PubMed HTML size=200 fallbacks for 2024-10-27 through 2024-11-02 were retried and remained inaccessible, so counts and pagination could not be established. IVIO, PARAMEDIC-3, the ACS/ACRM TBI update, and the ACMT fentanyl-exposure statement remain retained; targeted guideline discovery found no additional eligible high-priority record. Complete journal, guideline/manual, and final cross-check coverage remains incomplete.",
       "start": "2024-10-27",
       "status": "partial",
       "auditId": "backfill-2024-10-27",
@@ -17,47 +17,59 @@
     },
     {
       "end": "2024-11-09",
-      "notes": "Partial: exact configured NCBI E-utilities searches and official PubMed HTML fallbacks for 2024-11-03 through 2024-11-09 were inaccessible, so counts and pagination could not be established. Targeted primary-source discovery verified O’CAFÉ (publisher first-online 2024-11-06), but web discovery cannot substitute for complete configured-source coverage; required guideline/manual checks and final cross-check remain incomplete.",
+      "notes": "Partial: on 2026-10-28 LA the exact configured NCBI E-utilities searches and identical official PubMed HTML size=200 fallbacks for 2024-11-03 through 2024-11-09 were retried and remained inaccessible, so counts and pagination could not be established. Targeted primary-source review retains O’CAFÉ and newly verifies PREVACT (Epub 2024-11-06), but web discovery cannot substitute for complete configured-source coverage; guideline/manual checks and final cross-check remain incomplete.",
       "start": "2024-11-03",
       "status": "partial",
       "auditId": "backfill-2024-11-03",
       "articleIds": [
-        "ocafe-af-anticoagulation-2024"
+        "ocafe-af-anticoagulation-2024",
+        "prevact-pcc-mild-tbi-2024"
       ]
     },
     {
       "end": "2024-11-16",
-      "notes": "Not yet comprehensively searched.",
+      "notes": "Partial: exact configured NCBI E-utilities searches and identical PubMed HTML size=200 fallbacks for 2024-11-10 through 2024-11-16 were inaccessible, so counts and pagination could not be established. Targeted primary-source review verified the 2024 AHA/AAP drowning update, 2024 ILCOR CoSTR, AHA/Red Cross first-aid guideline, and the AHA Kawasaki scientific statement after reconciling its February and March 2025 publisher corrections. General web discovery does not complete configured source coverage, so guideline/manual checks and final cross-check remain incomplete.",
       "start": "2024-11-10",
-      "status": "pending",
-      "auditId": null,
-      "articleIds": []
+      "status": "partial",
+      "auditId": "backfill-2024-11-10",
+      "articleIds": [
+        "aha-aap-drowning-2024",
+        "ilcor-costr-2024",
+        "aha-red-cross-first-aid-2024",
+        "aha-kawasaki-update-2024"
+      ]
     },
     {
       "end": "2024-11-23",
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "notes": "Partial: exact configured NCBI E-utilities searches and identical official PubMed HTML size=200 fallbacks for 2024-11-17 through 2024-11-23 were inaccessible, so counts and pagination could not be established. Targeted primary-source review verified the already retained BALANCE trial plus EMBOLISE, MAGIC-MT, STEM, and PROTECT-MT. The three MMA embolization RCTs had heterogeneous efficacy results, and PROTECT-MT found worse 90-day functional outcome with balloon guide catheters. General web discovery cannot complete configured source coverage; guideline/manual checks and final cross-check remain incomplete.",
       "start": "2024-11-17",
       "status": "partial",
-      "auditId": "backfill-initial-2024-2025",
+      "auditId": "backfill-2024-11-17",
       "articleIds": [
-        "balance-bloodstream-antibiotics-2024"
+        "balance-bloodstream-antibiotics-2024",
+        "embolise-mmae-subdural-2024",
+        "magic-mt-mmae-subdural-2024",
+        "stem-mmae-subdural-2024",
+        "protect-mt-balloon-guide-stroke-2024"
       ]
     },
     {
       "end": "2024-11-30",
-      "notes": "Not yet comprehensively searched.",
+      "notes": "Partial: exact configured NCBI E-utilities searches and identical official PubMed HTML size=200 fallbacks for 2024-11-24 through 2024-11-30 were inaccessible, so counts and pagination could not be established. Targeted primary-source discovery found a 61-patient cerebral venous thrombectomy pilot RCT and an 87-patient retrospective pelvic-trauma imaging study, but neither met the selective practice-impact threshold. General web discovery cannot complete configured-source coverage; guideline/manual checks and final cross-check remain incomplete.",
       "start": "2024-11-24",
-      "status": "pending",
-      "auditId": null,
+      "status": "partial",
+      "auditId": "backfill-2024-11-24",
       "articleIds": []
     },
     {
       "end": "2024-12-07",
-      "notes": "Not yet comprehensively searched.",
+      "notes": "Partial: exact configured NCBI E-utilities searches and identical official PubMed HTML size=200 fallbacks for 2024-12-01 through 2024-12-07 were inaccessible, so counts and pagination could not be established. Targeted primary-source review verified the 2024-12-05 AHA scientific statement on systemic complications of acute stroke; OPTIMISE II was reviewed but excluded as elective perioperative evidence rather than core ED practice. General web discovery cannot complete configured-source coverage; guideline/manual checks and final cross-check remain incomplete.",
       "start": "2024-12-01",
-      "status": "pending",
-      "auditId": null,
-      "articleIds": []
+      "status": "partial",
+      "auditId": "backfill-2024-12-01",
+      "articleIds": [
+        "aha-systemic-stroke-complications-2024"
+      ]
     },
     {
       "end": "2024-12-14",
@@ -888,7 +900,7 @@
   ],
   "rangeEnd": "2026-10-26",
   "startedAt": "2026-10-27T20:58:44.597134+00:00",
-  "updatedAt": "2026-10-28T04:32:59.957Z",
+  "updatedAt": "2026-10-28T07:08:28.271Z",
   "rangeStart": "2024-10-27",
   "schemaVersion": 1,
   "candidateQueue": [

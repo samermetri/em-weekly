@@ -1,0 +1,211 @@
+{
+  "date": "2026-10-27",
+  "sources": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=%28%22Ann%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Acad%20Emerg%20Med%22%5BJournal%5D%20OR%20%22J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Am%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Emerg%20Med%20J%22%5BJournal%5D%20OR%20%22J%20Am%20Coll%20Emerg%20Physicians%20Open%22%5BJournal%5D%20OR%20%22West%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Resuscitation%22%5BJournal%5D%20OR%20%22Prehosp%20Emerg%20Care%22%5BJournal%5D%29%20AND%20%28%222024/11/17%22%5BEPDAT%5D%20%3A%20%222024/11/23%22%5BEPDAT%5D%29",
+      "notes": "Exact configured E-utilities search failed through the hosted route. The identical official PubMed HTML search with size=200 was also inaccessible: https://pubmed.ncbi.nlm.nih.gov/?size=200&term=%28%22Ann%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Acad%20Emerg%20Med%22%5BJournal%5D%20OR%20%22J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Am%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Emerg%20Med%20J%22%5BJournal%5D%20OR%20%22J%20Am%20Coll%20Emerg%20Physicians%20Open%22%5BJournal%5D%20OR%20%22West%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Resuscitation%22%5BJournal%5D%20OR%20%22Prehosp%20Emerg%20Care%22%5BJournal%5D%29%20AND%20%28%222024/11/17%22%5BEPDAT%5D%20%3A%20%222024/11/23%22%5BEPDAT%5D%29 . Count and page count are unavailable, so this source remains incomplete.",
+      "status": "failed",
+      "sourceId": "pubmed-em",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=%28%22N%20Engl%20J%20Med%22%5BJournal%5D%20OR%20%22JAMA%22%5BJournal%5D%20OR%20%22BMJ%22%5BJournal%5D%20OR%20%22Lancet%22%5BJournal%5D%20OR%20%22JAMA%20Intern%20Med%22%5BJournal%5D%20OR%20%22JAMA%20Netw%20Open%22%5BJournal%5D%20OR%20%22Nat%20Med%22%5BJournal%5D%29%20AND%20%28emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest%29%20AND%20%28%222024/11/17%22%5BEPDAT%5D%20%3A%20%222024/11/23%22%5BEPDAT%5D%29",
+      "notes": "Exact configured E-utilities search and the identical official PubMed HTML size=200 fallback were inaccessible. Count and pagination could not be established. Targeted primary-source discovery verified EMBOLISE, MAGIC-MT, STEM, PROTECT-MT, and the already retained BALANCE trial, but this does not constitute complete configured-journal coverage.",
+      "status": "failed",
+      "sourceId": "pubmed-general",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=%28%22Circulation%22%5BJournal%5D%20OR%20%22Stroke%22%5BJournal%5D%20OR%20%22Chest%22%5BJournal%5D%20OR%20%22Crit%20Care%20Med%22%5BJournal%5D%20OR%20%22Intensive%20Care%20Med%22%5BJournal%5D%20OR%20%22Clin%20Infect%20Dis%22%5BJournal%5D%20OR%20%22Blood%22%5BJournal%5D%20OR%20%22Pediatrics%22%5BJournal%5D%20OR%20%22Obstet%20Gynecol%22%5BJournal%5D%20OR%20%22J%20Trauma%20Acute%20Care%20Surg%22%5BJournal%5D%20OR%20%22Clin%20Toxicol%20%28Phila%29%22%5BJournal%5D%20OR%20%22Kidney%20Int%22%5BJournal%5D%20OR%20%22Am%20J%20Psychiatry%22%5BJournal%5D%29%20AND%20%28emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest%29%20AND%20%28%222024/11/17%22%5BEPDAT%5D%20%3A%20%222024/11/23%22%5BEPDAT%5D%29",
+      "notes": "Exact configured E-utilities search and the identical official PubMed HTML size=200 fallback were inaccessible. Count and pagination are unavailable, so targeted specialty discovery cannot establish complete coverage.",
+      "status": "failed",
+      "sourceId": "pubmed-specialty",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=%28emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest%29%20AND%20%28guideline%5BPublication%20Type%5D%20OR%20practice%20guideline%5BPublication%20Type%5D%20OR%20consensus%5BTitle%5D%20OR%20scientific%20statement%5BTitle%5D%20OR%20clinical%20policy%5BTitle%5D%20OR%20position%20statement%5BTitle%5D%29%20AND%20%28%222024/11/17%22%5BEPDAT%5D%20%3A%20%222024/11/23%22%5BEPDAT%5D%29",
+      "notes": "Exact configured guidance E-utilities search and the identical official PubMed HTML size=200 fallback were inaccessible. Count and pagination are unavailable; no complete guidance-journal search can be claimed.",
+      "status": "failed",
+      "sourceId": "pubmed-guidance",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://journalfeed.org/",
+      "notes": "Targeted interval discovery did not expose an enumerable archive proving complete coverage; secondary discovery was not substituted for PubMed.",
+      "status": "failed",
+      "sourceId": "journalfeed",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://www.acep.org/patient-care/clinical-policies",
+      "notes": "No clearly first-online-dated ACEP clinical policy in the interval was verified, and the official dated archive could not be exhaustively enumerated.",
+      "status": "failed",
+      "sourceId": "acep",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://professional.heart.org/en/guidelines-and-statements",
+      "notes": "Targeted AHA/ASA discovery found the systemic complications of acute stroke scientific statement first online 2024-11-25, after this window. Complete dated archive coverage for 2024-11-17 through 2024-11-23 was not established.",
+      "status": "failed",
+      "sourceId": "aha-asa",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://www.acc.org/guidelines",
+      "notes": "A dated ACC page on 2024-11-22 summarized the 2024 ILCOR consensus whose primary first-online date was 2024-11-14 in the prior window; it was not treated as new primary guidance. Complete archive coverage was not established.",
+      "status": "failed",
+      "sourceId": "acc",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
+      "notes": "The pediatric opioid prescribing clinical practice guideline associated with a November issue was first online 2024-09-30, before this window. No qualifying interval guideline was verified and complete archive coverage was not established.",
+      "status": "failed",
+      "sourceId": "aap",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
+      "notes": "No new ACS trauma guideline first online in this interval was verified; complete dated archive coverage was not established.",
+      "status": "failed",
+      "sourceId": "acs",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://www.ena.org/practice-resources",
+      "notes": "No clearly dated qualifying interval guidance was verified; complete dated archive coverage was not established.",
+      "status": "failed",
+      "sourceId": "ena",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://www.saem.org/publications/grace",
+      "notes": "No qualifying interval GRACE or other guidance item was verified; complete dated archive coverage was not established.",
+      "status": "failed",
+      "sourceId": "saem",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://www.aaem.org/statements/",
+      "notes": "No clearly dated qualifying interval statement was verified; complete statement archive coverage was not established.",
+      "status": "failed",
+      "sourceId": "aaem",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
+      "notes": "No emergency-relevant ASH guideline first online in this interval was verified; complete dated archive coverage was not established.",
+      "status": "failed",
+      "sourceId": "ash",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
+      "notes": "The CHEST red-blood-cell transfusion guideline located during targeted checking was first published 2024-09-26, before this window. No interval guideline was verified and complete archive coverage was not established.",
+      "status": "failed",
+      "sourceId": "chest",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://www.sccm.org/clinical-resources/guidelines",
+      "notes": "Targeted SCCM checks did not verify a new emergency-relevant guideline first online during the interval; complete dated archive coverage was not established.",
+      "status": "failed",
+      "sourceId": "sccm",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
+      "notes": "Targeted IDSA checking did not verify an interval guidance update; relevant complicated intra-abdominal infection material located during checking dated to June or July 2024. Complete dated archive coverage was not established.",
+      "status": "failed",
+      "sourceId": "idsa",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://www.acmt.net/statements/",
+      "notes": "No new ACMT/AACT position statement first online during the interval was verified; complete statement archive coverage was not established.",
+      "status": "failed",
+      "sourceId": "acmt",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://www.east.org/education-resources/practice-management-guidelines",
+      "notes": "No qualifying EAST guideline first online in this interval was verified. Whole-blood guidance was previously reconciled to 2024-03-27 and handoff guidance to earlier 2024 dates; complete dated archive coverage was not established.",
+      "status": "failed",
+      "sourceId": "east-trauma",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://eso-stroke.org/guidelines/",
+      "notes": "ATTEST-2 appeared in a November print issue but PubMed verifies Epub 2024-10-16, before the fixed backfill range. No qualifying interval ESO guideline was verified; complete dated archive coverage was not established.",
+      "status": "failed",
+      "sourceId": "eso-stroke",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://www.acog.org/clinical",
+      "notes": "No qualifying obstetric emergency guidance first online during the interval was verified; complete dated archive coverage was not established.",
+      "status": "failed",
+      "sourceId": "acog",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    },
+    {
+      "url": "https://www.erc.edu/science-research/guidelines/",
+      "notes": "No qualifying ERC guideline first online during the interval was verified; complete dated archive coverage was not established.",
+      "status": "failed",
+      "sourceId": "erc",
+      "checkedAt": "2026-10-28T05:11:09.336Z"
+    }
+  ],
+  "coverageEnd": "2024-11-23",
+  "coverageStart": "2024-11-17",
+  "finalCrossCheck": [
+    "Major emergency-medicine RCT cross-check remains incomplete because the exact configured PubMed routes were inaccessible and no complete EM-journal count could be established.",
+    "General-journal cross-check verified three simultaneous randomized trials of middle meningeal artery embolization for nonacute subdural hematoma and selected all three because their heterogeneous results materially affect interpretation.",
+    "EMBOLISE verified online 2024-11-20: adjunctive embolization reduced repeat surgery from 11.3% to 4.1% but had a 2.0% rate of serious embolization-related adverse events, including disabling stroke.",
+    "MAGIC-MT verified online 2024-11-20: the primary 90-day recurrence or progression endpoint was not significantly reduced (6.7% vs 9.9%; P=0.10), preventing an overly positive class-level summary.",
+    "STEM verified online 2024-11-20 despite a 2025 print issue: its composite 180-day treatment-failure endpoint was 16% versus 36%, with 30-day disabling stroke or death 3% in both groups.",
+    "PROTECT-MT verified Epub 2024-11-20: balloon guide catheter use during thrombectomy produced worse 90-day ordinal mRS outcomes than conventional guide catheters and the trial was terminated early for safety concerns.",
+    "The already retained BALANCE bloodstream-infection antibiotic-duration trial first online 2024-11-20 remains associated with this window and was not duplicated.",
+    "ACEP clinical-policy cross-check found no clearly first-online-dated interval policy; archive coverage remains incomplete.",
+    "AHA/ASA cross-check identified the systemic complications of acute stroke statement on 2024-11-25, after this window.",
+    "SCCM and sepsis cross-check did not verify a new interval guideline; complete SCCM archive coverage remains unproven.",
+    "IDSA cross-check did not verify an interval guidance update; cIAI material found during checking predates this window.",
+    "CHEST and hematology cross-check did not verify a new interval bleeding or anticoagulation guideline; the CHEST RBC transfusion guideline first published 2024-09-26.",
+    "ACMT toxicology cross-check did not verify a new interval position statement; complete statement archive coverage remains unproven.",
+    "ACS and EAST trauma cross-check did not verify a new interval guideline; previously identified EAST whole-blood guidance predates the fixed backfill range.",
+    "Pediatric cross-check found no new eligible AAP guideline; the opioid prescribing CPG first online 2024-09-30 and is not eligible for this window.",
+    "Obstetric and international/ERC/ESO cross-checks did not verify additional interval guidance; ATTEST-2 was Epub 2024-10-16 and therefore precedes the fixed backfill range."
+  ],
+  "excludedCandidates": [
+    {
+      "reason": "November print placement is misleading for historical eligibility; PubMed verifies Epub 2024-10-16, before the fixed 2024-10-27 backfill start.",
+      "identifier": "ATTEST-2, DOI 10.1016/S1474-4422(24)00377-6"
+    },
+    {
+      "reason": "First online 2024-11-25, after the 2024-11-17 through 2024-11-23 research window.",
+      "identifier": "AHA/ASA systemic complications of acute stroke scientific statement"
+    },
+    {
+      "reason": "First online 2024-09-30, before this window and before the fixed backfill range.",
+      "identifier": "AAP Clinical Practice Guideline: Opioid Prescribing for Acute Pain Management in Children and Adolescents"
+    },
+    {
+      "reason": "First published 2024-09-26, before this window and before the fixed backfill range.",
+      "identifier": "CHEST Red Blood Cell Transfusion in Critically Ill Adults guideline"
+    },
+    {
+      "reason": "Relevant module dates located during checking were June or July 2024, before the fixed backfill range.",
+      "identifier": "IDSA complicated intra-abdominal infection diagnostic imaging and microbiology guidance"
+    },
+    {
+      "reason": "Secondary society summary of the 2024 ILCOR CoSTR whose primary first-online date was 2024-11-14 in the prior research window; not a new primary publication.",
+      "identifier": "ACC 2024-11-22 ILCOR consensus summary"
+    },
+    {
+      "reason": "Already exists as historical article balance-bloodstream-antibiotics-2024 and remains associated with this window; no duplicate article created.",
+      "identifier": "BALANCE antibiotic-duration trial, DOI 10.1056/NEJMoa2404991"
+    }
+  ],
+  "finalCrossCheckCompleted": false,
+  "guidelineSearchCompleted": false
+}

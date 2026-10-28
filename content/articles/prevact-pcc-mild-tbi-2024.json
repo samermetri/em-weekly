@@ -1,0 +1,61 @@
+{
+  "id": "prevact-pcc-mild-tbi-2024",
+  "doi": "10.1097/MEJ.0000000000001199",
+  "pmid": "40315031",
+  "title": "Systematic vitamin K antagonist reversal with prothrombin complex concentrate in patients with mild traumatic brain injury: randomized controlled trial",
+  "pinned": false,
+  "sample": false,
+  "source": "European Journal of Emergency Medicine",
+  "status": "published",
+  "topics": [
+    "trauma"
+  ],
+  "authors": [
+    "Delphine Douillet",
+    "Karim Tazarourte",
+    "Emilie Dehours",
+    "Christian Brice",
+    "Hery Andrianjafy",
+    "Albert Trinh-Duc",
+    "Sigismond Lasocki",
+    "Matthieu Labriffe",
+    "Jérémie Riou",
+    "Pierre-Marie Roy"
+  ],
+  "ranking": {
+    "design": 4,
+    "novelty": 4,
+    "edImpact": 4,
+    "guidelineRelevance": 1
+  },
+  "section": "Worth Knowing",
+  "summary": "PREVACT randomized 202 vitamin K antagonist-treated patients with mild traumatic brain injury (GCS at least 13 within 6 hours) across 21 French EDs to immediate 25 IU/kg four-factor prothrombin complex concentrate before imaging versus reversal only if the initial cranial CT showed intracranial hemorrhage. At 24 hours, ICH was present in 6/98 patients (6.1%) with immediate reversal versus 12/99 (12.1%) with CT-triggered reversal (OR 0.47, 95% CI 0.14-1.44; P=.215). The trial stopped early for logistical reasons, so it did not establish benefit and cannot exclude a clinically important effect.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Twenty-four-hour ICH occurred in 6/98 evaluable intervention patients (6.1%) versus 12/99 control patients (12.1%); OR 0.47 (95% CI 0.14-1.44), P=.215.",
+    "The study was prematurely stopped for logistical reasons after 202 patients were randomized, leaving it underpowered for a clinically important treatment effect.",
+    "The reviewed abstract did not provide detailed numerical adverse-event results."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "Standard care with anticoagulation reversal only if the initial cranial CT demonstrated intracranial hemorrhage.",
+  "population": "Adults receiving a vitamin K antagonist who presented to one of 21 French emergency departments within 6 hours of traumatic brain injury with Glasgow Coma Scale at least 13.",
+  "sampleSize": 202,
+  "shortTitle": "PREVACT: empiric PCC before CT did not significantly reduce 24-hour ICH",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "The trial stopped early after 202 randomized patients, had a mean participant age of 90 years, and was open-label with blinded endpoint assessment; the effect estimate was imprecise. Only the primary abstract was reviewed, and it did not provide detailed adverse-event estimates, so safety differences could not be independently quantified.",
+  "retrievedAt": "2026-10-28",
+  "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/40315031/",
+  "intervention": "Immediate systematic vitamin K antagonist reversal with 25 IU/kg four-factor prothrombin complex concentrate before any diagnostic investigation.",
+  "whyItMatters": "This small, underpowered trial does not support treating routine pre-CT PCC reversal for every VKA-treated mild-TBI patient as proven superior to CT-triggered reversal. The wide confidence interval leaves substantial uncertainty, so current reversal guidance and local protocols remain important.",
+  "evidenceNotes": "Historical backfill. The current PubMed primary abstract record was reviewed and lists Epub 2024-11-06, DOI 10.1097/MEJ.0000000000001199, and PMID 40315031. A targeted DOI/title search did not identify a correction or retraction. No paywall was bypassed; detailed adverse-event estimates were not available in the reviewed abstract.",
+  "discoveredDate": "2026-10-28",
+  "fullTextStatus": "Abstract available; full text paywalled",
+  "firstOnlineDate": "2024-11-06",
+  "primaryEndpoint": "Intracranial hemorrhage detected on cranial CT 24 hours after inclusion.",
+  "reviewedMaterial": "abstract",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-10-28"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "protect-mt-balloon-guide-stroke-2024",
+  "doi": "10.1016/S0140-6736(24)02315-8",
+  "pmid": "39579782",
+  "title": "Balloon guide catheters for endovascular thrombectomy in patients with acute ischaemic stroke due to large-vessel occlusion in China (PROTECT-MT): a multicentre, open-label, blinded-endpoint, randomised controlled trial",
+  "pinned": false,
+  "sample": false,
+  "source": "The Lancet",
+  "status": "published",
+  "topics": [
+    "neurology"
+  ],
+  "authors": [
+    "Jianmin Liu",
+    "Yu Zhou",
+    "Lei Zhang",
+    "Zifu Li",
+    "Mayank Goyal",
+    "Yongwei Zhang",
+    "Pengfei Yang",
+    "PROTECT-MT Investigators"
+  ],
+  "ranking": {
+    "design": 5,
+    "novelty": 4,
+    "edImpact": 4,
+    "guidelineRelevance": 2
+  },
+  "section": "Practice-Changing / High Priority",
+  "summary": "PROTECT-MT randomized 329 adults at 28 hospitals in China undergoing thrombectomy within 24 hours for anterior-circulation large-vessel occlusion to a balloon guide catheter or conventional guide catheter. The trial was paused and then terminated early for safety concerns; 90-day functional recovery was worse with balloon guide catheters (adjusted common OR for better mRS 0.66, 95% CI 0.45-0.98; P=0.037). Ninety-day mortality was 24% versus 16%, while intracranial hemorrhage, symptomatic intracranial hemorrhage, and other serious adverse events did not differ significantly.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Balloon guide catheter use produced worse 90-day mRS outcomes than conventional guide catheter use (adjusted common OR 0.66, 95% CI 0.45-0.98; P=0.037).",
+    "The trial was paused after 329 randomizations and subsequently terminated on 2024-04-18 because of safety concerns.",
+    "Ninety-day mortality was 24% with balloon guide catheters versus 16% with conventional guide catheters.",
+    "No statistically significant differences were reported in intracranial hemorrhage, symptomatic intracranial hemorrhage, or other serious adverse events."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "Endovascular thrombectomy using a conventional guide catheter.",
+  "population": "Adults with acute anterior-circulation large-vessel-occlusion ischemic stroke eligible for endovascular thrombectomy within 24 hours.",
+  "sampleSize": 329,
+  "shortTitle": "PROTECT-MT: balloon guide catheters during thrombectomy",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "The trial stopped early after 329 of a planned much larger sample, leaving estimates less precise and making replication important. It was conducted in China, where stroke mechanisms and procedural practice may differ from other settings, and operators were unblinded; the mortality difference was numerical rather than statistically established in the abstract.",
+  "retrievedAt": "2026-10-27",
+  "canonicalUrl": "https://doi.org/10.1016/S0140-6736(24)02315-8",
+  "intervention": "Endovascular thrombectomy using a balloon guide catheter.",
+  "whyItMatters": "This randomized result argues against assuming that balloon guide catheters improve thrombectomy outcomes simply because prior observational data suggested procedural advantages. It is most relevant to neurointerventional technique selection and should prompt caution rather than an ED-level change in thrombectomy eligibility or transfer decisions.",
+  "evidenceNotes": "PubMed verifies Epub 2024-11-20, DOI 10.1016/S0140-6736(24)02315-8, and PMID 39579782. The PubMed primary abstract was reviewed; the Lancet full text was not accessed because the publisher page was unavailable through the hosted route, and no paywall was bypassed. Targeted correction and retraction checks did not identify a correction or retraction affecting the reported primary result.",
+  "discoveredDate": "2026-10-27",
+  "fullTextStatus": "Abstract available; full text paywalled",
+  "firstOnlineDate": "2024-11-20",
+  "primaryEndpoint": "Functional recovery at 90 days measured by ordinal shift in modified Rankin Scale score.",
+  "reviewedMaterial": "abstract",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-10-27"
+}

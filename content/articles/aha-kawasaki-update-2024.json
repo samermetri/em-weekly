@@ -1,0 +1,73 @@
+{
+  "id": "aha-kawasaki-update-2024",
+  "doi": "10.1161/CIR.0000000000001295",
+  "pmid": "39534969",
+  "title": "Update on Diagnosis and Management of Kawasaki Disease: A Scientific Statement From the American Heart Association",
+  "pinned": false,
+  "sample": false,
+  "source": "Circulation / American Heart Association",
+  "status": "published",
+  "topics": [
+    "pediatrics",
+    "cardiology",
+    "guidelines"
+  ],
+  "authors": [
+    "Pei-Ni Jone",
+    "Adriana Tremoulet",
+    "Nadine Choueiter",
+    "Samuel R. Dominguez",
+    "Ashraf S. Harahsheh",
+    "Yoshihide Mitani",
+    "Meghan Zimmerman",
+    "Ming-Tai Lin",
+    "Kevin G. Friedman"
+  ],
+  "ranking": {
+    "design": 2,
+    "novelty": 4,
+    "edImpact": 4,
+    "guidelineRelevance": 5
+  },
+  "section": "Guidelines & Statements",
+  "summary": "This 2024 AHA scientific statement updates the 2017 Kawasaki disease guidance on diagnosis, risk stratification, acute treatment, coronary imaging, thromboprophylaxis, and long-term management. Diagnostic criteria remain clinical, while the update emphasizes early diagnosis, consistent coronary Z-score assessment, and identification of high-risk patients; the AHA summary identifies age 6 months or younger or baseline LAD/RCA Z-score at least 2.5 as high-risk features. For high-risk patients, IVIG plus intensified anti-inflammatory therapy is increasingly supported rather than IVIG alone, with treatment and follow-up coordinated by Kawasaki disease experts.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Kawasaki disease remains a clinical diagnosis, and early recognition is emphasized to reduce coronary artery aneurysm risk; the diagnostic classification is unchanged from the 2017 statement.",
+    "The AHA summary identifies age 6 months or younger or baseline LAD/RCA Z-score at least 2.5 as high-risk features, and increasingly supports IVIG plus intensified anti-inflammatory therapy for high-risk patients.",
+    "The February 24, 2025 publisher correction changed long-term anticoagulation language: anticoagulation may be considered for risk level 5.2 when a large/giant aneurysm has regressed to medium and thrombosis risk persists, while anticoagulation is not indicated for risk level 5.3 when it has regressed to small; the correction also clarified that treatment intensification applies to IVIG-resistant or high-risk patients.",
+    "The March 31, 2025 publisher correction changed a Figure 1 diagnostic-criteria item from a sub-bullet to a regular bullet; it did not introduce a new treatment recommendation."
+  ],
+  "studyType": "Consensus statement",
+  "comparator": "The 2017 AHA Kawasaki disease scientific statement and prior practice; this update is not a comparative trial.",
+  "population": "Children with suspected or confirmed Kawasaki disease, including incomplete presentations and patients at risk for or with coronary artery abnormalities.",
+  "sampleSize": null,
+  "shortTitle": "AHA Kawasaki disease update",
+  "aiGenerated": true,
+  "corrections": [
+    {
+      "date": "2025-02-24",
+      "description": "Publisher correction DOI 10.1161/CIR.0000000000001313 revised Table 2 anticoagulation language for regressed large/giant coronary aneurysms, added a thrombosis-risk footnote, and clarified Table 3 treatment-intensification and aspirin-related text."
+    },
+    {
+      "date": "2025-03-31",
+      "description": "Publisher correction DOI 10.1161/CIR.0000000000001324 corrected Figure 1 by changing the palmar/plantar erythema criterion from a sub-bullet to a regular bullet; no new treatment recommendation was introduced by this correction."
+    }
+  ],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "This is an AHA scientific statement, not a randomized trial, and several treatment recommendations rely on observational data, extrapolation, or expert consensus. A February 2025 correction materially changed anticoagulation and treatment-table language, and a March 2025 correction fixed Figure 1 formatting; this historical record incorporates those corrections but does not replace current specialist guidance.",
+  "retrievedAt": "2026-10-27",
+  "canonicalUrl": "https://professional.heart.org/en/science-news/update-on-diagnosis-and-management-of-kawasaki-disease",
+  "intervention": "Updated AHA recommendations for diagnosis, coronary risk stratification and imaging, IVIG-based acute therapy with intensified anti-inflammatory treatment for selected high-risk patients, and thromboprophylaxis and long-term management of coronary involvement.",
+  "whyItMatters": "For the ED, prolonged unexplained fever with compatible mucocutaneous findings or incomplete Kawasaki features should trigger early laboratory evaluation, echocardiography/cardiology involvement, and timely IVIG-based treatment rather than waiting for every classic feature to appear. High-risk infants or patients with early coronary dilation may need intensified initial therapy and closer echo surveillance, while corrected thromboprophylaxis details should be managed with pediatric cardiology/Kawasaki expertise.",
+  "evidenceNotes": "Historical backfill. PubMed and the American Heart Association Professional Heart Daily summary were reviewed and verify first-online publication on 2024-11-13, DOI 10.1161/CIR.0000000000001295, and PMID 39534969. Two official 2025 publisher corrections were reconciled: DOI 10.1161/CIR.0000000000001313 (article date 2025-02-24) changed anticoagulation and treatment-table language, and DOI 10.1161/CIR.0000000000001324 (Epub 2025-03-31) corrected Figure 1 bullet formatting. The hosted browser could retrieve publisher correction text but PDF screenshot rendering failed with a 403/cache error; the original statement PDF was not reviewed end-to-end, so reviewedMaterial remains official society summary rather than full text.",
+  "discoveredDate": "2026-10-27",
+  "fullTextStatus": "Official PDF available",
+  "officialPdfUrl": "https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000001295",
+  "firstOnlineDate": "2024-11-13",
+  "primaryEndpoint": "Evidence synthesis and expert guidance for diagnosis, acute treatment, coronary imaging, thromboprophylaxis, and longitudinal management of Kawasaki disease; there is no trial primary endpoint.",
+  "reviewedMaterial": "official society summary",
+  "guidelineStrength": "American Heart Association scientific statement based on literature review and expert consensus; recommendations are not presented as one uniform GRADE-rated set.",
+  "sitePublishedDate": "2026-10-27"
+}
