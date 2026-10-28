@@ -38,14 +38,19 @@
   "sampleSize": null,
   "shortTitle": "ACMT fentanyl incidental-exposure statement",
   "aiGenerated": true,
-  "corrections": [],
+  "corrections": [
+    {
+      "date": "2026-10-27",
+      "description": "Corrected the cited newer ACMT/AACT occupational-opioid-exposure statement reference from November 2025 / 2025-11-11 to its publisher-verified first-online/version-of-record date of 2025-10-16 (https://link.springer.com/article/10.1007/s13181-025-01101-9); January 2026 is the print issue. Removed the unverified claim about changed naloxone ceiling details. The original 2024 statement findings and first-online date are unchanged; the newer statement full text was not reviewed."
+    }
+  ],
   "humanReview": "Not yet human-reviewed",
-  "limitations": "This is a professional-society position statement rather than a formal graded guideline, and it addresses incidental occupational exposure rather than deliberate ingestion, injection, needlestick injury, or confirmed opioid poisoning. The 2025 ACMT/AACT update supersedes parts of the older operational guidance, including naloxone ceiling details.",
+  "limitations": "This is a professional-society position statement rather than a formal graded guideline, and it addresses incidental occupational exposure rather than deliberate ingestion, injection, needlestick injury, or confirmed opioid poisoning. Consult the newer ACMT/AACT guidance, published online October 16, 2025, for current operational details; its paywalled full text was not reviewed here.",
   "retrievedAt": "2026-10-27",
   "canonicalUrl": "https://www.acmt.net/news/acmt-position-statement-on-fentanyl-exposure-laws/",
   "intervention": "ACMT recommendations for risk communication, personal protection, decontamination, naloxone use, and airway management after occupational fentanyl exposure.",
-  "whyItMatters": "For ED and EMS clinicians, the statement supports basing treatment on an objective opioid toxidrome rather than exposure anxiety and avoiding unnecessary escalation for asymptomatic incidental contact. This is historical guidance: ACMT and AACT issued an updated occupational-opioid-exposure statement in November 2025, so the newer statement should be consulted for current exposure-prevention details.",
-  "evidenceNotes": "Historical backfill. The official ACMT page and legal PDF dated 2024-11-01 were reviewed. ACMT's official statement directory identifies this as its November 2024 position statement. A newer ACMT/AACT occupational-opioid-exposure position statement was issued 2025-11-11 and explicitly updates prior guidance, so this record is qualified as historical rather than current practice guidance.",
+  "whyItMatters": "For ED and EMS clinicians, the statement supports basing treatment on an objective opioid toxidrome rather than exposure anxiety and avoiding unnecessary escalation for asymptomatic incidental contact. This is historical guidance: a newer ACMT/AACT occupational-opioid-exposure statement was published online October 16, 2025 (https://link.springer.com/article/10.1007/s13181-025-01101-9); consult that guidance for current operational details.",
+  "evidenceNotes": "Historical backfill. The official ACMT page and legal PDF dated 2024-11-01 were reviewed. The official ACMT statement directory identifies this as its November 2024 position statement. Springer publisher metadata for the newer ACMT/AACT occupational-opioid-exposure statement (https://link.springer.com/article/10.1007/s13181-025-01101-9) explicitly give Published and Version of record as 2025-10-16; January 2026 is the print issue. Only publisher metadata and the paywalled preview of the newer statement were reviewed, not its full text. This older record is historical rather than a claim about current operational guidance.",
   "discoveredDate": "2026-10-27",
   "fullTextStatus": "Official PDF available",
   "officialPdfUrl": "https://www.acmt.net/wp-content/uploads/2024/11/PS_241101_ACMT-Statement-on-Fentanyl-Exposure-Laws.pdf",

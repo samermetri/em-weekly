@@ -1,8 +1,8 @@
 {
-  "snapshotHash": "142abbd22e47933afa271f09a8f67d0bad0d152ac90fe2bdc4c2e3d3469a5586",
+  "snapshotHash": "d609a69c57282ca7d5c0b1dbeddaac7c92fe32a64ec87bcec1c83b2863f68da3",
   "documentRevisions": {
     "article:aap-pediatric-uti-2026": 2,
-    "article:acmt-fentanyl-exposure-2024": 1,
+    "article:acmt-fentanyl-exposure-2024": 2,
     "article:acs-guideline-2025": 1,
     "article:acs-tbi-best-practices-2024": 1,
     "article:aha-acc-acute-pe-2026": 1,
@@ -43,8 +43,8 @@
     "probe:hosted-2026-10-26": 1,
     "probe:scheduled-2026-10-26": 1,
     "probe:weekly-connection-2026-10-26": 2,
-    "state:backfill": 3,
+    "state:backfill": 4,
     "state:publishing": 4
   },
-  "revisionFingerprint": "4181f0c7d0f3d4898726c79c6a11981f"
+  "revisionFingerprint": "a475600e4016df55e4e4d0132f01874f"
 }

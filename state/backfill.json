@@ -888,7 +888,7 @@
   ],
   "rangeEnd": "2026-10-26",
   "startedAt": "2026-10-27T20:58:44.597134+00:00",
-  "updatedAt": "2026-10-28T04:25:19.912Z",
+  "updatedAt": "2026-10-28T04:32:59.957Z",
   "rangeStart": "2024-10-27",
   "schemaVersion": 1,
   "candidateQueue": [
@@ -1047,6 +1047,12 @@
       "title": "CHEST induction agents network meta-analysis",
       "reason": "Primary publisher result surfaced. Likely overlaps RSI trial; check first-online date and whether adds consequential information before inclusion.",
       "firstOnlineDate": null
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s13181-025-01101-9",
+      "title": "ACMT and AACT Position Statement: Preventing Occupational Opioid Exposure to Emergency Responders",
+      "reason": "Needs full primary review before a separate historical article; Springer verifies Published and Version of record 2025-10-16, but the full text is paywalled and was not reviewed in this correction-only run.",
+      "firstOnlineDate": "2025-10-16"
     }
   ]
 }
