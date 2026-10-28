@@ -4,22 +4,26 @@
   "windows": [
     {
       "end": "2024-11-02",
-      "notes": "Partial: existing IVIO and PARAMEDIC-3 route articles retained. Exact configured NCBI searches and PubMed HTML fallback were inaccessible in this run, so counts/pagination and comprehensive source coverage remain outstanding. Separate society/guideline checks and 12-part final cross-check are incomplete. ACS revised TBI guidance announced 2024-10-28 remains queued for primary appraisal.",
+      "notes": "Partial: IVIO and PARAMEDIC-3 remain retained. The queued ACS/ACRM TBI guidance was resolved from the official 2024-10-28 ACS release, and the 2024-11-01 ACMT fentanyl-exposure statement was added with explicit qualification that 2025 ACMT/AACT guidance is newer. Exact configured PubMed searches failed earlier today, so comprehensive source coverage remains incomplete.",
       "start": "2024-10-27",
       "status": "partial",
       "auditId": "backfill-2024-10-27",
       "articleIds": [
         "ivio-vascular-access-2024",
-        "paramedic-3-drug-route-2024"
+        "paramedic-3-drug-route-2024",
+        "acs-tbi-best-practices-2024",
+        "acmt-fentanyl-exposure-2024"
       ]
     },
     {
       "end": "2024-11-09",
-      "notes": "Not yet comprehensively searched.",
+      "notes": "Partial: exact configured NCBI E-utilities searches and official PubMed HTML fallbacks for 2024-11-03 through 2024-11-09 were inaccessible, so counts and pagination could not be established. Targeted primary-source discovery verified O’CAFÉ (publisher first-online 2024-11-06), but web discovery cannot substitute for complete configured-source coverage; required guideline/manual checks and final cross-check remain incomplete.",
       "start": "2024-11-03",
-      "status": "pending",
-      "auditId": null,
-      "articleIds": []
+      "status": "partial",
+      "auditId": "backfill-2024-11-03",
+      "articleIds": [
+        "ocafe-af-anticoagulation-2024"
+      ]
     },
     {
       "end": "2024-11-16",
@@ -884,7 +888,7 @@
   ],
   "rangeEnd": "2026-10-26",
   "startedAt": "2026-10-27T20:58:44.597134+00:00",
-  "updatedAt": "2026-10-28T04:04:51.905106+00:00",
+  "updatedAt": "2026-10-28T04:25:19.912Z",
   "rangeStart": "2024-10-27",
   "schemaVersion": 1,
   "candidateQueue": [
@@ -892,12 +896,6 @@
       "url": "https://doi.org/10.1161/STR.0000000000000530",
       "title": "2026 AHA/ASA stroke guideline correction",
       "reason": "The guideline draft is held until the complete official correction can be checked for changes to summarized recommendations.",
-      "firstOnlineDate": null
-    },
-    {
-      "url": "https://www.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf",
-      "title": "ACS revised TBI best-practices guidance",
-      "reason": "Official release announcement October 28, 2024 retrieved; full recommendations and earliest PDF release date still need review.",
       "firstOnlineDate": null
     },
     {
@@ -958,12 +956,6 @@
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12591642/",
       "title": "Moderate respiratory distress ACEP expert recommendations",
       "reason": "Primary article discovered with September 27, 2025 date; no result/recommendation verification yet.",
-      "firstOnlineDate": null
-    },
-    {
-      "url": "https://www.east.org/education-resources/practice-management-guidelines",
-      "title": "EAST 2024 whole blood guidance",
-      "reason": "Official index found; verify electronic date may precede interval, then retrieve primary guideline if eligible.",
       "firstOnlineDate": null
     },
     {

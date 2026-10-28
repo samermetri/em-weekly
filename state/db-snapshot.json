@@ -1,8 +1,10 @@
 {
-  "snapshotHash": "fb5dc87d2d17703a92b6a9369f43a70ab1ea16896f68b3dd7ebba1836b45649c",
+  "snapshotHash": "142abbd22e47933afa271f09a8f67d0bad0d152ac90fe2bdc4c2e3d3469a5586",
   "documentRevisions": {
     "article:aap-pediatric-uti-2026": 2,
+    "article:acmt-fentanyl-exposure-2024": 1,
     "article:acs-guideline-2025": 1,
+    "article:acs-tbi-best-practices-2024": 1,
     "article:aha-acc-acute-pe-2026": 1,
     "article:aha-adult-als-2025": 1,
     "article:aha-asa-acute-ischemic-stroke-2026": 1,
@@ -18,6 +20,7 @@
     "article:idsa-complicated-uti-2025": 1,
     "article:ivio-vascular-access-2024": 1,
     "article:logical-post-arrest-oxygen": 1,
+    "article:ocafe-af-anticoagulation-2024": 1,
     "article:paramedic-3-drug-route-2024": 1,
     "article:preoxi": 1,
     "article:prompt-bolus": 1,
@@ -30,6 +33,7 @@
     "article:vasspr": 3,
     "audit:2026-10-26": 1,
     "audit:backfill-2024-10-27": 1,
+    "audit:backfill-2024-11-03": 1,
     "audit:backfill-initial-2024-2025": 1,
     "audit:backfill-initial-2025-2026": 1,
     "audit:cloud-connection-test": 1,
@@ -39,8 +43,8 @@
     "probe:hosted-2026-10-26": 1,
     "probe:scheduled-2026-10-26": 1,
     "probe:weekly-connection-2026-10-26": 2,
-    "state:backfill": 2,
+    "state:backfill": 3,
     "state:publishing": 4
   },
-  "revisionFingerprint": "f2eacd2d883a37526c689a14adc9afe3"
+  "revisionFingerprint": "4181f0c7d0f3d4898726c79c6a11981f"
 }

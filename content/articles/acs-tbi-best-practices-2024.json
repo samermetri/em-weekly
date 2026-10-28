@@ -1,0 +1,58 @@
+{
+  "id": "acs-tbi-best-practices-2024",
+  "doi": null,
+  "pmid": null,
+  "title": "Best Practices Guidelines: The Management of Traumatic Brain Injury",
+  "pinned": false,
+  "sample": false,
+  "source": "American College of Surgeons / American Congress of Rehabilitation Medicine",
+  "status": "published",
+  "topics": [
+    "trauma",
+    "neurology",
+    "guidelines"
+  ],
+  "authors": [
+    "American College of Surgeons Trauma Programs",
+    "American Congress of Rehabilitation Medicine"
+  ],
+  "ranking": {
+    "design": 4,
+    "novelty": 5,
+    "edImpact": 5,
+    "guidelineRelevance": 5
+  },
+  "section": "Guidelines & Statements",
+  "summary": "The revised ACS/ACRM TBI best-practices guidance spans acute and longitudinal care. The official ACS release highlights advanced neuromonitoring for intracranial pressure and cerebral oxygenation, blood-based biomarkers to help characterize injury severity and guide imaging decisions, tiered intracranial-pressure management, early multidisciplinary rehabilitation, and prophylactic antiseizure medication for patients at high risk of early post-traumatic seizures.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "The official ACS release highlights advanced neuromonitoring for intracranial pressure and cerebral oxygenation.",
+    "Blood-based biomarkers are incorporated to help identify injury severity and guide imaging decisions.",
+    "The revised guidance uses a tiered approach to intracranial-pressure management.",
+    "Early multidisciplinary rehabilitation is emphasized as part of TBI recovery.",
+    "New evidence is cited in support of prophylactic antiseizure medication for patients at high risk of early post-traumatic seizures."
+  ],
+  "studyType": "Guideline",
+  "comparator": "Prior 2015 ACS TBI best-practice guidance and existing local practice; not a comparative trial.",
+  "population": "Patients with traumatic brain injury across acute trauma care, rehabilitation, and longitudinal follow-up.",
+  "sampleSize": null,
+  "shortTitle": "ACS/ACRM 2024 TBI best-practice update",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "The guidance combines published evidence with expert consensus where evidence is limited, and no uniform recommendation-strength grade was identified in the official summary reviewed. The legal PDF was confirmed, but the document was not reviewed end-to-end in this run, so this record does not claim granular recommendation-level verification beyond the official ACS summary.",
+  "retrievedAt": "2026-10-27",
+  "canonicalUrl": "https://www.facs.org/media-center/press-releases/2024/american-college-of-surgeons-releases-revised-best-practices-guidelines-in-management-of-traumatic-brain-injury/",
+  "intervention": "Revised ACS/ACRM best-practice recommendations for TBI diagnosis, monitoring, acute management, rehabilitation, and follow-up.",
+  "whyItMatters": "This is high-impact trauma guidance with direct implications for ED and early trauma-system imaging, biomarker, monitoring, escalation, and seizure-prevention pathways. The current ACS Trauma Quality Programs index continues to list this TBI guideline.",
+  "evidenceNotes": "Historical backfill. The official ACS release dated 2024-10-28 was reviewed, and the official legal PDF cover/title page was visually verified; the PDF was not reviewed end-to-end. The current ACS Trauma Quality Programs best-practices index still lists this TBI guideline, and targeted 2025-2026 official ACS searches did not surface a superseding TBI edition or correction.",
+  "discoveredDate": "2026-10-27",
+  "fullTextStatus": "Official PDF available",
+  "officialPdfUrl": "https://www.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf",
+  "firstOnlineDate": "2024-10-28",
+  "primaryEndpoint": "Evidence-informed and consensus best-practice recommendations across TBI diagnosis, acute care, monitoring, rehabilitation, and longitudinal management.",
+  "reviewedMaterial": "official society summary",
+  "guidelineStrength": "Evidence-based literature when available and expert consensus where evidence is lacking; no uniform recommendation-strength grade was identified in the reviewed official material.",
+  "sitePublishedDate": "2026-10-27"
+}

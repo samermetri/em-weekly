@@ -56,9 +56,9 @@
     "2024-06-17"
   ],
   "lastSuccessfulDeployment": {
-    "at": "2026-10-28T04:07:16.263934+00:00",
-    "commit": "7110bc6a1551af6494cedc99d92da204e48798b1",
-    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/40630417845",
+    "at": "2026-10-28T04:26:58.813343+00:00",
+    "commit": "28190a05c319ddb5bc15c181bb837e53db6b4578",
+    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/40632297089",
     "url": "https://emweekly.samermetri.com/"
   },
   "lastSuccessfulResearchCheck": null

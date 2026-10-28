@@ -1,0 +1,57 @@
+{
+  "id": "acmt-fentanyl-exposure-2024",
+  "doi": null,
+  "pmid": null,
+  "title": "ACMT Statement on Fentanyl “Exposure” Laws",
+  "pinned": false,
+  "sample": false,
+  "source": "American College of Medical Toxicology",
+  "status": "published",
+  "topics": [
+    "toxicology",
+    "guidelines"
+  ],
+  "authors": [
+    "Maryann Mazer-Amirshahi",
+    "Jerrold B. Leikin",
+    "Andrew Stolbach"
+  ],
+  "ranking": {
+    "design": 2,
+    "novelty": 4,
+    "edImpact": 3,
+    "guidelineRelevance": 4
+  },
+  "section": "Guidelines & Statements",
+  "summary": "ACMT states that incidental proximity or dermal contact with street fentanyl does not cause opioid intoxication and that routine handling requires standard precautions rather than extraordinary decontamination. It recommends nitrile gloves for routine handling, prompt soap-and-water washing after incidental dermal exposure, eye and face protection when splash is possible, and naloxone for objective hypoventilation rather than failure to awaken.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Incidental proximity or dermal contact with street fentanyl is not expected to cause opioid intoxication; routine handling with nitrile gloves is considered sufficient protection.",
+    "After incidental dermal exposure, wash with water, preferably soap; use eye and face protection for tasks with splash risk.",
+    "Administer naloxone for objective hypoventilation rather than failure to awaken; provide advanced airway support when clinically indicated.",
+    "The 2025 ACMT/AACT occupational-opioid-exposure statement is newer and should be used for current operational details."
+  ],
+  "studyType": "Consensus statement",
+  "comparator": "Fear-based or nonspecific management of incidental exposure; not a comparative trial.",
+  "population": "Emergency responders and other workers with incidental occupational exposure concerns involving illicit fentanyl or fentanyl analogs.",
+  "sampleSize": null,
+  "shortTitle": "ACMT fentanyl incidental-exposure statement",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "This is a professional-society position statement rather than a formal graded guideline, and it addresses incidental occupational exposure rather than deliberate ingestion, injection, needlestick injury, or confirmed opioid poisoning. The 2025 ACMT/AACT update supersedes parts of the older operational guidance, including naloxone ceiling details.",
+  "retrievedAt": "2026-10-27",
+  "canonicalUrl": "https://www.acmt.net/news/acmt-position-statement-on-fentanyl-exposure-laws/",
+  "intervention": "ACMT recommendations for risk communication, personal protection, decontamination, naloxone use, and airway management after occupational fentanyl exposure.",
+  "whyItMatters": "For ED and EMS clinicians, the statement supports basing treatment on an objective opioid toxidrome rather than exposure anxiety and avoiding unnecessary escalation for asymptomatic incidental contact. This is historical guidance: ACMT and AACT issued an updated occupational-opioid-exposure statement in November 2025, so the newer statement should be consulted for current exposure-prevention details.",
+  "evidenceNotes": "Historical backfill. The official ACMT page and legal PDF dated 2024-11-01 were reviewed. ACMT's official statement directory identifies this as its November 2024 position statement. A newer ACMT/AACT occupational-opioid-exposure position statement was issued 2025-11-11 and explicitly updates prior guidance, so this record is qualified as historical rather than current practice guidance.",
+  "discoveredDate": "2026-10-27",
+  "fullTextStatus": "Official PDF available",
+  "officialPdfUrl": "https://www.acmt.net/wp-content/uploads/2024/11/PS_241101_ACMT-Statement-on-Fentanyl-Exposure-Laws.pdf",
+  "firstOnlineDate": "2024-11-01",
+  "primaryEndpoint": "Expert position on prevention and management of occupational fentanyl exposure and the clinical response to suspected opioid intoxication.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": "ACMT Board-approved position statement based on literature review and expert judgment; no formal GRADE strength was reported.",
+  "sitePublishedDate": "2026-10-27"
+}
