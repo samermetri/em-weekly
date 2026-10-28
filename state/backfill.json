@@ -17,18 +17,19 @@
     },
     {
       "end": "2024-11-09",
-      "notes": "Partial: on 2026-10-28 LA the exact configured NCBI E-utilities searches and identical official PubMed HTML size=200 fallbacks for 2024-11-03 through 2024-11-09 were retried and remained inaccessible, so counts and pagination could not be established. Targeted primary-source review retains O’CAFÉ and newly verifies PREVACT (Epub 2024-11-06), but web discovery cannot substitute for complete configured-source coverage; guideline/manual checks and final cross-check remain incomplete.",
+      "notes": "Partial: configured PubMed coverage for this window remains incomplete after the 2026-10-28 source-access failure retry. O’CAFÉ and PREVACT remain retained. On 2026-10-28 the queued severe oral-anticoagulant bleeding expert guidance was fully reviewed; publisher metadata show its accepted manuscript was first available online 2024-11-08 (final article online 2024-12-13), so it is associated with this window under the earliest-public-electronic-date rule. Complete journal, guideline/manual, and final cross-check coverage remains incomplete.",
       "start": "2024-11-03",
       "status": "partial",
       "auditId": "backfill-2024-11-03",
       "articleIds": [
         "ocafe-af-anticoagulation-2024",
-        "prevact-pcc-mild-tbi-2024"
+        "prevact-pcc-mild-tbi-2024",
+        "oac-severe-bleeding-guidance-2024"
       ]
     },
     {
       "end": "2024-11-16",
-      "notes": "Partial: exact configured NCBI E-utilities searches and identical PubMed HTML size=200 fallbacks for 2024-11-10 through 2024-11-16 were inaccessible, so counts and pagination could not be established. Targeted primary-source review verified the 2024 AHA/AAP drowning update, 2024 ILCOR CoSTR, AHA/Red Cross first-aid guideline, and the AHA Kawasaki scientific statement after reconciling its February and March 2025 publisher corrections. General web discovery does not complete configured source coverage, so guideline/manual checks and final cross-check remain incomplete.",
+      "notes": "Partial after 2026-10-28 retry: exact configured NCBI E-utilities searches and identical PubMed HTML size=200 fallbacks for 2024-11-10 through 2024-11-16 remained inaccessible, so counts and pagination still cannot be established. Mandatory society checks and targeted cross-checks were repeated without an additional selected item; the four previously verified guidance records remain. General web discovery cannot complete configured source coverage, so guideline/manual checks and final cross-check remain incomplete.",
       "start": "2024-11-10",
       "status": "partial",
       "auditId": "backfill-2024-11-10",
@@ -41,7 +42,7 @@
     },
     {
       "end": "2024-11-23",
-      "notes": "Partial: exact configured NCBI E-utilities searches and identical official PubMed HTML size=200 fallbacks for 2024-11-17 through 2024-11-23 were inaccessible, so counts and pagination could not be established. Targeted primary-source review verified the already retained BALANCE trial plus EMBOLISE, MAGIC-MT, STEM, and PROTECT-MT. The three MMA embolization RCTs had heterogeneous efficacy results, and PROTECT-MT found worse 90-day functional outcome with balloon guide catheters. General web discovery cannot complete configured source coverage; guideline/manual checks and final cross-check remain incomplete.",
+      "notes": "Partial after 2026-10-28 retry: exact configured NCBI E-utilities searches and identical PubMed HTML size=200 fallbacks for 2024-11-17 through 2024-11-23 remained inaccessible, so counts and pagination still cannot be established. Targeted primary-source review added the two CLEAR SYNERGY randomized comparisons first online 2024-11-17: routine colchicine did not reduce its major cardiovascular composite, and routine spironolactone did not reduce either coprimary outcome. Later 2025 ACS guidance was checked so these neutral broad-population results are not overgeneralized. General web discovery cannot complete configured source coverage; guideline/manual checks and final cross-check remain incomplete.",
       "start": "2024-11-17",
       "status": "partial",
       "auditId": "backfill-2024-11-17",
@@ -50,12 +51,14 @@
         "embolise-mmae-subdural-2024",
         "magic-mt-mmae-subdural-2024",
         "stem-mmae-subdural-2024",
-        "protect-mt-balloon-guide-stroke-2024"
+        "protect-mt-balloon-guide-stroke-2024",
+        "clear-colchicine-ami-2024",
+        "clear-spironolactone-ami-2024"
       ]
     },
     {
       "end": "2024-11-30",
-      "notes": "Partial: exact configured NCBI E-utilities searches and identical official PubMed HTML size=200 fallbacks for 2024-11-24 through 2024-11-30 were inaccessible, so counts and pagination could not be established. Targeted primary-source discovery found a 61-patient cerebral venous thrombectomy pilot RCT and an 87-patient retrospective pelvic-trauma imaging study, but neither met the selective practice-impact threshold. General web discovery cannot complete configured-source coverage; guideline/manual checks and final cross-check remain incomplete.",
+      "notes": "Partial after 2026-10-28 LA retry: exact configured NCBI E-utilities searches and identical official PubMed HTML size=200 fallbacks for 2024-11-24 through 2024-11-30 remained inaccessible, so counts and pagination still cannot be established. Mandatory society/manual checks and the 13-part final cross-check were repeated; no additional high-priority article met the selective threshold. General web discovery cannot complete configured-source coverage, so guideline/manual checks and final cross-check remain incomplete.",
       "start": "2024-11-24",
       "status": "partial",
       "auditId": "backfill-2024-11-24",
@@ -63,7 +66,7 @@
     },
     {
       "end": "2024-12-07",
-      "notes": "Partial: exact configured NCBI E-utilities searches and identical official PubMed HTML size=200 fallbacks for 2024-12-01 through 2024-12-07 were inaccessible, so counts and pagination could not be established. Targeted primary-source review verified the 2024-12-05 AHA scientific statement on systemic complications of acute stroke; OPTIMISE II was reviewed but excluded as elective perioperative evidence rather than core ED practice. General web discovery cannot complete configured-source coverage; guideline/manual checks and final cross-check remain incomplete.",
+      "notes": "Partial after 2026-10-28 LA retry: exact configured NCBI E-utilities searches and identical official PubMed HTML size=200 fallbacks for 2024-12-01 through 2024-12-07 remained inaccessible, so counts and pagination still cannot be established. Mandatory society/manual checks and the final cross-check were repeated; no additional high-priority article was selected beyond the retained Dec 5 AHA systemic-complications scientific statement. General web discovery cannot complete configured-source coverage.",
       "start": "2024-12-01",
       "status": "partial",
       "auditId": "backfill-2024-12-01",
@@ -73,12 +76,14 @@
     },
     {
       "end": "2024-12-14",
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "notes": "Partial after 2026-10-28 LA attempt: exact configured NCBI E-utilities searches and identical official PubMed HTML size=200 fallbacks for 2024-12-08 through 2024-12-14 were inaccessible, so counts and pagination could not be established. Targeted primary-source review added ADAPT-Sepsis (Dec 9) and the AHA rural stroke-systems scientific statement (Dec 12); SAHARA remains retained. The severe-OAC-bleeding guidance surfaced with a final article-online date of Dec 13 but publisher metadata establish an earlier accepted-manuscript-online date of Nov 8, so it was assigned to the Nov 3-9 window. Guideline/manual checks and the final cross-check remain incomplete.",
       "start": "2024-12-08",
       "status": "partial",
-      "auditId": "backfill-initial-2024-2025",
+      "auditId": "backfill-2024-12-08",
       "articleIds": [
-        "sahara-transfusion-sah-2024"
+        "sahara-transfusion-sah-2024",
+        "adapt-sepsis-procalcitonin-2024",
+        "aha-rural-stroke-systems-2024"
       ]
     },
     {
@@ -900,7 +905,7 @@
   ],
   "rangeEnd": "2026-10-26",
   "startedAt": "2026-10-27T20:58:44.597134+00:00",
-  "updatedAt": "2026-10-28T07:08:28.271Z",
+  "updatedAt": "2026-10-28T12:11:49.605Z",
   "rangeStart": "2024-10-27",
   "schemaVersion": 1,
   "candidateQueue": [
@@ -950,12 +955,6 @@
       "url": "https://doi.org/10.1164/rccm.202507-1692ST",
       "title": "ATS adult CAP guideline",
       "reason": "Official publisher recommendation excerpts retrieved; verify first-online date, full evidence and recommendation grades before separate record.",
-      "firstOnlineDate": null
-    },
-    {
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12283145/",
-      "title": "Severe bleeding on oral anticoagulation multidisciplinary guidance",
-      "reason": "Primary article discovered; metadata shows December 13, 2024 versus later August 2025 issue. Need first-online reconciliation and full current-practice review.",
       "firstOnlineDate": null
     },
     {

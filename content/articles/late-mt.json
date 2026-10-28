@@ -1,0 +1,60 @@
+{
+  "id": "late-mt",
+  "doi": "10.1056/NEJMoa2609362",
+  "pmid": "42929656",
+  "title": "Mechanical Thrombectomy 24 to 72 Hours after Large-Vessel Ischemic Stroke",
+  "pinned": false,
+  "sample": false,
+  "source": "New England Journal of Medicine",
+  "status": "published",
+  "topics": [
+    "neurology"
+  ],
+  "authors": [
+    "Pengfei Yang",
+    "Hongjian Shen",
+    "Tingyu Yi",
+    "Pengfei Xing",
+    "Junfeng Su",
+    "Changming Wen",
+    "Weiyi Zhong",
+    "et al."
+  ],
+  "ranking": {
+    "design": 5,
+    "novelty": 5,
+    "edImpact": 5,
+    "guidelineRelevance": 5
+  },
+  "section": "Practice-Changing / High Priority",
+  "summary": "LATE-MT randomized 336 patients in China with anterior-circulation large-vessel occlusion, imaging-identified salvageable tissue, and presentation 24 to 72 hours after onset or last-known-well to thrombectomy plus medical care or medical care alone. At a median 38.5 hours to randomization, thrombectomy improved the 90-day modified Rankin scale distribution (common OR for better functional outcome 1.74, 95% CI 1.19-2.55). Symptomatic intracranial hemorrhage occurred in 4.8% versus 0%, and 90-day case fatality was 6.0% versus 1.8%.",
+  "backfill": false,
+  "excluded": false,
+  "findings": [
+    "Common OR for a better 90-day functional outcome was 1.74 (95% CI 1.19-2.55) with thrombectomy.",
+    "Median time from onset or last-known-well to randomization was 38.5 hours.",
+    "Symptomatic intracranial hemorrhage occurred in 4.8% with thrombectomy versus 0% with medical care alone.",
+    "Ninety-day case fatality was 6.0% versus 1.8%, respectively."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "Standard medical care alone.",
+  "population": "Adults with anterior-circulation large-vessel occlusion ischemic stroke, imaging-identified salvageable tissue, and presentation 24 to 72 hours after symptom onset or last-known-well.",
+  "sampleSize": 336,
+  "shortTitle": "LATE-MT: thrombectomy 24-72 hours after LVO stroke",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "The trial was open-label, conducted at comprehensive stroke centers in China, and required favorable imaging selection. The higher symptomatic hemorrhage and mortality signals, plus uncertain external validity, warrant caution pending replication and guideline integration.",
+  "retrievedAt": "2026-10-28",
+  "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42929656/",
+  "intervention": "Endovascular thrombectomy plus standard medical care.",
+  "whyItMatters": "This is randomized evidence that selected patients with salvageable tissue may benefit from thrombectomy beyond the current 24-hour evidence window. It supports urgent thrombectomy-center discussion for carefully selected very-late presenters, but does not establish universal treatment beyond 24 hours.",
+  "evidenceNotes": "Abstract reviewed; full text unavailable. Primary PubMed record and DOI metadata were verified.",
+  "discoveredDate": "2026-10-28",
+  "fullTextStatus": "Abstract available; full text paywalled",
+  "firstOnlineDate": "2026-10-23",
+  "primaryEndpoint": "Distribution of modified Rankin scale scores at 90 days.",
+  "reviewedMaterial": "abstract",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-10-28"
+}

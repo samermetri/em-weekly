@@ -1,0 +1,203 @@
+{
+  "date": "2026-10-28",
+  "sources": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "notes": "Official PubMed HTML fallback attempted with the exact configured emergency-medicine-journal query AND 2026/09/27:2026/10/28[edat], size=200, format=summary, sort=date. Exact attempted URL: https://pubmed.ncbi.nlm.nih.gov/?term=%28%22Ann%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Acad%20Emerg%20Med%22%5BJournal%5D%20OR%20%22J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Am%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Emerg%20Med%20J%22%5BJournal%5D%20OR%20%22J%20Am%20Coll%20Emerg%20Physicians%20Open%22%5BJournal%5D%20OR%20%22West%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Resuscitation%22%5BJournal%5D%20OR%20%22Prehosp%20Emerg%20Care%22%5BJournal%5D%29%20AND%202026%2F09%2F27%3A2026%2F10%2F28%5Bedat%5D&size=200&format=summary&sort=date . The hosted browser could not open the results page, so result count, page count, and complete pagination could not be verified. E-utilities was also unavailable. Checkpoint not advanced.",
+      "status": "failed",
+      "sourceId": "pubmed-em",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "notes": "Official PubMed HTML fallback attempted with the exact configured major-general-journal query AND 2026/09/27:2026/10/28[edat], size=200, format=summary, sort=date. Exact attempted URL: https://pubmed.ncbi.nlm.nih.gov/?term=%28%22N%20Engl%20J%20Med%22%5BJournal%5D%20OR%20%22JAMA%22%5BJournal%5D%20OR%20%22BMJ%22%5BJournal%5D%20OR%20%22Lancet%22%5BJournal%5D%20OR%20%22JAMA%20Intern%20Med%22%5BJournal%5D%20OR%20%22JAMA%20Netw%20Open%22%5BJournal%5D%20OR%20%22Nat%20Med%22%5BJournal%5D%29%20AND%20%28emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest%29%20AND%202026%2F09%2F27%3A2026%2F10%2F28%5Bedat%5D&size=200&format=summary&sort=date . The hosted browser could not open the results page, so result count, page count, and complete pagination could not be verified. E-utilities was also unavailable. Checkpoint not advanced.",
+      "status": "failed",
+      "sourceId": "pubmed-general",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "notes": "Official PubMed HTML fallback attempted with the exact configured specialty-journal query AND 2026/09/27:2026/10/28[edat], size=200, format=summary, sort=date. Exact attempted URL: https://pubmed.ncbi.nlm.nih.gov/?term=%28%22Circulation%22%5BJournal%5D%20OR%20%22Stroke%22%5BJournal%5D%20OR%20%22Chest%22%5BJournal%5D%20OR%20%22Crit%20Care%20Med%22%5BJournal%5D%20OR%20%22Intensive%20Care%20Med%22%5BJournal%5D%20OR%20%22Clin%20Infect%20Dis%22%5BJournal%5D%20OR%20%22Blood%22%5BJournal%5D%20OR%20%22Pediatrics%22%5BJournal%5D%20OR%20%22Obstet%20Gynecol%22%5BJournal%5D%20OR%20%22J%20Trauma%20Acute%20Care%20Surg%22%5BJournal%5D%20OR%20%22Clin%20Toxicol%20%28Phila%29%22%5BJournal%5D%20OR%20%22Kidney%20Int%22%5BJournal%5D%20OR%20%22Am%20J%20Psychiatry%22%5BJournal%5D%29%20AND%20%28emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest%29%20AND%202026%2F09%2F27%3A2026%2F10%2F28%5Bedat%5D&size=200&format=summary&sort=date . The hosted browser could not open the results page, so result count, page count, and complete pagination could not be verified. E-utilities was also unavailable. Checkpoint not advanced.",
+      "status": "failed",
+      "sourceId": "pubmed-specialty",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "notes": "Official PubMed HTML fallback attempted with the exact configured guidance query AND 2026/09/27:2026/10/28[edat], size=200, format=summary, sort=date. Exact attempted URL: https://pubmed.ncbi.nlm.nih.gov/?term=%28emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest%29%20AND%20%28guideline%5BPublication%20Type%5D%20OR%20practice%20guideline%5BPublication%20Type%5D%20OR%20consensus%5BTitle%5D%20OR%20scientific%20statement%5BTitle%5D%20OR%20clinical%20policy%5BTitle%5D%20OR%20position%20statement%5BTitle%5D%29%20AND%202026%2F09%2F27%3A2026%2F10%2F28%5Bedat%5D&size=200&format=summary&sort=date . The hosted browser could not open the results page, so result count, page count, and complete pagination could not be verified. The separate official-society manual guideline sweep was completed, but this PubMed checkpoint was not advanced.",
+      "status": "failed",
+      "sourceId": "pubmed-guidance",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://journalfeed.org/",
+      "notes": "Recent feed/archive items were checked as secondary discovery only. No article was accepted on JournalFeed alone; recent highlighted items with older first-online dates were not treated as new.",
+      "status": "success",
+      "sourceId": "journalfeed",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://www.acep.org/patient-care/clinical-policies",
+      "notes": "Current ACEP clinical policies and dated official-domain results were checked; no new in-window clinical policy was identified.",
+      "status": "success",
+      "sourceId": "acep",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://professional.heart.org/en/guidelines-and-statements",
+      "notes": "AHA/ASA guideline and scientific-statement pages plus dated searches were checked. The 2026 acute ischemic stroke guideline predates this recovery window; no newer in-window acute-care statement was identified.",
+      "status": "success",
+      "sourceId": "aha-asa",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://www.acc.org/guidelines",
+      "notes": "ACC guideline pages and dated searches were checked; no new in-window ED-facing guideline meeting the publication threshold was identified.",
+      "status": "success",
+      "sourceId": "acc",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
+      "notes": "AAP guideline pages were checked. The September 28 pediatric UTI guideline is already a current EM Weekly article; no additional in-window major pediatric emergency guideline was identified.",
+      "status": "success",
+      "sourceId": "aap",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
+      "notes": "ACS trauma best-practice pages and dated searches were checked; no new in-window bedside trauma guideline was identified.",
+      "status": "success",
+      "sourceId": "acs",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://www.ena.org/practice-resources",
+      "notes": "ENA practice resources and dated searches were checked; no clearly dated new in-window clinical guidance meeting the threshold was identified.",
+      "status": "success",
+      "sourceId": "ena",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://www.saem.org/publications/grace",
+      "notes": "SAEM GRACE guidance was checked; the latest listed GRACE guideline remains from 2025, with no new in-window GRACE publication.",
+      "status": "success",
+      "sourceId": "saem",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://www.aaem.org/statements/",
+      "notes": "AAEM statements and dated official-domain results were checked. Recent October material was administrative/workforce focused rather than new bedside clinical guidance.",
+      "status": "success",
+      "sourceId": "aaem",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
+      "notes": "ASH guidance was checked. The 2026 immune thrombocytopenia guidance first appeared online August 19, 2026, before this recovery interval, and is not a new acute severe-bleeding guideline; the queued item was rejected for current publication.",
+      "status": "success",
+      "sourceId": "ash",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
+      "notes": "CHEST guideline pages and dated searches were checked; no new in-window acute ED guideline meeting the threshold was identified.",
+      "status": "success",
+      "sourceId": "chest",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://www.sccm.org/clinical-resources/guidelines",
+      "notes": "SCCM and Surviving Sepsis Campaign guidance pages were checked. The 2026 adult and pediatric sepsis guidelines are already historical/backfill records and predate this recovery window; no new in-window update was identified.",
+      "status": "success",
+      "sourceId": "sccm",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
+      "notes": "IDSA current practice-guideline pages were checked. Recently identified S. aureus bacteremia, histoplasmosis, and pediatric COVID updates were first online before September 27; no new in-window ED-priority guidance was identified.",
+      "status": "success",
+      "sourceId": "idsa",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://www.acmt.net/statements/",
+      "notes": "ACMT statements were checked; no new in-window toxicology position/practice statement meeting the clinical threshold was identified.",
+      "status": "success",
+      "sourceId": "acmt",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://www.east.org/education-resources/practice-management-guidelines",
+      "notes": "EAST current PMGs were checked. The 2026 BCVI page is labeled a guideline under development rather than a final publication; it remains held for future review.",
+      "status": "success",
+      "sourceId": "east-trauma",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://eso-stroke.org/guidelines/",
+      "notes": "ESO guideline pages and dated searches were checked; no new in-window guideline was identified.",
+      "status": "success",
+      "sourceId": "eso-stroke",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://www.acog.org/clinical",
+      "notes": "ACOG clinical guidance and dated obstetric-emergency searches were checked; no new in-window ED-facing obstetric guideline meeting the threshold was identified.",
+      "status": "success",
+      "sourceId": "acog",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    },
+    {
+      "url": "https://www.erc.edu/science-research/guidelines/",
+      "notes": "ERC guideline pages were checked; the current resuscitation guideline set remains the 2025 edition, with no new 2026 in-window guideline identified.",
+      "status": "success",
+      "sourceId": "erc",
+      "checkedAt": "2026-10-28T09:10:06.723Z"
+    }
+  ],
+  "coverageEnd": "2026-10-28",
+  "coverageStart": "2026-09-27",
+  "finalCrossCheck": [
+    "2026-10-28 search: major emergency medicine randomized trials October 2026 - LATE-MT, MILD-MT, ICare-FASTER, and PreHEART were independently verified against primary PubMed records; all four were selected.",
+    "2026-10-28 search: site:nejm.org October 2026 emergency acute randomized stroke thrombectomy - LATE-MT and MILD-MT were identified and selected.",
+    "2026-10-28 search: site:jamanetwork.com October 2026 emergency department randomized acute care - no additional current publication outranked the selected items; VASSPR was already published in EM Weekly.",
+    "2026-10-28 search: site:thelancet.com October 2026 emergency acute care randomized trial - no additional in-window ED-priority trial meeting the threshold was identified.",
+    "2026-10-28 search: site:bmj.com October 2026 emergency department randomized acute care - PreHEART was identified through Heart/PubMed and selected; no additional higher-priority BMJ-group acute-care trial was identified.",
+    "2026-10-28 search: ACEP clinical policies October 2026 emergency medicine - no new in-window ACEP clinical policy was identified.",
+    "2026-10-28 search: AHA ASA guideline scientific statement October 2026 acute stroke emergency - no new in-window AHA/ASA guideline or statement was identified; the 2026 AIS guideline predates the recovery interval.",
+    "2026-10-28 search: SCCM sepsis guideline October 2026 - no new in-window SCCM/Surviving Sepsis update was identified.",
+    "2026-10-28 search: IDSA practice guideline October 2026 emergency infectious disease - no new in-window ED-priority guidance was identified.",
+    "2026-10-28 search: CHEST guideline October 2026 pulmonary embolism emergency - no newly dated in-window acute-care guideline meeting the threshold was identified.",
+    "2026-10-28 search: hematology guideline October 2026 bleeding anticoagulation ITP - ASH ITP guidance was first online August 19, outside the recovery interval, and was not treated as new.",
+    "2026-10-28 search: ACMT AACT statement October 2026 toxicology - no new in-window clinical toxicology statement meeting the threshold was identified.",
+    "2026-10-28 search: EAST practice management guideline October 2026 trauma BCVI - the 2026 BCVI page is under development, not a final guideline, so it remains held.",
+    "2026-10-28 search: AAP clinical practice guideline October 2026 pediatric emergency - the September 28 UTI guideline is already published in EM Weekly; no additional major in-window pediatric emergency guidance was identified.",
+    "2026-10-28 search: ACOG clinical October 2026 obstetric emergency guideline - no new in-window ED-facing obstetric guidance meeting the threshold was identified.",
+    "2026-10-28 search: ERC guideline 2026 resuscitation - current guidance remains ERC 2025; no new in-window guideline was identified."
+  ],
+  "excludedCandidates": [
+    {
+      "reason": "First online August 19, 2026, before the September 27 recovery interval; not a new acute severe-bleeding guideline for this run.",
+      "identifier": "ASH 2026 immune thrombocytopenia guideline"
+    },
+    {
+      "reason": "Official EAST page is labeled guideline under development; no final first-online publication is available, so the item remains held rather than published.",
+      "identifier": "EAST 2026 blunt cerebrovascular injury guideline page"
+    },
+    {
+      "reason": "Operational evidence was potentially useful but had lower immediate practice effect than the selected trials and was not used as filler.",
+      "identifier": "Fast Care emergency-department model randomized trial, 2026-10-13"
+    },
+    {
+      "reason": "ARISE FLUIDS is already stored as backfill:true historical evidence; its current issue appearance does not make it new and identifier deduplication prevents republication.",
+      "identifier": "10.1056/NEJMoa2516225"
+    },
+    {
+      "reason": "The underlying publication first appeared online before the recovery interval; not new by first-online date.",
+      "identifier": "JournalFeed October induction-agent meta-analysis"
+    }
+  ],
+  "finalCrossCheckCompleted": true,
+  "guidelineSearchCompleted": true
+}

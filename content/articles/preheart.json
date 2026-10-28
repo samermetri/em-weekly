@@ -1,0 +1,60 @@
+{
+  "id": "preheart",
+  "doi": "10.1136/heartjnl-2026-328924",
+  "pmid": "42810856",
+  "title": "PreHEART score for emergency medical services triage of chest pain: a randomised trial",
+  "pinned": false,
+  "sample": false,
+  "source": "Heart",
+  "status": "published",
+  "topics": [
+    "cardiology"
+  ],
+  "authors": [
+    "Dennis C Sagel",
+    "Pieter J Vlaar",
+    "Duolao Wang",
+    "Jesse Demandt",
+    "Wybe Nieuwland",
+    "Roelof Lettinga",
+    "Robert van Barneveld",
+    "et al."
+  ],
+  "ranking": {
+    "design": 5,
+    "novelty": 4,
+    "edImpact": 4,
+    "guidelineRelevance": 2
+  },
+  "section": "Worth Knowing",
+  "summary": "PreHEART 3 was a pragmatic randomized, open-label, blinded-endpoint noninferiority trial of 5,170 adults attended by EMS for undifferentiated chest pain in the Netherlands. PreHEART-guided conveyance was noninferior to usual care for a hierarchical composite of unexpected serious adverse events at 3 days (win ratio 1.01, 95% CI 0.89-1.16; prespecified noninferiority lower bound >0.80) and increased non-conveyance from 24.5% to 34.6%. No deaths occurred within 3 days among the 1,526 patients who were not conveyed, and 30-day emergency presentations were reduced (RR 0.88).",
+  "backfill": false,
+  "excluded": false,
+  "findings": [
+    "PreHEART-guided care was noninferior to usual care (win ratio 1.01, 95% CI 0.89-1.16; P<0.001 for noninferiority).",
+    "Non-conveyance increased to 34.6% versus 24.5%.",
+    "No deaths occurred within 3 days among 1,526 non-conveyed patients.",
+    "Thirty-day emergency presentations were reduced (RR 0.88)."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "Usual EMS conveyance care.",
+  "population": "Adults attended by emergency medical services for undifferentiated chest pain in the Netherlands.",
+  "sampleSize": 5170,
+  "shortTitle": "PreHEART: prehospital chest-pain triage reduced ED conveyance",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "The trial was open-label and embedded in the Dutch EMS system, which may limit transport and follow-up generalizability. The primary endpoint was a hierarchical noninferiority construct, and exploratory sex-subgroup signals did not remain significant after multiplicity correction.",
+  "retrievedAt": "2026-10-28",
+  "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42810856/",
+  "intervention": "EMS conveyance decision guided by the prehospital PreHEART score.",
+  "whyItMatters": "A structured prehospital chest-pain score can reduce ED transports in a mature EMS system without worsening the prespecified short-term safety endpoint. Adoption would require local validation, reliable follow-up, and an EMS pathway capable of supporting non-conveyance rather than simply applying the score at the bedside.",
+  "evidenceNotes": "Abstract reviewed; full text unavailable. Catch-up: previously missed important publication. Primary PubMed record and DOI metadata were verified.",
+  "discoveredDate": "2026-10-28",
+  "fullTextStatus": "Abstract available; full text paywalled",
+  "firstOnlineDate": "2026-09-29",
+  "primaryEndpoint": "Hierarchical composite of unexpected serious adverse events at 3 days, analyzed by win ratio with a noninferiority lower-bound threshold of 0.80.",
+  "reviewedMaterial": "abstract",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-10-28"
+}

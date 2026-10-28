@@ -1,0 +1,60 @@
+{
+  "id": "icare-faster",
+  "doi": "10.1161/CIRCULATIONAHA.126.080866",
+  "pmid": "42895015",
+  "title": "ICare-FASTER (Improving Care by Faster Risk Stratification Through Use of High-Sensitivity Point-of-Care Troponin in Patients Presenting With Possible Acute Coronary Syndrome in the Emergency Department): A Stepped-Wedge Cluster-Randomized Trial",
+  "pinned": false,
+  "sample": false,
+  "source": "Circulation",
+  "status": "published",
+  "topics": [
+    "cardiology"
+  ],
+  "authors": [
+    "Martin Than",
+    "John W Pickering",
+    "Laura R Joyce",
+    "Vanessa Buchan",
+    "Christopher M Florkowski",
+    "Nicholas L Mills",
+    "Laura Hamill",
+    "et al."
+  ],
+  "ranking": {
+    "design": 5,
+    "novelty": 4,
+    "edImpact": 4,
+    "guidelineRelevance": 2
+  },
+  "section": "Worth Knowing",
+  "summary": "ICare-FASTER was a pragmatic stepped-wedge cluster-randomized trial across 6 New Zealand EDs with 59,980 presentations from 44,747 individuals. Using the same accelerated diagnostic pathway, whole-blood point-of-care hs-cTnI reduced adjusted ED length of stay by 13% (95% CI 9%-16%), an absolute 47 minutes (95% CI 33-61) from a control mean of 376 minutes, compared with central-laboratory hs-cTn. Thirty-day myocardial infarction or cardiac death was 0.39% in both groups (P=0.54).",
+  "backfill": false,
+  "excluded": false,
+  "findings": [
+    "Adjusted ED length of stay was reduced by 13% (95% CI 9%-16%; P<0.001).",
+    "The absolute reduction was 47 minutes (95% CI 33-61) from a control mean of 376 minutes.",
+    "Thirty-day myocardial infarction or cardiac death occurred in 0.39% of presentations in both groups (P=0.54).",
+    "The study included 59,980 ED presentations from 44,747 individuals; 31,392 presentations occurred during the intervention phase."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "The same accelerated diagnostic pathway using central-laboratory high-sensitivity cardiac troponin.",
+  "population": "Emergency department presentations for possible acute coronary syndrome at six New Zealand sites.",
+  "sampleSize": 59980,
+  "shortTitle": "ICare-FASTER: point-of-care hs-troponin shortened ED stay",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "This was a stepped-wedge implementation trial at six New Zealand sites, so the effect depends on the specific assay, pathway, staffing, and laboratory workflow. The identical observed 30-day event rates are reassuring but should not be interpreted as a formal proof of safety equivalence.",
+  "retrievedAt": "2026-10-28",
+  "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42895015/",
+  "intervention": "Accelerated diagnostic pathway using whole-blood point-of-care high-sensitivity cardiac troponin I.",
+  "whyItMatters": "For EDs already using an accelerated troponin pathway, a validated point-of-care hs-cTn assay can materially improve throughput by eliminating laboratory turnaround delay. The result supports an operational change rather than a new diagnostic threshold.",
+  "evidenceNotes": "Abstract reviewed; full text unavailable. Catch-up: previously missed important publication. Primary PubMed record and DOI metadata were verified.",
+  "discoveredDate": "2026-10-26",
+  "fullTextStatus": "Abstract available; full text paywalled",
+  "firstOnlineDate": "2026-10-19",
+  "primaryEndpoint": "Emergency department length of stay.",
+  "reviewedMaterial": "abstract",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-10-28"
+}

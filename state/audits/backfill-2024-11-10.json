@@ -1,159 +1,159 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "sources": [
     {
       "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=%28%22Ann%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Acad%20Emerg%20Med%22%5BJournal%5D%20OR%20%22J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Am%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Emerg%20Med%20J%22%5BJournal%5D%20OR%20%22J%20Am%20Coll%20Emerg%20Physicians%20Open%22%5BJournal%5D%20OR%20%22West%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Resuscitation%22%5BJournal%5D%20OR%20%22Prehosp%20Emerg%20Care%22%5BJournal%5D%29%20AND%20%28%222024/11/10%22%5BEPDAT%5D%20%3A%20%222024/11/16%22%5BEPDAT%5D%29",
-      "notes": "Exact configured E-utilities query failed through the hosted web route, and the identical official PubMed HTML fallback with size=200 also failed. Count and page count are unavailable, so this journal group is incomplete. Fallback attempted: https://pubmed.ncbi.nlm.nih.gov/?size=200&term=%28%22Ann%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Acad%20Emerg%20Med%22%5BJournal%5D%20OR%20%22J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Am%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Emerg%20Med%20J%22%5BJournal%5D%20OR%20%22J%20Am%20Coll%20Emerg%20Physicians%20Open%22%5BJournal%5D%20OR%20%22West%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Resuscitation%22%5BJournal%5D%20OR%20%22Prehosp%20Emerg%20Care%22%5BJournal%5D%29%20AND%20%28%222024/11/10%22%5BEPDAT%5D%20%3A%20%222024/11/16%22%5BEPDAT%5D%29",
+      "notes": "Exact configured E-utilities query failed through the hosted web route, and the identical official PubMed HTML fallback with size=200 also failed. Count and page count are unavailable, so this journal group is incomplete. Fallback attempted: https://pubmed.ncbi.nlm.nih.gov/?size=200&term=%28%22Ann%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Acad%20Emerg%20Med%22%5BJournal%5D%20OR%20%22J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Am%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Emerg%20Med%20J%22%5BJournal%5D%20OR%20%22J%20Am%20Coll%20Emerg%20Physicians%20Open%22%5BJournal%5D%20OR%20%22West%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Resuscitation%22%5BJournal%5D%20OR%20%22Prehosp%20Emerg%20Care%22%5BJournal%5D%29%20AND%20%28%222024/11/10%22%5BEPDAT%5D%20%3A%20%222024/11/16%22%5BEPDAT%5D%29 2026-10-28 LA retry: the exact E-utilities URL was attempted again and remained inaccessible. The identical official PubMed HTML size=200 fallback was also attempted again: https://pubmed.ncbi.nlm.nih.gov/?size=200&term=%28%22Ann%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Acad%20Emerg%20Med%22%5BJournal%5D%20OR%20%22J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Am%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Emerg%20Med%20J%22%5BJournal%5D%20OR%20%22J%20Am%20Coll%20Emerg%20Physicians%20Open%22%5BJournal%5D%20OR%20%22West%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Resuscitation%22%5BJournal%5D%20OR%20%22Prehosp%20Emerg%20Care%22%5BJournal%5D%29%20AND%20%28%222024/11/10%22%5BEPDAT%5D%20%3A%20%222024/11/16%22%5BEPDAT%5D%29 . Count and page count remain unavailable, so pagination and complete journal-group accounting cannot be claimed.",
       "status": "failed",
       "sourceId": "pubmed-em",
-      "checkedAt": "2026-10-28T05:05:23.616Z"
+      "checkedAt": "2026-10-28T08:06:09.714Z"
     },
     {
       "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=%28%22N%20Engl%20J%20Med%22%5BJournal%5D%20OR%20%22JAMA%22%5BJournal%5D%20OR%20%22BMJ%22%5BJournal%5D%20OR%20%22Lancet%22%5BJournal%5D%20OR%20%22JAMA%20Intern%20Med%22%5BJournal%5D%20OR%20%22JAMA%20Netw%20Open%22%5BJournal%5D%20OR%20%22Nat%20Med%22%5BJournal%5D%29%20AND%20%28emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest%29%20AND%20%28%222024/11/10%22%5BEPDAT%5D%20%3A%20%222024/11/16%22%5BEPDAT%5D%29",
-      "notes": "Exact configured E-utilities query and identical official PubMed HTML size=200 fallback were inaccessible. Counts and pagination are unavailable; web discovery was not treated as completed journal coverage. Fallback attempted: https://pubmed.ncbi.nlm.nih.gov/?size=200&term=%28%22N%20Engl%20J%20Med%22%5BJournal%5D%20OR%20%22JAMA%22%5BJournal%5D%20OR%20%22BMJ%22%5BJournal%5D%20OR%20%22Lancet%22%5BJournal%5D%20OR%20%22JAMA%20Intern%20Med%22%5BJournal%5D%20OR%20%22JAMA%20Netw%20Open%22%5BJournal%5D%20OR%20%22Nat%20Med%22%5BJournal%5D%29%20AND%20%28emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest%29%20AND%20%28%222024/11/10%22%5BEPDAT%5D%20%3A%20%222024/11/16%22%5BEPDAT%5D%29",
+      "notes": "Exact configured E-utilities query and identical official PubMed HTML size=200 fallback were inaccessible. Counts and pagination are unavailable; web discovery was not treated as completed journal coverage. Fallback attempted: https://pubmed.ncbi.nlm.nih.gov/?size=200&term=%28%22N%20Engl%20J%20Med%22%5BJournal%5D%20OR%20%22JAMA%22%5BJournal%5D%20OR%20%22BMJ%22%5BJournal%5D%20OR%20%22Lancet%22%5BJournal%5D%20OR%20%22JAMA%20Intern%20Med%22%5BJournal%5D%20OR%20%22JAMA%20Netw%20Open%22%5BJournal%5D%20OR%20%22Nat%20Med%22%5BJournal%5D%29%20AND%20%28emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest%29%20AND%20%28%222024/11/10%22%5BEPDAT%5D%20%3A%20%222024/11/16%22%5BEPDAT%5D%29 2026-10-28 LA retry: the exact E-utilities URL was attempted again and remained inaccessible. The identical official PubMed HTML size=200 fallback was also attempted again: https://pubmed.ncbi.nlm.nih.gov/?size=200&term=%28%22N%20Engl%20J%20Med%22%5BJournal%5D%20OR%20%22JAMA%22%5BJournal%5D%20OR%20%22BMJ%22%5BJournal%5D%20OR%20%22Lancet%22%5BJournal%5D%20OR%20%22JAMA%20Intern%20Med%22%5BJournal%5D%20OR%20%22JAMA%20Netw%20Open%22%5BJournal%5D%20OR%20%22Nat%20Med%22%5BJournal%5D%29%20AND%20%28emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest%29%20AND%20%28%222024/11/10%22%5BEPDAT%5D%20%3A%20%222024/11/16%22%5BEPDAT%5D%29 . Count and page count remain unavailable, so pagination and complete journal-group accounting cannot be claimed.",
       "status": "failed",
       "sourceId": "pubmed-general",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=%28%22Circulation%22%5BJournal%5D%20OR%20%22Stroke%22%5BJournal%5D%20OR%20%22Chest%22%5BJournal%5D%20OR%20%22Crit%20Care%20Med%22%5BJournal%5D%20OR%20%22Intensive%20Care%20Med%22%5BJournal%5D%20OR%20%22Clin%20Infect%20Dis%22%5BJournal%5D%20OR%20%22Blood%22%5BJournal%5D%20OR%20%22Pediatrics%22%5BJournal%5D%20OR%20%22Obstet%20Gynecol%22%5BJournal%5D%20OR%20%22J%20Trauma%20Acute%20Care%20Surg%22%5BJournal%5D%20OR%20%22Clin%20Toxicol%20%28Phila%29%22%5BJournal%5D%20OR%20%22Kidney%20Int%22%5BJournal%5D%20OR%20%22Am%20J%20Psychiatry%22%5BJournal%5D%29%20AND%20%28emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest%29%20AND%20%28%222024/11/10%22%5BEPDAT%5D%20%3A%20%222024/11/16%22%5BEPDAT%5D%29",
-      "notes": "Exact configured E-utilities query and identical official PubMed HTML size=200 fallback were inaccessible. Counts and pagination are unavailable; targeted discovery found important Circulation guidance but cannot establish complete specialty-journal coverage.",
+      "notes": "Exact configured E-utilities query and identical official PubMed HTML size=200 fallback were inaccessible. Counts and pagination are unavailable; targeted discovery found important Circulation guidance but cannot establish complete specialty-journal coverage. 2026-10-28 LA retry: the exact E-utilities URL was attempted again and remained inaccessible. The identical official PubMed HTML size=200 fallback was also attempted again: https://pubmed.ncbi.nlm.nih.gov/?size=200&term=%28%22Circulation%22%5BJournal%5D%20OR%20%22Stroke%22%5BJournal%5D%20OR%20%22Chest%22%5BJournal%5D%20OR%20%22Crit%20Care%20Med%22%5BJournal%5D%20OR%20%22Intensive%20Care%20Med%22%5BJournal%5D%20OR%20%22Clin%20Infect%20Dis%22%5BJournal%5D%20OR%20%22Blood%22%5BJournal%5D%20OR%20%22Pediatrics%22%5BJournal%5D%20OR%20%22Obstet%20Gynecol%22%5BJournal%5D%20OR%20%22J%20Trauma%20Acute%20Care%20Surg%22%5BJournal%5D%20OR%20%22Clin%20Toxicol%20%28Phila%29%22%5BJournal%5D%20OR%20%22Kidney%20Int%22%5BJournal%5D%20OR%20%22Am%20J%20Psychiatry%22%5BJournal%5D%29%20AND%20%28emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest%29%20AND%20%28%222024/11/10%22%5BEPDAT%5D%20%3A%20%222024/11/16%22%5BEPDAT%5D%29 . Count and page count remain unavailable, so pagination and complete journal-group accounting cannot be claimed.",
       "status": "failed",
       "sourceId": "pubmed-specialty",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=%28emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest%29%20AND%20%28guideline%5BPublication%20Type%5D%20OR%20practice%20guideline%5BPublication%20Type%5D%20OR%20consensus%5BTitle%5D%20OR%20scientific%20statement%5BTitle%5D%20OR%20clinical%20policy%5BTitle%5D%20OR%20position%20statement%5BTitle%5D%29%20AND%20%28%222024/11/10%22%5BEPDAT%5D%20%3A%20%222024/11/16%22%5BEPDAT%5D%29",
-      "notes": "Exact guidance E-utilities query and identical official PubMed HTML size=200 fallback were inaccessible. Counts and pagination are unavailable. Targeted primary discovery identified AHA/AAP drowning, 2024 ILCOR CoSTR, AHA/Red Cross first-aid guidance, and the AHA Kawasaki statement, but this does not complete the configured search.",
+      "notes": "Exact guidance E-utilities query and identical official PubMed HTML size=200 fallback were inaccessible. Counts and pagination are unavailable. Targeted primary discovery identified AHA/AAP drowning, 2024 ILCOR CoSTR, AHA/Red Cross first-aid guidance, and the AHA Kawasaki statement, but this does not complete the configured search. 2026-10-28 LA retry: the exact E-utilities URL was attempted again and remained inaccessible. The identical official PubMed HTML size=200 fallback was also attempted again: https://pubmed.ncbi.nlm.nih.gov/?size=200&term=%28emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest%29%20AND%20%28guideline%5BPublication%20Type%5D%20OR%20practice%20guideline%5BPublication%20Type%5D%20OR%20consensus%5BTitle%5D%20OR%20scientific%20statement%5BTitle%5D%20OR%20clinical%20policy%5BTitle%5D%20OR%20position%20statement%5BTitle%5D%29%20AND%20%28%222024/11/10%22%5BEPDAT%5D%20%3A%20%222024/11/16%22%5BEPDAT%5D%29 . Count and page count remain unavailable, so pagination and complete journal-group accounting cannot be claimed.",
       "status": "failed",
       "sourceId": "pubmed-guidance",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://journalfeed.org/",
-      "notes": "Targeted interval discovery did not provide an enumerable archive that could prove complete coverage; secondary discovery was not used as a substitute for PubMed.",
+      "notes": "Targeted interval discovery did not provide an enumerable archive that could prove complete coverage; secondary discovery was not used as a substitute for PubMed. 2026-10-28 targeted official-site retry: no additional clearly qualifying interval guidance was verified, but a fully enumerable dated archive was not available, so this check remains incomplete.",
       "status": "failed",
       "sourceId": "journalfeed",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://www.acep.org/patient-care/clinical-policies",
-      "notes": "Official clinical-policy pages were targeted; no clearly first-online-dated 2024-11-10 through 2024-11-16 policy was established, and complete dated archive enumeration was not possible.",
+      "notes": "Official clinical-policy pages were targeted; no clearly first-online-dated 2024-11-10 through 2024-11-16 policy was established, and complete dated archive enumeration was not possible. 2026-10-28 targeted official-site retry: no additional clearly qualifying interval guidance was verified, but a fully enumerable dated archive was not available, so this check remains incomplete.",
       "status": "failed",
       "sourceId": "acep",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://professional.heart.org/en/guidelines-and-statements",
-      "notes": "Targeted official AHA/Circulation discovery verified the 2024-11-12 drowning update, 2024-11-14 ILCOR CoSTR and first-aid guideline, and the 2024-11-13 Kawasaki scientific statement. The Kawasaki candidate was subsequently reconciled against PubMed/AHA material plus the two 2025 publisher corrections (DOIs 10.1161/CIR.0000000000001313 and 10.1161/CIR.0000000000001324) and added as article aha-kawasaki-update-2024. Complete AHA/ASA dated archive coverage was not established, so this source remains incomplete.",
+      "notes": "Targeted official AHA/Circulation discovery verified the 2024-11-12 drowning update, 2024-11-14 ILCOR CoSTR and first-aid guideline, and the 2024-11-13 Kawasaki scientific statement. The Kawasaki candidate was subsequently reconciled against PubMed/AHA material plus the two 2025 publisher corrections (DOIs 10.1161/CIR.0000000000001313 and 10.1161/CIR.0000000000001324) and added as article aha-kawasaki-update-2024. Complete AHA/ASA dated archive coverage was not established, so this source remains incomplete. 2026-10-28 targeted official-site retry: no additional clearly qualifying interval guidance was verified, but a fully enumerable dated archive was not available, so this check remains incomplete.",
       "status": "failed",
       "sourceId": "aha-asa",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://www.acc.org/guidelines",
-      "notes": "No qualifying interval guideline was verified in targeted official discovery, but the dated archive could not be exhaustively enumerated.",
+      "notes": "No qualifying interval guideline was verified in targeted official discovery, but the dated archive could not be exhaustively enumerated. 2026-10-28 targeted official-site retry: no additional clearly qualifying interval guidance was verified, but a fully enumerable dated archive was not available, so this check remains incomplete.",
       "status": "failed",
       "sourceId": "acc",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
-      "notes": "Joint AHA/AAP drowning guidance was verified at 2024-11-12. The pediatric opioid prescribing guideline that appears in a November issue was first online 2024-09-30 and is outside this window. Complete AAP archive enumeration was not established.",
+      "notes": "Joint AHA/AAP drowning guidance was verified at 2024-11-12. The pediatric opioid prescribing guideline that appears in a November issue was first online 2024-09-30 and is outside this window. Complete AAP archive enumeration was not established. 2026-10-28 targeted official-site retry: no additional clearly qualifying interval guidance was verified, but a fully enumerable dated archive was not available, so this check remains incomplete.",
       "status": "failed",
       "sourceId": "aap",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
-      "notes": "No new qualifying 2024-11-10 through 2024-11-16 ACS trauma guidance was verified; official dated archive coverage could not be proven complete.",
+      "notes": "No new qualifying 2024-11-10 through 2024-11-16 ACS trauma guidance was verified; official dated archive coverage could not be proven complete. 2026-10-28 targeted official-site retry: no additional clearly qualifying interval guidance was verified, but a fully enumerable dated archive was not available, so this check remains incomplete.",
       "status": "failed",
       "sourceId": "acs",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://www.ena.org/practice-resources",
-      "notes": "No clearly dated qualifying interval guidance surfaced in targeted official discovery; complete dated archive coverage was not established.",
+      "notes": "No clearly dated qualifying interval guidance surfaced in targeted official discovery; complete dated archive coverage was not established. 2026-10-28 targeted official-site retry: no additional clearly qualifying interval guidance was verified, but a fully enumerable dated archive was not available, so this check remains incomplete.",
       "status": "failed",
       "sourceId": "ena",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://www.saem.org/publications/grace",
-      "notes": "No qualifying interval GRACE/guidance item was verified; complete dated archive coverage was not established.",
+      "notes": "No qualifying interval GRACE/guidance item was verified; complete dated archive coverage was not established. 2026-10-28 targeted official-site retry: no additional clearly qualifying interval guidance was verified, but a fully enumerable dated archive was not available, so this check remains incomplete.",
       "status": "failed",
       "sourceId": "saem",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://www.aaem.org/statements/",
-      "notes": "No clearly dated qualifying interval statement was verified; complete statement archive coverage was not established.",
+      "notes": "No clearly dated qualifying interval statement was verified; complete statement archive coverage was not established. 2026-10-28 targeted official-site retry: no additional clearly qualifying interval guidance was verified, but a fully enumerable dated archive was not available, so this check remains incomplete.",
       "status": "failed",
       "sourceId": "aaem",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
-      "notes": "No emergency-relevant ASH guideline first-online in this interval was verified; complete dated archive coverage was not established.",
+      "notes": "No emergency-relevant ASH guideline first-online in this interval was verified; complete dated archive coverage was not established. 2026-10-28 targeted official-site retry: no additional clearly qualifying interval guidance was verified, but a fully enumerable dated archive was not available, so this check remains incomplete.",
       "status": "failed",
       "sourceId": "ash",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
-      "notes": "The CHEST red-blood-cell transfusion guideline located during targeted checks was first published 2024-09-26, before this window. No interval guideline was verified, and archive coverage remains incomplete.",
+      "notes": "The CHEST red-blood-cell transfusion guideline located during targeted checks was first published 2024-09-26, before this window. No interval guideline was verified, and archive coverage remains incomplete. 2026-10-28 targeted official-site retry: no additional clearly qualifying interval guidance was verified, but a fully enumerable dated archive was not available, so this check remains incomplete.",
       "status": "failed",
       "sourceId": "chest",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://www.sccm.org/clinical-resources/guidelines",
-      "notes": "Targeted SCCM checks did not verify a new interval guideline; relevant 2024 steroid/glycemic guidance surfaced outside the interval. Complete dated archive coverage was not established.",
+      "notes": "Targeted SCCM checks did not verify a new interval guideline; relevant 2024 steroid/glycemic guidance surfaced outside the interval. Complete dated archive coverage was not established. 2026-10-28 targeted official-site retry: no additional clearly qualifying interval guidance was verified, but a fully enumerable dated archive was not available, so this check remains incomplete.",
       "status": "failed",
       "sourceId": "sccm",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
-      "notes": "No emergency-relevant IDSA guidance first-online in this interval was verified; complete dated archive coverage was not established.",
+      "notes": "No emergency-relevant IDSA guidance first-online in this interval was verified; complete dated archive coverage was not established. 2026-10-28 targeted official-site retry: no additional clearly qualifying interval guidance was verified, but a fully enumerable dated archive was not available, so this check remains incomplete.",
       "status": "failed",
       "sourceId": "idsa",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://www.acmt.net/statements/",
-      "notes": "No new ACMT/AACT position statement first-online in this interval was verified; interval educational material is not a substitute for a complete statement archive check.",
+      "notes": "No new ACMT/AACT position statement first-online in this interval was verified; interval educational material is not a substitute for a complete statement archive check. 2026-10-28 targeted official-site retry: no additional clearly qualifying interval guidance was verified, but a fully enumerable dated archive was not available, so this check remains incomplete.",
       "status": "failed",
       "sourceId": "acmt",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://www.east.org/education-resources/practice-management-guidelines",
-      "notes": "No qualifying EAST guideline first-online in this interval was verified. The whole-blood guideline previously reconciled to 2024-03-27 is outside the fixed backfill range; complete dated archive coverage was not established.",
+      "notes": "No qualifying EAST guideline first-online in this interval was verified. The whole-blood guideline previously reconciled to 2024-03-27 is outside the fixed backfill range; complete dated archive coverage was not established. 2026-10-28 targeted official-site retry: no additional clearly qualifying interval guidance was verified, but a fully enumerable dated archive was not available, so this check remains incomplete.",
       "status": "failed",
       "sourceId": "east-trauma",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://eso-stroke.org/guidelines/",
-      "notes": "No qualifying ESO stroke guideline first-online in this interval was verified; complete dated archive coverage was not established.",
+      "notes": "No qualifying ESO stroke guideline first-online in this interval was verified; complete dated archive coverage was not established. 2026-10-28 targeted official-site retry: no additional clearly qualifying interval guidance was verified, but a fully enumerable dated archive was not available, so this check remains incomplete.",
       "status": "failed",
       "sourceId": "eso-stroke",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://www.acog.org/clinical",
-      "notes": "No qualifying obstetric emergency guidance first-online in this interval was verified; complete dated archive coverage was not established.",
+      "notes": "No qualifying obstetric emergency guidance first-online in this interval was verified; complete dated archive coverage was not established. 2026-10-28 targeted official-site retry: no additional clearly qualifying interval guidance was verified, but a fully enumerable dated archive was not available, so this check remains incomplete.",
       "status": "failed",
       "sourceId": "acog",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     },
     {
       "url": "https://www.erc.edu/science-research/guidelines/",
-      "notes": "No qualifying ERC guideline first-online in this interval was verified; complete dated archive coverage was not established.",
+      "notes": "No qualifying ERC guideline first-online in this interval was verified; complete dated archive coverage was not established. 2026-10-28 targeted official-site retry: no additional clearly qualifying interval guidance was verified, but a fully enumerable dated archive was not available, so this check remains incomplete.",
       "status": "failed",
       "sourceId": "erc",
-      "checkedAt": "2026-10-28T05:05:23.619Z"
+      "checkedAt": "2026-10-28T08:06:09.716Z"
     }
   ],
   "coverageEnd": "2024-11-16",
@@ -175,7 +175,11 @@
     "Obstetric cross-check did not verify a new interval ACOG emergency guideline; complete dated archive coverage remains unproven.",
     "AHA Kawasaki scientific statement was verified first online 2024-11-13, but later 2025 publisher corrections changed anticoagulation and treatment-table details; it was queued for corrected primary review rather than summarized prematurely.",
     "International/ERC and ESO cross-checks did not verify additional qualifying interval guidance; archive completeness remains unproven because official dated enumeration was not available.",
-    "Major-guidance candidate resolution: the AHA Kawasaki scientific statement (first online 2024-11-13) was reconciled against PubMed and the official AHA summary plus the two 2025 publisher corrections. The February correction materially changed anticoagulation/treatment-table language; the March correction fixed Figure 1 bullet formatting. Article aha-kawasaki-update-2024 was added, while the window remains partial because configured PubMed source coverage is still incomplete."
+    "Major-guidance candidate resolution: the AHA Kawasaki scientific statement (first online 2024-11-13) was reconciled against PubMed and the official AHA summary plus the two 2025 publisher corrections. The February correction materially changed anticoagulation/treatment-table language; the March correction fixed Figure 1 bullet formatting. Article aha-kawasaki-update-2024 was added, while the window remains partial because configured PubMed source coverage is still incomplete.",
+    "2026-10-28 retry: all four exact configured PubMed EPDAT searches for 2024-11-10 through 2024-11-16 again failed through both NCBI E-utilities and identical PubMed HTML size=200 routes; counts and pagination remain unavailable.",
+    "2026-10-28 mandatory society checks were repeated across the configured organizations; no additional clearly qualifying interval guidance was verified, but archive completeness still cannot be established.",
+    "Targeted major-journal and emergency-medicine discovery on this retry did not identify an additional study strong enough to displace the four already retained guidance records; this is discovery only and does not close the failed configured searches.",
+    "An EAST 2024 geriatric-trauma models-of-care page surfaced during targeted checking, but an exact first-online date was not established and its focus is inpatient geriatric trauma systems rather than a direct ED-management change; it was not selected."
   ],
   "excludedCandidates": [
     {
@@ -201,6 +205,10 @@
     {
       "reason": "First online 2024-11-06, so it belongs to the prior 2024-11-03 through 2024-11-09 window rather than this window.",
       "identifier": "PREVACT mild TBI VKA reversal trial, PMID 40315031"
+    },
+    {
+      "reason": "Official EAST material surfaced on retry, but exact first-online date was not established and the document focuses on inpatient geriatric trauma models rather than a sufficiently direct ED-management change for selection.",
+      "identifier": "EAST Effectiveness of Inpatient Geriatric Trauma Models of Care 2024"
     }
   ],
   "finalCrossCheckCompleted": false,

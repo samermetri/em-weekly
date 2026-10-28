@@ -1,0 +1,61 @@
+{
+  "id": "aha-rural-stroke-systems-2024",
+  "doi": "10.1161/STR.0000000000000478",
+  "pmid": "39665145",
+  "title": "Identifying Best Practices for Improving the Evaluation and Management of Stroke in Rural Lower-Resourced Settings: A Scientific Statement From the American Heart Association",
+  "pinned": false,
+  "sample": false,
+  "source": "Stroke / American Heart Association",
+  "status": "published",
+  "topics": [
+    "neurology",
+    "guidelines"
+  ],
+  "authors": [
+    "Kori S Zachrison",
+    "Kaiz S Asif",
+    "Sherita Chapman",
+    "Karen E Joynt Maddox",
+    "Enrique C Leira",
+    "Susan Maynard",
+    "Christa O'Hana S Nobleza",
+    "Charles R Wira",
+    "American Heart Association Emergency Neurovascular Care and Telestroke Committee of the Stroke Council; Council on Cardiovascular and Stroke Nursing; and Council on Cardiovascular Radiology and Intervention"
+  ],
+  "ranking": {
+    "design": 2,
+    "novelty": 3,
+    "edImpact": 4,
+    "guidelineRelevance": 4
+  },
+  "section": "Guidelines & Statements",
+  "summary": "This AHA scientific statement addresses acute stroke care in rural and lower-resourced settings, where many patients initially present to community EDs without stroke-center resources. It recommends system-level strategies including written stroke protocols, telestroke access, rapid imaging transfer, hub-and-spoke mentorship, standardized transfer pathways, quality-improvement participation, and efforts to shorten door-in-door-out time for thrombectomy candidates. It also supports geographically efficient expansion of Acute Stroke Ready Hospital and Primary Stroke Center capability.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "The statement identifies remote community EDs as anchors of the rural stroke chain of survival and emphasizes written protocols, simulation, telestroke, and stronger hub relationships.",
+    "For transfer-dependent thrombectomy care, it supports rapid vascular imaging, early parallel engagement of tertiary centers, image sharing, established transfer agreements, and door-in-door-out optimization.",
+    "Expansion of Acute Stroke Ready Hospital and Primary Stroke Center certification, better EMS/routing infrastructure, data integration, and quality-improvement participation are proposed to reduce rural disparities."
+  ],
+  "studyType": "Consensus statement",
+  "comparator": "Existing heterogeneous rural stroke systems and resource availability; the statement itself is not a comparative trial.",
+  "population": "Patients with suspected or confirmed stroke presenting to rural or lower-resourced US EMS systems, emergency departments, hospitals, and transfer networks.",
+  "sampleSize": null,
+  "shortTitle": "AHA rural stroke systems statement",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "This is a systems-of-care scientific statement built largely from observational evidence, quality-improvement data, and expert consensus rather than randomized comparisons of the proposed system interventions. Feasibility depends heavily on local staffing, transport, imaging, telehealth, and regional resources.",
+  "retrievedAt": "2026-10-28",
+  "canonicalUrl": "https://professional.heart.org/en/science-news/identifying-best-practices-for-improving-the-evaluation-and-management-of-stroke-in-rural-lower",
+  "intervention": "System-level strategies to improve rural acute stroke access and performance, including stroke-center readiness, telestroke, standardized protocols, rapid imaging and transfer, hub mentorship, and quality improvement.",
+  "whyItMatters": "For community and rural EDs, the practical message is to build stroke capability before the patient arrives: standardized protocols, immediate telestroke access, rapid CTA/image sharing, parallel transfer activation, and explicit relationships with receiving stroke centers. The statement changes systems planning more than bedside drug selection.",
+  "evidenceNotes": "Historical backfill. PubMed verifies Epub 2024-12-12, PMID 39665145, and DOI 10.1161/STR.0000000000000478; the official AHA summary and open full text were reviewed. A targeted correction/retraction search did not identify a correction or retraction. This is systems-level historical guidance; later 2026 AHA/ASA acute ischemic stroke guidance should govern current disease-specific treatment recommendations.",
+  "discoveredDate": "2026-10-28",
+  "fullTextStatus": "Open-access full text available",
+  "firstOnlineDate": "2024-12-12",
+  "primaryEndpoint": "Critical appraisal and consensus strategies for improving acute stroke evaluation, treatment access, transfer, and quality in rural lower-resourced settings.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": "American Heart Association scientific statement based on critical appraisal and expert consensus; it is not a single uniformly GRADE-rated recommendation set.",
+  "sitePublishedDate": "2026-10-28"
+}

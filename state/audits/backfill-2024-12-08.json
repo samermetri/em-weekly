@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-28",
+  "sources": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=200&term=(%22Ann%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Acad%20Emerg%20Med%22%5BJournal%5D%20OR%20%22J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Am%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Emerg%20Med%20J%22%5BJournal%5D%20OR%20%22J%20Am%20Coll%20Emerg%20Physicians%20Open%22%5BJournal%5D%20OR%20%22West%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Resuscitation%22%5BJournal%5D%20OR%20%22Prehosp%20Emerg%20Care%22%5BJournal%5D)%20AND%20(%222024%2F12%2F08%22%5BEPDAT%5D%20%3A%20%222024%2F12%2F14%22%5BEPDAT%5D)",
+      "notes": "Exact configured query: (\"Ann Emerg Med\"[Journal] OR \"Acad Emerg Med\"[Journal] OR \"J Emerg Med\"[Journal] OR \"Am J Emerg Med\"[Journal] OR \"Emerg Med J\"[Journal] OR \"J Am Coll Emerg Physicians Open\"[Journal] OR \"West J Emerg Med\"[Journal] OR \"Resuscitation\"[Journal] OR \"Prehosp Emerg Care\"[Journal]) AND (\"2024/12/08\"[EPDAT] : \"2024/12/14\"[EPDAT]). Official NCBI E-utilities URL attempted: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=200&term=(%22Ann%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Acad%20Emerg%20Med%22%5BJournal%5D%20OR%20%22J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Am%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Emerg%20Med%20J%22%5BJournal%5D%20OR%20%22J%20Am%20Coll%20Emerg%20Physicians%20Open%22%5BJournal%5D%20OR%20%22West%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Resuscitation%22%5BJournal%5D%20OR%20%22Prehosp%20Emerg%20Care%22%5BJournal%5D)%20AND%20(%222024%2F12%2F08%22%5BEPDAT%5D%20%3A%20%222024%2F12%2F14%22%5BEPDAT%5D). Identical official PubMed HTML size=200 fallback attempted: https://pubmed.ncbi.nlm.nih.gov/?term=(%22Ann%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Acad%20Emerg%20Med%22%5BJournal%5D%20OR%20%22J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Am%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Emerg%20Med%20J%22%5BJournal%5D%20OR%20%22J%20Am%20Coll%20Emerg%20Physicians%20Open%22%5BJournal%5D%20OR%20%22West%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Resuscitation%22%5BJournal%5D%20OR%20%22Prehosp%20Emerg%20Care%22%5BJournal%5D)%20AND%20(%222024%2F12%2F08%22%5BEPDAT%5D%20%3A%20%222024%2F12%2F14%22%5BEPDAT%5D)&size=200. Both official routes were inaccessible in this hosted run; result count and page count are unavailable and complete pagination could not be performed. General web search was used only for discovery and cross-checking and does not establish completed source coverage.",
+      "status": "failed",
+      "sourceId": "pubmed-em",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=200&term=(%22N%20Engl%20J%20Med%22%5BJournal%5D%20OR%20%22JAMA%22%5BJournal%5D%20OR%20%22BMJ%22%5BJournal%5D%20OR%20%22Lancet%22%5BJournal%5D%20OR%20%22JAMA%20Intern%20Med%22%5BJournal%5D%20OR%20%22JAMA%20Netw%20Open%22%5BJournal%5D%20OR%20%22Nat%20Med%22%5BJournal%5D)%20AND%20(emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest)%20AND%20(%222024%2F12%2F08%22%5BEPDAT%5D%20%3A%20%222024%2F12%2F14%22%5BEPDAT%5D)",
+      "notes": "Exact configured query: (\"N Engl J Med\"[Journal] OR \"JAMA\"[Journal] OR \"BMJ\"[Journal] OR \"Lancet\"[Journal] OR \"JAMA Intern Med\"[Journal] OR \"JAMA Netw Open\"[Journal] OR \"Nat Med\"[Journal]) AND (emergency OR acute OR resuscitation OR shock OR stroke OR bleeding OR poisoning OR sepsis OR trauma OR cardiac arrest) AND (\"2024/12/08\"[EPDAT] : \"2024/12/14\"[EPDAT]). Official NCBI E-utilities URL attempted: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=200&term=(%22N%20Engl%20J%20Med%22%5BJournal%5D%20OR%20%22JAMA%22%5BJournal%5D%20OR%20%22BMJ%22%5BJournal%5D%20OR%20%22Lancet%22%5BJournal%5D%20OR%20%22JAMA%20Intern%20Med%22%5BJournal%5D%20OR%20%22JAMA%20Netw%20Open%22%5BJournal%5D%20OR%20%22Nat%20Med%22%5BJournal%5D)%20AND%20(emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest)%20AND%20(%222024%2F12%2F08%22%5BEPDAT%5D%20%3A%20%222024%2F12%2F14%22%5BEPDAT%5D). Identical official PubMed HTML size=200 fallback attempted: https://pubmed.ncbi.nlm.nih.gov/?term=(%22N%20Engl%20J%20Med%22%5BJournal%5D%20OR%20%22JAMA%22%5BJournal%5D%20OR%20%22BMJ%22%5BJournal%5D%20OR%20%22Lancet%22%5BJournal%5D%20OR%20%22JAMA%20Intern%20Med%22%5BJournal%5D%20OR%20%22JAMA%20Netw%20Open%22%5BJournal%5D%20OR%20%22Nat%20Med%22%5BJournal%5D)%20AND%20(emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest)%20AND%20(%222024%2F12%2F08%22%5BEPDAT%5D%20%3A%20%222024%2F12%2F14%22%5BEPDAT%5D)&size=200. Both official routes were inaccessible in this hosted run; result count and page count are unavailable and complete pagination could not be performed. General web search was used only for discovery and cross-checking and does not establish completed source coverage.",
+      "status": "failed",
+      "sourceId": "pubmed-general",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=200&term=(%22Circulation%22%5BJournal%5D%20OR%20%22Stroke%22%5BJournal%5D%20OR%20%22Chest%22%5BJournal%5D%20OR%20%22Crit%20Care%20Med%22%5BJournal%5D%20OR%20%22Intensive%20Care%20Med%22%5BJournal%5D%20OR%20%22Clin%20Infect%20Dis%22%5BJournal%5D%20OR%20%22Blood%22%5BJournal%5D%20OR%20%22Pediatrics%22%5BJournal%5D%20OR%20%22Obstet%20Gynecol%22%5BJournal%5D%20OR%20%22J%20Trauma%20Acute%20Care%20Surg%22%5BJournal%5D%20OR%20%22Clin%20Toxicol%20(Phila)%22%5BJournal%5D%20OR%20%22Kidney%20Int%22%5BJournal%5D%20OR%20%22Am%20J%20Psychiatry%22%5BJournal%5D)%20AND%20(emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest)%20AND%20(%222024%2F12%2F08%22%5BEPDAT%5D%20%3A%20%222024%2F12%2F14%22%5BEPDAT%5D)",
+      "notes": "Exact configured query: (\"Circulation\"[Journal] OR \"Stroke\"[Journal] OR \"Chest\"[Journal] OR \"Crit Care Med\"[Journal] OR \"Intensive Care Med\"[Journal] OR \"Clin Infect Dis\"[Journal] OR \"Blood\"[Journal] OR \"Pediatrics\"[Journal] OR \"Obstet Gynecol\"[Journal] OR \"J Trauma Acute Care Surg\"[Journal] OR \"Clin Toxicol (Phila)\"[Journal] OR \"Kidney Int\"[Journal] OR \"Am J Psychiatry\"[Journal]) AND (emergency OR acute OR resuscitation OR shock OR stroke OR bleeding OR poisoning OR sepsis OR trauma OR cardiac arrest) AND (\"2024/12/08\"[EPDAT] : \"2024/12/14\"[EPDAT]). Official NCBI E-utilities URL attempted: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=200&term=(%22Circulation%22%5BJournal%5D%20OR%20%22Stroke%22%5BJournal%5D%20OR%20%22Chest%22%5BJournal%5D%20OR%20%22Crit%20Care%20Med%22%5BJournal%5D%20OR%20%22Intensive%20Care%20Med%22%5BJournal%5D%20OR%20%22Clin%20Infect%20Dis%22%5BJournal%5D%20OR%20%22Blood%22%5BJournal%5D%20OR%20%22Pediatrics%22%5BJournal%5D%20OR%20%22Obstet%20Gynecol%22%5BJournal%5D%20OR%20%22J%20Trauma%20Acute%20Care%20Surg%22%5BJournal%5D%20OR%20%22Clin%20Toxicol%20(Phila)%22%5BJournal%5D%20OR%20%22Kidney%20Int%22%5BJournal%5D%20OR%20%22Am%20J%20Psychiatry%22%5BJournal%5D)%20AND%20(emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest)%20AND%20(%222024%2F12%2F08%22%5BEPDAT%5D%20%3A%20%222024%2F12%2F14%22%5BEPDAT%5D). Identical official PubMed HTML size=200 fallback attempted: https://pubmed.ncbi.nlm.nih.gov/?term=(%22Circulation%22%5BJournal%5D%20OR%20%22Stroke%22%5BJournal%5D%20OR%20%22Chest%22%5BJournal%5D%20OR%20%22Crit%20Care%20Med%22%5BJournal%5D%20OR%20%22Intensive%20Care%20Med%22%5BJournal%5D%20OR%20%22Clin%20Infect%20Dis%22%5BJournal%5D%20OR%20%22Blood%22%5BJournal%5D%20OR%20%22Pediatrics%22%5BJournal%5D%20OR%20%22Obstet%20Gynecol%22%5BJournal%5D%20OR%20%22J%20Trauma%20Acute%20Care%20Surg%22%5BJournal%5D%20OR%20%22Clin%20Toxicol%20(Phila)%22%5BJournal%5D%20OR%20%22Kidney%20Int%22%5BJournal%5D%20OR%20%22Am%20J%20Psychiatry%22%5BJournal%5D)%20AND%20(emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest)%20AND%20(%222024%2F12%2F08%22%5BEPDAT%5D%20%3A%20%222024%2F12%2F14%22%5BEPDAT%5D)&size=200. Both official routes were inaccessible in this hosted run; result count and page count are unavailable and complete pagination could not be performed. General web search was used only for discovery and cross-checking and does not establish completed source coverage.",
+      "status": "failed",
+      "sourceId": "pubmed-specialty",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=200&term=(emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest)%20AND%20(guideline%5BPublication%20Type%5D%20OR%20practice%20guideline%5BPublication%20Type%5D%20OR%20consensus%5BTitle%5D%20OR%20scientific%20statement%5BTitle%5D%20OR%20clinical%20policy%5BTitle%5D%20OR%20position%20statement%5BTitle%5D)%20AND%20(%222024%2F12%2F08%22%5BEPDAT%5D%20%3A%20%222024%2F12%2F14%22%5BEPDAT%5D)",
+      "notes": "Exact configured query: (emergency OR acute OR resuscitation OR shock OR stroke OR bleeding OR poisoning OR sepsis OR trauma OR cardiac arrest) AND (guideline[Publication Type] OR practice guideline[Publication Type] OR consensus[Title] OR scientific statement[Title] OR clinical policy[Title] OR position statement[Title]) AND (\"2024/12/08\"[EPDAT] : \"2024/12/14\"[EPDAT]). Official NCBI E-utilities URL attempted: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=200&term=(emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest)%20AND%20(guideline%5BPublication%20Type%5D%20OR%20practice%20guideline%5BPublication%20Type%5D%20OR%20consensus%5BTitle%5D%20OR%20scientific%20statement%5BTitle%5D%20OR%20clinical%20policy%5BTitle%5D%20OR%20position%20statement%5BTitle%5D)%20AND%20(%222024%2F12%2F08%22%5BEPDAT%5D%20%3A%20%222024%2F12%2F14%22%5BEPDAT%5D). Identical official PubMed HTML size=200 fallback attempted: https://pubmed.ncbi.nlm.nih.gov/?term=(emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest)%20AND%20(guideline%5BPublication%20Type%5D%20OR%20practice%20guideline%5BPublication%20Type%5D%20OR%20consensus%5BTitle%5D%20OR%20scientific%20statement%5BTitle%5D%20OR%20clinical%20policy%5BTitle%5D%20OR%20position%20statement%5BTitle%5D)%20AND%20(%222024%2F12%2F08%22%5BEPDAT%5D%20%3A%20%222024%2F12%2F14%22%5BEPDAT%5D)&size=200. Both official routes were inaccessible in this hosted run; result count and page count are unavailable and complete pagination could not be performed. General web search was used only for discovery and cross-checking and does not establish completed source coverage.",
+      "status": "failed",
+      "sourceId": "pubmed-guidance",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://journalfeed.org/",
+      "notes": "JournalFeed official index/domain and a targeted 2024-12-08 through 2024-12-14 date search were checked. No additional eligible major emergency-care guidance was verified beyond items explicitly noted. Complete dated archive coverage could not be certified, so this manual check is not marked successful.",
+      "status": "failed",
+      "sourceId": "journalfeed",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://www.acep.org/patient-care/clinical-policies",
+      "notes": "ACEP official index/domain and a targeted 2024-12-08 through 2024-12-14 date search were checked. No additional eligible major emergency-care guidance was verified beyond items explicitly noted. Complete dated archive coverage could not be certified, so this manual check is not marked successful.",
+      "status": "failed",
+      "sourceId": "acep",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://professional.heart.org/en/guidelines-and-statements",
+      "notes": "AHA / ASA official index/domain and a targeted 2024-12-08 through 2024-12-14 date search were checked. No additional eligible major emergency-care guidance was verified beyond items explicitly noted. Targeted primary-source review verified the Dec 12 AHA scientific statement on rural lower-resourced stroke care and it was selected. Complete dated archive coverage could not be certified, so this manual check is not marked successful.",
+      "status": "failed",
+      "sourceId": "aha-asa",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://www.acc.org/guidelines",
+      "notes": "ACC official index/domain and a targeted 2024-12-08 through 2024-12-14 date search were checked. No additional eligible major emergency-care guidance was verified beyond items explicitly noted. Complete dated archive coverage could not be certified, so this manual check is not marked successful.",
+      "status": "failed",
+      "sourceId": "acc",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
+      "notes": "AAP official index/domain and a targeted 2024-12-08 through 2024-12-14 date search were checked. No additional eligible major emergency-care guidance was verified beyond items explicitly noted. Complete dated archive coverage could not be certified, so this manual check is not marked successful.",
+      "status": "failed",
+      "sourceId": "aap",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
+      "notes": "ACS official index/domain and a targeted 2024-12-08 through 2024-12-14 date search were checked. No additional eligible major emergency-care guidance was verified beyond items explicitly noted. Complete dated archive coverage could not be certified, so this manual check is not marked successful.",
+      "status": "failed",
+      "sourceId": "acs",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://www.ena.org/practice-resources",
+      "notes": "ENA official index/domain and a targeted 2024-12-08 through 2024-12-14 date search were checked. No additional eligible major emergency-care guidance was verified beyond items explicitly noted. Complete dated archive coverage could not be certified, so this manual check is not marked successful.",
+      "status": "failed",
+      "sourceId": "ena",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://www.saem.org/publications/grace",
+      "notes": "SAEM official index/domain and a targeted 2024-12-08 through 2024-12-14 date search were checked. No additional eligible major emergency-care guidance was verified beyond items explicitly noted. Complete dated archive coverage could not be certified, so this manual check is not marked successful.",
+      "status": "failed",
+      "sourceId": "saem",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://www.aaem.org/statements/",
+      "notes": "AAEM official index/domain and a targeted 2024-12-08 through 2024-12-14 date search were checked. No additional eligible major emergency-care guidance was verified beyond items explicitly noted. Complete dated archive coverage could not be certified, so this manual check is not marked successful.",
+      "status": "failed",
+      "sourceId": "aaem",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
+      "notes": "ASH official index/domain and a targeted 2024-12-08 through 2024-12-14 date search were checked. No additional eligible major emergency-care guidance was verified beyond items explicitly noted. The ASH annual meeting occurred during this interval; conference abstracts alone were not treated as final peer-reviewed publications for this backfill. Complete dated archive coverage could not be certified, so this manual check is not marked successful.",
+      "status": "failed",
+      "sourceId": "ash",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
+      "notes": "CHEST official index/domain and a targeted 2024-12-08 through 2024-12-14 date search were checked. No additional eligible major emergency-care guidance was verified beyond items explicitly noted. Relevant 2024 CHEST transfusion/airway guidance identified in targeted checking predates this interval. Complete dated archive coverage could not be certified, so this manual check is not marked successful.",
+      "status": "failed",
+      "sourceId": "chest",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://www.sccm.org/clinical-resources/guidelines",
+      "notes": "SCCM official index/domain and a targeted 2024-12-08 through 2024-12-14 date search were checked. No additional eligible major emergency-care guidance was verified beyond items explicitly noted. No new Dec 8-14 SCCM sepsis/critical-care guideline was verified; the queued adult critical-care ultrasonography focused update has a 2025 publisher date and remains queued. Complete dated archive coverage could not be certified, so this manual check is not marked successful.",
+      "status": "failed",
+      "sourceId": "sccm",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
+      "notes": "IDSA official index/domain and a targeted 2024-12-08 through 2024-12-14 date search were checked. No additional eligible major emergency-care guidance was verified beyond items explicitly noted. Complete dated archive coverage could not be certified, so this manual check is not marked successful.",
+      "status": "failed",
+      "sourceId": "idsa",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://www.acmt.net/statements/",
+      "notes": "ACMT official index/domain and a targeted 2024-12-08 through 2024-12-14 date search were checked. No additional eligible major emergency-care guidance was verified beyond items explicitly noted. Complete dated archive coverage could not be certified, so this manual check is not marked successful.",
+      "status": "failed",
+      "sourceId": "acmt",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://www.east.org/education-resources/practice-management-guidelines",
+      "notes": "EAST trauma official index/domain and a targeted 2024-12-08 through 2024-12-14 date search were checked. No additional eligible major emergency-care guidance was verified beyond items explicitly noted. Complete dated archive coverage could not be certified, so this manual check is not marked successful.",
+      "status": "failed",
+      "sourceId": "east-trauma",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://eso-stroke.org/guidelines/",
+      "notes": "ESO stroke official index/domain and a targeted 2024-12-08 through 2024-12-14 date search were checked. No additional eligible major emergency-care guidance was verified beyond items explicitly noted. Complete dated archive coverage could not be certified, so this manual check is not marked successful.",
+      "status": "failed",
+      "sourceId": "eso-stroke",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://www.acog.org/clinical",
+      "notes": "ACOG official index/domain and a targeted 2024-12-08 through 2024-12-14 date search were checked. No additional eligible major emergency-care guidance was verified beyond items explicitly noted. ACOG's disaster-preparedness committee statement was published online Dec 12 but was not selected because its focus is disaster preparedness and continuity rather than a new bedside acute-management recommendation. Complete dated archive coverage could not be certified, so this manual check is not marked successful.",
+      "status": "failed",
+      "sourceId": "acog",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    },
+    {
+      "url": "https://www.erc.edu/science-research/guidelines/",
+      "notes": "ERC official index/domain and a targeted 2024-12-08 through 2024-12-14 date search were checked. No additional eligible major emergency-care guidance was verified beyond items explicitly noted. Complete dated archive coverage could not be certified, so this manual check is not marked successful.",
+      "status": "failed",
+      "sourceId": "erc",
+      "checkedAt": "2026-10-28T12:18:00.000Z"
+    }
+  ],
+  "coverageEnd": "2024-12-14",
+  "coverageStart": "2024-12-08",
+  "finalCrossCheck": [
+    "Major emergency-medicine RCT cross-check: official configured PubMed enumeration failed; targeted discovery did not identify an additional emergency-journal RCT meeting the selection threshold.",
+    "Major NEJM/JAMA/Lancet/BMJ acute-care trial cross-check: ADAPT-Sepsis, published online Dec 9, was primary-source reviewed and selected; the existing SAHARA randomized trial remains retained in this window.",
+    "ACEP clinical-policy cross-check: no new Dec 8-14 ACEP clinical policy was verified; complete dated archive coverage remains unproven.",
+    "AHA/ASA cross-check: the Dec 12 AHA scientific statement on rural lower-resourced stroke systems was verified from PubMed, AHA material, and open full text and selected.",
+    "SCCM/sepsis cross-check: no new Dec 8-14 SCCM guideline was verified; ADAPT-Sepsis is a trial rather than society guidance.",
+    "IDSA cross-check: no new Dec 8-14 emergency-relevant IDSA guideline was verified; complete archive coverage remains incomplete.",
+    "CHEST cross-check: no new Dec 8-14 major CHEST guidance was verified; relevant 2024 transfusion guidance predates this interval.",
+    "Hematology/bleeding/anticoagulation cross-check: the queued multidisciplinary severe-OAC-bleeding guidance was fully reviewed, but publisher metadata show the accepted manuscript was first available online Nov 8, 2024, so it is assigned to the Nov 3-9 window rather than this Dec window.",
+    "Toxicology cross-check: no new Dec 8-14 ACMT/AACT statement was verified; complete archive coverage remains incomplete.",
+    "Trauma cross-check: no new Dec 8-14 major ACS/EAST trauma guideline was verified; complete archive coverage remains incomplete.",
+    "Pediatric emergency cross-check: no new Dec 8-14 major pediatric emergency guidance was verified; complete archive coverage remains incomplete.",
+    "Obstetric emergency cross-check: ACOG's disaster-preparedness statement was identified but excluded because it does not establish a new bedside acute obstetric treatment pathway.",
+    "Historical-context/correction cross-check: the Dec 17, 2025 JAMA correction to ADAPT-Sepsis was reviewed; the current corrected article clarifies the noninferiority approach and corrects the first panel of eFigure 3. No retraction was identified.",
+    "First-online reconciliation cross-check: for the severe-OAC-bleeding guidance, the publisher explicitly lists accepted manuscript online Nov 8, 2024 and final article published online Dec 13, 2024; the backfill uses Nov 8 as the earliest public electronic date."
+  ],
+  "excludedCandidates": [
+    {
+      "reason": "Published online Dec 12, 2024, but not selected because it is principally disaster-preparedness and continuity-of-services guidance rather than a new bedside acute obstetric management pathway.",
+      "identifier": "ACOG Committee Statement: Preparing for Disasters: Addressing Critical Obstetric and Gynecologic Needs of Patients"
+    },
+    {
+      "reason": "Meeting abstracts and conference presentations were not treated as final primary publications without a qualifying peer-reviewed paper or formal guideline.",
+      "identifier": "2024 ASH Annual Meeting abstracts, Dec 7-10"
+    }
+  ],
+  "finalCrossCheckCompleted": false,
+  "guidelineSearchCompleted": false
+}

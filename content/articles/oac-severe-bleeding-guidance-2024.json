@@ -1,0 +1,62 @@
+{
+  "id": "oac-severe-bleeding-guidance-2024",
+  "doi": "10.1055/a-2464-2887",
+  "pmid": "39515380",
+  "title": "Multidisciplinary Expert Guidance for the Management of Severe Bleeding on Oral Anticoagulation: An Algorithm for Practicing Clinicians",
+  "pinned": false,
+  "sample": false,
+  "source": "Thrombosis and Haemostasis",
+  "status": "published",
+  "topics": [
+    "trauma",
+    "guidelines"
+  ],
+  "authors": [
+    "Siraj Mithoowani",
+    "Tammy Bungard",
+    "Lana Castellucci",
+    "Mark Crowther",
+    "Kerstin de Wit",
+    "Dar Dowlatshahi",
+    "Nauzer Forbes",
+    "Katie Lin",
+    "Deborah M Siegal"
+  ],
+  "ranking": {
+    "design": 2,
+    "novelty": 4,
+    "edImpact": 5,
+    "guidelineRelevance": 4
+  },
+  "section": "Guidelines & Statements",
+  "summary": "A multidisciplinary expert panel developed a point-of-care algorithm for severe oral-anticoagulant bleeding, defined pragmatically by hemodynamic instability, critical-site bleeding, or limb-threatening bleeding. For warfarin, it favors IV vitamin K plus 4-factor PCC over plasma when PCC is available; for dabigatran it uses idarucizumab, while factor-Xa-inhibitor reversal requires individualized choice between andexanet and 4F-PCC. The guidance highlights ANNEXA-I: andexanet improved hemostatic efficacy in factor-Xa-inhibitor ICH (63.9% vs 52.4%) but increased thromboembolic events (10.3% vs 5.6%) without significant mortality or functional benefit.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Urgent severe warfarin bleeding is managed with IV vitamin K plus 4F-PCC when available; in a cited randomized trial, rapid INR correction was 62% with 4F-PCC versus 10% with plasma.",
+    "For dabigatran, idarucizumab 5 g IV is the specific reversal agent; RE-VERSE AD reported 68% hemostasis within 24 hours and 6% thrombotic events by 90 days.",
+    "For factor Xa inhibitor ICH, ANNEXA-I showed better hemostatic efficacy with andexanet than usual care (63.9% vs 52.4%) but more thromboembolic events (10.3% vs 5.6%) and no significant mortality or functional-status benefit.",
+    "Thrombotic events occur in roughly 4% to 10% within 30 days after DOAC-related severe bleeding, so reassessment for anticoagulation resumption is important, but optimal timing is uncertain."
+  ],
+  "studyType": "Consensus statement",
+  "comparator": "No single comparator; the document synthesizes reversal options and supporting trials/observational evidence.",
+  "population": "Patients presenting with acute severe bleeding while taking warfarin or a direct oral anticoagulant.",
+  "sampleSize": null,
+  "shortTitle": "Severe oral-anticoagulant bleeding algorithm",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "This is multidisciplinary expert guidance rather than a formally GRADE-rated society guideline, and several reversal recommendations rely on single-arm or observational evidence. The optimal timing of anticoagulation resumption remains uncertain, and local protocols plus newer specialty guidance should govern current operational details.",
+  "retrievedAt": "2026-10-28",
+  "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12283145/",
+  "intervention": "Protocolized multidisciplinary stabilization, source control, anticoagulant-specific reversal or hemostatic therapy, and individualized anticoagulation resumption.",
+  "whyItMatters": "This gives ED clinicians a practical framework for identifying truly severe anticoagulant-associated bleeding, choosing reversal therapy, and planning anticoagulation resumption. It also cautions against treating andexanet as uniformly superior to PCC because improved hemostasis must be balanced against thrombosis and the absence of demonstrated mortality or functional benefit.",
+  "evidenceNotes": "Historical backfill and queued-candidate resolution. The open-access full text and publisher PDF metadata were reviewed. The publisher explicitly lists Accepted Manuscript online: 2024-11-08 and Article published online: 2024-12-13; because this project uses the earliest public electronic version, firstOnlineDate is 2024-11-08 and the article is associated with the 2024-11-03 through 2024-11-09 window rather than the December final-article date. PMID 39515380 and DOI 10.1055/a-2464-2887 were verified. A targeted correction/retraction search did not identify a correction or retraction.",
+  "discoveredDate": "2026-10-28",
+  "fullTextStatus": "Open-access full text available",
+  "firstOnlineDate": "2024-11-08",
+  "primaryEndpoint": "Expert guidance and point-of-care algorithm for severe oral-anticoagulant bleeding; there is no single trial primary endpoint.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": "Multidisciplinary expert guidance based on literature review and specialty expertise; no formal GRADE strength was reported.",
+  "sitePublishedDate": "2026-10-28"
+}

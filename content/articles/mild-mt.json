@@ -1,0 +1,60 @@
+{
+  "id": "mild-mt",
+  "doi": "10.1056/NEJMoa2609149",
+  "pmid": "42929671",
+  "title": "Trial of Endovascular Therapy for Mild Stroke with Large-Vessel Occlusion",
+  "pinned": false,
+  "sample": false,
+  "source": "New England Journal of Medicine",
+  "status": "published",
+  "topics": [
+    "neurology"
+  ],
+  "authors": [
+    "Jianmin Liu",
+    "Tingyu Yi",
+    "Pengfei Xing",
+    "Meihua Wu",
+    "Liyong Zhang",
+    "Tuanyuan Zheng",
+    "Mingzhu Huang",
+    "et al."
+  ],
+  "ranking": {
+    "design": 5,
+    "novelty": 5,
+    "edImpact": 5,
+    "guidelineRelevance": 5
+  },
+  "section": "Practice-Changing / High Priority",
+  "summary": "MILD-MT randomized 304 patients in China with anterior-circulation large-vessel occlusion, NIHSS less than 6, a small infarct core, and substantial perfusion mismatch within 24 hours to thrombectomy plus medical management or medical management alone; 300 were included in the modified intention-to-treat analysis. Excellent 90-day outcome (mRS 0-1) occurred in 69.4% versus 50.0% (OR 2.32, 95% CI 1.41-3.81; P<0.001). Symptomatic intracranial hemorrhage occurred in 3 patients in each group, while serious procedure-related complications occurred in 19 of 144 thrombectomy patients (13.2%).",
+  "backfill": false,
+  "excluded": false,
+  "findings": [
+    "mRS 0-1 at 90 days occurred in 69.4% with thrombectomy versus 50.0% with medical management alone (OR 2.32, 95% CI 1.41-3.81; P<0.001).",
+    "Symptomatic intracranial hemorrhage within 48 hours occurred in 3 patients in each group.",
+    "Serious procedure-related complications occurred in 19 of 144 thrombectomy patients (13.2%).",
+    "One death occurred among all participants, in the thrombectomy group."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "Medical management alone.",
+  "population": "Patients with anterior-circulation large-vessel occlusion ischemic stroke, NIHSS less than 6, small infarct core, and substantial perfusion mismatch within 24 hours.",
+  "sampleSize": 304,
+  "shortTitle": "MILD-MT: thrombectomy for mild-deficit LVO stroke",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "The study was open-label, conducted in China, and selected patients using small-core and large-perfusion-mismatch imaging criteria. Serious procedure-related complications occurred in 13.2%, and applicability outside the studied population remains uncertain.",
+  "retrievedAt": "2026-10-28",
+  "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42929671/",
+  "intervention": "Endovascular therapy plus medical management.",
+  "whyItMatters": "The trial challenges a default medical-management approach for mild-deficit LVO when perfusion imaging shows substantial tissue at risk. For a highly selected patient with mild symptoms and LVO, early thrombectomy-center consultation is more defensible, but these data do not support indiscriminate EVT for every low-NIHSS LVO.",
+  "evidenceNotes": "Abstract reviewed; full text unavailable. Primary PubMed record and DOI metadata were verified.",
+  "discoveredDate": "2026-10-28",
+  "fullTextStatus": "Abstract available; full text paywalled",
+  "firstOnlineDate": "2026-10-23",
+  "primaryEndpoint": "Excellent functional outcome, defined as modified Rankin scale 0 or 1, at 90 days.",
+  "reviewedMaterial": "abstract",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-10-28"
+}

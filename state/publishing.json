@@ -1,19 +1,10 @@
 {
   "queue": [
     {
-      "doi": "10.1161/CIRCULATIONAHA.126.080866",
-      "pmid": "42895015",
-      "reason": "ICare-FASTER is a large ED stepped-wedge cluster-randomized trial with a 13% adjusted reduction in ED length of stay using point-of-care hs-cTnI in an accelerated pathway; held because the five-record LA-day publication cap was reached and primary full text was not reviewed.",
-      "status": "needs-primary-review",
-      "sourceId": "pubmed-general",
-      "canonicalUrl": "https://doi.org/10.1161/CIRCULATIONAHA.126.080866",
-      "discoveredDate": "2026-10-26"
-    },
-    {
       "doi": null,
       "pmid": null,
-      "reason": "ASH lists 2026 immune thrombocytopenia guidance. Verify first-online date, exact recommendations, and acute severe-bleeding relevance before considering publication.",
-      "status": "needs-primary-review",
+      "reason": "2026 ASH immune thrombocytopenia guidance was first online August 19, 2026, before the current recovery interval, and it is not a new emergency severe-bleeding update.",
+      "status": "rejected",
       "sourceId": "ash",
       "canonicalUrl": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/immune-thrombocytopenia-guidelines",
       "discoveredDate": "2026-10-26"
@@ -21,8 +12,8 @@
     {
       "doi": null,
       "pmid": null,
-      "reason": "EAST lists a 2026 BCVI update. Verify first-online date and recommendation changes against the official guideline before considering publication.",
-      "status": "needs-primary-review",
+      "reason": "Official EAST 2026 BCVI page is a guideline under development, not a final published guideline; retain for future first-online and recommendation verification.",
+      "status": "held",
       "sourceId": "east-trauma",
       "canonicalUrl": "https://www.east.org/education-resources/practice-management-guidelines/details/142/evaluation-and-management-of-blunt-cerebrovascular-injury-bcvi",
       "discoveredDate": "2026-10-26"
@@ -30,20 +21,20 @@
   ],
   "sources": {
     "pubmed-em": {
-      "lastError": "NCBI E-utilities discovery endpoint inaccessible from hosted web environment; checkpoint not advanced.",
-      "lastAttemptAt": "2026-10-27T02:08:36.956Z"
+      "lastError": "E-utilities and official PubMed HTML fallback were inaccessible to the hosted browser for the exact 2026-09-27 through 2026-10-28 edat query; result count and complete pagination could not be verified, so checkpoint was not advanced.",
+      "lastAttemptAt": "2026-10-28T09:10:06.723Z"
     },
     "pubmed-general": {
-      "lastError": "NCBI E-utilities discovery endpoint inaccessible from hosted web environment; checkpoint not advanced.",
-      "lastAttemptAt": "2026-10-27T02:08:36.956Z"
+      "lastError": "E-utilities and official PubMed HTML fallback were inaccessible to the hosted browser for the exact 2026-09-27 through 2026-10-28 edat query; result count and complete pagination could not be verified, so checkpoint was not advanced.",
+      "lastAttemptAt": "2026-10-28T09:10:06.723Z"
     },
     "pubmed-guidance": {
-      "lastError": "NCBI E-utilities guidance endpoint inaccessible from hosted web environment; checkpoint not advanced.",
-      "lastAttemptAt": "2026-10-27T02:08:36.956Z"
+      "lastError": "E-utilities and official PubMed HTML fallback were inaccessible to the hosted browser for the exact 2026-09-27 through 2026-10-28 edat query; the separate official-society sweep completed, but this PubMed checkpoint was not advanced.",
+      "lastAttemptAt": "2026-10-28T09:10:06.723Z"
     },
     "pubmed-specialty": {
-      "lastError": "NCBI E-utilities discovery endpoint inaccessible from hosted web environment; checkpoint not advanced.",
-      "lastAttemptAt": "2026-10-27T02:08:36.956Z"
+      "lastError": "E-utilities and official PubMed HTML fallback were inaccessible to the hosted browser for the exact 2026-09-27 through 2026-10-28 edat query; result count and complete pagination could not be verified, so checkpoint was not advanced.",
+      "lastAttemptAt": "2026-10-28T09:10:06.723Z"
     }
   },
   "schemaVersion": 1,
@@ -56,9 +47,9 @@
     "2024-06-17"
   ],
   "lastSuccessfulDeployment": {
-    "at": "2026-10-28T07:47:08.982381+00:00",
-    "commit": "a63ab15d8a136d2b16fb40e8d497e367a239587a",
-    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/40652153392",
+    "at": "2026-10-28T14:44:57.411471+00:00",
+    "commit": "83108427199717728cda86df7d78736b85fa531d",
+    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/40708761183",
     "url": "https://emweekly.samermetri.com/"
   },
   "lastSuccessfulResearchCheck": null
