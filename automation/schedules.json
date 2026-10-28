@@ -11,7 +11,8 @@
     "newChatEachRun": false,
     "firstSuccessfulScheduledRun": "https://chatgpt.com/c/6ae0035f-7e54-8326-98c6-a163fc0b0db4",
     "instructionsFile": "automation/daily-schedule.md",
-    "instructionDelivery": "Complete operational workflow and owner editorial requirements saved directly in task; database supplies reference data only"
+    "instructionDelivery": "Complete operational workflow and owner editorial requirements saved directly in task; database supplies reference data only",
+    "historicalIsolationInstructionsSavedAt": "2026-10-28T03:56:00Z"
   },
   "weekly": {
     "hour": 3,
@@ -34,7 +35,8 @@
       "firstEligibleCoverageStart": "2026-10-26",
       "firstEligibleCoverageEnd": "2026-11-01",
       "firstScheduledIssue": "2026-11-02"
-    }
+    },
+    "historicalIsolationInstructionsSavedAt": "2026-10-28T03:57:00Z"
   },
   "enableOnlyAfter": "automation/cloud-smoke-test.md passes in the intended cloud environment",
   "runner": "ChatGPT cloud; no local heartbeat or API billing",
@@ -62,5 +64,29 @@
     "status": "verified timer-triggered polling and publication",
     "lastVerifiedPushRun": "https://github.com/samermetri/em-weekly/actions/runs/40435205845",
     "lastVerifiedScheduleRun": "https://github.com/samermetri/em-weekly/actions/runs/40561173202"
+  },
+  "historical": {
+    "automationId": "6ae17273b1548190bdd368011e2ebba3",
+    "name": "EM Weekly historical literature backfill",
+    "schedule": "Hourly; Pacific Time; skip starting research from 02:00 through 03:59 Pacific",
+    "newChatEachRun": false,
+    "instructionsFile": "automation/backfill-schedule.md",
+    "instructionDelivery": "Complete operational workflow and owner editorial requirements saved directly in task",
+    "rangeStart": "2024-10-27",
+    "rangeEnd": "2026-10-26",
+    "status": "active; first hosted writer persisted; deployed acknowledgement pending",
+    "taskUrl": "https://chatgpt.com/scheduled?automationId=6ae17273b1548190bdd368011e2ebba3&automationSource=cloud",
+    "createdAt": "2026-10-28T03:56:00Z",
+    "chatId": "6ae172e2-08b8-8329-89a8-bb1ee0a389b8",
+    "initialDatasetAcknowledgedBy": "https://github.com/samermetri/em-weekly/actions/runs/40629779502",
+    "blockedSearchRetry": "No more than once per LA day per blocked window; advance another eligible window or queued candidate",
+    "firstWriteApproval": "Owner approved Allow Supabase for this conversation; applied in UI",
+    "firstHostedWrite": {
+      "stateRevision": 2,
+      "auditId": "backfill-2024-10-27",
+      "auditRevision": 1,
+      "result": "partial source coverage honestly retained; no new articles claimed",
+      "chatUrl": "https://chatgpt.com/c/6ae172e2-08b8-8329-89a8-bb1ee0a389b8"
+    }
   }
 }
