@@ -1,0 +1,178 @@
+{
+  "date": "2026-10-27",
+  "sources": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=200&term=(%22Ann%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Acad%20Emerg%20Med%22%5BJournal%5D%20OR%20%22J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Am%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Emerg%20Med%20J%22%5BJournal%5D%20OR%20%22J%20Am%20Coll%20Emerg%20Physicians%20Open%22%5BJournal%5D%20OR%20%22West%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Resuscitation%22%5BJournal%5D%20OR%20%22Prehosp%20Emerg%20Care%22%5BJournal%5D)%20AND%20(2024%2F10%2F27%5BDate%20-%20Publication%5D%20%3A%202024%2F11%2F02%5BDate%20-%20Publication%5D)",
+      "notes": "Exact configured query with explicit 2024-10-27 through 2024-11-02 publication-date interval attempted through NCBI E-utilities. Retrieval was inaccessible. Official PubMed HTML fallback with the same query and size=200 was also inaccessible. Exact counts and pagination could not be verified; source check remains incomplete.",
+      "status": "failed",
+      "sourceId": "pubmed-em",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=200&term=(%22N%20Engl%20J%20Med%22%5BJournal%5D%20OR%20%22JAMA%22%5BJournal%5D%20OR%20%22BMJ%22%5BJournal%5D%20OR%20%22Lancet%22%5BJournal%5D%20OR%20%22JAMA%20Intern%20Med%22%5BJournal%5D%20OR%20%22JAMA%20Netw%20Open%22%5BJournal%5D%20OR%20%22Nat%20Med%22%5BJournal%5D)%20AND%20(emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest)%20AND%20(2024%2F10%2F27%5BDate%20-%20Publication%5D%20%3A%202024%2F11%2F02%5BDate%20-%20Publication%5D)",
+      "notes": "Exact configured query with explicit 2024-10-27 through 2024-11-02 publication-date interval attempted through NCBI E-utilities. Retrieval was inaccessible. Official PubMed HTML fallback with the same query and size=200 was also inaccessible. Exact counts and pagination could not be verified; source check remains incomplete.",
+      "status": "failed",
+      "sourceId": "pubmed-general",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=200&term=(%22Circulation%22%5BJournal%5D%20OR%20%22Stroke%22%5BJournal%5D%20OR%20%22Chest%22%5BJournal%5D%20OR%20%22Crit%20Care%20Med%22%5BJournal%5D%20OR%20%22Intensive%20Care%20Med%22%5BJournal%5D%20OR%20%22Clin%20Infect%20Dis%22%5BJournal%5D%20OR%20%22Blood%22%5BJournal%5D%20OR%20%22Pediatrics%22%5BJournal%5D%20OR%20%22Obstet%20Gynecol%22%5BJournal%5D%20OR%20%22J%20Trauma%20Acute%20Care%20Surg%22%5BJournal%5D%20OR%20%22Clin%20Toxicol%20(Phila)%22%5BJournal%5D%20OR%20%22Kidney%20Int%22%5BJournal%5D%20OR%20%22Am%20J%20Psychiatry%22%5BJournal%5D)%20AND%20(emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest)%20AND%20(2024%2F10%2F27%5BDate%20-%20Publication%5D%20%3A%202024%2F11%2F02%5BDate%20-%20Publication%5D)",
+      "notes": "Exact configured query with explicit 2024-10-27 through 2024-11-02 publication-date interval attempted through NCBI E-utilities. Retrieval was inaccessible. Official PubMed HTML fallback with the same query and size=200 was also inaccessible. Exact counts and pagination could not be verified; source check remains incomplete.",
+      "status": "failed",
+      "sourceId": "pubmed-specialty",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=200&term=(emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest)%20AND%20(guideline%5BPublication%20Type%5D%20OR%20practice%20guideline%5BPublication%20Type%5D%20OR%20consensus%5BTitle%5D%20OR%20scientific%20statement%5BTitle%5D%20OR%20clinical%20policy%5BTitle%5D%20OR%20position%20statement%5BTitle%5D)%20AND%20(2024%2F10%2F27%5BDate%20-%20Publication%5D%20%3A%202024%2F11%2F02%5BDate%20-%20Publication%5D)",
+      "notes": "Exact configured query with explicit 2024-10-27 through 2024-11-02 publication-date interval attempted through NCBI E-utilities. Retrieval was inaccessible. Official PubMed HTML fallback with the same query and size=200 was also inaccessible. Exact counts and pagination could not be verified; source check remains incomplete.",
+      "status": "failed",
+      "sourceId": "pubmed-guidance",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://www.aaem.org/statements/",
+      "notes": "Not comprehensively checked in this run; no successful interval-wide discovery or guidance coverage is asserted.",
+      "status": "failed",
+      "sourceId": "aaem",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
+      "notes": "Not comprehensively checked in this run; no successful interval-wide discovery or guidance coverage is asserted.",
+      "status": "failed",
+      "sourceId": "aap",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://www.acc.org/guidelines",
+      "notes": "Not comprehensively checked in this run; no successful interval-wide discovery or guidance coverage is asserted.",
+      "status": "failed",
+      "sourceId": "acc",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://www.acep.org/patient-care/clinical-policies",
+      "notes": "Not comprehensively checked in this run; no successful interval-wide discovery or guidance coverage is asserted.",
+      "status": "failed",
+      "sourceId": "acep",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://www.acmt.net/statements/",
+      "notes": "Not comprehensively checked in this run; no successful interval-wide discovery or guidance coverage is asserted.",
+      "status": "failed",
+      "sourceId": "acmt",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://www.acog.org/clinical",
+      "notes": "Not comprehensively checked in this run; no successful interval-wide discovery or guidance coverage is asserted.",
+      "status": "failed",
+      "sourceId": "acog",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
+      "notes": "Official ACS material identified a revised traumatic-brain-injury best-practices release announced October 28, 2024, but the primary guideline recommendations and interval-wide ACS check were not fully appraised; source remains incomplete.",
+      "status": "failed",
+      "sourceId": "acs",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://professional.heart.org/en/guidelines-and-statements",
+      "notes": "Not comprehensively checked in this run; no successful interval-wide discovery or guidance coverage is asserted.",
+      "status": "failed",
+      "sourceId": "aha-asa",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
+      "notes": "Not comprehensively checked in this run; no successful interval-wide discovery or guidance coverage is asserted.",
+      "status": "failed",
+      "sourceId": "ash",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
+      "notes": "Not comprehensively checked in this run; no successful interval-wide discovery or guidance coverage is asserted.",
+      "status": "failed",
+      "sourceId": "chest",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://www.east.org/education-resources/practice-management-guidelines",
+      "notes": "Not comprehensively checked in this run; no successful interval-wide discovery or guidance coverage is asserted.",
+      "status": "failed",
+      "sourceId": "east-trauma",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://www.ena.org/practice-resources",
+      "notes": "Not comprehensively checked in this run; no successful interval-wide discovery or guidance coverage is asserted.",
+      "status": "failed",
+      "sourceId": "ena",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://www.erc.edu/science-research/guidelines/",
+      "notes": "Not comprehensively checked in this run; no successful interval-wide discovery or guidance coverage is asserted.",
+      "status": "failed",
+      "sourceId": "erc",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://eso-stroke.org/guidelines/",
+      "notes": "Not comprehensively checked in this run; no successful interval-wide discovery or guidance coverage is asserted.",
+      "status": "failed",
+      "sourceId": "eso-stroke",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
+      "notes": "Not comprehensively checked in this run; no successful interval-wide discovery or guidance coverage is asserted.",
+      "status": "failed",
+      "sourceId": "idsa",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://journalfeed.org/",
+      "notes": "Not comprehensively checked in this run; no successful interval-wide discovery or guidance coverage is asserted.",
+      "status": "failed",
+      "sourceId": "journalfeed",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://www.saem.org/publications/grace",
+      "notes": "Not comprehensively checked in this run; no successful interval-wide discovery or guidance coverage is asserted.",
+      "status": "failed",
+      "sourceId": "saem",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    },
+    {
+      "url": "https://www.sccm.org/clinical-resources/guidelines",
+      "notes": "Not comprehensively checked in this run; no successful interval-wide discovery or guidance coverage is asserted.",
+      "status": "failed",
+      "sourceId": "sccm",
+      "checkedAt": "2026-10-28T04:04:51.905106+00:00"
+    }
+  ],
+  "coverageEnd": "2024-11-02",
+  "coverageStart": "2024-10-27",
+  "finalCrossCheck": [
+    "Major emergency-medicine RCTs: incomplete; existing IVIO and PARAMEDIC-3 route trials retained.",
+    "NEJM/JAMA/Lancet/BMJ acute-care trials: incomplete.",
+    "ACEP clinical policies: incomplete.",
+    "AHA/ASA guidelines and scientific statements: incomplete.",
+    "SCCM/sepsis guidance: incomplete.",
+    "IDSA guidance: incomplete.",
+    "CHEST guidance: incomplete.",
+    "Hematology guidance relevant to bleeding or anticoagulation: incomplete.",
+    "Toxicology statements: incomplete.",
+    "Trauma guidance: ACS revised TBI best-practices release identified; primary guideline appraisal pending.",
+    "Pediatric emergency guidance: incomplete.",
+    "Obstetric emergency guidance: incomplete."
+  ],
+  "excludedCandidates": [],
+  "finalCrossCheckCompleted": false,
+  "guidelineSearchCompleted": false
+}

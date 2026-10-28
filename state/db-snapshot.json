@@ -1,5 +1,5 @@
 {
-  "snapshotHash": "d3fbdd0d271c3236f8e97dd546162f9c75a6d88f786318bba64d61e0f3da37af",
+  "snapshotHash": "fb5dc87d2d17703a92b6a9369f43a70ab1ea16896f68b3dd7ebba1836b45649c",
   "documentRevisions": {
     "article:aap-pediatric-uti-2026": 2,
     "article:acs-guideline-2025": 1,
@@ -29,6 +29,7 @@
     "article:swift-prehospital-whole-blood": 1,
     "article:vasspr": 3,
     "audit:2026-10-26": 1,
+    "audit:backfill-2024-10-27": 1,
     "audit:backfill-initial-2024-2025": 1,
     "audit:backfill-initial-2025-2026": 1,
     "audit:cloud-connection-test": 1,
@@ -38,8 +39,8 @@
     "probe:hosted-2026-10-26": 1,
     "probe:scheduled-2026-10-26": 1,
     "probe:weekly-connection-2026-10-26": 2,
-    "state:backfill": 1,
+    "state:backfill": 2,
     "state:publishing": 4
   },
-  "revisionFingerprint": "5fd1ad57031961b25305b749991e9946"
+  "revisionFingerprint": "f2eacd2d883a37526c689a14adc9afe3"
 }

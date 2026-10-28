@@ -1,1060 +1,1060 @@
 {
   "id": "backfill",
-  "schemaVersion": 1,
-  "rangeStart": "2024-10-27",
-  "rangeEnd": "2026-10-26",
-  "startedAt": "2026-10-27T20:58:44.597134+00:00",
-  "updatedAt": "2026-10-28T02:49:59.002174+00:00",
   "status": "in-progress",
   "windows": [
     {
-      "start": "2024-10-27",
       "end": "2024-11-02",
+      "notes": "Partial: existing IVIO and PARAMEDIC-3 route articles retained. Exact configured NCBI searches and PubMed HTML fallback were inaccessible in this run, so counts/pagination and comprehensive source coverage remain outstanding. Separate society/guideline checks and 12-part final cross-check are incomplete. ACS revised TBI guidance announced 2024-10-28 remains queued for primary appraisal.",
+      "start": "2024-10-27",
       "status": "partial",
-      "auditId": "backfill-initial-2024-2025",
+      "auditId": "backfill-2024-10-27",
       "articleIds": [
         "ivio-vascular-access-2024",
         "paramedic-3-drug-route-2024"
-      ],
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending."
+      ]
     },
     {
-      "start": "2024-11-03",
       "end": "2024-11-09",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2024-11-03",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2024-11-10",
       "end": "2024-11-16",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2024-11-10",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2024-11-17",
       "end": "2024-11-23",
+      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "start": "2024-11-17",
       "status": "partial",
       "auditId": "backfill-initial-2024-2025",
       "articleIds": [
         "balance-bloodstream-antibiotics-2024"
-      ],
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending."
+      ]
     },
     {
-      "start": "2024-11-24",
       "end": "2024-11-30",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2024-11-24",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2024-12-01",
       "end": "2024-12-07",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2024-12-01",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2024-12-08",
       "end": "2024-12-14",
+      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "start": "2024-12-08",
       "status": "partial",
       "auditId": "backfill-initial-2024-2025",
       "articleIds": [
         "sahara-transfusion-sah-2024"
-      ],
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending."
+      ]
     },
     {
-      "start": "2024-12-15",
       "end": "2024-12-21",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2024-12-15",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2024-12-22",
       "end": "2024-12-28",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2024-12-22",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2024-12-29",
       "end": "2025-01-04",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2024-12-29",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-01-05",
       "end": "2025-01-11",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-01-05",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-01-12",
       "end": "2025-01-18",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-01-12",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-01-19",
       "end": "2025-01-25",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-01-19",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-01-26",
       "end": "2025-02-01",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-01-26",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-02-02",
       "end": "2025-02-08",
+      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "start": "2025-02-02",
       "status": "partial",
       "auditId": "backfill-initial-2024-2025",
       "articleIds": [
         "distal-thrombectomy-2025",
         "escape-mevo-thrombectomy-2025"
-      ],
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending."
+      ]
     },
     {
-      "start": "2025-02-09",
       "end": "2025-02-15",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-02-09",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-02-16",
       "end": "2025-02-22",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-02-16",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-02-23",
       "end": "2025-03-01",
+      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "start": "2025-02-23",
       "status": "partial",
       "auditId": "backfill-initial-2024-2025",
       "articleIds": [
         "acs-guideline-2025"
-      ],
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending."
+      ]
     },
     {
-      "start": "2025-03-02",
       "end": "2025-03-08",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-03-02",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-03-09",
       "end": "2025-03-15",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-03-09",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-03-16",
       "end": "2025-03-22",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-03-16",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-03-23",
       "end": "2025-03-29",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-03-23",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-03-30",
       "end": "2025-04-05",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-03-30",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-04-06",
       "end": "2025-04-12",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-04-06",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-04-13",
       "end": "2025-04-19",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-04-13",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-04-20",
       "end": "2025-04-26",
+      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "start": "2025-04-20",
       "status": "partial",
       "auditId": "backfill-initial-2024-2025",
       "articleIds": [
         "remap-cap-hydrocortisone-2025"
-      ],
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending."
+      ]
     },
     {
-      "start": "2025-04-27",
       "end": "2025-05-03",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-04-27",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-05-04",
       "end": "2025-05-10",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-05-04",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-05-11",
       "end": "2025-05-17",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-05-11",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-05-18",
       "end": "2025-05-24",
+      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "start": "2025-05-18",
       "status": "partial",
       "auditId": "backfill-initial-2024-2025",
       "articleIds": [
         "eso-eans-ich-guideline-2025"
-      ],
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending."
+      ]
     },
     {
-      "start": "2025-05-25",
       "end": "2025-05-31",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-05-25",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-06-01",
       "end": "2025-06-07",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-06-01",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-06-08",
       "end": "2025-06-14",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-06-08",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-06-15",
       "end": "2025-06-21",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-06-15",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-06-22",
       "end": "2025-06-28",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-06-22",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-06-29",
       "end": "2025-07-05",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-06-29",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-07-06",
       "end": "2025-07-12",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-07-06",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-07-13",
       "end": "2025-07-19",
+      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "start": "2025-07-13",
       "status": "partial",
       "auditId": "backfill-initial-2024-2025",
       "articleIds": [
         "idsa-complicated-uti-2025"
-      ],
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending."
+      ]
     },
     {
-      "start": "2025-07-20",
       "end": "2025-07-26",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-07-20",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-07-27",
       "end": "2025-08-02",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-07-27",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-08-03",
       "end": "2025-08-09",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-08-03",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-08-10",
       "end": "2025-08-16",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-08-10",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-08-17",
       "end": "2025-08-23",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-08-17",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-08-24",
       "end": "2025-08-30",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-08-24",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-08-31",
       "end": "2025-09-06",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-08-31",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-09-07",
       "end": "2025-09-13",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-09-07",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-09-14",
       "end": "2025-09-20",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-09-14",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-09-21",
       "end": "2025-09-27",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-09-21",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-09-28",
       "end": "2025-10-04",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-09-28",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-10-05",
       "end": "2025-10-11",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-10-05",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-10-12",
       "end": "2025-10-18",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-10-12",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-10-19",
       "end": "2025-10-25",
+      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "start": "2025-10-19",
       "status": "partial",
       "auditId": "backfill-initial-2024-2025",
       "articleIds": [
         "aha-adult-als-2025"
-      ],
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending."
+      ]
     },
     {
-      "start": "2025-10-26",
       "end": "2025-11-01",
+      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "start": "2025-10-26",
       "status": "partial",
       "auditId": "backfill-initial-2025-2026",
       "articleIds": [
         "andromeda-shock-2"
-      ],
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending."
+      ]
     },
     {
-      "start": "2025-11-02",
       "end": "2025-11-08",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-11-02",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-11-09",
       "end": "2025-11-15",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-11-09",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-11-16",
       "end": "2025-11-22",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-11-16",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-11-23",
       "end": "2025-11-29",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-11-23",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-11-30",
       "end": "2025-12-06",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-11-30",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-12-07",
       "end": "2025-12-13",
+      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "start": "2025-12-07",
       "status": "partial",
       "auditId": "backfill-initial-2025-2026",
       "articleIds": [
         "rsi-ketamine-etomidate-2025"
-      ],
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending."
+      ]
     },
     {
-      "start": "2025-12-14",
       "end": "2025-12-20",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-12-14",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-12-21",
       "end": "2025-12-27",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-12-21",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2025-12-28",
       "end": "2026-01-03",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2025-12-28",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-01-04",
       "end": "2026-01-10",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-01-04",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-01-11",
       "end": "2026-01-17",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-01-11",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-01-18",
       "end": "2026-01-24",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-01-18",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-01-25",
       "end": "2026-01-31",
+      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "start": "2026-01-25",
       "status": "partial",
       "auditId": "backfill-initial-2025-2026",
       "articleIds": [
         "aha-asa-acute-ischemic-stroke-2026"
-      ],
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending."
+      ]
     },
     {
-      "start": "2026-02-01",
       "end": "2026-02-07",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-02-01",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-02-08",
       "end": "2026-02-14",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-02-08",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-02-15",
       "end": "2026-02-21",
+      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "start": "2026-02-15",
       "status": "partial",
       "auditId": "backfill-initial-2025-2026",
       "articleIds": [
         "aha-acc-acute-pe-2026"
-      ],
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending."
+      ]
     },
     {
-      "start": "2026-02-22",
       "end": "2026-02-28",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-02-22",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-03-01",
       "end": "2026-03-07",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-03-01",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-03-08",
       "end": "2026-03-14",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-03-08",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-03-15",
       "end": "2026-03-21",
+      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "start": "2026-03-15",
       "status": "partial",
       "auditId": "backfill-initial-2025-2026",
       "articleIds": [
         "swift-prehospital-whole-blood"
-      ],
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending."
+      ]
     },
     {
-      "start": "2026-03-22",
       "end": "2026-03-28",
+      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "start": "2026-03-22",
       "status": "partial",
       "auditId": "backfill-initial-2025-2026",
       "articleIds": [
         "surviving-sepsis-children-2026",
         "surviving-sepsis-adults-2026"
-      ],
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending."
+      ]
     },
     {
-      "start": "2026-03-29",
       "end": "2026-04-04",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-03-29",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-04-05",
       "end": "2026-04-11",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-04-05",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-04-12",
       "end": "2026-04-18",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-04-12",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-04-19",
       "end": "2026-04-25",
+      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "start": "2026-04-19",
       "status": "partial",
       "auditId": "backfill-initial-2025-2026",
       "articleIds": [
         "prompt-bolus"
-      ],
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending."
+      ]
     },
     {
-      "start": "2026-04-26",
       "end": "2026-05-02",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-04-26",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-05-03",
       "end": "2026-05-09",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-05-03",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-05-10",
       "end": "2026-05-16",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-05-10",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-05-17",
       "end": "2026-05-23",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-05-17",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-05-24",
       "end": "2026-05-30",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-05-24",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-05-31",
       "end": "2026-06-06",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-05-31",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-06-07",
       "end": "2026-06-13",
+      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "start": "2026-06-07",
       "status": "partial",
       "auditId": "backfill-initial-2025-2026",
       "articleIds": [
         "logical-post-arrest-oxygen",
         "arise-fluids",
         "bihca-bicarbonate"
-      ],
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending."
+      ]
     },
     {
-      "start": "2026-06-14",
       "end": "2026-06-20",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-06-14",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-06-21",
       "end": "2026-06-27",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-06-21",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-06-28",
       "end": "2026-07-04",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-06-28",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-07-05",
       "end": "2026-07-11",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-07-05",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-07-12",
       "end": "2026-07-18",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-07-12",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-07-19",
       "end": "2026-07-25",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-07-19",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-07-26",
       "end": "2026-08-01",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-07-26",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-08-02",
       "end": "2026-08-08",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-08-02",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-08-09",
       "end": "2026-08-15",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-08-09",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-08-16",
       "end": "2026-08-22",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-08-16",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-08-23",
       "end": "2026-08-29",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-08-23",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-08-30",
       "end": "2026-09-05",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-08-30",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-09-06",
       "end": "2026-09-12",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-09-06",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-09-13",
       "end": "2026-09-19",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-09-13",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-09-20",
       "end": "2026-09-26",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-09-20",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-09-27",
       "end": "2026-10-03",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-09-27",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-10-04",
       "end": "2026-10-10",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-10-04",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-10-11",
       "end": "2026-10-17",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-10-11",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-10-18",
       "end": "2026-10-24",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-10-18",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     },
     {
-      "start": "2026-10-25",
       "end": "2026-10-26",
+      "notes": "Not yet comprehensively searched.",
+      "start": "2026-10-25",
       "status": "pending",
       "auditId": null,
-      "articleIds": [],
-      "notes": "Not yet comprehensively searched."
+      "articleIds": []
     }
   ],
+  "rangeEnd": "2026-10-26",
+  "startedAt": "2026-10-27T20:58:44.597134+00:00",
+  "updatedAt": "2026-10-28T04:04:51.905106+00:00",
+  "rangeStart": "2024-10-27",
+  "schemaVersion": 1,
   "candidateQueue": [
     {
       "url": "https://doi.org/10.1161/STR.0000000000000530",
       "title": "2026 AHA/ASA stroke guideline correction",
-      "firstOnlineDate": null,
-      "reason": "The guideline draft is held until the complete official correction can be checked for changes to summarized recommendations."
+      "reason": "The guideline draft is held until the complete official correction can be checked for changes to summarized recommendations.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://www.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf",
       "title": "ACS revised TBI best-practices guidance",
-      "firstOnlineDate": null,
-      "reason": "Official release announcement October 28, 2024 retrieved; full recommendations and earliest PDF release date still need review."
+      "reason": "Official release announcement October 28, 2024 retrieved; full recommendations and earliest PDF release date still need review.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-on-adult-critical-care-ultrasonography-focused-update-2024",
       "title": "SCCM adult critical care ultrasonography focused update 2024",
-      "firstOnlineDate": null,
-      "reason": "Official page says published February 21, 2025 despite 2024 title. Retrieve graded recommendations and verify journal electronic date."
+      "reason": "Official page says published February 21, 2025 despite 2024 title. Retrieve graded recommendations and verify journal electronic date.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12397848/",
       "title": "Australasian Bronchiolitis Guideline: 2025 Update",
-      "firstOnlineDate": null,
-      "reason": "Primary abstract and indexed table excerpts retrieved; direct PMC page encountered a challenge. Review full guidance, dates, oxygen/HFNC recommendations and US applicability."
+      "reason": "Primary abstract and indexed table excerpts retrieved; direct PMC page encountered a challenge. Review full guidance, dates, oxygen/HFNC recommendations and US applicability.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://www.erc.edu/science-research/guidelines/guidelines-2025/guidelines-2025-english",
       "title": "ERC 2025 resuscitation guideline chapters",
-      "firstOnlineDate": null,
-      "reason": "Official launch date October 22, 2025 retrieved. Individual adult/pediatric/special circumstances/post-arrest chapters require appraisal and comparison with AHA."
+      "reason": "Official launch date October 22, 2025 retrieved. Individual adult/pediatric/special circumstances/post-arrest chapters require appraisal and comparison with AHA.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://professional.heart.org/en/science-news/2025-aha-guidelines-for-cpr-and-ecc",
       "title": "AHA 2025 pediatric ALS, special circumstances, and post-cardiac arrest care",
-      "firstOnlineDate": null,
-      "reason": "Adult ALS only is drafted; other major chapters remain unreviewed and must not be represented as covered by that record."
+      "reason": "Adult ALS only is drafted; other major chapters remain unreviewed and must not be represented as covered by that record.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/40543987/",
       "title": "ACEP asymptomatic elevated BP clinical policy",
-      "firstOnlineDate": null,
-      "reason": "Official PDF retrieved, including approval January 22, 2025; earliest electronic publication date not yet established. Approval and July print dates are not first-online dates."
+      "reason": "Official PDF retrieved, including approval January 22, 2025; earliest electronic publication date not yet established. Approval and July print dates are not first-online dates.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://www.acep.org/patient-care/clinical-policies",
       "title": "ACEP acute ischemic stroke/thrombectomy clinical policy",
-      "firstOnlineDate": null,
-      "reason": "Official newsletter identifies December 2024 print issue; retrieve original policy and verify first-online date before inclusion."
+      "reason": "Official newsletter identifies December 2024 print issue; retrieve original policy and verify first-online date before inclusion.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://doi.org/10.1164/rccm.202507-1692ST",
       "title": "ATS adult CAP guideline",
-      "firstOnlineDate": null,
-      "reason": "Official publisher recommendation excerpts retrieved; verify first-online date, full evidence and recommendation grades before separate record."
+      "reason": "Official publisher recommendation excerpts retrieved; verify first-online date, full evidence and recommendation grades before separate record.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12283145/",
       "title": "Severe bleeding on oral anticoagulation multidisciplinary guidance",
-      "firstOnlineDate": null,
-      "reason": "Primary article discovered; metadata shows December 13, 2024 versus later August 2025 issue. Need first-online reconciliation and full current-practice review."
+      "reason": "Primary article discovered; metadata shows December 13, 2024 versus later August 2025 issue. Need first-online reconciliation and full current-practice review.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12338446/",
       "title": "ERATIC initial trauma care consensus guidance",
-      "firstOnlineDate": null,
-      "reason": "Primary article discovered with July 22, 2025 date; clinical recommendations not appraised."
+      "reason": "Primary article discovered with July 22, 2025 date; clinical recommendations not appraised.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12591642/",
       "title": "Moderate respiratory distress ACEP expert recommendations",
-      "firstOnlineDate": null,
-      "reason": "Primary article discovered with September 27, 2025 date; no result/recommendation verification yet."
+      "reason": "Primary article discovered with September 27, 2025 date; no result/recommendation verification yet.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://www.east.org/education-resources/practice-management-guidelines",
       "title": "EAST 2024 whole blood guidance",
-      "firstOnlineDate": null,
-      "reason": "Official index found; verify electronic date may precede interval, then retrieve primary guideline if eligible."
+      "reason": "Official index found; verify electronic date may precede interval, then retrieve primary guideline if eligible.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://naemsp.org/position-statement/ems-obstetric-emergency-guidelines/",
       "title": "EMS obstetric emergency guidelines",
-      "firstOnlineDate": null,
-      "reason": "Official listing says February 2025; linked ACOG original guidance and first-online date not appraised."
+      "reason": "Official listing says February 2025; linked ACOG original guidance and first-online date not appraised.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/41637560/",
       "title": "Guideline on the emergency management of critical bleeding in patients with immune thrombocytopenia",
-      "firstOnlineDate": null,
-      "reason": "Primary abstract retrieved: strong combined high-dose steroids, IVIG, platelets, tranexamic acid and TPO-RAs despite low/very-low certainty; conditional urgent splenectomy after failure and against rFVIIa. Secondary guideline index gives February4 first-online, but directly retrieved PubMed showed only August print date. Earlier MAGIC document also surfaced, so verify earliest public version and publisher date before article draft."
+      "reason": "Primary abstract retrieved: strong combined high-dose steroids, IVIG, platelets, tranexamic acid and TPO-RAs despite low/very-low certainty; conditional urgent splenectomy after failure and against rFVIIa. Secondary guideline index gives February4 first-online, but directly retrieved PubMed showed only August print date. Earlier MAGIC document also surfaced, so verify earliest public version and publisher date before article draft.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://professional.heart.org/en/science-news/prevention-and-treatment-of-maternal-stroke-in-pregnancy-and-postpartum",
       "title": "Prevention and Treatment of Maternal Stroke in Pregnancy and Postpartum",
-      "firstOnlineDate": null,
-      "reason": "January28, 2026 first-online confirmed by PubMed and AHA hub. Official society summary, recommendations and strength need dedicated review; ACOG endorsed."
+      "reason": "January28, 2026 first-online confirmed by PubMed and AHA hub. Official society summary, recommendations and strength need dedicated review; ACOG endorsed.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://www.nejm.org/",
       "title": "Prehospital resuscitation with type O whole blood for trauma and hemorrhage (TOWAR)",
-      "firstOnlineDate": null,
-      "reason": "Primary SWiFT paper and a publisher editorial indicate companion North American cluster trial. Do not infer exact estimates or publication date without primary retrieval."
+      "reason": "Primary SWiFT paper and a publisher editorial indicate companion North American cluster trial. Do not infer exact estimates or publication date without primary retrieval.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://eso-stroke.org/guidelines/eso-guideline-directory/",
       "title": "2025 update to ESO guideline on blood pressure management in acute ischaemic stroke and intracerebral haemorrhage",
-      "firstOnlineDate": null,
-      "reason": "Official directory lists as 2026. Exact publication date, primary guideline and recommendation strength not yet reviewed."
+      "reason": "Official directory lists as 2026. Exact publication date, primary guideline and recommendation strength not yet reviewed.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://eso-stroke.org/guidelines/eso-guideline-directory/",
       "title": "ESO/EANS/ESMINT guideline on aneurysmal subarachnoid haemorrhage",
-      "firstOnlineDate": null,
-      "reason": "Official directory lists 2026; exact date and full primary review required."
+      "reason": "Official directory lists 2026; exact date and full primary review required.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://www.idsociety.org/idsa_practice_guidelines",
       "title": "IDSA 2026 AMR Guidance",
-      "firstOnlineDate": null,
-      "reason": "Official A-Z directory lists current 2026 AMR guidance. Verify actual section revision dates and ED-relevant changes."
+      "reason": "Official A-Z directory lists current 2026 AMR guidance. Verify actual section revision dates and ED-relevant changes.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://www.idsociety.org/idsa_practice_guidelines",
       "title": "IDSA 2026 Staphylococcus aureus Bacteremia guidance",
-      "firstOnlineDate": null,
-      "reason": "Listed current/endorsed; distinguish new recommendations from online directory naming."
+      "reason": "Listed current/endorsed; distinguish new recommendations from online directory naming.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
       "title": "ACS chest-wall injury and genitourinary injury best practices",
-      "firstOnlineDate": null,
-      "reason": "Official directory calls these new but did not expose publication dates in retrieved page."
+      "reason": "Official directory calls these new but did not expose publication dates in retrieved page.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://www.facs.org/quality-programs/trauma/quality/pips/trauma-protocols-repository/",
       "title": "AAST/ACS rib-fracture management consensus",
-      "firstOnlineDate": null,
-      "reason": "Official repository says Epub May15, 2026. Primary paper/recommendations not reviewed."
+      "reason": "Official repository says Epub May15, 2026. Primary paper/recommendations not reviewed.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://www.acmt.net/statements/",
       "title": "ACMT supports expired naloxone when unexpired drug unavailable",
-      "firstOnlineDate": null,
-      "reason": "Official directory says March2026 but exact date and statement contents need review."
+      "reason": "Official directory says March2026 but exact date and statement contents need review.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://www.acmt.net/statements/",
       "title": "ACMT public-health concerns with 7-hydroxymitragynine and other kratom compounds",
-      "firstOnlineDate": null,
-      "reason": "Official directory says August2026; assess concrete ED implications and distinguish policy from clinical management."
+      "reason": "Official directory says August2026; assess concrete ED implications and distinguish policy from clinical management.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://jamanetwork.com/journals/jama/article-abstract/2851954",
       "title": "Mechanical thrombectomy in medium/distal arterial occlusion: DISCOUNT trial",
-      "firstOnlineDate": null,
-      "reason": "Candidate identifier surfaced during discovery; do not use secondary snippets or assume exact results/date."
+      "reason": "Candidate identifier surfaced during discovery; do not use secondary snippets or assume exact results/date.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://www.giejournal.org/",
       "title": "ASGE lower GI bleeding guideline",
-      "firstOnlineDate": null,
-      "reason": "Secondary society publication dated October2, 2026 indicates new guideline; primary first-online date and full recommendations unverified."
+      "reason": "Secondary society publication dated October2, 2026 indicates new guideline; primary first-online date and full recommendations unverified.",
+      "firstOnlineDate": null
     },
     {
       "url": "https://journal.chestnet.org/article/S0012-3692%2826%2906350-6/fulltext",
       "title": "CHEST induction agents network meta-analysis",
-      "firstOnlineDate": null,
-      "reason": "Primary publisher result surfaced. Likely overlaps RSI trial; check first-online date and whether adds consequential information before inclusion."
+      "reason": "Primary publisher result surfaced. Likely overlaps RSI trial; check first-online date and whether adds consequential information before inclusion.",
+      "firstOnlineDate": null
     }
   ]
 }
