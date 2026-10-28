@@ -60,3 +60,16 @@
 @media(max-width:540px){.home-heading{margin-bottom:23px}.home-heading h1{font-size:27px;line-height:1.35}.home-heading>div>p:last-child{font-size:12px;line-height:1.8}.home-search{padding:6px 7px 6px 12px;gap:9px}.home-search input{font-size:16px}.home-search .btn{min-height:40px;padding:10px 12px;font-size:10px}.home-search .btn svg{display:none}.home-topic-row{gap:6px;margin-bottom:24px}.home-topic-row>span{flex-basis:100%;margin-bottom:4px}.home-topic-row>a{font-size:9px;padding:7px 10px}.home-lead{padding:23px}.home-lead h2{font-size:23px}.home-lead>p{font-size:12px}.home-lead-footer{gap:12px}.home-brief h2{font-size:20px}.home-latest{margin-top:28px}.home-archive-strip{gap:13px}.home-archive-strip>div:nth-child(2){min-width:210px}.home-archive-strip h2{font-size:16px}.home-archive-strip>.btn{margin-left:0}.about-publication{padding-top:10px}.about-publication h1{font-size:28px}.about-publication>p:not(.eyebrow){font-size:14px;line-height:1.9}}
 .library-folders summary.folders-heading{font-size:13px;font-weight:600;color:var(--ink);cursor:pointer;list-style:none}.library-folders summary.folders-heading::-webkit-details-marker{display:none}.library-folders summary.folders-heading:focus-visible{outline:2px solid #557e60;outline-offset:5px}@media(max-width:620px){.library-folders{padding:18px}.library-folders summary.folders-heading{margin:0}.library-folders details[open] summary.folders-heading{margin-bottom:18px}.library-folders details:not([open]) summary.folders-heading:after{content:'Open';font-size:10px;font-weight:400;color:var(--muted);margin-left:auto;margin-right:10px;order:1}.library-folders summary.folders-heading>svg{order:2}.library-account-bar{flex-direction:row;align-items:center;flex-wrap:wrap;gap:12px}.library-account-bar>.reader-row{width:auto;justify-content:flex-end}.library-grid{margin-top:18px}}
 .article-card>p:not(.collection-label){display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}.home-latest .article-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.print-source-detail{display:none}
+@media print{
+ .article-detail h1{font-size:16pt;line-height:1.25}
+ .article-detail .print-header{margin-bottom:7pt;padding-bottom:7pt}
+ .article-detail .detail-dates{margin:5pt 0 7pt}
+ .article-detail .prose-section{margin:4pt 0}
+ .article-detail .prose-section h2{margin-bottom:4pt}
+ .article-detail .prose-section p,.article-detail .prose-section li{line-height:1.32}
+ .article-detail .prose-section li{margin:3pt 0}
+ .article-detail .source-box{margin-top:6pt;padding-top:6pt}
+ .article-detail .source-box .print-source-detail{display:block;font-size:7pt;line-height:1.3}
+ .article-detail .source-box .source-notes{line-height:1.3}
+}

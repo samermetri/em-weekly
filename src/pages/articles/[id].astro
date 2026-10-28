@@ -36,6 +36,8 @@ const printTitle=`EM Weekly - ${a.id.toUpperCase()} - ${a.firstOnlineDate}`;
    {a.officialPdfUrl&&<a class="btn" href={a.officialPdfUrl} target="_blank" rel="noopener noreferrer">Official source PDF <Icon name="external" size={16}/></a>}
    {a.doi&&<p>DOI: <a href={`https://doi.org/${a.doi}`} target="_blank" rel="noopener noreferrer">{a.doi}</a></p>}
    {a.pmid&&<p>PMID: <a href={`https://pubmed.ncbi.nlm.nih.gov/${a.pmid}/`} target="_blank" rel="noopener noreferrer">{a.pmid}</a></p>}
+   {!a.doi&&<p class="print-source-detail">Source: <a href={a.canonicalUrl} target="_blank" rel="noopener noreferrer">{a.canonicalUrl}</a></p>}
+   <p class="print-source-detail">Material reviewed: {a.reviewedMaterial}.{a.corrections.length>0&&` Latest correction: ${formatDate(a.corrections.at(-1)!.date)}.`}</p>
    <p class="source-notes">Source retrieved {formatDate(a.retrievedAt)}. {a.evidenceNotes}</p>
   </section>
   <div class="topic-chips">{a.topics.map(t=><a href={href(`articles/?topic=${t}`)}>{topics.find(x=>x.id===t)?.name}</a>)}</div>

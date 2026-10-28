@@ -106,7 +106,8 @@
       "articleId": "acmt-fentanyl-exposure-2024",
       "articleRevision": 2,
       "stateRevision": 4,
-      "status": "persisted; deployment acknowledgement pending"
+      "status": "deployed and acknowledged",
+      "acknowledgedBy": "https://github.com/samermetri/em-weekly/actions/runs/40633086763"
     }
   }
 }
