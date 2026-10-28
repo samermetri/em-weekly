@@ -74,19 +74,39 @@
     "instructionDelivery": "Complete operational workflow and owner editorial requirements saved directly in task",
     "rangeStart": "2024-10-27",
     "rangeEnd": "2026-10-26",
-    "status": "active; first hosted writer persisted; deployed acknowledgement pending",
+    "status": "active; actual clock-triggered writer and deployment verified",
     "taskUrl": "https://chatgpt.com/scheduled?automationId=6ae17273b1548190bdd368011e2ebba3&automationSource=cloud",
     "createdAt": "2026-10-28T03:56:00Z",
-    "chatId": "6ae172e2-08b8-8329-89a8-bb1ee0a389b8",
+    "chatId": "6ae173a0-0720-832e-9cc2-33425cb2985f",
     "initialDatasetAcknowledgedBy": "https://github.com/samermetri/em-weekly/actions/runs/40629779502",
     "blockedSearchRetry": "No more than once per LA day per blocked window; advance another eligible window or queued candidate",
-    "firstWriteApproval": "Owner approved Allow Supabase for this conversation; applied in UI",
+    "firstWriteApproval": "Owner-approved persistent Supabase access applied to the actual clock-triggered conversation",
     "firstHostedWrite": {
       "stateRevision": 2,
       "auditId": "backfill-2024-10-27",
       "auditRevision": 1,
       "result": "partial source coverage honestly retained; no new articles claimed",
-      "chatUrl": "https://chatgpt.com/c/6ae172e2-08b8-8329-89a8-bb1ee0a389b8"
+      "chatUrl": "https://chatgpt.com/c/6ae172e2-08b8-8329-89a8-bb1ee0a389b8",
+      "acknowledgedBy": "https://github.com/samermetri/em-weekly/actions/runs/40630417845"
+    },
+    "actualScheduledChatUrl": "https://chatgpt.com/c/6ae173a0-0720-832e-9cc2-33425cb2985f",
+    "clockVerification": {
+      "status": "passed: clock-triggered batch persisted following initial approval; subsequent correction write reused saved access without another prompt",
+      "normalCadenceRestored": "Hourly, next run 10 PM Pacific October 27, 2026",
+      "manualRunNowBehavior": "Manual tests opened separate conversations; their access does not prove scheduled access",
+      "deployedBy": "https://github.com/samermetri/em-weekly/actions/runs/40632297089",
+      "stateRevision": 3,
+      "addedArticleIds": [
+        "acs-tbi-best-practices-2024",
+        "acmt-fentanyl-exposure-2024",
+        "ocafe-af-anticoagulation-2024"
+      ]
+    },
+    "latestCorrection": {
+      "articleId": "acmt-fentanyl-exposure-2024",
+      "articleRevision": 2,
+      "stateRevision": 4,
+      "status": "persisted; deployment acknowledgement pending"
     }
   }
 }

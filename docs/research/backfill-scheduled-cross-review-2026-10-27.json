@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-28T04:33:38Z",
+  "reviewType": "Independent AI primary-source cross-check; not human review",
+  "records": [
+    {
+      "articleId": "acs-tbi-best-practices-2024",
+      "sources": [
+        "https://www.facs.org/media-center/press-releases/2024/american-college-of-surgeons-releases-revised-best-practices-guidelines-in-management-of-traumatic-brain-injury/"
+      ],
+      "result": "Official ACS October 28, 2024 release supports the limited society-summary claims; the record does not claim full guideline review."
+    },
+    {
+      "articleId": "acmt-fentanyl-exposure-2024",
+      "sources": [
+        "https://www.acmt.net/wp-content/uploads/2024/11/PS_241101_ACMT-Statement-on-Fentanyl-Exposure-Laws.pdf",
+        "https://www.acmt.net/statements/",
+        "https://link.springer.com/article/10.1007/s13181-025-01101-9"
+      ],
+      "result": "November 1, 2024 statement date, authors and summarized precautions were confirmed. Newer-statement first-online date corrected to October 16, 2025, with dated correction; newer paywalled full text not claimed reviewed."
+    },
+    {
+      "articleId": "ocafe-af-anticoagulation-2024",
+      "sources": [
+        "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2825814"
+      ],
+      "result": "Publisher confirms November 6, 2024 online date, design, sample, primary effects and optional decision-support uptake. Nonrandomized per-protocol comparison is explicitly qualified."
+    }
+  ]
+}
