@@ -412,3 +412,4 @@ Not:
 Prioritize clinical consequence, methodological strength, novelty, and relevance to ED decision-making.
 
 Missing one major guideline is worse than omitting several low-impact studies.
+Historical collection update from the owner, October 27, 2026: records marked backfill:true belong to the separate retrospective collection. Keep them in identifier deduplication but exclude them from normal daily new-article counts and current weekly briefs. Do not alter state:backfill during normal research. Their actual sitePublishedDate does not make their historical evidence new.

@@ -1,4 +1,22 @@
 ---
-import Layout from '../layouts/Layout.astro';import {href} from '../lib/data';
+import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import {href} from '../lib/data';
 ---
-<Layout title="Your account"><div class="page-heading"><div><p class="eyebrow">YOUR READING LIST</p><h1>Your EM Weekly account</h1><p>Save useful articles and organize them into private folders.</p></div></div><section class="panel auth-panel"><div class="auth-tabs"><button type="button" data-auth-mode="signin" class="selected">Sign in</button><button type="button" data-auth-mode="signup">Create account</button></div><p id="auth-message" class="muted"></p><form id="auth-form" class="reader-form"><label>Email<input name="email" type="email" required autocomplete="email"/></label><label>Password<input name="password" type="password" required autocomplete="current-password"/></label><button class="btn primary" type="submit">Sign in</button></form><button class="link-button" data-auth-mode="reset">Forgot password?</button><p class="account-status" data-account-status role="status" aria-live="polite"></p><div id="signed-in" hidden><p>Signed in as <span data-email></span>.</p><div class="reader-row"><a class="btn" href={href('library/')}>Open My Library</a><button class="btn" data-sign-out>Sign out</button></div></div><p class="muted">Public articles are free to read without an account. An account is only needed to save and organize.</p></section><script>import '../lib/client/auth-page';</script></Layout>
+<Layout title="Your account">
+ <div class="page-heading account-heading"><div><p class="eyebrow">YOUR READING SPACE</p><h1>Your EM Weekly account</h1><p>Keep the evidence you want to come back to.</p></div></div>
+ <div class="account-grid">
+  <section class="panel auth-panel">
+   <div class="auth-tabs" aria-label="Account action"><button type="button" data-auth-mode="signin" class="selected">Sign in</button><button type="button" data-auth-mode="signup">Create account</button></div>
+   <div class="auth-intro"><span class="account-symbol"><Icon name="bookmark" size={23}/></span><h2 id="auth-title">Welcome back</h2><p id="auth-description">Sign in to your saved articles and folders.</p></div>
+   <p id="auth-message" class="muted"></p>
+   <form id="auth-form" class="reader-form"><label>Email<input name="email" type="email" required autocomplete="email" placeholder="you@example.com"/></label><label>Password<input name="password" type="password" required autocomplete="current-password" placeholder="Your password"/></label><button class="btn primary" type="submit">Sign in <Icon name="arrow" size={17}/></button></form>
+   <button class="link-button" data-auth-mode="reset">Forgot password?</button>
+   <p class="account-status" data-account-status role="status" aria-live="polite"></p>
+   <div id="signed-in" hidden><p>Signed in as <strong data-email></strong>.</p><div class="reader-row"><a class="btn primary" href={href('library/')}>Open My Library <Icon name="arrow" size={17}/></a><button class="btn" data-sign-out>Sign out</button></div></div>
+   <p class="auth-note"><Icon name="methods" size={15}/> Your reading list is private.</p>
+  </section>
+  <aside class="account-guide"><p class="eyebrow">MY LIBRARY</p><h2>A place for your saved evidence.</h2><div class="account-guide-item"><span><Icon name="bookmark"/></span><div><h3>Save what matters</h3><p>Use Save article on any summary.</p></div></div><div class="account-guide-item"><span><Icon name="folder"/></span><div><h3>Make it easy to find</h3><p>Organize articles into your own folders.</p></div></div><div class="account-guide-item"><span><Icon name="check"/></span><div><h3>Pick up on any device</h3><p>Your saved articles stay with your account.</p></div></div><div class="account-guide-footer"><p>Just here to read?</p><a href={href('articles/')}>Browse all articles without an account <Icon name="arrow" size={16}/></a></div></aside>
+ </div>
+ <script>import '../lib/client/auth-page';</script>
+</Layout>

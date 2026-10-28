@@ -1,0 +1,58 @@
+{
+  "sitePublishedDate": "2026-10-27",
+  "discoveredDate": "2026-10-27",
+  "retrievedAt": "2026-10-27",
+  "status": "published",
+  "doi": "10.1161/CIR.0000000000001415",
+  "pmid": null,
+  "sampleSize": null,
+  "guidelineStrength": "Primary guideline anticoagulation recommendations include Class 1, level B-R for anticoagulation and DOAC preference in eligible patients; advanced-treatment classes vary.",
+  "aiGenerated": true,
+  "humanReview": "Not yet human-reviewed",
+  "corrections": [],
+  "sample": false,
+  "pinned": false,
+  "excluded": false,
+  "section": "Guidelines & Statements",
+  "ranking": {
+    "edImpact": 5,
+    "design": 5,
+    "novelty": 4,
+    "guidelineRelevance": 4
+  },
+  "id": "aha-acc-acute-pe-2026",
+  "title": "2026 AHA/ACC/ACCP/ACEP/CHEST/SCAI/SHM/SIR/SVM/SVN Guideline for the Evaluation and Management of Acute Pulmonary Embolism in Adults: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines",
+  "shortTitle": "2026 PE guideline: severity categories connect risk to disposition",
+  "authors": [
+    "Mark A Creager",
+    "Geoffrey D Barnes",
+    "Jay Giri",
+    "Multisociety Writing Committee"
+  ],
+  "source": "Circulation / AHA–ACC multisociety guideline",
+  "firstOnlineDate": "2026-02-19",
+  "canonicalUrl": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001415",
+  "officialPdfUrl": "https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000001415",
+  "studyType": "Guideline",
+  "topics": [
+    "cardiology",
+    "resuscitation",
+    "guidelines"
+  ],
+  "summary": "The first AHA/ACC multisociety acute PE guideline introduces categories A–E to connect severity with outpatient care, admission and advanced therapy. It emphasizes prompt anticoagulation and prefers DOACs over vitamin K antagonists when appropriate.",
+  "whyItMatters": "Use structured severity assessment for disposition and escalation, rather than clot size alone. Confirm outpatient treatment feasibility and arrange early follow-up; pregnancy requires a separate anticoagulant choice.",
+  "limitations": "Many escalation decisions depend on bleeding risk, local expertise and evidence with variable certainty. The categories do not make every low-risk patient suitable for discharge or every high-risk patient suitable for intervention.",
+  "population": "Adults with acute pulmonary embolism.",
+  "intervention": "Risk classification, diagnostic, anticoagulation, disposition and advanced-treatment recommendations.",
+  "comparator": "Prior practice without a unified AHA/ACC acute PE guideline.",
+  "primaryEndpoint": "Guideline recommendations, not a single clinical-trial endpoint.",
+  "findings": [
+    "Categories A/B often permit outpatient care; C–E require hospitalization according to the official society summary.",
+    "DOACs are preferred over vitamin K antagonists in eligible patients; DOACs are not recommended in pregnancy.",
+    "Higher-risk patients may need multidisciplinary assessment for reperfusion or other advanced support."
+  ],
+  "reviewedMaterial": "official society summary",
+  "fullTextStatus": "Official PDF available",
+  "evidenceNotes": "ACC official February 19 release reviewed; selected primary guideline anticoagulation tables cross-checked. Complete guideline not reviewed. The JACC co-publication has PMID 41712898 and DOI 10.1016/j.jacc.2025.11.005; do not create a second record for it.",
+  "backfill": true
+}

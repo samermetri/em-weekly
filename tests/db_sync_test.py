@@ -67,3 +67,11 @@ class SnapshotTests(unittest.TestCase):
                 article=root/'content/articles/study.json';article.write_text('{"id":"study","summary":"Local edit"}')
                 sync.pull();self.assertEqual(db.downloads,3)
                 self.assertEqual(json.loads(article.read_text())['summary'],'Original text')
+
+    def test_historical_progress_is_separate_and_cannot_replace_publishing_state(self):
+        rows=[('state','publishing',{'queue':[]},1),('state','backfill',{'id':'backfill','status':'in-progress'},1)]
+        files,snapshot=sync.prepare(rows,None)
+        self.assertIn(sync.ROOT/'state/backfill.json',files)
+        self.assertNotIn('lastSuccessfulDeployment',json.loads(files[sync.ROOT/'state/backfill.json']))
+        with self.assertRaises(ValueError):sync.prepare(rows[1:],None)
+        with self.assertRaises(ValueError):sync.prepare([('state','../../private',{},1)],None)

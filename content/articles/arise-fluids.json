@@ -1,0 +1,53 @@
+{
+  "sitePublishedDate": "2026-10-27",
+  "discoveredDate": "2026-10-27",
+  "retrievedAt": "2026-10-27",
+  "status": "published",
+  "doi": "10.1056/NEJMoa2516225",
+  "pmid": "42274006",
+  "sampleSize": 963,
+  "guidelineStrength": null,
+  "aiGenerated": true,
+  "humanReview": "Not yet human-reviewed",
+  "corrections": [],
+  "sample": false,
+  "pinned": false,
+  "excluded": false,
+  "section": "Practice-Changing / High Priority",
+  "ranking": {
+    "edImpact": 5,
+    "design": 5,
+    "novelty": 4,
+    "guidelineRelevance": 4
+  },
+  "id": "arise-fluids",
+  "title": "Vasopressors or Fluids in Early Septic Shock",
+  "shortTitle": "ARISE FLUIDS: early vasopressors did not improve hospital-free survival",
+  "authors": [
+    "ARISE FLUIDS Investigators, the ANZICS Clinical Trials Group, and the ACEM Clinical Trials Network"
+  ],
+  "source": "New England Journal of Medicine",
+  "firstOnlineDate": "2026-06-11",
+  "canonicalUrl": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2516225",
+  "studyType": "Randomized trial",
+  "topics": [
+    "resuscitation",
+    "infectious-disease"
+  ],
+  "summary": "This trial randomized 1,000 adults presenting to EDs with septic shock to restricted fluids with earlier vasopressors or more fluids with later vasopressors. Among 963 patients in the intention-to-treat population, median days alive and out of hospital at day 90 were 76 in both groups.",
+  "whyItMatters": "A universal vasopressor-first strategy did not improve the primary outcome. Fluid tolerance and perfusion response should continue to inform resuscitation rather than assuming one strategy fits every patient.",
+  "limitations": "Thirty-seven randomized patients lacked consent for inclusion. Different fluid and vasopressor exposure did not establish equivalence or identify the optimal strategy for individual patients.",
+  "population": "Adults presenting to emergency departments with septic shock.",
+  "intervention": "Restricted fluid volumes and early vasopressor therapy for 6-24 hours.",
+  "comparator": "Higher fluid volumes and later vasopressor therapy.",
+  "primaryEndpoint": "Days alive and out of hospital through day 90.",
+  "findings": [
+    "Primary-outcome difference 0.0 days (95% CI -2.7 to 2.7).",
+    "Vasopressor strategy reduced first-day fluid by a median 1,108 mL.",
+    "Pulmonary edema: 0.6% with the vasopressor strategy versus 5.0% with the fluids strategy."
+  ],
+  "reviewedMaterial": "abstract",
+  "fullTextStatus": "Abstract available; full text paywalled",
+  "evidenceNotes": "Abstract reviewed; full text unavailable. Complete indexed PubMed abstract reviewed and date cross-checked with publisher. Direct full-text request returned 403; no unauthorized copy used. October 8 print issue is not first-online date.",
+  "backfill": true
+}

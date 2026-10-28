@@ -1,0 +1,56 @@
+{
+  "sitePublishedDate": "2026-10-27",
+  "discoveredDate": "2026-10-27",
+  "retrievedAt": "2026-10-27",
+  "status": "published",
+  "doi": "10.1056/NEJMoa2601969",
+  "pmid": "42028918",
+  "sampleSize": 8482,
+  "guidelineStrength": null,
+  "aiGenerated": true,
+  "humanReview": "Not yet human-reviewed",
+  "corrections": [],
+  "sample": false,
+  "pinned": false,
+  "excluded": false,
+  "section": "Practice-Changing / High Priority",
+  "ranking": {
+    "edImpact": 5,
+    "design": 5,
+    "novelty": 4,
+    "guidelineRelevance": 4
+  },
+  "id": "prompt-bolus",
+  "title": "Balanced Fluid or 0.9% Saline in Children Treated for Septic Shock",
+  "shortTitle": "PRoMPT BOLUS: balanced fluid did not reduce major kidney events",
+  "authors": [
+    "Fran Balamuth",
+    "Scott L Weiss",
+    "Elliot Long",
+    "PRoMPT BOLUS Investigators of the PECARN, PERC, and PREDICT Networks"
+  ],
+  "source": "New England Journal of Medicine",
+  "firstOnlineDate": "2026-04-23",
+  "canonicalUrl": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2601969",
+  "studyType": "Randomized trial",
+  "topics": [
+    "pediatrics",
+    "resuscitation",
+    "infectious-disease"
+  ],
+  "summary": "In this pragmatic trial at 47 EDs, balanced fluid and saline produced similar major adverse kidney event rates in children treated for suspected septic shock. Of 9,041 enrolled, 8,482 remained for analysis after withdrawal without permission to use data.",
+  "whyItMatters": "Balanced fluids reduced some electrolyte abnormalities but did not demonstrate a patient-centered renal benefit. This later trial should be considered alongside the very-low-certainty preference for balanced fluids in March 2026 pediatric sepsis guidance.",
+  "limitations": "Unblinded fluid assignment, missing laboratory measurements, and low primary-event frequency limit interpretation. A neutral superiority trial does not prove all fluid choices equivalent.",
+  "population": "Children aged two months to under 18 years with suspected septic shock and abnormal perfusion at EDs in five countries.",
+  "intervention": "Balanced crystalloids for resuscitation and maintenance for up to 48 hours.",
+  "comparator": "0.9% saline.",
+  "primaryEndpoint": "Death, new kidney replacement therapy, or persistent kidney dysfunction by day 30 or hospital discharge.",
+  "findings": [
+    "MAKE30: 3.4% versus 3.0%; RR 1.10 (95% CI 0.88-1.40).",
+    "Hyperchloremia was less frequent with balanced fluids."
+  ],
+  "reviewedMaterial": "abstract",
+  "fullTextStatus": "Open-access full text available",
+  "evidenceNotes": "Indexed legal PMC13134814 abstract and selected methods reviewed, not complete full text. Publisher History explicitly gives April 23 online publication; PubMed/manuscript date April 24 was not used as first-online. Publisher title uses “or”; manuscript title uses “versus”.",
+  "backfill": true
+}

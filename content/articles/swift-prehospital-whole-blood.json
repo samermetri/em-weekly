@@ -1,0 +1,55 @@
+{
+  "sitePublishedDate": "2026-10-27",
+  "discoveredDate": "2026-10-27",
+  "retrievedAt": "2026-10-27",
+  "status": "published",
+  "doi": "10.1056/NEJMoa2516043",
+  "pmid": "41841706",
+  "sampleSize": 616,
+  "guidelineStrength": null,
+  "aiGenerated": true,
+  "humanReview": "Not yet human-reviewed",
+  "corrections": [],
+  "sample": false,
+  "pinned": false,
+  "excluded": false,
+  "section": "Practice-Changing / High Priority",
+  "ranking": {
+    "edImpact": 5,
+    "design": 5,
+    "novelty": 4,
+    "guidelineRelevance": 4
+  },
+  "id": "swift-prehospital-whole-blood",
+  "title": "Prehospital Whole Blood in Traumatic Hemorrhage — A Randomized Controlled Trial",
+  "shortTitle": "SWiFT: two units of whole blood were not superior to blood components",
+  "authors": [
+    "Jason E Smith",
+    "Rebecca Cardigan",
+    "Emily Sanderson",
+    "SWiFT Trial Group"
+  ],
+  "source": "New England Journal of Medicine",
+  "firstOnlineDate": "2026-03-17",
+  "canonicalUrl": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2516043",
+  "studyType": "Randomized trial",
+  "topics": [
+    "trauma",
+    "resuscitation"
+  ],
+  "summary": "Across ten English air ambulance services, prehospital whole blood did not reduce death or massive transfusion within 24 hours compared with red cells and plasma. Of 942 randomized patients, 616 were analyzed after exclusions including nontraumatic hemorrhage and traumatic cardiac arrest.",
+  "whyItMatters": "This trial does not support claiming superior clinical outcomes from two units of prehospital whole blood over component therapy. Product choice still needs to account for local logistics and transfusion capability.",
+  "limitations": "Open-label superiority trial with substantial postrandomization exclusions. It tested a limited prehospital dose and does not establish equivalence or address all hospital whole-blood protocols.",
+  "population": "Patients with major traumatic hemorrhage treated by ten English air ambulance services.",
+  "intervention": "Up to two units of whole blood before hospital arrival.",
+  "comparator": "Up to two units each of red cells and plasma.",
+  "primaryEndpoint": "Death or massive transfusion of at least ten units within 24 hours.",
+  "findings": [
+    "Primary event: 48.7% versus 47.7%; RR 1.02 (95% CI 0.80-1.31).",
+    "Thrombotic events appeared similar; serious adverse events numbered 31 versus 37."
+  ],
+  "reviewedMaterial": "abstract",
+  "fullTextStatus": "Abstract available; full text paywalled",
+  "evidenceNotes": "Abstract reviewed; full text unavailable. Publisher indexed abstract reviewed, with primary PubMed identifier/date cross-check. Direct full-text retrieval failed; no third-party publisher PDF was used.",
+  "backfill": true
+}

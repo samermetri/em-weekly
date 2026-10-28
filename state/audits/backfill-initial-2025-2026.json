@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-27",
+  "coverageStart": "2025-10-27",
+  "coverageEnd": "2026-10-26",
+  "guidelineSearchCompleted": false,
+  "finalCrossCheckCompleted": false,
+  "sources": [
+    {
+      "sourceId": "pubmed-em",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: 2026 emergency medicine randomized trial ketamine etomidate intubation 2025 December NEJM | site.pmc.ncbi.nlm.nih.gov/articles/PMC13134814/ \"MAKE30\" \"relative risk\" | site.aaem.org \"2026\" \"clinical\" statement"
+    },
+    {
+      "sourceId": "pubmed-general",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: 2026 acute ischemic stroke guideline January AHA ASA 2026 publication | site.link.springer.com \"Surviving sepsis campaign\" \"2026\" \"Prescott\" \"23 March\" | site.saem.org/publications/grace 2026 guideline"
+    },
+    {
+      "sourceId": "pubmed-specialty",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: 2026 pulmonary embolism guideline AHA ACC February published | site.professional.heart.org \"2026\" \"Pulmonary Embolism\" \"Categories\" \"DOAC\" | site.chestnet.org 2026 guideline acute pulmonary"
+    },
+    {
+      "sourceId": "pubmed-guidance",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: 2026 Surviving Sepsis Campaign guidelines adults March | \"NEJMoa2601969\" \"3.4%\" | site.facs.org 2026 best practices guidelines trauma"
+    },
+    {
+      "sourceId": "journalfeed",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://journalfeed.org/",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.nejm.org 2026 randomized trial emergency intubation shock cardiac arrest | \"NEJMoa2601969\" \"risk\" | site.erc.edu 2026 guidelines 2025"
+    },
+    {
+      "sourceId": "acep",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.acep.org/patient-care/clinical-policies",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.jamanetwork.com 2026 emergency randomized trial cardiac arrest trauma bicarbonate | \"Balanced Fluid versus\" \"Balamuth\" \"2.8\" | site.nejm.org/doi/abs/10.1056/NEJMoa2513814 \"Published June\""
+    },
+    {
+      "sourceId": "aha-asa",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://professional.heart.org/en/guidelines-and-statements",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov 2026 randomized trial emergency thrombectomy tenecteplase | \"Balanced Fluid versus 0.9%\" site.nejm.org | site.pubmed.ncbi.nlm.nih.gov/41472917 \"2365\" \"28.1\""
+    },
+    {
+      "sourceId": "acc",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.acc.org/guidelines",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.acep.org 2026 clinical policy 2025 November | site.professional.heart.org 2026 acute ischemic stroke guideline top things know January 26 | site.acep.org/patient-care/clinical-policies \"Syncope\""
+    },
+    {
+      "sourceId": "aap",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.nejm.org/doi/full/ \"2026\" \"emergency\" \"randomly\" | site.pubmed.ncbi.nlm.nih.gov \"2026\" \"Pulmonary Embolism\" \"Creager\" \"Feb 19\" | site.eso-stroke.org \"2026\" \"guideline\""
+    },
+    {
+      "sourceId": "acs",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.jamanetwork.com/journals/jama/fullarticle/ \"2026\" \"pneumonia\" \"randomized\" | site.nejm.org/doi/full/10.1056/NEJMoa2513814 \"Published\" \"Results\" | \"Ketamine or Etomidate for Tracheal Intubation\" site.pmc.ncbi.nlm.nih.gov"
+    },
+    {
+      "sourceId": "ena",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.ena.org/practice-resources",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.nejm.org \"2026\" \"trauma\" \"tranexamic\" | site.pubmed.ncbi.nlm.nih.gov \"Prehospital Whole Blood in Traumatic Hemorrhage\" | \"Conservative Oxygen for Unresponsive Patients\" site.nejm.org \"June 10\""
+    },
+    {
+      "sourceId": "saem",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.saem.org/publications/grace",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov \"2026\" \"emergency\" \"Randomized\" \"pediatric\" | site.acep.org/patient-care/clinical-policies \"2026\" OR \"November 2025\" | \"Guideline on the emergency management\" \"February 4, 2026\" site.ashpublications.org"
+    },
+    {
+      "sourceId": "aaem",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.aaem.org/statements/",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: \"Ketamine or Etomidate for Tracheal Intubation\" \"December\" \"2025\" \"Casey\" | site.saem.org \"2026\" \"guideline\" OR \"GRACE\" | \"2026\" \"Prevention and Treatment of Maternal Stroke\" site.ahajournals.org"
+    },
+    {
+      "sourceId": "ash",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: \"Vasopressors or Fluids in Early Septic Shock\" \"Results\" \"2026\" | site.idsociety.org \"2026\" \"guideline\" acute"
+    },
+    {
+      "sourceId": "chest",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: \"Prehospital Whole Blood in Traumatic Hemorrhage\" \"Results\" \"2026\" | site.hematology.org \"2026\" \"guideline\" emergency bleeding"
+    },
+    {
+      "sourceId": "sccm",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.sccm.org/clinical-resources/guidelines",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: \"Balanced Fluid versus 0.9% Saline in Children\" \"Results\" \"2026\" | \"Guideline on the emergency management of critical bleeding\" \"2026\""
+    },
+    {
+      "sourceId": "idsa",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: ANDROMEDA SHOCK 2 randomized trial published October 2025 JAMA | site.acmt.net \"2026\" \"statement\""
+    },
+    {
+      "sourceId": "acmt",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.acmt.net/statements/",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.link.springer.com/article/10.1007/s00134-026-08361-1 \"Published\" \"March\" | site.east.org \"2026\" \"guideline\""
+    },
+    {
+      "sourceId": "east-trauma",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.east.org/education-resources/practice-management-guidelines",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov \"Balanced Fluid versus 0.9%\" \"2026\" | site.acog.org \"2026\" \"clinical\" emergency"
+    },
+    {
+      "sourceId": "eso-stroke",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://eso-stroke.org/guidelines/",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov \"Conservative Oxygen for Unresponsive Patients\" \"Results\" | \"Guideline on the emergency management of critical bleeding\" site.pubmed.ncbi.nlm.nih.gov"
+    },
+    {
+      "sourceId": "acog",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.acog.org/clinical",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov \"Sodium Bicarbonate for In-Hospital\" \"Results\" \"779\" | \"Guideline on the emergency management of critical bleeding\" site.ashpublications.org"
+    },
+    {
+      "sourceId": "erc",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.erc.edu/science-research/guidelines/",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.nejm.org/doi/ \"NEJMoa2601969\" \"4,235\" \"3.4\" | site.ena.org \"2026\" \"guideline\""
+    }
+  ],
+  "finalCrossCheck": [
+    "Major EM RCTs: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "NEJM/JAMA/Lancet/BMJ acute-care trials: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "ACEP policies: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "AHA/ASA guidance: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "SCCM and sepsis: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "IDSA guidance: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "CHEST guidance: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "Hematology and bleeding: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "Toxicology statements: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "Trauma guidance: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "Pediatric emergencies: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "Obstetric emergencies: targeted initial selection only; comprehensive retrospective window checks remain pending."
+  ],
+  "excludedCandidates": [
+    {
+      "identifier": "2025 ERC CPR guideline launch",
+      "reason": "Official ERC launch October22, 2025 lies before this assigned one-year interval; coordinate with earlier-period review."
+    },
+    {
+      "identifier": "Human factors-driven color-coded pediatric resuscitation simulation, PMID42894359",
+      "reason": "Simulation workflow study rather than patient-outcome practice-changing evidence; lower priority than major clinical studies."
+    },
+    {
+      "identifier": "Feasibility of pediatric teleconsultation simulation, PMID42699314",
+      "reason": "Pilot simulation and feasibility outcomes; no filler inclusion."
+    },
+    {
+      "identifier": "Tranexamic Acid Timing and Mortality Impact After Trauma, PMID40751727",
+      "reason": "Print January2026 but earlier first-online date appears outside this assigned interval; earlier-period reviewer should verify."
+    },
+    {
+      "identifier": "PRoMPT BOLUS erroneous PMID search41472917",
+      "reason": "Discarded; correct RSI PMID41369227 and PRoMPT PMID42028918 were verified."
+    }
+  ]
+}

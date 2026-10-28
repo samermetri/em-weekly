@@ -59,3 +59,11 @@ GitHub’s active default-branch workflow contains the offset 15-minute cron 11,
 - Owner signup and email confirmation are complete. A scoped database check verified the confirmed account and assigned admin role; the live signed-in library exposes Manage articles. The owner entered their own password and followed the confirmation email.
 
 Account release: https://github.com/samermetri/em-weekly/actions/runs/40578295849 succeeded for 464e8fc8c465c5279c4f62e72fdd82636fdb56c3. Supabase acknowledged that commit and https://emweekly.samermetri.com/ with exact document revisions. New AAP and VASSPR browser PDF checks remain one page each after reader controls were added. Security advisor reported only three informational deny-by-default private-table policy notices; no warning or error.
+
+## October 27 design and historical update
+
+Confirmation and password-reset email subjects/HTML were saved and previewed in Supabase Auth with the existing secure link placeholder. Account/library pages were redesigned, with local saved search/sort, mobile collapsible collections and useful empty states. The overview now leads with search/recent evidence and a compact weekly brief. Methods is a concise AI collection/review disclosure with no GitHub correction button. Topics with no public articles are hidden.
+
+The initial historical batch has 22 schema-valid, independently AI-cross-reviewed records (21 public-eligible, one held pending an unresolved stroke-guideline correction). No human-review label was elevated. Historical evidence is excluded from normal issues even by explicit reference; search and collection filters remain shareable. There are 105 tracked retrospective research windows, none claimed completely searched by the selective initial batch. Dedicated source/audit/candidate reports are under docs/research/.
+
+Local verification: 14 TypeScript tests, 4 Python tests, 17 browser tests, zero TypeScript diagnostics and internal-link checks. Representative historical sepsis/ACS/BALANCE browser PDF output remains one page each. Production deployment and the hosted backfill writer are verified separately below.

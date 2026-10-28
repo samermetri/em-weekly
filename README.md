@@ -37,3 +37,7 @@ Public HTML, search, weekly briefs and `/data/articles.json` are built once and 
 RLS isolates each user’s favorites/folders; composite foreign keys prevent cross-user associations. The verified owner allowlist is private and cannot be changed through signup metadata. Admin edits use optimistic revisions and dated history; Delete withdraws and can be restored. New manual articles begin held for review. All public changes still pass the publishing workflow.
 
 Supabase uses Resend custom SMTP from emweekly@updates.samermetri.com for confirmation and password reset. Credentials remain in Supabase settings. Storage limits are 100 folders, 5,000 saved published articles and 10,000 folder associations per user. Free-tier capacity is finite; upgrades and paid fallback are not authorized.
+
+## Historical collection
+
+/historical/ tracks the owner-requested October 2024–October 2026 literature backfill. Historical records remain searchable with all articles, have truthful first-online and site-addition dates, and stay separate from current briefs/RSS. state/backfill.json records actual research progress; partial coverage is visible. See automation/backfill-schedule.md and docs/research/ for the workflow and initial source verification.

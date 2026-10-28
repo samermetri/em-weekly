@@ -1,3 +1,5 @@
+Historical collection update, October 27, 2026: the owner requested a separate retrospective collection for first-online dates October 27, 2024 through October 26, 2026. These records use backfill:true, actual current site-publication dates, and the same verification and writing standard. They remain searchable with all articles but are excluded from current weekly briefs and the normal daily publication cap. Partial historical searches must remain explicitly incomplete.
+
 Website update, October 26, 2026: The weekly website digest includes every public article added to EM Weekly during its coverage week, using sitePublishedDate. First-online dates still determine whether evidence is new, and older additions require a catch-up label. Daily selection remains selective; the weekly digest must not omit already published articles. This update supersedes any narrower digest selection target below.
 
 You are preparing a **weekly Emergency Medicine Literature Brief for a practicing emergency physician**.

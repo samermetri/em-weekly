@@ -25,3 +25,5 @@ Hosted discovery fallback: if the public NCBI E-utilities endpoint cannot be ope
 8. Before saving, check the strict article/issue/state/audit schemas from the config schema record. Respect duplicate identifiers, first-online dates, daily limits, source allowlists, and review labels. Upsert original JSON through the revision-checked SQL workflow above; do not write code or push Git. Re-read em_weekly.publication for the verified deployment outcome.
 
 Notify only on meaningful publication, failure, required account action, or included-usage interruption. No repetitive empty-check notifications. Never invent a completed source check or a successful deployment.
+
+Historical collection update from the owner, October 27, 2026: records marked backfill:true belong to the separate retrospective collection. Keep them in identifier deduplication but exclude them from normal daily new-article counts and current weekly briefs. Do not alter state:backfill during normal research. Their actual sitePublishedDate does not make their historical evidence new.

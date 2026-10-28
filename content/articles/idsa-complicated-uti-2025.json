@@ -1,0 +1,57 @@
+{
+  "id": "idsa-complicated-uti-2025",
+  "title": "IDSA 2025 Guideline Update on Complicated Urinary Tract Infections",
+  "shortTitle": "IDSA 2025: shorter cUTI treatment and earlier oral switch",
+  "authors": [
+    "Barbara W Trautner",
+    "Nicolas W Cortes-Penfield",
+    "Kalpana Gupta",
+    "Elizabeth B Hirsch",
+    "Molly Horstman",
+    "Gregory J Moran",
+    "et al."
+  ],
+  "source": "Infectious Diseases Society of America",
+  "firstOnlineDate": "2025-07-17",
+  "sitePublishedDate": "2026-10-27",
+  "discoveredDate": "2026-10-27",
+  "retrievedAt": "2026-10-27",
+  "doi": null,
+  "pmid": null,
+  "canonicalUrl": "https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/",
+  "studyType": "Guideline",
+  "status": "published",
+  "topics": [
+    "infectious-disease",
+    "guidelines"
+  ],
+  "summary": "IDSA suggests shorter treatment for improving cUTI: 5–7 days of an effective fluoroquinolone or 7 days of another effective antibiotic. It also supports IV-to-oral transition when patients improve, tolerate oral medication and have an active oral option. Duration starts on the first effective treatment day.",
+  "whyItMatters": "Use severity, prior cultures and resistance risks to choose empiric therapy, then narrow and reassess route and duration. Bacteremia alone does not require an entire IV course in a stable, source-controlled patient.",
+  "limitations": "Many supporting studies excluded severe sepsis, obstruction, abscess, catheters and immunocompromise. Suspected prostatitis and unresolved source-control problems need individualized treatment.",
+  "population": "Adults with complicated UTI, including acute pyelonephritis and selected Gram-negative bacteremia.",
+  "sampleSize": null,
+  "intervention": "Severity-informed antibiotic selection, oral transition and shorter duration.",
+  "comparator": "Longer courses or continued parenteral therapy.",
+  "primaryEndpoint": "Evidence-graded management recommendations.",
+  "findings": [
+    "Seven days is suggested for improving cUTI with Gram-negative bacteremia."
+  ],
+  "reviewedMaterial": "official society summary",
+  "fullTextStatus": "Official society summary available",
+  "evidenceNotes": "Historical backfill. Official IDSA recommendations and remarks reviewed; linked manuscript evidence tables and supplements were not reviewed. Official release July 17, 2025, rather than later journal issue dates. This is an original synopsis, not a reproduction.",
+  "guidelineStrength": "Short-course fluoroquinolone: conditional/moderate certainty; other antibiotics: conditional/very low. Oral switch: conditional/low; bacteremic switch: conditional/very low.",
+  "aiGenerated": true,
+  "humanReview": "Not yet human-reviewed",
+  "corrections": [],
+  "sample": false,
+  "pinned": false,
+  "excluded": false,
+  "section": "Guidelines & Statements",
+  "ranking": {
+    "edImpact": 5,
+    "design": 4,
+    "novelty": 4,
+    "guidelineRelevance": 5
+  },
+  "backfill": true
+}

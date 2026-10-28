@@ -1,0 +1,62 @@
+{
+  "sitePublishedDate": "2026-10-27",
+  "discoveredDate": "2026-10-27",
+  "retrievedAt": "2026-10-27",
+  "status": "held",
+  "doi": "10.1161/STR.0000000000000513",
+  "pmid": "41582814",
+  "sampleSize": null,
+  "guidelineStrength": "AHA summary explicitly describes a strong recommendation for EVT in the specified basilar-occlusion group. Recommendation classes and evidence levels vary across the full guideline.",
+  "aiGenerated": true,
+  "humanReview": "Not yet human-reviewed",
+  "corrections": [
+    {
+      "date": "2026-10-27",
+      "description": "Held from publication pending review of official correction DOI 10.1161/STR.0000000000000530. The complete correction could not be retrieved."
+    }
+  ],
+  "sample": false,
+  "pinned": false,
+  "excluded": true,
+  "section": "Guidelines & Statements",
+  "ranking": {
+    "edImpact": 5,
+    "design": 5,
+    "novelty": 4,
+    "guidelineRelevance": 4
+  },
+  "id": "aha-asa-acute-ischemic-stroke-2026",
+  "title": "2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke: A Guideline From the American Heart Association/American Stroke Association",
+  "shortTitle": "AHA/ASA 2026: update ED thrombolysis, thrombectomy and BP pathways",
+  "authors": [
+    "Shyam Prabhakaran",
+    "Nestor R Gonzalez",
+    "Kori S Zachrison",
+    "AHA/ASA Writing Group"
+  ],
+  "source": "Stroke / AHA–ASA",
+  "firstOnlineDate": "2026-01-26",
+  "canonicalUrl": "https://www.ahajournals.org/doi/10.1161/STR.0000000000000513",
+  "officialPdfUrl": "https://www.ahajournals.org/doi/pdf/10.1161/STR.0000000000000513",
+  "studyType": "Guideline",
+  "topics": [
+    "neurology",
+    "guidelines"
+  ],
+  "summary": "The replacement acute ischemic stroke guideline supports either alteplase or tenecteplase within 4.5 hours, selected extended-window treatment, and broader thrombectomy eligibility. It distinguishes disabling from nondisabling deficits and advises against intensive systolic BP reduction below 140 mm Hg after reperfusion.",
+  "whyItMatters": "Update stroke alerts and transfer pathways with the stroke service. A low NIHSS alone should not dismiss a disabling deficit, while nondisabling presentations require a different antithrombotic pathway.",
+  "limitations": "Eligibility is population- and imaging-specific. Pediatric interventional recommendations have less mature evidence; this summary cannot replace the complete treatment algorithms.",
+  "population": "Adults with acute ischemic stroke; selected pediatric recommendations.",
+  "intervention": "Updated prehospital, reperfusion and early inpatient stroke recommendations.",
+  "comparator": "2018 guideline and its 2019 update.",
+  "primaryEndpoint": "Evidence-based recommendations rather than a single trial endpoint.",
+  "findings": [
+    "Either alteplase or tenecteplase is endorsed within 4.5 hours in eligible patients.",
+    "Selected basilar occlusions within 24 hours and NIHSS at least 10 receive a strong EVT recommendation.",
+    "Intensive systolic BP lowering below 140 mm Hg after reperfusion is not recommended."
+  ],
+  "reviewedMaterial": "official society summary",
+  "fullTextStatus": "Official PDF available",
+  "evidenceNotes": "AHA Top Things to Know reviewed in full; publisher metadata verifies January 26 first-online date and provides legal PDF. Complete guideline text was not reviewed. Publisher indicates a correction; precise dosing should be checked against current guideline.",
+  "backfill": true
+}

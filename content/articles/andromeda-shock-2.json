@@ -1,0 +1,52 @@
+{
+  "sitePublishedDate": "2026-10-27",
+  "discoveredDate": "2026-10-27",
+  "retrievedAt": "2026-10-27",
+  "status": "published",
+  "doi": "10.1001/jama.2025.20402",
+  "pmid": "41159835",
+  "sampleSize": 1467,
+  "guidelineStrength": null,
+  "aiGenerated": true,
+  "humanReview": "Not yet human-reviewed",
+  "corrections": [],
+  "sample": false,
+  "pinned": false,
+  "excluded": false,
+  "section": "Practice-Changing / High Priority",
+  "ranking": {
+    "edImpact": 5,
+    "design": 5,
+    "novelty": 4,
+    "guidelineRelevance": 4
+  },
+  "id": "andromeda-shock-2",
+  "title": "Personalized Hemodynamic Resuscitation Targeting Capillary Refill Time in Early Septic Shock: The ANDROMEDA-SHOCK-2 Randomized Clinical Trial",
+  "shortTitle": "ANDROMEDA-SHOCK-2: personalized resuscitation improved a hierarchical composite",
+  "authors": [
+    "The ANDROMEDA-SHOCK-2 Investigators"
+  ],
+  "source": "JAMA",
+  "firstOnlineDate": "2025-10-29",
+  "canonicalUrl": "https://jamanetwork.com/journals/jama/fullarticle/2840823",
+  "studyType": "Randomized trial",
+  "topics": [
+    "resuscitation",
+    "infectious-disease"
+  ],
+  "summary": "In 1,467 analyzed patients with early septic shock, a personalized protocol targeting capillary refill normalization improved a hierarchical composite of death, duration of vital support, and hospital stay versus usual care. The difference was driven mainly by shorter vital support, rather than demonstrated mortality reduction.",
+  "whyItMatters": "Serial capillary refill can support a structured resuscitation assessment alongside fluid responsiveness and bedside echocardiography. The intervention was a treatment algorithm, not an isolated capillary-refill target.",
+  "limitations": "Unblinded care and a hierarchical composite complicate attribution of benefit. Patients were managed in 86 ICUs, limiting direct extrapolation to all ED sepsis presentations.",
+  "population": "Adults within four hours of septic shock in 86 centers across 19 countries.",
+  "intervention": "Personalized hemodynamic protocol using capillary refill, pulse/diastolic pressure, fluid responsiveness and echocardiography.",
+  "comparator": "Usual care.",
+  "primaryEndpoint": "Hierarchical day-28 composite: mortality, duration of vital support, then hospital stay.",
+  "findings": [
+    "Primary composite win ratio 1.16 (95% CI 1.02-1.33).",
+    "1,501 randomized; 1,467 included in the primary analysis."
+  ],
+  "reviewedMaterial": "abstract",
+  "fullTextStatus": "Open-access full text available",
+  "evidenceNotes": "Publisher abstract and selected indexed methods/conclusion passages reviewed; complete full text was not reviewed. Legal PMC12573117 manuscript identified. Publisher first-online date October 29 precedes December 9 print date.",
+  "backfill": true
+}

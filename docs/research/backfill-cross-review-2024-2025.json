@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-27",
+  "type": "independent cross-review of eleven earlier-period drafts",
+  "status": "passed with minor clarifications; no mandatory hold identified from reviewed claims",
+  "modifiedDrafts": [
+    {
+      "id": "acs-guideline-2025",
+      "change": "Added without active bleeding to anemia/transfusion summary, matching AHA Top Things to Know item8. Identified but did not claim complete appraisal of June2025 correction.",
+      "source": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes/top-things-to-know"
+    },
+    {
+      "id": "remap-cap-hydrocortisone-2025",
+      "change": "Normalized title punctuation before subtitle; results unchanged.",
+      "source": "https://link.springer.com/article/10.1007/s00134-025-07861-w"
+    }
+  ],
+  "verified": [
+    {
+      "id": "balance-bloodstream-antibiotics-2024",
+      "result": "PubMed first-online Nov20,2024; randomized3608; mortality14.5%/16.1%, difference-1.6pp with unusual but correct95.7%CI -4.0 to0.8; per-protocol95%CI-4.5 to0.6 confirmed. Exclusions and noninferiority framing appropriate.",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39565030/"
+    },
+    {
+      "id": "sahara-transfusion-sah-2024",
+      "result": "Primary PubMed first-online Dec9,2024; randomized742, outcome725 (364/361).33.5%/37.7%,RR0.88,CI0.72-1.09 correct. Mandatory at Hb<=10 versus optional<=8 correctly distinguished.",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39655786/"
+    },
+    {
+      "id": "distal-thrombectomy-2025",
+      "result": "PubMed543 participants, medianNIHSS6, specified medium/distal vessels within24h, commonOR0.90(CI0.67-1.22),65.4%IVT verified. Limitations avoid extending result to all vessels/severities.",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39908430/"
+    },
+    {
+      "id": "escape-mevo-thrombectomy-2025",
+      "result": "Primary PubMed Feb5,2025;530 participants; excellent outcome106/255 versus118/274, adjustedRR0.95(CI0.79-1.15); mortality13.3%/8.4% adjustedHR1.82(CI1.06-3.12),sICH5.4%/2.2% verified. Conservative safety wording acceptable.",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39908448/"
+    },
+    {
+      "id": "ivio-vascular-access-2024",
+      "result": "Primary NEJM Oct31,2024;1506 randomized,1479 analyzed;92%/80% access success,30%/29%ROSC,RR1.06(CI0.90-1.24); survival12%/10%,RR1.16(CI0.87-1.56) and neuro9%/8%,RR1.16(CI0.83-1.62) verified. Structured sampleSize1506 is randomized N, explicitly distinguished from analysis N in summary.",
+      "source": "https://www.nejm.org/doi/10.1056/NEJMoa2407616"
+    },
+    {
+      "id": "paramedic-3-drug-route-2024",
+      "result": "PubMed Oct31,2024,6082 randomized;137/3030 versus155/3034 survival,adjustedOR0.94(CI0.68-1.32); anyROSC36.0%/39.1%,adjustedOR0.86(CI0.76-0.97) verified. Author manuscript availability separate from abstract review is correct.",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39480216/"
+    },
+    {
+      "id": "remap-cap-hydrocortisone-2025",
+      "result": "Publisher Apr22,2025 and open access confirmed.658 randomized536/122,15 missing vital status,78/521 versus12/122 mortality, stratum OR1.52-1.63 and allCrI crossing1 confirmed. Futility threshold and limited inference about other regimens appropriate.",
+      "source": "https://link.springer.com/article/10.1007/s00134-025-07861-w"
+    },
+    {
+      "id": "aha-adult-als-2025",
+      "result": "PubMed Epub Oct22,2025 despite printOct21 confirmed. Official complete AHA HTML permits truthful full-text review label. IV-firstClass1/A, IOalternative2a/A, head-upCPRno-benefit3/C-LD and uncertainPOCUS2b/C-LD verified. Scope explicitly excludes other AHAchapters.",
+      "source": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support"
+    },
+    {
+      "id": "acs-guideline-2025",
+      "result": "PubMed and AHA society citation first-onlineFeb27,2025 confirmed; DAPT12months if nothighbleedingrisk and culprit-onlyemergencyPCIinshock verified. Added activebleeding qualification to transfusion as above. Current society summary is appropriate review label.",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/40014670/"
+    },
+    {
+      "id": "idsa-complicated-uti-2025",
+      "result": "Official IDSA July17,2025 release verified.5-7dFQ conditional/moderate;7dnonFQ conditional/verylow, firsteffective-treatmentday, improvingbacteremic7dconditional/low, oral-switch prerequisites and exclusions verified. No changes needed.",
+      "source": "https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/"
+    },
+    {
+      "id": "eso-eans-ich-guideline-2025",
+      "result": "Official PMC May22,2025 header verified. BP<140forselectedminor/moderateICH,avoidfall>70orSBP<110,strokeunitstrong/moderate exceptICUrequirement,andprognosticcautions confirmed. Full-textselectedsections note is truthful; European-versus-US applicability retained.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12098356/"
+    }
+  ],
+  "remainingLimits": [
+    "Independent spot-check of published abstract/selected recommendations, not an independent comprehensive review of every supplement, secondary endpoint or trial protocol.",
+    "Retain AI/unreviewed labels. Cross-review by an AI agent does not confer human review.",
+    "Historical guidance must remain visibly dated; this batch is partial annual coverage.",
+    "ACS June2025 correction text not fully reviewed. Current society synopsis supports the specific claims; exact dosing or broader guideline claims need current primary text.",
+    "BALANCE author metadata includes the collective group twice as supplied by PubMed and one trailing newline; optional cleanup before presentation, not a clinical-result error."
+  ],
+  "productionWrites": false
+}

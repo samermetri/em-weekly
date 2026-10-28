@@ -1,0 +1,52 @@
+{
+  "id": "remap-cap-hydrocortisone-2025",
+  "title": "Effect of hydrocortisone on mortality in patients with severe community-acquired pneumonia: The REMAP-CAP Corticosteroid Domain Randomized Clinical Trial",
+  "shortTitle": "REMAP-CAP: fixed-course hydrocortisone did not show a large mortality benefit",
+  "authors": [
+    "The REMAP-CAP Investigators"
+  ],
+  "source": "Intensive Care Medicine",
+  "firstOnlineDate": "2025-04-22",
+  "sitePublishedDate": "2026-10-27",
+  "discoveredDate": "2026-10-27",
+  "retrievedAt": "2026-10-27",
+  "doi": "10.1007/s00134-025-07861-w",
+  "pmid": "40261382",
+  "canonicalUrl": "https://link.springer.com/article/10.1007/s00134-025-07861-w",
+  "studyType": "Randomized trial",
+  "status": "published",
+  "topics": [
+    "infectious-disease",
+    "resuscitation"
+  ],
+  "summary": "This adaptive platform comparison assigned 658 ICU patients with severe CAP to hydrocortisone 50 mg IV every 6 hours for 7 days or no corticosteroid. Enrollment stopped for futility. Ninety-day mortality was 15.0% versus 9.8%; stratum-specific adjusted ORs were 1.52–1.63, with all 95% credible intervals crossing 1.",
+  "whyItMatters": "Complicates the assumption that every severe-CAP steroid regimen produces the same benefit. This tested regimen does not by itself invalidate other regimens or current guideline-directed care.",
+  "limitations": "The control arm was small (122 patients), 15 outcomes were missing, and Bayesian estimates were imprecise. Smaller benefits and harm remain possible; adverse-event detail was not verified beyond the abstract.",
+  "population": "Adults admitted to ICU with severe community-acquired pneumonia.",
+  "sampleSize": 658,
+  "intervention": "Fixed 7-day IV hydrocortisone, 50 mg every 6 hours.",
+  "comparator": "No corticosteroid.",
+  "primaryEndpoint": "All-cause mortality at 90 days, stratified by influenza and shock.",
+  "findings": [
+    "Mortality: 78/521 versus 12/122.",
+    "Stopping criterion: <5% probability of a >20% relative mortality improvement."
+  ],
+  "reviewedMaterial": "abstract",
+  "fullTextStatus": "Open-access full text available",
+  "evidenceNotes": "Historical backfill. Primary abstract reviewed; full article not reviewed. Publisher correction of June 16, 2025 reviewed: corresponding author was erroneously listed as an additional author; no result correction stated. Correction: https://link.springer.com/article/10.1007/s00134-025-07954-6",
+  "guidelineStrength": null,
+  "aiGenerated": true,
+  "humanReview": "Not yet human-reviewed",
+  "corrections": [],
+  "sample": false,
+  "pinned": false,
+  "excluded": false,
+  "section": "Practice-Changing / High Priority",
+  "ranking": {
+    "edImpact": 5,
+    "design": 5,
+    "novelty": 4,
+    "guidelineRelevance": 0
+  },
+  "backfill": true
+}

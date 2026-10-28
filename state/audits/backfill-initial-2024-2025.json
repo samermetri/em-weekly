@@ -1,0 +1,211 @@
+{
+  "date": "2026-10-27",
+  "coverageStart": "2024-10-27",
+  "coverageEnd": "2025-10-26",
+  "guidelineSearchCompleted": false,
+  "finalCrossCheckCompleted": false,
+  "sources": [
+    {
+      "sourceId": "pubmed-em",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov BALANCE Antibiotic Treatment 7 versus 14 Days bloodstream infections 2024 | site.chestnet.org \"2025\" guideline acute respiratory failure pulmonary embolism"
+    },
+    {
+      "sourceId": "pubmed-general",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov DISTAL ESCAPE MeVO thrombectomy 2025 | site.acmt.net 2025 2024 position statement poisoning nalmefene"
+    },
+    {
+      "sourceId": "pubmed-specialty",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov SAHARA liberal restrictive transfusion subarachnoid hemorrhage 2024 | site.facs.org 2024 2025 best practices traumatic brain injury guidelines"
+    },
+    {
+      "sourceId": "pubmed-guidance",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.professional.heart.org 2025 CPR ECC guidelines October 22 2025 acute coronary syndromes guideline February 2025 | site.east.org 2025 practice management guideline trauma resuscitation"
+    },
+    {
+      "sourceId": "journalfeed",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://journalfeed.org/",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov \"Endovascular Treatment of Stroke Due to Medium-Vessel Occlusion\" 2025 | site.publications.aap.org 2025 emergency clinical practice guideline bronchiolitis fever"
+    },
+    {
+      "sourceId": "acep",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.acep.org/patient-care/clinical-policies",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov \"Endovascular Treatment for Stroke Due to Occlusion of Medium or Distal Vessels\" | site.acog.org 2025 clinical practice guideline pregnancy emergency"
+    },
+    {
+      "sourceId": "aha-asa",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://professional.heart.org/en/guidelines-and-statements",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov \"2025\" \"Acute Coronary Syndromes\" guideline | site.saem.org 2025 GRACE guideline emergency"
+    },
+    {
+      "sourceId": "acc",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.acc.org/guidelines",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.idsociety.org 2025 complicated urinary tract infections guideline July 17 | site.aaem.org 2025 statements clinical"
+    },
+    {
+      "sourceId": "aap",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov 2025 \"Emergency Department\" randomized trial dexamethasone ketamine intubation | site.hematology.org 2025 guideline anticoagulation bleeding emergency"
+    },
+    {
+      "sourceId": "acs",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov \"Hydrocortisone\" \"REMAP-CAP\" 2025 community acquired pneumonia | site.ena.org 2025 clinical practice guideline emergency"
+    },
+    {
+      "sourceId": "ena",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.ena.org/practice-resources",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov 2025 \"Dexamethasone\" \"chronic subdural\" trial | site.eso-stroke.org 2025 guideline intracerebral haemorrhage"
+    },
+    {
+      "sourceId": "saem",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.saem.org/publications/grace",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov 2025 \"Hyperacute\" \"Intracerebral\" \"INTERACT4\" | site.erc.edu 2025 guidelines October 22"
+    },
+    {
+      "sourceId": "aaem",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.aaem.org/statements/",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov \"PARAMEDIC-3\" \"2024\" | site.acog.org \"2025\" \"Emergency\" \"Clinical\""
+    },
+    {
+      "sourceId": "ash",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov \"ANDROMEDA-SHOCK-2\" 2025 | site.publications.aap.org \"2025\" \"Clinical Practice Guideline\" emergency"
+    },
+    {
+      "sourceId": "chest",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov \"2025\" \"Clinical Policy\" \"Asymptomatic Elevated Blood Pressure\""
+    },
+    {
+      "sourceId": "sccm",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.sccm.org/clinical-resources/guidelines",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov \"2024\" \"Intraosseous or Intravenous\" cardiac arrest"
+    },
+    {
+      "sourceId": "idsa",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov \"A Randomized Trial of Drug Route\" 2024"
+    },
+    {
+      "sourceId": "acmt",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.acmt.net/statements/",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov \"Personalized Hemodynamic Resuscitation\" 2025"
+    },
+    {
+      "sourceId": "east-trauma",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.east.org/education-resources/practice-management-guidelines",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.professional.heart.org \"2025\" \"Top Things to Know\" \"Acute Coronary\""
+    },
+    {
+      "sourceId": "eso-stroke",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://eso-stroke.org/guidelines/",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.pubmed.ncbi.nlm.nih.gov \"Part 9: Adult Advanced Life Support\" \"2025\""
+    },
+    {
+      "sourceId": "acog",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.acog.org/clinical",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.acep.org \"2025\" \"Clinical Policy\" emergency"
+    },
+    {
+      "sourceId": "erc",
+      "status": "failed",
+      "checkedAt": "2026-10-28T02:49:59.002174+00:00",
+      "url": "https://www.erc.edu/science-research/guidelines/",
+      "notes": "Initial targeted discovery only; complete source-window search and pagination remain unverified. No successful coverage checkpoint claimed. Exact discovery queries: site.sccm.org \"2025\" guideline focused update sepsis corticosteroids"
+    }
+  ],
+  "finalCrossCheck": [
+    "Major EM RCTs: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "NEJM/JAMA/Lancet/BMJ acute-care trials: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "ACEP policies: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "AHA/ASA guidance: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "SCCM and sepsis: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "IDSA guidance: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "CHEST guidance: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "Hematology and bleeding: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "Toxicology statements: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "Trauma guidance: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "Pediatric emergencies: targeted initial selection only; comprehensive retrospective window checks remain pending.",
+    "Obstetric emergencies: targeted initial selection only; comprehensive retrospective window checks remain pending."
+  ],
+  "excludedCandidates": [
+    {
+      "identifier": "ANDROMEDA-SHOCK-2; 10.1001/jama.2025.20402",
+      "reason": "Publisher full text gives first online October 29, 2025, outside this assigned interval; sent to parent for later period."
+    },
+    {
+      "identifier": "RSI ketamine versus etomidate; 10.1056/NEJMoa2511420",
+      "reason": "Primary PMC record gives December 9, 2025, outside assigned interval; later-period candidate."
+    },
+    {
+      "identifier": "TRAIN; PMID 39382241",
+      "reason": "First online October 9, 2024, before assigned interval."
+    },
+    {
+      "identifier": "PREOXI",
+      "reason": "First online June 2024, before assigned interval; no duplicate historical sample created."
+    },
+    {
+      "identifier": "CLOVERS; PREOXI; DEVICE sample records",
+      "reason": "Existing historical samples were checked and not duplicated. All new draft DOI/PMID/canonical identifiers are unique against existing repository articles."
+    },
+    {
+      "identifier": "ACMT 2025 opioid exposure and brain-death statements",
+      "reason": "Official index lists November 2025, outside assigned interval; 2023 nalmefene position also predates interval."
+    },
+    {
+      "identifier": "AHA/ACC pulmonary embolism guideline 2026",
+      "reason": "New guideline outside assigned period; do not infer publication year from DOI containing 2025."
+    },
+    {
+      "identifier": "AHA/AAP pediatric readiness 2026",
+      "reason": "Search returned 2026 publication despite DOI containing 2025; outside assigned period."
+    }
+  ]
+}

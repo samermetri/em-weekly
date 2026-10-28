@@ -1,0 +1,55 @@
+{
+  "sitePublishedDate": "2026-10-27",
+  "discoveredDate": "2026-10-27",
+  "retrievedAt": "2026-10-27",
+  "status": "published",
+  "doi": "10.1001/jama.2026.10628",
+  "pmid": "42273960",
+  "sampleSize": 779,
+  "guidelineStrength": null,
+  "aiGenerated": true,
+  "humanReview": "Not yet human-reviewed",
+  "corrections": [],
+  "sample": false,
+  "pinned": false,
+  "excluded": false,
+  "section": "Practice-Changing / High Priority",
+  "ranking": {
+    "edImpact": 5,
+    "design": 5,
+    "novelty": 4,
+    "guidelineRelevance": 4
+  },
+  "id": "bihca-bicarbonate",
+  "title": "Sodium Bicarbonate for In-Hospital Cardiac Arrest: A Randomized Clinical Trial",
+  "shortTitle": "BIHCA: routine bicarbonate did not improve sustained ROSC",
+  "authors": [
+    "Asger Granfeldt",
+    "Bertram Lahn Kirkegaard",
+    "Mikael Fink Vallentin",
+    "BIHCA Investigators"
+  ],
+  "source": "JAMA",
+  "firstOnlineDate": "2026-06-11",
+  "canonicalUrl": "https://jamanetwork.com/journals/jama/article-abstract/2850405",
+  "studyType": "Randomized trial",
+  "topics": [
+    "resuscitation"
+  ],
+  "summary": "In this double-blind trial at 21 Danish hospitals, routine IV sodium bicarbonate did not improve sustained ROSC after in-hospital cardiac arrest. Of 913 randomized patients, 779 were eligible for the primary analysis.",
+  "whyItMatters": "The findings argue against routine empiric bicarbonate during in-hospital arrest. They do not resolve treatment for specific indications such as selected poisonings.",
+  "limitations": "Not powered to establish differences in survival or neurologic recovery. In-hospital arrest and postrandomization exclusions limit broader application.",
+  "population": "Adults with in-hospital arrest who had received at least one dose of epinephrine.",
+  "intervention": "Up to 100 mmol IV sodium bicarbonate.",
+  "comparator": "IV placebo.",
+  "primaryEndpoint": "Sustained return of spontaneous circulation.",
+  "findings": [
+    "Sustained ROSC: 39% versus 37%; RR 1.05 (95% CI 0.88-1.24).",
+    "Thirty-day survival: 12% versus 9.1%; RR 1.25 (95% CI 0.84-1.88).",
+    "Alkalosis and hypernatremia were more common with bicarbonate."
+  ],
+  "reviewedMaterial": "abstract",
+  "fullTextStatus": "Abstract available; full text paywalled",
+  "evidenceNotes": "Abstract reviewed; full text unavailable. Publisher abstract and PubMed abstract reviewed. Publisher confirms June 11 first-online date. PMC manuscript was marked unavailable until December 11, 2026, so it was not treated as currently accessible.",
+  "backfill": true
+}

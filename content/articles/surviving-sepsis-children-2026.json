@@ -1,0 +1,58 @@
+{
+  "sitePublishedDate": "2026-10-27",
+  "discoveredDate": "2026-10-27",
+  "retrievedAt": "2026-10-27",
+  "status": "published",
+  "doi": "10.1007/s00134-026-08360-2",
+  "pmid": null,
+  "sampleSize": null,
+  "guidelineStrength": "Five strong and 24 conditional recommendations, ten good-practice statements; evidence was insufficient for recommendations on 22 PICO questions.",
+  "aiGenerated": true,
+  "humanReview": "Not yet human-reviewed",
+  "corrections": [],
+  "sample": false,
+  "pinned": false,
+  "excluded": false,
+  "section": "Guidelines & Statements",
+  "ranking": {
+    "edImpact": 5,
+    "design": 5,
+    "novelty": 4,
+    "guidelineRelevance": 4
+  },
+  "id": "surviving-sepsis-children-2026",
+  "title": "Surviving Sepsis Campaign International Guidelines for the Management of Sepsis and Septic Shock in Children 2026",
+  "shortTitle": "SSC 2026 children: reassess each bolus and recognize limited evidence",
+  "authors": [
+    "Scott L Weiss",
+    "Mark J Peters",
+    "Simon J W Oczkowski",
+    "Surviving Sepsis Campaign Pediatric Guideline Panel"
+  ],
+  "source": "Intensive Care Medicine / SCCM–ESICM",
+  "firstOnlineDate": "2026-03-23",
+  "canonicalUrl": "https://link.springer.com/article/10.1007/s00134-026-08360-2",
+  "studyType": "Guideline",
+  "topics": [
+    "pediatrics",
+    "resuscitation",
+    "infectious-disease",
+    "guidelines"
+  ],
+  "summary": "The pediatric update provides 61 statements, but only three recommendations have high- or moderate-certainty evidence. In settings with intensive care availability, it conditionally suggests up to 40–60 mL/kg during the first hour, using repeated small boluses and reassessment.",
+  "whyItMatters": "Reassess perfusion and overload after every bolus and stop when shock resolves or overload develops. Do not apply the ICU-available fluid strategy to settings without intensive care support.",
+  "limitations": "Most recommendations rely on low-certainty evidence or consensus. The guideline preceded PRoMPT BOLUS, which did not demonstrate better major kidney outcomes with balanced fluids.",
+  "population": "Infants, children and adolescents with sepsis or septic shock.",
+  "intervention": "Updated antimicrobial, fluid, hemodynamic and organ-support recommendations.",
+  "comparator": "2020 pediatric SSC guideline.",
+  "primaryEndpoint": "GRADE-based recommendations rather than a single trial endpoint.",
+  "findings": [
+    "For suspected septic shock, antimicrobials ideally within one hour: strong recommendation, very-low-certainty evidence.",
+    "With ICU availability, 10–20 mL/kg boluses up to 40–60 mL/kg in the first hour: conditional, low certainty.",
+    "Balanced crystalloid preference is conditional with very-low-certainty evidence; saline remains an alternative."
+  ],
+  "reviewedMaterial": "official society summary",
+  "fullTextStatus": "Official society summary available",
+  "evidenceNotes": "SCCM current recommendations and Springer abstract reviewed. Springer confirms March 23 publication, before the May issue. Complete guideline not reviewed; Pediatric Critical Care Medicine co-publication DOI 10.1097/PCC.0000000000003927 is the same guidance.",
+  "backfill": true
+}

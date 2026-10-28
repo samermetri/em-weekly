@@ -1,0 +1,328 @@
+{
+  "date": "2026-10-27",
+  "coverageStart": "2024-10-27",
+  "coverageEnd": "2025-10-26",
+  "status": "partial-initial-batch",
+  "scope": "Selective historical literature backfill, not a systematic review or a completed annual source check. Research drafts only; nothing written to production. Parent will apply separate historical-collection metadata.",
+  "draftCount": 11,
+  "drafts": [
+    {
+      "id": "acs-guideline-2025",
+      "file": "/Users/samermetri/Documents/ChatGPT/EM Weekly/tmp/backfill-2024-2025/acs-guideline-2025.json",
+      "firstOnlineDate": "2025-02-27",
+      "doi": "10.1161/CIR.0000000000001309",
+      "pmid": "40014670",
+      "canonicalUrl": "https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes/top-things-to-know",
+      "reviewedMaterial": "official society summary",
+      "notes": "Historical backfill. Official AHA Top Things to Know and publisher transfusion recommendation excerpt reviewed; full guideline not reviewed. First online February 27, 2025 confirmed by primary PubMed metadata. Transfusion grade verified in https://www.jacc.org/doi/10.1016/j.jacc.2024.11.009"
+    },
+    {
+      "id": "aha-adult-als-2025",
+      "file": "/Users/samermetri/Documents/ChatGPT/EM Weekly/tmp/backfill-2024-2025/aha-adult-als-2025.json",
+      "firstOnlineDate": "2025-10-22",
+      "doi": "10.1161/CIR.0000000000001376",
+      "pmid": "41122884",
+      "canonicalUrl": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001376",
+      "reviewedMaterial": "full text",
+      "notes": "Historical backfill. Official AHA full-text HTML at https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support reviewed, including access/adjunct recommendation tables. Journal endpoint returned 403; no access controls bypassed. First electronic publication October 22, 2025 confirmed by PubMed and AHA release; print labeling October 21 was not used."
+    },
+    {
+      "id": "balance-bloodstream-antibiotics-2024",
+      "file": "/Users/samermetri/Documents/ChatGPT/EM Weekly/tmp/backfill-2024-2025/balance-bloodstream-antibiotics-2024.json",
+      "firstOnlineDate": "2024-11-20",
+      "doi": "10.1056/NEJMoa2404991",
+      "pmid": "39565030",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/39565030/",
+      "reviewedMaterial": "abstract",
+      "notes": "Historical backfill: first-online date verified from the PubMed electronic publication record. Abstract reviewed; full text unavailable. This is historical evidence, not a new 2026 publication."
+    },
+    {
+      "id": "distal-thrombectomy-2025",
+      "file": "/Users/samermetri/Documents/ChatGPT/EM Weekly/tmp/backfill-2024-2025/distal-thrombectomy-2025.json",
+      "firstOnlineDate": "2025-02-05",
+      "doi": "10.1056/NEJMoa2408954",
+      "pmid": "39908430",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/39908430/",
+      "reviewedMaterial": "abstract",
+      "notes": "Historical backfill. Primary PubMed abstract and electronic date reviewed; full text was not reviewed. PubMed labels this a free article and links a legal University of Liege repository copy. Do not infer full-text appraisal from availability."
+    },
+    {
+      "id": "escape-mevo-thrombectomy-2025",
+      "file": "/Users/samermetri/Documents/ChatGPT/EM Weekly/tmp/backfill-2024-2025/escape-mevo-thrombectomy-2025.json",
+      "firstOnlineDate": "2025-02-05",
+      "doi": "10.1056/NEJMoa2411668",
+      "pmid": "39908448",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/39908448/",
+      "reviewedMaterial": "abstract",
+      "notes": "Historical backfill: first-online date verified from the PubMed electronic publication record. Abstract reviewed; full text unavailable. This is historical evidence, not a new 2026 publication."
+    },
+    {
+      "id": "eso-eans-ich-guideline-2025",
+      "file": "/Users/samermetri/Documents/ChatGPT/EM Weekly/tmp/backfill-2024-2025/eso-eans-ich-guideline-2025.json",
+      "firstOnlineDate": "2025-05-22",
+      "doi": "10.1177/23969873251340815",
+      "pmid": "40401775",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12098356/",
+      "reviewedMaterial": "full text",
+      "notes": "Historical backfill. Primary open-access guideline abstract, methods and relevant recommendation table sections on stroke-unit care, BP and prognosis reviewed; not every supplement or recommendation was appraised. Electronic date May 22, 2025 verified from PubMed XML. This is European guidance; local US protocols may differ."
+    },
+    {
+      "id": "idsa-complicated-uti-2025",
+      "file": "/Users/samermetri/Documents/ChatGPT/EM Weekly/tmp/backfill-2024-2025/idsa-complicated-uti-2025.json",
+      "firstOnlineDate": "2025-07-17",
+      "doi": null,
+      "pmid": null,
+      "canonicalUrl": "https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/",
+      "reviewedMaterial": "official society summary",
+      "notes": "Historical backfill. Official IDSA recommendations and remarks reviewed; linked manuscript evidence tables and supplements were not reviewed. Official release July 17, 2025, rather than later journal issue dates. This is an original synopsis, not a reproduction."
+    },
+    {
+      "id": "ivio-vascular-access-2024",
+      "file": "/Users/samermetri/Documents/ChatGPT/EM Weekly/tmp/backfill-2024-2025/ivio-vascular-access-2024.json",
+      "firstOnlineDate": "2024-10-31",
+      "doi": "10.1056/NEJMoa2407616",
+      "pmid": "39480221",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/39480221/",
+      "reviewedMaterial": "abstract",
+      "notes": "Historical backfill: first-online date verified from the PubMed electronic publication record. Abstract reviewed; full text unavailable. This is historical evidence, not a new 2026 publication."
+    },
+    {
+      "id": "paramedic-3-drug-route-2024",
+      "file": "/Users/samermetri/Documents/ChatGPT/EM Weekly/tmp/backfill-2024-2025/paramedic-3-drug-route-2024.json",
+      "firstOnlineDate": "2024-10-31",
+      "doi": "10.1056/NEJMoa2407780",
+      "pmid": "39480216",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7616768/",
+      "reviewedMaterial": "abstract",
+      "notes": "Historical backfill. PubMed primary abstract and electronic publication date reviewed; the legal PMC author manuscript is available but was not reviewed in full."
+    },
+    {
+      "id": "remap-cap-hydrocortisone-2025",
+      "file": "/Users/samermetri/Documents/ChatGPT/EM Weekly/tmp/backfill-2024-2025/remap-cap-hydrocortisone-2025.json",
+      "firstOnlineDate": "2025-04-22",
+      "doi": "10.1007/s00134-025-07861-w",
+      "pmid": "40261382",
+      "canonicalUrl": "https://link.springer.com/article/10.1007/s00134-025-07861-w",
+      "reviewedMaterial": "abstract",
+      "notes": "Historical backfill. Primary abstract reviewed; full article not reviewed. Publisher correction of June 16, 2025 reviewed: corresponding author was erroneously listed as an additional author; no result correction stated. Correction: https://link.springer.com/article/10.1007/s00134-025-07954-6"
+    },
+    {
+      "id": "sahara-transfusion-sah-2024",
+      "file": "/Users/samermetri/Documents/ChatGPT/EM Weekly/tmp/backfill-2024-2025/sahara-transfusion-sah-2024.json",
+      "firstOnlineDate": "2024-12-09",
+      "doi": "10.1056/NEJMoa2410962",
+      "pmid": "39655786",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/39655786/",
+      "reviewedMaterial": "abstract",
+      "notes": "Historical backfill: first-online date verified from the PubMed electronic publication record. Abstract reviewed; full text unavailable. This is historical evidence, not a new 2026 publication."
+    }
+  ],
+  "queries": [
+    "site.pubmed.ncbi.nlm.nih.gov BALANCE Antibiotic Treatment 7 versus 14 Days bloodstream infections 2024",
+    "site.pubmed.ncbi.nlm.nih.gov DISTAL ESCAPE MeVO thrombectomy 2025",
+    "site.pubmed.ncbi.nlm.nih.gov SAHARA liberal restrictive transfusion subarachnoid hemorrhage 2024",
+    "site.professional.heart.org 2025 CPR ECC guidelines October 22 2025 acute coronary syndromes guideline February 2025",
+    "site.pubmed.ncbi.nlm.nih.gov \"Endovascular Treatment of Stroke Due to Medium-Vessel Occlusion\" 2025",
+    "site.pubmed.ncbi.nlm.nih.gov \"Endovascular Treatment for Stroke Due to Occlusion of Medium or Distal Vessels\"",
+    "site.pubmed.ncbi.nlm.nih.gov \"2025\" \"Acute Coronary Syndromes\" guideline",
+    "site.idsociety.org 2025 complicated urinary tract infections guideline July 17",
+    "site.pubmed.ncbi.nlm.nih.gov 2025 \"Emergency Department\" randomized trial dexamethasone ketamine intubation",
+    "site.pubmed.ncbi.nlm.nih.gov \"Hydrocortisone\" \"REMAP-CAP\" 2025 community acquired pneumonia",
+    "site.pubmed.ncbi.nlm.nih.gov 2025 \"Dexamethasone\" \"chronic subdural\" trial",
+    "site.pubmed.ncbi.nlm.nih.gov 2025 \"Hyperacute\" \"Intracerebral\" \"INTERACT4\"",
+    "site.pubmed.ncbi.nlm.nih.gov \"PARAMEDIC-3\" \"2024\"",
+    "site.pubmed.ncbi.nlm.nih.gov \"ANDROMEDA-SHOCK-2\" 2025",
+    "site.pubmed.ncbi.nlm.nih.gov \"2025\" \"Clinical Policy\" \"Asymptomatic Elevated Blood Pressure\"",
+    "site.pubmed.ncbi.nlm.nih.gov \"2024\" \"Intraosseous or Intravenous\" cardiac arrest",
+    "site.pubmed.ncbi.nlm.nih.gov \"A Randomized Trial of Drug Route\" 2024",
+    "site.pubmed.ncbi.nlm.nih.gov \"Personalized Hemodynamic Resuscitation\" 2025",
+    "site.professional.heart.org \"2025\" \"Top Things to Know\" \"Acute Coronary\"",
+    "site.pubmed.ncbi.nlm.nih.gov \"Part 9: Adult Advanced Life Support\" \"2025\"",
+    "site.acep.org \"2025\" \"Clinical Policy\" emergency",
+    "site.sccm.org \"2025\" guideline focused update sepsis corticosteroids",
+    "site.chestnet.org \"2025\" guideline acute respiratory failure pulmonary embolism",
+    "site.acmt.net 2025 2024 position statement poisoning nalmefene",
+    "site.facs.org 2024 2025 best practices traumatic brain injury guidelines",
+    "site.east.org 2025 practice management guideline trauma resuscitation",
+    "site.publications.aap.org 2025 emergency clinical practice guideline bronchiolitis fever",
+    "site.acog.org 2025 clinical practice guideline pregnancy emergency",
+    "site.saem.org 2025 GRACE guideline emergency",
+    "site.aaem.org 2025 statements clinical",
+    "site.hematology.org 2025 guideline anticoagulation bleeding emergency",
+    "site.ena.org 2025 clinical practice guideline emergency",
+    "site.eso-stroke.org 2025 guideline intracerebral haemorrhage",
+    "site.erc.edu 2025 guidelines October 22",
+    "site.acog.org \"2025\" \"Emergency\" \"Clinical\"",
+    "site.publications.aap.org \"2025\" \"Clinical Practice Guideline\" emergency"
+  ],
+  "primaryMetadataVerification": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+    "method": "Public PubMed efetch XML, explicit PMID batches, electronic ArticleDate and exact titles/authors/DOIs checked.",
+    "pmids": [
+      "39565030",
+      "39655786",
+      "39908430",
+      "39908448",
+      "39480216",
+      "39480221",
+      "40261382",
+      "40014670",
+      "41122884",
+      "40401775"
+    ]
+  },
+  "candidateQueue": [
+    {
+      "title": "ACS revised TBI best-practices guidance",
+      "url": "https://www.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf",
+      "status": "needs-primary-review",
+      "reason": "Official release announcement October 28, 2024 retrieved; full recommendations and earliest PDF release date still need review."
+    },
+    {
+      "title": "SCCM adult critical care ultrasonography focused update 2024",
+      "url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-on-adult-critical-care-ultrasonography-focused-update-2024",
+      "status": "needs-primary-review",
+      "reason": "Official page says published February 21, 2025 despite 2024 title. Retrieve graded recommendations and verify journal electronic date."
+    },
+    {
+      "title": "Australasian Bronchiolitis Guideline: 2025 Update",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12397848/",
+      "status": "needs-primary-review",
+      "reason": "Primary abstract and indexed table excerpts retrieved; direct PMC page encountered a challenge. Review full guidance, dates, oxygen/HFNC recommendations and US applicability."
+    },
+    {
+      "title": "ERC 2025 resuscitation guideline chapters",
+      "url": "https://www.erc.edu/science-research/guidelines/guidelines-2025/guidelines-2025-english",
+      "status": "needs-primary-review",
+      "reason": "Official launch date October 22, 2025 retrieved. Individual adult/pediatric/special circumstances/post-arrest chapters require appraisal and comparison with AHA."
+    },
+    {
+      "title": "AHA 2025 pediatric ALS, special circumstances, and post-cardiac arrest care",
+      "url": "https://professional.heart.org/en/science-news/2025-aha-guidelines-for-cpr-and-ecc",
+      "status": "needs-primary-review",
+      "reason": "Adult ALS only is drafted; other major chapters remain unreviewed and must not be represented as covered by that record."
+    },
+    {
+      "title": "ACEP asymptomatic elevated BP clinical policy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40543987/",
+      "status": "needs-primary-review",
+      "reason": "Official PDF retrieved, including approval January 22, 2025; earliest electronic publication date not yet established. Approval and July print dates are not first-online dates."
+    },
+    {
+      "title": "ACEP acute ischemic stroke/thrombectomy clinical policy",
+      "url": "https://www.acep.org/patient-care/clinical-policies",
+      "status": "needs-primary-review",
+      "reason": "Official newsletter identifies December 2024 print issue; retrieve original policy and verify first-online date before inclusion."
+    },
+    {
+      "title": "ATS adult CAP guideline",
+      "url": "https://doi.org/10.1164/rccm.202507-1692ST",
+      "status": "needs-primary-review",
+      "reason": "Official publisher recommendation excerpts retrieved; verify first-online date, full evidence and recommendation grades before separate record."
+    },
+    {
+      "title": "Severe bleeding on oral anticoagulation multidisciplinary guidance",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12283145/",
+      "status": "needs-primary-review",
+      "reason": "Primary article discovered; metadata shows December 13, 2024 versus later August 2025 issue. Need first-online reconciliation and full current-practice review."
+    },
+    {
+      "title": "ERATIC initial trauma care consensus guidance",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12338446/",
+      "status": "needs-primary-review",
+      "reason": "Primary article discovered with July 22, 2025 date; clinical recommendations not appraised."
+    },
+    {
+      "title": "Moderate respiratory distress ACEP expert recommendations",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12591642/",
+      "status": "needs-primary-review",
+      "reason": "Primary article discovered with September 27, 2025 date; no result/recommendation verification yet."
+    },
+    {
+      "title": "EAST 2024 whole blood guidance",
+      "url": "https://www.east.org/education-resources/practice-management-guidelines",
+      "status": "needs-primary-review",
+      "reason": "Official index found; verify electronic date may precede interval, then retrieve primary guideline if eligible."
+    },
+    {
+      "title": "EMS obstetric emergency guidelines",
+      "url": "https://naemsp.org/position-statement/ems-obstetric-emergency-guidelines/",
+      "status": "needs-primary-review",
+      "reason": "Official listing says February 2025; linked ACOG original guidance and first-online date not appraised."
+    }
+  ],
+  "excludedCandidates": [
+    {
+      "identifier": "ANDROMEDA-SHOCK-2; 10.1001/jama.2025.20402",
+      "reason": "Publisher full text gives first online October 29, 2025, outside this assigned interval; sent to parent for later period."
+    },
+    {
+      "identifier": "RSI ketamine versus etomidate; 10.1056/NEJMoa2511420",
+      "reason": "Primary PMC record gives December 9, 2025, outside assigned interval; later-period candidate."
+    },
+    {
+      "identifier": "TRAIN; PMID 39382241",
+      "reason": "First online October 9, 2024, before assigned interval."
+    },
+    {
+      "identifier": "PREOXI",
+      "reason": "First online June 2024, before assigned interval; no duplicate historical sample created."
+    },
+    {
+      "identifier": "CLOVERS; PREOXI; DEVICE sample records",
+      "reason": "Existing historical samples were checked and not duplicated. All new draft DOI/PMID/canonical identifiers are unique against existing repository articles."
+    },
+    {
+      "identifier": "ACMT 2025 opioid exposure and brain-death statements",
+      "reason": "Official index lists November 2025, outside assigned interval; 2023 nalmefene position also predates interval."
+    },
+    {
+      "identifier": "AHA/ACC pulmonary embolism guideline 2026",
+      "reason": "New guideline outside assigned period; do not infer publication year from DOI containing 2025."
+    },
+    {
+      "identifier": "AHA/AAP pediatric readiness 2026",
+      "reason": "Search returned 2026 publication despite DOI containing 2025; outside assigned period."
+    }
+  ],
+  "guidelineSearchCompleted": false,
+  "finalCrossCheckCompleted": false,
+  "coverageNotes": {
+    "AHA_ASA_ACC": "ACS and adult ALS drafted; other 2025 chapters remain queued. ESO ICH drafted separately.",
+    "ACEP": "BP and stroke policies discovered but first-online verification/appraisal incomplete.",
+    "IDSA": "Official cUTI recommendations reviewed and drafted; all other updates not exhaustively screened.",
+    "SCCM": "CCUS candidate queued. No assertion that all 2025 critical-care guidance was found.",
+    "ACS_EAST": "Indexes/official targeted results searched; ACS TBI, ERATIC and EAST whole blood need remaining review.",
+    "AAP_pediatrics": "Targeted official-domain search did not establish complete coverage. Australasian bronchiolitis queued; no pediatric completion claim.",
+    "ACOG_obstetrics": "Targeted searches incomplete; EMS obstetric candidate queued.",
+    "SAEM": "GRACE official index retrieved; syncope shown as upcoming. No full annual audit.",
+    "AAEM": "Official statement archive found, not fully reviewed.",
+    "ENA": "Targeted search returned staffing material, no full clinical-guidance audit.",
+    "ASH_CHEST": "Targeted searches were not sufficient to verify all relevant new guidance; remain incomplete.",
+    "ACMT_AACT": "Official ACMT annual index retrieved; individual eligible statements not fully reviewed.",
+    "ERC": "Official October 22, 2025 launch verified; chapter appraisal incomplete."
+  },
+  "unsearchedOrIncomplete": [
+    "No complete paginated PubMed search of configured EM, general, specialty or guidance sources; no discovery checkpoints advanced.",
+    "No month-by-month screening of all 12 months or every journal issue. Search snippets alone were never counted as exhaustive coverage.",
+    "No complete diagnostic-tool, pediatric RCT, obstetric RCT, toxicology, emergency psychiatry or operational-study search.",
+    "No full annual ACEP/AAP/ENA/AAEM/ASH/CHEST/ACOG/trauma source audit; eligible major guidance may remain.",
+    "Secondary endpoints and harms not in retrieved abstracts were not inferred. Abstract-reviewed records remain labeled accordingly.",
+    "No normal weekly issues created; historical drafts must be excluded from current weekly inclusion."
+  ],
+  "accessFailures": [
+    "Initial sandbox network DNS failed; read-only approved public efetch request succeeded.",
+    "Direct PubMed SAHARA and IVIO HTML returned challenge/empty pages; their primary abstracts were legally retrieved using official NCBI efetch XML.",
+    "Some PMC requests returned access challenges; no CAPTCHA, paywall or access restriction was bypassed.",
+    "NEJM publisher requests returned 403/internal errors for attempted endpoints.",
+    "AHA journal endpoint returned 403; official AHA CPR full-text HTML was used for adult ALS."
+  ],
+  "validation": {
+    "articleSchema": "passed for all 11 drafts",
+    "supportedTopicIds": true,
+    "existingIdentifierDuplicates": 0,
+    "firstOnlineWithinAssignedInterval": true,
+    "sitePublishedDateDiscoveredDateRetrievedAt": "2026-10-27",
+    "productionWrites": false
+  }
+}

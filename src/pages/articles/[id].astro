@@ -10,7 +10,7 @@ const printTitle=`EM Weekly - ${a.id.toUpperCase()} - ${a.firstOnlineDate}`;
 ---
 <Layout title={a.shortTitle} description={a.summary}>
  <article class="article-detail print-document">
-  <PrintHeader/>
+  <PrintHeader/>{a.backfill&&<p class="notice historical-notice">Historical collection · First published {formatDate(a.firstOnlineDate)}; added to EM Weekly {formatDate(a.sitePublishedDate)}. This retrospective summary may be superseded by later evidence or guidance.</p>}
   <a class="back-link" href={href('articles/')}>← All articles</a>
   {a.sample&&<p class="notice">Historical sample · This article is not presented as new evidence this week.</p>}
   <div class="article-top"><span class="tag">{a.studyType}</span><span class="study-type">{a.source}</span></div>

@@ -1,0 +1,66 @@
+{
+  "reviewedAt": "2026-10-27",
+  "batch": "tmp/backfill-2025-2026",
+  "role": "independent research cross-review; no production writes",
+  "primaryAbstracts": {
+    "route": "Official NCBI efetch XML",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41369227,41159835,42274006,41841706,42028918,42267831,42273960,41582814,41712898&retmode=xml",
+    "verifiedTrialPmids": [
+      "41369227",
+      "41159835",
+      "42274006",
+      "41841706",
+      "42028918",
+      "42267831",
+      "42273960"
+    ],
+    "findings": "All seven trials agree with stored numerical results, CIs, primary endpoints, randomized versus analyzed population distinctions, and summarized harms. No numerical draft corrections identified."
+  },
+  "dateChecks": {
+    "verifiedElectronicDates": {
+      "rsi-ketamine-etomidate-2025": "2025-12-09",
+      "arise-fluids": "2026-06-11",
+      "swift-prehospital-whole-blood": "2026-03-17",
+      "logical-post-arrest-oxygen": "2026-06-10",
+      "aha-asa-acute-ischemic-stroke-2026": "2026-01-26",
+      "aha-acc-acute-pe-2026": "2026-02-19"
+    },
+    "andromeda-shock-2": "Publisher previously independently retrieved first-online October 29, 2025, matching draft. PubMed XML has no ArticleDate field; do not substitute print date.",
+    "prompt-bolus": "Independent live PubMed XML says April 24, while original research audit documents publisher History April 23. Reopening publisher now returns 403. April 23 can be retained only on original verified publisher History evidence; do not describe that one-day discrepancy as independently resolved by this review.",
+    "bihca-bicarbonate": "PubMed has no electronic ArticleDate; original researcher verified publisher online June 11. No contrary evidence."
+  },
+  "guidelineChecks": [
+    {
+      "id": "surviving-sepsis-adults-2026",
+      "recommendation": "eligible with precise correction note",
+      "primaryUrl": "https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines",
+      "verified": "129 total/46 new; at least 30 mL/kg within 3 h conditional/low certainty specifically in sepsis-induced hypoperfusion or shock; MAP65 strong/moderate; peripheral pressors conditional/very low; antibiotic stratification matches draft.",
+      "correctionUrl": "https://link.springer.com/article/10.1007/s00134-026-08410-9",
+      "correctionScopeSource": "https://researchinformation.umcutrecht.nl/en/publications/publisher-correction-surviving-sepsis-campaign-international-guid/",
+      "correctionAssessment": "Public author-institution correction abstract specifies removal of trailing c characters from four author names. No clinical changes stated. Publisher correction body/PDF remains subscription-only; do not claim complete publisher-PDF review."
+    },
+    {
+      "id": "surviving-sepsis-children-2026",
+      "recommendation": "eligible as official-society synopsis",
+      "primaryUrl": "https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-pediatric-guidelines",
+      "verified": "61 statements,5 strong,24 conditional,10 good-practice,22 questions without recommendation; antimicrobials1h strong/very low; ICU-available boluses10–20 up to40–60 mL/kg conditional/low; balanced fluids conditional/very low. Stop for overload or shock resolution agrees."
+    },
+    {
+      "id": "aha-asa-acute-ischemic-stroke-2026",
+      "recommendation": "HOLD from initial public batch",
+      "primaryUrl": "https://professional.heart.org/en/science-news/2026-guideline-for-the-early-management-of-patients-with-acute-ischemic-stroke/top-things-to-know",
+      "verified": "Current AHA synopsis agrees on eligible alteplase/tenecteplase4.5h, disabling deficits regardless NIHSS, basilarEVT24h NIHSS>=10, and against intensiveSBP<140 after reperfusion.",
+      "correctionUrl": "https://www.ahajournals.org/doi/epdf/10.1161/STR.0000000000000530",
+      "correctionAssessment": "Seven-page August correction identified. Both official PDF and ePDF returned403; full contents were not reviewed. Cannot establish effects on every selected recommendation. Hold until complete correction is reviewed; no third-party PDF or access bypass used."
+    },
+    {
+      "id": "aha-acc-acute-pe-2026",
+      "recommendation": "eligible with historical collection labeling",
+      "primaryUrl": "https://www.jacc.org/doi/10.1016/j.jacc.2025.11.005",
+      "verified": "Previously retrieved primary guideline tables agree on risk categories, outpatient-versus-hospital approach, anticoagulation/DOAC classes and caution with advanced therapies. Same co-publication must not be duplicated."
+    }
+  ],
+  "historicalFraming": "All records must receive parent backfill metadata and the historical-collection label before publication; do not present these as new current-week evidence. Guideline imperative phrasing should be visibly anchored to its dated historical source. Pediatric sepsis already flags the later PRoMPT trial; adult sepsis says later trials may not be incorporated.",
+  "publicationRecommendation": "Ten of eleven have no identified numerical/clinical discrepancy in the checked claims. Hold stroke because complete correction effects remain unresolved. Complete annual literature coverage is not certified.",
+  "edits": "Adult SSC draft only: restored the essential sepsis-induced hypoperfusion/septic-shock population qualifier to the 30 mL/kg finding and clarified verified correction scope/source without claiming publisher PDF review. No numerical changes. No production edits."
+}

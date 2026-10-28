@@ -1,0 +1,52 @@
+{
+  "sitePublishedDate": "2026-10-27",
+  "discoveredDate": "2026-10-27",
+  "retrievedAt": "2026-10-27",
+  "status": "published",
+  "doi": "10.1056/NEJMoa2513814",
+  "pmid": "42267831",
+  "sampleSize": 1840,
+  "guidelineStrength": null,
+  "aiGenerated": true,
+  "humanReview": "Not yet human-reviewed",
+  "corrections": [],
+  "sample": false,
+  "pinned": false,
+  "excluded": false,
+  "section": "Practice-Changing / High Priority",
+  "ranking": {
+    "edImpact": 5,
+    "design": 5,
+    "novelty": 4,
+    "guidelineRelevance": 4
+  },
+  "id": "logical-post-arrest-oxygen",
+  "title": "Conservative Oxygen for Unresponsive Patients after Cardiac Arrest",
+  "shortTitle": "LOGICAL: conservative oxygen did not improve functional survival",
+  "authors": [
+    "LOGICAL Investigators and the Australian and New Zealand Intensive Care Society Clinical Trials Group"
+  ],
+  "source": "New England Journal of Medicine",
+  "firstOnlineDate": "2026-06-10",
+  "canonicalUrl": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2513814",
+  "studyType": "Randomized trial",
+  "topics": [
+    "resuscitation",
+    "airway"
+  ],
+  "summary": "This trial enrolled 1,840 ventilated adults who remained unresponsive after cardiac arrest. Conservative oxygen did not improve favorable functional survival at 180 days compared with a liberal strategy.",
+  "whyItMatters": "The studied restrictive oxygen protocol did not improve long-term recovery. Do not extrapolate the result to initial resuscitation before oxygenation can be measured reliably.",
+  "limitations": "ICU population rather than active arrest; primary outcomes were available for fewer patients than enrolled. The confidence interval does not establish equivalence.",
+  "population": "Unresponsive ventilated adults after cardiac arrest in 53 ICUs.",
+  "intervention": "SpO2 lower limit 90%, upper alarm 95%, permitting FiO2 reduction to 0.21.",
+  "comparator": "Same lower SpO2 limit, no upper saturation limit, minimum FiO2 0.30.",
+  "primaryEndpoint": "Survival with GOS-E at least 5 at 180 days.",
+  "findings": [
+    "Favorable functional survival: 38.2% versus 39.7%; RR 0.97 (95% CI 0.87-1.09).",
+    "No adverse events were reported in the abstract."
+  ],
+  "reviewedMaterial": "abstract",
+  "fullTextStatus": "Abstract available; full text paywalled",
+  "evidenceNotes": "Abstract reviewed; full text unavailable. Complete indexed PubMed abstract reviewed; June 10 first-online date independently confirmed on publisher page. August print date was excluded.",
+  "backfill": true
+}

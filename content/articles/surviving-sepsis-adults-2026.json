@@ -1,0 +1,57 @@
+{
+  "sitePublishedDate": "2026-10-27",
+  "discoveredDate": "2026-10-27",
+  "retrievedAt": "2026-10-27",
+  "status": "published",
+  "doi": "10.1007/s00134-026-08361-1",
+  "pmid": null,
+  "sampleSize": null,
+  "guidelineStrength": "Mixed GRADE strengths; examples are reported individually in findings. A strong recommendation does not imply high-certainty evidence.",
+  "aiGenerated": true,
+  "humanReview": "Not yet human-reviewed",
+  "corrections": [],
+  "sample": false,
+  "pinned": false,
+  "excluded": false,
+  "section": "Guidelines & Statements",
+  "ranking": {
+    "edImpact": 5,
+    "design": 5,
+    "novelty": 4,
+    "guidelineRelevance": 4
+  },
+  "id": "surviving-sepsis-adults-2026",
+  "title": "Surviving Sepsis Campaign: international guidelines for management of sepsis and septic shock 2026",
+  "shortTitle": "SSC 2026 adults: immediate treatment, repeated reassessment and conditional fluid targets",
+  "authors": [
+    "Hallie C Prescott",
+    "Massimo Antonelli",
+    "Waleed Alhazzani",
+    "Surviving Sepsis Campaign Guideline Panel"
+  ],
+  "source": "Intensive Care Medicine / SCCM–ESICM",
+  "firstOnlineDate": "2026-03-23",
+  "canonicalUrl": "https://link.springer.com/article/10.1007/s00134-026-08361-1",
+  "studyType": "Guideline",
+  "topics": [
+    "resuscitation",
+    "infectious-disease",
+    "guidelines"
+  ],
+  "summary": "The adult update provides 129 statements, including 46 new statements. For ED care, it retains rapid antibiotics for shock or probable/definite sepsis, permits rapid investigation for possible sepsis without shock, and frames initial fluids as a conditional recommendation requiring repeated reassessment.",
+  "whyItMatters": "Distinguish possible infection without shock from high-likelihood sepsis and shock when setting antibiotic urgency. Do not delay necessary vasopressors solely for central access.",
+  "limitations": "Several immediately relevant recommendations rest on low or very-low-certainty evidence. Fixed fluid volumes and MAP targets require clinical context; later 2026 trials were not necessarily incorporated.",
+  "population": "Adults with sepsis or septic shock, including immediate prehospital and hospital care.",
+  "intervention": "Updated screening, antimicrobials and hemodynamic management recommendations.",
+  "comparator": "2021 SSC guideline.",
+  "primaryEndpoint": "GRADE-based recommendations rather than one trial outcome.",
+  "findings": [
+    "For sepsis-induced hypoperfusion or septic shock, at least 30 mL/kg IV crystalloid within three hours is conditional, with low-certainty evidence and ongoing reassessment.",
+    "An initial MAP target of 65 mm Hg is strong with moderate-certainty evidence.",
+    "Peripheral initiation of vasopressors rather than waiting for central access is conditional, with very-low-certainty evidence."
+  ],
+  "reviewedMaterial": "official society summary",
+  "fullTextStatus": "Official society summary available",
+  "evidenceNotes": "Current SCCM recommendation table reviewed. Springer verifies March 23 online date; May is the print issue. The May 5 correction (10.1007/s00134-026-08410-9) concerns four author names with stray trailing letters, according to the public correction abstract at https://researchinformation.umcutrecht.nl/en/publications/publisher-correction-surviving-sepsis-campaign-international-guid/ . No clinical recommendation changes are stated there. Complete guideline and subscription-only correction PDF were not reviewed.",
+  "backfill": true
+}

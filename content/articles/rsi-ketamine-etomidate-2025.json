@@ -1,0 +1,55 @@
+{
+  "sitePublishedDate": "2026-10-27",
+  "discoveredDate": "2026-10-27",
+  "retrievedAt": "2026-10-27",
+  "status": "published",
+  "doi": "10.1056/NEJMoa2511420",
+  "pmid": "41369227",
+  "sampleSize": 2365,
+  "guidelineStrength": null,
+  "aiGenerated": true,
+  "humanReview": "Not yet human-reviewed",
+  "corrections": [],
+  "sample": false,
+  "pinned": false,
+  "excluded": false,
+  "section": "Practice-Changing / High Priority",
+  "ranking": {
+    "edImpact": 5,
+    "design": 5,
+    "novelty": 4,
+    "guidelineRelevance": 4
+  },
+  "id": "rsi-ketamine-etomidate-2025",
+  "title": "Ketamine or Etomidate for Tracheal Intubation of Critically Ill Adults",
+  "shortTitle": "RSI: ketamine did not improve survival and increased cardiovascular collapse",
+  "authors": [
+    "Jonathan D Casey",
+    "Kevin P Seitz",
+    "Brian E Driver",
+    "RSI Investigators and the Pragmatic Critical Care Research Group"
+  ],
+  "source": "New England Journal of Medicine",
+  "firstOnlineDate": "2025-12-09",
+  "canonicalUrl": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2511420",
+  "studyType": "Randomized trial",
+  "topics": [
+    "airway",
+    "resuscitation"
+  ],
+  "summary": "This multicenter trial assigned 2,365 critically ill adults undergoing intubation to ketamine or etomidate. In-hospital mortality by day 28 was similar, while cardiovascular collapse during intubation occurred more often with ketamine.",
+  "whyItMatters": "Do not assume ketamine protects hemodynamics or improves survival compared with etomidate during emergency intubation. Plan blood-pressure support whichever induction agent is chosen.",
+  "limitations": "The trial was unblinded and included both ED and ICU patients. The mortality confidence interval includes clinically meaningful differences in either direction.",
+  "population": "Critically ill adults undergoing intubation at 14 US ED/ICU sites.",
+  "intervention": "Ketamine for induction of anesthesia.",
+  "comparator": "Etomidate for induction of anesthesia.",
+  "primaryEndpoint": "In-hospital all-cause death by day 28.",
+  "findings": [
+    "Mortality: 28.1% versus 29.1%; adjusted risk difference -0.8 percentage points (95% CI -4.5 to 2.9).",
+    "Cardiovascular collapse: 22.1% versus 17.0%; risk difference 5.1 percentage points (95% CI 1.9 to 8.3)."
+  ],
+  "reviewedMaterial": "abstract",
+  "fullTextStatus": "Open-access full text available",
+  "evidenceNotes": "Publisher and PubMed indexed abstracts reviewed. Legal author manuscript is identified as PMC12711137, but its full text was not reviewed. Publisher confirms December 9 online date; April 2026 is the print issue. Direct journal/PubMed opens encountered access challenges.",
+  "backfill": true
+}

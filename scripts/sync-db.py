@@ -20,11 +20,12 @@ def prepare(rows, deployment):
         body = copy.deepcopy(body)
         digest_body = copy.deepcopy(body)
         if kind == 'state':
-            if identifier != 'publishing':
+            if identifier not in ('publishing', 'backfill'):
                 raise ValueError('Unknown state document')
-            digest_body.pop('lastSuccessfulDeployment', None)
-            body['lastSuccessfulDeployment'] = deployment
-            target = ROOT / 'state/publishing.json'
+            if identifier == 'publishing':
+                digest_body.pop('lastSuccessfulDeployment', None)
+                body['lastSuccessfulDeployment'] = deployment
+            target = ROOT / 'state' / (identifier + '.json')
         else:
             if kind in ('article', 'issue') and body.get('id') != identifier:
                 raise ValueError('Document ID differs from its JSON record')
@@ -32,7 +33,7 @@ def prepare(rows, deployment):
         revisions[kind + ':' + identifier] = revision
         digest_rows.append([kind, identifier, digest_body])
         files[target] = json.dumps(body, indent=2, ensure_ascii=False) + '\n'
-    if not any(kind == 'state' for kind, *_ in rows):
+    if not any(kind == 'state' and identifier == 'publishing' for kind, identifier, *_ in rows):
         raise ValueError('Missing publishing state; refusing an incomplete snapshot')
     digest = hashlib.sha256(canonical(digest_rows).encode()).hexdigest()
     return files, {'snapshotHash': digest, 'documentRevisions': revisions}
@@ -52,6 +53,8 @@ def local_snapshot_matches(snapshot):
                 for kind, folder in FOLDERS.items() for p in (ROOT / folder).glob('*.json')]
         state = json.loads((ROOT / 'state/publishing.json').read_text())
         rows.append(('state', 'publishing', state, revisions.get('state:publishing')))
+        if (ROOT / 'state/backfill.json').exists():
+            rows.append(('state', 'backfill', json.loads((ROOT / 'state/backfill.json').read_text()), revisions.get('state:backfill')))
         rows.sort(key=lambda r: (r[0], r[1]))
         _, current = prepare(rows, state.get('lastSuccessfulDeployment'))
         return current['snapshotHash'] == snapshot['snapshotHash'] and current['documentRevisions'] == revisions
