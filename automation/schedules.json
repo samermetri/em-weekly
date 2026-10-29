@@ -67,7 +67,7 @@
   },
   "historical": {
     "automationId": "6ae17273b1548190bdd368011e2ebba3",
-    "name": "EM Weekly historical literature backfill",
+    "name": "EM Weekly literature backfill",
     "schedule": "Hourly; Pacific Time; skip starting research from 02:00 through 03:59 Pacific",
     "newChatEachRun": false,
     "instructionsFile": "automation/backfill-schedule.md",
@@ -108,6 +108,9 @@
       "stateRevision": 4,
       "status": "deployed and acknowledged",
       "acknowledgedBy": "https://github.com/samermetri/em-weekly/actions/runs/40633086763"
-    }
+    },
+    "discoveryCache": "Private em_weekly.research_index; full fixed-range metadata, SQL pages of up to 100 candidates; static HTML backup",
+    "coverageStrategy": "Balance attempted/completed coverage across calendar quarters; verify primary material and advance major queued guidance independently",
+    "publicPresentation": "One article library by first-online date; year/topic/recently-added filters; internal backfill flags preserve weekly eligibility"
   }
 }
