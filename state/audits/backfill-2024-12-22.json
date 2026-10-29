@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-28",
+  "sources": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Exact configured query plus 2024-12-22 through 2024-12-28 EPDAT was attempted through NCBI E-utilities and the identical official PubMed HTML size=200 fallback. Both official routes were inaccessible; counts and pagination could not be established.",
+      "status": "failed",
+      "sourceId": "pubmed-em",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Exact configured query plus 2024-12-22 through 2024-12-28 EPDAT was attempted through NCBI E-utilities and the identical official PubMed HTML size=200 fallback. Both official routes were inaccessible; counts and pagination could not be established.",
+      "status": "failed",
+      "sourceId": "pubmed-general",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Exact configured query plus 2024-12-22 through 2024-12-28 EPDAT was attempted through NCBI E-utilities and the identical official PubMed HTML size=200 fallback. Both official routes were inaccessible; counts and pagination could not be established.",
+      "status": "failed",
+      "sourceId": "pubmed-specialty",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Exact configured query plus 2024-12-22 through 2024-12-28 EPDAT was attempted through NCBI E-utilities and the identical official PubMed HTML size=200 fallback. Both official routes were inaccessible; counts and pagination could not be established.",
+      "status": "failed",
+      "sourceId": "pubmed-guidance",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://journalfeed.org/",
+      "notes": "Targeted official-domain/date check for 2024-12-22 through 2024-12-28 was performed; no additional eligible major item was verified and exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "journalfeed",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.acep.org/patient-care/clinical-policies",
+      "notes": "Targeted official-domain/date check for 2024-12-22 through 2024-12-28 was performed; no additional eligible major item was verified and exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "acep",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://professional.heart.org/en/guidelines-and-statements",
+      "notes": "Targeted official-domain/date check for 2024-12-22 through 2024-12-28 was performed; no additional eligible major item was verified and exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "aha-asa",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.acc.org/guidelines",
+      "notes": "Targeted official-domain/date check for 2024-12-22 through 2024-12-28 was performed; no additional eligible major item was verified and exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "acc",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
+      "notes": "Targeted official-domain/date check for 2024-12-22 through 2024-12-28 was performed; no additional eligible major item was verified and exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "aap",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
+      "notes": "Targeted official-domain/date check for 2024-12-22 through 2024-12-28 was performed; no additional eligible major item was verified and exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "acs",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.ena.org/practice-resources",
+      "notes": "Targeted official-domain/date check for 2024-12-22 through 2024-12-28 was performed; no additional eligible major item was verified and exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "ena",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.saem.org/publications/academic-emergency-medicine/grace",
+      "notes": "Targeted official-domain/date check for 2024-12-22 through 2024-12-28 was performed; no additional eligible major item was verified and exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "saem",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.aaem.org/statements/",
+      "notes": "Targeted official-domain/date check for 2024-12-22 through 2024-12-28 was performed; no additional eligible major item was verified and exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "aaem",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
+      "notes": "Targeted official-domain/date check for 2024-12-22 through 2024-12-28 was performed; no additional eligible major item was verified and exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "ash",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
+      "notes": "Targeted official-domain/date check for 2024-12-22 through 2024-12-28 was performed; no additional eligible major item was verified and exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "chest",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.sccm.org/clinical-resources/guidelines",
+      "notes": "Targeted official-domain/date check for 2024-12-22 through 2024-12-28 was performed; no additional eligible major item was verified and exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "sccm",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
+      "notes": "Targeted official-domain/date check for 2024-12-22 through 2024-12-28 was performed; no additional eligible major item was verified and exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "idsa",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.acmt.net/statements/",
+      "notes": "Targeted official-domain/date check for 2024-12-22 through 2024-12-28 was performed; no additional eligible major item was verified and exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "acmt",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.east.org/education-resources/practice-management-guidelines",
+      "notes": "Targeted official-domain/date check for 2024-12-22 through 2024-12-28 was performed; no additional eligible major item was verified and exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "east-trauma",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://eso-stroke.org/guidelines/",
+      "notes": "Targeted official-domain/date check for 2024-12-22 through 2024-12-28 was performed; no additional eligible major item was verified and exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "eso-stroke",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.acog.org/clinical",
+      "notes": "Targeted official-domain/date check for 2024-12-22 through 2024-12-28 was performed; no additional eligible major item was verified and exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "acog",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.erc.edu/science-research/guidelines/",
+      "notes": "Targeted official-domain/date check for 2024-12-22 through 2024-12-28 was performed; no additional eligible major item was verified and exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "erc",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    }
+  ],
+  "coverageEnd": "2024-12-28",
+  "coverageStart": "2024-12-22",
+  "finalCrossCheck": [
+    "Major emergency-medicine RCT cross-check remained incomplete because official PubMed enumeration failed.",
+    "Major NEJM/JAMA/Lancet/BMJ acute-care trial cross-check found no new verified Dec 22-28 selection; exhaustive coverage incomplete.",
+    "ACEP clinical-policy cross-check found no new verified Dec 22-28 policy.",
+    "AHA/ASA cross-check found no new verified Dec 22-28 major guidance.",
+    "SCCM/sepsis cross-check found no new verified Dec 22-28 guidance.",
+    "IDSA cross-check found no new verified Dec 22-28 guidance.",
+    "CHEST cross-check found no new verified Dec 22-28 guidance.",
+    "Hematology/bleeding cross-check found no new verified Dec 22-28 guidance.",
+    "Toxicology cross-check found no new verified Dec 22-28 statement.",
+    "Trauma cross-check found no new verified Dec 22-28 guideline.",
+    "Pediatric emergency cross-check found no new verified Dec 22-28 guidance.",
+    "Obstetric emergency cross-check found no new verified Dec 22-28 guidance.",
+    "Targeted candidate review found small, feasibility, observational, and review-level studies but none meeting the selective ED practice-impact threshold."
+  ],
+  "excludedCandidates": [],
+  "finalCrossCheckCompleted": false,
+  "guidelineSearchCompleted": false
+}

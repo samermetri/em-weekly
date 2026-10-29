@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-28",
+  "sources": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Exact configured emergency-journal query plus 2024-12-15 through 2024-12-21 EPDAT was attempted through NCBI E-utilities and the identical official PubMed HTML size=200 fallback. Both official routes were inaccessible; counts and pagination could not be established.",
+      "status": "failed",
+      "sourceId": "pubmed-em",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Exact configured general-journal query plus 2024-12-15 through 2024-12-21 EPDAT was attempted through NCBI E-utilities and identical PubMed HTML size=200 fallback. Both failed; counts and pagination unavailable.",
+      "status": "failed",
+      "sourceId": "pubmed-general",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Exact configured specialty-journal query plus 2024-12-15 through 2024-12-21 EPDAT was attempted through NCBI E-utilities and identical PubMed HTML size=200 fallback. Both failed; counts and pagination unavailable.",
+      "status": "failed",
+      "sourceId": "pubmed-specialty",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Exact configured guidance query plus 2024-12-15 through 2024-12-21 EPDAT was attempted through NCBI E-utilities and identical PubMed HTML size=200 fallback. Both failed; counts and pagination unavailable.",
+      "status": "failed",
+      "sourceId": "pubmed-guidance",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://journalfeed.org/",
+      "notes": "Targeted dated discovery was performed, but exhaustive archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "journalfeed",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.acep.org/patient-care/clinical-policies",
+      "notes": "Official ACEP policy index was checked. The queued acute ischemic stroke policy was resolved as released before the fixed backfill interval despite later print dating; exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "acep",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://professional.heart.org/en/guidelines-and-statements",
+      "notes": "Official AHA/ASA targeted checking identified the Dec 17 large-core EVT science advisory for primary review, but exhaustive dated archive coverage could not be certified.",
+      "status": "failed",
+      "sourceId": "aha-asa",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.acc.org/guidelines",
+      "notes": "Targeted official-domain check completed; exhaustive dated archive coverage not certified.",
+      "status": "failed",
+      "sourceId": "acc",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
+      "notes": "Targeted official-domain check completed; exhaustive dated archive coverage not certified.",
+      "status": "failed",
+      "sourceId": "aap",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
+      "notes": "Targeted official-domain check completed; exhaustive dated archive coverage not certified.",
+      "status": "failed",
+      "sourceId": "acs",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.ena.org/practice-resources",
+      "notes": "Targeted official-domain check completed; exhaustive dated archive coverage not certified.",
+      "status": "failed",
+      "sourceId": "ena",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.saem.org/publications/academic-emergency-medicine/grace",
+      "notes": "Targeted official-domain check completed; exhaustive dated archive coverage not certified.",
+      "status": "failed",
+      "sourceId": "saem",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.aaem.org/statements/",
+      "notes": "Targeted official-domain check completed; exhaustive dated archive coverage not certified.",
+      "status": "failed",
+      "sourceId": "aaem",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
+      "notes": "Targeted official-domain check completed; exhaustive dated archive coverage not certified.",
+      "status": "failed",
+      "sourceId": "ash",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
+      "notes": "Targeted official-domain check completed; exhaustive dated archive coverage not certified.",
+      "status": "failed",
+      "sourceId": "chest",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.sccm.org/clinical-resources/guidelines",
+      "notes": "Targeted official-domain check completed; exhaustive dated archive coverage not certified.",
+      "status": "failed",
+      "sourceId": "sccm",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
+      "notes": "Targeted official-domain check completed; exhaustive dated archive coverage not certified.",
+      "status": "failed",
+      "sourceId": "idsa",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.acmt.net/statements/",
+      "notes": "Targeted official-domain check completed; exhaustive dated archive coverage not certified.",
+      "status": "failed",
+      "sourceId": "acmt",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.east.org/education-resources/practice-management-guidelines",
+      "notes": "Targeted official-domain check completed; exhaustive dated archive coverage not certified.",
+      "status": "failed",
+      "sourceId": "east-trauma",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://eso-stroke.org/guidelines/",
+      "notes": "Targeted official-domain check completed; exhaustive dated archive coverage not certified.",
+      "status": "failed",
+      "sourceId": "eso-stroke",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.acog.org/clinical",
+      "notes": "Targeted official-domain check completed; exhaustive dated archive coverage not certified.",
+      "status": "failed",
+      "sourceId": "acog",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    },
+    {
+      "url": "https://www.erc.edu/science-research/guidelines/",
+      "notes": "Targeted official-domain check completed; exhaustive dated archive coverage not certified.",
+      "status": "failed",
+      "sourceId": "erc",
+      "checkedAt": "2026-10-28T23:59:00Z"
+    }
+  ],
+  "coverageEnd": "2024-12-21",
+  "coverageStart": "2024-12-15",
+  "finalCrossCheck": [
+    "Major emergency-medicine RCT cross-check remained incomplete because official PubMed enumeration failed.",
+    "Major NEJM/JAMA/Lancet/BMJ acute-care trial cross-check found no additional verified in-window selection, but exhaustive coverage is incomplete.",
+    "ACEP cross-check resolved the queued 2024 stroke policy as released before the fixed range.",
+    "AHA/ASA cross-check identified a Dec 17 large-core EVT science advisory requiring primary review.",
+    "SCCM/sepsis cross-check found no additional verified item; archive coverage incomplete.",
+    "IDSA cross-check found no additional verified item; archive coverage incomplete.",
+    "CHEST cross-check found no additional verified item; archive coverage incomplete.",
+    "Hematology/bleeding cross-check found no additional verified item; archive coverage incomplete.",
+    "Toxicology cross-check found no additional verified item; archive coverage incomplete.",
+    "Trauma cross-check found no additional verified item; archive coverage incomplete.",
+    "Pediatric emergency cross-check found no additional verified item; archive coverage incomplete.",
+    "Obstetric emergency cross-check found no additional verified item; archive coverage incomplete.",
+    "Historical-context check notes that later 2026 AHA/ASA stroke guidance supersedes 2024 advisory material for current operational practice."
+  ],
+  "excludedCandidates": [
+    {
+      "reason": "Official ACEP material documents release/update before 2024-10-27; later print dating does not make it eligible for the fixed first-online interval.",
+      "identifier": "ACEP acute ischemic stroke/thrombolysis clinical policy"
+    }
+  ],
+  "finalCrossCheckCompleted": false,
+  "guidelineSearchCompleted": false
+}

@@ -88,18 +88,18 @@
     },
     {
       "end": "2024-12-21",
-      "notes": "Not yet comprehensively searched.",
+      "notes": "Partial after 2026-10-28 LA attempt: exact configured PubMed searches and official HTML fallbacks failed, so counts/pagination and comprehensive coverage remain incomplete. Targeted guidance review identified the Dec 17 AHA large-core EVT advisory for primary review; no article was published from this incomplete review.",
       "start": "2024-12-15",
-      "status": "pending",
-      "auditId": null,
+      "status": "partial",
+      "auditId": "backfill-2024-12-15",
       "articleIds": []
     },
     {
       "end": "2024-12-28",
-      "notes": "Not yet comprehensively searched.",
+      "notes": "Partial after 2026-10-28 LA attempt: exact configured PubMed searches and official HTML fallbacks failed, so counts/pagination and comprehensive coverage remain incomplete. Targeted cross-checking found no additional item meeting the selective ED practice-impact threshold.",
       "start": "2024-12-22",
-      "status": "pending",
-      "auditId": null,
+      "status": "partial",
+      "auditId": "backfill-2024-12-22",
       "articleIds": []
     },
     {
@@ -905,7 +905,7 @@
   ],
   "rangeEnd": "2026-10-26",
   "startedAt": "2026-10-27T20:58:44.597134+00:00",
-  "updatedAt": "2026-10-28T12:11:49.605Z",
+  "updatedAt": "2026-10-28T23:59:00Z",
   "rangeStart": "2024-10-27",
   "schemaVersion": 1,
   "candidateQueue": [
@@ -943,12 +943,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/40543987/",
       "title": "ACEP asymptomatic elevated BP clinical policy",
       "reason": "Official PDF retrieved, including approval January 22, 2025; earliest electronic publication date not yet established. Approval and July print dates are not first-online dates.",
-      "firstOnlineDate": null
-    },
-    {
-      "url": "https://www.acep.org/patient-care/clinical-policies",
-      "title": "ACEP acute ischemic stroke/thrombectomy clinical policy",
-      "reason": "Official newsletter identifies December 2024 print issue; retrieve original policy and verify first-online date before inclusion.",
       "firstOnlineDate": null
     },
     {
