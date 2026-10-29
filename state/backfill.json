@@ -225,7 +225,7 @@
     },
     {
       "end": "2025-04-12",
-      "notes": "Completion-first Oct 28 2026 LA re-review: 82/82 SQL-cache candidates screened with all four current queries/counts/memberships matching; WESTCOR and ESTES retained. Fifteen of 18 independent source checks have documented bounded successful outcomes. ACEP CO clinical-policy first-public date remains unresolved, ACOG clinical pages returned HTTP 402, and JournalFeed full dated archive was inaccessible; these 3 checks remain incomplete. A pediatric-sedation oxygen RCT first online Apr 11 was additionally identified, but its later methodological critique was inaccessible and primary appraisal remains queued. All seven specified candidates were adjudicated, but do not close this window until 3 source checks and the important queued trial are resolved.",
+      "notes": "Completion-first Oct 28 2026 LA re-review: all 82 SQL-cache candidates screened; four configured query counts/memberships matched; retained WESTCOR and ESTES. Sixteen independent checks now have bounded successful outcomes, including an indexed official ACOG date search after its directory returned HTTP 402. ACEP CO policy first-public date remains unresolved; JournalFeed complete dated archive could not be retrieved; pediatric-sedation oxygen RCT appraisal remains queued because later methodological critique was inaccessible. Keep partial until these concrete blockers resolve. JournalFeed archive subsequently resolved: all 16 dated posts and 19 linked PubMed records checked; all linked papers predate the window. ACEP date and queued sedation appraisal still unresolved.",
       "start": "2025-04-06",
       "status": "partial",
       "auditId": "backfill-2025-04-06",
@@ -919,7 +919,7 @@
   ],
   "rangeEnd": "2026-10-26",
   "startedAt": "2026-10-27T20:58:44.597134+00:00",
-  "updatedAt": "2026-10-29T03:42:22.059Z",
+  "updatedAt": "2026-10-29T04:00:00.000Z",
   "rangeStart": "2024-10-27",
   "schemaVersion": 1,
   "candidateQueue": [

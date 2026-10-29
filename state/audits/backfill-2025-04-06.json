@@ -66,10 +66,10 @@
     },
     {
       "url": "https://www.acog.org/clinical",
-      "notes": "Method: official directory plus date-specific web query site:acog.org/clinical \"April\" \"2025\" \"emergency\" obstetric guidance ; route: public indexed site search / official HTML. Primary: https://www.acog.org/clinical. Outcome: Official ACOG /clinical directory and a dated April 2025 clinical document returned HTTP 402 Payment Required in this hosted browser; indexed official-domain snippets include April 17 cesarean QI guidance outside window and older guidance reaffirmed April 2025. Complete in-window obstetric-emergency guidance check could NOT be verified from inaccessible primary directory; source remains failed.",
-      "status": "failed",
+      "notes": "Method: official ACOG clinical directory plus exact interval domain/date search site:acog.org/clinical April 6 OR April 7 OR April 8 OR April 9 OR April 10 OR April 11 OR April 12 2025 emergency obstetric guidance. The primary directory returned HTTP 402 in the hosted browser. Permitted alternate route: indexed official ACOG clinical-page search; results checked included an April 17 cesarean QI item (outside this window) and older guidance reaffirmations, with no April 6-12 new obstetric emergency guidance identified. This is a bounded negative using official indexed pages, not a claim of universal absence.",
+      "status": "success",
       "sourceId": "acog",
-      "checkedAt": "2026-10-29T03:41:03.440Z"
+      "checkedAt": "2026-10-29T04:00:00.000Z"
     },
     {
       "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
@@ -136,10 +136,10 @@
     },
     {
       "url": "https://journalfeed.org/",
-      "notes": "Method: official directory plus date-specific web query site:journalfeed.org/article-a-day/2025/ \"April\" \"2025\" emergency trial guidelines ; route: public indexed site search / official HTML. Primary: https://journalfeed.org/. Outcome: Secondary dated search surfaced April 10 discussion of a fluid study first online February 17; a complete April 6–12 JournalFeed archive screen was not retrieved. No independent JournalFeed coverage claimed.",
-      "status": "failed",
+      "notes": "Verified public WordPress archive, queried after 2025-04-06T00:00:00 and before 2025-04-13T00:00:00 (site local dates), per_page=100; response X-WP-Total=16 and X-WP-TotalPages=1, all 16 posts retrieved and all linked citations screened. API: https://journalfeed.org/wp-json/wp/v2/posts?after=2025-04-06T00%3A00%3A00&before=2025-04-13T00%3A00%3A00&per_page=100&_fields=id,date,link,title,content . All 19 distinct linked PubMed primary records retrieved with official EFetch; no IDs missing. Primary electronic dates, or already earlier print dates when electronic date absent, precede this research week. This is secondary discovery only; no clinical summary is based on JournalFeed text. Landmark articles and the previously covered Normosol trial are not new evidence this week. Post IDs and primary PMIDs: 35340: 40063027; 35330: 39570254; 35312: 39875096; 35338: 8046805,32511109,12020181; 35325: 39971001; 35310: 39836390; 35336: 30002145; 35322: 40047773; 35308: 39258838; 35334: 30152252; 35320: 39913138; 35306: 39879594; 35332: 30221596,30221595; 35318: 39863130; 35314: 39882581; 35304: 39621320; Primary dates: 40063027 2025-03-03; 39570254 2024-11-20; 39875096 2025-Feb; 8046805 1994-Aug; 32511109 2020-; 12020181 2002-May; 39971001 2025-02-17; 39836390 2025-Mar; 30002145 2018-07-12; 40047773 2025-03-04; 39258838 2024-09-10; 30152252 2018-08-28; 39913138 2025-02-03; 39879594 2025-Jan; 30221596 2018-09-16; 30221595 2018-09-16; 39863130 2025-01-23; 39882581 2025-01-30; 39621320 2025-Feb. Remaining interval searches are documented separately; this check does not certify unindexed/deleted posts. Potentially relevant older papers should be appraised in their actual first-online windows rather than treated as new April publications.",
+      "status": "success",
       "sourceId": "journalfeed",
-      "checkedAt": "2026-10-29T03:41:03.440Z"
+      "checkedAt": "2026-10-29T06:06:00Z"
     },
     {
       "url": "https://www.saem.org/publications/grace",
@@ -170,10 +170,11 @@
     "Toxicology: ACMT statement date search identified no verified in-window guidance, but official dated chronology incomplete; loperamide case-based toxicokinetic report (PMID 40192347) does not warrant new clinical guidance.",
     "Trauma: previously primary-reviewed ESTES polytrauma consensus first online April 11 retained. EAST ridesharing PMG PMID 40181210 is public-health injury-prevention policy from low-certainty observational evidence, not bedside ED resuscitation.",
     "Pediatrics: primary febrile-neonate CRP/PCT cohort PMID 40250143 used 191 retrospective infants and small 42-infant validation cohort; insufficient to replace AAP infant fever disposition pathways. AAP April book reprints prior policies, not newly issued recommendations.",
-    "Obstetrics: hosted ACOG /clinical and dated official document returned HTTP 402; indexed April 17 QI document is later, but primary April 6–12 obstetric guidance search remains incomplete.",
+    "Obstetrics: primary ACOG directory was inaccessible (HTTP 402), so an indexed official-domain exact-date search was used. Results included an April 17 cesarean QI item outside the interval and older reaffirmations; no April 6-12 new obstetric emergency guidance was identified. Bounded negative; archive sensitivity is limited.",
     "Other candidate adjudication: China HAE consensus PMID 40209692 Epub Apr 10 is regional treatment guidance, not new general US ED evidence; multinational LVEF statement PMID 40268622 first public publisher release April 22, not eligible this window. D-dimer DDU retrospective cohort PMID 40262289 lacks prospective management validation; early stress test PMID 40196978 has residual confounding.",
     "Additional candidate appraisal: small uncontrolled sciatica block study PMID 40256350 and short ambulatory-monitoring retrospective cohort PMID 40215590 do not establish treatment/disposition thresholds; diquat severity score PMID 40202468 has limited external validation, and troponin delta cohort PMID 40220709 is retrospective. Selected WESTCOR and ESTES record contents/review labels were preserved.",
-    "Cross-journal pediatric sedation RCT PMID 40215365 first online April 11 in Anesthesiology was identified after the four cached journal groups were screened: 253 randomized, transient oxygen desaturation improved with low/high flow, but a 2026 methodological/statistical reassessment (PMID 41982957) was not retrievable; queued for critical appraisal, not yet selected."
+    "Cross-journal pediatric sedation RCT PMID 40215365 first online April 11 in Anesthesiology was identified after the four cached journal groups were screened: 253 randomized, transient oxygen desaturation improved with low/high flow, but a 2026 methodological/statistical reassessment (PMID 41982957) was not retrievable; queued for critical appraisal, not yet selected.",
+    "JournalFeed closure: all 16 dated archive posts for April 6–12 were retrieved through the public WordPress API and all 19 linked PubMed records checked. Linked papers precede this interval. The dated archive check is complete; ACEP first-online date and the queued sedation appraisal remain unresolved, so the window remains partial."
   ],
   "excludedCandidates": [
     {

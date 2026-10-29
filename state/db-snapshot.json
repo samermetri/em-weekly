@@ -1,5 +1,5 @@
 {
-  "snapshotHash": "a64d1ec094304876a8f37894f1f950c91a26a838d37e137217f6ecc3218863df",
+  "snapshotHash": "553b25692144eaf5f43dd579f5b07b469517e5585159d532e9eff3c2c0c4720a",
   "documentRevisions": {
     "article:aap-pediatric-uti-2026": 2,
     "article:acmt-fentanyl-exposure-2024": 2,
@@ -74,7 +74,7 @@
     "audit:backfill-2024-12-22": 1,
     "audit:backfill-2025-01-05": 1,
     "audit:backfill-2025-02-16": 1,
-    "audit:backfill-2025-04-06": 3,
+    "audit:backfill-2025-04-06": 5,
     "audit:backfill-2025-07-06": 1,
     "audit:backfill-2026-01-04": 1,
     "audit:backfill-2026-01-25": 1,
@@ -87,8 +87,8 @@
     "probe:hosted-2026-10-26": 1,
     "probe:scheduled-2026-10-26": 1,
     "probe:weekly-connection-2026-10-26": 2,
-    "state:backfill": 18,
+    "state:backfill": 20,
     "state:publishing": 5
   },
-  "revisionFingerprint": "14755b447a016c6ff8263c7f75944136"
+  "revisionFingerprint": "04bcc5c7607800ce55bcc092416e97a1"
 }
