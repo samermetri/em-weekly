@@ -30,148 +30,150 @@
       "checkedAt": "2026-10-29T03:09:33.547Z"
     },
     {
-      "url": "https://www.aaem.org/statements/",
-      "notes": "Targeted official aaem/date search for 2025-04-06 through 2025-04-12 was performed. No additional high-priority in-window item was verified from inspected results, but complete chronological archive and earliest-online-date accounting were not established; this check remains incomplete.",
-      "status": "failed",
+      "url": "https://www.aaem.org/topic/position/",
+      "notes": "Method: official directory plus date-specific web query site:aaem.org/topic/position/ \"April\" \"2025\" ; route: public indexed site search / official HTML. Primary: https://www.aaem.org/topic/position/. Outcome: Official dated AAEM position archive and April-date query checked. AAEM malpractice-insurance contract standards were board-approved April 10 (https://www.aaem.org/statements/malpractice-coverage/), but address employment coverage rather than bedside clinical management; April 25 safe-staffing statement is outside the window. No additional ED clinical policy in April 6–12 found.",
+      "status": "success",
       "sourceId": "aaem",
-      "checkedAt": "2026-10-29T03:09:33.545Z"
+      "checkedAt": "2026-10-29T03:41:03.438Z"
     },
     {
-      "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
-      "notes": "Targeted official aap/date search for 2025-04-06 through 2025-04-12 was performed. No additional high-priority in-window item was verified from inspected results, but complete chronological archive and earliest-online-date accounting were not established; this check remains incomplete.",
-      "status": "failed",
+      "url": "https://publications.aap.org/aapbooks/book/785/Pediatric-Clinical-Practice-Guidelines-amp",
+      "notes": "Method: official directory plus date-specific web query site:publications.aap.org/pediatrics \"April\" \"2025\" \"Clinical Practice Guideline\" emergency ; route: public indexed site search / official HTML. Primary: https://publications.aap.org/aapbooks/book/785/Pediatric-Clinical-Practice-Guidelines-amp. Outcome: AAP official April 2025 guidelines/policies collection was checked; it republishes policies only through December 2024 and is not a new April 2025 recommendation. Targeted AAP/Pediatrics date search found no newly first-online April 6–12 ED pediatric policy; 2026 pediatric-readiness policy is later. Search limited to accessible AAP listings and date results.",
+      "status": "success",
       "sourceId": "aap",
-      "checkedAt": "2026-10-29T03:09:33.545Z"
+      "checkedAt": "2026-10-29T03:41:03.440Z"
     },
     {
-      "url": "https://www.acc.org/guidelines",
-      "notes": "Targeted official acc/date search for 2025-04-06 through 2025-04-12 was performed. No additional high-priority in-window item was verified from inspected results, but complete chronological archive and earliest-online-date accounting were not established; this check remains incomplete.",
-      "status": "failed",
+      "url": "https://www.acc.org/Guidelines",
+      "notes": "Method: official directory plus date-specific web query site:acc.org/Guidelines \"April\" \"2025\" \"April 6\" OR \"April 12\" ; route: public indexed site search / official HTML. Primary: https://www.acc.org/Guidelines. Outcome: ACC official guideline directory/date-specific search checked. Major 2025 ACC/AHA/ACEP acute coronary syndrome guideline was public April 3, BEFORE the window (official ACC source), not an April 6–12 new guideline. No further in-window ED-relevant ACC clinical update identified in results screened; negative search is limited to the accessible official directory and date query.",
+      "status": "success",
       "sourceId": "acc",
-      "checkedAt": "2026-10-29T03:09:33.545Z"
+      "checkedAt": "2026-10-29T03:41:03.440Z"
     },
     {
-      "url": "https://www.acep.org/patient-care/clinical-policies",
-      "notes": "Targeted official acep/date search for 2025-04-06 through 2025-04-12 was performed. No additional high-priority in-window item was verified from inspected results, but complete chronological archive and earliest-online-date accounting were not established; this check remains incomplete.",
+      "url": "https://www.acepnow.com/category/clinical-policy/",
+      "notes": "Method: official directory plus date-specific web query site:acep.org/patient-care/clinical-policies OR site:acepnow.com/category/clinical-policy/ \"April\" \"2025\" clinical policy ED ; route: public indexed site search / official HTML. Primary: https://www.acepnow.com/category/clinical-policy/. Outcome: Official ACEP Now policy index and January 22 approval plus May 7 discussion of carbon-monoxide policy reviewed (PMID 40118649; ACEP primary PDF https://www.acep.org/siteassets/sites/acep/media/clinical-policies/final-cp-pdfs/carbonmonoxide3-cp.pdf). PubMed's print issue is April and bibliographic record was imported March 22, but an authoritative exact FIRST PUBLIC online date remains unverified. No April 6–12 policy is asserted; date-sensitive policy reconciliation remains open.",
       "status": "failed",
       "sourceId": "acep",
-      "checkedAt": "2026-10-29T03:09:33.545Z"
+      "checkedAt": "2026-10-29T03:41:03.440Z"
     },
     {
       "url": "https://www.acmt.net/statements/",
-      "notes": "Targeted official acmt/date search for 2025-04-06 through 2025-04-12 was performed. No additional high-priority in-window item was verified from inspected results, but complete chronological archive and earliest-online-date accounting were not established; this check remains incomplete.",
-      "status": "failed",
+      "notes": "Method: official dated archive https://www.acmt.net/statements/ plus site:acmt.net/statements/ 2025 \"April\" position statement toxicology. Route: accessible official HTML year-indexed practice, position, joint and endorsed-guideline listings. Outcome: 2025 practice statements listed in November; 2025 position statements January, August, September, November; endorsed benzodiazepine-tapering guideline March. No April 6–12 new clinical toxicology statement; bounded negative.",
+      "status": "success",
       "sourceId": "acmt",
-      "checkedAt": "2026-10-29T03:09:33.545Z"
+      "checkedAt": "2026-10-29T03:42:22.053Z"
     },
     {
       "url": "https://www.acog.org/clinical",
-      "notes": "Targeted official acog/date search for 2025-04-06 through 2025-04-12 was performed. No additional high-priority in-window item was verified from inspected results, but complete chronological archive and earliest-online-date accounting were not established; this check remains incomplete.",
+      "notes": "Method: official directory plus date-specific web query site:acog.org/clinical \"April\" \"2025\" \"emergency\" obstetric guidance ; route: public indexed site search / official HTML. Primary: https://www.acog.org/clinical. Outcome: Official ACOG /clinical directory and a dated April 2025 clinical document returned HTTP 402 Payment Required in this hosted browser; indexed official-domain snippets include April 17 cesarean QI guidance outside window and older guidance reaffirmed April 2025. Complete in-window obstetric-emergency guidance check could NOT be verified from inaccessible primary directory; source remains failed.",
       "status": "failed",
       "sourceId": "acog",
-      "checkedAt": "2026-10-29T03:09:33.545Z"
+      "checkedAt": "2026-10-29T03:41:03.440Z"
     },
     {
       "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
-      "notes": "Targeted official acs/date search for 2025-04-06 through 2025-04-12 was performed. No additional high-priority in-window item was verified from inspected results, but complete chronological archive and earliest-online-date accounting were not established; this check remains incomplete.",
-      "status": "failed",
+      "notes": "Method: official directory plus date-specific web query site:facs.org/quality-programs/trauma/quality/best-practices-guidelines/ \"April\" \"2025\" ; route: public indexed site search / official HTML. Primary: https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/. Outcome: ACS official trauma best-practices guideline index plus date-specific official-domain search checked. Prior TBI best-practices edition dates to October 2024, not a new April 6–12 update. No in-window major ACS emergency trauma guidance found in the accessible index and date results.",
+      "status": "success",
       "sourceId": "acs",
-      "checkedAt": "2026-10-29T03:09:33.545Z"
+      "checkedAt": "2026-10-29T03:41:03.440Z"
     },
     {
-      "url": "https://professional.heart.org/en/guidelines-and-statements",
-      "notes": "Targeted official aha-asa/date search for 2025-04-06 through 2025-04-12 was performed. No additional high-priority in-window item was verified from inspected results, but complete chronological archive and earliest-online-date accounting were not established; this check remains incomplete.",
-      "status": "failed",
+      "url": "https://professional.heart.org/guidelines-statements",
+      "notes": "Method: official directory https://professional.heart.org/guidelines-statements plus site:professional.heart.org/en/science-news/ \"April\" \"2025\" \"April 8\" OR \"April 9\" OR \"April 10\" guideline stroke. Route: accessible official HTML directory and dated indexed official results. Outcome: current directory's only April 2025 listing was chronic-coronary-disease performance measures, not a new acute ED treatment policy; no separate April 6–12 acute stroke or emergency cardiovascular guideline identified. Bounded negative, not proof of universal absence.",
+      "status": "success",
       "sourceId": "aha-asa",
-      "checkedAt": "2026-10-29T03:09:33.545Z"
+      "checkedAt": "2026-10-29T03:42:22.053Z"
     },
     {
-      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
-      "notes": "Targeted official ash/date search for 2025-04-06 through 2025-04-12 was performed. No additional high-priority in-window item was verified from inspected results, but complete chronological archive and earliest-online-date accounting were not established; this check remains incomplete.",
-      "status": "failed",
+      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines",
+      "notes": "Method: official directory plus date-specific web query site:hematology.org/education/clinicians/guidelines-and-quality-care \"April\" \"2025\" emergency bleeding ; route: public indexed site search / official HTML. Primary: https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines. Outcome: Official ASH clinical-guideline categories (ITP, VTE, sickle cell, etc.) and in-window date-specific official-domain search checked. No new April 6–12 emergency bleeding or anticoagulation clinical guidance identified; official directory gives years rather than every exact release date, so this is a bounded negative search.",
+      "status": "success",
       "sourceId": "ash",
-      "checkedAt": "2026-10-29T03:09:33.546Z"
+      "checkedAt": "2026-10-29T03:41:03.440Z"
     },
     {
-      "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
-      "notes": "Targeted official chest/date search for 2025-04-06 through 2025-04-12 was performed. No additional high-priority in-window item was verified from inspected results, but complete chronological archive and earliest-online-date accounting were not established; this check remains incomplete.",
-      "status": "failed",
+      "url": "https://www.chestnet.org/guidelines-and-topic-collections/media-galleries/chest-journal-podcast/april-2025-chest-journal-editor-highlights",
+      "notes": "Method: official directory plus date-specific web query site:chestnet.org/guidelines \"April\" \"2025\" acute ; route: public indexed site search / official HTML. Primary: https://www.chestnet.org/guidelines-and-topic-collections/media-galleries/chest-journal-podcast/april-2025-chest-journal-editor-highlights. Outcome: CHEST official April issue listing/editor highlights dated April 1 identifies alpha-1 antitrypsin guidance (chronic prevention), not an April 6–12 ED bedside update. CHEST official new platelet/plasma transfusion guideline release is April 30, after this window (https://www.chestnet.org/newsroom/press-releases/2025/04/guideline-on-platelet-and-plasma-transfusion-released-by-chest). Negative search limited to accessible directory/date entries.",
+      "status": "success",
       "sourceId": "chest",
-      "checkedAt": "2026-10-29T03:09:33.546Z"
+      "checkedAt": "2026-10-29T03:41:03.440Z"
     },
     {
-      "url": "https://www.east.org/education-resources/practice-management-guidelines",
-      "notes": "Targeted EAST/trauma society search for April 6-12 was performed; no additional major in-window EAST PMG was verified. ESTES European polytrauma consensus was independently primary-reviewed, but exhaustive dated EAST archive coverage was not certified.",
-      "status": "failed",
+      "url": "https://www.east.org/education-resources/practice-management-guidelines/details/the-effect-of-ridesharing-services-on-motor-vehicle-crash-outcomes-a-systematic-review-and-practice-",
+      "notes": "Method: official directory plus date-specific web query site:east.org/education-resources/practice-management-guidelines April 2025 ridesharing ; route: public indexed site search / official HTML. Primary: https://www.east.org/education-resources/practice-management-guidelines/details/the-effect-of-ridesharing-services-on-motor-vehicle-crash-outcomes-a-systematic-review-and-practice-. Outcome: Official EAST guideline page for PMID 40181210 reviewed: 15 low-certainty observational studies, recommends considering ridesharing as public health injury-prevention policy, not ED patient management. ESTES polytrauma consensus (PMID 40214785, first online Apr 11) already saved independently. No additional high-priority EAST trauma bedside guidance verified in accessible April-date search.",
+      "status": "success",
       "sourceId": "east-trauma",
-      "checkedAt": "2026-10-29T03:09:33.546Z"
+      "checkedAt": "2026-10-29T03:41:03.440Z"
     },
     {
-      "url": "https://www.ena.org/practice-resources",
-      "notes": "Targeted official ena/date search for 2025-04-06 through 2025-04-12 was performed. No additional high-priority in-window item was verified from inspected results, but complete chronological archive and earliest-online-date accounting were not established; this check remains incomplete.",
-      "status": "failed",
+      "url": "https://www.ena.org/news-publications/newsroom/ena-launches-new-trauma-nursing-advanced-course",
+      "notes": "Method: official directory plus date-specific web query site:ena.org \"Apr 10, 2025\" guideline ; route: public indexed site search / official HTML. Primary: https://www.ena.org/news-publications/newsroom/ena-launches-new-trauma-nursing-advanced-course. Outcome: ENA practice-resource/news date search and official April 10 item reviewed. The dated item announces the Trauma Nursing Advanced Course, not a new bedside clinical guideline. No ED-treatment guidance first published April 6–12 was found in the accessible official results.",
+      "status": "success",
       "sourceId": "ena",
-      "checkedAt": "2026-10-29T03:09:33.546Z"
+      "checkedAt": "2026-10-29T03:41:03.440Z"
     },
     {
       "url": "https://www.erc.edu/science-research/guidelines/",
-      "notes": "Targeted official erc/date search for 2025-04-06 through 2025-04-12 was performed. No additional high-priority in-window item was verified from inspected results, but complete chronological archive and earliest-online-date accounting were not established; this check remains incomplete.",
-      "status": "failed",
+      "notes": "Method: official directory plus date-specific web query site:erc.edu \"April\" \"2025\" resuscitation guidelines ; route: public indexed site search / official HTML. Primary: https://www.erc.edu/science-research/guidelines/. Outcome: Official ERC guidance/news and dated search inspected; 2025 guideline chapters were posted for public comment beginning May 5, after the April 6–12 window, and final publication later in 2025. No official newly issued ERC clinical chapter in window found in accessible dated results.",
+      "status": "success",
       "sourceId": "erc",
-      "checkedAt": "2026-10-29T03:09:33.546Z"
+      "checkedAt": "2026-10-29T03:41:03.440Z"
     },
     {
       "url": "https://eso-stroke.org/guidelines/",
-      "notes": "Targeted official eso-stroke/date search for 2025-04-06 through 2025-04-12 was performed. No additional high-priority in-window item was verified from inspected results, but complete chronological archive and earliest-online-date accounting were not established; this check remains incomplete.",
-      "status": "failed",
+      "notes": "Method: official directory plus date-specific web query site:eso-stroke.org/guidelines/ \"April\" \"2025\" guideline ; route: public indexed site search / official HTML. Primary: https://eso-stroke.org/guidelines/. Outcome: Official ESO guidance directory/date search inspected. April 9 stroke-coalition launch was organizational, not clinical guidance; ESO/EANS intracerebral hemorrhage guideline was published May 22, outside this window. No in-window new ED stroke guideline established by the dated search.",
+      "status": "success",
       "sourceId": "eso-stroke",
-      "checkedAt": "2026-10-29T03:09:33.546Z"
+      "checkedAt": "2026-10-29T03:41:03.440Z"
     },
     {
-      "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
-      "notes": "Targeted official idsa/date search for 2025-04-06 through 2025-04-12 was performed. No additional high-priority in-window item was verified from inspected results, but complete chronological archive and earliest-online-date accounting were not established; this check remains incomplete.",
-      "status": "failed",
+      "url": "https://www.idsociety.org/practice-guideline/all-practice-guidelines/",
+      "notes": "Method: official directory plus date-specific web query site:idsociety.org/practice-guideline/ \"April\" \"2025\" guideline ; route: public indexed site search / official HTML. Primary: https://www.idsociety.org/practice-guideline/all-practice-guidelines/. Outcome: IDSA official A-Z directory opened and date-specific official-domain search checked, including current 2025 complicated-UTI and group-A-strep guidance (year only, not evidence of an April 6–12 release). No new in-window IDSA ED guidance established among searched indexed results; this negative check is limited by absence of per-day dates for some current directory entries.",
+      "status": "success",
       "sourceId": "idsa",
-      "checkedAt": "2026-10-29T03:09:33.546Z"
+      "checkedAt": "2026-10-29T03:41:03.440Z"
     },
     {
       "url": "https://journalfeed.org/",
-      "notes": "Secondary discovery was not used as proof of coverage for 2025-04-06 through 2025-04-12. Primary cache enumeration and primary-source verification were used; complete dated JournalFeed archive coverage was not certified.",
+      "notes": "Method: official directory plus date-specific web query site:journalfeed.org/article-a-day/2025/ \"April\" \"2025\" emergency trial guidelines ; route: public indexed site search / official HTML. Primary: https://journalfeed.org/. Outcome: Secondary dated search surfaced April 10 discussion of a fluid study first online February 17; a complete April 6–12 JournalFeed archive screen was not retrieved. No independent JournalFeed coverage claimed.",
       "status": "failed",
       "sourceId": "journalfeed",
-      "checkedAt": "2026-10-29T03:09:33.546Z"
+      "checkedAt": "2026-10-29T03:41:03.440Z"
     },
     {
       "url": "https://www.saem.org/publications/grace",
-      "notes": "Targeted official saem/date search for 2025-04-06 through 2025-04-12 was performed. No additional high-priority in-window item was verified from inspected results, but complete chronological archive and earliest-online-date accounting were not established; this check remains incomplete.",
-      "status": "failed",
+      "notes": "Method: official directory plus date-specific web query site:saem.org/publications/grace \"April\" \"2025\" guideline ; route: public indexed site search / official HTML. Primary: https://www.saem.org/publications/grace. Outcome: Accessible official GRACE directory lists GRACE-1 through GRACE-4 and upcoming GRACE-5 syncope in 2025, not a newly issued April 6–12 clinical guideline. Official-domain date search found no in-window published GRACE recommendation; limited to directory and indexed date results.",
+      "status": "success",
       "sourceId": "saem",
-      "checkedAt": "2026-10-29T03:09:33.546Z"
+      "checkedAt": "2026-10-29T03:41:03.440Z"
     },
     {
-      "url": "https://www.sccm.org/clinical-resources/guidelines",
-      "notes": "Targeted official sccm/date search for 2025-04-06 through 2025-04-12 was performed. No additional high-priority in-window item was verified from inspected results, but complete chronological archive and earliest-online-date accounting were not established; this check remains incomplete.",
-      "status": "failed",
+      "url": "https://www.sccm.org/clinical-resources/guidelines/guidelines",
+      "notes": "Method: official directory plus date-specific web query site:sccm.org/clinical-resources/guidelines \"Apr\" \"2025\" ; route: public indexed site search / official HTML. Primary: https://www.sccm.org/clinical-resources/guidelines/guidelines. Outcome: Official SCCM all-guidelines listing and April 6–12 targeted date results inspected. Feb 2025 CCUS and heat-stroke releases preceded the window; 2026 sepsis guidance came later. No newly released April 6–12 sepsis/critical-care guideline identified from available official index.",
+      "status": "success",
       "sourceId": "sccm",
-      "checkedAt": "2026-10-29T03:09:33.546Z"
+      "checkedAt": "2026-10-29T03:41:03.440Z"
     }
   ],
   "coverageEnd": "2025-04-12",
   "coverageStart": "2025-04-06",
   "finalCrossCheck": [
-    "Major emergency-medicine RCT cross-check: all 82 distinct cached metadata candidates were screened; WESTCOR point-of-care hs-troponin RCT was primary-verified and selected.",
-    "Major NEJM/JAMA/Lancet/BMJ acute-care trial cross-check: the 10 general-journal memberships were screened; none met the in-window ED-practice threshold after triage.",
-    "ACEP clinical-policy cross-check: targeted official-domain/date search did not verify a new April 6-12, 2025 clinical policy; exhaustive dated archive coverage was not certified.",
-    "AHA/ASA guidance cross-check: targeted official search did not verify an in-window major stroke/cardiovascular statement; the 2025 ACS guideline was published earlier and is outside this window.",
-    "SCCM/sepsis cross-check: targeted official search did not identify a new April 6-12 SCCM/sepsis guideline; complete chronological archive coverage was not certified.",
-    "IDSA cross-check: targeted official search did not verify a new emergency-relevant IDSA guideline in the interval.",
-    "CHEST cross-check: targeted official search did not verify a new April 6-12 acute-care CHEST guideline; later April transfusion guidance is outside the window.",
-    "Hematology/bleeding/anticoagulation cross-check: no new in-window major ASH emergency guidance was verified by the targeted official search.",
-    "Toxicology cross-check: no new in-window ACMT/AACT clinical statement was verified by the targeted official search.",
-    "Trauma cross-check: ESTES European polytrauma consensus was primary-verified and selected; EAST/ACS targeted checks did not establish an additional in-window major US trauma guideline.",
-    "Pediatric emergency cross-check: no new April 6-12 major pediatric emergency guideline was verified in targeted AAP/society checks.",
-    "Obstetric emergency cross-check: no new April 6-12 major ACOG obstetric-emergency guidance was verified in the targeted check.",
-    "Historical/correction cross-check: ESTES has a September 10, 2025 author-name correction only; no selected WESTCOR correction was found. TENS and D-dimer candidates were reviewed but not promoted because evidence was small or lacked prospective management validation."
+    "Emergency-medicine RCTs: 82 unique cached candidates screened ordinal 1–82; WESTCOR first online April 9 retained; 80-person sham-controlled TENS back-pain RCT (PMID 40202296) improved short-term pain but small and not practice changing.",
+    "NEJM/JAMA/Lancet/BMJ acute-care trials: ten cached general-journal memberships screened; MS disease-modification papers and editorials excluded as not acute-care ED trials; no further qualifying in-window major RCT verified.",
+    "ACEP policies: ACEP policy index and primary CO-policy PDF checked. Carbon-monoxide policy approved January 22, PubMed April print issue and imported March 22, but exact first PUBLIC electronic posting remains unconfirmed; do not assign to this window. Keep ACEP check incomplete.",
+    "AHA/ASA statements: targeted official professional.heart.org April 6–12 date search found no independently verified new acute stroke or cardiac emergency statement; source check incomplete pending additional dated guidance index resolution.",
+    "SCCM/sepsis: official SCCM guidelines index checked; February CCUS and heat-stroke guidance and later 2026 sepsis guidance are outside interval; bounded negative clinical search supports no selected in-window SCCM guidance.",
+    "IDSA: official A-Z practice-guideline directory plus April-date indexed search checked; current 2025 entries are not enough to establish this exact week and no new in-window emergency antibiotic guidance was verified.",
+    "CHEST: April 1 editor highlights included chronic alpha-1 antitrypsin guidance; April 30 new platelet/plasma transfusion release lies after window; no in-window major CHEST ED guideline verified.",
+    "ASH bleeding/anticoagulation: clinical-guideline categories and targeted April-date official search reviewed; Italian aHUS multidisciplinary Delphi (PMID 40204022, Apr 9) was regional rare-disease referral guidance without a new general ED treatment pathway.",
+    "Toxicology: ACMT statement date search identified no verified in-window guidance, but official dated chronology incomplete; loperamide case-based toxicokinetic report (PMID 40192347) does not warrant new clinical guidance.",
+    "Trauma: previously primary-reviewed ESTES polytrauma consensus first online April 11 retained. EAST ridesharing PMG PMID 40181210 is public-health injury-prevention policy from low-certainty observational evidence, not bedside ED resuscitation.",
+    "Pediatrics: primary febrile-neonate CRP/PCT cohort PMID 40250143 used 191 retrospective infants and small 42-infant validation cohort; insufficient to replace AAP infant fever disposition pathways. AAP April book reprints prior policies, not newly issued recommendations.",
+    "Obstetrics: hosted ACOG /clinical and dated official document returned HTTP 402; indexed April 17 QI document is later, but primary April 6–12 obstetric guidance search remains incomplete.",
+    "Other candidate adjudication: China HAE consensus PMID 40209692 Epub Apr 10 is regional treatment guidance, not new general US ED evidence; multinational LVEF statement PMID 40268622 first public publisher release April 22, not eligible this window. D-dimer DDU retrospective cohort PMID 40262289 lacks prospective management validation; early stress test PMID 40196978 has residual confounding.",
+    "Additional candidate appraisal: small uncontrolled sciatica block study PMID 40256350 and short ambulatory-monitoring retrospective cohort PMID 40215590 do not establish treatment/disposition thresholds; diquat severity score PMID 40202468 has limited external validation, and troponin delta cohort PMID 40220709 is retrospective. Selected WESTCOR and ESTES record contents/review labels were preserved.",
+    "Cross-journal pediatric sedation RCT PMID 40215365 first online April 11 in Anesthesiology was identified after the four cached journal groups were screened: 253 randomized, transient oxygen desaturation improved with low/high flow, but a 2026 methodological/statistical reassessment (PMID 41982957) was not retrievable; queued for critical appraisal, not yet selected."
   ],
   "excludedCandidates": [
     {
@@ -185,6 +187,50 @@
     {
       "reason": "Age-adjusted D-dimer DDU study was retrospective in patients already selected for CTPA and did not prospectively validate a safe diagnostic management strategy; not selected.",
       "identifier": "PMID 40262289"
+    },
+    {
+      "reason": "Primary Italian aHUS multidisciplinary Delphi consensus Epub Apr 9, 2025: 51 agreed statements emphasize rare-disease recognition/referral and regional multidisciplinary care, not a new general US ED treatment regimen; selectivity exclusion.",
+      "identifier": "PMID 40204022"
+    },
+    {
+      "reason": "Primary Chinese hereditary-angioedema 2024-edition consensus first online Apr 10, 2025 (2026 print); regional drug/access context and no separately verified novel general US ED airway recommendation; exclusion from this selective window.",
+      "identifier": "PMID 40209692"
+    },
+    {
+      "reason": "Publisher Wiley and HFSA first-publication metadata both identify Apr 22, 2025; its April 9 bibliographic date is not eligibility. Move first-online consideration to April 20–26 research window; do not duplicate accompanying cross-journal version PMID 40260636.",
+      "identifier": "PMID 40268622"
+    },
+    {
+      "reason": "Taiwanese febrile neonate CRP/PCT/Rochester retrospective n191 with n42 validation cohort; cannot validate a safe lower-risk neonate disposition pathway or displace existing guideline.",
+      "identifier": "PMID 40250143"
+    },
+    {
+      "reason": "Primary EAST ridesharing practice-management review concerns crash prevention policy (15 observational studies), not ED patient assessment or management.",
+      "identifier": "PMID 40181210"
+    },
+    {
+      "reason": "Prospective 63-person ED sciatic nerve-block study lacked a comparator and cannot establish superiority or a standard ED regimen.",
+      "identifier": "PMID 40256350"
+    },
+    {
+      "reason": "Retrospective short ambulatory-monitoring diagnostic-yield study n491 after ED discharge does not validate safe disposition or a new universal pathway.",
+      "identifier": "PMID 40215590"
+    },
+    {
+      "reason": "Multicenter acute diquat severity-score development and small external validation insufficient for routine triage or validated intervention changes.",
+      "identifier": "PMID 40202468"
+    },
+    {
+      "reason": "Retrospective chest-pain high-sensitivity troponin kinetics study does not establish a new validated prospective discharge decision rule.",
+      "identifier": "PMID 40220709"
+    },
+    {
+      "reason": "Case-based loperamide cardiotoxicity analysis, not new controlled evidence or change to existing ED safety principles.",
+      "identifier": "PMID 40192347"
+    },
+    {
+      "reason": "ACEP carbon monoxide policy was board-approved January 22, 2025; March 22 PubMed bibliographic import preceded April 6–12. April is print issue and exact earliest public electronic date could not be confirmed; do not associate with this research window until authoritative dating verified.",
+      "identifier": "PMID 40118649"
     }
   ],
   "finalCrossCheckCompleted": false,

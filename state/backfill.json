@@ -225,7 +225,7 @@
     },
     {
       "end": "2025-04-12",
-      "notes": "Partial after 2026-10-28 LA review: SQL cache fully enumerated 82 distinct candidates in ordinal page 1-82, with all four exact configured queries/counts/memberships matched. WESTCOR and the ESTES polytrauma consensus were primary-reviewed and added. Independent society archive completeness and some cross-check coverage remain incomplete.",
+      "notes": "Completion-first Oct 28 2026 LA re-review: 82/82 SQL-cache candidates screened with all four current queries/counts/memberships matching; WESTCOR and ESTES retained. Fifteen of 18 independent source checks have documented bounded successful outcomes. ACEP CO clinical-policy first-public date remains unresolved, ACOG clinical pages returned HTTP 402, and JournalFeed full dated archive was inaccessible; these 3 checks remain incomplete. A pediatric-sedation oxygen RCT first online Apr 11 was additionally identified, but its later methodological critique was inaccessible and primary appraisal remains queued. All seven specified candidates were adjudicated, but do not close this window until 3 source checks and the important queued trial are resolved.",
       "start": "2025-04-06",
       "status": "partial",
       "auditId": "backfill-2025-04-06",
@@ -919,7 +919,7 @@
   ],
   "rangeEnd": "2026-10-26",
   "startedAt": "2026-10-27T20:58:44.597134+00:00",
-  "updatedAt": "2026-10-29T03:09:33.556Z",
+  "updatedAt": "2026-10-29T03:42:22.059Z",
   "rangeStart": "2024-10-27",
   "schemaVersion": 1,
   "candidateQueue": [
@@ -1108,6 +1108,12 @@
       "title": "EAST hemothorax practice management guideline 2025",
       "reason": "Surfaced during July 6-12 trauma-society cross-check; exact first-online publication date and primary recommendation details were not established, so it remains unresolved and is not assigned to this window.",
       "firstOnlineDate": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40215365/",
+      "title": "Pediatric procedural-sedation low-flow versus high-flow oxygen versus no oxygen randomized trial",
+      "reason": "Independent specialty-journal cross-check, outside four configured journal groups. Primary PubMed abstract confirms Apr 11 first-online and 253 randomized pediatric moderate/deep sedation patients with fewer transient oxygen desaturations using oxygen. The 2026 published methodological/statistical reassessment (PMID 41982957) and full trial text were inaccessible in this hosted session; hold for primary critique and adverse-event/external-validity review before deciding publication. Not a standard-of-care conclusion.",
+      "firstOnlineDate": "2025-04-11"
     }
   ]
 }
