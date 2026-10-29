@@ -74,7 +74,7 @@
     "instructionDelivery": "Complete operational workflow and owner editorial requirements saved directly in task",
     "rangeStart": "2024-10-27",
     "rangeEnd": "2026-10-26",
-    "status": "active; actual clock-triggered writer and deployment verified",
+    "status": "active; hourly task resumed with verified SQL-cache discovery",
     "taskUrl": "https://chatgpt.com/scheduled?automationId=6ae17273b1548190bdd368011e2ebba3&automationSource=cloud",
     "createdAt": "2026-10-28T03:56:00Z",
     "chatId": "6ae173a0-0720-832e-9cc2-33425cb2985f",
@@ -111,6 +111,14 @@
     },
     "discoveryCache": "Private em_weekly.research_index; full fixed-range metadata, SQL pages of up to 100 candidates; static HTML backup",
     "coverageStrategy": "Balance attempted/completed coverage across calendar quarters; verify primary material and advance major queued guidance independently",
-    "publicPresentation": "One article library by first-online date; year/topic/recently-added filters; internal backfill flags preserve weekly eligibility"
+    "publicPresentation": "One article library by first-online date; year/topic/recently-added filters; internal backfill flags preserve weekly eligibility",
+    "metadataCacheVerification": {
+      "windows": 105,
+      "candidates": 13722,
+      "databaseSize": "2160 kB",
+      "workflowRun": "https://github.com/samermetri/em-weekly/actions/runs/40807269613",
+      "hostedRead": "Actual approved research conversation screened all 282 candidates from two windows through bounded SQL ordinal pages",
+      "scope": "Public discovery metadata only; no public reader grants and no builder article/config/account write access"
+    }
   }
 }

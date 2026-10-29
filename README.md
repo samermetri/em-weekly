@@ -32,7 +32,7 @@ The initial articles and two issues are clearly labeled historical samples. The 
 
 ## Reader accounts and caching
 
-Public HTML, search, weekly briefs and `/data/articles.json` are built once and served statically. Cloudflare cache rules cover only emweekly.samermetri.com: public origin TTLs, one-year hashed assets, and bypass for `/account`, `/library`, `/admin`. Account API fetches use no-store. Private libraries have a five-minute local cache per user, an explicit Refresh button, and no polling or Realtime subscriptions. Signing out clears local library data.
+Public HTML, search, weekly briefs and `/data/articles.json` are built once and served statically. Cloudflare cache rules cover only emweekly.samermetri.com: public origin TTLs, one-year hashed assets, and bypass for `/account`, `/library`, `/admin`. Account API fetches use no-store. Private libraries have a five-minute local cache per user, an explicit Refresh button, and no polling or Realtime subscriptions. Readers can select several saved papers across folders/searches and print one personal reading digest; preview and PDF printing use static public content with no additional database calls. Signing out clears local library data.
 
 RLS isolates each user’s favorites/folders; composite foreign keys prevent cross-user associations. The verified owner allowlist is private and cannot be changed through signup metadata. Admin edits use optimistic revisions and dated history; Delete withdraws and can be restored. New manual articles begin held for review. All public changes still pass the publishing workflow.
 
