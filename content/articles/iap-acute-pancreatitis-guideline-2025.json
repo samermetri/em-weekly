@@ -1,0 +1,56 @@
+{
+  "id": "iap-acute-pancreatitis-guideline-2025",
+  "doi": "10.1016/j.pan.2025.04.020",
+  "pmid": "40651900",
+  "title": "International Association of Pancreatology Revised Guidelines on Acute Pancreatitis 2025: Supported and Endorsed by the American Pancreatic Association, European Pancreatic Club, Indian Pancreas Club, and Japan Pancreas Society",
+  "pinned": false,
+  "sample": false,
+  "source": "International Association of Pancreatology / Pancreatology",
+  "status": "published",
+  "topics": [
+    "resuscitation",
+    "guidelines"
+  ],
+  "authors": [
+    "IAP/APA/EPC/IPC/JPS Working Group"
+  ],
+  "ranking": {
+    "design": 4,
+    "novelty": 4,
+    "edImpact": 5,
+    "guidelineRelevance": 5
+  },
+  "section": "Guidelines & Statements",
+  "summary": "This international GRADE guideline addresses 96 questions across 18 acute-pancreatitis domains. ED-relevant recommendations include limiting initial CT to diagnostic uncertainty or clinical deterioration, using lactated Ringer's with moderate rather than aggressive early fluid resuscitation, avoiding prophylactic antibiotics, and starting oral feeding early when tolerated. Urgent ERCP is recommended for biliary pancreatitis with acute cholangitis but not routinely for biliary pancreatitis without cholangitis.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Initial CT is recommended for diagnostic uncertainty or failure to improve/clinical deterioration; severity CT is optimally delayed at least 72-96 hours from symptom onset.",
+    "Lactated Ringer's is recommended for fluid therapy, with a moderate rate around 1.5 mL/kg/h and bolus reserved for hypovolemia or hypotension rather than routine aggressive hydration.",
+    "Prophylactic antibiotics are not recommended in acute pancreatitis without evidence of infection.",
+    "Early oral low-fat solid feeding is favored when tolerated; enteral feeding should begin within 72 hours when oral intake is not possible.",
+    "Early ERCP is recommended for biliary pancreatitis with acute cholangitis and is not recommended routinely without cholangitis."
+  ],
+  "studyType": "Guideline",
+  "comparator": "Alternative diagnostic and treatment strategies across 96 PICO or practice questions; no single comparator.",
+  "population": "Adults with acute pancreatitis, with dedicated recommendations for severe disease, necrosis, biliary disease, pregnancy, trauma, hypertriglyceridemia, and complications.",
+  "sampleSize": null,
+  "shortTitle": "IAP 2025 acute pancreatitis guideline",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Large international guideline covering far more than ED care; recommendation certainty ranges from high to low and some items are Good Practice Statements. US clinicians should also reconcile these recommendations with the 2024 ACG guideline and local gastroenterology/surgical pathways.",
+  "retrievedAt": "2026-10-28",
+  "canonicalUrl": "https://www.sciencedirect.com/science/article/pii/S1424390325000857",
+  "intervention": "Evidence-based diagnostic, resuscitation, nutritional, antimicrobial, endoscopic, and interventional management recommendations.",
+  "whyItMatters": "For ED management, avoid reflex early CT and aggressive fluid loading in uncomplicated presentations; use goal-directed moderate resuscitation and early enteral/oral nutrition. Escalate biliary pancreatitis to urgent ERCP when cholangitis is present rather than simply because pancreatitis is severe.",
+  "evidenceNotes": "Primary PubMed metadata and the complimentary-access ScienceDirect full text were reviewed; PMID 40651900, DOI 10.1016/j.pan.2025.04.020, article/first-online date July 10, 2025 in the discovery/PubMed record. The full text was reviewed for methods and ED-relevant recommendations; supplementary evidence tables were not exhaustively reappraised. Targeted correction search did not identify a published correction.",
+  "discoveredDate": "2026-10-28",
+  "fullTextStatus": "Open-access full text available",
+  "officialPdfUrl": null,
+  "firstOnlineDate": "2025-07-10",
+  "primaryEndpoint": "Guideline recommendations and GRADE certainty across 18 domains, rather than a single clinical endpoint.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": "GRADE-based strong and conditional recommendations plus Good Practice Statements; ED-relevant recommendations range from high- to low-certainty evidence.",
+  "sitePublishedDate": "2026-10-28"
+}

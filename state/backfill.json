@@ -225,11 +225,14 @@
     },
     {
       "end": "2025-04-12",
-      "notes": "Not yet comprehensively searched.",
+      "notes": "Partial after 2026-10-28 LA review: SQL cache fully enumerated 82 distinct candidates in ordinal page 1-82, with all four exact configured queries/counts/memberships matched. WESTCOR and the ESTES polytrauma consensus were primary-reviewed and added. Independent society archive completeness and some cross-check coverage remain incomplete.",
       "start": "2025-04-06",
-      "status": "pending",
-      "auditId": null,
-      "articleIds": []
+      "status": "partial",
+      "auditId": "backfill-2025-04-06",
+      "articleIds": [
+        "estes-polytrauma-consensus-2025",
+        "westcor-poc-hs-troponin-2025"
+      ]
     },
     {
       "end": "2025-04-19",
@@ -333,11 +336,16 @@
     },
     {
       "end": "2025-07-12",
-      "notes": "Not yet comprehensively searched.",
+      "notes": "Partial after 2026-10-28 LA review: SQL cache fully enumerated 116 distinct candidates in ordinal pages 1-100 and 101-116, with all four exact configured queries/counts/memberships matched. Acute-pancreatitis guidance, siltartoxatug phase 3, AF screening, and CRP/ESR spinal-infection evidence were primary-reviewed and added. Trauma guidance/date questions and society archive completeness remain unresolved.",
       "start": "2025-07-06",
-      "status": "pending",
-      "auditId": null,
-      "articleIds": []
+      "status": "partial",
+      "auditId": "backfill-2025-07-06",
+      "articleIds": [
+        "crp-esr-spinal-infection-2025",
+        "iap-acute-pancreatitis-guideline-2025",
+        "opportunistic-af-screening-ed-2025",
+        "siltartoxatug-tetanus-prophylaxis-2025"
+      ]
     },
     {
       "end": "2025-07-19",
@@ -911,7 +919,7 @@
   ],
   "rangeEnd": "2026-10-26",
   "startedAt": "2026-10-27T20:58:44.597134+00:00",
-  "updatedAt": "2026-10-29T02:53:46.040Z",
+  "updatedAt": "2026-10-29T03:09:33.556Z",
   "rangeStart": "2024-10-27",
   "schemaVersion": 1,
   "candidateQueue": [
@@ -1075,6 +1083,30 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41618059/",
       "title": "International pediatric hereditary angioedema guideline",
       "reason": "2026-01-25 metadata candidate requiring primary first-online date, airway recommendations and strength review.",
+      "firstOnlineDate": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40641453/",
+      "title": "First-trimester point-of-care ultrasound diagnostic accuracy study",
+      "reason": "Cached July 6-12, 2025 candidate; multicenter ED POCUS diagnostic study requires primary performance estimates, exact applicability, and correction review before selection.",
+      "firstOnlineDate": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40664566/",
+      "title": "Consensus-based indications for REBOA",
+      "reason": "Cached July 6-12, 2025 candidate; exact consensus method, clinical thresholds, comparison with UK-REBOA and US trauma guidance require primary appraisal.",
+      "firstOnlineDate": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40639639/",
+      "title": "Low-tidal-volume ventilation in acute brain injury",
+      "reason": "Cached July 6-12, 2025 observational candidate; primary effect estimates and confounding need appraisal before deciding whether it adds ED-relevant guidance.",
+      "firstOnlineDate": null
+    },
+    {
+      "url": "https://www.east.org/education-resources/practice-management-guidelines",
+      "title": "EAST hemothorax practice management guideline 2025",
+      "reason": "Surfaced during July 6-12 trauma-society cross-check; exact first-online publication date and primary recommendation details were not established, so it remains unresolved and is not assigned to this window.",
       "firstOnlineDate": null
     }
   ]

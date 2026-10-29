@@ -1,0 +1,60 @@
+{
+  "id": "crp-esr-spinal-infection-2025",
+  "doi": "10.1016/j.acepjo.2025.100213",
+  "pmid": "40689404",
+  "title": "An Assessment of C-Reactive Protein and Erythrocyte Sedimentation Rate in Ruling Out Acute Infectious Spinal Pathology in Emergency Department Patients: A Retrospective Cohort Study",
+  "pinned": false,
+  "sample": false,
+  "source": "JACEP Open",
+  "status": "published",
+  "topics": [
+    "infectious-disease"
+  ],
+  "authors": [
+    "Scott Gutovitz",
+    "Justin Blaskowsky",
+    "Dallin Lindstrom",
+    "Dylan Arnold",
+    "Jonathan Hardin",
+    "Kevin Max Montgomery",
+    "Leeda Roshan"
+  ],
+  "ranking": {
+    "design": 3,
+    "novelty": 4,
+    "edImpact": 4,
+    "guidelineRelevance": 0
+  },
+  "section": "Worth Knowing",
+  "summary": "This retrospective national-system cohort included 1,963 acute infectious spinal pathology cases and 3,981 controls who presented with spinal pain, had inflammatory markers drawn, and underwent spinal MRI. ESR at or below 20 mm/h or CRP at or below 1.2 mg/dL each corresponded to roughly 90% sensitivity; stricter thresholds increased sensitivity. Using ESR at or below 20 mm/h and CRP at or below 1.0 mg/dL in parallel yielded 98.9% sensitivity and an NPV above 99% in this selected cohort.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "There were 1,963 AISP cases and 3,981 controls.",
+    "For approximately 90% sensitivity, cut points were ESR <=20 mm/h or CRP <=1.2 mg/dL; for 95% sensitivity, ESR <=12 or CRP <=0.7.",
+    "Parallel ESR <=20 mm/h and CRP <=1.0 mg/dL produced 98.9% sensitivity and NPV >99%.",
+    "No treatment adverse events were applicable because this was a retrospective diagnostic study."
+  ],
+  "studyType": "Diagnostic study",
+  "comparator": "Presence versus absence of acute infectious spinal pathology among patients undergoing MRI.",
+  "population": "Emergency department patients with spinal pain who had inflammatory biomarkers measured and spinal MRI in a national hospital system over four years; 5,944 total.",
+  "sampleSize": 5944,
+  "shortTitle": "CRP and ESR for suspected spinal infection",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Retrospective design with spectrum/selection bias: all included patients had spinal pain, biomarkers, and MRI, and diagnoses were derived from health-system data. Thresholds were derived and evaluated in the same retrospective population and lack prospective management validation.",
+  "retrievedAt": "2026-10-28",
+  "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/40689404/",
+  "intervention": "CRP and ESR thresholds, individually and in parallel, used as diagnostic rule-out tests.",
+  "whyItMatters": "Very low CRP and ESR together may reduce the likelihood of discitis, osteomyelitis, spinal epidural abscess, or septic arthritis and can inform MRI decision-making in lower-risk ED patients. The results are not sufficient to use normal inflammatory markers as a stand-alone rule-out when clinical suspicion is substantial.",
+  "evidenceNotes": "Primary PubMed abstract reviewed; PMID 40689404, DOI 10.1016/j.acepjo.2025.100213, epublished July 11, 2025. The article is legally open access, but the complete full text was not relied on for the summary. Targeted correction search found no verified correction.",
+  "discoveredDate": "2026-10-28",
+  "fullTextStatus": "Open-access full text available",
+  "officialPdfUrl": null,
+  "firstOnlineDate": "2025-07-11",
+  "primaryEndpoint": "Sensitivity and negative predictive value of CRP/ESR cut points for acute infectious spinal pathology.",
+  "reviewedMaterial": "abstract",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-10-28"
+}

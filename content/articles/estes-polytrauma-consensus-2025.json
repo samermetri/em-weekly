@@ -1,0 +1,65 @@
+{
+  "id": "estes-polytrauma-consensus-2025",
+  "doi": "10.1007/s00068-025-02852-4",
+  "pmid": "40214785",
+  "title": "ESTES recommendations for the treatment of polytrauma-a European consensus based on the German S3 guidelines for the treatment of patients with severe/multiple injuries",
+  "pinned": false,
+  "sample": false,
+  "source": "European Society of Trauma and Emergency Surgery / European Journal of Trauma and Emergency Surgery",
+  "status": "published",
+  "topics": [
+    "trauma",
+    "guidelines"
+  ],
+  "authors": [
+    "Cristina Rey Valcarcel",
+    "Dan Bieler",
+    "Gary A. Bass",
+    "Christine Gaarder",
+    "Frank Hildebrand",
+    "ESTES Polytrauma Consensus Group"
+  ],
+  "ranking": {
+    "design": 3,
+    "novelty": 3,
+    "edImpact": 4,
+    "guidelineRelevance": 4
+  },
+  "section": "Guidelines & Statements",
+  "summary": "ESTES used a three-round RAND/UCLA modified Delphi process to adapt Grade A and Good Practice Point elements of the German S3 severe-injury guideline for European trauma systems. Of 139 recommendations initially considered, four were removed and seven GPPs rephrased; 135 remained, with 128 judged appropriate and necessary and seven uncertain. The framework spans prehospital care through the first operative phase and leaves some contested practices, including broad REBOA use, uncertain.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "The panel reviewed 82 Grade A and 57 Good Practice Point recommendations in the first round.",
+    "Four recommendations were removed and seven Good Practice Points were rephrased, leaving 135 final recommendations.",
+    "128 recommendations (77 Grade A and 51 GPP) were considered appropriate and necessary; seven remained uncertain.",
+    "The full text notes uncertainty around generic REBOA recommendations after newer trial evidence and emphasizes context-specific hemorrhage resuscitation."
+  ],
+  "studyType": "Consensus statement",
+  "comparator": "No patient-level comparator; recommendations were judged for appropriateness and necessity across European systems.",
+  "population": "Severely injured and polytrauma patients across European prehospital, emergency, resuscitation, and early operative settings.",
+  "sampleSize": null,
+  "shortTitle": "ESTES European polytrauma consensus",
+  "aiGenerated": true,
+  "corrections": [
+    {
+      "date": "2025-09-10",
+      "description": "Publisher correction fixed a collaborator name spelling; no clinical recommendation was changed."
+    }
+  ],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "European consensus adapting a prior German S3 guideline rather than a new evidence synthesis for every recommendation; implementation depends on trauma-system resources and may differ from US practice. Several recommendations remained uncertain, and later evidence or guidance may supersede individual elements.",
+  "retrievedAt": "2026-10-28",
+  "canonicalUrl": "https://link.springer.com/article/10.1007/s00068-025-02852-4",
+  "intervention": "European multidisciplinary adaptation and consensus appraisal of Grade A and Good Practice Point recommendations from the German S3 polytrauma guideline.",
+  "whyItMatters": "For major trauma, this provides a broad systems-level framework supporting structured hemorrhage resuscitation, airway management, imaging, and early operative decision-making while highlighting areas where blanket recommendations are inappropriate. It is useful context for ED trauma pathways but should not replace local ACS/TQIP or institution-specific protocols.",
+  "evidenceNotes": "PubMed and Springer/PMC full text were reviewed; PMID 40214785, DOI 10.1007/s00068-025-02852-4, published online April 11, 2025. A September 10, 2025 publisher correction changed a collaborator name spelling only and did not alter clinical recommendations. This is historical European guidance and should be interpreted alongside current local trauma guidance.",
+  "discoveredDate": "2026-10-28",
+  "fullTextStatus": "Open-access full text available",
+  "officialPdfUrl": null,
+  "firstOnlineDate": "2025-04-11",
+  "primaryEndpoint": "RAND/UCLA consensus classification of candidate recommendations as appropriate/necessary or uncertain.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": "Consensus adapted 82 Grade-of-Recommendation A items and 53 final Good Practice Points; 128 of 135 final recommendations were judged appropriate and necessary, while seven remained uncertain.",
+  "sitePublishedDate": "2026-10-28"
+}
