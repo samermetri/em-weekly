@@ -11,13 +11,14 @@ export function upsertQueue<T extends {pmid?:string|null;doi?:string|null;canoni
 
 export function sourceCheckpoint(prior:Record<string,unknown>,result:{ok:true;through:string;at:string;count:number}|{ok:false;at:string;error:string}):Record<string,unknown>{return result.ok?{...prior,successfulThrough:result.through,lastSuccessfulAt:result.at,lastError:null,resultCount:result.count}:{...prior,lastAttemptAt:result.at,lastError:result.error};}
 
-// An issue includes every public article added to the site during its coverage week.
-// Explicit items retain editorial section choices and allow labeled catch-up additions.
+// Normal issues follow the evidence publication week, regardless of ingestion date.
 export function weeklyItems(issue:{coverageStart:string;coverageEnd:string;sample:boolean;items:{articleId:string;section:Article['section'];catchUp:boolean}[]},records:Article[]){
- const items=issue.items.filter(item=>records.some(a=>a.id===item.articleId&&a.status==='published'&&!a.excluded&&!a.backfill&&a.sample===issue.sample));
+ const eligible=(a:Article)=>a.status==='published'&&!a.excluded&&a.sample===issue.sample&&(issue.sample||a.firstOnlineDate>=issue.coverageStart&&a.firstOnlineDate<=issue.coverageEnd);
+ const items=issue.items.filter(item=>records.some(a=>a.id===item.articleId&&eligible(a))).map(item=>({...item,catchUp:issue.sample?item.catchUp:false}));
  for(const a of records){
-  if(a.status!=='published'||a.excluded||a.backfill||a.sample!==issue.sample||a.sitePublishedDate<issue.coverageStart||a.sitePublishedDate>issue.coverageEnd)continue;
-  if(!items.some(item=>item.articleId===a.id))items.push({articleId:a.id,section:a.section,catchUp:!issue.sample&&a.firstOnlineDate<issue.coverageStart});
+  if(!eligible(a)||items.some(item=>item.articleId===a.id))continue;
+  if(issue.sample&&(a.sitePublishedDate<issue.coverageStart||a.sitePublishedDate>issue.coverageEnd))continue;
+  items.push({articleId:a.id,section:a.section,catchUp:false});
  }
  return items;
 }

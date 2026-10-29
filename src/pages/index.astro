@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';import Icon from '../components/Icon.astro';import ArticleCard from '../components/ArticleCard.astro';
 import {libraryArticles,issues,topics,href,formatDate} from '../lib/data';
-const issue=issues.find(i=>!i.sample);const preview=issues[0];const lead=libraryArticles[0];
+const issue=issues.find(i=>!i.sample);const lead=libraryArticles[0];
 const activeTopics=topics.filter(t=>libraryArticles.some(a=>a.topics.includes(t.id)));
 const years=[...new Set(libraryArticles.map(a=>a.firstOnlineDate.slice(0,4)))].sort().reverse();
 ---
@@ -13,7 +13,7 @@ const years=[...new Set(libraryArticles.map(a=>a.firstOnlineDate.slice(0,4)))].s
  {lead&&<article class="home-lead"><div class="home-lead-meta"><span class="eyebrow">LATEST PUBLICATION</span><span>{lead.studyType}</span></div><h2><a href={href(`articles/${lead.id}/`)}>{lead.shortTitle}</a></h2><p>{lead.summary}</p><div class="home-lead-footer"><span>{lead.source}<br/>First online {formatDate(lead.firstOnlineDate)}</span><a href={href(`articles/${lead.id}/`)}>Read summary <Icon name="arrow" size={16}/></a></div></article>}
  <section class="home-latest"><div class="section-heading"><div><h2>From the library</h2><p>In order of original publication.</p></div><a class="text-link" href={href('articles/')}>All articles <Icon name="arrow" size={15}/></a></div><div class="article-grid">{libraryArticles.slice(1,7).map(article=><ArticleCard article={article}/>)}</div></section>
  </div><aside class="reading-aside">
- <section class="publication-note"><p class="eyebrow">THE WEEKLY BRIEF</p><Icon name="weekly" size={27}/><h2>{issue?'This week’s evidence':'One week of evidence'}</h2><p>{issue?`${formatDate(issue.coverageStart)}–${formatDate(issue.coverageEnd)}`:'New research and guidance, brought together each Monday.'}</p>{issue?<a class="btn" href={href(`weekly/${issue.id}/`)}>Read the brief <Icon name="arrow" size={15}/></a>:<a class="text-link" href={href('weekly/')}>Weekly briefs <Icon name="arrow" size={15}/></a>}{!issue&&preview&&<a class="preview-link" href={href(`weekly/${preview.id}/`)}>See a sample brief</a>}</section>
+ <section class="publication-note"><p class="eyebrow">THE WEEKLY BRIEF</p><Icon name="weekly" size={27}/><h2>{issue?'This week’s evidence':'One week of evidence'}</h2><p>{issue?`${formatDate(issue.coverageStart)}–${formatDate(issue.coverageEnd)}`:'New research and guidance, brought together each Monday.'}</p>{issue?<a class="btn" href={href(`weekly/${issue.id}/`)}>Read the brief <Icon name="arrow" size={15}/></a>:<a class="text-link" href={href('weekly/')}>Weekly briefs <Icon name="arrow" size={15}/></a>}</section>
  <section class="year-navigation"><h2>Browse by year</h2>{years.map(year=><a href={href(`articles/?year=${year}`)}><span>{year}</span><span>{libraryArticles.filter(a=>a.firstOnlineDate.startsWith(year)).length}<Icon name="arrow" size={15}/></span></a>)}</section>
  <p class="coverage-note">The library is growing. Earlier research from 2024–2026 is being added as source checks are completed; coverage is not yet comprehensive.</p>
  <a class="aside-saved" href={href('library/')}><Icon name="bookmark" size={18}/><span>Your saved articles<small>Keep papers and organize folders</small></span><Icon name="arrow" size={15}/></a>

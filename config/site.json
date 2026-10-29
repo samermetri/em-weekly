@@ -10,8 +10,8 @@
     6
   ],
   "additionalMajorGuidelines": true,
-  "weeklyCoverageBasis": "sitePublishedDate",
-  "coverageStart": "2026-10-26",
+  "weeklyCoverageBasis": "firstOnlineDate",
+  "coverageStart": "2026-10-19",
   "supabase": {
     "organization": "EM Weekly",
     "organizationId": "dbvujtddkrjjrfnccsum",

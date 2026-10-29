@@ -1,3 +1,5 @@
+Owner correction, October 28, 2026: weekly issues cover evidence FIRST ONLINE during the preceding Monday–Sunday, inclusive, regardless of when added to EM Weekly. The October 26 issue must cover October 19–25, 2026. Include all verified public non-sample articles whose firstOnlineDate lies within that exact interval; never include older evidence with a catch-up label or use print/sitePublishedDate to move it into a later week. A backfill flag does not exclude an otherwise date-eligible article. Older retrospective additions remain in the article library only. Normal weekly coverage starts October 19, 2026. This supersedes earlier site-publication-week and blanket backfill-exclusion instructions.
+
 # EM Weekly literature backfill
 
 Owner completion request, October 28, 2026: actively finish the two-year research review; adding article batches while leaving every audit open is insufficient. Use the completion-first selection and concrete search outcomes below. The public completion count must reflect actual closed audits, never a cosmetic status edit.
@@ -39,7 +41,7 @@ Completion: only after all windows have completed audits and every important que
 
 # Owner editorial standard
 
-Website update, October 26, 2026: The weekly website digest includes every public article added to EM Weekly during its coverage week, using sitePublishedDate. First-online dates still determine whether evidence is new, and older additions require a catch-up label. Daily selection remains selective; the weekly digest must not omit already published articles. This update supersedes any narrower digest selection target below.
+Owner correction, October 28, 2026: weekly issues cover evidence FIRST ONLINE during the preceding Monday–Sunday, inclusive, regardless of when added to EM Weekly. The October 26 issue must cover October 19–25, 2026. Include all verified public non-sample articles whose firstOnlineDate lies within that exact interval; never include older evidence with a catch-up label or use print/sitePublishedDate to move it into a later week. A backfill flag does not exclude an otherwise date-eligible article. Older retrospective additions remain in the article library only. Normal weekly coverage starts October 19, 2026. This supersedes earlier site-publication-week and blanket backfill-exclusion instructions.
 
 You are preparing a **weekly Emergency Medicine Literature Brief for a practicing emergency physician**.
 

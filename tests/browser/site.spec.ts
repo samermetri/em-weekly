@@ -22,9 +22,9 @@ test('sharing copies a clean link when native sharing is unavailable',async({pag
  await page.addInitScript(()=>{Object.defineProperty(navigator,'share',{value:undefined,configurable:true});Object.defineProperty(navigator,'clipboard',{value:{writeText:async(value:string)=>{(window as any).__copied=value;}},configurable:true});});
  await page.goto('articles/device/');await page.getByRole('button',{name:'Share',exact:true}).click();await expect(page.locator('.share-status')).toHaveText('Link copied');await expect.poll(()=>page.evaluate(()=>(window as any).__copied)).toBe('https://emweekly.samermetri.com/articles/device/');
 });
-test('weekly preview includes all three articles and uses a dated print filename',async({page})=>{
+test('legacy brief permalink preserves its entries and dated print filename',async({page})=>{
  await page.addInitScript(()=>{window.print=()=>{(window as any).__printedTitle=document.title;};});
- await page.goto('weekly/2026-10-26/');await expect(page.locator('.brief-entry')).toHaveCount(3);await page.getByRole('button',{name:'Print / Save as PDF',exact:true}).click();await expect.poll(()=>page.evaluate(()=>(window as any).__printedTitle)).toBe('EM Weekly - Weekly Brief - 2026-10-26 to 2026-11-01');
+ await page.goto('weekly/2024-06-17/');await expect(page.locator('.brief-entry')).toHaveCount(1);await page.getByRole('button',{name:'Print / Save as PDF',exact:true}).click();await expect.poll(()=>page.evaluate(()=>(window as any).__printedTitle)).toBe('EM Weekly - Weekly Brief - 2024-06-10 to 2024-06-16');
 });
 
 test('all publication years share one library, with shareable date and sort filters',async({page})=>{
@@ -65,4 +65,13 @@ test('long guidance keeps paragraphs and recommendations in compact and expanded
  expect(await page.locator('.guidance-entry').evaluate(e=>getComputedStyle(e).breakInside)).toBe('auto');
  await page.pdf({path:'tmp/long-guidance-digest.pdf',format:'Letter',printBackground:true});
  await page.emulateMedia({media:'screen'});await page.setViewportSize({width:390,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+});
+
+test('weekly archive does not promote historical sample editions',async({page})=>{
+ await page.goto('weekly/');
+ await expect(page.getByRole('heading',{name:'The weekly brief',exact:true})).toBeVisible();
+ await expect(page.getByText(/HISTORICAL SAMPLE/)).toHaveCount(0);
+ await expect(page.locator('a[href*="/weekly/2024-06-17/"]')).toHaveCount(0);
+ await page.goto('./');
+ await expect(page.getByRole('link',{name:'See a sample brief'})).toHaveCount(0);
 });

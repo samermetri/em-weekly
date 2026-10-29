@@ -14,10 +14,24 @@ test('source failure preserves successful checkpoint; recovery can advance it',(
 
 test('deployment state accepts the UTC-offset timestamps written by Actions and reruns',()=>{const s=JSON.parse(fs.readFileSync('state/publishing.json','utf8'));s.lastSuccessfulDeployment={at:'2026-10-26T20:18:09.411099+00:00',commit:'a'.repeat(40),runUrl:'https://github.com/samermetri/em-weekly/actions/runs/1',url:'https://samermetri.github.io/em-weekly/'};assert.ok(stateSchema.safeParse(s).success);s.lastSuccessfulDeployment.at='2026-10-26T20:18:09Z';assert.ok(stateSchema.safeParse(s).success);});
 
-test('weekly digest includes all public articles added that week without duplicate or held records',()=>{const base=articleSchema.parse({...sample,sample:false});const records=[base,{...base,id:'second',firstOnlineDate:'2026-10-25'},{...base,id:'held',status:'held' as const},{...base,id:'excluded',excluded:true},{...base,id:'next-week',sitePublishedDate:'2026-11-02'},{...base,id:'historical-demo',sample:true}];const i={coverageStart:'2026-10-26',coverageEnd:'2026-11-01',sample:false,items:[{articleId:'preoxi',section:base.section,catchUp:true}]};const items=weeklyItems(i,records);assert.deepEqual(items.map(a=>a.articleId),['preoxi','second']);assert.equal(items[1].catchUp,true);assert.deepEqual(weeklyItems({...i,items},records),items);});
+test('weekly digest uses first-online dates, includes later-ingested articles, and excludes old or held evidence',()=>{
+ const base=articleSchema.parse({...sample,sample:false,firstOnlineDate:'2026-10-19',sitePublishedDate:'2026-10-28'});
+ const records=[base,{...base,id:'last-day',firstOnlineDate:'2026-10-25'},{...base,id:'held',status:'held' as const},{...base,id:'excluded',excluded:true},{...base,id:'next-week',firstOnlineDate:'2026-10-26'},{...base,id:'old-but-newly-added',firstOnlineDate:'2024-06-13'},{...base,id:'demo',sample:true}];
+ const i={coverageStart:'2026-10-19',coverageEnd:'2026-10-25',sample:false,items:[{articleId:'old-but-newly-added',section:base.section,catchUp:true}]};
+ const items=weeklyItems(i,records);
+ assert.deepEqual(items.map(a=>a.articleId),['preoxi','last-day']);
+ assert.ok(items.every(i=>!i.catchUp));
+ assert.deepEqual(weeklyItems({...i,items},records),items);
+});
 
 test('cloud proof cannot read an arbitrary file through publishing state',()=>{const state=JSON.parse(fs.readFileSync('state/publishing.json','utf8'));state.cloudConnection={status:'tested',reason:'test',testAudit:'../../private.json'};assert.equal(stateSchema.safeParse(state).success,false);});
 
 test('withdrawing a cited article removes it from a public issue while retaining other entries',()=>{const a=articleSchema.parse(sample);const second={...a,id:'kept'};const issue={coverageStart:'2026-10-26',coverageEnd:'2026-11-01',sample:true,items:[{articleId:a.id,section:a.section,catchUp:false},{articleId:'kept',section:a.section,catchUp:false}]};assert.deepEqual(weeklyItems(issue,[{...a,excluded:true,status:'held'},second]).map(x=>x.articleId),['kept']);});
 
-test('historical backfill cannot enter a current weekly digest even by explicit reference',()=>{const normal={...sample,id:'current',sample:false,sitePublishedDate:'2026-10-27'};const historical={...normal,id:'historical',backfill:true,firstOnlineDate:'2025-01-01'};const issue={coverageStart:'2026-10-26',coverageEnd:'2026-11-01',sample:false,items:[{articleId:'historical',section:historical.section,catchUp:true}]};assert.deepEqual(weeklyItems(issue,[historical,normal]).map(i=>i.articleId),['current']);});
+test('backfill records qualify only for their actual first-online week',()=>{
+ const current={...sample,id:'current',sample:false,firstOnlineDate:'2026-10-20',sitePublishedDate:'2026-10-28'};
+ const historical={...current,id:'historical',backfill:true,firstOnlineDate:'2025-01-01'};
+ const backfilledInWeek={...current,id:'backfilled-in-week',backfill:true};
+ const issue={coverageStart:'2026-10-19',coverageEnd:'2026-10-25',sample:false,items:[{articleId:'historical',section:historical.section,catchUp:true}]};
+ assert.deepEqual(weeklyItems(issue,[historical,current,backfilledInWeek]).map(i=>i.articleId),['current','backfilled-in-week']);
+});
