@@ -68,21 +68,21 @@
     "lastVerifiedScheduleRun": "https://github.com/samermetri/em-weekly/actions/runs/40561173202"
   },
   "historical": {
-    "automationId": "6ae17273b1548190bdd368011e2ebba3",
-    "name": "EM Weekly literature backfill",
+    "automationId": "6ae2e0345f5c8190bb50e94bec4622d2",
+    "name": "EM Weekly literature backfill — fresh runs",
     "schedule": "Hourly; Pacific Time; skip starting research from 02:00 through 03:59 Pacific",
-    "newChatEachRun": false,
+    "newChatEachRun": true,
     "instructionsFile": "automation/backfill-schedule.md",
     "instructionDelivery": "Complete operational workflow and owner editorial requirements saved directly in task",
     "rangeStart": "2024-10-27",
     "rangeEnd": "2026-10-26",
-    "status": "active; hourly task resumed with verified SQL-cache discovery",
-    "taskUrl": "https://chatgpt.com/scheduled?automationId=6ae17273b1548190bdd368011e2ebba3&automationSource=cloud",
-    "createdAt": "2026-10-28T03:56:00Z",
-    "chatId": "6ae173a0-0720-832e-9cc2-33425cb2985f",
+    "status": "active; fresh-chat scheduled execution saved audit/checkpoint without a repeated approval",
+    "taskUrl": "https://chatgpt.com/scheduled?automationId=6ae2e0345f5c8190bb50e94bec4622d2&automationSource=cloud",
+    "createdAt": "2026-10-29T05:57:00Z",
+    "chatId": "9bcfecff-b870-8322-9541-145337a20448",
     "initialDatasetAcknowledgedBy": "https://github.com/samermetri/em-weekly/actions/runs/40629779502",
     "blockedSearchRetry": "No more than once per LA day per blocked window; advance another eligible window or queued candidate",
-    "firstWriteApproval": "Owner-approved persistent Supabase access applied to the actual clock-triggered conversation",
+    "firstWriteApproval": "First fresh-chat clock run saved automatically using the existing EM Weekly connection; no new permission grant was applied.",
     "firstHostedWrite": {
       "stateRevision": 2,
       "auditId": "backfill-2024-10-27",
@@ -91,18 +91,15 @@
       "chatUrl": "https://chatgpt.com/c/6ae172e2-08b8-8329-89a8-bb1ee0a389b8",
       "acknowledgedBy": "https://github.com/samermetri/em-weekly/actions/runs/40630417845"
     },
-    "actualScheduledChatUrl": "https://chatgpt.com/c/6ae173a0-0720-832e-9cc2-33425cb2985f",
+    "actualScheduledChatUrl": "https://chatgpt.com/c/9bcfecff-b870-8322-9541-145337a20448",
     "clockVerification": {
-      "status": "passed: clock-triggered batch persisted following initial approval; subsequent correction write reused saved access without another prompt",
-      "normalCadenceRestored": "Hourly, next run 10 PM Pacific October 27, 2026",
-      "manualRunNowBehavior": "Manual tests opened separate conversations; their access does not prove scheduled access",
-      "deployedBy": "https://github.com/samermetri/em-weekly/actions/runs/40632297089",
-      "stateRevision": 3,
-      "addedArticleIds": [
-        "acs-tbi-best-practices-2024",
-        "acmt-fentanyl-exposure-2024",
-        "ocafe-af-anticoagulation-2024"
-      ]
+      "status": "Fresh-chat hourly run persisted automatically without another approval",
+      "runAt": "2026-10-29T06:00:59.866671Z",
+      "chatUrl": "https://chatgpt.com/c/9bcfecff-b870-8322-9541-145337a20448",
+      "stateRevision": 19,
+      "auditId": "backfill-2025-04-06",
+      "auditRevision": 4,
+      "publicationAcknowledgement": "pending"
     },
     "latestCorrection": {
       "articleId": "acmt-fentanyl-exposure-2024",
@@ -124,6 +121,20 @@
     },
     "expandedGuidanceInstructionsSavedAt": "2026-10-29T03:14:26Z",
     "guidanceFormat": "Major guidelines and consensus statements use longer summaries and detailed recommendations, with truthful material-reviewed labels.",
-    "completionFirstInstructionsSavedAt": "2026-10-29T03:33:50.760944+00:00"
+    "completionFirstInstructionsSavedAt": "2026-10-29T03:33:50.760944+00:00",
+    "supersededAutomationId": "6ae17273b1548190bdd368011e2ebba3",
+    "supersededChatUrl": "https://chatgpt.com/c/6ae173a0-0720-832e-9cc2-33425cb2985f",
+    "chatLimitRepair": {
+      "savedAt": "2026-10-29T05:58:00Z",
+      "oldTaskStatus": "paused; retained for audit history",
+      "runContext": "New chat for every run",
+      "durableState": "Existing em_weekly.documents state:backfill and per-window audits; no reset",
+      "firstRunStatus": "verified database writes at 2026-10-29T06:00:59.866671Z",
+      "firstRunChatUrl": "https://chatgpt.com/c/9bcfecff-b870-8322-9541-145337a20448",
+      "savedStateRevision": 19,
+      "savedAuditId": "backfill-2025-04-06",
+      "savedAuditRevision": 4,
+      "readOnlyVerification": "Fresh chat confirmed checkpoint revision 19 and 60 articles; direct database read independently verified both revisions."
+    }
   }
 }
