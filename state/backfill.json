@@ -112,10 +112,10 @@
     },
     {
       "end": "2025-01-11",
-      "notes": "Not yet comprehensively searched.",
+      "notes": "Attempted 2026-10-28 LA. The required static discovery index/window page could not be retrieved from the hosted web path (cache miss; index.html variant also inaccessible), so no linked candidate pages could be screened. Direct PubMed/API retries were intentionally not repeated per owner instruction. No articles were added; society and final cross-checks remain incomplete.",
       "start": "2025-01-05",
-      "status": "pending",
-      "auditId": null,
+      "status": "partial",
+      "auditId": "backfill-2025-01-05",
       "articleIds": []
     },
     {
@@ -545,10 +545,10 @@
     },
     {
       "end": "2026-01-10",
-      "notes": "Not yet comprehensively searched.",
+      "notes": "Attempted 2026-10-28 LA. The required static discovery index/window page could not be retrieved from the hosted web path (cache miss; index.html variant also inaccessible), so no linked candidate pages could be screened. Direct PubMed/API retries were intentionally not repeated per owner instruction. No articles were added; society and final cross-checks remain incomplete.",
       "start": "2026-01-04",
-      "status": "pending",
-      "auditId": null,
+      "status": "partial",
+      "auditId": "backfill-2026-01-04",
       "articleIds": []
     },
     {
@@ -905,7 +905,7 @@
   ],
   "rangeEnd": "2026-10-26",
   "startedAt": "2026-10-27T20:58:44.597134+00:00",
-  "updatedAt": "2026-10-28T23:59:00Z",
+  "updatedAt": "2026-10-29T02:23:50.291Z",
   "rangeStart": "2024-10-27",
   "schemaVersion": 1,
   "candidateQueue": [
