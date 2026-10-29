@@ -112,7 +112,7 @@
       "acknowledgedBy": "https://github.com/samermetri/em-weekly/actions/runs/40633086763"
     },
     "discoveryCache": "Private em_weekly.research_index; full fixed-range metadata, SQL pages of up to 100 candidates; static HTML backup",
-    "coverageStrategy": "Balance attempted/completed coverage across calendar quarters; verify primary material and advance major queued guidance independently",
+    "coverageStrategy": "Close eligible partial windows first, preserving successful checks; complete bounded negative searches with disclosed sensitivity limits, retain genuine source failures and unresolved major candidates.",
     "publicPresentation": "One article library by first-online date; year/topic/recently-added filters; internal backfill flags preserve weekly eligibility",
     "metadataCacheVerification": {
       "windows": 105,
@@ -123,6 +123,7 @@
       "scope": "Public discovery metadata only; no public reader grants and no builder article/config/account write access"
     },
     "expandedGuidanceInstructionsSavedAt": "2026-10-29T03:14:26Z",
-    "guidanceFormat": "Major guidelines and consensus statements use longer summaries and detailed recommendations, with truthful material-reviewed labels."
+    "guidanceFormat": "Major guidelines and consensus statements use longer summaries and detailed recommendations, with truthful material-reviewed labels.",
+    "completionFirstInstructionsSavedAt": "2026-10-29T03:33:50.760944+00:00"
   }
 }

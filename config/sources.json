@@ -99,10 +99,10 @@
     {
       "id": "aha-asa",
       "label": "AHA / ASA",
-      "url": "https://professional.heart.org/en/guidelines-and-statements",
+      "url": "https://professional.heart.org/en/guidelines-statements",
       "kind": "guideline",
-      "verification": "unverified",
-      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
+      "verification": "verified",
+      "verificationCheckedAt": "2026-10-29T03:33:50.759716+00:00"
     },
     {
       "id": "acc",
@@ -155,10 +155,10 @@
     {
       "id": "ash",
       "label": "ASH",
-      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
+      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines",
       "kind": "guideline",
       "verification": "verified",
-      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
+      "verificationCheckedAt": "2026-10-29T03:33:50.759819+00:00"
     },
     {
       "id": "chest",
@@ -171,18 +171,18 @@
     {
       "id": "sccm",
       "label": "SCCM",
-      "url": "https://www.sccm.org/clinical-resources/guidelines",
+      "url": "https://www.sccm.org/clinical-resources/guidelines/guidelines",
       "kind": "guideline",
       "verification": "verified",
-      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
+      "verificationCheckedAt": "2026-10-29T03:33:50.759820+00:00"
     },
     {
       "id": "idsa",
       "label": "IDSA",
-      "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
+      "url": "https://www.idsociety.org/practice-guideline/all-practice-guidelines/",
       "kind": "guideline",
       "verification": "verified",
-      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
+      "verificationCheckedAt": "2026-10-29T03:33:50.759822+00:00"
     },
     {
       "id": "acmt",
@@ -203,10 +203,10 @@
     {
       "id": "eso-stroke",
       "label": "ESO stroke",
-      "url": "https://eso-stroke.org/guidelines/",
+      "url": "https://eso-stroke.org/guidelines/eso-guideline-directory/",
       "kind": "guideline",
       "verification": "verified",
-      "verificationCheckedAt": "2026-10-26T20:07:40.841772+00:00"
+      "verificationCheckedAt": "2026-10-29T03:33:50.759823+00:00"
     },
     {
       "id": "acog",
