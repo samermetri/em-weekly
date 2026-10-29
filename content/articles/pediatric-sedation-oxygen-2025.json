@@ -1,0 +1,59 @@
+{
+  "id": "pediatric-sedation-oxygen-2025",
+  "doi": "10.1097/ALN.0000000000005500",
+  "pmid": "40215365",
+  "title": "Oxygen Supplementation in Pediatric Sedation: Prospective, Multicenter, Randomized Controlled Trial",
+  "pinned": false,
+  "sample": false,
+  "source": "Anesthesiology",
+  "status": "published",
+  "topics": [
+    "pediatrics",
+    "airway"
+  ],
+  "authors": [
+    "Ji-Hyun Lee",
+    "Hyun Jung Ko",
+    "Jung-Bin Park",
+    "Sang-Hwan Ji",
+    "Jin-Tae Kim"
+  ],
+  "ranking": {
+    "design": 4,
+    "novelty": 3,
+    "edImpact": 3,
+    "guidelineRelevance": 0
+  },
+  "section": "Worth Knowing",
+  "summary": "This multicenter randomized trial assigned 253 children undergoing moderate-to-deep sedation to no supplemental oxygen, low-flow nasal-cannula oxygen (2–6 L/min), or high-flow nasal cannula (2 L/kg/min at FiO2 0.50); 250 completed the protocol. Hypoxemia (SpO2 95% or lower for more than 5 seconds) occurred in 27.6% without oxygen, 7.2% with low-flow oxygen, and 1.2% with high-flow oxygen. Both oxygen strategies reduced hypoxemia versus no oxygen; high flow was not statistically superior to low flow (OR 0.143, 95% CI 0.017–1.245). A subsequent open-access critique notes that the trial was not designed to establish equivalence/noninferiority between low-flow and high-flow oxygen, and the physiological outcome was largely transient desaturation.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Hypoxemia occurred in 27.6% with no oxygen, 7.2% with low-flow oxygen, and 1.2% with HFNC (overall P<0.001).",
+    "Versus no oxygen, odds of hypoxemia were lower with low-flow oxygen (OR 0.184, 95% CI 0.067–0.503) and HFNC (OR 0.026, 95% CI 0.003–0.207).",
+    "HFNC was not statistically superior to low-flow oxygen (OR 0.143, 95% CI 0.017–1.245; P=0.078); rescue interventions were 52.9%, 10.8%, and 3.6%, respectively.",
+    "Open-access post-publication critique: the study cannot demonstrate equivalence/noninferiority of low-flow and high-flow oxygen and has limited ED generalizability."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "No supplemental oxygen; the two oxygen strategies were also compared.",
+  "population": "Children younger than 18 years undergoing moderate-to-deep sedation for diagnostic or therapeutic procedures in a multicenter anesthesiology setting.",
+  "sampleSize": 253,
+  "shortTitle": "Supplemental oxygen during pediatric sedation",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "The setting, procedures, staffing, and largely propofol-based sedation regimen may not match ED procedural sedation. The primary threshold captured brief SpO2 changes; the trial was underpowered for clinically meaningful differences between low-flow and HFNC and did not establish equivalence.",
+  "retrievedAt": "2026-10-29",
+  "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/40215365/",
+  "intervention": "Low-flow nasal-cannula oxygen (2–6 L/min) or HFNC at 2 L/kg/min with FiO2 0.50 during sedation.",
+  "whyItMatters": "For pediatric moderate/deep sedation, the regimen studied supports routine low-flow oxygen as a practical method to reduce monitored desaturation. It does not establish that HFNC is necessary or that supplemental oxygen substitutes for capnography, airway readiness, or active ventilation assessment.",
+  "evidenceNotes": "Primary PubMed/PMC article reviewed, including electronic date and numerical outcomes. Open-access 2026 peer-reviewed commentary was also reviewed to assess power, endpoint significance, sedation context, and generalizability. The commentary is interpretive and does not alter the original trial’s results.",
+  "discoveredDate": "2026-10-29",
+  "fullTextStatus": "Open-access full text available",
+  "officialPdfUrl": null,
+  "firstOnlineDate": "2025-04-11",
+  "primaryEndpoint": "Hypoxemia: pulse oximetry oxygen saturation 95% or lower for more than 5 seconds.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-10-29"
+}

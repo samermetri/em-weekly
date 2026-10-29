@@ -1,5 +1,5 @@
 {
-  "snapshotHash": "e7a78029c95d66bf83450353a75661a62de942ad0400f521bb01f1d887699b9a",
+  "snapshotHash": "8cce186ce6a190eaac99c72f853eebcd3f24ee4584c7506a930c9567d055c12c",
   "documentRevisions": {
     "article:aap-pediatric-uti-2026": 2,
     "article:acmt-fentanyl-exposure-2024": 2,
@@ -45,6 +45,7 @@
     "article:opportunistic-af-screening-ed-2025": 1,
     "article:paramedic-3-drug-route-2024": 1,
     "article:pediatric-intubation-cardiac-arrest": 1,
+    "article:pediatric-sedation-oxygen-2025": 1,
     "article:preheart": 1,
     "article:preoxi": 1,
     "article:prevact-pcc-mild-tbi-2024": 1,
@@ -76,7 +77,7 @@
     "audit:backfill-2024-12-22": 1,
     "audit:backfill-2025-01-05": 1,
     "audit:backfill-2025-02-16": 1,
-    "audit:backfill-2025-04-06": 5,
+    "audit:backfill-2025-04-06": 7,
     "audit:backfill-2025-07-06": 1,
     "audit:backfill-2026-01-04": 1,
     "audit:backfill-2026-01-25": 1,
@@ -89,8 +90,8 @@
     "probe:hosted-2026-10-26": 1,
     "probe:scheduled-2026-10-26": 1,
     "probe:weekly-connection-2026-10-26": 2,
-    "state:backfill": 20,
+    "state:backfill": 21,
     "state:publishing": 6
   },
-  "revisionFingerprint": "0f3f135961a248f8b78f49000c31de70"
+  "revisionFingerprint": "0f1c5c6f68b9321efbb81ef7bc5e6128"
 }

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "sources": [
     {
       "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=%28%28%22Ann+Emerg+Med%22%5BJournal%5D+OR+%22Acad+Emerg+Med%22%5BJournal%5D+OR+%22J+Emerg+Med%22%5BJournal%5D+OR+%22Am+J+Emerg+Med%22%5BJournal%5D+OR+%22Emerg+Med+J%22%5BJournal%5D+OR+%22J+Am+Coll+Emerg+Physicians+Open%22%5BJournal%5D+OR+%22West+J+Emerg+Med%22%5BJournal%5D+OR+%22Resuscitation%22%5BJournal%5D+OR+%22Prehosp+Emerg+Care%22%5BJournal%5D%29%29+AND+%28%222025%2F04%2F06%22%5BEPDAT%5D+%3A+%222025%2F04%2F12%22%5BEPDAT%5D%29&tool=em-weekly",
@@ -52,10 +52,10 @@
     },
     {
       "url": "https://www.acepnow.com/category/clinical-policy/",
-      "notes": "Method: official directory plus date-specific web query site:acep.org/patient-care/clinical-policies OR site:acepnow.com/category/clinical-policy/ \"April\" \"2025\" clinical policy ED ; route: public indexed site search / official HTML. Primary: https://www.acepnow.com/category/clinical-policy/. Outcome: Official ACEP Now policy index and January 22 approval plus May 7 discussion of carbon-monoxide policy reviewed (PMID 40118649; ACEP primary PDF https://www.acep.org/siteassets/sites/acep/media/clinical-policies/final-cp-pdfs/carbonmonoxide3-cp.pdf). PubMed's print issue is April and bibliographic record was imported March 22, but an authoritative exact FIRST PUBLIC online date remains unverified. No April 6–12 policy is asserted; date-sensitive policy reconciliation remains open.",
-      "status": "failed",
+      "notes": "Method: official directory plus date-specific web query site:acep.org/patient-care/clinical-policies OR site:acepnow.com/category/clinical-policy/ \"April\" \"2025\" clinical policy ED; route: public official HTML/PubMed indexed record. The ACEP carbon-monoxide policy (PMID 40118649; DOI 10.1016/j.annemergmed.2024.12.005) was approved January 22, 2025 and is cited as April 2025 print publication. Primary PubMed has publication status ppublish with no Epub date; the DOI/PII are 2024 production identifiers, not an authoritative April 6–12 electronic date. It is therefore explicitly excluded from this exact first-online window rather than assigned by print date. No policy verified as first online April 6–12 in accessible official ACEP directory/date results. Bounded negative; not proof of universal absence.",
+      "status": "success",
       "sourceId": "acep",
-      "checkedAt": "2026-10-29T03:41:03.440Z"
+      "checkedAt": "2026-10-29T07:15:00Z"
     },
     {
       "url": "https://www.acmt.net/statements/",
@@ -161,7 +161,7 @@
   "finalCrossCheck": [
     "Emergency-medicine RCTs: 82 unique cached candidates screened ordinal 1–82; WESTCOR first online April 9 retained; 80-person sham-controlled TENS back-pain RCT (PMID 40202296) improved short-term pain but small and not practice changing.",
     "NEJM/JAMA/Lancet/BMJ acute-care trials: ten cached general-journal memberships screened; MS disease-modification papers and editorials excluded as not acute-care ED trials; no further qualifying in-window major RCT verified.",
-    "ACEP policies: ACEP policy index and primary CO-policy PDF checked. Carbon-monoxide policy approved January 22, PubMed April print issue and imported March 22, but exact first PUBLIC electronic posting remains unconfirmed; do not assign to this window. Keep ACEP check incomplete.",
+    "ACEP policies: official ACEP directory/date search and PubMed primary record for carbon-monoxide policy PMID 40118649 were reviewed. It was approved January 22 and carries April print publication with no authoritative Epub date; neither print issue nor bibliographic import can place it in April 6–12. No eligible ACEP policy was established by these methods; bounded negative.",
     "AHA/ASA statements: targeted official professional.heart.org April 6–12 date search found no independently verified new acute stroke or cardiac emergency statement; source check incomplete pending additional dated guidance index resolution.",
     "SCCM/sepsis: official SCCM guidelines index checked; February CCUS and heat-stroke guidance and later 2026 sepsis guidance are outside interval; bounded negative clinical search supports no selected in-window SCCM guidance.",
     "IDSA: official A-Z practice-guideline directory plus April-date indexed search checked; current 2025 entries are not enough to establish this exact week and no new in-window emergency antibiotic guidance was verified.",
@@ -173,8 +173,8 @@
     "Obstetrics: primary ACOG directory was inaccessible (HTTP 402), so an indexed official-domain exact-date search was used. Results included an April 17 cesarean QI item outside the interval and older reaffirmations; no April 6-12 new obstetric emergency guidance was identified. Bounded negative; archive sensitivity is limited.",
     "Other candidate adjudication: China HAE consensus PMID 40209692 Epub Apr 10 is regional treatment guidance, not new general US ED evidence; multinational LVEF statement PMID 40268622 first public publisher release April 22, not eligible this window. D-dimer DDU retrospective cohort PMID 40262289 lacks prospective management validation; early stress test PMID 40196978 has residual confounding.",
     "Additional candidate appraisal: small uncontrolled sciatica block study PMID 40256350 and short ambulatory-monitoring retrospective cohort PMID 40215590 do not establish treatment/disposition thresholds; diquat severity score PMID 40202468 has limited external validation, and troponin delta cohort PMID 40220709 is retrospective. Selected WESTCOR and ESTES record contents/review labels were preserved.",
-    "Cross-journal pediatric sedation RCT PMID 40215365 first online April 11 in Anesthesiology was identified after the four cached journal groups were screened: 253 randomized, transient oxygen desaturation improved with low/high flow, but a 2026 methodological/statistical reassessment (PMID 41982957) was not retrievable; queued for critical appraisal, not yet selected.",
-    "JournalFeed closure: all 16 dated archive posts for April 6–12 were retrieved through the public WordPress API and all 19 linked PubMed records checked. Linked papers precede this interval. The dated archive check is complete; ACEP first-online date and the queued sedation appraisal remain unresolved, so the window remains partial."
+    "Cross-journal pediatric sedation RCT: primary open-access trial PMID 40215365 (Epub Apr 11) and its open-access 2026 peer-reviewed statistical/clinical reassessment (PMID 41982957) were reviewed. In 253 randomized children, low-flow oxygen and HFNC reduced transient SpO2<=95% events versus no oxygen; HFNC was not statistically superior to low flow. The critique identifies limited ED generalizability and inadequate power for equivalence/noninferiority. Selected as a date-eligible Worth Knowing record, not a standard-of-care conclusion.",
+    "Closure: all 16 dated JournalFeed archive posts and all 19 linked PubMed records were screened; all four complete cached PubMed journal-query memberships (82 distinct candidates) and each configured independent guideline/secondary check now have documented outcomes. ACEP’s print-dated policy was explicitly excluded from this first-online window, and the pediatric sedation RCT was primary-appraised and saved. All important candidates attributable to April 6–12 are verified or explicitly excluded; search sensitivity remains limited to the complete cached journal enumeration and accessible official/indexed society archives."
   ],
   "excludedCandidates": [
     {
@@ -234,6 +234,6 @@
       "identifier": "PMID 40118649"
     }
   ],
-  "finalCrossCheckCompleted": false,
-  "guidelineSearchCompleted": false
+  "finalCrossCheckCompleted": true,
+  "guidelineSearchCompleted": true
 }
