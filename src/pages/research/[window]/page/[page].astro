@@ -1,0 +1,10 @@
+---
+import {researchWindows} from '../../../../lib/research-index';
+import {href} from '../../../../lib/data';
+export function getStaticPaths(){return researchWindows().flatMap(window=>Array.from({length:Math.ceil(window.candidates.length/100)},(_,i)=>({params:{window:window.start,page:String(i+1)},props:{window,page:i+1}})));}
+const {window:w,page}=Astro.props;const pages=Math.ceil(w.candidates.length/100);
+---
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="robots" content="noindex"/><title>Research {w.start}: page {page} of {pages}</title></head><body><main>
+<h1>Unreviewed research candidates: {w.start}–{w.end}</h1><p>Page {page} of {pages}, 100 records per page. Captured {w.retrievedAt} from official PubMed queries. Discovery metadata only; primary first-online verification and separate guideline checks are required. These are not published summaries.</p><nav><a href={href(`research/${w.start}/`)}>Query audit and all pages</a> {page>1&&<a href={href(`research/${w.start}/page/${page-1}/`)}>Previous page</a>} {page<pages&&<a href={href(`research/${w.start}/page/${page+1}/`)}>Next page</a>}</nav>
+{w.candidates.slice((page-1)*100,page*100).map(c=><article><h2><a href={`https://pubmed.ncbi.nlm.nih.gov/${c.pmid}/`}>{c.title}</a></h2><p>{c.metadataIssue&&<strong>Metadata limitation: {c.metadataIssue}. </strong>}PMID {c.pmid} · {c.journal} · Publication metadata: {c.pubDate}; electronic metadata: {c.epubDate||'not supplied'}. Types: {c.types.join('; ')}. Source groups: {c.sourceIds.join(', ')}.</p>{c.doi&&<a href={`https://doi.org/${c.doi}`}>DOI {c.doi}</a>}</article>)}
+</main></body></html>

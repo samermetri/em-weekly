@@ -38,6 +38,6 @@ RLS isolates each user’s favorites/folders; composite foreign keys prevent cro
 
 Supabase uses Resend custom SMTP from emweekly@updates.samermetri.com for confirmation and password reset. Credentials remain in Supabase settings. Storage limits are 100 folders, 5,000 saved published articles and 10,000 folder associations per user. Free-tier capacity is finite; upgrades and paid fallback are not authorized.
 
-## Historical collection
+## Two-year literature backfill
 
-/historical/ tracks the owner-requested October 2024–October 2026 literature backfill. Historical records remain searchable with all articles, have truthful first-online and site-addition dates, and stay separate from current briefs/RSS. state/backfill.json records actual research progress; partial coverage is visible. See automation/backfill-schedule.md and docs/research/ for the workflow and initial source verification.
+The October 2024–October 2026 backfill joins the same public library as current articles. Browse by first-online date, publication year, topic, or recently added; the old /historical/ route redirects to /articles/. Internal backfill flags preserve weekly/RSS eligibility. state/backfill.json records actual research progress; the library makes incomplete coverage clear. A static, noindex PubMed candidate cache lets the hosted task screen the entire range without reader database queries or paid APIs. Run pnpm discover:backfill or the manual research-index workflow to refresh discovery metadata; metadata is never auto-published as summaries. See automation/backfill-schedule.md and docs/research/ for the workflow and initial source verification.

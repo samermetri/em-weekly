@@ -16,7 +16,8 @@
     "discover": "tsx scripts/discover.ts",
     "check:links": "tsx scripts/check-links.ts",
     "test:browser": "playwright test",
-    "publish:content": "tsx scripts/publish-content.ts"
+    "publish:content": "tsx scripts/publish-content.ts",
+    "discover:backfill": "tsx scripts/index-backfill.ts"
   },
   "dependencies": {
     "@fontsource/dm-sans": "^5.3.0",
