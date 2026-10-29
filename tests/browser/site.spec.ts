@@ -46,3 +46,23 @@ test('unified library and homepage fit mobile and contain no collection promotio
 });
 
 test('methods are concise and topics only show available articles',async({page})=>{await page.goto('methods/');await expect(page.getByRole('heading',{name:'Collected and reviewed with AI.'})).toBeVisible();await expect(page.getByRole('link',{name:'Suggest a correction'})).toHaveCount(0);await expect(page.locator('main a[href*="github.com"]')).toHaveCount(0);await page.goto('topics/');const cards=page.locator('.topic-card');expect(await cards.count()).toBeGreaterThan(0);for(const card of await cards.all()){const text=await card.innerText();const count=text.match(/(\d+) summaries/);expect(Number(count?.[1])).toBeGreaterThan(0);}await cards.first().click();await expect(page.locator('.search-result:visible')).not.toHaveCount(0);});
+
+test('long guidance keeps paragraphs and recommendations in compact and expanded digests',async({page})=>{
+ const guide=JSON.parse((await import('node:fs')).readFileSync('content/articles/sccm-heat-stroke-guideline-2025.json','utf8'));
+ // Synthetic layout fixture only; never written to the publication database or content.
+ guide.summary=Array.from({length:8},(_,i)=>`Layout paragraph ${i+1}. `+'This neutral fixture checks readable multi-page guidance without shortening its content. '.repeat(9)).join('\n\n');
+ guide.findings=Array.from({length:9},(_,i)=>`Recommendation marker ${i+1}. This is a layout fixture, not clinical advice.`);
+ guide.guidelineStrength='Strength marker. Evidence certainty and exceptions must be retained.\n\nFinal strength paragraph.';
+ await page.route('**/data/digest.json',r=>r.fulfill({json:[guide]}));
+ await page.goto('library/digest/#articles='+guide.id);
+ await expect(page.locator('.digest-entry.guidance-entry')).toHaveCount(1);
+ await expect(page.locator('.digest-copy').first().locator('p')).toHaveCount(8);
+ await expect(page.getByRole('heading',{name:'Key recommendations'})).toBeVisible();
+ await expect(page.getByText('Final strength paragraph.',{exact:true})).toBeVisible();
+ await expect(page.locator('.digest-findings li')).toHaveCount(9);
+ await page.getByLabel('Format').selectOption('expanded');await expect(page.locator('.digest-findings')).toBeVisible();
+ await page.getByLabel('Format').selectOption('compact');await page.emulateMedia({media:'print'});
+ expect(await page.locator('.guidance-entry').evaluate(e=>getComputedStyle(e).breakInside)).toBe('auto');
+ await page.pdf({path:'tmp/long-guidance-digest.pdf',format:'Letter',printBackground:true});
+ await page.emulateMedia({media:'screen'});await page.setViewportSize({width:390,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+});

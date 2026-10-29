@@ -1,0 +1,6 @@
+---
+import {paragraphs} from '../lib/paragraphs';
+interface Props {text:string}
+const {text}=Astro.props;
+---
+{paragraphs(text).map(p=><p>{p}</p>)}

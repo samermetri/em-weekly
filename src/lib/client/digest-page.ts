@@ -1,15 +1,17 @@
 import type {Article} from '../schema';
+import {paragraphs} from '../paragraphs';
+import {isGuidance} from '../guidance';
 const base=import.meta.env.BASE_URL.replace(/\/$/,'');
-type DigestEntry=Pick<Article,'id'|'title'|'shortTitle'|'authors'|'source'|'firstOnlineDate'|'summary'|'whyItMatters'|'limitations'|'findings'|'canonicalUrl'|'doi'|'pmid'|'fullTextStatus'|'reviewedMaterial'|'aiGenerated'|'humanReview'|'evidenceNotes'|'corrections'|'sample'>;
+type DigestEntry=Pick<Article,'studyType'|'section'|'guidelineStrength'|'id'|'title'|'shortTitle'|'authors'|'source'|'firstOnlineDate'|'summary'|'whyItMatters'|'limitations'|'findings'|'canonicalUrl'|'doi'|'pmid'|'fullTextStatus'|'reviewedMaterial'|'aiGenerated'|'humanReview'|'evidenceNotes'|'corrections'|'sample'>;
 const list=document.querySelector<HTMLElement>('#digest-articles')!;const sheet=document.querySelector<HTMLElement>('#personal-digest')!;const status=document.querySelector<HTMLElement>('#digest-status')!;const print=document.querySelector<HTMLButtonElement>('#print-digest')!;
 function node(tag:string,text:string,cls=''){const n=document.createElement(tag);n.textContent=text;if(cls)n.className=cls;return n;}
-function section(title:string,text:string){const s=node('section','','digest-copy');s.append(node('h4',title),node('p',text));return s;}
+function section(title:string,text:string){const s=node('section','','digest-copy');s.append(node('h4',title),...paragraphs(text).map(p=>node('p',p)));return s;}
 const date=(value:string)=>new Date(value+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric',timeZone:'UTC'});
 function entry(a:DigestEntry,index:number){
- const article=node('section','','digest-entry');const header=node('header','','digest-entry-heading');header.append(node('span',String(index+1).padStart(2,'0'),'digest-number'),node('h3',a.shortTitle));article.append(header,node('p',a.title,'digest-full-title'),node('p',`${a.source} · First online ${date(a.firstOnlineDate)}`,'digest-citation'));
+ const guidance=isGuidance(a);const article=node('section','','digest-entry'+(guidance?' guidance-entry':''));const header=node('header','','digest-entry-heading');header.append(node('span',String(index+1).padStart(2,'0'),'digest-number'),node('h3',a.shortTitle));article.append(header,node('p',a.title,'digest-full-title'),node('p',`${a.source} · First online ${date(a.firstOnlineDate)}`,'digest-citation'));
  if(a.sample)article.append(node('p','Historical sample; not current weekly evidence.','digest-review'));
  article.append(section('Summary',a.summary),section('Why it matters',a.whyItMatters),section('Limitations',a.limitations));
- const findings=node('section','','digest-findings digest-copy');findings.append(node('h4','Main findings'));const ul=document.createElement('ul');a.findings.forEach(f=>ul.append(node('li',f)));findings.append(ul);article.append(findings);
+ const findings=node('section','','digest-findings digest-copy');findings.append(node('h4',guidance?'Key recommendations':'Main findings'));const ul=document.createElement('ul');a.findings.forEach(f=>ul.append(node('li',f)));findings.append(ul);article.append(findings);if(a.guidelineStrength)article.append(section('Recommendation strength',a.guidelineStrength));
  const sources=node('div','','digest-sources');const primary=node('a',a.doi?`DOI: ${a.doi}`:a.canonicalUrl) as HTMLAnchorElement;primary.href=a.doi?'https://doi.org/'+a.doi:a.canonicalUrl;primary.target='_blank';primary.rel='noopener noreferrer';sources.append(primary);
  const full=node('a','Full EM Weekly summary') as HTMLAnchorElement;full.href=base+'/articles/'+a.id+'/';sources.append(full);article.append(sources);
  article.append(node('p',`${a.fullTextStatus} · Material reviewed: ${a.reviewedMaterial}. ${a.aiGenerated?'AI-generated':'Editor-written'} · ${a.humanReview}.`,'digest-review'),node('p',a.evidenceNotes,'digest-evidence'));

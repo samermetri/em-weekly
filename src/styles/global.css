@@ -112,3 +112,18 @@
 
 .personal-digest[data-format=compact] .digest-copy h4,.personal-digest[data-format=compact] .digest-copy p{display:inline}.personal-digest[data-format=compact] .digest-copy h4:after{content:': '}.personal-digest[data-format=compact] .digest-copy{margin-top:10px}
 @media print{.personal-digest[data-format=compact] .digest-entry{margin-bottom:9pt;padding-bottom:8pt}.personal-digest[data-format=compact] .digest-copy{margin-top:4pt}.personal-digest[data-format=compact] .digest-copy h4{font-size:8.5pt;margin:0;line-height:1.35}.personal-digest[data-format=compact] .digest-copy p{font-size:8.5pt;line-height:1.35}.personal-digest[data-format=compact] .digest-document-heading>h2{font-size:16pt;margin-top:8pt}.personal-digest[data-format=compact] .digest-document-heading{margin-bottom:11pt;padding-bottom:9pt}.personal-digest[data-format=compact] .digest-sources{margin-top:5pt}.personal-digest[data-format=compact] .digest-citation{margin-bottom:5pt}}
+
+/* Major guidance keeps its full recommendations and paragraph structure in every format. */
+.prose-section>p+p,.brief-summary>p+p,.brief-analysis section>p+p,.brief-recommendations>p+p{margin-top:1em}
+.brief-recommendations{margin:20px 0}.brief-recommendations h4{font-size:13px;color:var(--green);margin:15px 0 8px}.brief-recommendations p,.brief-recommendations li{font-size:13px;line-height:1.8}.brief-recommendations ul{padding-left:20px}
+.personal-digest[data-format=compact] .guidance-entry .digest-findings{display:block}
+.personal-digest[data-format=compact] .guidance-entry .digest-copy h4,.personal-digest[data-format=compact] .guidance-entry .digest-copy p{display:block}
+.personal-digest[data-format=compact] .guidance-entry .digest-copy h4:after{content:none}
+.guidance-entry .digest-copy p+p{margin-top:1em}
+@media print{
+ .guidance-entry.brief-entry,.guidance-entry.digest-entry,.guidance-entry .brief-analysis,.guidance-entry .brief-analysis section{break-inside:auto}
+ .guidance-entry .brief-analysis{display:block}.guidance-entry .brief-analysis section+section{margin-top:8pt}
+ .guidance-entry h2,.guidance-entry h3,.guidance-entry h4{break-after:avoid}
+ .guidance-entry p{orphans:3;widows:3}.guidance-entry li{break-inside:avoid}
+ .brief-recommendations{margin:8pt 0}.brief-recommendations h4{font-size:9pt;margin:7pt 0 4pt}.brief-recommendations p,.brief-recommendations li{font-size:9pt;line-height:1.5}
+}

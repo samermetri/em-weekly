@@ -12,7 +12,8 @@
     "firstSuccessfulScheduledRun": "https://chatgpt.com/c/6ae0035f-7e54-8326-98c6-a163fc0b0db4",
     "instructionsFile": "automation/daily-schedule.md",
     "instructionDelivery": "Complete operational workflow and owner editorial requirements saved directly in task; database supplies reference data only",
-    "historicalIsolationInstructionsSavedAt": "2026-10-28T03:56:00Z"
+    "historicalIsolationInstructionsSavedAt": "2026-10-28T03:56:00Z",
+    "expandedGuidanceInstructionsSavedAt": "2026-10-29T03:14:26Z"
   },
   "weekly": {
     "hour": 3,
@@ -36,7 +37,8 @@
       "firstEligibleCoverageEnd": "2026-11-01",
       "firstScheduledIssue": "2026-11-02"
     },
-    "historicalIsolationInstructionsSavedAt": "2026-10-28T03:57:00Z"
+    "historicalIsolationInstructionsSavedAt": "2026-10-28T03:57:00Z",
+    "expandedGuidanceInstructionsSavedAt": "2026-10-29T03:14:26Z"
   },
   "enableOnlyAfter": "automation/cloud-smoke-test.md passes in the intended cloud environment",
   "runner": "ChatGPT cloud; no local heartbeat or API billing",
@@ -119,6 +121,8 @@
       "workflowRun": "https://github.com/samermetri/em-weekly/actions/runs/40807269613",
       "hostedRead": "Actual approved research conversation screened all 282 candidates from two windows through bounded SQL ordinal pages",
       "scope": "Public discovery metadata only; no public reader grants and no builder article/config/account write access"
-    }
+    },
+    "expandedGuidanceInstructionsSavedAt": "2026-10-29T03:14:26Z",
+    "guidanceFormat": "Major guidelines and consensus statements use longer summaries and detailed recommendations, with truthful material-reviewed labels."
   }
 }

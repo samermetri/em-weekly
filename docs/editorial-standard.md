@@ -1,3 +1,5 @@
+Editorial update, October 28, 2026: the owner explicitly permits longer summaries for major guidelines and consensus statements. Coverage and readability take priority over ordinary-study sentence targets or fitting one printed page. See the major guidance exception in section 8.
+
 Website update, October 28, 2026: all eligible non-sample articles appear in one public library ordered by first-online date, with year and recently-added filters. Retrospective records retain backfill:true internally and stay excluded from normal weekly briefs. The separate historical-collection presentation is retired. Research must cover the full two-year interval evenly, using complete cached PubMed discovery as reference metadata plus independent primary verification and society checks.
 
 Historical collection update, October 27, 2026: the owner requested a separate retrospective collection for first-online dates October 27, 2024 through October 26, 2026. These records use backfill:true, actual current site-publication dates, and the same verification and writing standard. They remain searchable with all articles but are excluded from current weekly briefs and the normal daily publication cap. Partial historical searches must remain explicitly incomplete.
@@ -243,7 +245,9 @@ For each item use this exact structure:
 *Journal / organization - first-online date*
 
 **Summary:**  
-2-4 short sentences. Explain the study question, design, population, intervention/comparison, and the most important results. Include important numbers when they materially affect interpretation.
+For ordinary studies, use 2-4 short sentences. Explain the study question, design, population, intervention/comparison, and the most important results. Include important numbers when they materially affect interpretation.
+
+**Major guidance exception:** Major guidelines and consensus statements (including AHA/ASA resuscitation or stroke guidance and sepsis updates) need enough detail to cover the important ED-relevant recommendations. The usual sentence targets below apply to ordinary studies, not these major updates. Use a longer, original multi-paragraph Summary and as many structured findings as needed; include the scope and eligible populations, diagnostic and treatment pathways, timing or thresholds, exceptions and contraindications, harms, disposition or transfer implications, and changes from prior guidance where the retrieved primary material supports them. State recommendation strength, evidence certainty, disagreements and unresolved questions without inventing grades or implying consensus. Why it matters and Limitations may also be longer when necessary. Preserve essential recommendations in weekly briefs and personal digests; allow additional printed pages rather than shrinking or truncating the content. Separate paragraphs with blank lines in JSON strings. Respect schema field limits by organizing additional detail into findings, guidelineStrength and evidenceNotes. Cover what was actually reviewed: if only an abstract or official summary was available, disclose the resulting coverage gaps and queue full-guideline review rather than claiming a comprehensive review.
 
 **Why it matters:**  
 1-2 short sentences explaining what an emergency physician might actually do differently because of this publication.
