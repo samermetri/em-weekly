@@ -17,6 +17,33 @@
       "sourceId": "east-trauma",
       "canonicalUrl": "https://www.east.org/education-resources/practice-management-guidelines/details/142/evaluation-and-management-of-blunt-cerebrovascular-injury-bcvi",
       "discoveredDate": "2026-10-26"
+    },
+    {
+      "doi": "10.1136/emermed-2026-216120",
+      "pmid": "42901741",
+      "reason": "Date/identifiers verified for Oct 20, but accessible primary metadata did not expose enough study results for an evidence-grade summary in this run.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42901741/",
+      "discoveredDate": "2026-10-28"
+    },
+    {
+      "doi": "10.1136/emermed-2026-216276",
+      "pmid": "42901744",
+      "reason": "Date/identifiers verified for Oct 20; detailed numerical results were available only through secondary indexing in this run, so primary appraisal remains required.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42901744/",
+      "discoveredDate": "2026-10-28"
+    },
+    {
+      "doi": "10.1016/j.resuscitation.2026.111364",
+      "pmid": "42901366",
+      "reason": "Primary abstract verified. Observational process evidence was lower priority than the fifth normal record allowed on Oct 28; retain for editorial follow-up rather than exceed the daily cap.",
+      "status": "held",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42901366/",
+      "discoveredDate": "2026-10-28"
     }
   ],
   "sources": {
@@ -44,13 +71,14 @@
     "testAudit": "state/audits/cloud-connection-test.json"
   },
   "completedIssues": [
-    "2024-06-17"
+    "2024-06-17",
+    "2026-10-19"
   ],
   "lastSuccessfulDeployment": {
-    "at": "2026-10-29T06:16:03.798830+00:00",
-    "commit": "6d0d63312c718b76cf73cb0fe697f993bae641cc",
-    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/40828041343",
+    "at": "2026-10-29T06:20:07.511666+00:00",
+    "commit": "eaf2ac2ccaab75e98e7adbecdf90dc947d6607d2",
+    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/40828471181",
     "url": "https://emweekly.samermetri.com/"
   },
-  "lastSuccessfulResearchCheck": null
+  "lastSuccessfulResearchCheck": "2026-10-29T06:15:02.754Z"
 }

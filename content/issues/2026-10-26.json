@@ -4,30 +4,45 @@
     {
       "catchUp": false,
       "section": "Practice-Changing / High Priority",
-      "articleId": "clovers"
+      "articleId": "late-mt"
     },
     {
       "catchUp": false,
       "section": "Practice-Changing / High Priority",
-      "articleId": "device"
+      "articleId": "mild-mt"
     },
     {
       "catchUp": false,
-      "section": "Practice-Changing / High Priority",
-      "articleId": "preoxi"
+      "section": "Worth Knowing",
+      "articleId": "icare-faster"
+    },
+    {
+      "catchUp": false,
+      "section": "Worth Knowing",
+      "articleId": "pediatric-intubation-cardiac-arrest"
     }
   ],
   "title": "EM Weekly - October 26, 2026",
-  "sample": true,
-  "overview": "Sample weekly digest containing all three historical articles added to EM Weekly this week. These studies are from 2023–2024; this is a format preview, not a current literature review.",
-  "coverageEnd": "2026-11-01",
-  "searchAudit": null,
-  "otherUpdates": [],
-  "coverageStart": "2026-10-26",
-  "publishedDate": "2026-10-26",
+  "sample": false,
+  "overview": "This corrected weekly brief covers evidence first published online from October 19 through October 25, 2026. The highest-impact findings were two randomized thrombectomy trials that expand the evidence base for carefully selected large-vessel occlusion patients, alongside a pragmatic point-of-care hs-troponin implementation trial and a large pediatric airway registry study.",
+  "printable": true,
+  "coverageEnd": "2026-10-25",
+  "searchAudit": "state/audits/2026-10-26-first-online-correction.json",
+  "otherUpdates": [
+    "Source coverage limitation: the JournalFeed archive was unavailable for this interval. Primary journal and society searches were completed; relevant evidence may still have been missed."
+  ],
+  "sectionOrder": [
+    "Practice-Changing / High Priority",
+    "Guidelines & Statements",
+    "Worth Knowing",
+    "Watch List"
+  ],
+  "coverageStart": "2026-10-19",
+  "publishedDate": "2026-10-28",
   "clinicalTakeaways": [
-    "PREOXI: NIV preoxygenation reduced peri-intubation hypoxemia compared with an oxygen mask in selected critically ill adults.",
-    "DEVICE: Video laryngoscopy increased first-attempt success in critically ill adults; operator experience and setting affect applicability.",
-    "CLOVERS: A restrictive fluid strategy with earlier vasopressors did not significantly reduce mortality compared with liberal fluids in sepsis-induced hypotension."
+    "Very-late LVO stroke: LATE-MT supports urgent thrombectomy-center discussion for carefully selected anterior-circulation LVO patients with salvageable tissue 24-72 hours after onset or last-known-well; higher symptomatic hemorrhage and mortality signals argue against universal treatment beyond 24 hours.",
+    "Mild-deficit LVO: MILD-MT found better 90-day excellent functional outcomes with thrombectomy in selected NIHSS <6 patients with small core and substantial perfusion mismatch, but serious procedure-related complications occurred in 13.2%; this is not a mandate for EVT in every low-NIHSS LVO.",
+    "Chest pain throughput: ICare-FASTER reduced ED length of stay by 47 minutes using point-of-care hs-cTnI within the same accelerated diagnostic pathway, without an observed difference in 30-day MI or cardiac death; this supports workflow implementation rather than a new troponin threshold.",
+    "Pediatric airway: Intubation-associated cardiac arrest occurred in 1.2% of a large pediatric ICU registry; oxygenation failure, shock, and repeated attempts marked higher risk, reinforcing pre-intubation physiologic optimization and first-attempt success while leaving drug/device associations noncausal."
   ]
 }

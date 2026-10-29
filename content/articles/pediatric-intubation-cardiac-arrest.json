@@ -1,0 +1,58 @@
+{
+  "id": "pediatric-intubation-cardiac-arrest",
+  "doi": "10.1097/CCM.0000000000007390",
+  "pmid": "42919448",
+  "title": "Comparative Analysis of Tracheal Intubation-Associated Cardiac Arrest in 2015-2023: A Report From the National Emergency Airway Registry for Children Multicenter Registry",
+  "pinned": false,
+  "sample": false,
+  "source": "Critical Care Medicine",
+  "status": "published",
+  "topics": [
+    "airway",
+    "resuscitation",
+    "pediatrics"
+  ],
+  "authors": [
+    "Asif Padiyath",
+    "Febina Padiyath",
+    "Robert A Berg",
+    "et al."
+  ],
+  "ranking": {
+    "design": 3,
+    "novelty": 3,
+    "edImpact": 4,
+    "guidelineRelevance": 2
+  },
+  "section": "Worth Knowing",
+  "summary": "This retrospective cohort used prospectively collected NEAR4KIDS registry data from 27,773 initial tracheal intubations in pediatric and pediatric cardiac ICUs from 2015 through 2023. Tracheal intubation-associated cardiac arrest occurred in 331 intubations (1.2%). Pre-intubation oxygenation failure and shock were associated with higher arrest odds, and each additional intubation attempt was associated with progressively higher risk; video laryngoscopy, neuromuscular blockade, ketamine, and propofol were associated with lower odds in adjusted analyses.",
+  "backfill": false,
+  "excluded": false,
+  "findings": [
+    "Tracheal intubation-associated cardiac arrest occurred in 331 of 27,773 intubations (1.2%).",
+    "Pre-intubation oxygenation failure and shock were associated with higher odds of intubation-associated cardiac arrest.",
+    "Each additional tracheal intubation attempt was associated with higher arrest odds.",
+    "Ketamine, propofol, neuromuscular blockade, and video laryngoscopy were associated with lower adjusted odds; these observational associations do not establish causality."
+  ],
+  "studyType": "Observational study",
+  "comparator": "Intubations without tracheal intubation-associated cardiac arrest.",
+  "population": "Critically ill children undergoing initial tracheal intubation in pediatric ICUs and pediatric cardiac ICUs participating in the international NEAR4KIDS registry.",
+  "sampleSize": 27773,
+  "shortTitle": "Pediatric intubation-associated cardiac arrest: modifiable risk signals",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "This was an observational PICU/PCICU registry study rather than an ED randomized trial, so residual confounding and setting-specific practice are important. Associations involving induction drugs, neuromuscular blockade, and video laryngoscopy do not prove those choices prevent arrest.",
+  "retrievedAt": "2026-10-28",
+  "canonicalUrl": "https://doi.org/10.1097/CCM.0000000000007390",
+  "intervention": "Tracheal intubation characteristics and peri-intubation practices; no randomized intervention.",
+  "whyItMatters": "The modifiable signal is procedural and physiologic: optimize oxygenation and hemodynamics before pediatric intubation and prioritize first-attempt success. The medication and device associations are hypothesis-generating and should not be converted into causal ED protocol changes from this registry study alone.",
+  "evidenceNotes": "Primary journal abstract and PubMed record reviewed. The study used prospectively collected registry data but a retrospective observational analysis; medication and device associations require cautious interpretation.",
+  "discoveredDate": "2026-10-28",
+  "fullTextStatus": "Abstract available; full text paywalled",
+  "firstOnlineDate": "2026-10-23",
+  "primaryEndpoint": "Tracheal intubation-associated cardiac arrest, defined as cardiac arrest or chest compressions temporally associated with intubation.",
+  "reviewedMaterial": "abstract",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-10-28"
+}

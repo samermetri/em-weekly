@@ -1,5 +1,5 @@
 {
-  "snapshotHash": "553b25692144eaf5f43dd579f5b07b469517e5585159d532e9eff3c2c0c4720a",
+  "snapshotHash": "e7a78029c95d66bf83450353a75661a62de942ad0400f521bb01f1d887699b9a",
   "documentRevisions": {
     "article:aap-pediatric-uti-2026": 2,
     "article:acmt-fentanyl-exposure-2024": 2,
@@ -31,7 +31,7 @@
     "article:eso-eans-ich-guideline-2025": 1,
     "article:estes-polytrauma-consensus-2025": 1,
     "article:iap-acute-pancreatitis-guideline-2025": 1,
-    "article:icare-faster": 1,
+    "article:icare-faster": 2,
     "article:idsa-complicated-uti-2025": 1,
     "article:ilcor-costr-2024": 1,
     "article:ivio-vascular-access-2024": 1,
@@ -44,6 +44,7 @@
     "article:ocafe-af-anticoagulation-2024": 1,
     "article:opportunistic-af-screening-ed-2025": 1,
     "article:paramedic-3-drug-route-2024": 1,
+    "article:pediatric-intubation-cardiac-arrest": 1,
     "article:preheart": 1,
     "article:preoxi": 1,
     "article:prevact-pcc-mild-tbi-2024": 1,
@@ -62,6 +63,7 @@
     "article:vasspr": 3,
     "article:westcor-poc-hs-troponin-2025": 1,
     "audit:2026-10-26": 1,
+    "audit:2026-10-26-first-online-correction": 1,
     "audit:2026-10-28": 1,
     "audit:backfill-2024-10-27": 2,
     "audit:backfill-2024-11-03": 2,
@@ -82,13 +84,13 @@
     "audit:backfill-initial-2025-2026": 1,
     "audit:cloud-connection-test": 1,
     "issue:2024-06-17": 1,
-    "issue:2026-10-26": 3,
+    "issue:2026-10-26": 5,
     "probe:daily-connection-2026-10-26": 3,
     "probe:hosted-2026-10-26": 1,
     "probe:scheduled-2026-10-26": 1,
     "probe:weekly-connection-2026-10-26": 2,
     "state:backfill": 20,
-    "state:publishing": 5
+    "state:publishing": 6
   },
-  "revisionFingerprint": "04bcc5c7607800ce55bcc092416e97a1"
+  "revisionFingerprint": "0f3f135961a248f8b78f49000c31de70"
 }

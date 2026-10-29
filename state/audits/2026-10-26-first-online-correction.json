@@ -1,0 +1,219 @@
+{
+  "date": "2026-10-28",
+  "sources": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Owner-approved research_index cache used for exhaustive discovery because it already contains the configured PubMed query metadata. Windows 2026-10-18 (Oct 18-24; 123 deduplicated candidates across configured searches) and 2026-10-25 (Oct 25-26; 29 candidates) were read in full in pages of at most 100; target dates were filtered only after primary date checks. Cache metadata was discovery only, not clinical evidence.",
+      "status": "success",
+      "sourceId": "pubmed-em",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Same owner-approved complete research_index windows and configured major-journal query were reviewed. Final cross-check independently searched NEJM/JAMA/Lancet/BMJ acute-care publications; two Oct 23 NEJM thrombectomy RCTs were verified and included.",
+      "status": "success",
+      "sourceId": "pubmed-general",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Same owner-approved complete research_index windows and configured specialty query were reviewed. Primary appraisal verified ICare-FASTER (Oct 19) and pediatric intubation-associated cardiac arrest (Oct 23). Other candidate results were either lower priority, outside the first-online interval, or retained for primary review.",
+      "status": "success",
+      "sourceId": "pubmed-specialty",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Configured guidance discovery metadata in both complete research_index windows was reviewed separately from the society sweep. The crush consensus and POC hs-troponin meta-analysis had earlier first-online dates despite Oct 21 PubMed issue/index dates and were excluded.",
+      "status": "success",
+      "sourceId": "pubmed-guidance",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://journalfeed.org/",
+      "notes": "Exact bounded search: site:journalfeed.org October 19 2026 October 25 2026 emergency medicine. Search indexing exposed stale/older pages rather than a verifiable complete interval, so JournalFeed coverage could not be certified; it was not used as evidence.",
+      "status": "failed",
+      "sourceId": "journalfeed",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://www.acep.org/patient-care/clinical-policies",
+      "notes": "Exact bounded search: site:acep.org clinical policy October 2026 emergency medicine. Official clinical-policy directory showed no newly issued acute clinical policy first online Oct 19-25; search is bounded by public indexing.",
+      "status": "success",
+      "sourceId": "acep",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://professional.heart.org/en/guidelines-statements",
+      "notes": "Exact bounded search: site:professional.heart.org October 19 2026 October 25 2026 scientific statement emergency stroke resuscitation. Official recent-guidance pages showed Oct 22 aortic-surgery multidisciplinary guidance but no new acute stroke/resuscitation guideline in the interval; the aortic statement does not change ED acute management.",
+      "status": "success",
+      "sourceId": "aha-asa",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://www.acc.org/guidelines",
+      "notes": "Exact bounded search: site:acc.org October 19 2026 October 25 2026 guideline acute emergency. Official guideline directory did not identify a new interval-specific acute ED guideline; existing 2026 PE and other guidance predated this week.",
+      "status": "success",
+      "sourceId": "acc",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
+      "notes": "Exact bounded search: site:publications.aap.org/pediatrics October 19 2026 policy statement. COVID-19 vaccine policy displays an Oct 19 issue date but official article history shows Prepublication Release September 2, 2026, so it is ineligible by first-online date.",
+      "status": "success",
+      "sourceId": "aap",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
+      "notes": "Bounded official-domain search of ACS trauma best-practice/guideline material found no date-verified new acute ED guidance first online Oct 19-25. Public indexing/access is incomplete, disclosed here.",
+      "status": "success",
+      "sourceId": "acs",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://www.ena.org/practice-resources",
+      "notes": "Exact bounded search: site:ena.org October 2026 practice resources emergency guidance. Official practice-resource directory was reviewed; no date-verified new acute clinical guidance first online Oct 19-25 was found.",
+      "status": "success",
+      "sourceId": "ena",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://www.saem.org/publications/grace",
+      "notes": "Bounded official-domain search of SAEM/GRACE material found no new acute-care guideline first online Oct 19-25; recent indexed society material was educational or predated the interval.",
+      "status": "success",
+      "sourceId": "saem",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://www.aaem.org/statements/",
+      "notes": "Exact bounded search: site:aaem.org statements October 2026 emergency medicine. Oct 21-22 statements concerned residency requirements and medical-staff due process, not acute clinical management.",
+      "status": "success",
+      "sourceId": "aaem",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
+      "notes": "Exact bounded search: site:hematology.org guidelines October 2026 bleeding anticoagulation emergency. Official guideline directory showed no new interval-specific emergency bleeding/anticoagulation guidance.",
+      "status": "success",
+      "sourceId": "ash",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
+      "notes": "Exact bounded search: site:chestnet.org October 19 2026 October 25 2026 guideline pulmonary embolism. No new acute-care CHEST guideline first online in the interval was identified; the multisociety acute PE guideline predates this week.",
+      "status": "success",
+      "sourceId": "chest",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://www.sccm.org/clinical-resources/guidelines",
+      "notes": "Exact bounded search: site:sccm.org October 19 2026 October 25 2026 guideline sepsis. Official directory showed the 2026 Surviving Sepsis Campaign guidance, released months earlier, and no new interval-specific sepsis guideline.",
+      "status": "success",
+      "sourceId": "sccm",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
+      "notes": "Exact bounded search: site:idsociety.org practice guideline October 2026 emergency acute. Official status/list pages showed no new acute IDSA guideline first online Oct 19-25; relevant 2026 sepsis/COVID/histoplasmosis updates predated the interval.",
+      "status": "success",
+      "sourceId": "idsa",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://www.acmt.net/statements/",
+      "notes": "Exact bounded search: site:acmt.net October 19 2026 October 25 2026 statement toxicology. Official statement/archive pages showed conference activity in the interval but no new position/practice statement first online during it.",
+      "status": "success",
+      "sourceId": "acmt",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://www.east.org/education-resources/practice-management-guidelines",
+      "notes": "Exact bounded search: site:east.org practice management guideline October 2026 trauma. Official PMG directory and under-development pages were checked; no date-verified new acute trauma PMG first online Oct 19-25 was identified.",
+      "status": "success",
+      "sourceId": "east-trauma",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://eso-stroke.org/guidelines/",
+      "notes": "Exact bounded search: site:eso-stroke.org guidelines October 2026 stroke. Official indexed guideline material showed no new hyperacute stroke guideline first online Oct 19-25.",
+      "status": "success",
+      "sourceId": "eso-stroke",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://www.acog.org/clinical",
+      "notes": "Exact bounded search: site:acog.org clinical October 2026 emergency obstetric guideline. Official clinical guidance search did not identify a new obstetric-emergency guideline first online Oct 19-25.",
+      "status": "success",
+      "sourceId": "acog",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    },
+    {
+      "url": "https://www.erc.edu/science-research/guidelines/",
+      "notes": "Exact bounded search: site:erc.edu guidelines October 2026 resuscitation. Official ERC pages continue to identify the 2025 resuscitation guidelines as current; no new Oct 19-25 resuscitation guideline was found.",
+      "status": "success",
+      "sourceId": "erc",
+      "checkedAt": "2026-10-29T06:15:02.754Z"
+    }
+  ],
+  "coverageEnd": "2026-10-25",
+  "coverageStart": "2026-10-19",
+  "finalCrossCheck": [
+    "Major emergency-medicine RCT cross-check: all 152 cached discovery candidates across the two approved overlapping windows were enumerated; no additional large ED RCT comparable in consequence to the included stroke trials was verified.",
+    "NEJM acute-care cross-check: Oct 23 online-first LATE-MT and MILD-MT were verified against primary journal/PubMed records and included.",
+    "JAMA acute-care cross-check: bounded interval search found no additional major acute-care RCT judged more consequential than the included records.",
+    "Lancet acute-care cross-check: bounded interval search found no major ED-changing acute-care trial first online Oct 19-25.",
+    "BMJ acute-care cross-check: bounded interval search found no major ED-changing randomized acute-care trial first online Oct 19-25.",
+    "ACEP clinical-policy cross-check: no new acute clinical policy first online Oct 19-25 was identified on the official clinical-policy directory.",
+    "AHA/ASA cross-check: no new acute stroke or resuscitation guideline first online Oct 19-25; Oct 22 aortic-surgery statement was not an ED acute-management guideline.",
+    "SCCM/sepsis cross-check: 2026 Surviving Sepsis Campaign guidance predates this interval; no new interval-specific sepsis guidance was found.",
+    "IDSA cross-check: no new acute ID guideline first online Oct 19-25 was identified on official current-guideline pages.",
+    "CHEST/PE cross-check: no new interval-specific acute PE guideline; the 2026 multisociety acute PE guideline predates this week.",
+    "Hematology/bleeding cross-check: no new ASH emergency bleeding or anticoagulation guideline first online Oct 19-25 was identified.",
+    "Toxicology cross-check: ACMT statement pages showed no new practice/position statement first online Oct 19-25; conference activity alone was not treated as guidance.",
+    "Trauma cross-check: EAST official PMG pages showed no new date-verified acute trauma guideline first online Oct 19-25.",
+    "Pediatric emergency cross-check: AAP COVID policy carried an Oct 19 issue date but a Sept 2 prepublication release and was excluded by first-online date; pediatric ventilation feedback and intubation-arrest studies were appraised separately.",
+    "Obstetric emergency cross-check: ACOG official guidance search found no new acute obstetric emergency guideline first online Oct 19-25.",
+    "First-online trap cross-check: PMID 42481217 and PMID 42660638 were excluded because primary/official pages place them months earlier than Oct 19 despite later issue/index dates."
+  ],
+  "excludedCandidates": [
+    {
+      "reason": "POC hs-troponin meta-analysis was first published online months before Oct 19; Oct 21 reflects later issue/index metadata and is ineligible.",
+      "identifier": "PMID 42481217"
+    },
+    {
+      "reason": "Crush injury consensus was first available in August 2026, before the target week; later Oct issue/index date cannot move it into this brief.",
+      "identifier": "PMID 42660638"
+    },
+    {
+      "reason": "Official article history shows prepublication release September 2, 2026; Oct 19 is not the first-online date.",
+      "identifier": "AAP COVID-19 vaccine policy DOI 10.1542/peds.2026-079045"
+    },
+    {
+      "reason": "Randomized crossover pediatric ventilation-feedback simulation showed large process improvements but no patient outcomes; lower priority than the fifth record allowed by today's cap.",
+      "identifier": "PMID 42896864"
+    },
+    {
+      "reason": "VECARS-2 primary abstract was verified; observational before-after process evidence without patient outcome benefit. Deferred by the daily five-record cap and retained in queue.",
+      "identifier": "PMID 42901366"
+    },
+    {
+      "reason": "Date and identifiers verified, but accessible primary metadata did not expose sufficient results for an evidence-grade summary in this run; retained for primary review.",
+      "identifier": "PMID 42901741"
+    },
+    {
+      "reason": "Date and identifiers verified; detailed numerical results were not available from an accessible primary abstract in this run, so secondary-only result detail was not promoted to a stored article; retained for primary review.",
+      "identifier": "PMID 42901744"
+    },
+    {
+      "reason": "Systematic review/meta-analysis was date-eligible but accessible primary metadata did not provide enough result detail, and the question was lower priority than selected evidence; not used as filler.",
+      "identifier": "PMID 42901749"
+    },
+    {
+      "reason": "First online September 29, 2026; explicitly outside Oct 19-25.",
+      "identifier": "PREHEART"
+    }
+  ],
+  "finalCrossCheckCompleted": true,
+  "guidelineSearchCompleted": true
+}
