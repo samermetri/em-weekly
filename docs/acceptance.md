@@ -81,3 +81,5 @@ Independent primary-source review confirmed the new records and found a newer-st
 Production reading checks returned HTTP 200 and Cloudflare HIT for overview/historical pages, with zero Supabase requests. Account/library HTML returned DYNAMIC; private account API requests retain no-store semantics.
 
 Final compact-print release 8725faa3 deployed successfully: https://github.com/samermetri/em-weekly/actions/runs/40633781724. The required validation/unit/type/build/link checks and all 17 browser checks passed. Both previously overflowing summaries were also rendered directly from the deployed custom domain and confirmed as one page. The live overview shows 24 historical summaries.
+
+Owner cadence update, October 28, 2026: scheduled publication checks now run every four hours (six scheduled checks per day). This supersedes the earlier 15-minute timer evidence above. Push and manual dispatch triggers remain available. Reader authentication, favorites and folders use their existing direct authenticated requests and are independent of publication polling.
