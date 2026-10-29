@@ -1,0 +1,57 @@
+{
+  "id": "emphasis-minocycline-stroke-2026",
+  "doi": "10.1016/S0140-6736(25)01862-8",
+  "pmid": "41628627",
+  "title": "Efficacy and safety of minocycline in patients with acute ischaemic stroke (EMPHASIS): a multicentre, double-blind, randomised controlled trial",
+  "pinned": false,
+  "sample": false,
+  "source": "The Lancet",
+  "status": "published",
+  "topics": [
+    "neurology"
+  ],
+  "authors": [
+    "Yao Lu",
+    "Ling Guan",
+    "Jialing Wu",
+    "Yilong Wang"
+  ],
+  "ranking": {
+    "design": 5,
+    "novelty": 4,
+    "edImpact": 3,
+    "guidelineRelevance": 1
+  },
+  "section": "Worth Knowing",
+  "summary": "At 58 Chinese centers, EMPHASIS randomized 1,724 patients with ischemic stroke within 72 hours and NIHSS 4-25 to a short oral minocycline course or placebo plus usual care. Excellent 90-day functional outcome (mRS 0-1) occurred in 447/850 (52.6%) versus 403/851 (47.4%); adjusted RR 1.11 (95% CI 1.03-1.20; P=.0061). Serious adverse events were 4.6% versus 5.9% (P=.24).",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Primary mRS 0-1: 447/850 (52.6%) versus 403/851 (47.4%); adjusted RR 1.11 (95% CI 1.03-1.20; P=.0061).",
+    "Ordinal mRS shift adjusted common OR 1.19 (95% CI 1.03-1.38).",
+    "Serious adverse events 40/862 (4.6%) versus 51/862 (5.9%); P=.24.",
+    "Later MIST-A phase 2 trial in a distinct successfully thrombectomized group had no infarct-growth benefit."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "Oral placebo adjunct to usual care.",
+  "population": "Acute ischemic stroke within 72 hours in 58 Chinese hospitals, baseline NIHSS 4-25; 1,724 randomized.",
+  "sampleSize": 1724,
+  "shortTitle": "EMPHASIS adjunct minocycline for ischemic stroke",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Median NIHSS was 5 and few participants received reperfusion, limiting generalization to severe stroke and post-thrombectomy populations. The later MIST-A study is not a direct replication. Primary abstract only, not full Lancet text, was reviewed.",
+  "retrievedAt": "2026-10-28",
+  "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/41628627/",
+  "intervention": "Short-course oral minocycline adjunct begun within 72 hours in trial.",
+  "whyItMatters": "Promising adjunctive evidence for stroke-service discussion, not a reason to start routine ED minocycline or delay reperfusion assessment. A later trial among successfully thrombectomized patients did not improve its separate infarct-growth endpoint.",
+  "evidenceNotes": "Primary PubMed abstract PMID 41628627 DOI 10.1016/S0140-6736(25)01862-8 reviewed; Epub January 30, 2026 rather than February 14 print. Lancet full text not reviewed. Later primary MIST-A abstract PMID 42305108 consulted for distinct subgroup evidence; no specific correction verified by targeted search.",
+  "discoveredDate": "2026-10-28",
+  "fullTextStatus": "Abstract available; full text paywalled",
+  "officialPdfUrl": null,
+  "firstOnlineDate": "2026-01-30",
+  "primaryEndpoint": "90-day modified Rankin Scale 0-1.",
+  "reviewedMaterial": "abstract",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-10-28"
+}

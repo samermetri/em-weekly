@@ -1,0 +1,56 @@
+{
+  "id": "sccm-adult-ccus-focused-update-2025",
+  "doi": "10.1097/CCM.0000000000006530",
+  "pmid": "39982182",
+  "title": "Society of Critical Care Medicine Guidelines on Adult Critical Care Ultrasonography: Focused Update 2024",
+  "pinned": false,
+  "sample": false,
+  "source": "Society of Critical Care Medicine / Critical Care Medicine",
+  "status": "published",
+  "topics": [
+    "resuscitation",
+    "guidelines"
+  ],
+  "authors": [
+    "José L. Díaz-Gómez",
+    "Sameer Sharif",
+    "Enyo Ablordeppey"
+  ],
+  "ranking": {
+    "design": 4,
+    "novelty": 4,
+    "edImpact": 5,
+    "guidelineRelevance": 5
+  },
+  "section": "Guidelines & Statements",
+  "summary": "SCCM reviewed adult critical-care ultrasonography (CCUS) in cardiac arrest, septic shock, acute dyspnea or respiratory failure, volume management, and cardiogenic shock. It conditionally suggests CCUS for shock, respiratory failure and volume management, generally with low or very-low certainty. In cardiac arrest it suggests either CCUS or usual care without CCUS; superiority is not established.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Conditional low-certainty suggestions for CCUS in septic shock, respiratory failure and targeted volume management.",
+    "Conditional very-low-certainty suggestion for CCUS in cardiogenic shock.",
+    "For cardiac arrest either CCUS or usual care without CCUS is suggested with very-low certainty."
+  ],
+  "studyType": "Guideline",
+  "comparator": "Usual care without CCUS where evaluated; not one trial.",
+  "population": "Critically ill adults with cardiac arrest, septic shock, respiratory failure, volume-management questions or cardiogenic shock.",
+  "sampleSize": null,
+  "shortTitle": "SCCM adult CCUS focused update",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "These critical-care recommendations are conditional and supported largely by low- or very-low-certainty evidence rather than an ED outcomes trial. The official SCCM recommendations and PubMed abstract, not complete paywalled guideline text, were reviewed.",
+  "retrievedAt": "2026-10-28",
+  "canonicalUrl": "https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-on-adult-critical-care-ultrasonography-focused-update-2024",
+  "intervention": "CCUS-guided diagnostic assessment and management across five guideline questions.",
+  "whyItMatters": "Use CCUS as an adjunct to clinical assessment when trained operators are available, especially in shock or dyspnea. Do not interrupt CPR for scanning or claim that ultrasound improves arrest outcomes.",
+  "evidenceNotes": "Official SCCM guidance page and primary abstract PMID 39982182 DOI 10.1097/CCM.0000000000006530 reviewed. Epub February 21, 2025, despite 2024 in title and February 1 print. Complete paywalled journal article not reviewed. No verified correction found in targeted checking.",
+  "discoveredDate": "2026-10-28",
+  "fullTextStatus": "Official society summary available",
+  "officialPdfUrl": null,
+  "firstOnlineDate": "2025-02-21",
+  "primaryEndpoint": "Outcomes reviewed for five guideline questions; no single primary trial endpoint.",
+  "reviewedMaterial": "official society summary",
+  "guidelineStrength": "Conditional recommendations with low/very-low certainty; cardiac arrest does not favor CCUS over usual care.",
+  "sitePublishedDate": "2026-10-28"
+}

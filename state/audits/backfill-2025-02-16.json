@@ -1,0 +1,192 @@
+{
+  "date": "2026-10-28",
+  "sources": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=%28%28%22Ann+Emerg+Med%22%5BJournal%5D+OR+%22Acad+Emerg+Med%22%5BJournal%5D+OR+%22J+Emerg+Med%22%5BJournal%5D+OR+%22Am+J+Emerg+Med%22%5BJournal%5D+OR+%22Emerg+Med+J%22%5BJournal%5D+OR+%22J+Am+Coll+Emerg+Physicians+Open%22%5BJournal%5D+OR+%22West+J+Emerg+Med%22%5BJournal%5D+OR+%22Resuscitation%22%5BJournal%5D+OR+%22Prehosp+Emerg+Care%22%5BJournal%5D%29%29+AND+%28%222025%2F02%2F16%22%5BEPDAT%5D+%3A+%222025%2F02%2F22%22%5BEPDAT%5D%29&tool=em-weekly",
+      "notes": "Private SQL-cache ESearch/ESummary capture 2026-10-29T02:11:39.270Z; exact configured query and EPDAT 2025-02-16 to 2025-02-22 verified, group count 78 matches PMID source membership. Full distinct candidate enumeration screened pages 1-100 (100) and 101-158 (58). Metadata only, not clinical evidence.",
+      "status": "success",
+      "sourceId": "pubmed-em",
+      "checkedAt": "2026-10-29T02:53:46.025Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=%28%28%22N+Engl+J+Med%22%5BJournal%5D+OR+%22JAMA%22%5BJournal%5D+OR+%22BMJ%22%5BJournal%5D+OR+%22Lancet%22%5BJournal%5D+OR+%22JAMA+Intern+Med%22%5BJournal%5D+OR+%22JAMA+Netw+Open%22%5BJournal%5D+OR+%22Nat+Med%22%5BJournal%5D%29+AND+%28emergency+OR+acute+OR+resuscitation+OR+shock+OR+stroke+OR+bleeding+OR+poisoning+OR+sepsis+OR+trauma+OR+cardiac+arrest%29%29+AND+%28%222025%2F02%2F16%22%5BEPDAT%5D+%3A+%222025%2F02%2F22%22%5BEPDAT%5D%29&tool=em-weekly",
+      "notes": "Private SQL-cache ESearch/ESummary capture 2026-10-29T02:11:39.270Z; exact configured query and EPDAT 2025-02-16 to 2025-02-22 verified, group count 5 matches PMID source membership. Full distinct candidate enumeration screened pages 1-100 (100) and 101-158 (58). Metadata only, not clinical evidence.",
+      "status": "success",
+      "sourceId": "pubmed-general",
+      "checkedAt": "2026-10-29T02:53:46.026Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=%28%28emergency+OR+acute+OR+resuscitation+OR+shock+OR+stroke+OR+bleeding+OR+poisoning+OR+sepsis+OR+trauma+OR+cardiac+arrest%29+AND+%28guideline%5BPublication+Type%5D+OR+practice+guideline%5BPublication+Type%5D+OR+consensus%5BTitle%5D+OR+scientific+statement%5BTitle%5D+OR+clinical+policy%5BTitle%5D+OR+position+statement%5BTitle%5D%29%29+AND+%28%222025%2F02%2F16%22%5BEPDAT%5D+%3A+%222025%2F02%2F22%22%5BEPDAT%5D%29&tool=em-weekly",
+      "notes": "Private SQL-cache ESearch/ESummary capture 2026-10-29T02:11:39.270Z; exact configured query and EPDAT 2025-02-16 to 2025-02-22 verified, group count 30 matches PMID source membership. Full distinct candidate enumeration screened pages 1-100 (100) and 101-158 (58). Metadata only, not clinical evidence.",
+      "status": "success",
+      "sourceId": "pubmed-guidance",
+      "checkedAt": "2026-10-29T02:53:46.026Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=%28%28%22Circulation%22%5BJournal%5D+OR+%22Stroke%22%5BJournal%5D+OR+%22Chest%22%5BJournal%5D+OR+%22Crit+Care+Med%22%5BJournal%5D+OR+%22Intensive+Care+Med%22%5BJournal%5D+OR+%22Clin+Infect+Dis%22%5BJournal%5D+OR+%22Blood%22%5BJournal%5D+OR+%22Pediatrics%22%5BJournal%5D+OR+%22Obstet+Gynecol%22%5BJournal%5D+OR+%22J+Trauma+Acute+Care+Surg%22%5BJournal%5D+OR+%22Clin+Toxicol+%28Phila%29%22%5BJournal%5D+OR+%22Kidney+Int%22%5BJournal%5D+OR+%22Am+J+Psychiatry%22%5BJournal%5D%29+AND+%28emergency+OR+acute+OR+resuscitation+OR+shock+OR+stroke+OR+bleeding+OR+poisoning+OR+sepsis+OR+trauma+OR+cardiac+arrest%29%29+AND+%28%222025%2F02%2F16%22%5BEPDAT%5D+%3A+%222025%2F02%2F22%22%5BEPDAT%5D%29&tool=em-weekly",
+      "notes": "Private SQL-cache ESearch/ESummary capture 2026-10-29T02:11:39.270Z; exact configured query and EPDAT 2025-02-16 to 2025-02-22 verified, group count 54 matches PMID source membership. Full distinct candidate enumeration screened pages 1-100 (100) and 101-158 (58). Metadata only, not clinical evidence.",
+      "status": "success",
+      "sourceId": "pubmed-specialty",
+      "checkedAt": "2026-10-29T02:53:46.026Z"
+    },
+    {
+      "url": "https://www.aaem.org/statements/",
+      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "status": "failed",
+      "sourceId": "aaem",
+      "checkedAt": "2026-10-29T02:53:46.022Z"
+    },
+    {
+      "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
+      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "status": "failed",
+      "sourceId": "aap",
+      "checkedAt": "2026-10-29T02:53:46.024Z"
+    },
+    {
+      "url": "https://www.acc.org/guidelines",
+      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "status": "failed",
+      "sourceId": "acc",
+      "checkedAt": "2026-10-29T02:53:46.024Z"
+    },
+    {
+      "url": "https://www.acep.org/patient-care/clinical-policies",
+      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "status": "failed",
+      "sourceId": "acep",
+      "checkedAt": "2026-10-29T02:53:46.024Z"
+    },
+    {
+      "url": "https://www.acmt.net/statements/",
+      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "status": "failed",
+      "sourceId": "acmt",
+      "checkedAt": "2026-10-29T02:53:46.024Z"
+    },
+    {
+      "url": "https://www.acog.org/clinical",
+      "notes": "Official ACOG directory shows January 2026 maternal stroke endorsement; full dated archive review not established.",
+      "status": "failed",
+      "sourceId": "acog",
+      "checkedAt": "2026-10-29T02:53:46.024Z"
+    },
+    {
+      "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
+      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "status": "failed",
+      "sourceId": "acs",
+      "checkedAt": "2026-10-29T02:53:46.024Z"
+    },
+    {
+      "url": "https://professional.heart.org/en/guidelines-and-statements",
+      "notes": "Targeted official AHA/ASA checks verified January 28 maternal-stroke statement and recognized existing held AIS guideline; full archive coverage not established.",
+      "status": "failed",
+      "sourceId": "aha-asa",
+      "checkedAt": "2026-10-29T02:53:46.024Z"
+    },
+    {
+      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
+      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "status": "failed",
+      "sourceId": "ash",
+      "checkedAt": "2026-10-29T02:53:46.024Z"
+    },
+    {
+      "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
+      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "status": "failed",
+      "sourceId": "chest",
+      "checkedAt": "2026-10-29T02:53:46.024Z"
+    },
+    {
+      "url": "https://www.east.org/education-resources/practice-management-guidelines",
+      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "status": "failed",
+      "sourceId": "east-trauma",
+      "checkedAt": "2026-10-29T02:53:46.024Z"
+    },
+    {
+      "url": "https://www.ena.org/practice-resources",
+      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "status": "failed",
+      "sourceId": "ena",
+      "checkedAt": "2026-10-29T02:53:46.024Z"
+    },
+    {
+      "url": "https://www.erc.edu/science-research/guidelines/",
+      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "status": "failed",
+      "sourceId": "erc",
+      "checkedAt": "2026-10-29T02:53:46.024Z"
+    },
+    {
+      "url": "https://eso-stroke.org/guidelines/",
+      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "status": "failed",
+      "sourceId": "eso-stroke",
+      "checkedAt": "2026-10-29T02:53:46.024Z"
+    },
+    {
+      "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
+      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "status": "failed",
+      "sourceId": "idsa",
+      "checkedAt": "2026-10-29T02:53:46.024Z"
+    },
+    {
+      "url": "https://journalfeed.org/",
+      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "status": "failed",
+      "sourceId": "journalfeed",
+      "checkedAt": "2026-10-29T02:53:46.024Z"
+    },
+    {
+      "url": "https://www.saem.org/publications/grace",
+      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "status": "failed",
+      "sourceId": "saem",
+      "checkedAt": "2026-10-29T02:53:46.024Z"
+    },
+    {
+      "url": "https://www.sccm.org/clinical-resources/guidelines",
+      "notes": "Targeted official SCCM checks verified CCUS and heat-stroke primary online dates and recommendations; full dated archive coverage not established.",
+      "status": "failed",
+      "sourceId": "sccm",
+      "checkedAt": "2026-10-29T02:53:46.024Z"
+    }
+  ],
+  "coverageEnd": "2025-02-22",
+  "coverageStart": "2025-02-16",
+  "finalCrossCheck": [
+    "Major EM RCTs: all 158 distinct cached records in ordinal pages 1-100 and 101-158 screened; plausible diagnostic TBI candidate queued, so clinical review incomplete.",
+    "Major general-journal acute-care RCTs: five group memberships screened; no other primary-verified major in-window study selected.",
+    "ACEP policy search: targeted official check did not establish new in-window policy; archive completeness unverified.",
+    "AHA/ASA statement search: targeted official check did not establish new in-window acute stroke statement; archive completeness unverified.",
+    "SCCM/sepsis: CCUS and heat-stroke guidelines first online February 21 selected; ICU PADIS guidance screened but less ED-applicable.",
+    "IDSA: targeted official search did not establish an additional in-window emergency guideline.",
+    "CHEST: Normosol-R versus LR trial verified first online February 17; additional guidance-date reconciliation incomplete.",
+    "ASH bleeding/anticoagulation: targeted official search did not establish new in-window emergency guidance.",
+    "Toxicology: targeted ACMT/AACT official search did not establish new in-window statement.",
+    "Trauma: ACS/EAST targeted checks did not establish new in-window guidance; NAEMSP antibiotics candidate remains queued for primary dates.",
+    "Pediatric emergency: abuse-bruising candidate queued for primary diagnostic-design appraisal.",
+    "Obstetric emergency: no independent ACOG in-window emergency guidance verified.",
+    "Corrections and unresolved candidates: no exhaustive correction surveillance and several plausible cached candidates await primary review; window partial."
+  ],
+  "excludedCandidates": [
+    {
+      "reason": "Executive summary of selected CCUS guideline PMID 39982182; not independent.",
+      "identifier": "PMID 39982181"
+    },
+    {
+      "reason": "Executive summary of selected heat-stroke guideline PMID 39982186; not independent.",
+      "identifier": "PMID 39982185"
+    },
+    {
+      "reason": "Adult ICU PADIS focused update screened; less immediate ED treatment impact than selected acute guidelines; future appraisal possible.",
+      "identifier": "PMID 39982143"
+    }
+  ],
+  "finalCrossCheckCompleted": false,
+  "guidelineSearchCompleted": false
+}

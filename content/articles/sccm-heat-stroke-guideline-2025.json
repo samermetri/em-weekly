@@ -1,0 +1,57 @@
+{
+  "id": "sccm-heat-stroke-guideline-2025",
+  "doi": "10.1097/CCM.0000000000006551",
+  "pmid": "39982186",
+  "title": "Society of Critical Care Medicine Guidelines for the Treatment of Heat Stroke",
+  "pinned": false,
+  "sample": false,
+  "source": "Society of Critical Care Medicine / Critical Care Medicine",
+  "status": "published",
+  "topics": [
+    "resuscitation",
+    "guidelines"
+  ],
+  "authors": [
+    "Jeffrey F. Barletta",
+    "Tina L. Palmieri",
+    "Shari A. Toomey"
+  ],
+  "ranking": {
+    "design": 4,
+    "novelty": 4,
+    "edImpact": 5,
+    "guidelineRelevance": 5
+  },
+  "section": "Guidelines & Statements",
+  "summary": "SCCM's GRADE-informed heat-stroke guideline strongly recommends active rather than passive cooling, with cold- or ice-water immersion delivering the fastest cooling when feasible. It strongly recommends against dantrolene. Both strong recommendations rely on very-low-certainty evidence; good-practice guidance discourages routine antipyretics for temperature control.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Strong recommendation for active rather than passive cooling (very-low-certainty evidence).",
+    "Cold- or ice-water immersion is the fastest cooling approach when feasible.",
+    "Strong recommendation against dantrolene (very-low-certainty evidence).",
+    "Good-practice statement discourages routine antipyretics for heat-stroke temperature reduction."
+  ],
+  "studyType": "Guideline",
+  "comparator": "Passive cooling and alternative measures across guideline questions; not a single trial.",
+  "population": "Patients with exertional or classic heat stroke in acute and critical-care settings.",
+  "sampleSize": null,
+  "shortTitle": "SCCM heat stroke cooling guideline",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Evidence supporting both strong recommendations is very low certainty and immersion may not be feasible. Official SCCM recommendation material and PubMed abstract were reviewed, not the complete journal article.",
+  "retrievedAt": "2026-10-28",
+  "canonicalUrl": "https://www.sccm.org/clinical-resources/guidelines/guidelines/guideline-for-the-treatment-of-heat-stroke",
+  "intervention": "Rapid active cooling and guideline assessment of temperature-modifying medications.",
+  "whyItMatters": "Begin effective physical cooling promptly in suspected heat stroke instead of relying on antipyretics or dantrolene. Adapt cooling modality to feasibility and concurrent stabilization.",
+  "evidenceNotes": "Official SCCM recommendations and primary PubMed abstract PMID 39982186 DOI 10.1097/CCM.0000000000006551 reviewed. Epub February 21, 2025; society page dated February 22, February 1 print. Complete journal guideline not reviewed. No verified correction found in targeted check.",
+  "discoveredDate": "2026-10-28",
+  "fullTextStatus": "Official society summary available",
+  "officialPdfUrl": null,
+  "firstOnlineDate": "2025-02-21",
+  "primaryEndpoint": "Guideline outcomes on cooling and clinical treatment, not a trial primary endpoint.",
+  "reviewedMaterial": "official society summary",
+  "guidelineStrength": "Strong for active cooling and against dantrolene, both based on very-low-certainty evidence; other recommendations are good-practice statements.",
+  "sitePublishedDate": "2026-10-28"
+}

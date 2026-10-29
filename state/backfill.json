@@ -163,11 +163,15 @@
     },
     {
       "end": "2025-02-22",
-      "notes": "Not yet comprehensively searched.",
+      "notes": "Partial: full SQL-cache enumeration of 158 unique candidates in ordinal pages 1-100 and 101-158; exact four query/date/count memberships matched. Selected two SCCM guidelines and one trial from primary material. Independent society review and queued clinical candidates unresolved.",
       "start": "2025-02-16",
-      "status": "pending",
-      "auditId": null,
-      "articleIds": []
+      "status": "partial",
+      "auditId": "backfill-2025-02-16",
+      "articleIds": [
+        "sccm-adult-ccus-focused-update-2025",
+        "sccm-heat-stroke-guideline-2025",
+        "normosol-vs-lr-icu-2025"
+      ]
     },
     {
       "end": "2025-03-01",
@@ -569,12 +573,14 @@
     },
     {
       "end": "2026-01-31",
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "notes": "Partial: full SQL-cache enumeration of 124 unique candidates in ordinal pages 1-100 and 101-124; exact four query/date/count memberships matched. Selected AHA maternal stroke and EMPHASIS from primary material; existing held AIS preserved. Independent society review and queued clinical candidates unresolved.",
       "start": "2026-01-25",
       "status": "partial",
-      "auditId": "backfill-initial-2025-2026",
+      "auditId": "backfill-2026-01-25",
       "articleIds": [
-        "aha-asa-acute-ischemic-stroke-2026"
+        "aha-asa-acute-ischemic-stroke-2026",
+        "aha-maternal-stroke-2026",
+        "emphasis-minocycline-stroke-2026"
       ]
     },
     {
@@ -905,7 +911,7 @@
   ],
   "rangeEnd": "2026-10-26",
   "startedAt": "2026-10-27T20:58:44.597134+00:00",
-  "updatedAt": "2026-10-29T02:23:50.291Z",
+  "updatedAt": "2026-10-29T02:53:46.040Z",
   "rangeStart": "2024-10-27",
   "schemaVersion": 1,
   "candidateQueue": [
@@ -913,12 +919,6 @@
       "url": "https://doi.org/10.1161/STR.0000000000000530",
       "title": "2026 AHA/ASA stroke guideline correction",
       "reason": "The guideline draft is held until the complete official correction can be checked for changes to summarized recommendations.",
-      "firstOnlineDate": null
-    },
-    {
-      "url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-on-adult-critical-care-ultrasonography-focused-update-2024",
-      "title": "SCCM adult critical care ultrasonography focused update 2024",
-      "reason": "Official page says published February 21, 2025 despite 2024 title. Retrieve graded recommendations and verify journal electronic date.",
       "firstOnlineDate": null
     },
     {
@@ -973,12 +973,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41637560/",
       "title": "Guideline on the emergency management of critical bleeding in patients with immune thrombocytopenia",
       "reason": "Primary abstract retrieved: strong combined high-dose steroids, IVIG, platelets, tranexamic acid and TPO-RAs despite low/very-low certainty; conditional urgent splenectomy after failure and against rFVIIa. Secondary guideline index gives February4 first-online, but directly retrieved PubMed showed only August print date. Earlier MAGIC document also surfaced, so verify earliest public version and publisher date before article draft.",
-      "firstOnlineDate": null
-    },
-    {
-      "url": "https://professional.heart.org/en/science-news/prevention-and-treatment-of-maternal-stroke-in-pregnancy-and-postpartum",
-      "title": "Prevention and Treatment of Maternal Stroke in Pregnancy and Postpartum",
-      "reason": "January28, 2026 first-online confirmed by PubMed and AHA hub. Official society summary, recommendations and strength need dedicated review; ACOG endorsed.",
       "firstOnlineDate": null
     },
     {
@@ -1058,6 +1052,30 @@
       "title": "ACMT and AACT Position Statement: Preventing Occupational Opioid Exposure to Emergency Responders",
       "reason": "Needs full primary review before a separate historical article; Springer verifies Published and Version of record 2025-10-16, but the full text is paywalled and was not reviewed in this correction-only run.",
       "firstOnlineDate": "2025-10-16"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39967286/",
+      "title": "TRACK-TBI alcohol and GFAP/UCH-L1 diagnostic study",
+      "reason": "2025-02-16 metadata candidate requiring primary online date, diagnostic performance and ED applicability review.",
+      "firstOnlineDate": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39889226/",
+      "title": "NAEMSP prehospital trauma antibiotic resource document",
+      "reason": "2025-02-16 metadata candidate requiring exact first-online date and primary recommendation review; may belong earlier.",
+      "firstOnlineDate": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39961331/",
+      "title": "Single bruise characteristics and abusive injury",
+      "reason": "2025-02-16 metadata candidate requiring primary first-online date, diagnostic design and safeguarding-applicability review.",
+      "firstOnlineDate": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41618059/",
+      "title": "International pediatric hereditary angioedema guideline",
+      "reason": "2026-01-25 metadata candidate requiring primary first-online date, airway recommendations and strength review.",
+      "firstOnlineDate": null
     }
   ]
 }

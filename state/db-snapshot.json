@@ -1,5 +1,5 @@
 {
-  "snapshotHash": "f4504596fafc8759b10cc4dfd3547945911b1c7a08d61d14b5400ccea890f43d",
+  "snapshotHash": "2bd02a506ee2bb40cb7296a9737d017dc604d56f3e465a5d84326b9b1980e9b1",
   "documentRevisions": {
     "article:aap-pediatric-uti-2026": 2,
     "article:acmt-fentanyl-exposure-2024": 2,
@@ -11,6 +11,7 @@
     "article:aha-adult-als-2025": 1,
     "article:aha-asa-acute-ischemic-stroke-2026": 1,
     "article:aha-kawasaki-update-2024": 1,
+    "article:aha-maternal-stroke-2026": 1,
     "article:aha-red-cross-first-aid-2024": 1,
     "article:aha-rural-stroke-systems-2024": 1,
     "article:aha-systemic-stroke-complications-2024": 1,
@@ -24,6 +25,7 @@
     "article:device": 1,
     "article:distal-thrombectomy-2025": 1,
     "article:embolise-mmae-subdural-2024": 1,
+    "article:emphasis-minocycline-stroke-2026": 1,
     "article:escape-mevo-thrombectomy-2025": 1,
     "article:eso-eans-ich-guideline-2025": 1,
     "article:icare-faster": 1,
@@ -34,6 +36,7 @@
     "article:logical-post-arrest-oxygen": 1,
     "article:magic-mt-mmae-subdural-2024": 1,
     "article:mild-mt": 1,
+    "article:normosol-vs-lr-icu-2025": 1,
     "article:oac-severe-bleeding-guidance-2024": 1,
     "article:ocafe-af-anticoagulation-2024": 1,
     "article:paramedic-3-drug-route-2024": 1,
@@ -45,6 +48,8 @@
     "article:remap-cap-hydrocortisone-2025": 1,
     "article:rsi-ketamine-etomidate-2025": 1,
     "article:sahara-transfusion-sah-2024": 1,
+    "article:sccm-adult-ccus-focused-update-2025": 1,
+    "article:sccm-heat-stroke-guideline-2025": 1,
     "article:stem-mmae-subdural-2024": 1,
     "article:surviving-sepsis-adults-2026": 1,
     "article:surviving-sepsis-children-2026": 1,
@@ -62,7 +67,9 @@
     "audit:backfill-2024-12-15": 1,
     "audit:backfill-2024-12-22": 1,
     "audit:backfill-2025-01-05": 1,
+    "audit:backfill-2025-02-16": 1,
     "audit:backfill-2026-01-04": 1,
+    "audit:backfill-2026-01-25": 1,
     "audit:backfill-initial-2024-2025": 1,
     "audit:backfill-initial-2025-2026": 1,
     "audit:cloud-connection-test": 1,
@@ -72,8 +79,8 @@
     "probe:hosted-2026-10-26": 1,
     "probe:scheduled-2026-10-26": 1,
     "probe:weekly-connection-2026-10-26": 2,
-    "state:backfill": 14,
+    "state:backfill": 15,
     "state:publishing": 5
   },
-  "revisionFingerprint": "5f36c792de9d801fab0d30e172324778"
+  "revisionFingerprint": "02096f271a4e2d2429b73bdb9568bb7f"
 }

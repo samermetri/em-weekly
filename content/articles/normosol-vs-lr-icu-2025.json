@@ -1,0 +1,56 @@
+{
+  "id": "normosol-vs-lr-icu-2025",
+  "doi": "10.1016/j.chest.2025.02.008",
+  "pmid": "39971001",
+  "title": "Normosol-R vs Lactated Ringers in the Critically Ill: A Randomized Trial",
+  "pinned": false,
+  "sample": false,
+  "source": "CHEST",
+  "status": "published",
+  "topics": [
+    "resuscitation"
+  ],
+  "authors": [
+    "Edward T. Qian",
+    "Ryan M. Brown",
+    "Karen E. Jackson"
+  ],
+  "ranking": {
+    "design": 4,
+    "novelty": 3,
+    "edImpact": 3,
+    "guidelineRelevance": 0
+  },
+  "section": "Worth Knowing",
+  "summary": "A single-center pragmatic cluster-randomized multiple-crossover study assigned 2,084 critically ill adults to Normosol-R or lactated Ringer's. Mean plasma bicarbonate through day 7 did not differ (difference -0.12 mmol/dL; 95% CI -0.61 to 0.36; P=.61). New kidney replacement therapy occurred in 6.0% versus 5.0% and 30-day death in 16.3% versus 16.0%, without established differences.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Bicarbonate difference -0.12 mmol/dL (95% CI -0.61 to 0.36; P=.61).",
+    "New kidney replacement therapy 6.0% versus 5.0%, difference 1.0% (95% CI -1.2% to 3.1%).",
+    "30-day mortality 16.3% versus 16.0%, difference 0.3% (95% CI -2.9% to 3.6%).",
+    "Detailed adverse-event data not reported in the reviewed abstract."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "Lactated Ringer's.",
+  "population": "Critically ill adults in one academic center; 2,084 enrolled.",
+  "sampleSize": 2084,
+  "shortTitle": "Normosol-R versus lactated Ringer's",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Single-center ICU trial with a biochemical primary endpoint; absence of significant differences does not prove equivalence. Primary abstract reviewed; linked open-access full text was not reviewed end-to-end.",
+  "retrievedAt": "2026-10-28",
+  "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/39971001/",
+  "intervention": "Normosol-R under cluster-randomized crossover assignment.",
+  "whyItMatters": "This does not support replacing lactated Ringer's with Normosol-R to improve outcomes in eligible critically ill adults. It compares two balanced crystalloids, not saline versus a balanced fluid.",
+  "evidenceNotes": "Primary PubMed abstract PMID 39971001 DOI 10.1016/j.chest.2025.02.008 reviewed, Epub February 17, 2025 versus August print. Legal full text linked but not reviewed. No verified correction found in targeted search.",
+  "discoveredDate": "2026-10-28",
+  "fullTextStatus": "Open-access full text available",
+  "officialPdfUrl": null,
+  "firstOnlineDate": "2025-02-17",
+  "primaryEndpoint": "Mean plasma bicarbonate concentration through day 7.",
+  "reviewedMaterial": "abstract",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-10-28"
+}
