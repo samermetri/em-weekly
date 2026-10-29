@@ -12,6 +12,42 @@ spec = importlib.util.spec_from_file_location('sync_db', pathlib.Path(__file__).
 sync = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(sync)
 
+class AdminCommitTests(unittest.TestCase):
+    class Database:
+        def __init__(self, rows):
+            self.rows = iter(rows)
+            self.parameters = []
+        def execute(self, query, params):
+            self.parameters.append(params)
+            return self
+        def fetchone(self):
+            return next(self.rows)
+
+    def test_routine_polls_do_not_wait_or_query_an_admin_revision(self):
+        db = self.Database([])
+        sync.wait_for_admin_revision(db, '', '')
+        self.assertEqual(db.parameters, [])
+
+    def test_dispatch_waits_until_the_saved_revision_commits(self):
+        db = self.Database([None, (3,), (4,)])
+        with patch.object(sync.time, 'monotonic', return_value=0), patch.object(sync.time, 'sleep') as sleep:
+            sync.wait_for_admin_revision(db, 'preoxi', '4')
+        self.assertEqual(db.parameters, [('preoxi',)] * 3)
+        self.assertEqual(sleep.call_count, 2)
+
+    def test_rolled_back_save_stops_publication(self):
+        db = self.Database([None])
+        with patch.object(sync.time, 'monotonic', side_effect=[0, 46]):
+            with self.assertRaisesRegex(RuntimeError, 'did not commit'):
+                sync.wait_for_admin_revision(db, 'preoxi', '4')
+
+    def test_untrusted_dispatch_input_is_rejected_before_querying(self):
+        for identifier, revision in [('bad/id', '4'), ('preoxi', '-1'), ('', '4'), ('preoxi', '')]:
+            db = self.Database([])
+            with self.assertRaises(ValueError):
+                sync.wait_for_admin_revision(db, identifier, revision)
+            self.assertEqual(db.parameters, [])
+
 class SnapshotTests(unittest.TestCase):
     def test_paths_and_incomplete_snapshot_are_rejected(self):
         for rows in [[('article','../../workflow',{'id':'../../workflow'},1)], [('article','valid',{'id':'different'},1)], [('article','valid',{'id':'valid'},1)]]:

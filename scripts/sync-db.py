@@ -1,5 +1,5 @@
 """Import private editorial JSON and report deployment results with a scoped DB role."""
-import argparse, copy, datetime, hashlib, json, os, pathlib, re, sys
+import argparse, copy, datetime, hashlib, json, os, pathlib, re, sys, time
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SNAPSHOT = ROOT / 'state/db-snapshot.json'
@@ -61,7 +61,30 @@ def local_snapshot_matches(snapshot):
     except (KeyError, ValueError, OSError, TypeError):
         return False
 
+def wait_for_admin_revision(db, article_id, revision, timeout=45):
+    if not article_id and not revision:
+        return
+    if not re.fullmatch(r'[a-z0-9][a-z0-9-]{0,120}', article_id or '') or not re.fullmatch(r'[1-9][0-9]{0,18}', revision or ''):
+        raise ValueError('Invalid admin publication revision')
+    deadline = time.monotonic() + timeout
+    while True:
+        row = db.execute("select revision from em_weekly.documents where kind='article' and id=%s", (article_id,)).fetchone()
+        if row and row[0] >= int(revision):
+            return
+        if time.monotonic() >= deadline:
+            raise RuntimeError('The requested admin edit did not commit; publication stopped')
+        time.sleep(1)
+
+
 def pull():
+    # A synchronous admin dispatch can reach GitHub just before its transaction commits.
+    # Wait in a separate read-committed connection before opening the export snapshot.
+    article_id = os.environ.get('ADMIN_PUBLISH_ARTICLE', '')
+    revision = os.environ.get('ADMIN_PUBLISH_REVISION', '')
+    if article_id or revision:
+        with connect() as db:
+            db.autocommit = True
+            wait_for_admin_revision(db, article_id, revision)
     with connect() as db:
         db.execute('set transaction isolation level repeatable read')
         # Return one small digest, not the growing archive, on unchanged polls.
