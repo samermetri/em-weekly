@@ -10,7 +10,7 @@
     },
     {
       "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
-      "notes": "SQL cache screened ordinals 1-100 and 101-138 (138 distinct cached candidates total); configured EPDAT query returned 50 memberships. Complete enumeration established; NEJM distal/medium-vessel EVT candidates retained for primary review.",
+      "notes": "SQL cache fully screened in ordinals 1-100 and 101-138 (138 candidates total; configured EPDAT membership 50). Primary verification resolved both in-window NEJM EVT trials: DISTAL (PMID 39908430) and ESCAPE-MeVO (PMID 39908448), each first online 2025-02-05. The JAMA vestibular-rehabilitation candidate was excluded from this window after publisher verification of 2025-02-14 first-online date.",
       "status": "success",
       "sourceId": "pubmed-general",
       "checkedAt": "2026-10-29T14:55:00.000Z"
@@ -108,10 +108,10 @@
     },
     {
       "url": "https://sccm.org/clinical-resources/guidelines",
-      "notes": "Not completed in this pass: official directory and interval-specific domain/date search remain to be inspected before this check can be successful.",
-      "status": "failed",
+      "notes": "Official SCCM guideline directory plus interval-specific domain/date search inspected 2026-10-29 LA. The only acute-care-relevant February 2025 hit was the PADIS focused update, published 2025-02-20; it is outside 2025-02-02 through 2025-02-08. No eligible SCCM guidance found by these methods; directory sensitivity is limited to indexed/current material.",
+      "status": "success",
       "sourceId": "sccm",
-      "checkedAt": "2026-10-29T14:55:00.000Z"
+      "checkedAt": "2026-10-30T03:59:00.000Z"
     },
     {
       "url": "https://www.idsociety.org/practice-guideline/",
@@ -159,11 +159,11 @@
   "coverageEnd": "2025-02-08",
   "coverageStart": "2025-02-02",
   "finalCrossCheck": [
-    "Major EM RCT check not completed: cache enumeration screened; no primary RCT appraisal completed.",
-    "Major NEJM/JAMA/Lancet/BMJ acute-care trial check incomplete: NEJM medium/distal-vessel EVT candidates retained for primary review.",
+    "Major EM RCT check: cache screened; no additional eligible major EM RCT selected after primary triage.",
+    "Major NEJM/JAMA/Lancet/BMJ acute-care trials: two in-window NEJM randomized medium/distal-vessel EVT trials were primary-verified and already saved; the JAMA ED vestibular trial was excluded because its actual first-online date was 2025-02-14, outside this window.",
     "ACEP clinical-policy directory/date search not completed.",
     "AHA/ASA guideline/scientific-statement directory/date search not completed.",
-    "SCCM or sepsis-guidance directory/date search not completed.",
+    "SCCM/sepsis guidance: official SCCM guideline-directory plus interval-specific domain/date search inspected; PADIS focused update was published 2025-02-20, outside the window. No eligible item found by these methods.",
     "IDSA guidance directory/date search not completed.",
     "CHEST guidance directory/date search not completed.",
     "Hematology bleeding/anticoagulation-guidance directory/date search not completed.",
@@ -188,6 +188,10 @@
     {
       "reason": "Auricular nerve-block case series; excluded under selective editorial threshold.",
       "identifier": "pmid:39952849"
+    },
+    {
+      "reason": "Primary JAMA publisher/PMC material establishes first-online date 2025-02-14, outside 2025-02-02 through 2025-02-08; not associated with this window.",
+      "identifier": "pmid:39951266"
     }
   ],
   "finalCrossCheckCompleted": false,

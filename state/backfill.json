@@ -144,7 +144,7 @@
     },
     {
       "end": "2025-02-08",
-      "notes": "Partial: complete SQL-cache enumeration screened in ordinal pages 1-100 and 101-138 (138 candidates; configured membership counts EM 40, general 50, specialty 31, guidance 19). Four journal discovery checks are complete. Major NEJM distal/medium-vessel stroke EVT and JAMA ED vestibular-rehabilitation candidates are queued for primary verification; independent society checks and the final cross-check remain incomplete.",
+      "notes": "Partial: complete SQL-cache enumeration screened in ordinal pages 1-100 and 101-138 (138 candidates; configured membership counts EM 40, general 50, specialty 31, guidance 19). Primary review reconciled the two NEJM medium/distal-vessel EVT trials already saved (each first online 2025-02-05); JAMA ED vestibular rehabilitation was explicitly excluded because its primary publisher date is 2025-02-14, outside this window. SCCM directory/date search completed: PADIS focused update was published 2025-02-20, outside the window; no eligible SCCM guidance found by these methods. Remaining independent society checks and final cross-check remain incomplete.",
       "start": "2025-02-02",
       "status": "partial",
       "auditId": "backfill-2025-02-02",
@@ -924,7 +924,7 @@
   ],
   "rangeEnd": "2026-10-26",
   "startedAt": "2026-10-27T20:58:44.597134+00:00",
-  "updatedAt": "2026-10-29T14:55:00.000Z",
+  "updatedAt": "2026-10-30T04:02:42.192Z",
   "rangeStart": "2024-10-27",
   "schemaVersion": 1,
   "candidateQueue": [
@@ -1088,24 +1088,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41618059/",
       "title": "International pediatric hereditary angioedema guideline",
       "reason": "2026-01-25 metadata candidate requiring primary first-online date, airway recommendations and strength review.",
-      "firstOnlineDate": null
-    },
-    {
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39908430/",
-      "title": "Endovascular Treatment for Stroke Due to Occlusion of Medium or Distal Vessels",
-      "reason": "Cached candidate (DOI 10.1056/NEJMoa2408954) needs primary retrieval to establish exact first-online date, randomized design/results, and whether it belongs in this window.",
-      "firstOnlineDate": null
-    },
-    {
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39908448/",
-      "title": "Endovascular Treatment of Stroke Due to Medium-Vessel Occlusion",
-      "reason": "Cached candidate (DOI 10.1056/NEJMoa2411668) needs primary retrieval to establish exact first-online date, randomized design/results, and whether it belongs in this window.",
-      "firstOnlineDate": null
-    },
-    {
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39951266/",
-      "title": "Emergency Department Vestibular Rehabilitation Therapy for Dizziness and Vertigo",
-      "reason": "Cached JAMA Network Open candidate requires primary verification of exact date, nonrandomized design, outcomes, and ED applicability before selection.",
       "firstOnlineDate": null
     }
   ]
