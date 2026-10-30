@@ -1,0 +1,60 @@
+{
+  "id": "single-bruise-abuse-2025",
+  "doi": "10.1542/peds.2024-067932",
+  "pmid": "39961331",
+  "title": "Single Bruise Characteristics Associated With Abusive vs Accidental Injury.",
+  "pinned": false,
+  "sample": false,
+  "source": "Pediatrics",
+  "status": "published",
+  "topics": [
+    "pediatrics",
+    "trauma"
+  ],
+  "authors": [
+    "Audrey Raut",
+    "Mary Clyde Pierce",
+    "Kim Kaczor",
+    "Doug Lorenz",
+    "Gina Bertocci",
+    "Karen Bertocci",
+    "Kirsten Simonton"
+  ],
+  "ranking": {
+    "design": 3,
+    "novelty": 3,
+    "edImpact": 4,
+    "guidelineRelevance": 0
+  },
+  "section": "Worth Knowing",
+  "summary": "This secondary analysis of the TEN-4-FACESp validation cohort evaluated children with one skin finding. Of 349 children with a single bruise, 27 were classified as abused; the rule had 81.5% sensitivity and 87.6% specificity in this restricted sample. Younger age, no injury complaint, a rule-positive location, lower GCS, and psychosocial risk factors were more common with abuse; a negative result did not safely exclude it.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "27 of 349 children (7.7%) with a single bruise were classified as abused.",
+    "Sensitivity was 81.5% and specificity 87.6% for TEN-4-FACESp in this subgroup.",
+    "Five of 27 abuse cases were rule-negative, including one fatal case."
+  ],
+  "studyType": "Diagnostic study",
+  "comparator": "Expert-panel abuse versus accidental-injury classification.",
+  "population": "Children from the TEN-4-FACESp validation study whose only skin finding was one bruise, petechiae, subconjunctival hemorrhage, or frenulum injury.",
+  "sampleSize": 349,
+  "shortTitle": "Single bruise and abusive injury",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "This was a secondary analysis with only 27 abuse cases and expert-panel classifications; it did not test a management protocol. Test performance in this selected single-bruise subgroup was lower in sensitivity than in the parent validation work.",
+  "retrievedAt": "2026-10-29",
+  "canonicalUrl": "https://publications.aap.org/pediatrics/article/155/3/e2024067932/201017/Single-Bruise-Characteristics-Associated-With",
+  "intervention": "TEN-4-FACESp bruising clinical decision rule applied to children with a single skin finding.",
+  "whyItMatters": "A single bruise is not reassuring by itself in a young child. A positive TEN-4-FACESp feature should prompt an abuse evaluation pathway, while a negative rule needs clinical context rather than use as a stand-alone rule-out.",
+  "evidenceNotes": "Official AAP full article and primary abstract were reviewed. This is a diagnostic screening analysis, not a rule-out or disposition trial.",
+  "discoveredDate": "2026-10-29",
+  "fullTextStatus": "Open-access full text available",
+  "officialPdfUrl": null,
+  "firstOnlineDate": "2025-02-18",
+  "primaryEndpoint": "Diagnostic accuracy of TEN-4-FACESp for abuse in the single-bruising subgroup.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-10-29"
+}

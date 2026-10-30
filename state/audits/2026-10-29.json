@@ -1,0 +1,203 @@
+{
+  "date": "2026-10-29",
+  "sources": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "notes": "Configured E-utilities search and the owner-approved official PubMed HTML fallback were attempted for the exact emergency-medicine-journal query with interval 2026/09/30:2026/10/29[edat]. Exact HTML URL: https://pubmed.ncbi.nlm.nih.gov/?term=%28%22Ann%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Acad%20Emerg%20Med%22%5BJournal%5D%20OR%20%22J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Am%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Emerg%20Med%20J%22%5BJournal%5D%20OR%20%22J%20Am%20Coll%20Emerg%20Physicians%20Open%22%5BJournal%5D%20OR%20%22West%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Resuscitation%22%5BJournal%5D%20OR%20%22Prehosp%20Emerg%20Care%22%5BJournal%5D%29%20AND%202026%2F09%2F30%3A2026%2F10%2F29%5Bedat%5D&size=200&format=summary&sort=date . Hosted access failed, so result count and page count were unavailable and pagination completeness could not be verified. Search-engine recovery found current PubMed records but was not treated as exhaustive. Checkpoint not advanced.",
+      "status": "failed",
+      "sourceId": "pubmed-em",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "notes": "Configured E-utilities search and official PubMed HTML fallback were attempted for the exact major-general-journal query with interval 2026/09/30:2026/10/29[edat]. Exact HTML URL: https://pubmed.ncbi.nlm.nih.gov/?term=%28%22N%20Engl%20J%20Med%22%5BJournal%5D%20OR%20%22JAMA%22%5BJournal%5D%20OR%20%22BMJ%22%5BJournal%5D%20OR%20%22Lancet%22%5BJournal%5D%20OR%20%22JAMA%20Intern%20Med%22%5BJournal%5D%20OR%20%22JAMA%20Netw%20Open%22%5BJournal%5D%20OR%20%22Nat%20Med%22%5BJournal%5D%29%20AND%20%28emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest%29%20AND%202026%2F09%2F30%3A2026%2F10%2F29%5Bedat%5D&size=200&format=summary&sort=date . Hosted access failed; result count/page count and complete pagination could not be verified. Independent major-journal recovery searches were performed but cannot substitute for exhaustive PubMed discovery. Checkpoint not advanced.",
+      "status": "failed",
+      "sourceId": "pubmed-general",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "notes": "Configured E-utilities search and official PubMed HTML fallback were attempted for the exact specialty-journal query with interval 2026/09/30:2026/10/29[edat]. Exact HTML URL: https://pubmed.ncbi.nlm.nih.gov/?term=%28%22Circulation%22%5BJournal%5D%20OR%20%22Stroke%22%5BJournal%5D%20OR%20%22Chest%22%5BJournal%5D%20OR%20%22Crit%20Care%20Med%22%5BJournal%5D%20OR%20%22Intensive%20Care%20Med%22%5BJournal%5D%20OR%20%22Clin%20Infect%20Dis%22%5BJournal%5D%20OR%20%22Blood%22%5BJournal%5D%20OR%20%22Pediatrics%22%5BJournal%5D%20OR%20%22Obstet%20Gynecol%22%5BJournal%5D%20OR%20%22J%20Trauma%20Acute%20Care%20Surg%22%5BJournal%5D%20OR%20%22Clin%20Toxicol%20%28Phila%29%22%5BJournal%5D%20OR%20%22Kidney%20Int%22%5BJournal%5D%20OR%20%22Am%20J%20Psychiatry%22%5BJournal%5D%29%20AND%20%28emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest%29%20AND%202026%2F09%2F30%3A2026%2F10%2F29%5Bedat%5D&size=200&format=summary&sort=date . Hosted access failed; result count/page count and complete pagination could not be verified. Targeted recovery searches and queued-candidate review were performed. Checkpoint not advanced.",
+      "status": "failed",
+      "sourceId": "pubmed-specialty",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "notes": "Configured E-utilities search and official PubMed HTML fallback were attempted for the exact guidance query with interval 2026/09/30:2026/10/29[edat]. Exact HTML URL: https://pubmed.ncbi.nlm.nih.gov/?term=%28emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest%29%20AND%20%28guideline%5BPublication%20Type%5D%20OR%20practice%20guideline%5BPublication%20Type%5D%20OR%20consensus%5BTitle%5D%20OR%20scientific%20statement%5BTitle%5D%20OR%20clinical%20policy%5BTitle%5D%20OR%20position%20statement%5BTitle%5D%29%20AND%202026%2F09%2F30%3A2026%2F10%2F29%5Bedat%5D&size=200&format=summary&sort=date . Hosted access failed; result count/page count and pagination completeness could not be verified. The separate official-society sweep was completed, but this PubMed checkpoint was not advanced.",
+      "status": "failed",
+      "sourceId": "pubmed-guidance",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://journalfeed.org/",
+      "notes": "Official JournalFeed home/archive and dated web search were checked as secondary discovery only. The newest visible archive material was October 28; highlighted papers included older first-online evidence and did not create a new October 29 publication candidate.",
+      "status": "success",
+      "sourceId": "journalfeed",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://www.acep.org/patient-care/clinical-policies",
+      "notes": "ACEP clinical-policy directory plus dated official-domain search checked. No new acute clinical policy first online in the current recovery interval was identified.",
+      "status": "success",
+      "sourceId": "acep",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://professional.heart.org/en/guidelines-and-statements",
+      "notes": "AHA/ASA recent guidelines/statements and dated official-domain search checked. No new interval-specific acute stroke or resuscitation guidance was identified.",
+      "status": "success",
+      "sourceId": "aha-asa",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://www.acc.org/guidelines",
+      "notes": "ACC current guidance and dated official-domain search checked. An October 28 high-sensitivity troponin state-of-the-art review was not a new clinical guideline or outcome trial and was not selected.",
+      "status": "success",
+      "sourceId": "acc",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
+      "notes": "AAP guideline/policy pages and dated official-domain search checked. No new ED-priority pediatric guideline first online after the already stored September UTI guideline was identified.",
+      "status": "success",
+      "sourceId": "aap",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
+      "notes": "ACS trauma best-practice and 2026 standards pages plus dated official-domain search checked. Current 2026 standards are operational and future-effective rather than a new bedside acute-care guideline.",
+      "status": "success",
+      "sourceId": "acs",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://www.ena.org/practice-resources",
+      "notes": "ENA practice-resource directory and dated official-domain search checked. No newly dated ED clinical guidance meeting the inclusion threshold was identified.",
+      "status": "success",
+      "sourceId": "ena",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://www.saem.org/publications/grace",
+      "notes": "SAEM GRACE directory and dated official-domain search checked. No new 2026 interval-specific GRACE guideline was identified.",
+      "status": "success",
+      "sourceId": "saem",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://www.aaem.org/statements/",
+      "notes": "AAEM statements and dated official-domain search checked. Recent October statements were administrative/workforce focused rather than new bedside clinical guidance.",
+      "status": "success",
+      "sourceId": "aaem",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
+      "notes": "ASH guideline directory and dated bleeding/anticoagulation search checked. No new interval-specific emergency bleeding or anticoagulation guideline was identified.",
+      "status": "success",
+      "sourceId": "ash",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
+      "notes": "CHEST guideline directory and dated acute pulmonary/PE search checked. No new ED-priority guideline first online in the current interval was identified.",
+      "status": "success",
+      "sourceId": "chest",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://www.sccm.org/clinical-resources/guidelines",
+      "notes": "SCCM/Surviving Sepsis Campaign pages and dated search checked. The 2026 adult and pediatric sepsis guidelines predate this recovery interval; no new update was identified.",
+      "status": "success",
+      "sourceId": "sccm",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
+      "notes": "IDSA current-guideline/status pages and dated official-domain search checked. No new ED-priority infectious-disease guidance first online in the current interval was identified.",
+      "status": "success",
+      "sourceId": "idsa",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://www.acmt.net/statements/",
+      "notes": "ACMT position/practice statements and dated official-domain search checked. October conference activity was not treated as guidance; no new acute toxicology statement meeting threshold was identified.",
+      "status": "success",
+      "sourceId": "acmt",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://www.east.org/education-resources/practice-management-guidelines",
+      "notes": "EAST PMG directory and dated official-domain search checked. The queued 2026 BCVI page remains a guideline under development, not a final publication.",
+      "status": "success",
+      "sourceId": "east-trauma",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://eso-stroke.org/guidelines/",
+      "notes": "ESO guideline directory and dated stroke-guidance search checked. No new interval-specific acute stroke guideline was identified.",
+      "status": "success",
+      "sourceId": "eso-stroke",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://www.acog.org/clinical",
+      "notes": "ACOG clinical guidance and dated obstetric-emergency search checked. No new acute obstetric emergency guidance meeting the inclusion threshold was identified.",
+      "status": "success",
+      "sourceId": "acog",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    },
+    {
+      "url": "https://www.erc.edu/science-research/guidelines/",
+      "notes": "ERC guidelines and dated official-domain search checked. Current resuscitation guidance remains the 2025 guideline set; no new 2026 interval-specific guideline was identified.",
+      "status": "success",
+      "sourceId": "erc",
+      "checkedAt": "2026-10-29T09:08:24.468Z"
+    }
+  ],
+  "coverageEnd": "2026-10-29",
+  "coverageStart": "2026-09-30",
+  "finalCrossCheck": [
+    "2026-10-29 exact search: emergency medicine trial October 29 2026 randomized emergency department. No new major current ED RCT was identified beyond already stored evidence.",
+    "2026-10-29 exact search: site:nejm.org 2026 Oct 29 emergency acute trial. No new October 29 ED-priority trial was identified; retrieved acute-care trials were older or already stored.",
+    "2026-10-29 exact search: site:jamanetwork.com 2026 Oct 29 emergency acute randomized. No new ED-priority trial was identified.",
+    "2026-10-29 exact search: site:thelancet.com 2026 Oct 29 emergency trial acute care. No new ED-priority publication was identified.",
+    "2026-10-29 exact search: site:bmj.com 2026 Oct 29 emergency trial acute care. No new ED-priority publication was identified.",
+    "2026-10-29 ACEP cross-check: no new acute clinical policy first online in the recovery interval.",
+    "2026-10-29 AHA/ASA cross-check: no new acute stroke or resuscitation guideline first online in the recovery interval.",
+    "2026-10-29 SCCM/sepsis cross-check: no new interval-specific sepsis guidance; the 2026 SSC guidance predates the recovery interval.",
+    "2026-10-29 IDSA cross-check: no new acute infectious-disease guideline meeting the ED publication threshold was identified.",
+    "2026-10-29 CHEST/PE cross-check: no new interval-specific acute PE or other ED-priority CHEST guideline was identified.",
+    "2026-10-29 hematology/bleeding cross-check: no new ASH emergency bleeding or anticoagulation guidance was identified.",
+    "2026-10-29 toxicology cross-check: no new ACMT/AACT acute clinical statement was identified.",
+    "2026-10-29 trauma cross-check: no new final EAST/ACS acute trauma guideline was identified; the BCVI page remains under development.",
+    "2026-10-29 pediatric cross-check: no new ED-priority AAP guideline was identified.",
+    "2026-10-29 obstetric cross-check: no new ED-priority ACOG guideline was identified.",
+    "2026-10-29 queued-candidate cross-check: PMID 42901741 remains without an accessible primary results abstract; PMID 42901744 has no PubMed abstract and official full text returned 403; PMID 42901366 was fully appraised from the primary abstract but remains observational process evidence without patient outcomes."
+  ],
+  "excludedCandidates": [
+    {
+      "reason": "VECARS-2 primary abstract was reviewed. Real-time BVM feedback improved insufflated-volume adherence and reduced leak but did not improve expiratory tidal volume; before-after observational design and absence of patient outcomes make it insufficiently strong for a selective daily publication. Retained as held.",
+      "identifier": "PMID 42901366"
+    },
+    {
+      "reason": "First-online date and identifiers are verified for October 20, but a primary results abstract/full text could not be retrieved in this run. Secondary result summaries were not promoted to evidence-grade publication; retained for primary review.",
+      "identifier": "PMID 42901741"
+    },
+    {
+      "reason": "PubMed verifies the October 20 diagnostic study and states that no abstract is available; the official EMJ full-text link returned 403. Secondary numerical results were not used for publication; retained for primary review.",
+      "identifier": "PMID 42901744"
+    },
+    {
+      "reason": "Underlying primary study was first online August 17, 2026; a later JournalFeed feature does not make the evidence new.",
+      "identifier": "JournalFeed October 28 pediatric cervical-spine CT item"
+    },
+    {
+      "reason": "Underlying Chest meta-analysis was first online August 18, 2026; later secondary coverage does not make it new.",
+      "identifier": "JournalFeed October 27 induction-agent meta-analysis"
+    }
+  ],
+  "finalCrossCheckCompleted": true,
+  "guidelineSearchCompleted": true
+}

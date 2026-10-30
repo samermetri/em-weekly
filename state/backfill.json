@@ -144,10 +144,10 @@
     },
     {
       "end": "2025-02-08",
-      "notes": "Initial source-verified selection only. Complete journal discovery, separate guideline search and final cross-check for this window remain pending.",
+      "notes": "Partial: complete SQL-cache enumeration screened in ordinal pages 1-100 and 101-138 (138 candidates; configured membership counts EM 40, general 50, specialty 31, guidance 19). Four journal discovery checks are complete. Major NEJM distal/medium-vessel stroke EVT and JAMA ED vestibular-rehabilitation candidates are queued for primary verification; independent society checks and the final cross-check remain incomplete.",
       "start": "2025-02-02",
       "status": "partial",
-      "auditId": "backfill-initial-2024-2025",
+      "auditId": "backfill-2025-02-02",
       "articleIds": [
         "distal-thrombectomy-2025",
         "escape-mevo-thrombectomy-2025"
@@ -163,14 +163,17 @@
     },
     {
       "end": "2025-02-22",
-      "notes": "Partial: full SQL-cache enumeration of 158 unique candidates in ordinal pages 1-100 and 101-158; exact four query/date/count memberships matched. Selected two SCCM guidelines and one trial from primary material. Independent society review and queued clinical candidates unresolved.",
+      "notes": "Complete 2026-10-29 LA: 158 cached candidates fully screened in ordinal pages 1-100 and 101-158; all four configured journal checks and independent society/manual checks completed. Remaining TRACK-TBI biomarker and single-bruise diagnostic candidates were primary-appraised and added. Twelve-plus final cross-check outcomes completed; bounded directory/index search limitations retained.",
       "start": "2025-02-16",
-      "status": "partial",
+      "status": "complete",
       "auditId": "backfill-2025-02-16",
       "articleIds": [
         "sccm-adult-ccus-focused-update-2025",
         "sccm-heat-stroke-guideline-2025",
-        "normosol-vs-lr-icu-2025"
+        "normosol-vs-lr-icu-2025",
+        "naemsp-prehospital-trauma-antibiotics-2025",
+        "track-tbi-alcohol-biomarkers-2025",
+        "single-bruise-abuse-2025"
       ]
     },
     {
@@ -337,9 +340,9 @@
     },
     {
       "end": "2025-07-12",
-      "notes": "Partial after 2026-10-28 LA review: SQL cache fully enumerated 116 distinct candidates in ordinal pages 1-100 and 101-116, with all four exact configured queries/counts/memberships matched. Acute-pancreatitis guidance, siltartoxatug phase 3, AF screening, and CRP/ESR spinal-infection evidence were primary-reviewed and added. Trauma guidance/date questions and society archive completeness remain unresolved.",
+      "notes": "Complete 2026-10-29 LA: all 116 cached candidates screened in ordinal pages 1-100 and 101-116; the four exact configured PubMed electronic-date queries matched cache membership/counts. Defined independent official society/domain-and-date checks and JournalFeed secondary search were completed and recorded. Primary review resolved the POCUS, REBOA, low-tidal-volume ventilation, and EAST hemothorax candidates; four selected records remain. Twelve-plus final cross-checks are complete. Search sensitivity is limited to cached journal enumeration and accessible official/indexed archives.",
       "start": "2025-07-06",
-      "status": "partial",
+      "status": "complete",
       "auditId": "backfill-2025-07-06",
       "articleIds": [
         "crp-esr-spinal-infection-2025",
@@ -589,7 +592,8 @@
       "articleIds": [
         "aha-asa-acute-ischemic-stroke-2026",
         "aha-maternal-stroke-2026",
-        "emphasis-minocycline-stroke-2026"
+        "emphasis-minocycline-stroke-2026",
+        "acmt-iv-nac-duration-2026"
       ]
     },
     {
@@ -920,7 +924,7 @@
   ],
   "rangeEnd": "2026-10-26",
   "startedAt": "2026-10-27T20:58:44.597134+00:00",
-  "updatedAt": "2026-10-29T07:15:00.000Z",
+  "updatedAt": "2026-10-29T14:55:00.000Z",
   "rangeStart": "2024-10-27",
   "schemaVersion": 1,
   "candidateQueue": [
@@ -1087,27 +1091,21 @@
       "firstOnlineDate": null
     },
     {
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40641453/",
-      "title": "First-trimester point-of-care ultrasound diagnostic accuracy study",
-      "reason": "Cached July 6-12, 2025 candidate; multicenter ED POCUS diagnostic study requires primary performance estimates, exact applicability, and correction review before selection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39908430/",
+      "title": "Endovascular Treatment for Stroke Due to Occlusion of Medium or Distal Vessels",
+      "reason": "Cached candidate (DOI 10.1056/NEJMoa2408954) needs primary retrieval to establish exact first-online date, randomized design/results, and whether it belongs in this window.",
       "firstOnlineDate": null
     },
     {
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40664566/",
-      "title": "Consensus-based indications for REBOA",
-      "reason": "Cached July 6-12, 2025 candidate; exact consensus method, clinical thresholds, comparison with UK-REBOA and US trauma guidance require primary appraisal.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39908448/",
+      "title": "Endovascular Treatment of Stroke Due to Medium-Vessel Occlusion",
+      "reason": "Cached candidate (DOI 10.1056/NEJMoa2411668) needs primary retrieval to establish exact first-online date, randomized design/results, and whether it belongs in this window.",
       "firstOnlineDate": null
     },
     {
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40639639/",
-      "title": "Low-tidal-volume ventilation in acute brain injury",
-      "reason": "Cached July 6-12, 2025 observational candidate; primary effect estimates and confounding need appraisal before deciding whether it adds ED-relevant guidance.",
-      "firstOnlineDate": null
-    },
-    {
-      "url": "https://www.east.org/education-resources/practice-management-guidelines",
-      "title": "EAST hemothorax practice management guideline 2025",
-      "reason": "Surfaced during July 6-12 trauma-society cross-check; exact first-online publication date and primary recommendation details were not established, so it remains unresolved and is not assigned to this window.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39951266/",
+      "title": "Emergency Department Vestibular Rehabilitation Therapy for Dizziness and Vertigo",
+      "reason": "Cached JAMA Network Open candidate requires primary verification of exact date, nonrandomized design, outcomes, and ED applicability before selection.",
       "firstOnlineDate": null
     }
   ]

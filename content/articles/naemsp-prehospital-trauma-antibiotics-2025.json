@@ -1,0 +1,59 @@
+{
+  "id": "naemsp-prehospital-trauma-antibiotics-2025",
+  "doi": "10.1080/10903127.2025.2460203",
+  "pmid": "39889226",
+  "title": "Prehospital Trauma Compendium: Prehospital Administration of Antibiotics in Trauma Patients - an NAEMSP Resource Document",
+  "pinned": false,
+  "sample": false,
+  "source": "Prehospital Emergency Care",
+  "status": "published",
+  "topics": [
+    "trauma",
+    "infectious-disease",
+    "guidelines"
+  ],
+  "authors": [
+    "Whitney J Barrett",
+    "Kevin A Kaucher",
+    "Ross E Orpet",
+    "Christopher B Colwell",
+    "John W Lyng"
+  ],
+  "ranking": {
+    "design": 2,
+    "novelty": 3,
+    "edImpact": 3,
+    "guidelineRelevance": 3
+  },
+  "section": "Guidelines & Statements",
+  "summary": "This NAEMSP resource document reviewed prehospital prophylactic antibiotics for open fractures and other major open wounds. The evidence synthesis included 13 of 105 identified studies; available combat and civilian evidence was mostly observational and retrospective. The authors conclude that prehospital antibiotics appear safe and may be considered for selected trauma patients, but universal implementation remains unsupported because patient-centered outcome effects, ideal candidates, timing, and regimen remain uncertain.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "The review identified 105 articles and included 13 in its final evidence synthesis.",
+    "Available combat and civilian data were mostly observational and retrospective; safety appeared acceptable but clinical-outcome benefit was uncertain.",
+    "The document supports considering locally developed protocols for selected patients, including open fractures or prolonged transport, rather than universal adoption."
+  ],
+  "studyType": "Consensus statement",
+  "comparator": "Usual care without prehospital antibiotics",
+  "population": "Prehospital trauma patients with open fractures or other major open wounds",
+  "sampleSize": null,
+  "shortTitle": "Prehospital antibiotics for trauma",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "This is a resource document, not a GRADE-based guideline; no formal bias or certainty assessment was performed. Its evidence base is predominantly observational, and the abstract does not establish a universal regimen or outcome benefit.",
+  "retrievedAt": "2026-10-29",
+  "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/39889226/",
+  "intervention": "Prehospital prophylactic antibiotics in selected trauma patients",
+  "whyItMatters": "For EMS-to-ED systems with long transport times or protocols for open fractures, this supports a selective, multidisciplinary protocol discussion rather than routine antibiotics for all injured patients.",
+  "evidenceNotes": "Primary PubMed abstract reviewed on 2026-10-29. It reports online-ahead-of-print publication on 2025-02-21 and explicitly states that GRADE and formal bias/strength assessment were not used.",
+  "discoveredDate": "2026-10-29",
+  "fullTextStatus": "Abstract available; full text paywalled",
+  "officialPdfUrl": null,
+  "firstOnlineDate": "2025-02-21",
+  "primaryEndpoint": "Evidence synthesis of safety, implementation, and patient-centered outcomes",
+  "reviewedMaterial": "abstract",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-10-29"
+}

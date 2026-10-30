@@ -1,0 +1,55 @@
+{
+  "id": "acmt-iv-nac-duration-2026",
+  "doi": null,
+  "pmid": null,
+  "title": "ACMT Practice Statement: Duration of Intravenous Acetylcysteine Therapy Following Acetaminophen Overdose (2026 Update)",
+  "pinned": false,
+  "sample": false,
+  "source": "American College of Medical Toxicology / American Academy of Clinical Toxicology",
+  "status": "published",
+  "topics": [
+    "toxicology"
+  ],
+  "authors": [
+    "Jonathan Meadows",
+    "Robert Hendrickson",
+    "Andrew Stolbach"
+  ],
+  "ranking": {
+    "design": 3,
+    "novelty": 4,
+    "edImpact": 5,
+    "guidelineRelevance": 5
+  },
+  "section": "Guidelines & Statements",
+  "summary": "This ACMT/AACT 2026 practice statement updates its 2016 guidance on IV acetylcysteine (NAC) duration after acetaminophen poisoning. It advises against stopping solely because a standard 21-hour infusion has ended: continue NAC when aminotransferases are rising, prognostic markers are worsening, or acetaminophen remains detectable. For discontinuation, it strongly recommends all of the following: acetaminophen below 10 mcg/mL, improving AST/ALT (if elevated, down 25%–50% from peak), INR below 2.0, and improving prognostic markers such as creatinine, lactate, pH, and phosphate.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Do not stop IV NAC solely because a standard 21-hour regimen has finished when aminotransferases rise, prognostic markers worsen, or acetaminophen remains detectable.",
+    "ACMT strongly recommends all discontinuation criteria: acetaminophen <10 mcg/mL, improving AST/ALT, INR <2.0, and improving creatinine, lactate, pH, and phosphate.",
+    "Massive ingestion, delayed absorption, coingestants slowing gastrointestinal motility, or hemodialysis may require individualized extension or adjustment of therapy.",
+    "The statement supports consultation with a medical toxicologist, poison center, and—when severe hepatic dysfunction is present—liver-transplant expertise."
+  ],
+  "studyType": "Consensus statement",
+  "comparator": "Automatic cessation after a fixed 21-hour intravenous acetylcysteine protocol.",
+  "population": "Patients with potentially toxic acetaminophen ingestion receiving intravenous acetylcysteine, including those with hepatotoxicity or hepatic failure.",
+  "sampleSize": null,
+  "shortTitle": "ACMT 2026: criteria for stopping IV NAC",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "This is a society practice statement based on literature review and expert judgment, not a new comparative trial. It does not validate one universal acetaminophen reporting threshold across laboratories or replace individualized toxicology consultation.",
+  "retrievedAt": "2026-10-29",
+  "canonicalUrl": "https://www.acmt.net/news/acmt-practice-statement-duration-of-intravenous-acetylcysteine-therapy-following-acetaminophen-overdose-2026-update/",
+  "intervention": "Assessment-guided continuation or discontinuation of intravenous acetylcysteine after the initial treatment protocol.",
+  "whyItMatters": "For overdose patients approaching the end of a standard infusion, this gives a concrete stopping checklist rather than treating 21 hours as an automatic endpoint. It reinforces continued NAC and toxicology/poison-center consultation when hepatic injury, persistent drug, or worsening prognostic markers remain.",
+  "evidenceNotes": "Full official ACMT statement reviewed on October 29, 2026. The society page is dated January 26, 2026 and states that the update was approved January 2026. No DOI or PubMed identifier was displayed on the reviewed primary statement.",
+  "discoveredDate": "2026-10-29",
+  "fullTextStatus": "Official society summary available",
+  "firstOnlineDate": "2026-01-26",
+  "primaryEndpoint": "Consensus recommendations for when intravenous acetylcysteine may be discontinued or should be continued.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": "ACMT states it strongly recommends all listed discontinuation criteria be present; it does not report a formal GRADE framework.",
+  "sitePublishedDate": "2026-10-29"
+}

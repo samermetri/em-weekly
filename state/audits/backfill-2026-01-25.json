@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "sources": [
     {
       "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=%28%28%22Ann+Emerg+Med%22%5BJournal%5D+OR+%22Acad+Emerg+Med%22%5BJournal%5D+OR+%22J+Emerg+Med%22%5BJournal%5D+OR+%22Am+J+Emerg+Med%22%5BJournal%5D+OR+%22Emerg+Med+J%22%5BJournal%5D+OR+%22J+Am+Coll+Emerg+Physicians+Open%22%5BJournal%5D+OR+%22West+J+Emerg+Med%22%5BJournal%5D+OR+%22Resuscitation%22%5BJournal%5D+OR+%22Prehosp+Emerg+Care%22%5BJournal%5D%29%29+AND+%28%222026%2F01%2F25%22%5BEPDAT%5D+%3A+%222026%2F01%2F31%22%5BEPDAT%5D%29&tool=em-weekly",
@@ -171,7 +171,8 @@
     "ACS/EAST trauma: targeted official checks did not verify new in-window major guidance.",
     "Pediatrics: hereditary angioedema pediatric guideline remains queued for primary dating and ED-recommendation appraisal.",
     "Obstetrics: ACOG January endorsement of AHA maternal stroke is not a distinct guidance document.",
-    "Conflicts and corrections: later MIST-A post-thrombectomy trial used different population/outcome; held AIS guideline awaits correction review; window partial."
+    "Conflicts and corrections: later MIST-A post-thrombectomy trial used different population/outcome; held AIS guideline awaits correction review; window partial.",
+    "ACMT/AACT toxicology: official ACMT archive and full January 26 IV-NAC statement reviewed; selected as high-priority toxicology guidance. AHA/ASA AIS erratum DOI 10.1161/STR.0000000000000530 was retrieved; it requires a separate cautious record-level correction before the held guideline can be released."
   ],
   "excludedCandidates": [
     {
@@ -181,6 +182,10 @@
     {
       "reason": "Two-ED SPG block dose-finding RCT (220 enrolled) lacked sham comparison and did not establish higher-dose superiority; not selected over higher-impact evidence.",
       "identifier": "PMID 41603837"
+    },
+    {
+      "reason": "Official AAP directory shows a January 26 neonatal hypoxic-ischemic-encephalopathy clinical report; it is NICU-focused and was not selected for this emergency-medicine brief.",
+      "identifier": "AAP DOI 10.1542/peds.2025-073627"
     }
   ],
   "finalCrossCheckCompleted": false,

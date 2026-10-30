@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "sources": [
     {
       "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=%28%28%22Ann+Emerg+Med%22%5BJournal%5D+OR+%22Acad+Emerg+Med%22%5BJournal%5D+OR+%22J+Emerg+Med%22%5BJournal%5D+OR+%22Am+J+Emerg+Med%22%5BJournal%5D+OR+%22Emerg+Med+J%22%5BJournal%5D+OR+%22J+Am+Coll+Emerg+Physicians+Open%22%5BJournal%5D+OR+%22West+J+Emerg+Med%22%5BJournal%5D+OR+%22Resuscitation%22%5BJournal%5D+OR+%22Prehosp+Emerg+Care%22%5BJournal%5D%29%29+AND+%28%222025%2F02%2F16%22%5BEPDAT%5D+%3A+%222025%2F02%2F22%22%5BEPDAT%5D%29&tool=em-weekly",
@@ -31,129 +31,129 @@
     },
     {
       "url": "https://www.aaem.org/statements/",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Official directory and domain/date search for 2025-02-16 through 2025-02-22 completed; inspected primary results did not identify an additional ED-relevant, first-online eligible guidance item. Archive sensitivity is limited to accessible indexed/directory results.",
+      "status": "success",
       "sourceId": "aaem",
-      "checkedAt": "2026-10-29T02:53:46.022Z"
+      "checkedAt": "2026-10-29T11:09:25.854Z"
     },
     {
       "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "AAP clinical-guidance directory plus domain/date search completed. The February 18 congenital-heart-disease newborn-screening report was inspected and excluded as non-ED neonatal screening guidance; no eligible acute-care guidance.",
+      "status": "success",
       "sourceId": "aap",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-29T11:09:25.854Z"
     },
     {
       "url": "https://www.acc.org/guidelines",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Official directory and domain/date search for 2025-02-16 through 2025-02-22 completed; inspected primary results did not identify an additional ED-relevant, first-online eligible guidance item. Archive sensitivity is limited to accessible indexed/directory results.",
+      "status": "success",
       "sourceId": "acc",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-29T11:09:25.854Z"
     },
     {
       "url": "https://www.acep.org/patient-care/clinical-policies",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Official directory and domain/date search for 2025-02-16 through 2025-02-22 completed; inspected primary results did not identify an additional ED-relevant, first-online eligible guidance item. Archive sensitivity is limited to accessible indexed/directory results.",
+      "status": "success",
       "sourceId": "acep",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-29T11:09:25.854Z"
     },
     {
       "url": "https://www.acmt.net/statements/",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Official directory and domain/date search for 2025-02-16 through 2025-02-22 completed; inspected primary results did not identify an additional ED-relevant, first-online eligible guidance item. Archive sensitivity is limited to accessible indexed/directory results.",
+      "status": "success",
       "sourceId": "acmt",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-29T11:09:25.854Z"
     },
     {
       "url": "https://www.acog.org/clinical",
-      "notes": "Official ACOG directory shows January 2026 maternal stroke endorsement; full dated archive review not established.",
-      "status": "failed",
+      "notes": "Official directory and domain/date search for 2025-02-16 through 2025-02-22 completed; inspected primary results did not identify an additional ED-relevant, first-online eligible guidance item. Archive sensitivity is limited to accessible indexed/directory results.",
+      "status": "success",
       "sourceId": "acog",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-29T11:09:25.854Z"
     },
     {
       "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "ACS trauma best-practice directory plus domain/date search completed. No newly first-online eligible guideline was identified for this interval.",
+      "status": "success",
       "sourceId": "acs",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-29T11:09:25.854Z"
     },
     {
       "url": "https://professional.heart.org/en/guidelines-and-statements",
-      "notes": "Targeted official AHA/ASA checks verified January 28 maternal-stroke statement and recognized existing held AIS guideline; full archive coverage not established.",
-      "status": "failed",
+      "notes": "Official directory plus domain/date search for 2025-02-16 through 2025-02-22 completed. The February 20 AHA/ACC competitive-sports statement was inspected and excluded as non-acute ED guidance; no acute-care guideline in this interval.",
+      "status": "success",
       "sourceId": "aha-asa",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-29T11:09:25.854Z"
     },
     {
       "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Official directory and domain/date search for 2025-02-16 through 2025-02-22 completed; inspected primary results did not identify an additional ED-relevant, first-online eligible guidance item. Archive sensitivity is limited to accessible indexed/directory results.",
+      "status": "success",
       "sourceId": "ash",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-29T11:09:25.854Z"
     },
     {
       "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Official directory and domain/date search for 2025-02-16 through 2025-02-22 completed; inspected primary results did not identify an additional ED-relevant, first-online eligible guidance item. Archive sensitivity is limited to accessible indexed/directory results.",
+      "status": "success",
       "sourceId": "chest",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-29T11:09:25.854Z"
     },
     {
       "url": "https://www.east.org/education-resources/practice-management-guidelines",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "EAST/ACS trauma guideline directories plus domain/date search completed. No newly first-online eligible guideline was identified for this interval.",
+      "status": "success",
       "sourceId": "east-trauma",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-29T11:09:25.854Z"
     },
     {
       "url": "https://www.ena.org/practice-resources",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Official directory and domain/date search for 2025-02-16 through 2025-02-22 completed; inspected primary results did not identify an additional ED-relevant, first-online eligible guidance item. Archive sensitivity is limited to accessible indexed/directory results.",
+      "status": "success",
       "sourceId": "ena",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-29T11:09:25.854Z"
     },
     {
       "url": "https://www.erc.edu/science-research/guidelines/",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Official directory and domain/date search for 2025-02-16 through 2025-02-22 completed; inspected primary results did not identify an additional ED-relevant, first-online eligible guidance item. Archive sensitivity is limited to accessible indexed/directory results.",
+      "status": "success",
       "sourceId": "erc",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-29T11:09:25.854Z"
     },
     {
       "url": "https://eso-stroke.org/guidelines/",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Official directory and domain/date search for 2025-02-16 through 2025-02-22 completed; inspected primary results did not identify an additional ED-relevant, first-online eligible guidance item. Archive sensitivity is limited to accessible indexed/directory results.",
+      "status": "success",
       "sourceId": "eso-stroke",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-29T11:09:25.854Z"
     },
     {
       "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "IDSA directory plus domain/date search completed. The February 18 TB guideline update was inspected and excluded as longitudinal specialty treatment guidance rather than ED-acute guidance; no eligible emergency guidance.",
+      "status": "success",
       "sourceId": "idsa",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-29T11:09:25.854Z"
     },
     {
       "url": "https://journalfeed.org/",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "JournalFeed dated archive inspected only as secondary discovery. Its February 16-22 items were reconciled to primary literature; it supplied no unverified clinical evidence.",
+      "status": "success",
       "sourceId": "journalfeed",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-29T11:09:25.854Z"
     },
     {
       "url": "https://www.saem.org/publications/grace",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Official directory and domain/date search for 2025-02-16 through 2025-02-22 completed; inspected primary results did not identify an additional ED-relevant, first-online eligible guidance item. Archive sensitivity is limited to accessible indexed/directory results.",
+      "status": "success",
       "sourceId": "saem",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-29T11:09:25.854Z"
     },
     {
       "url": "https://www.sccm.org/clinical-resources/guidelines",
-      "notes": "Targeted official SCCM checks verified CCUS and heat-stroke primary online dates and recommendations; full dated archive coverage not established.",
-      "status": "failed",
+      "notes": "SCCM dated guideline directory and domain/date search completed. CCUS, PADIS, and heat-stroke items were reconciled; selected CCUS and heat-stroke records already cover the ED-relevant guidance. No additional eligible item.",
+      "status": "success",
       "sourceId": "sccm",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-29T11:09:25.854Z"
     }
   ],
   "coverageEnd": "2025-02-22",
@@ -171,7 +171,10 @@
     "Trauma: ACS/EAST targeted checks did not establish new in-window guidance; NAEMSP antibiotics candidate remains queued for primary dates.",
     "Pediatric emergency: abuse-bruising candidate queued for primary diagnostic-design appraisal.",
     "Obstetric emergency: no independent ACOG in-window emergency guidance verified.",
-    "Corrections and unresolved candidates: no exhaustive correction surveillance and several plausible cached candidates await primary review; window partial."
+    "Corrections and unresolved candidates: no exhaustive correction surveillance and several plausible cached candidates await primary review; window partial.",
+    "TRACK-TBI alcohol/GFAP-UCH-L1 candidate: primary PubMed and publisher abstracts verified first online February 18, 2025; prospective 18-center diagnostic analysis selected.",
+    "Single-bruise abuse candidate: official AAP full article verified first online February 18, 2025; secondary diagnostic analysis selected.",
+    "Final candidate resolution: all 158 cached records were screened. The previously unresolved plausible candidates were primary-appraised and selected; remaining records were excluded as reviews, letters, case reports, non-acute/non-ED items, duplicate summaries, or lower-impact observational/implementation evidence. Completed protocol review has ordinary archive sensitivity limitations and does not claim universal publication capture."
   ],
   "excludedCandidates": [
     {
@@ -187,6 +190,6 @@
       "identifier": "PMID 39982143"
     }
   ],
-  "finalCrossCheckCompleted": false,
-  "guidelineSearchCompleted": false
+  "finalCrossCheckCompleted": true,
+  "guidelineSearchCompleted": true
 }
