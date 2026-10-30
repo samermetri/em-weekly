@@ -1,10 +1,11 @@
 ---
 import Icon from './Icon.astro';
-const {title,printTitle,shareUrl=new URL(Astro.url.pathname,Astro.site).href}=Astro.props;
+const {title,printTitle,articleId,shareUrl=new URL(Astro.url.pathname,Astro.site).href}=Astro.props;
 ---
 <div class="document-actions" data-document-title={title} data-print-title={printTitle} data-share-url={shareUrl}>
   <button class="btn primary print-button" type="button"><Icon name="download" size={16}/> Print / Save as PDF</button>
   <button class="btn share-button" type="button"><Icon name="share" size={16}/> Share</button>
+  {articleId&&<label class="print-notes-toggle"><input type="checkbox" data-print-note={articleId}/> Include my notes</label>}
   <span class="share-status" role="status" aria-live="polite"></span>
   <label class="share-fallback" hidden>Copy article link <input type="text" readonly value={shareUrl}/></label>
 </div>
@@ -12,6 +13,21 @@ const {title,printTitle,shareUrl=new URL(Astro.url.pathname,Astro.site).href}=As
 const actions=document.querySelector<HTMLElement>('.document-actions');
 if(actions){
  const originalTitle=document.title;
+ const notesToggle=actions.querySelector<HTMLInputElement>('[data-print-note]');
+ const printButton=actions.querySelector<HTMLButtonElement>('.print-button');
+ let noteGeneration=0;
+ async function updatePrivateNote(refresh=false){
+  if(!notesToggle)return;const turn=++noteGeneration;const section=document.querySelector<HTMLElement>('#article-private-note')!;section.hidden=true;section.querySelector('p')!.textContent='';
+  if(!notesToggle.checked){if(printButton)printButton.disabled=false;return;}
+  if(printButton)printButton.disabled=true;
+  const noteStatus=actions!.querySelector<HTMLElement>('.note-print-status')||document.createElement('span');noteStatus.className='note-print-status';noteStatus.setAttribute('role','status');noteStatus.textContent='Loading your note…';actions!.append(noteStatus);
+  try{const {readNotes}=await import('../lib/client/private-notes');const {notes}=await readNotes([notesToggle.dataset.printNote!],refresh);if(turn!==noteGeneration)return;const text=notes.get(notesToggle.dataset.printNote!)?.note||'';section.querySelector('p')!.textContent=text;section.hidden=!text;noteStatus.textContent=text?'Your note is included below.':'No saved note for this article.';}
+  catch(e){if(turn!==noteGeneration)return;notesToggle.checked=false;noteStatus.textContent=(e as Error).message;}
+  finally{if(turn===noteGeneration&&printButton)printButton.disabled=false;}
+ }
+ notesToggle?.addEventListener('change',()=>{if(!notesToggle.checked)actions!.querySelector('.note-print-status')?.remove();void updatePrivateNote();});
+ document.addEventListener('em-note-removed',()=>{if(notesToggle){notesToggle.checked=false;void updatePrivateNote();actions!.querySelector('.note-print-status')?.remove();}});
+ document.addEventListener('em-note-saved',()=>{if(notesToggle?.checked)void updatePrivateNote();});
  function printDocument(){document.fonts.ready.then(()=>{document.title=actions!.dataset.printTitle||originalTitle;requestAnimationFrame(()=>window.print());});}
  window.addEventListener('afterprint',()=>{document.title=originalTitle;});
  actions.querySelector('.print-button')?.addEventListener('click',printDocument);

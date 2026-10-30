@@ -79,3 +79,73 @@ test('folder dialogs, removal undo, and selection toolbar work as one library fl
  await page.setViewportSize({width:390,height:844});await expect(page.locator('#folder-list')).toBeHidden();expect((await page.locator('.saved-card').first().boundingBox())!.y).toBeLessThan(220);await page.screenshot({path:'tmp/library-compact-mobile.png',fullPage:true});await page.getByRole('button',{name:'Open folders',exact:true}).click();await expect(page.locator('#folder-list')).toBeVisible();await page.keyboard.press('Escape');await expect(page.locator('#folder-list')).toBeHidden();await expect(page.getByRole('button',{name:'Open folders',exact:true})).toBeFocused();
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.screenshot({path:'tmp/library-reading-list-mobile.png',fullPage:true});
 });
+
+test('private notes save only on request, remain plain text, and survive removal Undo',async({page})=>{
+ await session(page);let writes=0,restored:any;let bookmark:any={user_id:uid,article_id:'preoxi',created_at:'2026-10-27T00:00:00Z',note:'',note_revision:0};
+ await page.route(origin+'/**',route=>{
+  const req=route.request(),path=new URL(req.url()).pathname;
+  if(path.endsWith('/em_my_role'))return route.fulfill({json:'reader'});
+  if(path.endsWith('/em_folders')||path.endsWith('/em_folder_items'))return route.fulfill({json:[]});
+  if(path.endsWith('/em_save_article_note')){writes++;const body=req.postDataJSON();expect(body.expected_revision).toBe(bookmark.note_revision);expect(req.url()).not.toContain('private-marker');bookmark={...bookmark,note:body.note_text,note_revision:bookmark.note_revision+1};return route.fulfill({json:bookmark});}
+  if(path.endsWith('/em_bookmarks')){if(req.method()==='POST')restored=req.postDataJSON();return route.fulfill({json:req.method()==='GET'?[bookmark]:[]});}
+  return route.abort();
+ });
+ await page.goto('library/');await page.getByRole('button',{name:/Add note to PREOXI/}).click();const text='private-marker: Revisit this paper.\n<img src=x onerror="alert(1)">';
+ await page.getByLabel('Private note',{exact:true}).fill(text);expect(writes).toBe(0);await page.getByRole('button',{name:'Save note',exact:true}).click();
+ await expect(page.locator('.note-dialog')).toHaveCount(0);await expect(page.locator('.saved-note-preview')).toHaveText(text);await expect(page.locator('.saved-note-preview img')).toHaveCount(0);expect(writes).toBe(1);
+ await page.getByRole('button',{name:/Edit note for PREOXI/}).click();await expect(page.getByLabel('Private note',{exact:true})).toHaveValue(text);await page.getByLabel('Private note',{exact:true}).fill('Unsaved draft');await page.keyboard.press('Escape');await expect(page.getByText('Discard your unsaved changes?',{exact:true})).toBeVisible();await page.getByRole('button',{name:'Keep editing',exact:true}).click();await expect(page.getByLabel('Private note',{exact:true})).toHaveValue('Unsaved draft');await page.keyboard.press('Escape');await page.getByRole('button',{name:'Discard changes',exact:true}).click();expect(writes).toBe(1);
+ await page.getByLabel(/More actions for PREOXI/).click();await page.getByRole('button',{name:/Remove PREOXI/}).click();await page.getByRole('button',{name:'Undo',exact:true}).click();await expect(page.locator('.saved-note-preview')).toHaveText(text);expect(restored.note).toBe(text);expect(restored.note_revision).toBe(1);
+ await page.getByRole('button',{name:/Edit note for PREOXI/}).click();await page.getByLabel('Private note',{exact:true}).fill('');await page.getByRole('button',{name:'Save note',exact:true}).click();await expect(page.locator('.saved-note-preview')).toHaveCount(0);await expect(page.locator('.saved-card')).toHaveCount(1);expect(writes).toBe(2);
+});
+
+test('a stale note save preserves the draft and does not retry or overwrite',async({page})=>{
+ await session(page);let writes=0;
+ await page.route(origin+'/**',route=>{
+  const path=new URL(route.request().url()).pathname;
+  if(path.endsWith('/em_my_role'))return route.fulfill({json:'reader'});
+  if(path.endsWith('/em_bookmarks'))return route.fulfill({json:[{user_id:uid,article_id:'preoxi',created_at:'2026-10-27T00:00:00Z',note:'Original note',note_revision:2}]});
+  if(path.endsWith('/em_folders')||path.endsWith('/em_folder_items'))return route.fulfill({json:[]});
+  if(path.endsWith('/em_save_article_note')){writes++;return route.fulfill({status:409,json:{code:'40001',message:'This saved article changed on another device. Refresh before saving your note.'}});}return route.abort();
+ });
+ await page.goto('library/');await page.getByRole('button',{name:/Edit note for PREOXI/}).click();await page.getByLabel('Private note',{exact:true}).fill('My draft is retained');await page.getByRole('button',{name:'Save note',exact:true}).click();await expect(page.getByRole('alert')).toContainText('changed on another device');await expect(page.getByLabel('Private note',{exact:true})).toHaveValue('My draft is retained');await expect(page.getByRole('button',{name:'Save note',exact:true})).toBeEnabled();expect(writes).toBe(1);
+});
+
+test('digest notes are optional and reuse only the signed-in library cache',async({page,context})=>{
+ await session(page);let calls=0;
+ const longNote='Personal reminder: verify the population before applying these findings.\n\n'+('My own reading note. '.repeat(120));
+ await context.route(origin+'/**',route=>{calls++;const path=new URL(route.request().url()).pathname;
+  if(path.endsWith('/em_my_role'))return route.fulfill({json:'reader'});
+  if(path.endsWith('/em_bookmarks'))return route.fulfill({json:[{user_id:uid,article_id:'preoxi',created_at:'2026-10-27T00:00:00Z',note:longNote,note_revision:1},{user_id:uid,article_id:'device',created_at:'2026-10-26T00:00:00Z',note:'Ask journal club about external validity.',note_revision:1}]});
+  if(path.endsWith('/em_folders')||path.endsWith('/em_folder_items'))return route.fulfill({json:[]});return route.abort();
+ });
+ await page.goto('library/');await expect(page.locator('.saved-card')).toHaveCount(2);await selectAll(page);const previous=calls;
+ const [digest]=await Promise.all([page.waitForEvent('popup'),page.getByRole('link',{name:'Print selected'}).click()]);await expect(digest.locator('.digest-entry')).toHaveCount(2);await expect(digest.getByLabel('Include my notes',{exact:true})).not.toBeChecked();await expect(digest.locator('.personal-note-print')).toHaveCount(0);
+ await digest.getByLabel('Include my notes',{exact:true}).check();await expect(digest.locator('.personal-note-print')).toHaveCount(2);await expect(digest.locator('.personal-note-print').first()).toContainText('Personal reminder');expect(calls).toBe(previous);expect(digest.url()).not.toContain('Personal');
+ await digest.emulateMedia({media:'print'});await expect(digest.locator('.personal-note-print').first()).toBeVisible();await expect(digest.getByLabel('Include my notes',{exact:true})).toBeHidden();await digest.pdf({path:'tmp/private-notes-digest.pdf',format:'Letter',printBackground:true});
+ await digest.emulateMedia({media:'screen'});await digest.getByLabel('Include my notes',{exact:true}).uncheck();await digest.emulateMedia({media:'print'});await expect(digest.locator('.personal-note-print')).toHaveCount(0);
+ await digest.emulateMedia({media:'screen'});await digest.getByLabel('Include my notes',{exact:true}).check();await expect(digest.locator('.personal-note-print')).toHaveCount(2);expect(calls).toBe(previous);await digest.screenshot({path:'tmp/private-notes-digest.png',fullPage:true});
+ await page.getByRole('button',{name:/Edit note for PREOXI/}).click();await page.screenshot({path:'tmp/private-note-editor.png',fullPage:true});await page.setViewportSize({width:390,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.screenshot({path:'tmp/private-note-editor-mobile.png',fullPage:true});
+});
+
+test('single article notes load only on opt-in and never use another account cache',async({page})=>{
+ await session(page);let reads=0;await page.addInitScript(()=>localStorage.setItem('em-weekly:library:other-user',JSON.stringify({version:2,at:Date.now(),data:{bookmarks:[{article_id:'preoxi',note:'OTHER ACCOUNT SECRET'}]}})));
+ await page.route(origin+'/**',route=>{if(new URL(route.request().url()).pathname.endsWith('/em_bookmarks')){reads++;return route.fulfill({json:[{article_id:'preoxi',note:'My own article note',note_revision:1}]});}return route.abort();});
+ await page.goto('articles/preoxi/');expect(reads).toBe(0);await expect(page.locator('#article-private-note')).toBeHidden();
+ await page.getByLabel('Include my notes',{exact:true}).check();await expect(page.locator('#article-private-note')).toContainText('My own article note');expect(reads).toBe(1);await expect(page.getByText('OTHER ACCOUNT SECRET',{exact:true})).toHaveCount(0);
+ await page.emulateMedia({media:'print'});await expect(page.locator('#article-private-note')).toBeVisible();await page.pdf({path:'tmp/private-note-article.pdf',format:'Letter',printBackground:true});await page.emulateMedia({media:'screen'});
+ await page.getByLabel('Include my notes',{exact:true}).uncheck();await expect(page.locator('#article-private-note')).toBeHidden();await page.getByLabel('Include my notes',{exact:true}).check();await expect(page.locator('#article-private-note')).toBeVisible();expect(reads).toBe(1);
+});
+
+test('signed-out note printing requests sign-in without fetching private data',async({page})=>{
+ let calls=0;await page.route(origin+'/**',r=>{calls++;return r.abort();});await page.goto('articles/preoxi/');await page.getByLabel('Include my notes',{exact:true}).check();await expect(page.locator('.note-print-status')).toContainText('Sign in');await expect(page.getByLabel('Include my notes',{exact:true})).not.toBeChecked();await expect(page.getByRole('button',{name:'Print / Save as PDF',exact:true})).toBeEnabled();expect(calls).toBe(0);
+});
+
+test('a note on an unsaved article creates its favorite and is immediately printable',async({page})=>{
+ await session(page);let reads=0,writes=0;
+ await page.route(origin+'/**',route=>{const path=new URL(route.request().url()).pathname;
+  if(path.endsWith('/em_bookmarks')){reads++;return route.fulfill({json:[]});}
+  if(path.endsWith('/em_save_article_note')){writes++;const b=route.request().postDataJSON();expect(b.expected_revision).toBeNull();return route.fulfill({json:{article_id:b.article,note:b.note_text,note_revision:1}});}return route.abort();
+ });
+ await page.goto('articles/preoxi/');await page.getByRole('button',{name:'Add / edit my note',exact:true}).click();await expect(page.getByLabel('Private note',{exact:true})).toHaveAttribute('maxlength','4000');await page.getByLabel('Private note',{exact:true}).fill('My new article reminder');expect(writes).toBe(0);await page.getByRole('button',{name:'Save note',exact:true}).click();await expect(page.getByRole('button',{name:'Saved ✓',exact:true})).toBeVisible();expect(writes).toBe(1);expect(reads).toBe(1);
+ await page.getByLabel('Include my notes',{exact:true}).check();await expect(page.locator('#article-private-note')).toContainText('My new article reminder');expect(reads).toBe(1);
+});

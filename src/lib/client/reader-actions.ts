@@ -3,7 +3,17 @@ const buttons=document.querySelectorAll<HTMLButtonElement>('[data-save-article]'
 try{const uid=localStorage.getItem('em-weekly:last-user');const cached=JSON.parse(localStorage.getItem('em-weekly:library:'+uid)||'null');if(cached&&Date.now()-cached.at<300000)for(const b of buttons)if(cached.data.bookmarks.some((x:any)=>x.article_id===b.dataset.saveArticle)){b.dataset.saved='true';b.textContent='Saved ✓';b.setAttribute('aria-pressed','true');}}catch{}
 for(const button of buttons)button.addEventListener('click',async()=>{button.disabled=true;const message=document.querySelector<HTMLElement>('[data-save-status]')!;try{
  const api=await import('./account');const u=await api.user();if(!u){location.assign(base+'/account/?next='+encodeURIComponent(location.pathname));return;}localStorage.setItem('em-weekly:last-user',u.id);const data=await api.library(u.id);const id=button.dataset.saveArticle!;const exists=data.bookmarks.some(b=>b.article_id===id);
- if(exists&&button.dataset.saved==='true'){await api.remove(u.id,id);data.bookmarks=data.bookmarks.filter(b=>b.article_id!==id);data.memberships=data.memberships.filter(m=>m.article_id!==id);button.dataset.saved='false';button.textContent='Save article';message.textContent='Removed from your library.';}
+ if(exists&&button.dataset.saved==='true'){if(data.bookmarks.find(b=>b.article_id===id)?.note&&!confirm('Remove this saved article and its private note? You can use My Library for removal with Undo.'))return;await api.remove(u.id,id);data.bookmarks=data.bookmarks.filter(b=>b.article_id!==id);data.memberships=data.memberships.filter(m=>m.article_id!==id);button.dataset.saved='false';button.textContent='Save article';message.textContent='Removed from your library.';}
  else{if(!exists){await api.save(u.id,id);data.bookmarks.unshift({user_id:u.id,article_id:id,created_at:new Date().toISOString()});}button.dataset.saved='true';button.textContent='Saved ✓';message.textContent='Saved. Open My Library to organize into folders.';}
  api.cacheLibrary(u.id,data);button.setAttribute('aria-pressed',String(button.dataset.saved==='true'));
  }catch(e){message.textContent=e instanceof Error?e.message:'Unable to save article.';}finally{button.disabled=false;}});
+
+for(const button of document.querySelectorAll<HTMLButtonElement>('[data-note-article]'))button.addEventListener('click',async()=>{
+ button.disabled=true;const message=document.querySelector<HTMLElement>('[data-save-status]')!;
+ try{
+  const api=await import('./account'),u=await api.user();if(!u){location.assign(base+'/account/?next='+encodeURIComponent(location.pathname));return;}
+  localStorage.setItem('em-weekly:last-user',u.id);const {readNotes,editNote}=await import('./private-notes'),id=button.dataset.noteArticle!;
+  const {notes}=await readNotes([id]);const result=await editNote({uid:u.id,id,title:button.dataset.noteTitle!,current:notes.get(id)});
+  if(result){message.textContent='Note saved privately in My Library.';const saved=document.querySelector<HTMLButtonElement>('[data-save-article]');if(saved){saved.dataset.saved='true';saved.textContent='Saved ✓';saved.setAttribute('aria-pressed','true');}document.dispatchEvent(new CustomEvent('em-note-saved',{detail:result}));}
+ }catch(e){message.textContent=(e as Error).message;}finally{button.disabled=false;}
+});
