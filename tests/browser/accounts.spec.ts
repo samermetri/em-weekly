@@ -119,11 +119,11 @@ test('digest notes are optional and reuse only the signed-in library cache',asyn
   if(path.endsWith('/em_folders')||path.endsWith('/em_folder_items'))return route.fulfill({json:[]});return route.abort();
  });
  await page.goto('library/');await expect(page.locator('.saved-card')).toHaveCount(2);await selectAll(page);const previous=calls;
- const [digest]=await Promise.all([page.waitForEvent('popup'),page.getByRole('link',{name:'Print selected'}).click()]);await expect(digest.locator('.digest-entry')).toHaveCount(2);await expect(digest.getByLabel('Include my notes',{exact:true})).not.toBeChecked();await expect(digest.locator('.personal-note-print')).toHaveCount(0);
- await digest.getByLabel('Include my notes',{exact:true}).check();await expect(digest.locator('.personal-note-print')).toHaveCount(2);await expect(digest.locator('.personal-note-print').first()).toContainText('Personal reminder');expect(calls).toBe(previous);expect(digest.url()).not.toContain('Personal');
- await digest.emulateMedia({media:'print'});await expect(digest.locator('.personal-note-print').first()).toBeVisible();await expect(digest.getByLabel('Include my notes',{exact:true})).toBeHidden();await digest.pdf({path:'tmp/private-notes-digest.pdf',format:'Letter',printBackground:true});
- await digest.emulateMedia({media:'screen'});await digest.getByLabel('Include my notes',{exact:true}).uncheck();await digest.emulateMedia({media:'print'});await expect(digest.locator('.personal-note-print')).toHaveCount(0);
- await digest.emulateMedia({media:'screen'});await digest.getByLabel('Include my notes',{exact:true}).check();await expect(digest.locator('.personal-note-print')).toHaveCount(2);expect(calls).toBe(previous);await digest.screenshot({path:'tmp/private-notes-digest.png',fullPage:true});
+ const [digest]=await Promise.all([page.waitForEvent('popup'),page.getByRole('link',{name:'Print selected'}).click()]);await expect(digest.locator('.digest-entry')).toHaveCount(2);await expect(digest.getByLabel('Include my notes in print / PDF',{exact:true})).not.toBeChecked();await expect(digest.locator('.personal-note-print')).toHaveCount(0);
+ await digest.getByLabel('Include my notes in print / PDF',{exact:true}).check();await expect(digest.locator('.personal-note-print')).toHaveCount(2);await expect(digest.locator('.personal-note-print').first()).toContainText('Personal reminder');expect(calls).toBe(previous);expect(digest.url()).not.toContain('Personal');
+ await digest.emulateMedia({media:'print'});await expect(digest.locator('.personal-note-print').first()).toBeVisible();await expect(digest.getByLabel('Include my notes in print / PDF',{exact:true})).toBeHidden();await digest.pdf({path:'tmp/private-notes-digest.pdf',format:'Letter',printBackground:true});
+ await digest.emulateMedia({media:'screen'});await digest.getByLabel('Include my notes in print / PDF',{exact:true}).uncheck();await digest.emulateMedia({media:'print'});await expect(digest.locator('.personal-note-print')).toHaveCount(0);
+ await digest.emulateMedia({media:'screen'});await digest.getByLabel('Include my notes in print / PDF',{exact:true}).check();await expect(digest.locator('.personal-note-print')).toHaveCount(2);expect(calls).toBe(previous);await digest.screenshot({path:'tmp/private-notes-digest.png',fullPage:true});
  await page.getByRole('button',{name:/Edit note for PREOXI/}).click();await page.screenshot({path:'tmp/private-note-editor.png',fullPage:true});await page.setViewportSize({width:390,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.screenshot({path:'tmp/private-note-editor-mobile.png',fullPage:true});
 });
 
@@ -131,13 +131,13 @@ test('single article notes load only on opt-in and never use another account cac
  await session(page);let reads=0;await page.addInitScript(()=>localStorage.setItem('em-weekly:library:other-user',JSON.stringify({version:2,at:Date.now(),data:{bookmarks:[{article_id:'preoxi',note:'OTHER ACCOUNT SECRET'}]}})));
  await page.route(origin+'/**',route=>{if(new URL(route.request().url()).pathname.endsWith('/em_bookmarks')){reads++;return route.fulfill({json:[{article_id:'preoxi',note:'My own article note',note_revision:1}]});}return route.abort();});
  await page.goto('articles/preoxi/');expect(reads).toBe(0);await expect(page.locator('#article-private-note')).toBeHidden();
- await page.getByLabel('Include my notes',{exact:true}).check();await expect(page.locator('#article-private-note')).toContainText('My own article note');expect(reads).toBe(1);await expect(page.getByText('OTHER ACCOUNT SECRET',{exact:true})).toHaveCount(0);
+ await page.getByLabel('Include my notes in print / PDF',{exact:true}).check();await expect(page.locator('#article-private-note')).toContainText('My own article note');expect(reads).toBe(1);await expect(page.getByText('OTHER ACCOUNT SECRET',{exact:true})).toHaveCount(0);
  await page.emulateMedia({media:'print'});await expect(page.locator('#article-private-note')).toBeVisible();await page.pdf({path:'tmp/private-note-article.pdf',format:'Letter',printBackground:true});await page.emulateMedia({media:'screen'});
- await page.getByLabel('Include my notes',{exact:true}).uncheck();await expect(page.locator('#article-private-note')).toBeHidden();await page.getByLabel('Include my notes',{exact:true}).check();await expect(page.locator('#article-private-note')).toBeVisible();expect(reads).toBe(1);
+ await page.getByLabel('Include my notes in print / PDF',{exact:true}).uncheck();await expect(page.locator('#article-private-note')).toBeHidden();await page.getByLabel('Include my notes in print / PDF',{exact:true}).check();await expect(page.locator('#article-private-note')).toBeVisible();expect(reads).toBe(1);
 });
 
 test('signed-out note printing requests sign-in without fetching private data',async({page})=>{
- let calls=0;await page.route(origin+'/**',r=>{calls++;return r.abort();});await page.goto('articles/preoxi/');await page.getByLabel('Include my notes',{exact:true}).check();await expect(page.locator('.note-print-status')).toContainText('Sign in');await expect(page.getByLabel('Include my notes',{exact:true})).not.toBeChecked();await expect(page.getByRole('button',{name:'Print / Save as PDF',exact:true})).toBeEnabled();expect(calls).toBe(0);
+ let calls=0;await page.route(origin+'/**',r=>{calls++;return r.abort();});await page.goto('articles/preoxi/');await page.getByLabel('Include my notes in print / PDF',{exact:true}).check();await expect(page.locator('.note-print-status')).toContainText('Sign in');await expect(page.getByLabel('Include my notes in print / PDF',{exact:true})).not.toBeChecked();await expect(page.getByRole('button',{name:'Print / Save as PDF',exact:true})).toBeEnabled();expect(calls).toBe(0);
 });
 
 test('a note on an unsaved article creates its favorite and is immediately printable',async({page})=>{
@@ -147,7 +147,7 @@ test('a note on an unsaved article creates its favorite and is immediately print
   if(path.endsWith('/em_save_article_note')){writes++;const b=route.request().postDataJSON();expect(b.expected_revision).toBeNull();return route.fulfill({json:{article_id:b.article,note:b.note_text,note_revision:1}});}return route.abort();
  });
  await page.goto('articles/preoxi/');await page.getByRole('button',{name:'Open notes',exact:true}).click();await expect(page.getByLabel('Private note',{exact:true})).toHaveAttribute('maxlength','4000');await page.getByLabel('Private note',{exact:true}).fill('My new article reminder');expect(writes).toBe(0);await page.getByRole('button',{name:'Save note',exact:true}).click();await expect(page.getByRole('button',{name:'Saved ✓',exact:true})).toBeVisible();expect(writes).toBe(1);expect(reads).toBe(1);
- await page.getByLabel('Include my notes',{exact:true}).check();await expect(page.locator('#article-private-note')).toContainText('My new article reminder');expect(reads).toBe(1);
+ await page.getByLabel('Include my notes in print / PDF',{exact:true}).check();await expect(page.locator('#article-private-note')).toContainText('My new article reminder');expect(reads).toBe(1);
 });
 
 test('desktop notes split reading space and keep drafts when closed without database writes',async({page})=>{
@@ -167,7 +167,7 @@ test('desktop notes split reading space and keep drafts when closed without data
  await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:'tmp/article-notes-split-desktop.png',fullPage:false});
  await page.setViewportSize({width:390,height:844});await page.screenshot({path:'tmp/article-notes-sheet-mobile.png',fullPage:false});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
  await page.emulateMedia({media:'print'});await expect(page.locator('#notes-panel')).toBeHidden();await expect(page.locator('#notes-launcher')).toBeHidden();await expect(page.locator('#article-private-note')).toBeHidden();
- await page.emulateMedia({media:'screen'});await page.getByLabel('Include my notes',{exact:true}).check();await expect(page.locator('#article-private-note')).toContainText('Review the study population');expect(reads).toBe(1);await page.emulateMedia({media:'print'});await page.pdf({path:'tmp/side-notes-article.pdf',format:'Letter',printBackground:true});
+ await page.emulateMedia({media:'screen'});await page.getByLabel('Include my notes in print / PDF',{exact:true}).check();await expect(page.locator('#article-private-note')).toContainText('Review the study population');expect(reads).toBe(1);await page.emulateMedia({media:'print'});await page.pdf({path:'tmp/side-notes-article.pdf',format:'Letter',printBackground:true});
 });
 
 test('weekly brief notes share article records, preserve per-article drafts, and print only by choice',async({page})=>{
@@ -180,8 +180,8 @@ test('weekly brief notes share article records, preserve per-article drafts, and
  await page.getByLabel('Article for notes').selectOption(ids[1]);await page.getByLabel('Private note',{exact:true}).fill('My second article note.');await page.getByRole('button',{name:'Save note',exact:true}).click();await expect(page.locator('#side-note-status')).toHaveText('Note saved.');
  await page.getByLabel('Article for notes').selectOption(ids[0]);await expect(page.getByLabel('Private note',{exact:true})).toHaveValue('My first article draft.');expect(reads).toBe(2);await page.getByRole('button',{name:'Save note',exact:true}).click();await expect(page.locator('#side-note-status')).toHaveText('Note saved.');expect(writes).toBe(2);
  await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:'tmp/weekly-notes-split-desktop.png',fullPage:false});await expect(page.locator('.personal-note-print:visible')).toHaveCount(0);
- await page.getByLabel('Include my notes',{exact:true}).check();await expect(page.locator('.personal-note-print:visible')).toHaveCount(2);await page.emulateMedia({media:'print'});await expect(page.locator('#notes-panel')).toBeHidden();await expect(page.locator('.personal-note-print:visible')).toHaveCount(2);await page.pdf({path:'tmp/weekly-with-private-notes.pdf',format:'Letter',printBackground:true});
- await page.emulateMedia({media:'screen'});await page.getByLabel('Include my notes',{exact:true}).uncheck();await expect(page.locator('.personal-note-print:visible')).toHaveCount(0);
+ await page.getByLabel('Include my notes in print / PDF',{exact:true}).check();await expect(page.locator('.personal-note-print:visible')).toHaveCount(2);await page.emulateMedia({media:'print'});await expect(page.locator('#notes-panel')).toBeHidden();await expect(page.locator('.personal-note-print:visible')).toHaveCount(2);await page.pdf({path:'tmp/weekly-with-private-notes.pdf',format:'Letter',printBackground:true});
+ await page.emulateMedia({media:'screen'});await page.getByLabel('Include my notes in print / PDF',{exact:true}).uncheck();await expect(page.locator('.personal-note-print:visible')).toHaveCount(0);
 });
 
 test('signed-out weekly notes offer sign-in without fetching data or covering the reading pane',async({page})=>{

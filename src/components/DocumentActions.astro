@@ -4,9 +4,11 @@ const {title,printTitle,articleId,noteArticleIds=[],shareUrl=new URL(Astro.url.p
 const noteIds=articleId?[articleId]:noteArticleIds;
 ---
 <div class="document-actions" data-document-title={title} data-print-title={printTitle} data-share-url={shareUrl}>
+  <div class="print-controls" role="group" aria-label="Print and PDF options">
   <button class="btn primary print-button" type="button"><Icon name="download" size={16}/> Print / Save as PDF</button>
+  {noteIds.length>0&&<label class="print-notes-toggle"><input type="checkbox" data-print-note={noteIds.join(',')}/> Include my notes in print / PDF</label>}
+  </div>
   <button class="btn share-button" type="button"><Icon name="share" size={16}/> Share</button>
-  {noteIds.length>0&&<label class="print-notes-toggle"><input type="checkbox" data-print-note={noteIds.join(',')}/> Include my notes</label>}
   <span class="share-status" role="status" aria-live="polite"></span>
   <label class="share-fallback" hidden>Copy article link <input type="text" readonly value={shareUrl}/></label>
 </div>
@@ -21,8 +23,8 @@ if(actions){
   if(!notesToggle)return;const turn=++noteGeneration;const targets=[...document.querySelectorAll<HTMLElement>('[data-print-note-id]')];for(const section of targets){section.hidden=true;section.querySelector('p')!.textContent='';}
   if(!notesToggle.checked){if(printButton)printButton.disabled=false;return;}
   if(printButton)printButton.disabled=true;
-  const noteStatus=actions!.querySelector<HTMLElement>('.note-print-status')||document.createElement('span');noteStatus.className='note-print-status';noteStatus.setAttribute('role','status');noteStatus.textContent='Loading your note…';actions!.append(noteStatus);
-  try{const {readNotes}=await import('../lib/client/private-notes');const {notes}=await readNotes(notesToggle.dataset.printNote!.split(','),refresh);if(turn!==noteGeneration)return;let count=0;for(const section of targets){const text=notes.get(section.dataset.printNoteId!)?.note||'';section.querySelector('p')!.textContent=text;section.hidden=!text;if(text)count++;}noteStatus.textContent=count?`${count} private ${count===1?'note is':'notes are'} included below.`:'No saved notes for these articles.';}
+  const noteStatus=actions!.querySelector<HTMLElement>('.note-print-status')||document.createElement('span');noteStatus.className='note-print-status';noteStatus.setAttribute('role','status');noteStatus.textContent='Loading your note…';actions!.querySelector('.print-controls')!.append(noteStatus);
+  try{const {readNotes}=await import('../lib/client/private-notes');const {notes}=await readNotes(notesToggle.dataset.printNote!.split(','),refresh);if(turn!==noteGeneration)return;let count=0;for(const section of targets){const text=notes.get(section.dataset.printNoteId!)?.note||'';section.querySelector('p')!.textContent=text;section.hidden=!text;if(text)count++;}noteStatus.textContent=count?`${count} private ${count===1?'note is':'notes are'} included in print / PDF.`:'No saved notes for these articles.';}
   catch(e){if(turn!==noteGeneration)return;notesToggle.checked=false;noteStatus.textContent=(e as Error).message;}
   finally{if(turn===noteGeneration&&printButton)printButton.disabled=false;}
  }

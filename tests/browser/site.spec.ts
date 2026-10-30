@@ -75,3 +75,12 @@ test('weekly archive does not promote historical sample editions',async({page})=
  await page.goto('./');
  await expect(page.getByRole('link',{name:'See a sample brief'})).toHaveCount(0);
 });
+
+ test('notes option is grouped with printing and separate from sharing',async({page})=>{
+ for(const path of ['articles/preoxi/','weekly/2026-10-26/']){
+ await page.goto(path);const group=page.getByRole('group',{name:'Print and PDF options'});await expect(group.getByRole('button',{name:'Print / Save as PDF',exact:true})).toBeVisible();await expect(group.getByLabel('Include my notes in print / PDF',{exact:true})).not.toBeChecked();await expect(group.getByRole('button',{name:'Share',exact:true})).toHaveCount(0);
+ const print=await group.boundingBox(),share=await page.getByRole('button',{name:'Share',exact:true}).boundingBox();expect(Math.abs(print!.y-share!.y)).toBeLessThan(2);
+ await page.screenshot({path:`tmp/clear-print-options-${path.startsWith('articles')?'article':'weekly'}.png`});
+ await page.setViewportSize({width:390,height:844});await expect(group.getByLabel('Include my notes in print / PDF',{exact:true})).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.setViewportSize({width:1440,height:1000});
+ }
+ });
