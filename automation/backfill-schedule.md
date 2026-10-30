@@ -426,3 +426,5 @@ Prioritize clinical consequence, methodological strength, novelty, and relevance
 Missing one major guideline is worse than omitting several low-impact studies.
 
 Historical-mode precedence: this task applies the clinical selection, primary-source verification and writing requirements above to the fixed historical research windows. All new records are backfill:true, excluded from current weekly issues. No historical site publication dates are fabricated. The normal daily cap and Monday–Sunday current-issue format do not limit or redefine these retrospective batches.
+
+Transient connector recovery: if a Supabase approval-service timeout or request-state error occurs, retry the same read once. If still unavailable, preserve checkpoints, report the actual error and exit this run. Leave the hourly schedule enabled so the next fresh-chat run can retry. Do not pause the task for a temporary connector or publication failure; pause only after verified completion or an explicit owner request. Never bypass approval requirements.
