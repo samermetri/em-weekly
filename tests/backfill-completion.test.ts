@@ -4,7 +4,11 @@ const sources=JSON.parse(fs.readFileSync('config/sources.json','utf8'));const id
 const baseline=()=>{
  const progress=backfillSchema.parse(JSON.parse(fs.readFileSync('state/backfill.json','utf8')));
  const audit=auditSchema.parse(JSON.parse(fs.readFileSync('state/audits/backfill-2025-04-06.json','utf8')));
+ // Isolate this fixture from newly completed production windows.
+ progress.windows.forEach(w=>{w.status='pending';w.auditId=null;});
  const window=progress.windows.find(w=>w.start==='2025-04-06')!;window.status='complete';window.auditId='qa-audit';
+ progress.status='in-progress';
+ progress.candidateQueue=[{url:'https://example.org/queued-study',title:'Unresolved candidate',firstOnlineDate:'2025-04-06',reason:'Primary source review pending'}];
  audit.guidelineSearchCompleted=true;audit.finalCrossCheckCompleted=true;audit.sources.forEach(s=>s.status='success');
  return {progress,audit,audits:{'qa-audit':audit}};
 };

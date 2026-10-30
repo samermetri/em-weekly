@@ -66,11 +66,11 @@
   },
   "activatedAt": "2026-10-27T01:56:00Z",
   "deploymentPoll": {
-    "cron": "11 */4 * * *",
-    "status": "four-hour schedule configured; earlier timer-triggered publication verified",
+    "cron": "11 */6 * * *",
+    "status": "six-hour schedule configured; admin saves and Publish now request immediate publication",
     "lastVerifiedPushRun": "https://github.com/samermetri/em-weekly/actions/runs/40435205845",
     "lastVerifiedScheduleRun": "https://github.com/samermetri/em-weekly/actions/runs/40561173202",
-    "checksPerDay": 6
+    "checksPerDay": 4
   },
   "historical": {
     "automationId": "6ae2e0345f5c8190bb50e94bec4622d2",
