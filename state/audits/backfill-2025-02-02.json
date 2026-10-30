@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "sources": [
     {
       "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
@@ -38,24 +38,24 @@
     },
     {
       "url": "https://www.acep.org/patient-care/clinical-policies",
-      "notes": "Not completed in this pass: official directory and interval-specific domain/date search remain to be inspected before this check can be successful.",
+      "notes": "2026-10-30: Web research returned isError:true with empty content for batched directory opens and queries: site:acep.org (\"clinical policy\" OR guideline OR statement) after:2025-02-01 before:2025-02-09; site:professional.heart.org (guideline OR \"scientific statement\") after:2025-02-01 before:2025-02-09; site:acc.org (guideline OR \"clinical guidance\" OR consensus) after:2025-02-01 before:2025-02-09. Opens targeted existing source URLs. Retry query site:acep.org guideline after:2025-02-01 before:2025-02-09 also returned empty error. No results inspected; no negative conclusion. Next action: retrieve directories and repeat exact-date searches after recovery, observing same-day unchanged-failure cooldown.",
       "status": "failed",
       "sourceId": "acep",
-      "checkedAt": "2026-10-29T14:55:00.000Z"
+      "checkedAt": "2026-10-30T17:32:46.317Z"
     },
     {
       "url": "https://professional.heart.org/en/guidelines-statements",
-      "notes": "Not completed in this pass: official directory and interval-specific domain/date search remain to be inspected before this check can be successful.",
+      "notes": "2026-10-30: Web research returned isError:true with empty content for batched directory opens and queries: site:acep.org (\"clinical policy\" OR guideline OR statement) after:2025-02-01 before:2025-02-09; site:professional.heart.org (guideline OR \"scientific statement\") after:2025-02-01 before:2025-02-09; site:acc.org (guideline OR \"clinical guidance\" OR consensus) after:2025-02-01 before:2025-02-09. Opens targeted existing source URLs. Retry query site:acep.org guideline after:2025-02-01 before:2025-02-09 also returned empty error. No results inspected; no negative conclusion. Next action: retrieve directories and repeat exact-date searches after recovery, observing same-day unchanged-failure cooldown.",
       "status": "failed",
       "sourceId": "aha-asa",
-      "checkedAt": "2026-10-29T14:55:00.000Z"
+      "checkedAt": "2026-10-30T17:32:46.317Z"
     },
     {
       "url": "https://www.acc.org/guidelines",
-      "notes": "Not completed in this pass: official directory and interval-specific domain/date search remain to be inspected before this check can be successful.",
+      "notes": "2026-10-30: Web research returned isError:true with empty content for batched directory opens and queries: site:acep.org (\"clinical policy\" OR guideline OR statement) after:2025-02-01 before:2025-02-09; site:professional.heart.org (guideline OR \"scientific statement\") after:2025-02-01 before:2025-02-09; site:acc.org (guideline OR \"clinical guidance\" OR consensus) after:2025-02-01 before:2025-02-09. Opens targeted existing source URLs. Retry query site:acep.org guideline after:2025-02-01 before:2025-02-09 also returned empty error. No results inspected; no negative conclusion. Next action: retrieve directories and repeat exact-date searches after recovery, observing same-day unchanged-failure cooldown.",
       "status": "failed",
       "sourceId": "acc",
-      "checkedAt": "2026-10-29T14:55:00.000Z"
+      "checkedAt": "2026-10-30T17:32:46.317Z"
     },
     {
       "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
@@ -170,7 +170,8 @@
     "Toxicology-statement directory/date search not completed.",
     "Trauma-guideline directory/date search not completed.",
     "Pediatric emergency-guidance directory/date search not completed.",
-    "Obstetric emergency-guidance directory/date search not completed."
+    "Obstetric emergency-guidance directory/date search not completed.",
+    "2026-10-30: Web errors prevent ACEP/AHA/ASA/ACC completion. Reused audit revision 3: 138 candidates screened in ordinals 1-100 and 101-138; four journal checks and SCCM successful. Cache metadata unchanged: version 1, captured 2026-10-29T02:11:32.355Z, membership counts 40/50/31/19. Both completion flags remain false."
   ],
   "excludedCandidates": [
     {

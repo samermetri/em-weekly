@@ -144,7 +144,7 @@
     },
     {
       "end": "2025-02-08",
-      "notes": "Partial: complete SQL-cache enumeration screened in ordinal pages 1-100 and 101-138 (138 candidates; configured membership counts EM 40, general 50, specialty 31, guidance 19). Primary review reconciled the two NEJM medium/distal-vessel EVT trials already saved (each first online 2025-02-05); JAMA ED vestibular rehabilitation was explicitly excluded because its primary publisher date is 2025-02-14, outside this window. SCCM directory/date search completed: PADIS focused update was published 2025-02-20, outside the window; no eligible SCCM guidance found by these methods. Remaining independent society checks and final cross-check remain incomplete.",
+      "notes": "Partial: complete SQL-cache enumeration screened in ordinal pages 1-100 and 101-138 (138 candidates; configured membership counts EM 40, general 50, specialty 31, guidance 19). Primary review reconciled the two NEJM medium/distal-vessel EVT trials already saved (each first online 2025-02-05); JAMA ED vestibular rehabilitation was explicitly excluded because its primary publisher date is 2025-02-14, outside this window. SCCM directory/date search completed: PADIS focused update was published 2025-02-20, outside the window; no eligible SCCM guidance found by these methods. Remaining independent society checks and final cross-check remain incomplete. 2026-10-30: ACEP/AHA/ASA/ACC directory/date attempts returned empty web-service errors. Prior five successful checks and screened ordinals 1-138 preserved. Resume remaining directory/date checks after recovery; observe same-day unchanged-failure cooldown. Window partial; no new articles or successful checks.",
       "start": "2025-02-02",
       "status": "partial",
       "auditId": "backfill-2025-02-02",
@@ -924,7 +924,7 @@
   ],
   "rangeEnd": "2026-10-26",
   "startedAt": "2026-10-27T20:58:44.597134+00:00",
-  "updatedAt": "2026-10-30T04:02:42.192Z",
+  "updatedAt": "2026-10-30T17:32:46.317Z",
   "rangeStart": "2024-10-27",
   "schemaVersion": 1,
   "candidateQueue": [
