@@ -2,17 +2,17 @@
 import '../styles/global.css';
 import Icon from '../components/Icon.astro';
 import {href} from '../lib/data';
-const {title='Overview',description='Emergency medicine research and guidance. AI-collected and reviewed summaries, linked to primary sources.'}=Astro.props;
+const {pageClass='',title='Overview',description='Emergency medicine research and guidance. AI-collected and reviewed summaries, linked to primary sources.'}=Astro.props;
 const current=Astro.url.pathname;
 const nav=[['articles/','Articles'],['weekly/','Weekly briefs'],['topics/','Topics'],['methods/','Sources & Methods']];
 const canonical=new URL(Astro.url.pathname,Astro.site);
 ---
 <!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{title} · EM Weekly</title><meta name="description" content={description}/><meta name="theme-color" content="#345a43"/><link rel="canonical" href={canonical}/><meta property="og:title" content={`${title} · EM Weekly`}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/><meta property="og:url" content={canonical}/><link rel="icon" href={href('favicon.svg')}/><link rel="alternate" type="application/rss+xml" title="EM Weekly" href={href('rss.xml')}/></head>
-<body><a class="skip" href="#main">Skip to content</a>
+<body class={pageClass}><a class="skip" href="#main">Skip to content</a>
  <header class="sidebar publication-header"><div class="header-inner">
   <a class="brand" href={href()}><span class="brand-mark"><Icon name="pulse" size={23}/></span><span>EM Weekly<span class="brand-dot">.</span></span></a>
   <button class="mobile-toggle" aria-label="Toggle navigation" aria-controls="navigation" aria-expanded="false"><Icon name="menu"/></button>
-  <nav id="navigation" aria-label="Main navigation">{nav.map(([path,label])=><a href={href(path)} class:list={['nav-link',{active:current.startsWith(href(path))}]} aria-current={current.startsWith(href(path))?'page':undefined}>{label}</a>)}<div class="header-account"><a href={href('library/')}><Icon name="bookmark" size={16}/> Saved articles</a><a href={href('account/')} class="account-link">Account <Icon name="arrow" size={14}/></a></div></nav>
+  <nav id="navigation" aria-label="Main navigation">{nav.map(([path,label])=><a href={href(path)} class:list={['nav-link',{active:current.startsWith(href(path))}]} aria-current={current.startsWith(href(path))?'page':undefined}>{label}</a>)}<div class="header-account"><a href={href('library/')} aria-current={current===href('library/')?'page':undefined}><Icon name="bookmark" size={16}/> My Library</a><a href={href('account/')} class="account-link" aria-current={current===href('account/')?'page':undefined}>Account <Icon name="arrow" size={14}/></a></div></nav>
  </div></header>
  <div class="shell"><main id="main" tabindex="-1"><slot/></main><footer class="footer"><a class="footer-brand" href={href()}>EM Weekly.</a><a href={href('methods/')}>AI-collected & reviewed · Human-review status on each article</a><a href={href('rss.xml')}><Icon name="rss" size={13}/> RSS</a><p>For professional education. Read the primary source and apply clinical judgment.</p></footer></div>
  <script>const toggle=document.querySelector<HTMLButtonElement>('.mobile-toggle');toggle?.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));document.querySelector('.sidebar')?.classList.toggle('open',open);});</script>
