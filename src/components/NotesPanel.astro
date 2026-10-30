@@ -1,0 +1,25 @@
+---
+import '../styles/notes-panel.css';import Icon from './Icon.astro';import {href} from '../lib/data';
+interface Props{items:{id:string;title:string}[]}
+const {items}=Astro.props;
+---
+{items.length>0&&<>
+ <button class="notes-launcher" id="notes-launcher" aria-label="Open notes" aria-controls="notes-panel" aria-expanded="false"><Icon name="edit" size={19}/><span>Notes</span><span id="notes-draft-badge" hidden>Draft</span></button>
+ <aside class="notes-panel" id="notes-panel" aria-labelledby="notes-panel-title" data-note-items={JSON.stringify(items)} hidden>
+  <header class="notes-panel-header"><div><h2 id="notes-panel-title">My notes</h2><span><Icon name="methods" size={12}/> Private to you</span></div><button type="button" class="notes-close" aria-label="Close notes">×</button></header>
+  <div class="notes-panel-body">
+   <div id="notes-signin" hidden><h3>Keep your thoughts with the article.</h3><p>Sign in to write private notes and access them on your other devices.</p><a class="btn primary" id="notes-signin-link" href={href('account/')}>Sign in</a></div>
+   <form id="side-note-form" hidden>
+    <label class="notes-article-picker" hidden={items.length===1}>Article<select id="side-note-article" aria-label="Article for notes">{items.map(a=><option value={a.id}>{a.title}</option>)}</select></label>
+    <p class="notes-context" id="side-note-context"></p>
+    <label class="sr-only" for="side-note-text">Private note</label><textarea id="side-note-text" maxlength="4000" placeholder="Your takeaways, questions, or reminders…" spellcheck="true"></textarea>
+    <div class="notes-draft-status"><span id="side-note-state">No changes</span><span id="side-note-count">0 / 4,000</span></div>
+    <p class="notes-panel-status" id="side-note-status" role="status" aria-live="polite"></p>
+    <button type="button" class="btn small" id="side-note-retry" hidden>Retry loading note</button>
+    <div class="notes-save-row"><span>Saved with this article in My Library.</span><button class="btn primary" id="side-note-save" type="submit" disabled>Save note</button></div>
+    <p class="notes-panel-hint">Drafts stay on this page while you read. Save before leaving. Printing includes saved notes only when you select “Include my notes.”</p>
+   </form>
+  </div>
+ </aside>
+ <script>import '../lib/client/notes-panel';</script>
+</>}

@@ -1,5 +1,5 @@
 ---
-import Layout from '../../layouts/Layout.astro';
+import Layout from '../../layouts/Layout.astro';import NotesPanel from '../../components/NotesPanel.astro';
 import Icon from '../../components/Icon.astro';
 import DocumentActions from '../../components/DocumentActions.astro';
 import PrintHeader from '../../components/PrintHeader.astro';
@@ -24,7 +24,7 @@ const printTitle=`EM Weekly - ${a.id.toUpperCase()} - ${a.firstOnlineDate}`;
    <span>Discovered <strong>{formatDate(a.discoveredDate)}</strong></span>
    <span class="review-status">{a.aiGenerated?'AI-generated':'Editor-written'} <strong>{a.humanReview}</strong></span>
   </div>
-  <DocumentActions title={a.title} printTitle={printTitle} articleId={a.id}/><div class="reader-actions"><button class="btn" data-save-article={a.id} aria-pressed="false">Save article</button><button class="btn" data-note-article={a.id} data-note-title={a.shortTitle}>Add / edit my note</button><a class="text-link" href={href('library/')}>My Library & folders</a><span data-save-status role="status" aria-live="polite"></span></div>
+  <DocumentActions title={a.title} printTitle={printTitle} articleId={a.id}/><div class="reader-actions"><button class="btn" data-save-article={a.id} aria-pressed="false">Save article</button><a class="text-link" href={href('library/')}>My Library & folders</a><span data-save-status role="status" aria-live="polite"></span></div>
   <section class="prose-section"><h2>Summary</h2><Paragraphs text={a.summary}/></section>
   <section class="prose-section"><h2>Why it matters</h2><Paragraphs text={a.whyItMatters}/></section>
   <section class="prose-section study-section"><h2>Study at a glance</h2><dl class="study-facts">{[['Design',a.studyType],['Population',a.population],['Sample size',a.sampleSize||'Not applicable'],['Intervention',a.intervention],['Comparator',a.comparator],['Primary endpoint',a.primaryEndpoint]].map(([label,value])=><div><dt>{label}</dt><dd>{value}</dd></div>)}</dl></section>
@@ -44,7 +44,7 @@ const printTitle=`EM Weekly - ${a.id.toUpperCase()} - ${a.firstOnlineDate}`;
   </section>
   <div class="topic-chips">{a.topics.map(t=><a href={href(`articles/?topic=${t}`)}>{topics.find(x=>x.id===t)?.name}</a>)}</div>
   <section class="prose-section correction-history"><h2>Corrections & review history</h2>{a.corrections.length?a.corrections.map(c=><p><strong>{formatDate(c.date)}</strong> — {c.description}</p>):<p class="muted">No corrections recorded. Human review: {a.humanReview.toLowerCase()}.</p>}</section>
-  <section id="article-private-note" class="personal-note-print" hidden><h2>My notes</h2><p></p></section>
+  <section id="article-private-note" class="personal-note-print" data-print-note-id={a.id} hidden><h2>My notes</h2><p></p></section>
   <p class="print-footer">{a.aiGenerated?'AI-generated':'Editor-written'} · {a.humanReview} · Read the primary source and apply clinical judgment.</p>
  </article>
-<script>import '../../lib/client/reader-actions';</script></Layout>
+<NotesPanel items={[{id:a.id,title:a.shortTitle}]}/><script>import '../../lib/client/reader-actions';</script></Layout>

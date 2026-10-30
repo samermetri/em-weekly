@@ -8,12 +8,7 @@ for(const button of buttons)button.addEventListener('click',async()=>{button.dis
  api.cacheLibrary(u.id,data);button.setAttribute('aria-pressed',String(button.dataset.saved==='true'));
  }catch(e){message.textContent=e instanceof Error?e.message:'Unable to save article.';}finally{button.disabled=false;}});
 
-for(const button of document.querySelectorAll<HTMLButtonElement>('[data-note-article]'))button.addEventListener('click',async()=>{
- button.disabled=true;const message=document.querySelector<HTMLElement>('[data-save-status]')!;
- try{
-  const api=await import('./account'),u=await api.user();if(!u){location.assign(base+'/account/?next='+encodeURIComponent(location.pathname));return;}
-  localStorage.setItem('em-weekly:last-user',u.id);const {readNotes,editNote}=await import('./private-notes'),id=button.dataset.noteArticle!;
-  const {notes}=await readNotes([id]);const result=await editNote({uid:u.id,id,title:button.dataset.noteTitle!,current:notes.get(id)});
-  if(result){message.textContent='Note saved privately in My Library.';const saved=document.querySelector<HTMLButtonElement>('[data-save-article]');if(saved){saved.dataset.saved='true';saved.textContent='Saved ✓';saved.setAttribute('aria-pressed','true');}document.dispatchEvent(new CustomEvent('em-note-saved',{detail:result}));}
- }catch(e){message.textContent=(e as Error).message;}finally{button.disabled=false;}
+document.addEventListener('em-note-saved',event=>{
+ const id=(event as CustomEvent<{article_id:string}>).detail.article_id;
+ for(const button of buttons)if(button.dataset.saveArticle===id){button.dataset.saved='true';button.textContent='Saved ✓';button.setAttribute('aria-pressed','true');const message=document.querySelector<HTMLElement>('[data-save-status]');if(message)message.textContent='Note saved privately in My Library.';}
 });

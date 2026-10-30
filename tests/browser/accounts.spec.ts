@@ -146,6 +146,44 @@ test('a note on an unsaved article creates its favorite and is immediately print
   if(path.endsWith('/em_bookmarks')){reads++;return route.fulfill({json:[]});}
   if(path.endsWith('/em_save_article_note')){writes++;const b=route.request().postDataJSON();expect(b.expected_revision).toBeNull();return route.fulfill({json:{article_id:b.article,note:b.note_text,note_revision:1}});}return route.abort();
  });
- await page.goto('articles/preoxi/');await page.getByRole('button',{name:'Add / edit my note',exact:true}).click();await expect(page.getByLabel('Private note',{exact:true})).toHaveAttribute('maxlength','4000');await page.getByLabel('Private note',{exact:true}).fill('My new article reminder');expect(writes).toBe(0);await page.getByRole('button',{name:'Save note',exact:true}).click();await expect(page.getByRole('button',{name:'Saved ✓',exact:true})).toBeVisible();expect(writes).toBe(1);expect(reads).toBe(1);
+ await page.goto('articles/preoxi/');await page.getByRole('button',{name:'Open notes',exact:true}).click();await expect(page.getByLabel('Private note',{exact:true})).toHaveAttribute('maxlength','4000');await page.getByLabel('Private note',{exact:true}).fill('My new article reminder');expect(writes).toBe(0);await page.getByRole('button',{name:'Save note',exact:true}).click();await expect(page.getByRole('button',{name:'Saved ✓',exact:true})).toBeVisible();expect(writes).toBe(1);expect(reads).toBe(1);
  await page.getByLabel('Include my notes',{exact:true}).check();await expect(page.locator('#article-private-note')).toContainText('My new article reminder');expect(reads).toBe(1);
+});
+
+test('desktop notes split reading space and keep drafts when closed without database writes',async({page})=>{
+ await session(page);let reads=0,writes=0;
+ await page.route(origin+'/**',route=>{const path=new URL(route.request().url()).pathname;
+  if(path.endsWith('/em_bookmarks')){reads++;return route.fulfill({json:[]});}
+  if(path.endsWith('/em_save_article_note')){writes++;const b=route.request().postDataJSON();return route.fulfill({json:{article_id:b.article,note:b.note_text,note_revision:writes}});}return route.abort();
+ });
+ await page.setViewportSize({width:1440,height:1000});await page.goto('articles/preoxi/');expect(reads).toBe(0);
+ await page.getByRole('button',{name:'Open notes',exact:true}).click();await expect(page.getByLabel('Private note',{exact:true})).toBeEditable();
+ const panel=await page.locator('#notes-panel').boundingBox(),article=await page.locator('.article-detail').boundingBox();expect(panel!.width/1440).toBeGreaterThan(.30);expect(panel!.width/1440).toBeLessThan(.37);expect(article!.x+article!.width).toBeLessThanOrEqual(panel!.x);
+ await page.getByLabel('Private note',{exact:true}).fill('Review the study population and external validity.');expect(writes).toBe(0);
+ await page.getByRole('button',{name:'Close notes',exact:true}).click();await expect(page.locator('#notes-panel')).toBeHidden();await expect(page.locator('#notes-draft-badge')).toBeVisible();
+ await page.getByRole('button',{name:'Open notes',exact:true}).click();await expect(page.getByLabel('Private note',{exact:true})).toHaveValue('Review the study population and external validity.');expect(reads).toBe(1);
+ await page.mouse.move(180,500);await page.mouse.wheel(0,550);await expect.poll(()=>page.evaluate(()=>scrollY)).toBeGreaterThan(0);await expect(page.locator('#notes-panel')).toBeVisible();
+ await page.getByRole('button',{name:'Save note',exact:true}).click();await expect(page.locator('#side-note-status')).toHaveText('Note saved.');expect(writes).toBe(1);await expect(page.getByRole('button',{name:'Save note',exact:true})).toBeDisabled();
+ await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:'tmp/article-notes-split-desktop.png',fullPage:false});
+ await page.setViewportSize({width:390,height:844});await page.screenshot({path:'tmp/article-notes-sheet-mobile.png',fullPage:false});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+ await page.emulateMedia({media:'print'});await expect(page.locator('#notes-panel')).toBeHidden();await expect(page.locator('#notes-launcher')).toBeHidden();await expect(page.locator('#article-private-note')).toBeHidden();
+ await page.emulateMedia({media:'screen'});await page.getByLabel('Include my notes',{exact:true}).check();await expect(page.locator('#article-private-note')).toContainText('Review the study population');expect(reads).toBe(1);await page.emulateMedia({media:'print'});await page.pdf({path:'tmp/side-notes-article.pdf',format:'Letter',printBackground:true});
+});
+
+test('weekly brief notes share article records, preserve per-article drafts, and print only by choice',async({page})=>{
+ await session(page);const issue=JSON.parse(fs.readFileSync('content/issues/2026-10-26.json','utf8'));const ids=issue.items.map((i:any)=>i.articleId);let reads=0,writes=0;const saved=new Map();
+ await page.route(origin+'/**',route=>{const req=route.request(),url=new URL(req.url()),path=url.pathname;
+  if(path.endsWith('/em_bookmarks')){reads++;const selected=(url.searchParams.get('article_id')||'').match(/\((.*)\)/)?.[1].split(',')||[];return route.fulfill({json:selected.flatMap(id=>saved.has(id)?[saved.get(id)]:[])});}
+  if(path.endsWith('/em_save_article_note')){writes++;const b=req.postDataJSON(),note={article_id:b.article,note:b.note_text,note_revision:(saved.get(b.article)?.note_revision||0)+1};saved.set(b.article,note);return route.fulfill({json:note});}return route.abort();
+ });
+ await page.setViewportSize({width:1440,height:1000});await page.goto('weekly/2026-10-26/');expect(reads).toBe(0);await page.locator(`[data-open-note="${ids[0]}"]`).click();await expect(page.getByLabel('Article for notes')).toHaveValue(ids[0]);await page.getByLabel('Private note',{exact:true}).fill('My first article draft.');
+ await page.getByLabel('Article for notes').selectOption(ids[1]);await page.getByLabel('Private note',{exact:true}).fill('My second article note.');await page.getByRole('button',{name:'Save note',exact:true}).click();await expect(page.locator('#side-note-status')).toHaveText('Note saved.');
+ await page.getByLabel('Article for notes').selectOption(ids[0]);await expect(page.getByLabel('Private note',{exact:true})).toHaveValue('My first article draft.');expect(reads).toBe(2);await page.getByRole('button',{name:'Save note',exact:true}).click();await expect(page.locator('#side-note-status')).toHaveText('Note saved.');expect(writes).toBe(2);
+ await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:'tmp/weekly-notes-split-desktop.png',fullPage:false});await expect(page.locator('.personal-note-print:visible')).toHaveCount(0);
+ await page.getByLabel('Include my notes',{exact:true}).check();await expect(page.locator('.personal-note-print:visible')).toHaveCount(2);await page.emulateMedia({media:'print'});await expect(page.locator('#notes-panel')).toBeHidden();await expect(page.locator('.personal-note-print:visible')).toHaveCount(2);await page.pdf({path:'tmp/weekly-with-private-notes.pdf',format:'Letter',printBackground:true});
+ await page.emulateMedia({media:'screen'});await page.getByLabel('Include my notes',{exact:true}).uncheck();await expect(page.locator('.personal-note-print:visible')).toHaveCount(0);
+});
+
+test('signed-out weekly notes offer sign-in without fetching data or covering the reading pane',async({page})=>{
+ let calls=0;await page.route(origin+'/**',r=>{calls++;return r.abort();});await page.goto('weekly/2026-10-26/');expect(calls).toBe(0);await page.getByRole('button',{name:'Open notes',exact:true}).click();await expect(page.locator('#notes-signin')).toBeVisible();await expect(page.locator('#notes-signin-link')).toHaveAttribute('href',/account\/\?next=/);await expect(page.locator('.issue-detail')).toBeVisible();expect(calls).toBe(0);await page.keyboard.press('Escape');await expect(page.locator('#notes-panel')).toBeHidden();await expect(page.getByRole('button',{name:'Open notes',exact:true})).toBeFocused();
 });

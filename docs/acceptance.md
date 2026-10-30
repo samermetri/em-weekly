@@ -95,3 +95,10 @@ Verified: 21 TypeScript tests, 10 importer tests, 25 browser tests, zero Astro d
 Readers can add/edit a private 4,000-character note in My Library or an article page. Explicit saves are revision checked, unchanged notes do not write, drafts survive failed saves, and Cancel/Escape checks before discarding changes. Notes reuse bookmark storage and existing owner-only RLS. The library cache was versioned to include notes; ordinary reading still makes no Supabase calls. Article and selected-digest print previews offer Include my notes, unchecked by default, and private text never appears in sharing URLs or public JSON. Library Undo preserves notes.
 
 Verified: rollback-only live database tests for first-note creation, owner update, stale revision rejection, 4,000-character bounds, cross-user reads/writes, anonymous execution denial and builder isolation. Security advisors introduced no new findings. Local checks cover cache reuse, plain-text rendering, note removal/Undo, failed-save draft retention, opt-in printing and cross-account cache isolation. Representative browser PDFs were rendered and inspected: a one-page article with a short note and a two-page digest with a long note; no stranded article headings. QA output remains ignored and is never uploaded.
+
+
+## October 30: reading alongside private notes
+
+A floating Notes button opens a desktop panel using about one third of the viewport while the article or weekly brief remains readable and scrollable. Mobile uses a bottom sheet. Weekly article selection shares the existing private article notes and keeps per-article drafts in page memory until explicitly saved. Closing and reopening preserves drafts; leaving warns when drafts remain. Saved notes are opt-in for weekly printing as well as article and digest printing.
+
+Verification: 34 browser checks cover the split ratio, reading bounds, mobile overflow, draft retention, cache reuse, explicit saves, weekly article switching, signed-out zero-database access and opt-in printing. Representative article and weekly PDFs were rendered for visual inspection. No schema changes, polling, public note exports or stored PDF assets were introduced.
