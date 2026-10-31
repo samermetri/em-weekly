@@ -1,0 +1,31 @@
+name: Verify atomic editorial writer
+on:
+  workflow_dispatch:
+  push:
+    paths: ['scripts/editorial_writer.py', 'tests/editorial_writer_test.py', '.github/workflows/editorial-writer.yml']
+  pull_request:
+    paths: ['scripts/editorial_writer.py', 'tests/editorial_writer_test.py', '.github/workflows/editorial-writer.yml']
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: writer_test
+          POSTGRES_PASSWORD: disposable_ci_password
+          POSTGRES_DB: em_weekly_writer_test
+        ports: ['5432:5432']
+        options: --health-cmd pg_isready --health-interval 5s --health-timeout 5s --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements-db.txt
+      - run: python3 -m unittest discover -s tests -p 'editorial_writer_test.py' -v
+        env:
+          EM_WEEKLY_TEST_DATABASE_URL: postgresql://writer_test:disposable_ci_password@127.0.0.1:5432/em_weekly_writer_test
