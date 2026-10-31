@@ -1,6 +1,7 @@
 {
-  "snapshotHash": "94ba48f19c96f26dedc441c402f6b06b725b25967fdeb9a045e3c6c44157e636",
+  "snapshotHash": "99f49b2b1c3a9ae876c4d186086de53de81c1f18b2ba6004a68aa52cb4d5d23d",
   "documentRevisions": {
+    "article:aap-neonatal-hie-hypothermia-2026": 1,
     "article:aap-pediatric-uti-2026": 2,
     "article:acmt-fentanyl-exposure-2024": 2,
     "article:acmt-iv-nac-duration-2026": 1,
@@ -88,7 +89,7 @@
     "audit:backfill-2025-04-06": 7,
     "audit:backfill-2025-07-06": 3,
     "audit:backfill-2026-01-04": 1,
-    "audit:backfill-2026-01-25": 4,
+    "audit:backfill-2026-01-25": 6,
     "audit:backfill-initial-2024-2025": 1,
     "audit:backfill-initial-2025-2026": 1,
     "audit:cloud-connection-test": 1,
@@ -98,8 +99,8 @@
     "probe:hosted-2026-10-26": 1,
     "probe:scheduled-2026-10-26": 1,
     "probe:weekly-connection-2026-10-26": 2,
-    "state:backfill": 32,
+    "state:backfill": 34,
     "state:publishing": 9
   },
-  "revisionFingerprint": "dbcacc10a959b819d8e3b1719943d9a2"
+  "revisionFingerprint": "f0d637354a4ca1edb0a7d191f50c9356"
 }

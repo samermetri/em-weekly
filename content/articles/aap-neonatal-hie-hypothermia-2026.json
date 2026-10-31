@@ -1,0 +1,61 @@
+{
+  "id": "aap-neonatal-hie-hypothermia-2026",
+  "doi": "10.1542/peds.2025-073627",
+  "pmid": "41581784",
+  "title": "Therapeutic Hypothermia for Neonatal Hypoxic-Ischemic Encephalopathy: Clinical Report",
+  "pinned": false,
+  "sample": false,
+  "source": "Pediatrics / American Academy of Pediatrics",
+  "status": "published",
+  "topics": [
+    "pediatrics",
+    "neurology",
+    "guidelines"
+  ],
+  "authors": [
+    "Santina A. Zanelli",
+    "Courtney J. Wusthoff",
+    "Ashley M. Lucke",
+    "David A. Kaufman",
+    "AAP Committee on Fetus and Newborn",
+    "AAP Section on Neurology"
+  ],
+  "ranking": {
+    "design": 3,
+    "novelty": 3,
+    "edImpact": 4,
+    "guidelineRelevance": 5
+  },
+  "section": "Guidelines & Statements",
+  "summary": "This AAP clinical report updates neonatal HIE care. The primary abstract supports cooling eligible infants born at ≥36 weeks within 6 hours for 72 hours, with neuromonitoring, neuroimaging and developmental follow-up.\n\nThe retrieved official society summary clarifies selected later-presenting and younger infants and emphasizes coordinated recognition and transfer. This record covers that summary, rather than a full guideline appraisal.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Standard approach: initiate within 6 hours, target 33.5°C and continue 72 hours.",
+    "At 35 0/7–35 6/7 weeks, treatment may be considered after family discussion; below 35 weeks it is not recommended.",
+    "At 6–24 hours, selected moderate-to-severe HIE cases may be considered after discussing potentially small benefits and risks.",
+    "Mild HIE: evidence is insufficient. Avoid hyperthermia even when cooling is unsuitable.",
+    "Transport cooling requires strict protocols. Continuous neuromonitoring and access to pediatric neurology are emphasized."
+  ],
+  "studyType": "Guideline",
+  "comparator": "Clinical-report recommendations; no new randomized comparison.",
+  "population": "Newborns with suspected moderate-to-severe hypoxic-ischemic encephalopathy.",
+  "sampleSize": null,
+  "shortTitle": "AAP neonatal HIE: early recognition and cooling-center transfer",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "The complete report was not retrieved: its page presented CAPTCHA. Detailed eligibility scoring, exclusion criteria, adverse-event estimates and underlying trials remain unreviewed; use the receiving center’s protocol.",
+  "retrievedAt": "2026-10-30",
+  "canonicalUrl": "https://doi.org/10.1542/peds.2025-073627",
+  "intervention": "Specialist-directed therapeutic hypothermia and coordinated transfer.",
+  "whyItMatters": "An ED encountering a newborn with suspected HIE should urgently contact a cooling center. Presentation beyond 6 hours should prompt specialist assessment rather than automatic dismissal of possible eligibility.",
+  "evidenceNotes": "Official AAP News summary retrieved in full: https://publications.aap.org/aapnews/news/34085/AAP-report-provides-update-on-therapeutic . Primary publisher indexed abstract/date and PubMed identifiers corroborated. DOI-specific correction/retraction search found no separate notice; full-report evidence and safety appraisal remains queued.",
+  "discoveredDate": "2026-10-30",
+  "fullTextStatus": "Official society summary available",
+  "firstOnlineDate": "2026-01-26",
+  "primaryEndpoint": "Prevention of death or moderate-to-severe neurodevelopmental impairment.",
+  "reviewedMaterial": "official society summary",
+  "guidelineStrength": "AAP recommendations; formal GRADE certainty was not established from reviewed material.",
+  "sitePublishedDate": "2026-10-30"
+}

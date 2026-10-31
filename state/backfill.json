@@ -585,7 +585,7 @@
     },
     {
       "end": "2026-01-31",
-      "notes": "Partial: reuse prior complete SQL-cache enumeration of124 candidates, ordinals1-100 and101-124, capture2026-10-29T02:14:23.851Z. On2026-10-30, completed further individual directory/exact-date checks;17/22 source checks now successful. STRATIFY abstract appraised, first online Jan30, added with harms/endpoint and subsequent-trial caveats. HAE full recommendations, held AIS correction, AAP HIE/immunization, ITP dating, IDSA dated revisions, JournalFeed historical archive and GAPcare II remain unresolved. Completion flags false; no cache re-screening.",
+      "notes": "Partial: unchanged SQL discovery capture2026-10-29T02:14:23.851Z,124 candidates previously screened ordinals1-100/101-124.18/22 checks successful.2026-10-30 added limited AAP neonatal HIE official-summary article (first online Jan26); full-report eligibility/safety appraisal queued. Reconciled later IDSA dates; CAP resolved to official Feb24 update; SAB indexed/direct snapshots differ. HAE,AIS correction,AAP immunization chronology/access,ITP chronology,JournalFeed,GAPcare II and final checks remain unresolved. Both completion flags false.",
       "start": "2026-01-25",
       "status": "partial",
       "auditId": "backfill-2026-01-25",
@@ -594,7 +594,8 @@
         "aha-maternal-stroke-2026",
         "emphasis-minocycline-stroke-2026",
         "acmt-iv-nac-duration-2026",
-        "stratify-low-dose-thrombolysis-pe-2026"
+        "stratify-low-dose-thrombolysis-pe-2026",
+        "aap-neonatal-hie-hypothermia-2026"
       ]
     },
     {
@@ -925,7 +926,7 @@
   ],
   "rangeEnd": "2026-10-26",
   "startedAt": "2026-10-27T20:58:44.597134+00:00",
-  "updatedAt": "2026-10-31T03:58:23.872Z",
+  "updatedAt": "2026-10-31T04:13:05Z",
   "rangeStart": "2024-10-27",
   "schemaVersion": 1,
   "candidateQueue": [
@@ -1010,13 +1011,13 @@
     {
       "url": "https://www.idsociety.org/idsa_practice_guidelines",
       "title": "IDSA 2026 AMR Guidance",
-      "reason": "Official A-Z directory lists current 2026 AMR guidance. Verify actual section revision dates and ED-relevant changes.",
-      "firstOnlineDate": null
+      "reason": "Official society page Published July30,2026; publisher DOI10.1093/cid/ciag481 Published Aug8,2026. Use earlier society release for window attribution; evidence-current March1 is not publication. Next appraise full ED-relevant changes, dosing tables, evidence limits and subsequent corrections; outside Jan25–31.",
+      "firstOnlineDate": "2026-07-30"
     },
     {
       "url": "https://www.idsociety.org/idsa_practice_guidelines",
       "title": "IDSA 2026 Staphylococcus aureus Bacteremia guidance",
-      "reason": "Listed current/endorsed; distinguish new recommendations from online directory naming.",
+      "reason": "Official indexed page reports Published September9,2026; direct open returns stale IN DEVELOPMENT page with invalid January1,0001 placeholder. Next reconcile current primary version and date via official indexed/publisher material then appraise; never use placeholder. Outside Jan25–31 on available dated official evidence.",
       "firstOnlineDate": null
     },
     {
@@ -1094,26 +1095,44 @@
     {
       "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/acem.70228",
       "title": "GAPcare II: Emergency Department Visit Outcomes of a Multicenter Randomized Trial of a Fall Prevention Intervention",
-      "reason": "Publisher primary indexed metadata verifies Jan28 first online; direct Wiley full-page retrieval returned 403 Forbidden on2026-10-30. Next: retrieve primary abstract/full outcomes and appraise clinical endpoints; do not infer benefit from trial title or process abstract.",
+      "reason": "Publisher primary indexed metadata verifies Jan28 first online; direct Wiley full-page retrieval returned 403 Forbidden on2026-10-30. Next: retrieve primary abstract/full outcomes and appraise clinical endpoints; do not infer benefit from trial title or process abstract. 2026-10-30 distinct primary route: PMC13061584 discovered (PMID41603307), direct PMC retrieval displayed reCAPTCHA. Next retrieve full abstract/outcome report legally; no clinical efficacy claim.",
       "firstOnlineDate": "2026-01-28"
     },
     {
       "url": "https://doi.org/10.1542/peds.2025-075754",
       "title": "AAP 2026 recommended child and adolescent immunization schedule",
-      "reason": "Official AAP news reports release Jan26,2026; exact primary publication/version chronology and ED-relevant differences remain to verify. New candidate from independent exact-date AAP check; no recommendations summarized.",
+      "reason": "Official AAP Jan26 news34141 describes schedule release, unchanged routine vaccine recommendations and notes clarifications; indexed policy collection gives Feb9 for DOI10.1542/peds.2025-075754. Direct news open Cache miss and distinct official PDF CAPTCHA on2026-10-30. Next retrieve primary schedule/policy legally, reconcile release versus paper chronology and evaluate ED-specific significance; no exclusion based on snippets.",
       "firstOnlineDate": null
     },
     {
       "url": "https://doi.org/10.1542/peds.2025-073627",
       "title": "AAP therapeutic hypothermia for neonatal hypoxic-ischemic encephalopathy",
-      "reason": "Prior audit excluded as NICU focused. New official AAP Jan26 news highlights eligibility at6–24h and younger neonates, potentially affecting ED transfer. Reassess selective relevance from primary report, establish first online, grades and transfer implications; prior exclusion preserved in audit history pending supported reassessment.",
-      "firstOnlineDate": null
+      "reason": "Limited official-society-summary article aap-neonatal-hie-hypothermia-2026 saved from full AAP News summary; primary publisher verifies Jan26. Full report presents CAPTCHA. Next: retrieve full report legally, appraise neurologic scoring, contraindications, trial harms/uncertainty and transfer protocol detail; do not label current record full-text reviewed.",
+      "firstOnlineDate": "2026-01-26"
     },
     {
       "url": "https://doi.org/10.1093/cvr/cvag038",
       "title": "STRATIFY primary full-text safety and subsequent PE evidence context",
       "reason": "Concise primary-abstract article saved; next retrieve full safety event counts and reconcile abstract results/conclusion wording. Publisher full material paywalled; no bypass. Later HI-PEITHO NEJMoa2516567 and NEJMoa2608012 support selected catheter-therapy clinical outcomes in different designs; assess full context before stronger practice claim. No separate correction/retraction found by performed DOI searches.",
       "firstOnlineDate": "2026-01-30"
+    },
+    {
+      "url": "https://doi.org/10.1002/phar.70181",
+      "title": "ACCP beta-lactam dose individualization consensus and correction",
+      "reason": "Official endorsed IDSA indexed entry states First published July22,2026. Correction PMID42608777 surfaced in primary PubMed search. Next retrieve original and correction, reconcile changes and appraise ED dosing before publication.",
+      "firstOnlineDate": "2026-07-22"
+    },
+    {
+      "url": "https://doi.org/10.1002/phar.70188",
+      "title": "ACCP prolonged-infusion beta-lactam focused update",
+      "reason": "Official IDSA endorsed entry gives First published August14,2026. Next retrieve full primary update, appraise mortality/clinical-cure certainty, loading-dose implications and corrections. Outside Jan25–31; no article drafted.",
+      "firstOnlineDate": "2026-08-14"
+    },
+    {
+      "url": "https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-in-infants-and-children/",
+      "title": "IDSA/PIDS 2026 pediatric CAP and parapneumonic effusion guideline",
+      "reason": "Official new guideline page retrieved via archived2011 update link; Published/Last Updated February24,2026. Recommendation text available. Next appraise complete recommendations/manuscript chronology, evidence certainty, drainage/imaging thresholds and corrections before article; outside Jan25–31.",
+      "firstOnlineDate": "2026-02-24"
     }
   ]
 }
