@@ -48,20 +48,20 @@
   ],
   "sources": {
     "pubmed-em": {
-      "lastError": "E-utilities and official PubMed HTML fallback were inaccessible for the exact configured 2026-10-01 through 2026-10-30 edat query; result count and complete pagination could not be verified, so checkpoint was not advanced.",
-      "lastAttemptAt": "2026-10-30T09:07:46.207Z"
+      "lastError": "E-utilities and official PubMed HTML fallback were inaccessible for the exact configured 2026-10-02 through 2026-10-31 edat query; result count and complete pagination could not be verified, so checkpoint was not advanced.",
+      "lastAttemptAt": "2026-10-31T08:58:06.461Z"
     },
     "pubmed-general": {
-      "lastError": "E-utilities and official PubMed HTML fallback were inaccessible for the exact configured 2026-10-01 through 2026-10-30 edat query; result count and complete pagination could not be verified, so checkpoint was not advanced.",
-      "lastAttemptAt": "2026-10-30T09:07:46.207Z"
+      "lastError": "E-utilities and official PubMed HTML fallback were inaccessible for the exact configured 2026-10-02 through 2026-10-31 edat query; result count and complete pagination could not be verified, so checkpoint was not advanced.",
+      "lastAttemptAt": "2026-10-31T08:58:06.461Z"
     },
     "pubmed-guidance": {
-      "lastError": "E-utilities and official PubMed HTML fallback were inaccessible for the exact configured 2026-10-01 through 2026-10-30 edat query; the separate official-society sweep completed, but this PubMed checkpoint was not advanced.",
-      "lastAttemptAt": "2026-10-30T09:07:46.207Z"
+      "lastError": "E-utilities and official PubMed HTML fallback were inaccessible for the exact configured 2026-10-02 through 2026-10-31 edat query; the separate official-society sweep completed, but this PubMed checkpoint was not advanced.",
+      "lastAttemptAt": "2026-10-31T08:58:06.461Z"
     },
     "pubmed-specialty": {
-      "lastError": "E-utilities and official PubMed HTML fallback were inaccessible for the exact configured 2026-10-01 through 2026-10-30 edat query; result count and complete pagination could not be verified, so checkpoint was not advanced.",
-      "lastAttemptAt": "2026-10-30T09:07:46.207Z"
+      "lastError": "E-utilities and official PubMed HTML fallback were inaccessible for the exact configured 2026-10-02 through 2026-10-31 edat query; result count and complete pagination could not be verified, so checkpoint was not advanced.",
+      "lastAttemptAt": "2026-10-31T08:58:06.461Z"
     }
   },
   "schemaVersion": 1,
@@ -75,9 +75,9 @@
     "2026-10-19"
   ],
   "lastSuccessfulDeployment": {
-    "at": "2026-10-31T04:16:03.541641+00:00",
-    "commit": "400f9a0d9984831a91d1347e87e85e91686b0dd4",
-    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/41167759124",
+    "at": "2026-10-31T12:17:14.865239+00:00",
+    "commit": "412495c7e03b6582a11b01243586f70bef8724ca",
+    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/41200320175",
     "url": "https://emweekly.samermetri.com/"
   },
   "lastSuccessfulResearchCheck": "2026-10-29T06:15:02.754Z"

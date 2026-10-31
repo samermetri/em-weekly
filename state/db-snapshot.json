@@ -1,5 +1,5 @@
 {
-  "snapshotHash": "99f49b2b1c3a9ae876c4d186086de53de81c1f18b2ba6004a68aa52cb4d5d23d",
+  "snapshotHash": "571bc818b05eccad47eb7d08e5206076d7f1839f0e4ab72ca2f8e44bc2b7ceb9",
   "documentRevisions": {
     "article:aap-neonatal-hie-hypothermia-2026": 1,
     "article:aap-pediatric-uti-2026": 2,
@@ -74,6 +74,7 @@
     "audit:2026-10-28": 1,
     "audit:2026-10-29": 2,
     "audit:2026-10-30": 1,
+    "audit:2026-10-31": 1,
     "audit:backfill-2024-10-27": 2,
     "audit:backfill-2024-11-03": 2,
     "audit:backfill-2024-11-10": 3,
@@ -84,12 +85,12 @@
     "audit:backfill-2024-12-15": 1,
     "audit:backfill-2024-12-22": 1,
     "audit:backfill-2025-01-05": 1,
-    "audit:backfill-2025-02-02": 4,
+    "audit:backfill-2025-02-02": 6,
     "audit:backfill-2025-02-16": 3,
     "audit:backfill-2025-04-06": 7,
     "audit:backfill-2025-07-06": 3,
     "audit:backfill-2026-01-04": 1,
-    "audit:backfill-2026-01-25": 6,
+    "audit:backfill-2026-01-25": 8,
     "audit:backfill-initial-2024-2025": 1,
     "audit:backfill-initial-2025-2026": 1,
     "audit:cloud-connection-test": 1,
@@ -99,8 +100,8 @@
     "probe:hosted-2026-10-26": 1,
     "probe:scheduled-2026-10-26": 1,
     "probe:weekly-connection-2026-10-26": 2,
-    "state:backfill": 34,
-    "state:publishing": 9
+    "state:backfill": 39,
+    "state:publishing": 10
   },
-  "revisionFingerprint": "f0d637354a4ca1edb0a7d191f50c9356"
+  "revisionFingerprint": "2ff1f8300e1a2cc692ec38efbf9d94a5"
 }

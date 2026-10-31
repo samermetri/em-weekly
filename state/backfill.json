@@ -144,7 +144,7 @@
     },
     {
       "end": "2025-02-08",
-      "notes": "Partial: complete SQL-cache enumeration screened in ordinal pages 1-100 and 101-138 (138 candidates; configured membership counts EM 40, general 50, specialty 31, guidance 19). Primary review reconciled the two NEJM medium/distal-vessel EVT trials already saved (each first online 2025-02-05); JAMA ED vestibular rehabilitation was explicitly excluded because its primary publisher date is 2025-02-14, outside this window. SCCM directory/date search completed: PADIS focused update was published 2025-02-20, outside the window; no eligible SCCM guidance found by these methods. Remaining independent society checks and final cross-check remain incomplete. 2026-10-30: ACEP/AHA/ASA/ACC directory/date attempts returned empty web-service errors. Prior five successful checks and screened ordinals 1-138 preserved. Resume remaining directory/date checks after recovery; observe same-day unchanged-failure cooldown. Window partial; no new articles or successful checks.",
+      "notes": "Partial: reused unchanged complete SQL cache capture2026-10-29T02:11:32.355Z,138 candidates pages1–100/101–138, memberships40/50/31/19.2026-10-31 official directory/date checks advanced to18/22 successful. AAP clinical-report archive,ACOG endorsement chronology,ASH pediatricVTE chronology and JournalFeed interval archive remain incomplete with concrete next actions. Twelve updated final-domain notes saved; both flagsfalse. No articles added; prior articleIds/checkpoints retained.",
       "start": "2025-02-02",
       "status": "partial",
       "auditId": "backfill-2025-02-02",
@@ -585,7 +585,7 @@
     },
     {
       "end": "2026-01-31",
-      "notes": "Partial: unchanged SQL discovery capture2026-10-29T02:14:23.851Z,124 candidates previously screened ordinals1-100/101-124.18/22 checks successful.2026-10-30 added limited AAP neonatal HIE official-summary article (first online Jan26); full-report eligibility/safety appraisal queued. Reconciled later IDSA dates; CAP resolved to official Feb24 update; SAB indexed/direct snapshots differ. HAE,AIS correction,AAP immunization chronology/access,ITP chronology,JournalFeed,GAPcare II and final checks remain unresolved. Both completion flags false.",
+      "notes": "Partial: unchanged cache capture2026-10-29T02:14:23.851Z,124 candidates; reused screened ordinals1-100/101-124.19/22 source checks successful.2026-10-31 JournalFeed archive checked; GAPcare II selectively excluded after primary abstract review and queue resolved. AAP Jan26 release versus Feb9 paper chronology reconciled; detailed schedule appraisal,HAE,HIE full report,AIS full correction comparison,ITP chronology and final checks remain. Both completion flags false.",
       "start": "2026-01-25",
       "status": "partial",
       "auditId": "backfill-2026-01-25",
@@ -926,14 +926,14 @@
   ],
   "rangeEnd": "2026-10-26",
   "startedAt": "2026-10-27T20:58:44.597134+00:00",
-  "updatedAt": "2026-10-31T04:13:05Z",
+  "updatedAt": "2026-10-31T12:09:38.272Z",
   "rangeStart": "2024-10-27",
   "schemaVersion": 1,
   "candidateQueue": [
     {
       "url": "https://doi.org/10.1161/STR.0000000000000530",
       "title": "2026 AHA/ASA stroke guideline correction",
-      "reason": "The guideline draft is held until the complete official correction can be checked for changes to summarized recommendations.",
+      "reason": "Held AIS guideline unchanged.2026-10-31 primary PubMed42507797 verifies correction Epub July27; indexed official PDF exposes partial content only. Direct DOI not accessible; distinct official PDF403 Forbidden. Next retrieve all7 correction pages legally and compare every relevant change to corrected guideline/current summary before publication; no complete comparison claimed.",
       "firstOnlineDate": null
     },
     {
@@ -1023,7 +1023,7 @@
     {
       "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
       "title": "ACS chest-wall injury and genitourinary injury best practices",
-      "reason": "Official directory calls these new but did not expose publication dates in retrieved page. 2026-10-30 official ACS December3,2025 retrospective documents release during2025, so excluded from Jan25–31,2026; exact earliest dates/full appraisal unresolved.",
+      "reason": "Official directory calls these new but did not expose publication dates in retrieved page. 2026-10-30 official ACS December3,2025 retrospective documents release during2025, so excluded from Jan25–31,2026; exact earliest dates/full appraisal unresolved. 2026-10-31 official direct release pages datedNov10,2025 chest-wall andSep9,2025 genitourinary retrieved; both outsideFeb2–8,2025. Next reconcile earliest public PDF versions and appraise full recommendations; later press releases alone do not prove exact first-online dates.",
       "firstOnlineDate": null
     },
     {
@@ -1089,20 +1089,14 @@
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/41618059/",
       "title": "International pediatric hereditary angioedema guideline",
-      "reason": "Publisher primary indexed page DOI 10.1111/all.70207 and PMC13466006 metadata verify first-online 2026-01-30. Direct PubMed opens showed reCAPTCHA; Wiley and PMC opens returned Cache miss via web_run on 2026-10-30. Next action: retrieve full recommendations via working primary route, appraise acute airway/treatment guidance and evidence grades; no summary yet.",
+      "reason": "First-online2026-01-30 verified previously.2026-10-31 PMC13466006 and distinct Wiley DOI10.1111/all.70207 direct opens both Cache miss. Indexed primary search material available but complete age-specific acute airway/treatment/evidence-grade appraisal remains pending. Next retrieve full tables/corrections through working legal primary route; no same-day equivalent retry.",
       "firstOnlineDate": "2026-01-30"
-    },
-    {
-      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/acem.70228",
-      "title": "GAPcare II: Emergency Department Visit Outcomes of a Multicenter Randomized Trial of a Fall Prevention Intervention",
-      "reason": "Publisher primary indexed metadata verifies Jan28 first online; direct Wiley full-page retrieval returned 403 Forbidden on2026-10-30. Next: retrieve primary abstract/full outcomes and appraise clinical endpoints; do not infer benefit from trial title or process abstract. 2026-10-30 distinct primary route: PMC13061584 discovered (PMID41603307), direct PMC retrieval displayed reCAPTCHA. Next retrieve full abstract/outcome report legally; no clinical efficacy claim.",
-      "firstOnlineDate": "2026-01-28"
     },
     {
       "url": "https://doi.org/10.1542/peds.2025-075754",
       "title": "AAP 2026 recommended child and adolescent immunization schedule",
-      "reason": "Official AAP Jan26 news34141 describes schedule release, unchanged routine vaccine recommendations and notes clarifications; indexed policy collection gives Feb9 for DOI10.1542/peds.2025-075754. Direct news open Cache miss and distinct official PDF CAPTCHA on2026-10-30. Next retrieve primary schedule/policy legally, reconcile release versus paper chronology and evaluate ED-specific significance; no exclusion based on snippets.",
-      "firstOnlineDate": null
+      "reason": "Official AAP News34141 fully returned by indexed primary search on2026-10-31 verifies Jan26 schedule release, preceding February9 policy paper. Routine AAP recommendations unchanged; indexed policy lists clarifications relative to2025. Next retrieve full schedule/appendix legally and appraise ED implications, contraindications and subsequent changes; direct policy open redirected to login (500/non-retryable). Do not treat paper date as earliest guidance release.",
+      "firstOnlineDate": "2026-01-26"
     },
     {
       "url": "https://doi.org/10.1542/peds.2025-073627",
@@ -1133,6 +1127,30 @@
       "title": "IDSA/PIDS 2026 pediatric CAP and parapneumonic effusion guideline",
       "reason": "Official new guideline page retrieved via archived2011 update link; Published/Last Updated February24,2026. Recommendation text available. Next appraise complete recommendations/manuscript chronology, evidence certainty, drainage/imaging thresholds and corrections before article; outside Jan25–31.",
       "firstOnlineDate": "2026-02-24"
+    },
+    {
+      "url": "https://doi.org/10.1182/bloodadvances.2026021269",
+      "title": "ASH2026 adult primary ITP initial and second-line therapy focused update",
+      "reason": "PMID42617047 and official ASH summary PDFs surfaced2026-10-31. October27 is print/issue date, not established first-online; indexed society summaries precede print. Next verify earliest official release and full recommendations/harms/corrections, distinguish stable primary ITP from critical bleeding, and appraise ED initial treatment/disposition relevance. Direct publisher page Cache miss; no article drafted.",
+      "firstOnlineDate": null
+    },
+    {
+      "url": "https://www.acmt.net/wp-content/uploads/2026/08/Part-1-Unscheduled-Procedural-Sedation.pdf",
+      "title": "ACEP multidisciplinary unscheduled procedural sedation guidelines Parts 1 and 2 (2026)",
+      "reason": "Primary PubMed42618173 DOI10.1016/j.annemergmed.2026.06.038 and official ACMT Part1/Part2 PDFs surfaced2026-10-31; approvedApr29,2026, outsideFeb2025. Part2 primary publisher PII S0196064426004634 identified; verify its DOI. Next retrieve both full legal primary PDFs, verify earliest public release/corrections and appraise ED monitoring,airway,recovery,agents and evidence strength; approval/print dates not first-online.",
+      "firstOnlineDate": null
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40423983/",
+      "title": "ASH/ISTH pediatric VTE updated treatment guideline",
+      "reason": "PMID40423983;DOI10.1182/bloodadvances.2024015328;PMC12235321. Official society May27,2025 announcement and primary May27 article date retrieved by indexed search; earliest electronic/version history not established. Next inspect primary full metadata/history and official earliest release, then appraise ED anticoagulation/DOAC safety,age-specific treatment and corrections; do not assign print date.",
+      "firstOnlineDate": null
+    },
+    {
+      "url": "https://www.acog.org/clinical/clinical-guidance/acog-endorsed",
+      "title": "Joint benzodiazepine tapering guideline: ACOG endorsement and earliest release chronology",
+      "reason": "Official indexed ACOG endorsement labeledFeb2025; ACMT official indexed directory saysMar2025 and newsMar14. ASAM indexed release newsletter has conflicting Feb26 timestamp/Mar4 heading. Next reconcile actual earliest public final version and endorsement date, then appraise ED withdrawal,inpatient criteria,seizure risk and exceptions through legal primary guidance. Do not equate endorsement month or later June journal version with first online.",
+      "firstOnlineDate": null
     }
   ]
 }
