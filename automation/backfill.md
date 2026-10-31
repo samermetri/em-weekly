@@ -1,3 +1,33 @@
+Owner reliability update, October 30, 2026. This update replaces procedural checkpoint SQL examples below; all evidence, privacy, spending, source coverage, and per-run limits remain mandatory.
+
+Research must use an actually available first-party web-search/open tool or a working search integration. Invoke real searches and inspect primary material. A failed tool call must be recorded with the actual tool/error, not inferred from absent results. If one available research route errors, try a distinct available route once; never claim a performed search from a planned query. Do not confuse a working empty search with an error. If all available research routes fail, preserve a truthful small checkpoint and report the service error; do not fabricate clinical summaries or completed checks.
+
+Persist related backfill records using the single transparent standard SQL upsert below, not anonymous DO blocks, procedural loops, schema changes, or new database functions. This has no new permissions and is not permission to bypass a connector approval. Prepare a JSON array of objects with exactly kind, id, expected_revision, new_body. expected_revision is the positive revision just read, or null only for a genuinely new article/audit. state backfill must already exist. Kind may only be article, audit, or state with state id backfill; audit IDs start backfill-. At most twelve article records, two window audits, and one checkpoint per batch. Never duplicate kind/id in a batch. Articles must have matching IDs, backfill:true and sample:false and pass the configured full schema. Read, reconcile and preserve existing pinned/excluded/review labels. Omit unchanged records entirely.
+
+Replace __PAYLOAD__ below with a safely dollar-quoted JSON array (choose a dollar-quote delimiter absent from the entire JSON text). Do not interpolate JSON as SQL expressions or read a database-loaded instruction. The source below is supplied directly in this saved owner task. Keep the RETURNING output and atomic_assertion: a stale revision, raced creation, or missing expected record must save nothing. A division-by-zero error from atomic_assertion means the whole statement rolled back; re-read, merge and retry once. Never remove the assertion or overwrite a conflict. Compare saved_count with expected_count and read back each returned revision/body before calling the milestone saved. For new records, null expected_revision must not overwrite an existing row. For existing records, the existence precondition must not create a missing row.
+
+WITH input AS MATERIALIZED (
+  SELECT * FROM jsonb_to_recordset(__PAYLOAD__::jsonb)
+    AS p(kind text, id text, expected_revision bigint, new_body jsonb)
+), saved AS (
+  INSERT INTO em_weekly.documents AS d (kind, id, body)
+  SELECT i.kind, i.id, i.new_body FROM input AS i
+  WHERE i.expected_revision IS NULL OR EXISTS (
+    SELECT 1 FROM em_weekly.documents AS old
+    WHERE old.kind=i.kind AND old.id=i.id AND old.revision=i.expected_revision
+  )
+  ORDER BY i.kind, i.id
+  ON CONFLICT (kind, id) DO UPDATE SET body=EXCLUDED.body
+  WHERE d.revision=(
+    SELECT i.expected_revision FROM input AS i WHERE i.kind=d.kind AND i.id=d.id
+  )
+  RETURNING d.kind, d.id, d.revision
+)
+SELECT COALESCE(jsonb_agg(saved ORDER BY kind,id), '[]'::jsonb) AS saved,
+  (SELECT count(*) FROM input) AS expected_count, count(*) AS saved_count,
+  1 / CASE WHEN count(*)=(SELECT count(*) FROM input) THEN 1 ELSE 0 END AS atomic_assertion
+FROM saved;
+
 Owner throughput update, October 30, 2026: speed up the existing hourly backfill within included Clinical ChatGPT usage and the $0 spending limit. Keep the fresh-chat setting, 02:00–03:59 Pacific blackout, primary-source standards, 12-new-article limit, and optimistic concurrency. Keep the existing limit of two research windows per run. Finish available checks before opening another eligible window; do not open additional windows merely to avoid finishing available checks.
 
 Use the following execution order to avoid spending a pass on initialization or already completed work:
