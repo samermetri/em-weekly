@@ -585,7 +585,7 @@
     },
     {
       "end": "2026-01-31",
-      "notes": "Partial: full SQL-cache enumeration of 124 unique candidates in ordinal pages 1-100 and 101-124; exact four query/date/count memberships matched. Selected AHA maternal stroke and EMPHASIS from primary material; existing held AIS preserved. Independent society review and queued clinical candidates unresolved.",
+      "notes": "Partial: reuse prior complete SQL-cache enumeration of124 candidates, ordinals1-100 and101-124, capture2026-10-29T02:14:23.851Z. On2026-10-30, completed further individual directory/exact-date checks;17/22 source checks now successful. STRATIFY abstract appraised, first online Jan30, added with harms/endpoint and subsequent-trial caveats. HAE full recommendations, held AIS correction, AAP HIE/immunization, ITP dating, IDSA dated revisions, JournalFeed historical archive and GAPcare II remain unresolved. Completion flags false; no cache re-screening.",
       "start": "2026-01-25",
       "status": "partial",
       "auditId": "backfill-2026-01-25",
@@ -593,7 +593,8 @@
         "aha-asa-acute-ischemic-stroke-2026",
         "aha-maternal-stroke-2026",
         "emphasis-minocycline-stroke-2026",
-        "acmt-iv-nac-duration-2026"
+        "acmt-iv-nac-duration-2026",
+        "stratify-low-dose-thrombolysis-pe-2026"
       ]
     },
     {
@@ -924,7 +925,7 @@
   ],
   "rangeEnd": "2026-10-26",
   "startedAt": "2026-10-27T20:58:44.597134+00:00",
-  "updatedAt": "2026-10-30T17:32:46.317Z",
+  "updatedAt": "2026-10-31T03:58:23.872Z",
   "rangeStart": "2024-10-27",
   "schemaVersion": 1,
   "candidateQueue": [
@@ -997,13 +998,13 @@
     {
       "url": "https://eso-stroke.org/guidelines/eso-guideline-directory/",
       "title": "2025 update to ESO guideline on blood pressure management in acute ischaemic stroke and intracerebral haemorrhage",
-      "reason": "Official directory lists as 2026. Exact publication date, primary guideline and recommendation strength not yet reviewed.",
+      "reason": "Official directory lists as 2026. Exact publication date, primary guideline and recommendation strength not yet reviewed. 2026-10-30 primary Oxford DOI10.1093/esj/aakag004 reports Published May7,2026; outside Jan25–31. Earliest-version discrepancy versus indexed May6 still to reconcile before article.",
       "firstOnlineDate": null
     },
     {
       "url": "https://eso-stroke.org/guidelines/eso-guideline-directory/",
       "title": "ESO/EANS/ESMINT guideline on aneurysmal subarachnoid haemorrhage",
-      "reason": "Official directory lists 2026; exact date and full primary review required.",
+      "reason": "Official directory lists 2026; exact date and full primary review required. 2026-10-30 primary PubMed PMID42095754 reports May6,2026 DOI10.1093/esj/aakag043; outside Jan25–31. Full recommendation appraisal remains pending.",
       "firstOnlineDate": null
     },
     {
@@ -1021,7 +1022,7 @@
     {
       "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
       "title": "ACS chest-wall injury and genitourinary injury best practices",
-      "reason": "Official directory calls these new but did not expose publication dates in retrieved page.",
+      "reason": "Official directory calls these new but did not expose publication dates in retrieved page. 2026-10-30 official ACS December3,2025 retrospective documents release during2025, so excluded from Jan25–31,2026; exact earliest dates/full appraisal unresolved.",
       "firstOnlineDate": null
     },
     {
@@ -1087,8 +1088,32 @@
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/41618059/",
       "title": "International pediatric hereditary angioedema guideline",
-      "reason": "2026-01-25 metadata candidate requiring primary first-online date, airway recommendations and strength review.",
+      "reason": "Publisher primary indexed page DOI 10.1111/all.70207 and PMC13466006 metadata verify first-online 2026-01-30. Direct PubMed opens showed reCAPTCHA; Wiley and PMC opens returned Cache miss via web_run on 2026-10-30. Next action: retrieve full recommendations via working primary route, appraise acute airway/treatment guidance and evidence grades; no summary yet.",
+      "firstOnlineDate": "2026-01-30"
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/acem.70228",
+      "title": "GAPcare II: Emergency Department Visit Outcomes of a Multicenter Randomized Trial of a Fall Prevention Intervention",
+      "reason": "Publisher primary indexed metadata verifies Jan28 first online; direct Wiley full-page retrieval returned 403 Forbidden on2026-10-30. Next: retrieve primary abstract/full outcomes and appraise clinical endpoints; do not infer benefit from trial title or process abstract.",
+      "firstOnlineDate": "2026-01-28"
+    },
+    {
+      "url": "https://doi.org/10.1542/peds.2025-075754",
+      "title": "AAP 2026 recommended child and adolescent immunization schedule",
+      "reason": "Official AAP news reports release Jan26,2026; exact primary publication/version chronology and ED-relevant differences remain to verify. New candidate from independent exact-date AAP check; no recommendations summarized.",
       "firstOnlineDate": null
+    },
+    {
+      "url": "https://doi.org/10.1542/peds.2025-073627",
+      "title": "AAP therapeutic hypothermia for neonatal hypoxic-ischemic encephalopathy",
+      "reason": "Prior audit excluded as NICU focused. New official AAP Jan26 news highlights eligibility at6–24h and younger neonates, potentially affecting ED transfer. Reassess selective relevance from primary report, establish first online, grades and transfer implications; prior exclusion preserved in audit history pending supported reassessment.",
+      "firstOnlineDate": null
+    },
+    {
+      "url": "https://doi.org/10.1093/cvr/cvag038",
+      "title": "STRATIFY primary full-text safety and subsequent PE evidence context",
+      "reason": "Concise primary-abstract article saved; next retrieve full safety event counts and reconcile abstract results/conclusion wording. Publisher full material paywalled; no bypass. Later HI-PEITHO NEJMoa2516567 and NEJMoa2608012 support selected catheter-therapy clinical outcomes in different designs; assess full context before stronger practice claim. No separate correction/retraction found by performed DOI searches.",
+      "firstOnlineDate": "2026-01-30"
     }
   ]
 }

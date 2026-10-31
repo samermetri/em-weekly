@@ -1,0 +1,54 @@
+{
+  "id": "stratify-low-dose-thrombolysis-pe-2026",
+  "doi": "10.1093/cvr/cvag038",
+  "pmid": "41610160",
+  "title": "Randomized trial of low-dose, ultrasound-assisted thrombolysis or heparin for pulmonary embolism",
+  "pinned": false,
+  "sample": false,
+  "source": "Cardiovascular Research",
+  "status": "published",
+  "topics": [
+    "cardiology",
+    "resuscitation"
+  ],
+  "authors": [
+    "Jesper Kjaergaard",
+    "Lia E Bang",
+    "The STRATIFY trial investigators"
+  ],
+  "ranking": {
+    "design": 4,
+    "novelty": 3,
+    "edImpact": 4,
+    "guidelineRelevance": 3
+  },
+  "section": "Worth Knowing",
+  "summary": "In 210 adults with intermediate-high-risk PE, this Danish multicenter RCT compared ultrasound-assisted catheter alteplase, IV alteplase, and heparin. Both thrombolysis arms used 20 mg over 6 hours. Thrombolysis improved CT clot-score reduction versus heparin by 3.6 points (95% CI 2.2–5.0); ultrasound assistance offered no advantage over IV delivery (difference −0.1, 95% CI −1.9 to 1.7).",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Ultrasound assistance did not improve the primary imaging result over IV alteplase.",
+    "No statistically established clinical-outcome advantage was reported in the abstract."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "Heparin alone; catheter versus IV thrombolysis also compared.",
+  "population": "Adults with acute intermediate-high-risk PE presenting to EDs in two Danish regions.",
+  "sampleSize": 210,
+  "shortTitle": "STRATIFY: ultrasound-assisted versus IV low-dose thrombolysis",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Small trial with an imaging endpoint; not powered to establish mortality benefit. The abstract reports numerically more bleeding with thrombolysis but supplies no event counts.",
+  "retrievedAt": "2026-10-30",
+  "canonicalUrl": "https://academic.oup.com/cardiovascres/article/122/4/539/8444753",
+  "intervention": "Alteplase 20 mg over 6 hours, by ultrasound-assisted catheter or IV infusion.",
+  "whyItMatters": "Clot clearance alone does not establish a reason to escalate a stable patient to thrombolysis or select catheter treatment.",
+  "evidenceNotes": "Abstract reviewed; full text unavailable. Primary publisher verifies January 30; February 16 is typesetting, not first online. Abstract results and conclusion differ in their wording about death/bleeding; exact safety counts require full-text review. No separate correction/retraction found by DOI search. Later HI-PEITHO (NEJM DOI 10.1056/NEJMoa2516567) found a clinical-composite benefit for catheter therapy versus anticoagulation in a differently selected population; it did not compare catheter with IV low-dose thrombolysis. Do not generalize STRATIFY to all catheter reperfusion strategies.",
+  "discoveredDate": "2026-10-30",
+  "fullTextStatus": "Abstract available; full text paywalled",
+  "firstOnlineDate": "2026-01-30",
+  "primaryEndpoint": "Change in refined Modified Miller CT clot score at 48–96 hours.",
+  "reviewedMaterial": "abstract",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-10-30"
+}

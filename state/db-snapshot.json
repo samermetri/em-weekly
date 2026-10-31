@@ -1,5 +1,5 @@
 {
-  "snapshotHash": "704ffd36f0c82162f77d757fa121183dc987c8b6ea5f8554472f3a0a8e99c3d2",
+  "snapshotHash": "94ba48f19c96f26dedc441c402f6b06b725b25967fdeb9a045e3c6c44157e636",
   "documentRevisions": {
     "article:aap-pediatric-uti-2026": 2,
     "article:acmt-fentanyl-exposure-2024": 2,
@@ -61,6 +61,7 @@
     "article:siltartoxatug-tetanus-prophylaxis-2025": 1,
     "article:single-bruise-abuse-2025": 1,
     "article:stem-mmae-subdural-2024": 1,
+    "article:stratify-low-dose-thrombolysis-pe-2026": 1,
     "article:surviving-sepsis-adults-2026": 1,
     "article:surviving-sepsis-children-2026": 1,
     "article:swift-prehospital-whole-blood": 1,
@@ -87,7 +88,7 @@
     "audit:backfill-2025-04-06": 7,
     "audit:backfill-2025-07-06": 3,
     "audit:backfill-2026-01-04": 1,
-    "audit:backfill-2026-01-25": 2,
+    "audit:backfill-2026-01-25": 4,
     "audit:backfill-initial-2024-2025": 1,
     "audit:backfill-initial-2025-2026": 1,
     "audit:cloud-connection-test": 1,
@@ -97,8 +98,8 @@
     "probe:hosted-2026-10-26": 1,
     "probe:scheduled-2026-10-26": 1,
     "probe:weekly-connection-2026-10-26": 2,
-    "state:backfill": 30,
+    "state:backfill": 32,
     "state:publishing": 9
   },
-  "revisionFingerprint": "76a374dee608e753caecaf56b09a73c3"
+  "revisionFingerprint": "dbcacc10a959b819d8e3b1719943d9a2"
 }

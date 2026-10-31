@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "sources": [
     {
       "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=%28%28%22Ann+Emerg+Med%22%5BJournal%5D+OR+%22Acad+Emerg+Med%22%5BJournal%5D+OR+%22J+Emerg+Med%22%5BJournal%5D+OR+%22Am+J+Emerg+Med%22%5BJournal%5D+OR+%22Emerg+Med+J%22%5BJournal%5D+OR+%22J+Am+Coll+Emerg+Physicians+Open%22%5BJournal%5D+OR+%22West+J+Emerg+Med%22%5BJournal%5D+OR+%22Resuscitation%22%5BJournal%5D+OR+%22Prehosp+Emerg+Care%22%5BJournal%5D%29%29+AND+%28%222026%2F01%2F25%22%5BEPDAT%5D+%3A+%222026%2F01%2F31%22%5BEPDAT%5D%29&tool=em-weekly",
@@ -31,129 +31,129 @@
     },
     {
       "url": "https://www.aaem.org/statements/",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Performed web system2 query: site.aaem.org statements after:2026-01-24 before:2026-02-01. Main statements page rendered only navigation; alternate official https://www.aaem.org/topic/position/ retrieved a dated archive listing 2026 Apr16/May27 followed by 2025 Oct13/Sep25/Aug29. No in-window eligible item found by these methods. Alternate archive plus indexed date search completed defined check; categories/index sensitivity remain limitations.",
+      "status": "success",
       "sourceId": "aaem",
-      "checkedAt": "2026-10-29T02:53:46.022Z"
+      "checkedAt": "2026-10-31T03:51:47.616Z"
     },
     {
       "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "notes": "Query: site.publications.aap.org (guideline OR policy OR report) after:2026-01-24 before:2026-02-01. Configured directory returned actual Cache miss; alternate latest-policy directory displayed captcha. Distinct indexed-primary query site.publications.aap.org \"January 26 2026\" (report OR policy) retrieved AAP Jan26 immunization schedule DOI10.1542/peds.2025-075754 and HIE report DOI10.1542/peds.2025-073627; parent-care policy not clinically selected. Prior HIE exclusion retained, but new indexed AAP summary mentions transfer-sensitive timing/younger-neonate questions: reassess ED relevance from full primary report before closing. Immunization scope/recommendations also unresolved. No completed society check claimed. Web research tool: mcp__codex_apps__search_service_web_run, system2_search_query and open; returned result totals/pagination were not supplied. Current-directory/index search sensitivity is limited; no universal absence claimed.",
       "status": "failed",
       "sourceId": "aap",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-31T03:57:13.236Z"
     },
     {
       "url": "https://www.acc.org/guidelines",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Performed web system2 query: site.acc.org guideline consensus statement after:2026-01-24 before:2026-02-01; inspected https://www.acc.org/guidelines including current 2026/2025 document library. Results showed directory and documents-in-progress, not an eligible newly published ED guideline in this interval. No eligible item found by these methods; current directory/index coverage is not an exhaustive historical archive.",
+      "status": "success",
       "sourceId": "acc",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-31T03:51:47.616Z"
     },
     {
       "url": "https://www.acep.org/patient-care/clinical-policies",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Performed web system2 query: site.acep.org clinical policy guideline \"January\" \"2026\" after:2026-01-24 before:2026-02-01; inspected official clinical-policies directory and endotracheal-intubation page/PDF https://www.acep.org/siteassets/sites/acep/media/clinical-policies/final-cp-pdfs/endotracheal-intubation-cp.pdf. Although landing page says January 2026, original PDF is 2025 Ann Emerg Med 86:e29-e68, DOI 10.1016/j.annemergmed.2025.04.003; excluded from this 2026 window. January PA/NP statement addresses staffing/supervision policy, excluded as administrative rather than new clinical guidance. No additional eligible clinical policy found by these methods. Current directory plus indexed date search are not exhaustive historical capture.",
+      "status": "success",
       "sourceId": "acep",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-31T03:51:47.616Z"
     },
     {
       "url": "https://www.acmt.net/statements/",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Query: site.acmt.net (statement OR guideline) after:2026-01-24 before:2026-02-01. Official statements directory and indexed press-release archive inspected. Jan26 NAC update matches existing acmt-iv-nac-duration-2026; reuse prior audit revision2 full-primary appraisal, no duplicate. January acetaminophen/autism policy is public-health controversy rather than new acute poisoning treatment; excluded by selective ED scope. Distinct AACT official directory https://www.clintox.org/resources/position-statements retrieved; latest dated statements Oct16/Oct15 2025. Correct-domain query site.clintox.org (statement OR recommendation) after:2026-01-24 before:2026-02-01 also performed; no additional eligible guidance found. Initial aact.org query matched community theatre and was not treated as clinical coverage. Web research tool: mcp__codex_apps__search_service_web_run, system2_search_query and open; returned result totals/pagination were not supplied. Current-directory/index search sensitivity is limited; no universal absence claimed.",
+      "status": "success",
       "sourceId": "acmt",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-31T03:57:13.236Z"
     },
     {
       "url": "https://www.acog.org/clinical",
-      "notes": "Official ACOG directory shows January 2026 maternal stroke endorsement; full dated archive review not established.",
-      "status": "failed",
+      "notes": "Query: site.acog.org (guideline OR advisory OR endorsed) after:2026-01-24 before:2026-02-01. Clinical directory and alternate endorsed directory both returned actual 402 Payment Required. Working indexed official endorsed directory retrieved with full January2026 maternal-stroke endorsement listing; matches existing AHA maternal-stroke record, not a separate guideline. No additional eligible in-window item found by these methods. Indexed official-page route substitutes for direct directory; subscription/access and index sensitivity disclosed. Web research tool: mcp__codex_apps__search_service_web_run, system2_search_query and open; returned result totals/pagination were not supplied. Current-directory/index search sensitivity is limited; no universal absence claimed.",
+      "status": "success",
       "sourceId": "acog",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-31T03:57:13.236Z"
     },
     {
       "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Query: site.facs.org trauma (guideline OR \"best practices\") after:2026-01-24 before:2026-02-01. Official TQP directory retrieved; chest-wall/genitourinary entries labeled new without dates. Follow-up queries site.facs.org \"chest wall\" \"guidelines\" \"2026\" published and site.facs.org \"genitourinary\" \"guidelines\" \"2026\" published located official December3 2025 ACS retrospective https://www.facs.org/for-medical-professionals/news-publications/news-and-articles/bulletin/2025/november-december-2025-volume-110-issue-10/a-year-of-new-resources-for-surgeons/ documenting release in 2025. Thus these are not new Jan25–31 2026 publications; earliest dates/full appraisal remain queued. No additional eligible item found by these methods. Web research tool: mcp__codex_apps__search_service_web_run, system2_search_query and open; returned result totals/pagination were not supplied. Current-directory/index search sensitivity is limited; no universal absence claimed.",
+      "status": "success",
       "sourceId": "acs",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-31T03:57:13.236Z"
     },
     {
       "url": "https://professional.heart.org/en/guidelines-and-statements",
-      "notes": "Targeted official AHA/ASA checks verified January 28 maternal-stroke statement and recognized existing held AIS guideline; full archive coverage not established.",
+      "notes": "Query: site.professional.heart.org (guideline OR statement) after:2026-01-24 before:2026-02-01. Official recent-guidance directory retrieved; reuse prior verified maternal-stroke record and held AIS record. Existing AIS correction still needs actual record-level comparison before release. No additional eligible item established from inspected indexed results; important held candidate unresolved. Web research tool: mcp__codex_apps__search_service_web_run, system2_search_query and open; returned result totals/pagination were not supplied. Current-directory/index search sensitivity is limited; no universal absence claimed.",
       "status": "failed",
       "sourceId": "aha-asa",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-31T03:57:13.236Z"
     },
     {
       "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "notes": "Query: site.hematology.org guideline bleeding anticoagulation after:2026-01-24 before:2026-02-01. Official clinical-guideline directory retrieved, including ITP/VTE scope. Separate primary search retrieved PMID41637560 abstract; primary publisher first-online/earlier MAGIC document chronology still unresolved (secondary index February4 alone insufficient). Exact next action: primary version-history/date reconciliation and full critical-bleeding guideline review. Web research tool: mcp__codex_apps__search_service_web_run, system2_search_query and open; returned result totals/pagination were not supplied. Current-directory/index search sensitivity is limited; no universal absence claimed.",
       "status": "failed",
       "sourceId": "ash",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-31T03:57:13.236Z"
     },
     {
       "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Query: site.chestnet.org guideline after:2026-01-24 before:2026-02-01. Official society overview retrieved; journal collection open returned actual 403 Forbidden. Distinct system1 indexed official collection query site.journal.chestnet.org/guidelines \"January\" \"2026\" retrieved dated collection content: March24 OSA, March9 neonatal ultrasound, Dec20 2025 circadian roadmap, Sep24 2025 asthma. No eligible in-window item found by these methods. Indexed official collection used as alternate; direct archive access remains limited. Web research tool: mcp__codex_apps__search_service_web_run, system2_search_query and open; returned result totals/pagination were not supplied. Current-directory/index search sensitivity is limited; no universal absence claimed.",
+      "status": "success",
       "sourceId": "chest",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-31T03:57:13.236Z"
     },
     {
       "url": "https://www.east.org/education-resources/practice-management-guidelines",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Query: site.east.org guideline after:2026-01-24 before:2026-02-01. Official complete browse-all guideline directory retrieved, with dated entries and development/archive links; returned indexed trauma category also inspected. No eligible new in-window guidance found by these methods; directory primarily reports years, with exact-date indexed search providing interval sensitivity. Web research tool: mcp__codex_apps__search_service_web_run, system2_search_query and open; returned result totals/pagination were not supplied. Current-directory/index search sensitivity is limited; no universal absence claimed.",
+      "status": "success",
       "sourceId": "east-trauma",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-31T03:57:13.236Z"
     },
     {
       "url": "https://www.ena.org/practice-resources",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Query: site.ena.org (guideline OR statement) after:2026-01-24 before:2026-02-01. Official practice-resources directory retrieved (first20 of152; not full resource enumeration), showing clinical/position resources. Indexed official-domain date search returned no eligible dated new guidance. Pediatric-readiness joint statement surfaced in separate AAP search with official news date Jan20, outside interval. Defined directory-plus-indexed-date check negative; limited accessible directory scope disclosed. Web research tool: mcp__codex_apps__search_service_web_run, system2_search_query and open; returned result totals/pagination were not supplied. Current-directory/index search sensitivity is limited; no universal absence claimed.",
+      "status": "success",
       "sourceId": "ena",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-31T03:57:13.236Z"
     },
     {
       "url": "https://www.erc.edu/science-research/guidelines/",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Query: site.erc.edu guideline after:2026-01-24 before:2026-02-01. Configured directory returned actual Cache miss. Alternate official https://www.erc.edu/science-research/guidelines/guidelines-2025 retrieved, describes 2025 guidelines and chapter/download directory. Indexed download-centre content inspected. No in-window new guidance found by these methods; older 2025 chapter-appraisal queue remains unrelated to Jan2026 completion. Web research tool: mcp__codex_apps__search_service_web_run, system2_search_query and open; returned result totals/pagination were not supplied. Current-directory/index search sensitivity is limited; no universal absence claimed.",
+      "status": "success",
       "sourceId": "erc",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-31T03:57:13.236Z"
     },
     {
       "url": "https://eso-stroke.org/guidelines/",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Query: site.eso-stroke.org guideline after:2026-01-24 before:2026-02-01. Official directory retrieved. Important 2026 candidates dated using primary publisher/indexed primary results: BP update https://academic.oup.com/esj/article/11/5/aakag004/8671384 Published May7; aSAH PMID42095754 May6; stroke-associated pneumonia https://academic.oup.com/esj/article/11/5/aakag044/8671383 Published May7 (received March28). Excluded from Jan25–31; exact earliest-date reconciliation/clinical appraisal remains queued for their own windows. No additional eligible item found by these methods. Web research tool: mcp__codex_apps__search_service_web_run, system2_search_query and open; returned result totals/pagination were not supplied. Current-directory/index search sensitivity is limited; no universal absence claimed.",
+      "status": "success",
       "sourceId": "eso-stroke",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-31T03:57:13.236Z"
     },
     {
       "url": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "notes": "Query: site.idsociety.org guideline after:2026-01-24 before:2026-02-01. Official A-Z directory retrieved with current 2026 AMR, pediatric CAP, beta-lactam dosing, and sepsis entries. No eligible Jan25–31 result established; important 2026 entry revision dates not yet all reconciled. Next: inspect dated official entries, especially AMR changes, rather than repeat general discovery. Web research tool: mcp__codex_apps__search_service_web_run, system2_search_query and open; returned result totals/pagination were not supplied. Current-directory/index search sensitivity is limited; no universal absence claimed.",
       "status": "failed",
       "sourceId": "idsa",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-31T03:57:13.236Z"
     },
     {
       "url": "https://journalfeed.org/",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
+      "notes": "Query: site.journalfeed.org after:2026-01-24 before:2026-02-01. Homepage open returned actual UnexpectedStatusCode. Distinct system1 query site.journalfeed.org/article-a-day/2026/ \"January\" \"2026\" returned no dated inspectable historical article in this tool response; do not count current homepage/FAQ/podcast results as complete historical review. Next: inspect working dated archive/indexed interval items, no equivalent same-day failed homepage retry. Web research tool: mcp__codex_apps__search_service_web_run, system2_search_query and open; returned result totals/pagination were not supplied. Current-directory/index search sensitivity is limited; no universal absence claimed.",
       "status": "failed",
       "sourceId": "journalfeed",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-31T03:57:13.236Z"
     },
     {
       "url": "https://www.saem.org/publications/grace",
-      "notes": "Targeted official organization/domain and date check performed; no additional high-priority in-window item verified from inspected results. Exhaustive first-online archive coverage not established.",
-      "status": "failed",
+      "notes": "Performed web system2 query: site.saem.org guideline GRACE after:2026-01-24 before:2026-02-01; inspected https://www.saem.org/publications/grace, listing GRACE1-4, and returned GRACE program/GRACE1/older GRACE4 primary listing. No in-window newly published guideline found by these methods. Current directory/index sensitivity limits historical completeness.",
+      "status": "success",
       "sourceId": "saem",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-31T03:51:47.616Z"
     },
     {
       "url": "https://www.sccm.org/clinical-resources/guidelines",
-      "notes": "Targeted official SCCM checks verified CCUS and heat-stroke primary online dates and recommendations; full dated archive coverage not established.",
-      "status": "failed",
+      "notes": "Query: site.sccm.org guideline sepsis after:2026-01-24 before:2026-02-01. Official all-guidelines directory inspected. Individual official pages show NMB/ARDS published 03/03/2026 and older-adult ICU/pediatric EOL published 03/20/2026; official sepsis release March23, outside Jan25–31. No in-window eligible new guidance found by these methods; earlier CCUS/heat-stroke dates in prior audit remain unchanged. Web research tool: mcp__codex_apps__search_service_web_run, system2_search_query and open; returned result totals/pagination were not supplied. Current-directory/index search sensitivity is limited; no universal absence claimed.",
+      "status": "success",
       "sourceId": "sccm",
-      "checkedAt": "2026-10-29T02:53:46.024Z"
+      "checkedAt": "2026-10-31T03:57:13.236Z"
     }
   ],
   "coverageEnd": "2026-01-31",
@@ -172,7 +172,14 @@
     "Pediatrics: hereditary angioedema pediatric guideline remains queued for primary dating and ED-recommendation appraisal.",
     "Obstetrics: ACOG January endorsement of AHA maternal stroke is not a distinct guidance document.",
     "Conflicts and corrections: later MIST-A post-thrombectomy trial used different population/outcome; held AIS guideline awaits correction review; window partial.",
-    "ACMT/AACT toxicology: official ACMT archive and full January 26 IV-NAC statement reviewed; selected as high-priority toxicology guidance. AHA/ASA AIS erratum DOI 10.1161/STR.0000000000000530 was retrieved; it requires a separate cautious record-level correction before the held guideline can be released."
+    "ACMT/AACT toxicology: official ACMT archive and full January 26 IV-NAC statement reviewed; selected as high-priority toxicology guidance. AHA/ASA AIS erratum DOI 10.1161/STR.0000000000000530 was retrieved; it requires a separate cautious record-level correction before the held guideline can be released.",
+    "2026-10-30 milestone: reuse prior audit revision 2, cache capture 2026-10-29T02:14:23.851Z, ordinals 1-100 and 101-124; no candidate pages re-screened. ACEP, ACC, AAEM and SAEM independent checks completed as individually documented; all other prior checks preserved, final completion still false.",
+    "Pediatric HAE PMID41618059: publisher indexed primary page https://onlinelibrary.wiley.com/doi/full/10.1111/all.70207 and PMC metadata https://pmc.ncbi.nlm.nih.gov/articles/PMC13466006/ independently show first online 2026-01-30. Direct PubMed displayed recaptcha; PMC and Wiley opens returned actual Cache miss errors through web_run. Guideline remains queued for full primary recommendation appraisal, no clinical summary fabricated.",
+    "2026-10-30 remaining checks: official-directory/exact-interval searches performed individually as documented above; several important candidates remain unresolved, so guidelineSearchCompleted and finalCrossCheckCompleted remain false.",
+    "Major EM/acute-care trial cross-check: query \"emergency\" \"randomized\" \"January 2026\" after:2026-01-24 before:2026-02-01 found GAPcare II PMID41603307/DOI10.1111/acem.70228 (publisher first Jan28); direct Wiley open returned 403. Queue primary appraisal of outcomes before any inclusion. STRATIFY DOI10.1093/cvr/cvag038 primary abstract appraised and selected, first online Jan30.",
+    "General-journal cross-check query site.nejm.org OR site.jamanetwork.com OR site.thelancet.com OR site.bmj.com randomized acute care trial after:2026-01-24 before:2026-02-01 performed; no additional eligible acute-care trial established from this response. Prior EMPHASIS appraisal retained. Negative search is sensitivity-limited.",
+    "Corrections/subsequent evidence: STRATIFY DOI correction/retraction searches found no separate notice; publisher February16 corrected-and-typeset metadata is not itself a clinical erratum. Later HI-PEITHO primary abstract (NEJMoa2516567, March28) found a clinical composite benefit in a different selected population; avoid universal claim that catheter lysis never helps. Later NEJMoa2608012 also surfaced; queue full context.",
+    "Window remains partial: primary HAE recommendations, AIS correction application, AAP HIE/immunization appraisal, ITP earliest-date reconciliation, IDSA dated revisions, JournalFeed historical scope, GAPcare II and final twelve-check resolution remain. Search protocol completion has not been claimed."
   ],
   "excludedCandidates": [
     {
@@ -186,6 +193,14 @@
     {
       "reason": "Official AAP directory shows a January 26 neonatal hypoxic-ischemic-encephalopathy clinical report; it is NICU-focused and was not selected for this emergency-medicine brief.",
       "identifier": "AAP DOI 10.1542/peds.2025-073627"
+    },
+    {
+      "reason": "Official 40-page PDF is published in 2025 Annals 86:e29-e68; landing-page January 2026 label does not make it new evidence for 2026-01-25 through 2026-01-31.",
+      "identifier": "ACEP DOI 10.1016/j.annemergmed.2025.04.003"
+    },
+    {
+      "reason": "Staffing/supervision policy; excluded from selective clinical evidence because administrative scope, with no newly appraised diagnostic/treatment recommendations.",
+      "identifier": "ACEP January 2026 PA/NP supervision statement"
     }
   ],
   "finalCrossCheckCompleted": false,
