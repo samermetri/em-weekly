@@ -21,7 +21,7 @@
     {
       "doi": "10.1136/emermed-2026-216120",
       "pmid": "42901741",
-      "reason": "Date/identifiers verified for Oct 20, but accessible primary metadata did not expose enough study results for an evidence-grade summary in this run.",
+      "reason": "Date/identifiers verified for Oct 20, but accessible primary metadata did not expose enough study results for an evidence-grade summary in this run. Rechecked 2026-10-31: primary PubMed metadata retrieved without abstract/results. HighWire click403 Forbidden; DOI open inaccessible. Primary results remain required.",
       "status": "needs-primary-review",
       "sourceId": "pubmed-em",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42901741/",
@@ -30,7 +30,7 @@
     {
       "doi": "10.1136/emermed-2026-216276",
       "pmid": "42901744",
-      "reason": "Date/identifiers verified for Oct 20; detailed numerical results were available only through secondary indexing in this run, so primary appraisal remains required.",
+      "reason": "Date/identifiers verified for Oct 20; detailed numerical results were available only through secondary indexing in this run, so primary appraisal remains required. Rechecked 2026-10-31: primary PubMed explicitly no abstract; HighWire403 Forbidden and DOI open inaccessible. Keep unpublished pending primary results.",
       "status": "needs-primary-review",
       "sourceId": "pubmed-em",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42901744/",
@@ -44,24 +44,198 @@
       "sourceId": "pubmed-em",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42901366/",
       "discoveredDate": "2026-10-28"
+    },
+    {
+      "doi": "10.1097/TA.0000000000005197",
+      "pmid": "42832422",
+      "reason": "WTA BCVI critical-decisions algorithm: metadata October 5, before normal coverageStart. Retrieve primary algorithm, dates and evidence certainty for retrospective review; do not conflate with queued unfinished EAST update.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42832422/",
+      "discoveredDate": "2026-10-31"
+    },
+    {
+      "doi": "10.1111/ene.70647",
+      "pmid": "42851210",
+      "reason": "EAN/ESCMID infectious encephalitis guideline: primary PubMed abstract and PMC13650609 retrieved; PMC header first publication October 9, 2026, before normal coverageStart October 19. Keep for retrospective review; full recommendations/dosing/LP-imaging thresholds and grades remain unappraised. Do not publish as a new normal article.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42851210/",
+      "discoveredDate": "2026-10-31"
+    },
+    {
+      "doi": "10.1097/TA.0000000000005207",
+      "pmid": "42862903",
+      "reason": "WTA traumatic hemothorax critical-decisions algorithm: metadata October 12, before normal coverageStart. Retrieve primary algorithm, thresholds/timing and recommendation basis for retrospective review.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42862903/",
+      "discoveredDate": "2026-10-31"
+    },
+    {
+      "doi": "10.1016/j.resuscitation.2026.111313",
+      "pmid": "42863166",
+      "reason": "ERC 2025 Adult ALS corrigendum (metadata October 12, 2026): retrieve correction and original legal guidance; determine which recommendations changed and whether any current stored summary depends on them. Before normal coverageStart; retrospective/correction review only, not new article.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42863166/",
+      "discoveredDate": "2026-10-31"
+    },
+    {
+      "doi": "10.1080/10903127.2026.2748380",
+      "pmid": "42873076",
+      "reason": "NAEMSP older-adult falls/lift-assist position statement: publisher indexing lists online October 29 but indexed primary PubMed metadata reports article date October 14. Resolve EARLIEST electronic date at primary publisher before normal eligibility; retrieve full recommendations, exclusions, safe nontransport/follow-up safeguards. If October 14 confirmed, retrospective review only.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42873076/",
+      "discoveredDate": "2026-10-31"
+    },
+    {
+      "doi": "10.1542/peds.2026-077291",
+      "pmid": "42896864",
+      "reason": "Randomized pediatric prehospital ventilation-feedback study: metadata October 20. Retrieve primary paper to establish whether actual-patient or simulation study, sample, effect sizes, patient outcomes, harms and first-online date; do not label practice changing from metadata.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42896864/",
+      "discoveredDate": "2026-10-31"
+    },
+    {
+      "doi": "10.1136/emermed-2026-216378",
+      "pmid": "42901749",
+      "reason": "ED medication dispensing systematic review/meta-analysis: metadata October 20. Retrieve primary numerical return-visit/admission results, study designs, heterogeneity, harms and earliest date before operational-practice selection.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42901749/",
+      "discoveredDate": "2026-10-31"
+    },
+    {
+      "doi": "10.1097/CCM.0000000000007395",
+      "pmid": "42904906",
+      "reason": "Candida septic-shock antifungal timing study: metadata October 21. Retrieve primary design/sample, timing definitions, adjusted effects and uncertainty; evaluate confounding and selection before any causal or empiric-treatment claim.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42904906/",
+      "discoveredDate": "2026-10-31"
+    },
+    {
+      "doi": "10.1176/appi.ajp.20260157",
+      "pmid": "42946687",
+      "reason": "SPARC suicide-prevention RCT: indexed official American Journal of Psychiatry abstract/main-text excerpts retrieved by working search; first online October 28, 2026 confirmed on publisher history. N=1520 (723 adolescents,797 adults); 6-month adult CC-minus-ISC C-SSRS mean difference 0.50 (95% CI 0.12-0.88); no adolescent primary difference; 12-month adolescent difference -0.64 (-1.11 to -0.18), secondary outcome. Direct PubMed unavailable and publisher 403. Retrieve complete legal primary tables/supplement and verify accurate source-availability classification; no usual-care arm and multiplicity limit conclusions. Exact correction/retraction search performed; no relevant correction surfaced, not proof of none.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42946687/",
+      "discoveredDate": "2026-10-31"
+    },
+    {
+      "doi": "10.1016/j.annemergmed.2026.08.731",
+      "pmid": "42949696",
+      "reason": "Mild-TBI blood biomarkers versus neuroimaging: metadata October 27. Retrieve primary diagnostic results including sample size, thresholds, sensitivity/NPV confidence intervals, reference standard, spectrum and first-online date; assess whether new evidence adds to existing pathways.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42949696/",
+      "discoveredDate": "2026-10-31"
+    },
+    {
+      "doi": "10.1016/j.resuscitation.2026.111371",
+      "pmid": "42950975",
+      "reason": "TETRiS national resuscitative thoracotomy service evaluation: metadata October 28. Retrieve primary abstract/full text, sample size, survival by mechanism/signs of life, procedural timing/setting and selection limitations; verify earliest date and ED consequence before choosing.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42950975/",
+      "discoveredDate": "2026-10-31"
+    },
+    {
+      "doi": "10.1016/j.accpm.2026.101962",
+      "pmid": "42951210",
+      "reason": "Periprocedural anticoagulant-management bleeding-risk consensus companion: metadata hints October 28. PubMed open inaccessible. Retrieve primary document and parent 2026 anticoagulant guidance, first-online dates, ED procedure applicability, thresholds/urgent-reversal exceptions and recommendation certainty; do not infer emergency recommendations.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42951210/",
+      "discoveredDate": "2026-10-31"
+    },
+    {
+      "doi": "10.1016/j.ajem.2026.09.036",
+      "pmid": "42956440",
+      "reason": "FEAT shoulder-dislocation reduction technique: metadata October 24. Retrieve primary comparative design, sample size, reduction success, analgesia/sedation requirements, adverse events and earliest date before procedural selection.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42956440/",
+      "discoveredDate": "2026-10-31"
+    },
+    {
+      "doi": "10.1016/S0140-6736(26)01949-5",
+      "pmid": "42956771",
+      "reason": "PROSpect pediatric ARDS factorial RCT: date hint is October 31 print publication, not verified earliest online. PubMed open returned not accessible; Lancet open not accessible and ScienceDirect 403. Retrieve legal primary abstract/full paper, verify earliest first-online date, population, regimen, VFD/mortality estimates and harms before selection. Important unresolved candidate; hold relevant weekly issue if date-eligible.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-general",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42956771/",
+      "discoveredDate": "2026-10-31"
+    },
+    {
+      "doi": "10.1016/S0140-6736(26)01767-8",
+      "pmid": "42956796",
+      "reason": "0/1h versus 0/3h troponin IPD meta-analysis: metadata hints October 29 first-online. PubMed open inaccessible; Lancet and ScienceDirect 403. Secondary numerical summaries not accepted. Retrieve primary abstract/paper, verify five-trial membership, effect estimates/heterogeneity, correction status and first-online date before selection.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-general",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42956796/",
+      "discoveredDate": "2026-10-31"
+    },
+    {
+      "doi": "10.1097/HEP.0000000000001891",
+      "pmid": "42960623",
+      "reason": "Global multisociety acute-on-chronic liver failure definitions consensus: metadata hints October 30, multiple co-publications. PubMed open inaccessible. Retrieve legal primary consensus, verify earliest date, sponsor bodies, definition/triage consequences and supporting certainty; deduplicate co-publication DOI/URL before article creation.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42960623/",
+      "discoveredDate": "2026-10-31"
+    },
+    {
+      "doi": "10.1080/15563650.2026.2752134",
+      "pmid": "42960873",
+      "reason": "Xylazine urine test-strip diagnostic performance: metadata October 30. Retrieve primary reference-standard, sample/selection, sensitivity/specificity with CIs and clinical limitations before deciding ED utility.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42960873/",
+      "discoveredDate": "2026-10-31"
+    },
+    {
+      "doi": "10.1080/10903127.2026.2755518",
+      "pmid": "42961073",
+      "reason": "Persistent severe hypertension in pregnant prehospital patients: metadata October 30. Retrieve primary methods, thresholds, treatment rates, outcomes and uncertainty; verify first-online date. Important obstetric harm/process signal candidate; no causal efficacy claim from observational data.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42961073/",
+      "discoveredDate": "2026-10-31"
     }
   ],
   "sources": {
     "pubmed-em": {
-      "lastError": "E-utilities and official PubMed HTML fallback were inaccessible for the exact configured 2026-10-02 through 2026-10-31 edat query; result count and complete pagination could not be verified, so checkpoint was not advanced.",
-      "lastAttemptAt": "2026-10-31T08:58:06.461Z"
+      "lastError": null,
+      "resultCount": 280,
+      "lastAttemptAt": "2026-10-31T18:41:26Z",
+      "lastSuccessfulAt": "2026-10-31T18:41:26Z",
+      "successfulThrough": "2026-10-31"
     },
     "pubmed-general": {
-      "lastError": "E-utilities and official PubMed HTML fallback were inaccessible for the exact configured 2026-10-02 through 2026-10-31 edat query; result count and complete pagination could not be verified, so checkpoint was not advanced.",
-      "lastAttemptAt": "2026-10-31T08:58:06.461Z"
+      "lastError": null,
+      "resultCount": 159,
+      "lastAttemptAt": "2026-10-31T18:41:26Z",
+      "lastSuccessfulAt": "2026-10-31T18:41:26Z",
+      "successfulThrough": "2026-10-31"
     },
     "pubmed-guidance": {
-      "lastError": "E-utilities and official PubMed HTML fallback were inaccessible for the exact configured 2026-10-02 through 2026-10-31 edat query; the separate official-society sweep completed, but this PubMed checkpoint was not advanced.",
-      "lastAttemptAt": "2026-10-31T08:58:06.461Z"
+      "lastError": null,
+      "resultCount": 158,
+      "lastAttemptAt": "2026-10-31T18:41:26Z",
+      "lastSuccessfulAt": "2026-10-31T18:41:26Z",
+      "successfulThrough": "2026-10-31"
     },
     "pubmed-specialty": {
-      "lastError": "E-utilities and official PubMed HTML fallback were inaccessible for the exact configured 2026-10-02 through 2026-10-31 edat query; result count and complete pagination could not be verified, so checkpoint was not advanced.",
-      "lastAttemptAt": "2026-10-31T08:58:06.461Z"
+      "lastError": null,
+      "resultCount": 250,
+      "lastAttemptAt": "2026-10-31T18:41:26Z",
+      "lastSuccessfulAt": "2026-10-31T18:41:26Z",
+      "successfulThrough": "2026-10-31"
     }
   },
   "schemaVersion": 1,
@@ -75,9 +249,9 @@
     "2026-10-19"
   ],
   "lastSuccessfulDeployment": {
-    "at": "2026-10-31T18:30:40.020248+00:00",
-    "commit": "ab5f484fcb8b2a8eae06d5f3227b8167c7b8d2e2",
-    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/41229650969",
+    "at": "2026-10-31T21:28:18.330502+00:00",
+    "commit": "df6d5247df8d66ce0e9add8b8e97033c39184fd9",
+    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/41243641895",
     "url": "https://emweekly.samermetri.com/"
   },
   "lastSuccessfulResearchCheck": null
