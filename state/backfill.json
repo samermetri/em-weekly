@@ -144,7 +144,7 @@
     },
     {
       "end": "2025-02-08",
-      "notes": "Partial: reused unchanged complete SQL cache capture2026-10-29T02:11:32.355Z,138 candidates pages1–100/101–138, memberships40/50/31/19.2026-10-31 official directory/date checks advanced to18/22 successful. AAP clinical-report archive,ACOG endorsement chronology,ASH pediatricVTE chronology and JournalFeed interval archive remain incomplete with concrete next actions. Twelve updated final-domain notes saved; both flagsfalse. No articles added; prior articleIds/checkpoints retained.",
+      "notes": "Partial: unchanged SQL cache version1/capture2026-10-29T02:11:32.355Z,138 candidates; reused screened pages1–100/101–138,memberships40/50/31/19.2026-10-31 11:06 LA ASAM older-adult,urine-testing and bounded correction/supersession checks advanced; new primary journal full text PMC12463801 retrieved. Earliest ASH electronic posting and ACOG endorsement/public-final chronology unresolved.20/22 source checks successful,both flagsfalse; no new articles. Other windows/articleIds preserved.",
       "start": "2025-02-02",
       "status": "partial",
       "auditId": "backfill-2025-02-02",
@@ -926,7 +926,7 @@
   ],
   "rangeEnd": "2026-10-26",
   "startedAt": "2026-10-27T20:58:44.597134+00:00",
-  "updatedAt": "2026-10-31T12:09:38.272Z",
+  "updatedAt": "2026-10-31T18:06:26Z",
   "rangeStart": "2024-10-27",
   "schemaVersion": 1,
   "candidateQueue": [
@@ -1143,13 +1143,49 @@
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/40423983/",
       "title": "ASH/ISTH pediatric VTE updated treatment guideline",
-      "reason": "PMID40423983;DOI10.1182/bloodadvances.2024015328;PMC12235321. Official society May27,2025 announcement and primary May27 article date retrieved by indexed search; earliest electronic/version history not established. Next inspect primary full metadata/history and official earliest release, then appraise ED anticoagulation/DOAC safety,age-specific treatment and corrections; do not assign print date.",
+      "reason": "PMID40423983;DOI10.1182/bloodadvances.2024015328;PMC12235321. Official society May27,2025 announcement and primary May27 article date retrieved by indexed search; earliest electronic/version history not established. Next inspect primary full metadata/history and official earliest release, then appraise ED anticoagulation/DOAC safety,age-specific treatment and corrections; do not assign print date. 2026-10-31 indexed primary publisher DOI header May27,2025 and history retrieved; draftApr8–May8,2024/approvalOct-Nov2024/presentationDec7 distinguished. Direct PMC reCAPTCHA; DOI403. Next verify earliest final/accepted-manuscript posting via legal publisher PDF footnote and dated society release, then full ED appraisal; do not use issue date. 2026-10-31 07:06 LA official ASH press release now directly opened: https://www.hematology.org/News-and-Media/Press-Releases/2025/ash-and-isth-revised-guidelines-for-pediatric-vte explicitly announces May27 society release. Earlier accepted/public-final posting not yet established; next use actual publisher-linked PDF/version metadata via a newly working route. New PubMed format and PMC XML opens inaccessible; do not equivalent-retry today. 2026-10-31 10:01 LA https://digitalscholar.lsuhsc.edu/som_facpubs/3872/ opened: abstract/May27 bibliographic date,no earliest posting. Actual Download https://digitalscholar.lsuhsc.edu/cgi/viewcontent.cgi?article=4874&context=som_facpubs returned403. Next publisher history footnote/new legal deposited text; no equivalent retry today.",
       "firstOnlineDate": null
     },
     {
       "url": "https://www.acog.org/clinical/clinical-guidance/acog-endorsed",
       "title": "Joint benzodiazepine tapering guideline: ACOG endorsement and earliest release chronology",
-      "reason": "Official indexed ACOG endorsement labeledFeb2025; ACMT official indexed directory saysMar2025 and newsMar14. ASAM indexed release newsletter has conflicting Feb26 timestamp/Mar4 heading. Next reconcile actual earliest public final version and endorsement date, then appraise ED withdrawal,inpatient criteria,seizure risk and exceptions through legal primary guidance. Do not equate endorsement month or later June journal version with first online.",
+      "reason": "Official indexed ACOG endorsement labeledFeb2025; ACMT official indexed directory saysMar2025 and newsMar14. ASAM indexed release newsletter has conflicting Feb26 timestamp/Mar4 heading. Next reconcile actual earliest public final version and endorsement date, then appraise ED withdrawal,inpatient criteria,seizure risk and exceptions through legal primary guidance. Do not equate endorsement month or later June journal version with first online. 2026-10-31 ASAM Mar3 dated editorial opened says released this week; Dec2025 official retrospective lists3/4/25. Feb26 newsletter timestamp conflicts with March4 heading; PDF filename02-28-25 not posting proof. Exact earliest public final/ACOG endorsement chronology still unresolved. 2026-10-31 07:06 LA official ASAM guideline landing page worked; actual Download Guideline PDF link timed out(400). ACOG indexed endorsement remains February month-only. Next establish dated endorsement or public-final/version chronology via newly working legal route; no equivalent timeout retry today. 2026-10-31 08:03 LA working official PDF https://downloads.asam.org/sitefinity-production-blobs/docs/default-source/guidelines/benzodiazepine-tapering-2025/bzd-tapering-document---final-approved-version-for-distribution-02-28-25.pdf?asam.org=&sfvrsn=5bdf9c81_6 retrieved; endorsement/methodology inspected, no exact release date found. Next full ED appraisal and dated final-public/ACOG posting verification. PDF no longer universally inaccessible. 2026-10-31 09:00 LA primary234-page ASAM PDF ED/severe-withdrawal/summary recommendations appraised and recorded in audit. Next verify earliest public-final/ACOG posting, pregnancy-specific recommendations, corrections/supersession and remaining full scope before drafting. June17 official press PDF concerns later JGIM release, not earliest guidance. No full-guideline article/date asserted. 2026-10-31 10:01 LA pregnancy/lactation pp85–87/appendixL and official2-page resource,hepatic impairment and OUD co-treatment reviewed; detailed appraisal in audit. Next earliest public-final/ACOG posting and corrections/supersession,then full-scope ED synthesis. 2026-10-31 11:06 LA older-adult pp82–84 and urine-testing section appraised; primary journal full text https://pmc.ncbi.nlm.nih.gov/articles/PMC12463801/ now retrieved (DOI10.1007/s11606-025-09499-2,PMID40526204). Bounded official/DOI correction searches and PMC notice check found no correction; full audit records limitations and recommendation-number inconsistency. Next earliest final-public/ACOG dated endorsement verification and complete ED synthesis; no same-day failed-route retries.",
+      "firstOnlineDate": null
+    },
+    {
+      "url": "https://doi.org/10.1542/peds.2024-070074",
+      "title": "AAP evaluating young children with fractures for child abuse",
+      "reason": "Publisher indexed primary header Jan21,2025 verified; outsideFeb2–8. Next full imaging/occult injury/safeguarding and bone-disease differential appraisal, earliest-release and corrections verification; no article yet.",
+      "firstOnlineDate": "2025-01-21"
+    },
+    {
+      "url": "https://doi.org/10.1542/peds.2024-070457",
+      "title": "AAP abusive head trauma technical report",
+      "reason": "Official indexed technical-report/child-abuse collections dateFeb24,2025; outsideFeb2–8. Direct publisher page500 login redirect. Next legal full primary review, earliest-version/correction verification and ED imaging/differential/safety recommendations; no bypass.",
+      "firstOnlineDate": "2025-02-24"
+    },
+    {
+      "url": "https://doi.org/10.1542/peds.2024-070334",
+      "title": "AAP pediatric acute-onset neuropsychiatric syndrome clinical report",
+      "reason": "Primary indexed publisher headerFeb24,2025 verified; outsideFeb2–8. Next full acute neuropsychiatric differential/workup/treatment limitations, earlier-version and corrections appraisal before article.",
+      "firstOnlineDate": "2025-02-24"
+    },
+    {
+      "url": "https://doi.org/10.1542/peds.2024-070077",
+      "title": "AAP identifying infants with biliary atresia by 2–4 weeks",
+      "reason": "Primary indexed publisher headerFeb18,2025 verified; outsideFeb2–8. Next appraise full bilirubin thresholds/urgent referral/ED recognition, earliest release and corrections.",
+      "firstOnlineDate": "2025-02-18"
+    },
+    {
+      "url": "https://doi.org/10.1542/peds.2024-069987",
+      "title": "AAP 2025 child and adolescent immunization schedule",
+      "reason": "Primary publisher page actually retrieved with Jan27,2025 header, beforeFeb2–8; official PDF notes July1 revision. Next verify earliest schedule release and subsequent changes, appraise ED vaccine/contraindication implications and historical supersession; no article.",
+      "firstOnlineDate": null
+    },
+    {
+      "url": "https://doi.org/10.1182/bloodadvances.2025019415",
+      "title": "ASH/ISTH pediatric VTE prophylaxis guideline",
+      "reason": "Official ASH Apr8,2026 release identified by indexed primary search. Next verify earliest final-publication date and full recommendations/corrections, selective ED applicability; distinct from pediatric VTE treatment guideline.",
       "firstOnlineDate": null
     }
   ]
