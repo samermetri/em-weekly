@@ -2,9 +2,9 @@ name: Verify atomic editorial writer
 on:
   workflow_dispatch:
   push:
-    paths: ['scripts/editorial_writer.py', 'tests/editorial_writer_test.py', '.github/workflows/editorial-writer.yml']
+    paths: ['scripts/editorial_writer.py', 'scripts/current-discovery.py', 'db/current-discovery.sql', 'tests/*_test.py', '.github/workflows/editorial-writer.yml']
   pull_request:
-    paths: ['scripts/editorial_writer.py', 'tests/editorial_writer_test.py', '.github/workflows/editorial-writer.yml']
+    paths: ['scripts/editorial_writer.py', 'scripts/current-discovery.py', 'db/current-discovery.sql', 'tests/*_test.py', '.github/workflows/editorial-writer.yml']
 permissions:
   contents: read
 jobs:
@@ -26,6 +26,6 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements-db.txt
-      - run: python3 -m unittest discover -s tests -p 'editorial_writer_test.py' -v
+      - run: python3 -m unittest discover -s tests -p '*_test.py' -v
         env:
           EM_WEEKLY_TEST_DATABASE_URL: postgresql://writer_test:disposable_ci_password@127.0.0.1:5432/em_weekly_writer_test

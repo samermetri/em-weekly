@@ -2,9 +2,9 @@ Owner correction, October 28, 2026: weekly issues cover evidence FIRST ONLINE du
 
 Editorial update, October 28, 2026: the owner explicitly permits longer summaries for major guidelines and consensus statements. Coverage and readability take priority over ordinary-study sentence targets or fitting one printed page. See the major guidance exception in section 8.
 
-Website update, October 28, 2026: all eligible non-sample articles appear in one public library ordered by first-online date, with year and recently-added filters. Retrospective records retain backfill:true internally and stay excluded from normal weekly briefs. The separate historical-collection presentation is retired. Research must cover the full two-year interval evenly, using complete cached PubMed discovery as reference metadata plus independent primary verification and society checks.
+Website update, October 28, 2026: all eligible non-sample articles appear in one public library ordered by first-online date, with year and recently-added filters. Retrospective records retain backfill:true internally; weekly eligibility always follows their first-online dates. The separate historical-collection presentation is retired. Research must cover the full two-year interval evenly, using complete cached PubMed discovery as reference metadata plus independent primary verification and society checks.
 
-Historical collection update, October 27, 2026: the owner requested a separate retrospective collection for first-online dates October 27, 2024 through October 26, 2026. These records use backfill:true, actual current site-publication dates, and the same verification and writing standard. They remain searchable with all articles but are excluded from current weekly briefs and the normal daily publication cap. Partial historical searches must remain explicitly incomplete.
+Historical collection update, October 27, 2026: the owner authorized retrospective coverage for first-online dates October 27, 2024 through October 26, 2026. These records use backfill:true, actual current site-publication dates, and the same verification and writing standard. They remain searchable with all articles and are excluded from the normal daily publication cap; date-eligible records are included in their original evidence week. Partial historical searches must remain explicitly incomplete.
 
 Owner correction, October 28, 2026: weekly issues cover evidence FIRST ONLINE during the preceding Monday–Sunday, inclusive, regardless of when added to EM Weekly. The October 26 issue must cover October 19–25, 2026. Include all verified public non-sample articles whose firstOnlineDate lies within that exact interval; never include older evidence with a catch-up label or use print/sitePublishedDate to move it into a later week. A backfill flag does not exclude an otherwise date-eligible article. Older retrospective additions remain in the article library only. Normal weekly coverage starts October 19, 2026. This supersedes earlier site-publication-week and blanket backfill-exclusion instructions.
 
@@ -22,9 +22,7 @@ Do NOT include an article simply because it appeared in a new print issue if it 
 
 Avoid repeating articles covered in prior weeks.
 
-If an important guideline or paper was missed previously, it may be included once as:
-
-**Catch-up: previously missed important publication**
+Retrospective discoveries belong to the library and their original first-online coverage week. Never insert older evidence into a later weekly issue as catch-up.
 
 ## 2. Where to search
 

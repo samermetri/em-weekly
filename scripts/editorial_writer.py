@@ -9,10 +9,23 @@ import re
 
 
 def build_backfill_batch(records):
-    if not isinstance(records, list) or not 1 <= len(records) <= 15:
-        raise ValueError('Expected 1–15 records')
+    return _build_batch(records, 'backfill')
+
+
+def build_editorial_batch(records, workflow):
+    if workflow not in ('daily', 'weekly'):
+        raise ValueError('Expected daily or weekly workflow')
+    return _build_batch(records, workflow)
+
+
+def _build_batch(records, workflow):
+    limits = {'backfill': {'article': 12, 'audit': 2, 'state': 1},
+              'daily': {'article': 5, 'audit': 2, 'state': 1},
+              'weekly': {'article': 5, 'issue': 2, 'audit': 2, 'state': 1}}[workflow]
+    if not isinstance(records, list) or not 1 <= len(records) <= sum(limits.values()):
+        raise ValueError('Batch size exceeded')
     seen = set()
-    counts = {'article': 0, 'audit': 0, 'state': 0}
+    counts = dict.fromkeys(limits, 0)
     for row in records:
         if set(row) != {'kind', 'id', 'expected_revision', 'new_body'}:
             raise ValueError('Unexpected record fields')
@@ -27,14 +40,23 @@ def build_backfill_batch(records):
             raise ValueError('Expected a positive revision or null for creation')
         if not isinstance(body, dict):
             raise ValueError('Expected a JSON object')
-        if kind == 'state' and (identity != 'backfill' or revision is None or body.get('id') != 'backfill'):
-            raise ValueError('Only the existing backfill checkpoint may be changed')
-        if kind == 'audit' and not identity.startswith('backfill-'):
-            raise ValueError('Only backfill audits may be changed')
-        if kind == 'article' and (body.get('id') != identity or body.get('backfill') is not True or body.get('sample') is not False):
-            raise ValueError('Expected a non-sample backfill article with matching ID')
-    if counts['article'] > 12 or counts['audit'] > 2 or counts['state'] > 1:
-        raise ValueError('Backfill batch bounds exceeded')
+        checkpoint = 'backfill' if workflow == 'backfill' else 'publishing'
+        if kind == 'state' and (identity != checkpoint or revision is None or
+                               (workflow == 'backfill' and body.get('id') != checkpoint)):
+            raise ValueError('Only the existing workflow checkpoint may be changed')
+        if kind == 'audit':
+            pattern = r'backfill-[a-z0-9-]+' if workflow == 'backfill' else r'(?:daily-|weekly-)?\d{4}-\d{2}-\d{2}'
+            if not re.fullmatch(pattern, identity):
+                raise ValueError('Audit is outside the workflow scope')
+        if kind == 'article' and (body.get('id') != identity or body.get('sample') is not False or
+                                  (workflow == 'backfill' and body.get('backfill') is not True) or
+                                  (workflow != 'backfill' and body.get('backfill') is True)):
+            raise ValueError('Expected a matching non-sample article in the workflow scope')
+        if kind == 'issue' and (not re.fullmatch(r'\d{4}-\d{2}-\d{2}', identity) or
+                                body.get('id') != identity or body.get('sample') is not False):
+            raise ValueError('Expected a matching non-sample weekly issue')
+    if any(counts[kind] > limit for kind, limit in limits.items()):
+        raise ValueError('Workflow batch bounds exceeded')
     payload = json.dumps(records, ensure_ascii=False, separators=(',', ':'), allow_nan=False)
     tag = 'em_' + hashlib.sha256(payload.encode()).hexdigest()[:20]
     delimiter = '$' + tag + '$'
