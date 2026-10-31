@@ -24,7 +24,6 @@
   "historicalCollection": {
     "rangeStart": "2024-10-27",
     "rangeEnd": "2026-10-26",
-    "maxArticlesPerRun": 12,
-    "includeInCurrentWeeklyBrief": false
+    "maxArticlesPerRun": 12
   }
 }
