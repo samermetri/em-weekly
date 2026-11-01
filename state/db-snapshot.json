@@ -1,5 +1,5 @@
 {
-  "snapshotHash": "55c7d821584632cd84185b4d86eaa4f3e500b6f61886c2f73142e0879dc0f1c6",
+  "snapshotHash": "949672f33d64739304a992519b532b568f065a800f7735a020ca4f7e8971413e",
   "documentRevisions": {
     "article:aap-neonatal-hie-hypothermia-2026": 1,
     "article:aap-pediatric-uti-2026": 2,
@@ -85,7 +85,7 @@
     "audit:backfill-2024-12-15": 1,
     "audit:backfill-2024-12-22": 1,
     "audit:backfill-2025-01-05": 1,
-    "audit:backfill-2025-02-02": 16,
+    "audit:backfill-2025-02-02": 17,
     "audit:backfill-2025-02-16": 3,
     "audit:backfill-2025-04-06": 7,
     "audit:backfill-2025-07-06": 3,
@@ -101,8 +101,8 @@
     "probe:hosted-2026-10-26": 1,
     "probe:scheduled-2026-10-26": 1,
     "probe:weekly-connection-2026-10-26": 2,
-    "state:backfill": 49,
+    "state:backfill": 50,
     "state:publishing": 12
   },
-  "revisionFingerprint": "49968b02fdc95e61110a756f888c5710"
+  "revisionFingerprint": "d06c9037b214d624e860e42798fadd05"
 }
