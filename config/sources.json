@@ -260,7 +260,9 @@
     "www.hematology.org",
     "www.idsociety.org",
     "www.saem.org",
-    "www.sccm.org"
+    "www.sccm.org",
+    "www.aap.org",
+    "downloads.aap.org"
   ],
   "pubmedSearchUrl": "https://pubmed.ncbi.nlm.nih.gov/",
   "pubmedSearchHelpUrl": "https://pubmed.ncbi.nlm.nih.gov/help/"
