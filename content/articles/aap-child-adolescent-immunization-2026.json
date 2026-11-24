@@ -1,0 +1,67 @@
+{
+  "id": "aap-child-adolescent-immunization-2026",
+  "doi": "10.1542/peds.2025-075754",
+  "pmid": "41582321",
+  "title": "Recommended Childhood and Adolescent Immunization Schedule: United States, 2026: Policy Statement",
+  "pinned": false,
+  "sample": false,
+  "source": "American Academy of Pediatrics / Pediatrics",
+  "status": "published",
+  "topics": [
+    "pediatrics",
+    "infectious-disease",
+    "guidelines"
+  ],
+  "authors": [
+    "Sean T. O’Leary",
+    "Committee on Infectious Diseases"
+  ],
+  "ranking": {
+    "design": 3,
+    "novelty": 2,
+    "edImpact": 3,
+    "guidelineRelevance": 4
+  },
+  "section": "Guidelines & Statements",
+  "summary": "AAP released its 2026 pediatric schedule on January 26, retaining routine protection against 18 diseases; the associated Pediatrics policy appeared February 9. This is society guidance, not a new efficacy trial. The release preserved AAP’s existing routine recommendations despite differences from federal guidance, including hepatitis A/B, influenza, rotavirus and meningococcal vaccination.\n\nAAP’s release summary recommends COVID-19 vaccination for children aged 6–23 months and specified older risk groups, and permits access for families seeking protection. It retains a two-dose HPV approach beginning at ages 9–12 years and allows either separate MMR/varicella or MMRV for the first toddler dose. These are historical release recommendations; consult the maintained schedule for subsequent changes.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Use age, catch-up interval and medical-condition tables together with product-specific notes; delayed series generally do not require restarting.",
+    "The policy adds clesrovimab, updates COVID-19 and HPV presentation, and adds combined meningococcal-product contraindications; these changes do not constitute a new comparative trial.",
+    "Later correction: February 5 addendum changes a Table 3 HIV CD4 column threshold from <200/mm³ to ≥200/mm³.",
+    "Later September revisions include MenACWY-TT minimum age, seasonal COVID-19/influenza information, RSV risk/repeat-dose criteria and maternal RSV timing. Do not attribute those revisions to January.",
+    "Before administration, distinguish anaphylaxis contraindications from precautions and consult the complete product-specific appendix. For example, rotavirus contraindications include SCID and prior intussusception."
+  ],
+  "studyType": "Guideline",
+  "comparator": "Prior AAP schedule and contemporaneous federal recommendations; no randomized comparison.",
+  "population": "US infants, children and adolescents aged 18 years or younger; pregnancy and risk-condition notes apply where specified.",
+  "sampleSize": null,
+  "shortTitle": "AAP 2026 immunization schedule: retain routine protection; check dated updates",
+  "aiGenerated": true,
+  "corrections": [
+    {
+      "date": "2026-02-05",
+      "description": "Official schedule addendum corrects the Table 3 HIV CD4 column threshold; this record links the maintained corrected schedule."
+    },
+    {
+      "date": "2026-09-02",
+      "description": "Retrieved PDF bears this update date and lists September 1 substantive revisions; historical January guidance is distinguished from later updates."
+    }
+  ],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Official release summary and selected schedule notes, appendix and addendum reviewed; comprehensive vaccine-by-vaccine evidence appraisal was not performed. The accessible 19-page PDF is updated September 2, rather than the original January file. Direct policy retrieval redirected to login; indexed official policy text was inspected.",
+  "retrievedAt": "2026-11-05",
+  "canonicalUrl": "https://www.aap.org/ImmunizationSchedule",
+  "intervention": "AAP age-based and risk-based immunization schedule, catch-up tables and contraindication/precaution appendix.",
+  "whyItMatters": "During ED counseling or catch-up referrals, identify which organization’s schedule is being used and reconcile immunization records with the dated tables, notes and contraindications. This summary does not replace an exposure-specific prophylaxis protocol.",
+  "evidenceNotes": "Release date verified in official AAP News https://publications.aap.org/aapnews/news/34141/ and the PDF addendum. Policy DOI/PMID identify the later companion paper, not a February first release of the schedule. Official IDSA endorsement https://www.idsociety.org/practice-guideline/recommended-childhood-and-adolescent-immunization-schedule-united-states-2026-policy-statement/ confirms February 9 paper date and evidence-to-recommendations framework. Performed DOI correction/retraction and official November-update searches; no separate notice established from returned material. The maintained PDF itself documents superseding changes. Individual vaccine effects, certainty and regulatory status were not independently reappraised.",
+  "discoveredDate": "2026-11-05",
+  "fullTextStatus": "Official PDF available",
+  "officialPdfUrl": "https://www.aap.org/ImmunizationSchedule",
+  "firstOnlineDate": "2026-01-26",
+  "primaryEndpoint": "Recommended immunization timing and safe implementation; no new trial endpoint or pooled effect estimate.",
+  "reviewedMaterial": "official society summary",
+  "guidelineStrength": "AAP policy informed by evidence-to-recommendations review; no uniform GRADE strength or certainty assigned to this entire schedule. Do not infer identical evidence strength across vaccines.",
+  "sitePublishedDate": "2026-11-05"
+}

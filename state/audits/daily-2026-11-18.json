@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-18",
+  "sources": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Discovery ENTRY DATE requested October17–November18,2026 (own successfulThrough October31 minus14day overlap); earlier primary recovery September27–November18 retained. current_discovery version1, method:PubMed entry-date discovery; primary first-online verification required; query matches exact configured query; cache range2026-10-17–2026-11-17, retrievedAt2026-11-17T17:35:30.006974+00:00, under36h old. Count/candidate count/unique membership=301; ALL ordinals screened in pages1–100, 101–200, 201–300, 301–301 (max100/page). All four caches795memberships/786distinctPMIDs. Public metadata screening only; primary first-online/results verification still required. Cache ends November17 and is too narrow for today. Actual mcp__codex_apps__search_service_web_run.open E-utilities:https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=((%22Ann%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Acad%20Emerg%20Med%22%5BJournal%5D%20OR%20%22J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Am%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Emerg%20Med%20J%22%5BJournal%5D%20OR%20%22J%20Am%20Coll%20Emerg%20Physicians%20Open%22%5BJournal%5D%20OR%20%22West%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Resuscitation%22%5BJournal%5D%20OR%20%22Prehosp%20Emerg%20Care%22%5BJournal%5D))%20AND%20(%222026%2F10%2F17%22%5Bedat%5D%20%3A%20%222026%2F11%2F18%22%5Bedat%5D) returned Internal Error / URL not accessible. Distinct identical-query PubMedHTML:https://pubmed.ncbi.nlm.nih.gov/?term=((%22Ann%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Acad%20Emerg%20Med%22%5BJournal%5D%20OR%20%22J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Am%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Emerg%20Med%20J%22%5BJournal%5D%20OR%20%22J%20Am%20Coll%20Emerg%20Physicians%20Open%22%5BJournal%5D%20OR%20%22West%20J%20Emerg%20Med%22%5BJournal%5D%20OR%20%22Resuscitation%22%5BJournal%5D%20OR%20%22Prehosp%20Emerg%20Care%22%5BJournal%5D))%20AND%20(%222026%2F10%2F17%22%5Bedat%5D%20%3A%20%222026%2F11%2F18%22%5Bedat%5D)&size=200&format=summary&sort=date returned Internal Error / URL not accessible. No current-interval count/pages retrieved; checkpoint not advanced; prior successes preserved.",
+      "status": "failed",
+      "sourceId": "pubmed-em",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Discovery ENTRY DATE requested October17–November18,2026 (own successfulThrough October31 minus14day overlap); earlier primary recovery September27–November18 retained. current_discovery version1, method:PubMed entry-date discovery; primary first-online verification required; query matches exact configured query; cache range2026-10-17–2026-11-17, retrievedAt2026-11-17T17:35:30.424685+00:00, under36h old. Count/candidate count/unique membership=153; ALL ordinals screened in pages1–100, 101–153 (max100/page). All four caches795memberships/786distinctPMIDs. Public metadata screening only; primary first-online/results verification still required. Cache ends November17 and is too narrow for today. Actual mcp__codex_apps__search_service_web_run.open E-utilities:https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=((%22N%20Engl%20J%20Med%22%5BJournal%5D%20OR%20%22JAMA%22%5BJournal%5D%20OR%20%22BMJ%22%5BJournal%5D%20OR%20%22Lancet%22%5BJournal%5D%20OR%20%22JAMA%20Intern%20Med%22%5BJournal%5D%20OR%20%22JAMA%20Netw%20Open%22%5BJournal%5D%20OR%20%22Nat%20Med%22%5BJournal%5D)%20AND%20(emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest))%20AND%20(%222026%2F10%2F17%22%5Bedat%5D%20%3A%20%222026%2F11%2F18%22%5Bedat%5D) returned Internal Error / URL not accessible. Distinct identical-query PubMedHTML:https://pubmed.ncbi.nlm.nih.gov/?term=((%22N%20Engl%20J%20Med%22%5BJournal%5D%20OR%20%22JAMA%22%5BJournal%5D%20OR%20%22BMJ%22%5BJournal%5D%20OR%20%22Lancet%22%5BJournal%5D%20OR%20%22JAMA%20Intern%20Med%22%5BJournal%5D%20OR%20%22JAMA%20Netw%20Open%22%5BJournal%5D%20OR%20%22Nat%20Med%22%5BJournal%5D)%20AND%20(emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest))%20AND%20(%222026%2F10%2F17%22%5Bedat%5D%20%3A%20%222026%2F11%2F18%22%5Bedat%5D)&size=200&format=summary&sort=date returned Internal Error / URL not accessible. No current-interval count/pages retrieved; checkpoint not advanced; prior successes preserved.",
+      "status": "failed",
+      "sourceId": "pubmed-general",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Discovery ENTRY DATE requested October17–November18,2026 (own successfulThrough October31 minus14day overlap); earlier primary recovery September27–November18 retained. current_discovery version1, method:PubMed entry-date discovery; primary first-online verification required; query matches exact configured query; cache range2026-10-17–2026-11-17, retrievedAt2026-11-17T17:35:31.064989+00:00, under36h old. Count/candidate count/unique membership=218; ALL ordinals screened in pages1–100, 101–200, 201–218 (max100/page). All four caches795memberships/786distinctPMIDs. Public metadata screening only; primary first-online/results verification still required. Cache ends November17 and is too narrow for today. Actual mcp__codex_apps__search_service_web_run.open E-utilities:https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=((%22Circulation%22%5BJournal%5D%20OR%20%22Stroke%22%5BJournal%5D%20OR%20%22Chest%22%5BJournal%5D%20OR%20%22Crit%20Care%20Med%22%5BJournal%5D%20OR%20%22Intensive%20Care%20Med%22%5BJournal%5D%20OR%20%22Clin%20Infect%20Dis%22%5BJournal%5D%20OR%20%22Blood%22%5BJournal%5D%20OR%20%22Pediatrics%22%5BJournal%5D%20OR%20%22Obstet%20Gynecol%22%5BJournal%5D%20OR%20%22J%20Trauma%20Acute%20Care%20Surg%22%5BJournal%5D%20OR%20%22Clin%20Toxicol%20(Phila)%22%5BJournal%5D%20OR%20%22Kidney%20Int%22%5BJournal%5D%20OR%20%22Am%20J%20Psychiatry%22%5BJournal%5D)%20AND%20(emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest))%20AND%20(%222026%2F10%2F17%22%5Bedat%5D%20%3A%20%222026%2F11%2F18%22%5Bedat%5D) returned Internal Error / URL not accessible. Distinct identical-query PubMedHTML:https://pubmed.ncbi.nlm.nih.gov/?term=((%22Circulation%22%5BJournal%5D%20OR%20%22Stroke%22%5BJournal%5D%20OR%20%22Chest%22%5BJournal%5D%20OR%20%22Crit%20Care%20Med%22%5BJournal%5D%20OR%20%22Intensive%20Care%20Med%22%5BJournal%5D%20OR%20%22Clin%20Infect%20Dis%22%5BJournal%5D%20OR%20%22Blood%22%5BJournal%5D%20OR%20%22Pediatrics%22%5BJournal%5D%20OR%20%22Obstet%20Gynecol%22%5BJournal%5D%20OR%20%22J%20Trauma%20Acute%20Care%20Surg%22%5BJournal%5D%20OR%20%22Clin%20Toxicol%20(Phila)%22%5BJournal%5D%20OR%20%22Kidney%20Int%22%5BJournal%5D%20OR%20%22Am%20J%20Psychiatry%22%5BJournal%5D)%20AND%20(emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest))%20AND%20(%222026%2F10%2F17%22%5Bedat%5D%20%3A%20%222026%2F11%2F18%22%5Bedat%5D)&size=200&format=summary&sort=date returned Internal Error / URL not accessible. No current-interval count/pages retrieved; checkpoint not advanced; prior successes preserved.",
+      "status": "failed",
+      "sourceId": "pubmed-specialty",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "notes": "Discovery ENTRY DATE requested October17–November18,2026 (own successfulThrough October31 minus14day overlap); earlier primary recovery September27–November18 retained. current_discovery version1, method:PubMed entry-date discovery; primary first-online verification required; query matches exact configured query; cache range2026-10-17–2026-11-17, retrievedAt2026-11-17T17:35:31.562669+00:00, under36h old. Count/candidate count/unique membership=123; ALL ordinals screened in pages1–100, 101–123 (max100/page). All four caches795memberships/786distinctPMIDs. Public metadata screening only; primary first-online/results verification still required. Cache ends November17 and is too narrow for today. Actual mcp__codex_apps__search_service_web_run.open E-utilities:https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=1000&term=((emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest)%20AND%20(guideline%5BPublication%20Type%5D%20OR%20practice%20guideline%5BPublication%20Type%5D%20OR%20consensus%5BTitle%5D%20OR%20scientific%20statement%5BTitle%5D%20OR%20clinical%20policy%5BTitle%5D%20OR%20position%20statement%5BTitle%5D))%20AND%20(%222026%2F10%2F17%22%5Bedat%5D%20%3A%20%222026%2F11%2F18%22%5Bedat%5D) returned Internal Error / URL not accessible. Distinct identical-query PubMedHTML:https://pubmed.ncbi.nlm.nih.gov/?term=((emergency%20OR%20acute%20OR%20resuscitation%20OR%20shock%20OR%20stroke%20OR%20bleeding%20OR%20poisoning%20OR%20sepsis%20OR%20trauma%20OR%20cardiac%20arrest)%20AND%20(guideline%5BPublication%20Type%5D%20OR%20practice%20guideline%5BPublication%20Type%5D%20OR%20consensus%5BTitle%5D%20OR%20scientific%20statement%5BTitle%5D%20OR%20clinical%20policy%5BTitle%5D%20OR%20position%20statement%5BTitle%5D))%20AND%20(%222026%2F10%2F17%22%5Bedat%5D%20%3A%20%222026%2F11%2F18%22%5Bedat%5D)&size=200&format=summary&sort=date returned Internal Error / URL not accessible. No current-interval count/pages retrieved; checkpoint not advanced; prior successes preserved.",
+      "status": "failed",
+      "sourceId": "pubmed-guidance",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://journalfeed.org/",
+      "notes": "Exact recovery coverage September27–November18,2026. Actual search-service open and system2_search_query used. Dated query:site:journalfeed.org guideline statement policy after:2026-09-26 before:2026-11-19. Homepage retrieved for secondary discovery only; featured NEJM/Lancet Respiratory Medicine leads inspected. Dated indexed search performed. PERC-Peds remains queued; no secondary clinical summaries adopted. Success means bounded directory/indexed official discovery only, not comprehensive clinical appraisal or proof of universal absence. Search date operators/crawl dates do not verify first-online release. Important unresolved guidance keeps completion false.",
+      "status": "success",
+      "sourceId": "journalfeed",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://www.acep.org/patient-care/clinical-policies",
+      "notes": "Exact recovery coverage September27–November18,2026. Actual search-service open and system2_search_query used. Dated query:site:www.acep.org guideline statement policy after:2026-09-26 before:2026-11-19. Actual current policy directory and indexed clinical-policy material retrieved. DOAC and intubation links and comment-form results distinguished; drafts are not final policies. Earlier release/appraisal actions preserved. Success means bounded directory/indexed official discovery only, not comprehensive clinical appraisal or proof of universal absence. Search date operators/crawl dates do not verify first-online release. Important unresolved guidance keeps completion false.",
+      "status": "success",
+      "sourceId": "acep",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://professional.heart.org/en/guidelines-statements",
+      "notes": "Exact recovery coverage September27–November18,2026. Actual search-service open and system2_search_query used. Dated query:site:professional.heart.org guideline statement policy after:2026-09-26 before:2026-11-19. Actual recent dated directory, PAD science-news page and official Top Things to Know/citation inspected. November16PAD first online verified; original403Forbidden. ILCOR/SVIN/stroke and newly discovered endocarditis correction remain unresolved. Success means bounded directory/indexed official discovery only, not comprehensive clinical appraisal or proof of universal absence. Search date operators/crawl dates do not verify first-online release. Important unresolved guidance keeps completion false.",
+      "status": "success",
+      "sourceId": "aha-asa",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://www.acc.org/guidelines",
+      "notes": "Exact recovery coverage September27–November18,2026. Actual search-service open and system2_search_query used. Dated query:site:www.acc.org guideline statement policy after:2026-09-26 before:2026-11-19. Official guideline/clinical-policy directory and indexed November clinical-guidance update inspected: 2026perioperative document reaffirms identical2024recommendations. Resistant hypertension and fifth MI-definition retrospective actions preserved. New label/crawl date is not first-online proof. Success means bounded directory/indexed official discovery only, not comprehensive clinical appraisal or proof of universal absence. Search date operators/crawl dates do not verify first-online release. Important unresolved guidance keeps completion false.",
+      "status": "success",
+      "sourceId": "acc",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://publications.aap.org/pediatrics/pages/clinical-practice-guidelines",
+      "notes": "Exact recovery coverage September27–November18,2026. Actual search-service open and system2_search_query used. Dated query:site:publications.aap.org guideline statement policy after:2026-09-26 before:2026-11-19. Configured directory failed500 after login redirect; no login attempted. Distinct indexed official Policy Statements/Latest AAP Policy collection and actual randomized pediatric ventilation primary abstract retrieved. Study is123clinician manikin simulation; rejected for normal clinical selection. Earlier vaccine prepublication-date actions preserved. Success means bounded directory/indexed official discovery only, not comprehensive clinical appraisal or proof of universal absence. Search date operators/crawl dates do not verify first-online release. Important unresolved guidance keeps completion false.",
+      "status": "success",
+      "sourceId": "aap",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://www.facs.org/quality-programs/trauma/quality/best-practices-guidelines/",
+      "notes": "Exact recovery coverage September27–November18,2026. Actual search-service open and system2_search_query used. Dated query:site:www.facs.org guideline statement policy after:2026-09-26 before:2026-11-19. Official TQP directory retrieved and explicitly lists New! Transfusion in Trauma. Indexed official ACS/SIR announcement surfaced. Full transfusion earliest release/calcium discrepancy and ACS/SIR original appraisal remain unresolved; earlier review evidence retained. Success means bounded directory/indexed official discovery only, not comprehensive clinical appraisal or proof of universal absence. Search date operators/crawl dates do not verify first-online release. Important unresolved guidance keeps completion false.",
+      "status": "success",
+      "sourceId": "acs",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://www.ena.org/practice-resources",
+      "notes": "Exact recovery coverage September27–November18,2026. Actual search-service open and system2_search_query used. Dated query:site:www.ena.org guideline statement policy after:2026-09-26 before:2026-11-19. Official practice-resources directory retrieved, including both unscheduled procedural-sedation consensus parts and handoff/spinal-immobilization material. Dated official-domain search performed; earlier September2026retrospective actions preserved. No newly verified in-window guidance cleared. Success means bounded directory/indexed official discovery only, not comprehensive clinical appraisal or proof of universal absence. Search date operators/crawl dates do not verify first-online release. Important unresolved guidance keeps completion false.",
+      "status": "success",
+      "sourceId": "ena",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://www.saem.org/publications/grace",
+      "notes": "Exact recovery coverage September27–November18,2026. Actual search-service open and system2_search_query used. Dated query:site:www.saem.org guideline statement policy after:2026-09-26 before:2026-11-19. Official GRACE directory retrieved: GRACE1–4 and upcoming GRACE5syncope listed. Dated domain search performed. Upcoming listing is not a final release; no new final recommendation or universal absence inferred. Success means bounded directory/indexed official discovery only, not comprehensive clinical appraisal or proof of universal absence. Search date operators/crawl dates do not verify first-online release. Important unresolved guidance keeps completion false.",
+      "status": "success",
+      "sourceId": "saem",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://www.aaem.org/statements/",
+      "notes": "Exact recovery coverage September27–November18,2026. Actual search-service open and system2_search_query used. Dated query:site:www.aaem.org guideline statement policy after:2026-09-26 before:2026-11-19. Archive retrieved but says Search results not displayed for crawlers. Distinct indexed official clinical statements including acute pain, procedural sedation and buprenorphine retrieved. Bounded alternate discovery; dates/crawl freshness do not verify new guidance. Success means bounded directory/indexed official discovery only, not comprehensive clinical appraisal or proof of universal absence. Search date operators/crawl dates do not verify first-online release. Important unresolved guidance keeps completion false.",
+      "status": "success",
+      "sourceId": "aaem",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines",
+      "notes": "Exact recovery coverage September27–November18,2026. Actual search-service open and system2_search_query used. Dated query:site:www.hematology.org guideline statement policy after:2026-09-26 before:2026-11-19. Official current guideline-topics/draft directory retrieved via redirect; indexed official clinical/draft material inspected. Iron-deficiency treatment draft explicitly not final. Existing ITP and bleeding/reversal actions preserved; no new final bleeding recommendation verified. Success means bounded directory/indexed official discovery only, not comprehensive clinical appraisal or proof of universal absence. Search date operators/crawl dates do not verify first-online release. Important unresolved guidance keeps completion false.",
+      "status": "success",
+      "sourceId": "ash",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://www.chestnet.org/guidelines-and-topic-collections/guidelines",
+      "notes": "Exact recovery coverage September27–November18,2026. Actual search-service open and system2_search_query used. Dated query:site:www.chestnet.org guideline statement policy after:2026-09-26 before:2026-11-19. Official guideline directory retrieved; featured September2026inpatient tobacco and July2026pregnancy OSA guidance inspected alongside dated domain search. Independent final dated acute-guideline query successfully empty. No universal absence claim; respiratory appraisals remain queued. Success means bounded directory/indexed official discovery only, not comprehensive clinical appraisal or proof of universal absence. Search date operators/crawl dates do not verify first-online release. Important unresolved guidance keeps completion false.",
+      "status": "success",
+      "sourceId": "chest",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://www.sccm.org/clinical-resources/guidelines/guidelines",
+      "notes": "Exact recovery coverage September27–November18,2026. Actual search-service open and system2_search_query used. Dated query:site:www.sccm.org guideline statement policy after:2026-09-26 before:2026-11-19. Official all-guidelines directory and indexed current development/status pages retrieved. March2026crisis-allocation/SSC publication and upcoming2026–27documents distinguished from new final guidance. Independent dated sepsis query successfully empty; unresolved ECPR/resuscitation actions preserved. Success means bounded directory/indexed official discovery only, not comprehensive clinical appraisal or proof of universal absence. Search date operators/crawl dates do not verify first-online release. Important unresolved guidance keeps completion false.",
+      "status": "success",
+      "sourceId": "sccm",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://www.idsociety.org/practice-guideline/all-practice-guidelines/",
+      "notes": "Exact recovery coverage September27–November18,2026. Actual search-service open and system2_search_query used. Dated query:site:www.idsociety.org guideline statement policy after:2026-09-26 before:2026-11-19. Official A–Z directory and indexed Highlights & Status retrieved, with September2026SAB/histoplasmosis/vaccines, olderGAS and HAP/VAP development status distinguished. Dated search completed; no newly verified normal-window update selected. Success means bounded directory/indexed official discovery only, not comprehensive clinical appraisal or proof of universal absence. Search date operators/crawl dates do not verify first-online release. Important unresolved guidance keeps completion false.",
+      "status": "success",
+      "sourceId": "idsa",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://www.acmt.net/statements/",
+      "notes": "Exact recovery coverage September27–November18,2026. Actual search-service open and system2_search_query used. Dated query:site:www.acmt.net guideline statement policy after:2026-09-26 before:2026-11-19. Official ACMT dated directory and datedACMT/AACT indexed search inspected; distinct AACT guessed directory URL inaccessible, while indexed official position-statements resources retrieved. Earlier release/correction actions retained. Independent dated poisoning query successfully empty. Success means bounded directory/indexed official discovery only, not comprehensive clinical appraisal or proof of universal absence. Search date operators/crawl dates do not verify first-online release. Important unresolved guidance keeps completion false.",
+      "status": "success",
+      "sourceId": "acmt",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://www.east.org/education-resources/practice-management-guidelines",
+      "notes": "Exact recovery coverage September27–November18,2026. Actual search-service open and system2_search_query used. Dated query:site:www.east.org guideline statement policy after:2026-09-26 before:2026-11-19. Official directory and indexed trauma listing retrieved. Open-fracture/pelvic/BCVI updates in development distinguished from final recommendations. Important ACStransfusion/ACS-SIR and Scandinavianhead-injury primary appraisal unresolved. Success means bounded directory/indexed official discovery only, not comprehensive clinical appraisal or proof of universal absence. Search date operators/crawl dates do not verify first-online release. Important unresolved guidance keeps completion false.",
+      "status": "success",
+      "sourceId": "east-trauma",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://eso-stroke.org/guidelines/eso-guideline-directory/",
+      "notes": "Exact recovery coverage September27–November18,2026. Actual search-service open and system2_search_query used. Dated query:site:eso-stroke.org guideline statement policy after:2026-09-26 before:2026-11-19. Official directory and dated indexed official search inspected; SAH, strokeBP and stroke-associated pneumonia listed. Prior May2026earliest-date/retrospective actions preserved; not relabeled by crawl date. Success means bounded directory/indexed official discovery only, not comprehensive clinical appraisal or proof of universal absence. Search date operators/crawl dates do not verify first-online release. Important unresolved guidance keeps completion false.",
+      "status": "success",
+      "sourceId": "eso-stroke",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://www.acog.org/clinical",
+      "notes": "Exact recovery coverage September27–November18,2026. Actual search-service open and system2_search_query used. Dated query:site:www.acog.org guideline statement policy after:2026-09-26 before:2026-11-19. Configured directory returned402PaymentRequired; no bypass. Distinct dated official-domain search and SMFM/RCOG search returned mixed/older indexed guidance. SMFM actual full Listeria page retrieved but earliest day/correction/supersession remain unresolved. ACOG direct directory scope remains unavailable; do not certify complete coverage. Success means bounded directory/indexed official discovery only, not comprehensive clinical appraisal or proof of universal absence. Search date operators/crawl dates do not verify first-online release. Important unresolved guidance keeps completion false.",
+      "status": "failed",
+      "sourceId": "acog",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    },
+    {
+      "url": "https://www.erc.edu/science-research/guidelines/",
+      "notes": "Exact recovery coverage September27–November18,2026. Actual search-service open and system2_search_query used. Dated query:site:www.erc.edu guideline statement policy after:2026-09-26 before:2026-11-19. Configured directory returned500InternalServerError. Distinct indexed official Guidelines2025release/download page retrieved and inspected. Bounded alternate discovery succeeded; existing ALS corrigendum and ILCOR actions remain queued. Success means bounded directory/indexed official discovery only, not comprehensive clinical appraisal or proof of universal absence. Search date operators/crawl dates do not verify first-online release. Important unresolved guidance keeps completion false.",
+      "status": "success",
+      "sourceId": "erc",
+      "checkedAt": "2026-11-18T10:04:20Z"
+    }
+  ],
+  "coverageEnd": "2026-11-18",
+  "coverageStart": "2026-09-27",
+  "finalCrossCheck": [
+    "1. Exact coverage September27–November18,2026. Major EM RCTs. Actual mcp__codex_apps__search_service_web_run.system2_search_query:(site:annemergmed.com OR site:onlinelibrary.wiley.com OR site:resuscitationjournal.com OR site:emj.bmj.com) emergency randomized trial after:2026-09-26 before:2026-11-19. Screened301EMcache records; independent dated journal-domain RCT query returned an unrelated1980letter, not an eligible new trial. Actual AAP primary ventilation-feedback abstract verified randomized manikin simulation with123clinicians, not a patient trial; rejected. Current-day enumeration/important primary reviews incomplete. Final check not certified complete: exhaustive discovery throughNovember18 and important candidate resolution remain incomplete.",
+    "2. Exact coverage September27–November18,2026. General journal trials. Actual mcp__codex_apps__search_service_web_run.system2_search_query:(site:nejm.org OR site:jamanetwork.com OR site:thelancet.com OR site:bmj.com) acute emergency randomized trial after:2026-09-26 before:2026-11-19. Screened153general-journal cache records; dated journal-domain search returned mixed/older trials. Exact primary NEJM/PubMed RACE-CARS abstract and first online November8 verified; full-article403 and no verified paywall classification, fidelity/safety-table review incomplete. PROSpect exact primary-domain search did not recover target. Existing troponin-pathway article deduplicated; no duplicate queue entry. Final check not certified complete: exhaustive discovery throughNovember18 and important candidate resolution remain incomplete.",
+    "3. Exact coverage September27–November18,2026. ACEP policies. Actual mcp__codex_apps__search_service_web_run.system2_search_query:site:acep.org clinical policy after:2026-09-26 before:2026-11-19. Actual ACEPcurrent policy directory and independent dated policy query inspected; DOAC/VTE/headache/pediatric-fever comment forms are drafts. No new final policy inferred from comment pages; prior retrospective actions retained. Final check not certified complete: exhaustive discovery throughNovember18 and important candidate resolution remain incomplete.",
+    "4. Exact coverage September27–November18,2026. AHA/ASA. Actual mcp__codex_apps__search_service_web_run.system2_search_query:(site:professional.heart.org OR site:ahajournals.org) resuscitation stroke guideline statement after:2026-09-26 before:2026-11-19. Actual AHAdated directory, PADofficial summary/citation retrieved; original403Forbidden. Independent dated resuscitation/stroke query successfully empty. New endocarditis-correction metadata identified; originalAHA and PubMed inaccessible, distinct exactDOI/PMID indexed search did not recover correction. Important guidance/correction-dependent review remains held. Final check not certified complete: exhaustive discovery throughNovember18 and important candidate resolution remain incomplete.",
+    "5. Exact coverage September27–November18,2026. SCCM/sepsis. Actual mcp__codex_apps__search_service_web_run.system2_search_query:(site:sccm.org OR site:esicm.org) sepsis guideline after:2026-09-26 before:2026-11-19. Actual SCCMall-guidelines/status and dated SCCM/ESICM query checked; independent query successfully empty. MarchSSC/crisis-allocation release and upcomingguidance distinguished. GermanECPR and other consequential resuscitation primary appraisals remain unresolved. Final check not certified complete: exhaustive discovery throughNovember18 and important candidate resolution remain incomplete.",
+    "6. Exact coverage September27–November18,2026. IDSA. Actual mcp__codex_apps__search_service_web_run.system2_search_query:site:idsociety.org practice guideline after:2026-09-26 before:2026-11-19. Actual IDSA A–Z and Highlights&Status plus dated practice-guideline query inspected. September2026SAB/histoplasmosis/vaccines and olderGAS dates distinguished; HAP/VAP development status is not final release. No universal absence claimed; AHAendocarditis correction review remains unresolved. Final check not certified complete: exhaustive discovery throughNovember18 and important candidate resolution remain incomplete.",
+    "7. Exact coverage September27–November18,2026. CHEST. Actual mcp__codex_apps__search_service_web_run.system2_search_query:(site:chestnet.org OR site:journal.chestnet.org) acute guideline after:2026-09-26 before:2026-11-19. Actual CHESTdirectory and dated acute-guideline query checked; independent query successfully empty. Featured Septemberinpatient tobacco and JulypregnancyOSA predate normalcoverage. ADJUST and other important respiratory appraisals remain queued; no new recommendation clearance. Final check not certified complete: exhaustive discovery throughNovember18 and important candidate resolution remain incomplete.",
+    "8. Exact coverage September27–November18,2026. Bleeding/anticoagulation. Actual mcp__codex_apps__search_service_web_run.system2_search_query:(site:hematology.org OR site:ashpublications.org) bleeding anticoagulation guideline after:2026-09-26 before:2026-11-19. Actual ASHtopics/draft directory, dated bleeding/anticoagulation query and distinct official indexed clinical search inspected; independent dated query successfully empty. Iron-deficiency treatment draft explicitly not final; ITP earlier guidance not new. Andexanet harm and reversal/correction reviews unresolved. Final check not certified complete: exhaustive discovery throughNovember18 and important candidate resolution remain incomplete.",
+    "9. Exact coverage September27–November18,2026. Toxicology. Actual mcp__codex_apps__search_service_web_run.system2_search_query:(site:acmt.net OR site:clintox.org) poisoning statement after:2026-09-26 before:2026-11-19. Actual ACMTdated directory; AACTposition URL inaccessible, distinct indexed official AACTresource search retrieved. Independent dated ACMT/AACT poisoning query successfully empty. No new opioid/naloxone guidance inferred from later journal indexing; prior first-release/correction actions preserved. Final check not certified complete: exhaustive discovery throughNovember18 and important candidate resolution remain incomplete.",
+    "10. Exact coverage September27–November18,2026. Trauma. Actual mcp__codex_apps__search_service_web_run.system2_search_query:(site:facs.org OR site:east.org OR site:westerntrauma.org) trauma guideline after:2026-09-26 before:2026-11-19. Actual ACS/EASTdirectories and independent dated trauma query inspected. ACStransfusion/ACS-SIR holds preserved. Scandinavianhead-injury PMCopen inaccessible; distinct indexedPMCsearch recovered PubMedabstract only, not seven pathways. New GSRMorthoplastic consensus queued from metadata for earliest release/EDtransfer/debridement appraisal. Important trauma guidance unresolved. Final check not certified complete: exhaustive discovery throughNovember18 and important candidate resolution remain incomplete.",
+    "11. Exact coverage September27–November18,2026. Pediatric emergencies. Actual mcp__codex_apps__search_service_web_run.system2_search_query:site:publications.aap.org emergency guideline after:2026-09-26 before:2026-11-19. Actual indexed AAPpolicy collection after configureddirectory500 and independent dated pediatric-emergency query inspected. Pediatricventilation abstract proves simulation; no patient outcome claim. PROSpect, pediatricstroke and vaccine earliest prepublication reviews unresolved; UTI/readiness not relabeled new. Final check not certified complete: exhaustive discovery throughNovember18 and important candidate resolution remain incomplete.",
+    "12. Exact coverage September27–November18,2026. Obstetric emergencies. Actual mcp__codex_apps__search_service_web_run.system2_search_query:(site:acog.org OR site:smfm.org OR site:rcog.org.uk) emergency guideline after:2026-09-26 before:2026-11-19. ACOGdirectory402 and dated official/SMFM/RCOG searches inspected; mixed/older guidance, no bypass. Actual SMFMListeria fullwebpage/tables retrieved, but exact earliest release/correction history unresolved; no article created with guessed day. Pregnancyhypertension and other obstetric primary actions retained. Final check not certified complete: exhaustive discovery throughNovember18 and important candidate resolution remain incomplete."
+  ],
+  "excludedCandidates": [
+    {
+      "reason": "Exclude isolated case reports, tiny series, low-impact retrospective/AI/administrative/education work, opinion and narrative reviews without new consequential recommendations. Metadata screening does not equal clinical appraisal. No filler or Watch List.",
+      "identifier": "Screened metadata exclusions"
+    },
+    {
+      "reason": "Retrieved primaryAAPabstract: randomized crossover123EMSclinicians/3-year-oldmanikin, 2minute scenarios; no patient outcomes. Rejected from normal selective clinical publication despite improved simulated breath metrics. Source explicitly Available to Purchase; no full-text review claimed.",
+      "identifier": "PMID42896864; DOI10.1542/peds.2026-077291"
+    },
+    {
+      "reason": "AHAendocarditis correction, PAD, ILCOR, SVIN, pediatricstroke, GermanECPR, ACStransfusion/ACS-SIR, Scandinavianheadinjury, Listeria and correction-dependent troponin review remain unresolved. Preserve holds; no issue writes/clearance.",
+      "identifier": "Important unresolved guidance and correction"
+    },
+    {
+      "reason": "Primary NEJM/PubMed abstract and November8firstonline confirmed; full original403. Availability failure is not proof of paywall. Clinical abstract can support limited appraisal but available schema requires verified fullTextStatus; queue legal full paper/supplement, fidelity/safety and availability classification. No article with guessed source status.",
+      "identifier": "RACE-CARS PMID43001758"
+    },
+    {
+      "reason": "All78stored article identifier sets checked, including samples/backfill. Troponin-pathway PMID43007673 already exists as ehr-troponin-pathway-los-2026; no duplicate article/queue entry added. Immediately-before-save November18published nonexcluded nonsample nonbackfill count0; new articles selected0. Three new queue leads and five selected queue updates. No issue/config/backfill writes.",
+      "identifier": "Deduplication and cap"
+    },
+    {
+      "reason": "Latest actual recorded statusfailed; attempted2026-11-18T07:15:03.190772Z; run https://github.com/samermetri/em-weekly/actions/runs/44257352086 ; error Validation, build, or deployment failed. Last deployed timestamp2026-11-05. Saved revisions remain pending successful exact acknowledgement. NoGitHubconnection/dispatch/poll.",
+      "identifier": "Publication acknowledgement"
+    }
+  ],
+  "finalCrossCheckCompleted": false,
+  "guidelineSearchCompleted": false
+}

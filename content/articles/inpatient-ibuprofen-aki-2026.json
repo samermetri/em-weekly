@@ -1,0 +1,54 @@
+{
+  "id": "inpatient-ibuprofen-aki-2026",
+  "doi": "10.1001/jamanetworkopen.2026.42745",
+  "pmid": "43007674",
+  "title": "Ibuprofen Use and Acute Kidney Injury Among Adults Admitted to the Hospital",
+  "pinned": false,
+  "sample": false,
+  "source": "JAMA Network Open",
+  "status": "published",
+  "topics": [
+    "toxicology"
+  ],
+  "authors": [
+    "Haedi E. Thelen",
+    "Luke J. Keele",
+    "Christina Brotman",
+    "Michael G.S. Shashaty",
+    "Todd A. Miano"
+  ],
+  "ranking": {
+    "design": 2,
+    "novelty": 3,
+    "edImpact": 4,
+    "guidelineRelevance": 1
+  },
+  "section": "Worth Knowing",
+  "summary": "Among 78,656 inpatients receiving at least 24 hours of ibuprofen or oxycodone, weighted AKI rates were higher with ibuprofen (IRR 1.22, 95% CI 1.09–1.38). Associations were larger with critical illness (1.65, 1.29–2.11) and surgery (1.70, 1.28–2.27); the low-risk subgroup estimate was 0.94 (0.75–1.18).",
+  "backfill": false,
+  "excluded": false,
+  "findings": [
+    "KRT IRR 3.29 (95% CI 1.35–8.03)."
+  ],
+  "studyType": "Observational study",
+  "comparator": "Oxycodone.",
+  "population": "Adults admitted to three hospitals.",
+  "sampleSize": 78656,
+  "shortTitle": "Ibuprofen and inpatient AKI risk",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Nonrandomized 2004–2017 inpatient data; hypotension, depletion and sepsis were unmeasured. Severe baseline kidney dysfunction was excluded.",
+  "retrievedAt": "2026-11-13",
+  "canonicalUrl": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856366",
+  "intervention": "Ibuprofen for at least 24 hours.",
+  "whyItMatters": "Reassess renal vulnerability before continuing NSAIDs during admission. This study does not establish the risk of one ED dose or justify routine opioid substitution.",
+  "evidenceNotes": "Primary publisher full text reviewed. Official November 10 publication and release supersede the cache's November 2 hint. Exact-DOI correction/retraction search surfaced no relevant notice; no claim of universal absence. Other analgesic harms require separate assessment.",
+  "discoveredDate": "2026-11-13",
+  "fullTextStatus": "Open-access full text available",
+  "firstOnlineDate": "2026-11-10",
+  "primaryEndpoint": "Creatinine/dialysis-defined AKI.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-11-13"
+}

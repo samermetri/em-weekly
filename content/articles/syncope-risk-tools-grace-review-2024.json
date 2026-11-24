@@ -1,0 +1,61 @@
+{
+  "id": "syncope-risk-tools-grace-review-2024",
+  "doi": "10.1111/acem.15041",
+  "pmid": "39496561",
+  "title": "Risk-stratification tools for emergency department patients with syncope: A systematic review and meta-analysis of direct evidence for SAEM GRACE",
+  "pinned": false,
+  "sample": false,
+  "source": "Academic Emergency Medicine",
+  "status": "published",
+  "topics": [
+    "cardiology"
+  ],
+  "authors": [
+    "Abel Wakai",
+    "Richard Sinert",
+    "Shahriar Zehtabchi",
+    "Ian S. de Souza",
+    "Roshanak Benabbas",
+    "Robert Allen",
+    "Eric Dunne",
+    "Rebekah Richards",
+    "Amelie Ardilouze",
+    "Isidora Rovic"
+  ],
+  "ranking": {
+    "design": 3,
+    "novelty": 2,
+    "edImpact": 3,
+    "guidelineRelevance": 2
+  },
+  "section": "Worth Knowing",
+  "summary": "This review included 31 reports evaluating 13 syncope prediction rules. Among repeatedly validated tools, CSRS pooled sensitivity was 89% (95% CI 76–95.4%) and specificity 48.1% (34.5–61.9%), with substantial heterogeneity. No randomized comparison with clinician judgment was found; the single direct observational comparison included 488 patients.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "SFSR had 12 validation studies; CSRS and OESIL each had five.",
+    "Comparative certainty was low because of indirectness and suspected publication bias.",
+    "Missed serious outcomes and unnecessary admission are competing harms; this review did not test a score-driven disposition intervention."
+  ],
+  "studyType": "Meta-analysis",
+  "comparator": "Other rules; limited direct comparison with unstructured clinician judgment.",
+  "population": "ED patients aged at least 16 with syncope or near-syncope; target question concerned patients without a serious diagnosis at initial evaluation.",
+  "sampleSize": null,
+  "shortTitle": "Syncope scores: limited comparative evidence",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Searches ended in June 2023; heterogeneous composites, follow-up and indirect comparisons limit applicability. Subsequent 2026 validation found FAINT more sensitive than physician estimates for cardiac outcomes, so the review's historical conclusion needs that qualification.",
+  "retrievedAt": "2026-11-06",
+  "canonicalUrl": "https://onlinelibrary.wiley.com/doi/10.1111/acem.15041",
+  "intervention": "Syncope risk-stratification rules, including CSRS, SFSR and OESIL.",
+  "whyItMatters": "A score alone cannot establish safe discharge after unexplained syncope. This historical review documents uncertainty about comparative performance, rather than proving clinician judgment superior or scores ineffective.",
+  "evidenceNotes": "Publisher main methods, results, GRADE tables and limitations reviewed; separate supplements not reviewed. Derivation/validation samples overlap; no artificial unique-patient total is supplied. Bounded DOI correction/retraction searches found no separate notice, without proving absence. Later primary context: https://doi.org/10.1001/jamanetworkopen.2026.17362 (publisher online May 19, 2026): 1,263 patients; FAINT versus physician sensitivity difference 18.7 percentage points (95% CI 6.8–30.6) for cardiac outcomes. Observational validation does not establish implementation benefit. This review is evidence supporting GRACE development, not a new SAEM clinical policy.",
+  "discoveredDate": "2026-11-06",
+  "fullTextStatus": "Open-access full text available",
+  "firstOnlineDate": "2024-11-04",
+  "primaryEndpoint": "Prediction of serious adverse outcomes, chiefly within 30 days; some included studies used longer follow-up.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-11-06"
+}

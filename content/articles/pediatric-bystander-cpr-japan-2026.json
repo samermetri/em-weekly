@@ -1,0 +1,60 @@
+{
+  "id": "pediatric-bystander-cpr-japan-2026",
+  "doi": "10.1001/jamanetworkopen.2026.44991",
+  "pmid": "43056114",
+  "title": "Bystander CPR Type and Outcomes After Pediatric Out-of-Hospital Cardiac Arrest.",
+  "pinned": false,
+  "sample": false,
+  "source": "JAMA Network Open",
+  "status": "published",
+  "topics": [
+    "pediatrics",
+    "resuscitation"
+  ],
+  "authors": [
+    "Takafumi Obara",
+    "Hiromichi Naito",
+    "Tsuyoshi Nojima",
+    "Naomi Matsumoto",
+    "Kohei Tsukahara",
+    "Takashi Hongo",
+    "Tetsuya Yumoto",
+    "Takashi Yorifuji",
+    "Vinay M Nadkarni",
+    "Atsunori Nakao"
+  ],
+  "ranking": {
+    "design": 2,
+    "novelty": 3,
+    "edImpact": 4,
+    "guidelineRelevance": 0
+  },
+  "section": "Worth Knowing",
+  "summary": "In Japan’s national registry cohort of 26,785 children with out-of-hospital cardiac arrest, favorable 30-day neurological survival occurred in 16.0% with rescue-breathing CPR, 9.5% with compression-only CPR, and 3.6% without bystander CPR. Rescue-breathing CPR was associated with better neurological survival than compression-only CPR after adjustment (risk ratio 1.71, 95% CI 1.57–1.86). These associations do not establish causation.",
+  "backfill": false,
+  "excluded": false,
+  "findings": [
+    "Rescue-breathing versus compression-only CPR: adjusted 30-day survival risk ratio 1.51 (95% CI 1.42–1.61)."
+  ],
+  "studyType": "Observational study",
+  "comparator": "Compression-only CPR; no bystander CPR.",
+  "population": "Children aged 17 years or younger with known bystander-CPR status in the All-Japan Utstein Registry, 2005–2023.",
+  "sampleSize": 26785,
+  "shortTitle": "Rescue breaths and pediatric OHCA outcomes",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Nonrandomized Japanese data spanning 2005–2023 are vulnerable to confounding and changes in care. Only the primary abstract was reviewed; detailed adjustment, subgroup results, and adverse events remain unappraised.",
+  "retrievedAt": "2026-11-22",
+  "canonicalUrl": "https://doi.org/10.1001/jamanetworkopen.2026.44991",
+  "intervention": "Bystander CPR including rescue breathing (observed exposure).",
+  "whyItMatters": "Supports retaining rescue breaths in pediatric CPR training; both CPR approaches were associated with better outcomes than no CPR.",
+  "evidenceNotes": "Abstract reviewed through indexed primary PubMed. DOI and direct PubMed retrieval failed (Internal Error / inaccessible or Cache miss). JAMA’s official author policy confirms research is open access, but full text was not retrieved. Exact-title/DOI correction, retraction and related-evidence searches did not retrieve a target correction or later contradictory trial; this is a limited search, not proof of absence. Full-text methods and safety appraisal remain queued.",
+  "discoveredDate": "2026-11-22",
+  "fullTextStatus": "Open-access full text available",
+  "firstOnlineDate": "2026-11-02",
+  "primaryEndpoint": "Neurologically favorable survival at 30 days.",
+  "reviewedMaterial": "abstract",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-11-22"
+}

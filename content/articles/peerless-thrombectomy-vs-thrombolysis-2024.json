@@ -1,0 +1,54 @@
+{
+  "id": "peerless-thrombectomy-vs-thrombolysis-2024",
+  "doi": "10.1161/CIRCULATIONAHA.124.072364",
+  "pmid": "39470698",
+  "title": "Large-Bore Mechanical Thrombectomy Versus Catheter-Directed Thrombolysis in the Management of Intermediate-Risk Pulmonary Embolism: Primary Results of the PEERLESS Randomized Controlled Trial",
+  "pinned": false,
+  "sample": false,
+  "source": "Circulation",
+  "status": "published",
+  "topics": [
+    "cardiology",
+    "resuscitation"
+  ],
+  "authors": [
+    "Wissam A. Jaber",
+    "Carin F. Gonsalves",
+    "Stefan Stortecky",
+    "PEERLESS Committees and Investigators"
+  ],
+  "ranking": {
+    "design": 4,
+    "novelty": 4,
+    "edImpact": 4,
+    "guidelineRelevance": 3
+  },
+  "section": "Worth Knowing",
+  "summary": "Among 550 treated patients with intermediate-risk PE already selected for intervention, FlowTriever thrombectomy beat catheter-directed thrombolysis on a hierarchical composite dominated by ICU use (win ratio 5.01, 95% CI 3.68–6.97). Deterioration/bailout occurred in 1.8% versus 5.4%; major bleeding was 6.9% in both groups. Removing ICU utilization eliminated statistical significance (win ratio 1.34, 95% CI 0.78–2.35); mortality benefit was not established.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "ICU admission: 41.6% versus 98.6%; 30-day mortality: 0.4% versus 0.8%."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "Locally selected catheter-directed thrombolysis.",
+  "population": "Adults with intermediate-risk proximal PE, RV dysfunction and additional clinical risk.",
+  "sampleSize": 550,
+  "shortTitle": "PEERLESS: choosing between catheter treatments for intermediate-risk PE",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Open-label, manufacturer-sponsored trial with protocol-sensitive ICU outcomes, variable thrombolysis regimens and 49 postrandomization exclusions. Bleeding-risk selection and short follow-up limit generalization.",
+  "retrievedAt": "2026-11-05",
+  "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11789609/",
+  "intervention": "FlowTriever large-bore mechanical thrombectomy.",
+  "whyItMatters": "This informs PERT discussions after deciding on catheter treatment. It cannot establish that intervention improves outcomes over anticoagulation alone.",
+  "evidenceNotes": "Main methods, results, harms and limitations reviewed; supplements not independently reviewed. PubMed corroborates October 29 electronic publication. Bounded DOI correction/retraction search found no separate notice, without exhaustive assurance.\n\nLater HI-PEITHO and PRAGUE-26 compared catheter thrombolysis with anticoagulation, addressing a different question; their primary abstracts were checked: https://doi.org/10.1056/NEJMoa2516567 and https://doi.org/10.1056/NEJMoa2608012 . They do not establish mechanical-thrombectomy superiority over medical care.",
+  "discoveredDate": "2026-11-05",
+  "fullTextStatus": "Open-access full text available",
+  "firstOnlineDate": "2024-10-29",
+  "primaryEndpoint": "Hierarchical death, intracranial hemorrhage, major bleeding, deterioration/bailout and ICU utilization through discharge/day 7.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-11-05"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "newborn-vitamin-k-bleeding-2026",
+  "doi": "10.1001/jama.2026.21764",
+  "pmid": "42986716",
+  "title": "Nonreceipt of Newborn Vitamin K and Risk of Bleeding",
+  "pinned": false,
+  "sample": false,
+  "source": "JAMA",
+  "status": "published",
+  "topics": [
+    "pediatrics",
+    "trauma"
+  ],
+  "authors": [
+    "Kristan Scott",
+    "Sara C. Handley",
+    "Justin Y. Lo",
+    "Jennifer F. Culhane",
+    "Jay Greenspan",
+    "Lindsey A. Knake",
+    "Jaspreet Loyal",
+    "Kathryn M. McKenney",
+    "Evan Miller",
+    "Timothy D. Nelin",
+    "Moeun Son",
+    "Heather H. Burris",
+    "Kevin Dysart"
+  ],
+  "ranking": {
+    "design": 3,
+    "novelty": 3,
+    "edImpact": 4,
+    "guidelineRelevance": 1
+  },
+  "section": "Worth Knowing",
+  "summary": "In a retrospective US cohort of 5,240,780 infants, recorded nonreceipt of IM vitamin K was associated with more bleeding by 6 months: 288.0 versus 185.9 per 10,000 births (adjusted RR 1.47, 95% CI 1.43–1.51). Intracranial bleeding rates were 33.0 versus 13.2 per 10,000 (adjusted RR 2.43, 95% CI 2.26–2.62). Nonreceipt rose from 3.1% in 2017 to 6.8% in 2025.",
+  "backfill": false,
+  "excluded": false,
+  "findings": [
+    "Death with concurrent birth-hospitalization bleeding: adjusted RR 2.69 (95% CI 2.09–3.47); causation was not established."
+  ],
+  "studyType": "Observational study",
+  "comparator": "Recorded receipt during birth hospitalization.",
+  "population": "US hospital births at 35–43 weeks, 2017–2025.",
+  "sampleSize": 5240780,
+  "shortTitle": "Newborn vitamin K nonreceipt and infant bleeding",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Coding and medication-record errors, missed outside-system care, and residual confounding limit inference; the composite includes bleeding unrelated to vitamin K deficiency. Home births and infants under 35 weeks were not represented.",
+  "retrievedAt": "2026-11-07",
+  "canonicalUrl": "https://jamanetwork.com/journals/jama/fullarticle/2856300",
+  "intervention": "Recorded nonreceipt of newborn IM vitamin K.",
+  "whyItMatters": "Ask about birth prophylaxis when evaluating infant bleeding or possible intracranial hemorrhage; nonreceipt raises concern for vitamin K deficiency.",
+  "evidenceNotes": "Freely accessible publisher methods, results, tables, and limitations reviewed. No linked correction found on the page or exact-DOI search; not proof of absence. Earlier Swedish observational findings were concordant.",
+  "discoveredDate": "2026-11-07",
+  "fullTextStatus": "Open-access full text available",
+  "firstOnlineDate": "2026-11-05",
+  "primaryEndpoint": "ICD-10-coded bleeding through 6 months.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-11-07"
+}

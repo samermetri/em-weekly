@@ -1,0 +1,63 @@
+{
+  "id": "jx10-late-window-stroke-phase2a-2024",
+  "doi": "10.1161/STROKEAHA.124.048464",
+  "pmid": "39508107",
+  "title": "Anti-Inflammatory Thrombolytic JX10 (TMS-007) in Late Presentation of Acute Ischemic Stroke",
+  "pinned": false,
+  "sample": false,
+  "source": "Stroke",
+  "status": "published",
+  "topics": [
+    "neurology"
+  ],
+  "authors": [
+    "Kuniyasu Niizuma",
+    "Naoko Nishimura",
+    "Keiko Hasegawa",
+    "Takashi Moritoyo",
+    "Kohsuke Kudo",
+    "Josh Bell",
+    "Michael Wald",
+    "Yoshifumi Umeda",
+    "Kazuhiko Kuribayashi",
+    "Yasuo Toda",
+    "Teiji Tominaga",
+    "Keiji Hasumi"
+  ],
+  "ranking": {
+    "design": 3,
+    "novelty": 4,
+    "edImpact": 3,
+    "guidelineRelevance": 0
+  },
+  "section": "Watch List",
+  "summary": "In a Japanese phase 2a trial, 90 patients with ischemic stroke ineligible for standard thrombolysis or thrombectomy received JX10 or placebo within 12 hours of last known normal. The primary 24-hour symptomatic intracranial hemorrhage endpoint occurred in 0/52 versus 1/38 patients; the JX10 confidence interval still allowed a 5.6% risk. Day-90 mRS 0–1 favored pooled JX10 doses (40.4% versus 18.4%; adjusted OR 3.34, 95% CI 1.11–10.07), but this was an exploratory secondary outcome without multiplicity adjustment.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Primary hemorrhage endpoint: 0/52 (95% CI 0–5.6%) versus 1/38 (2.6%, 95% CI 0.1–13.8%); P=0.42.",
+    "Day-90 mRS 0–2: 28/52 versus 14/38; OR 2.01 (95% CI 0.83–4.86), an uncertain secondary result.",
+    "Extracranial bleeding through day 7: 11/52 versus 5/38; no investigator-assessed major bleeding in either group. These small counts do not establish equivalence."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "Placebo; 38 patients.",
+  "population": "Japanese adults with ischemic stroke, NIHSS 6–23, unable to receive tPA or thrombectomy; men aged 20–88 and women aged 60–88; MRI-based screening.",
+  "sampleSize": 90,
+  "shortTitle": "JX10: preliminary late-window stroke signal",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Small, industry-funded dose-escalation study with pooled doses, no active thrombolytic comparator, restricted Japanese enrollment and exclusion of women younger than 60. Sparse bleeding events cannot establish safety; supplements and a complete full-text appraisal were not reviewed.",
+  "retrievedAt": "2026-11-12",
+  "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11593998/",
+  "intervention": "Investigational JX10 1, 3 or 6 mg/kg IV, maximum 360 mg: 10% over 1 minute, then 90% over 30 minutes; 52 patients pooled across sequential dose cohorts.",
+  "whyItMatters": "A worthwhile signal for future late-window reperfusion research, without evidence to replace established reperfusion selection or introduce JX10 into routine ED treatment.",
+  "evidenceNotes": "Complete primary abstract and selected indexed PMC methods, results, harms and limitations were reviewed; direct PMC returned a browser challenge and AHA returned 403. No complete full-text or supplement review is claimed. Publisher indexed archive states originally published November 7, 2024, consistent with PubMed/PMC and sponsor's November 8 publication notice. Exact DOI/title correction and retraction searches identified no specific notice; this is not an exhaustive guarantee. Later official ORION registry jRCT2021250014 and sponsor pipeline describe an ongoing phase 2/3 trial, not confirmatory results. Historical paper language about tenecteplase approval and time windows must not be used as current guidance. Next: legal supplement and registry/protocol comparison, complete appraisal, and subsequent ORION results.",
+  "discoveredDate": "2026-11-12",
+  "fullTextStatus": "Open-access full text available",
+  "firstOnlineDate": "2024-11-07",
+  "primaryEndpoint": "Symptomatic intracranial hemorrhage with NIHSS worsening of at least 4 points within 24 hours.",
+  "reviewedMaterial": "abstract",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-11-12"
+}

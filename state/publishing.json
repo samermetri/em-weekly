@@ -39,7 +39,7 @@
     {
       "doi": "10.1016/j.resuscitation.2026.111364",
       "pmid": "42901366",
-      "reason": "Primary abstract verified. Observational process evidence was lower priority than the fifth normal record allowed on Oct 28; retain for editorial follow-up rather than exceed the daily cap.",
+      "reason": "Primary abstract verified. Observational process evidence was lower priority than the fifth normal record allowed on Oct 28; retain for editorial follow-up rather than exceed the daily cap.\n\nNovember 7: Direct primary PubMed page returned one-line HHS shell; indexed primary discovery found target but insufficient refreshed clinical results. Retain prior verified evidence and hold pending complete numerical appraisal.",
       "status": "held",
       "sourceId": "pubmed-em",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42901366/",
@@ -93,8 +93,8 @@
     {
       "doi": "10.1542/peds.2026-077291",
       "pmid": "42896864",
-      "reason": "Randomized pediatric prehospital ventilation-feedback study: metadata October 20. Retrieve primary paper to establish whether actual-patient or simulation study, sample, effect sizes, patient outcomes, harms and first-online date; do not label practice changing from metadata.",
-      "status": "needs-primary-review",
+      "reason": "Randomized pediatric prehospital ventilation-feedback study: metadata October 20. Retrieve primary paper to establish whether actual-patient or simulation study, sample, effect sizes, patient outcomes, harms and first-online date; do not label practice changing from metadata.\n\nNovember 18: actual indexed primary AAP abstract/history retrieved at https://publications.aap.org/pediatrics/article/158/5/e2026077291/210992/Prehospital-Pediatric-Ventilation-Quality ; first online October20,2026; explicitly a randomized crossover SIMULATION with123EMS clinicians and a3-year-old manikin, not a patient trial. Reported improved breath metrics but no clinical patient outcomes or adverse-event evidence. Exclude from selective normal clinical publication; no Watch List. Full text labeled Available to Purchase; abstract reviewed only.",
+      "status": "rejected",
       "sourceId": "pubmed-specialty",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42896864/",
       "discoveredDate": "2026-10-31"
@@ -120,7 +120,7 @@
     {
       "doi": "10.1176/appi.ajp.20260157",
       "pmid": "42946687",
-      "reason": "SPARC suicide-prevention RCT: indexed official American Journal of Psychiatry abstract/main-text excerpts retrieved by working search; first online October 28, 2026 confirmed on publisher history. N=1520 (723 adolescents,797 adults); 6-month adult CC-minus-ISC C-SSRS mean difference 0.50 (95% CI 0.12-0.88); no adolescent primary difference; 12-month adolescent difference -0.64 (-1.11 to -0.18), secondary outcome. Direct PubMed unavailable and publisher 403. Retrieve complete legal primary tables/supplement and verify accurate source-availability classification; no usual-care arm and multiplicity limit conclusions. Exact correction/retraction search performed; no relevant correction surfaced, not proof of none.",
+      "reason": "SPARC suicide-prevention RCT: indexed official American Journal of Psychiatry abstract/main-text excerpts retrieved by working search; first online October 28, 2026 confirmed on publisher history. N=1520 (723 adolescents,797 adults); 6-month adult CC-minus-ISC C-SSRS mean difference 0.50 (95% CI 0.12-0.88); no adolescent primary difference; 12-month adolescent difference -0.64 (-1.11 to -0.18), secondary outcome. Direct PubMed unavailable and publisher 403. Retrieve complete legal primary tables/supplement and verify accurate source-availability classification; no usual-care arm and multiplicity limit conclusions. Exact correction/retraction search performed; no relevant correction surfaced, not proof of none.\n\nNovember 5: working publisher-domain search returned primary intervention delivery excerpts and indexed abstract, but full outcome tables/supplement and comprehensive safety/appraisal not completed. Preserve prior verified October 28 history and limitations; needs-primary-review unchanged.\n\nNovember16 weekly review: actual indexed PRIMARY PubMed42946687 abstract retrieved; dateOctober28,2026 and DOI confirmed against indexed original publisher. Primary directPubMed shell and PsychiatryOnline403. Age-stratified pragmaticRCT,723adolescents/797adults across9EDs/36primary-care clinics;6moC-SSRS SI/SB primary. AdultsCC-minusISC adjusted difference0.50(95%CI0.12\u20130.88); adolescent6mo similar; adolescent12mo secondaryCC-minusISC\u22120.64(\u22121.11to\u22120.18),adult12mo similar. No suicide-mortality benefit established. Retrieve harm/attempt detail, attrition/multiplicity, corrections and actual full-text availability before deciding final abstract-limited article. Do not conflate403 with paywall.",
       "status": "needs-primary-review",
       "sourceId": "pubmed-specialty",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42946687/",
@@ -129,7 +129,7 @@
     {
       "doi": "10.1016/j.annemergmed.2026.08.731",
       "pmid": "42949696",
-      "reason": "Mild-TBI blood biomarkers versus neuroimaging: metadata October 27. Retrieve primary diagnostic results including sample size, thresholds, sensitivity/NPV confidence intervals, reference standard, spectrum and first-online date; assess whether new evidence adds to existing pathways.",
+      "reason": "Mild-TBI blood biomarkers versus neuroimaging: metadata October 27. Retrieve primary diagnostic results including sample size, thresholds, sensitivity/NPV confidence intervals, reference standard, spectrum and first-online date; assess whether new evidence adds to existing pathways.\n\nNovember23 weekly primary appraisal: indexed primary PubMed abstract verifies October27 electronic release, Pandey etal, AnnEmergMed DOI10.1016/j.annemergmed.2026.08.731. Single-center104adults with CT and blood within12h:11CTinjuries, sensitivity0.91(95%CI0.59\u20131.00), specificity0.22(0.14\u20130.31), NPV0.95(0.76\u20131.00). GFAP>30pg/mL or UCH-L1>360pg/mL positive; wide uncertainty/selection prevent stand-alone rule-out advice. Retrieve legal primary full methods, CCHR integration/false-negative detail, external validity, earliest publisher history and correction/supersession before selection; no new article.",
       "status": "needs-primary-review",
       "sourceId": "pubmed-em",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42949696/",
@@ -138,7 +138,7 @@
     {
       "doi": "10.1016/j.resuscitation.2026.111371",
       "pmid": "42950975",
-      "reason": "TETRiS national resuscitative thoracotomy service evaluation: metadata October 28. Retrieve primary abstract/full text, sample size, survival by mechanism/signs of life, procedural timing/setting and selection limitations; verify earliest date and ED consequence before choosing.",
+      "reason": "TETRiS national resuscitative thoracotomy service evaluation: metadata October 28. Retrieve primary abstract/full text, sample size, survival by mechanism/signs of life, procedural timing/setting and selection limitations; verify earliest date and ED consequence before choosing.\n\nNovember23 weekly primary appraisal: indexed primary PubMed abstract verifies October28 electronic release and DOI10.1016/j.resuscitation.2026.111371. Ramage etal,TETRiS prospective12month UK20HEMS/26MTC service evaluation:116thoracotomies,82prehospital,81penetrating;50ROSC,8discharge survivors. Observed outcomes differed by tamponade/exsanguination and baseline physiology; ED/prehospital comparison strongly selected. No survivors after10min in this sample is NOT a validated termination cutoff. Retrieve legal full text, subgroup denominators/uncertainty, procedural harms, timing/selection and correction history before selection.",
       "status": "needs-primary-review",
       "sourceId": "pubmed-em",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42950975/",
@@ -165,7 +165,7 @@
     {
       "doi": "10.1016/S0140-6736(26)01949-5",
       "pmid": "42956771",
-      "reason": "PROSpect pediatric ARDS factorial RCT: date hint is October 31 print publication, not verified earliest online. PubMed open returned not accessible; Lancet open not accessible and ScienceDirect 403. Retrieve legal primary abstract/full paper, verify earliest first-online date, population, regimen, VFD/mortality estimates and harms before selection. Important unresolved candidate; hold relevant weekly issue if date-eligible.",
+      "reason": "PROSpect pediatric ARDS factorial RCT: date hint is October 31 print publication, not verified earliest online. PubMed open returned not accessible; Lancet open not accessible and ScienceDirect 403. Retrieve legal primary abstract/full paper, verify earliest first-online date, population, regimen, VFD/mortality estimates and harms before selection. Important unresolved candidate; hold relevant weekly issue if date-eligible.\n\nNovember 5: direct PubMed open Cache miss; Lancet primary abstract URL inaccessible. Working indexed primary PubMed excerpts show recruitment stopped early at 424/600 for futility/slow recruitment, but complete abstract, earliest electronic date and effects/harms not retrieved sufficiently for publication. Secondary October 29 date remains a lead only; retain hold.\n\nNovember 6: Complete primary PubMed abstract newly retrieved:424/600 planned, stopped for futility/slow enrolment; ventilator-free-day differences prone0.0(95%CI -0.8 to1.0), HFOV -0.3(-1.5 to0.5); airway obstruction/pressure injury and hemodynamic safety signals. Earliest electronic date unresolved: October31 is print; publisher fulltext inaccessible. Verify date, full protocol/rescue exceptions/corrections before article. Abstract reviewed only; primary copyright indicates open-access availability, no full-text review.\n\nNovember 7: Primary PubMed abstract retrieved again, including full safety denominators. Earliest electronic release still not verified; October31 remains print date. Hold for publisher history/protocol/rescue exceptions/correction appraisal.\n\nNovember12: Rechecked with actual search-service primary opens and distinct indexed primary searches. ILCOR AHA summary re-retrieved, but complete consensus AHA/Resuscitation opens inaccessible/Cache miss; PROSpect primary abstract re-retrieved, but earliest electronic date remains unresolved (October31 is print). Preserve hold and pending primary action.\n\nNovember 13: Primary indexed PubMed abstract retrieved in full (direct open was HHS shell);424/600planned, early futility/slow enrollment, neither first-line strategy improved ventilator-free days; airway/pressure injury and HFOV instability harms available. Primary record exposes printOctober31 but not verified earliest electronic day. ScienceDirect403. Retrieve publisher history/corrections before normal publication.\n\nNovember14: primary PubMed indexed abstract again retrieved, earliest electronic date still absent (October31 print). Lancet fulltext403. No newly verified eligibility; existing primary date/correction action retained.\n\nNovember15: primary Lancet fulltext403; independent PubMed PROSpect search returned comment/other PROSPECT studies, not earliest electronic history. Preserve prior abstract appraisal and eligibility hold.\n\nNovember16 weekly review forOctober26\u2013November1: actual complete primary PubMed abstract https://pubmed.ncbi.nlm.nih.gov/42956771/ re-retrieved. First-line strategies did not improveVFD; safety signals verified in abstract. Primary ScienceDirect original403; indexed publisher header exposes issue date only. EARLIEST electronic date and correction/protocol appraisal remain unresolved; do not substituteOctober31 print. Preserve issue hold.",
       "status": "needs-primary-review",
       "sourceId": "pubmed-general",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42956771/",
@@ -174,8 +174,8 @@
     {
       "doi": "10.1016/S0140-6736(26)01767-8",
       "pmid": "42956796",
-      "reason": "0/1h versus 0/3h troponin IPD meta-analysis: metadata hints October 29 first-online. PubMed open inaccessible; Lancet and ScienceDirect 403. Secondary numerical summaries not accepted. Retrieve primary abstract/paper, verify five-trial membership, effect estimates/heterogeneity, correction status and first-online date before selection.",
-      "status": "needs-primary-review",
+      "reason": "0/1h versus 0/3h troponin IPD meta-analysis: metadata hints October 29 first-online. PubMed open inaccessible; Lancet and ScienceDirect 403. Secondary numerical summaries not accepted. Retrieve primary abstract/paper, verify five-trial membership, effect estimates/heterogeneity, correction status and first-online date before selection.\n\nNovember 5: direct primary PubMed and ScienceDirect opens Cache miss. Indexed primary PubMed excerpts confirm October 29 article date, five RCT IPD design and imprecise 30-day death/type-1-MI estimate, but complete denominators/efficacy endpoints, trial membership and harms still need primary retrieval/appraisal. Exact DOI correction/retraction search performed; unrelated errata returned, no linked correction established; not proof of none.\n\nNovember 6: Primary indexed PubMed abstract recovered:five RCTs,110933 presentations;30-day death/new type1MI446/55489 versus562/55444,OR0.83(95%CI0.45-1.53);ED stay314vs308min,GMR1.03(0.85-1.25);discharge67.0%vs65.8%,OR1.31(0.79-2.16). Heterogeneity and post-IPD pre-analysis outcome refinement need disclosure. Electronic article date October29 in primary index. Direct page one-line shell; publisher ScienceDirect/Lancet403. Verify trial membership/full appraisal/adverse events and accurate full-text-availability category. Exact DOI correction/retraction search found no linked correction, not proof of none.\n\nNovember13 follow-up: working indexed primary PubMed and ScienceDirect abstract recovered; earliest electronicOctober29 versus November7 print verified in PubMed.5 randomized trials/110933 presentations;30-day death/new type1MI446/55489 versus562/55444, pooledOR0.83(95%CI0.45-1.53);LOS314 versus308min,ratio1.03(0.85-1.25),I2=99.2%;direct discharge67.0% versus65.8%,OR1.31(0.79-2.16). Safety outcome refined after IPD receipt before harmonization/analysis. IMPORTANT: primary PubMed for included PRESC1SE-MI links November7 correction PMID42987881 DOI10.1016/S0140-6736(26)02203-8. Correction actual text unavailable (PubMed inaccessible; ScienceDirect Cache miss; distinct indexed search metadata only). Hold meta-analysis pending correction impact, full availability category and complete appraisal; do not claim safety equivalence.",
+      "status": "held",
       "sourceId": "pubmed-general",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42956796/",
       "discoveredDate": "2026-10-31"
@@ -183,7 +183,7 @@
     {
       "doi": "10.1097/HEP.0000000000001891",
       "pmid": "42960623",
-      "reason": "Global multisociety acute-on-chronic liver failure definitions consensus: metadata hints October 30, multiple co-publications. PubMed open inaccessible. Retrieve legal primary consensus, verify earliest date, sponsor bodies, definition/triage consequences and supporting certainty; deduplicate co-publication DOI/URL before article creation.",
+      "reason": "Global multisociety acute-on-chronic liver failure definitions consensus: metadata hints October 30, multiple co-publications. PubMed open inaccessible. Retrieve legal primary consensus, verify earliest date, sponsor bodies, definition/triage consequences and supporting certainty; deduplicate co-publication DOI/URL before article creation.\n\nNovember16 weekly review: indexed PRIMARY Hepatology ahead-of-print and Journal of Hepatology in-press index plusAASLD dated news explicitlyOctober30,2026; co-publicationsDOI10.1007/s12072-026-11169-2,10.1016/j.aohep.2026.102453,10.1016/j.jhep.2026.09.005. DirectPubMed42960623 returnedHHS-only shell; attemptedLWW article URL inaccessible. Need original complete definitions/grades, organ-failure thresholds, immediate ED/referral/transplant implications, certainty/corrections and earliest co-release check. Do not duplicate co-publications or use secondary thresholds as primary evidence.",
       "status": "needs-primary-review",
       "sourceId": "pubmed-guidance",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42960623/",
@@ -192,7 +192,7 @@
     {
       "doi": "10.1080/15563650.2026.2752134",
       "pmid": "42960873",
-      "reason": "Xylazine urine test-strip diagnostic performance: metadata October 30. Retrieve primary reference-standard, sample/selection, sensitivity/specificity with CIs and clinical limitations before deciding ED utility.",
+      "reason": "Xylazine urine test-strip diagnostic performance: metadata October 30. Retrieve primary reference-standard, sample/selection, sensitivity/specificity with CIs and clinical limitations before deciding ED utility.\n\nNovember23 weekly primary appraisal: indexed primary PubMed abstract verifies October30 electronic release, Chun/Mattu/Lee/Wilkerson, DOI10.1080/15563650.2026.2752134. Single-center250consecutive residual fentanyl-screen-positive inpatient urine specimens; LC-MS xylazine reference71positive. Strips19TP/139TN/40FP/52FN; sensitivity26.8%(95%CI16.9\u201338.6), specificity77.7%(70.8\u201383.5), LR\u22120.94. Fentanyl not LC-MSconfirmed; biological-specimen use differs from drug-sample product purpose. No exposure rule-out or treatment decision from strip alone. DOI actual open inaccessible; indexed exactDOI/correction search retrieved original only, not proof of absence or paywall. Retrieve legal full methods/assay/threshold/interference and actual availability before schema-valid limited article.",
       "status": "needs-primary-review",
       "sourceId": "pubmed-specialty",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42960873/",
@@ -201,39 +201,939 @@
     {
       "doi": "10.1080/10903127.2026.2755518",
       "pmid": "42961073",
-      "reason": "Persistent severe hypertension in pregnant prehospital patients: metadata October 30. Retrieve primary methods, thresholds, treatment rates, outcomes and uncertainty; verify first-online date. Important obstetric harm/process signal candidate; no causal efficacy claim from observational data.",
+      "reason": "Persistent severe hypertension in pregnant prehospital patients: metadata October 30. Retrieve primary methods, thresholds, treatment rates, outcomes and uncertainty; verify first-online date. Important obstetric harm/process signal candidate; no causal efficacy claim from observational data.\n\nNovember 5: indexed PubMed primary excerpts identify retrospective 2024 ESO cohort and 39,546 eligible ground EMS responses beyond 20 weeks. Indexed publisher history confirms accepted-author-version first online October 30. Direct PubMed Cache miss/publisher inaccessible; complete persistent-BP definition, treatment proportions, uncertainty/outcomes and confounding appraisal still required.\n\nNovember 17: Indexed primary PubMed abstract retrieved. Indexed original publisher history (https://www.tandfonline.com/doi/full/10.1080/10903127.2026.2755518) identifies an accepted-author version posted October 30, 2026; PubMed now gives November 12. Use October 30 as the earliest verified electronic date. Abstract reviewed: retrospective 2024 ESO cohort, 39,546 pregnancy EMS encounters after 20 weeks; 1,234 had persistent severe hypertension (3.1%), and 10 received both magnesium and an antihypertensive (0.8%). No causal treatment benefit, uncertainty, or harms established. Direct PubMed returned an HHS shell; DOI inaccessible; publisher full text 403. Correction searches retrieved no relevant correction, which does not establish absence. Retrieve legal full text/access classification and remaining uncertainty/harms. Do not call a 403 a confirmed paywall; keep queued until the schema can accurately describe the verified source availability.",
       "status": "needs-primary-review",
       "sourceId": "pubmed-em",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42961073/",
       "discoveredDate": "2026-10-31"
+    },
+    {
+      "doi": "10.1161/SVIN.126.002529",
+      "pmid": "42974351",
+      "reason": "SVIN acute ICAS-LVO practice update/consensus: cache metadata hints November 3, 2026; DOI 10.1161/SVIN.126.002529. Correct primary PubMed and AHA publisher URLs both inaccessible in November 5 pass. Secondary abstract not accepted as clinical evidence. Retrieve legal primary text, earliest date, specific rescue antiplatelet/angioplasty/stenting scenarios, COR/LOE, hemorrhagic risks and contradictions before article creation; hold date-eligible issue pending important guidance resolution. An earlier attempted publisher URL ending 002071 was a mistaken unsupported URL and supplied no evidence.\n\nNovember 6: Exact PubMed URL and correct AHA DOI10.1161/SVIN.126.002529 opens inaccessible. Distinct indexed primary search did not retrieve target sufficiently; no recommendation/date newly verified. Important guidance unresolved.\n\nNovember 7: Exact PubMed and AHA DOI opens inaccessible via search-service; distinct primary-domain searches did not resolve recommendations/date. Important guidance remains held.\n\nNovember14: indexed primary PubMed lead found but correct AHA DOI URL not accessible; recommendations not retrieved. Important guidance remains unresolved.\n\nNovember23 weekly primary appraisal: primary indexed PubMed abstract confirms November3 electronic date and PMCIDPMC13727248 for DOI10.1161/SVIN.126.002529. SVIN board-endorsed brief practice update uses COR/LOE framework; adjunctive recanalization evidence largely observational/weak. Actual PMCopen returned reCAPTCHA/browser-check shell; no bypass or full-text review. Retrieve complete rescue antiplatelet/angioplasty/stenting recommendations, exact grades, hemorrhage/contraindication exceptions, co-publication history and corrections before comprehensive guidance record.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42974351/",
+      "discoveredDate": "2026-11-05"
+    },
+    {
+      "doi": "10.1161/CIR.0000000000001482",
+      "pmid": "42929102",
+      "reason": "AHA/AAP/ACOG/SMFM female-specific CVD consensus: primary PubMed indexed abstract and official AHA Top Things to Know confirm published online October 26, 2026, DOI 10.1161/CIR.0000000000001482. Broad life-course/prevention guidance, not yet appraised for new consequential ED pathways, thresholds or pregnancy exceptions. Retrieve full primary statement, distinguish new recommendations from crosswalk of existing guidance, assess ED consequence/strength and corrections; do not publish comprehensive guideline summary from excerpts.\n\nNovember16 weekly review: actual official AHA dated directory/indexed originalPDF lead retrieved; originalPDF10.1161/CIR.0000000000001482 returned403. PreserveOctober26 primary-date evidence and unresolved full ED/obstetric-applicability appraisal. Retrieve actual recommendations/grades/exceptions/corrections; no comprehensive guideline record from directory/snippets.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42929102/",
+      "discoveredDate": "2026-11-05"
+    },
+    {
+      "doi": "10.1161/STR.0000000000000540",
+      "pmid": "42932410",
+      "reason": "Correction to 2026 AHA/ASA adult stroke rehabilitation guideline, metadata October 26. Retrieve actual correction and determine changed recommendations and dependence of any current article; do not assume harmless. Correction review only until clinical consequence established.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42932410/",
+      "discoveredDate": "2026-11-05"
+    },
+    {
+      "doi": "10.1080/10903127.2026.2756599",
+      "pmid": "42976244",
+      "reason": "Prehospital transcutaneous pacing electrical-capture cohort, metadata November 3. Retrieve primary design/sample, capture adjudication and mechanical versus electrical capture distinction, adverse events, patient outcomes and earliest date; assess resuscitation implications without causal overstatement.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42976244/",
+      "discoveredDate": "2026-11-05"
+    },
+    {
+      "doi": "10.1080/10903127.2026.2757796",
+      "pmid": "42976233",
+      "reason": "Gravity-driven infusion accuracy/precision safety candidate, metadata November 3. Retrieve primary study setting/design, sample, clinically meaningful dosing deviation and uncertainty, clinical versus laboratory endpoints, harms and first-online date; exclude if low-impact bench evidence.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42976233/",
+      "discoveredDate": "2026-11-05"
+    },
+    {
+      "doi": "10.1016/j.ajem.2026.10.031",
+      "pmid": "42971102",
+      "reason": "Procalcitonin diagnostic meta-analysis in acute dyspnea/pneumonia, metadata October 26. Retrieve primary included-study designs, sample, reference standards, thresholds, sensitivity/specificity CIs, heterogeneity and date before deciding whether useful for ED antibiotic/testing decisions.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42971102/",
+      "discoveredDate": "2026-11-05"
+    },
+    {
+      "doi": "10.1016/j.acepjo.2026.100506",
+      "pmid": "42959249",
+      "reason": "Remimazolam for ED synchronized cardioversion, metadata October 22. Retrieve primary design, sample, comparator/dose/timing, sedation/recovery outcomes, hypotension/hypoxemia and earliest publication date; title alone does not establish a randomized trial or practice change.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42959249/",
+      "discoveredDate": "2026-11-05"
+    },
+    {
+      "doi": "10.1097/TA.0000000000005225",
+      "pmid": "42970404",
+      "reason": "Delayed surgery for blunt hollow-viscus injury mortality candidate, metadata November 2. Retrieve primary cohort/design, delay definition, sample, adjusted effects/CIs and confounding before any causal timing recommendation.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42970404/",
+      "discoveredDate": "2026-11-05"
+    },
+    {
+      "doi": "10.1161/STROKEAHA.126.057491",
+      "pmid": "42960430",
+      "reason": "ABCD2/DWI risk after transient neurological events, metadata October 30. Retrieve primary pooled-cohort sample, event rates/CIs by DWI and score, ascertainment and transportability; assess ED disposition consequence and verify earliest date.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42960430/",
+      "discoveredDate": "2026-11-05"
+    },
+    {
+      "doi": "10.1001/jama.2026.18617",
+      "pmid": "42949715",
+      "reason": "Diagnosis of suspected PE in cancer candidate, metadata October 28. Retrieve primary article and determine whether new diagnostic systematic evidence or narrative review; verify sample, pretest probability/D-dimer pathways, sensitivity/failure-rate CIs and first-online date before selection.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-general",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42949715/",
+      "discoveredDate": "2026-11-05"
+    },
+    {
+      "doi": "10.1097/SHK.0000000000002954",
+      "pmid": "42954722",
+      "reason": "Consensus-derived sepsis profiles across six cohorts, metadata October 29. Retrieve primary design/sample, profiles, externally validated effects and clinical actionability; avoid publishing prognostic labels without ED treatment/disposition utility.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42954722/",
+      "discoveredDate": "2026-11-05"
+    },
+    {
+      "doi": "10.1007/s00508-026-02822-9",
+      "pmid": "42944772",
+      "reason": "Austrian radiology/nephrology contrast-and-kidney consensus, metadata October 27. Retrieve legal original guideline and earliest date, emergency imaging/delay exceptions, renal thresholds, prophylaxis/harms, strength and differences from US guidance before deciding ED consequence.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42944772/",
+      "discoveredDate": "2026-11-05"
+    },
+    {
+      "doi": "10.1093/esj/aakag004",
+      "pmid": "42095756",
+      "reason": "ESO BP acute-stroke/ICH guideline update: indexed official publisher history May 7, 2026 while PubMed hints May 6. Predates normal coverageStart October 19. Resolve earliest electronic date, retrieve complete thresholds/exceptions/grades and compare AHA/ASA for retrospective review only; DOI open failed 500 unsafe redirect. No historical article written here.",
+      "status": "needs-primary-review",
+      "sourceId": "eso-stroke",
+      "canonicalUrl": "https://doi.org/10.1093/esj/aakag004",
+      "discoveredDate": "2026-11-05"
+    },
+    {
+      "doi": "10.1093/esj/aakag043",
+      "pmid": "42095754",
+      "reason": "ESO/EANS/ESMINT aneurysmal SAH guideline: indexed primary publisher history May 7, 2026, PubMed hints May 6. Before normal coverageStart. Resolve earliest date and appraise complete ED stabilization, transfer, aneurysm treatment/timing, contraindications and evidence strengths for retrospective review only. DOI open failed 500 unsafe redirect; no historical article created.",
+      "status": "needs-primary-review",
+      "sourceId": "eso-stroke",
+      "canonicalUrl": "https://doi.org/10.1093/esj/aakag043",
+      "discoveredDate": "2026-11-05"
+    },
+    {
+      "doi": "10.1093/esj/aakag044",
+      "pmid": "42095755",
+      "reason": "ESO stroke-associated pneumonia guideline: indexed official publisher history May 7, 2026, PubMed hints May 6. Before normal coverageStart. Resolve earliest date and appraise complete diagnostic/prevention/antimicrobial recommendations and grades for retrospective review only; DOI open 500 unsafe redirect. No historical record created.",
+      "status": "needs-primary-review",
+      "sourceId": "eso-stroke",
+      "canonicalUrl": "https://doi.org/10.1093/esj/aakag044",
+      "discoveredDate": "2026-11-05"
+    },
+    {
+      "doi": null,
+      "pmid": null,
+      "reason": "IDSA/ESCMID SAB Part 1: indexed official primary page Published and Last Updated September 9, 2026. Before normal coverageStart October 19. Retrieve legal full consensus parts, risk stratification, repeat cultures, imaging/endocarditis evaluation, source control and duration caveats with evidence basis for retrospective review only. Direct primary open failed Cache miss; not a new November guideline.",
+      "status": "needs-primary-review",
+      "sourceId": "idsa",
+      "canonicalUrl": "https://www.idsociety.org/practice-guideline/staphylococcus-aureus-bacteremia/",
+      "discoveredDate": "2026-11-05"
+    },
+    {
+      "doi": "10.1245/s10434-026-20614-3",
+      "pmid": "42926303",
+      "reason": "Malignant bowel obstruction multidisciplinary consensus, metadata October24. Retrieve primary original text, earliest release, acute decompression/medication/surgical disposition recommendations, exceptions and evidence strength; title is not completed guideline appraisal.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42926303/",
+      "discoveredDate": "2026-11-06"
+    },
+    {
+      "doi": "10.1016/j.cardfail.2026.04.026",
+      "pmid": "42946324",
+      "reason": "HFSA right-heart-failure statement: primary PubMed retrieved; indexed primary ScienceDirect explicitly available online October27,2026 with broad highlights. Retrieve full acute-RV-failure stabilization/pressor/volume/ventilation recommendations, exceptions, certainty, corrections and prior-guidance comparison before comprehensive guidance record.\n\nNovember16 weekly review: primary PubMed full abstract retrieved with online-ahead-of-printOctober27, DOI/authors. Original ScienceDirectS1071916426004926 and officialHFSA release opens both403; indexed HFSA release datedOctober27. No full acute-RV-failure management appraisal. Retrieve legal complete recommendations/strength/exceptions and correction/supersession before publishing; abstract is insufficient for comprehensive guidance.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42946324/",
+      "discoveredDate": "2026-11-06"
+    },
+    {
+      "doi": "10.4088/JCP.26cs16585",
+      "pmid": "42981371",
+      "reason": "ASCP ketamine/esketamine Delphi consensus, metadata November2. Retrieve primary exact title/date and recommendations, distinguish psychiatric maintenance/clinic practice from ED suicidality/sedation, assess safety/conflicts and consensus limitations.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42981371/",
+      "discoveredDate": "2026-11-06"
+    },
+    {
+      "doi": "10.1542/peds.2026-077011",
+      "pmid": "42982088",
+      "reason": "Low-level pyuria/antibiotic prescribing in children, metadata November5. Direct PubMed inaccessible; distinct AAP DOI-domain search did not retrieve target. Verify earliest date, design/sample, urine collection/reference standard, UTI risks/thresholds and harms.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42982088/",
+      "discoveredDate": "2026-11-06"
+    },
+    {
+      "doi": "10.1111/acem.70436",
+      "pmid": "42983225",
+      "reason": "CHS haloperidol/droperidol/ondansetron comparative study, November issue without earliest electronic day. Direct PubMed inaccessible; distinct publisher DOI-domain search did not retrieve target. Verify earliest date, design/sample, symptom/return outcomes, QT/dystonia harms and adjusted estimates/CIs.\n\nNovember 7: Direct PubMed open inaccessible; no completed new primary appraisal.\n\nNovember14: complete indexed primary PubMed abstract retrieved: retrospective TriNetX suspected-CHS phenotype, propensity matching; haloperidol/ondansetron72h returns8.2%/15.1%,OR0.50(95%CI0.41\u20130.62),droperidol/ondansetron7.4%/14.0%,OR0.49(0.32\u20130.76). Sample size and earliest electronic date absent; coded harms rare does not establish medication safety. Exact Wiley DOI search did not retrieve original target. Retrieve full methods/sample, doses/routes/sequencing, outcome ascertainment, history and corrections; avoid causal or equivalence claim.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42983225/",
+      "discoveredDate": "2026-11-06"
+    },
+    {
+      "doi": "10.1111/acem.70437",
+      "pmid": "42983888",
+      "reason": "Geriatric ED management/dementia days-at-home study, November issue without earliest electronic day. Direct PubMed inaccessible; distinct publisher-domain search did not retrieve target. Retrieve design/sample, confounding, absolute days-at-home/return/admission effects and uncertainty; assess operational consequence.\n\nNovember 7: Direct PubMed open inaccessible; no completed new primary appraisal.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42983888/",
+      "discoveredDate": "2026-11-06"
+    },
+    {
+      "doi": null,
+      "pmid": null,
+      "reason": "Official SMFM statement Diagnosis and Management of Infections due to Listeria monocytogenes During Pregnancy retrieved; posted October19,2026, replaces2015 statement. Full public recommendations accessible. Verify earliest release/co-publication, corrections and strength, and resolve configured primary-host validation using an allowed legal co-publication if available; do not modify config. Important obstetric guidance unresolved; hold relevant issue until appraisal complete. Do not infer formal grades.\n\nNovember 7: Official full statement re-retrieved, including exposure/symptom pathways, dosing and exceptions. Exact-title/author search found official posting but no verified allowed-host co-publication or earlier electronic history. Preserve hold and original October19 posting lead; no config changes.\n\nNovember13 official SMFM full webpage retrieved again (240lines); earliest release/co-publication and eligible primary-host appraisal unresolved. Do not infer a new guideline from crawl time.\n\nNovember18: full official webpage recommendations/tables retrieved again, including asymptomatic/afebrile/febrile pathways, treatment/allergy exceptions and dated2026suggested citation with DOI pending. October19posting previously documented remains earliest-day verification task; current page alone does not establish first public release or correction history. Preserve legal primary review action and important hold; no comprehensive published article with unverified first-online day.",
+      "status": "needs-primary-review",
+      "sourceId": "acog",
+      "canonicalUrl": "https://www.smfm.org/listeria",
+      "discoveredDate": "2026-11-06"
+    },
+    {
+      "doi": "10.1542/peds.2026-079045",
+      "pmid": null,
+      "reason": "AAP2026-27 COVID vaccine policy primary indexed version-of-record October19,2026, but official AAP News September2 links policy/prepublication PDF. Resolve earliest public electronic release before eligibility; avoid relabeling earlier guidance as new. Companion report DOI079046; assess ED consequence/corrections after dates.",
+      "status": "needs-primary-review",
+      "sourceId": "aap",
+      "canonicalUrl": "https://doi.org/10.1542/peds.2026-079045",
+      "discoveredDate": "2026-11-06"
+    },
+    {
+      "doi": "10.1542/peds.2026-078778",
+      "pmid": null,
+      "reason": "AAP2026-27 influenza policy/technical report surfaced in official indexed searches. Earliest prepublication/electronic dates unverified; November issue/crawl date insufficient. Retrieve primary history, acute antiviral/testing ED changes and strength; retrospective queue if earlier than October19.\n\nNovember14: indexed primary prepublication PDF and AAP News35699 link the policy well before November issue; indexed current primary tables cover antivirals/testing, but exact earliest day/version changes unresolved. Direct News/latest-policy opens500 SSO. Do not use October26 collection/November issue as earliest date; retrieve original prepublication history and compare version before eligibility. Primary PDF https://publications.aap.org/pediatrics/article-pdf/doi/10.1542/peds.2026-078778/1952153/peds_2026078778.pdf .",
+      "status": "needs-primary-review",
+      "sourceId": "aap",
+      "canonicalUrl": "https://doi.org/10.1542/peds.2026-078778",
+      "discoveredDate": "2026-11-06"
+    },
+    {
+      "doi": "10.1542/peds.2026-079047",
+      "pmid": null,
+      "reason": "AAP2026-27 RSV policy identified via official companion technical report DOI079049. Verify earliest public electronic release and ED recommendations/contraindications/changes; no date inferred from November issue/index timestamp.",
+      "status": "needs-primary-review",
+      "sourceId": "aap",
+      "canonicalUrl": "https://doi.org/10.1542/peds.2026-079047",
+      "discoveredDate": "2026-11-06"
+    },
+    {
+      "doi": "10.1016/j.resuscitation.2026.111328",
+      "pmid": "42988037",
+      "reason": "ILCOR 2026 CoSTR: AHA official Top Things to Know explicitly cites Circulation first online November5,2026 DOI10.1161/CIR.0000000000001473; Resuscitation co-publication DOI10.1016/j.resuscitation.2026.111328, PMID42988037. Official society summary reviewed only; PubMed and Resuscitation DOI inaccessible, AHA full text403. Retrieve full recommendations/grades, pediatric/neonatal/first-aid sections, PE-arrest exceptions to routine thrombolysis, airway/ventilation/defibrillation context, changes from2025, corrections and earliest co-publication date. Important unresolved guidance: hold date-eligible weekly issue. No comprehensive guideline record from brief summary.\n\nNovember12: Rechecked with actual search-service primary opens and distinct indexed primary searches. ILCOR AHA summary re-retrieved, but complete consensus AHA/Resuscitation opens inaccessible/Cache miss; PROSpect primary abstract re-retrieved, but earliest electronic date remains unresolved (October31 is print). Preserve hold and pending primary action.\n\nNovember15: official AHA Top Things to Know re-retrieved, cites Circulation published onlineNovember5; original AHA full text403. Separate indexed official search returns summary, not comprehensive recommendation grades/exceptions. Preserve hold.\n\nNovember16: actual AHA official PDF DOI10.1161/CIR.0000000000001473?download=true returned403. Initial indexed primary PDF passage concerned rhythm-analysis review only, not full guidance; distinct focused queries did not recover complete target. Preserve full recommendation/grade/exception and earliest-co-publication action; no comprehensive record.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42988037/",
+      "discoveredDate": "2026-11-07"
+    },
+    {
+      "doi": "10.1016/j.ajem.2026.10.026",
+      "pmid": "42987442",
+      "reason": "OHCA PEEP/ventilation outcomes observational candidate; metadata October31. Retrieve primary design/sample, exposure and timing, adjusted estimates/CIs, adverse events and confounding; verify earliest electronic date before publication.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42987442/",
+      "discoveredDate": "2026-11-07"
+    },
+    {
+      "doi": "10.1111/iwj.71084",
+      "pmid": "42988361",
+      "reason": "International multiprofessional acute minor-wound consensus: month-only metadata November2026. Retrieve primary exact first-online date, clinically consequential ED wound closure/cleansing/antibiotic decisions, exceptions, certainty, conflicts and corrections; exclude if no useful new recommendations.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42988361/",
+      "discoveredDate": "2026-11-07"
+    },
+    {
+      "doi": "10.1093/eurheartj/ehag101",
+      "pmid": null,
+      "reason": "ACC New Fifth UDMI label investigated: primary OUP index explicitly publishedAugust28,2026; AHA PubMed co-publication metadataAugust27. Predates normal coverageStart; resolve earliest co-publication for retrospective review only. Primary October21 correction DOI10.1093/eurheartj/ehag811 fully retrieved: changes appendix approval-body wording, not clinical recommendations. JACC403 and direct original OUP500 redirect; full original clinical appraisal still required, no new normal article.",
+      "status": "needs-primary-review",
+      "sourceId": "acc",
+      "canonicalUrl": "https://doi.org/10.1093/eurheartj/ehag101",
+      "discoveredDate": "2026-11-07"
+    },
+    {
+      "doi": null,
+      "pmid": null,
+      "reason": "Secondary homepage PERC-Peds prospective PE-rule lead in children4\u201317. Retrieve exact original Lancet Respiratory Medicine paper/DOI/PMID, earliest first-online date, full inclusion/pretest restrictions, sample and missed-event CIs, external validity and harms; no numerical clinical claim accepted from JournalFeed. Reject if no matching primary publication; retrospective if beforeOctober19.\n\nNovember13 homepage now supplies PMID42398511. Verify primary match, earliest date and rule restrictions before using any secondary numbers.",
+      "status": "needs-primary-review",
+      "sourceId": "journalfeed",
+      "canonicalUrl": "https://journalfeed.org/",
+      "discoveredDate": "2026-11-07"
+    },
+    {
+      "doi": "10.1016/j.ajem.2026.10.016",
+      "pmid": "42994388",
+      "reason": "MRSA nasal PCR in ED pneumonia antibiotic duration: metadataOctober26. Retrieve primary design/sample, vancomycin/linezolid duration and uncertainty, diagnostic reference/negative predictive performance, harms and first-online history; avoid causal claims if observational.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42994388/",
+      "discoveredDate": "2026-11-12"
+    },
+    {
+      "doi": "10.1016/j.chest.2026.10.033",
+      "pmid": "42994751",
+      "reason": "ADJUST ulinastatin: primary indexed PubMed abstract retrieved, electronic dateNovember6.347 randomized,335 efficacy population after postrandomization exclusions;28-day deaths39/165 versus39/170;difference0.7% (95%CI\u22128.4 to9.7). Adverse events96/169 versus73/171. Retrieve complete protocol deviation/safety severity, first release/corrections and legal full text status; discuss Chinese ICU context and limited US applicability, not a proven sepsis benefit.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42994751/",
+      "discoveredDate": "2026-11-12"
+    },
+    {
+      "doi": "10.1016/S0140-6736(26)00976-1",
+      "pmid": "42998670",
+      "reason": "DAPT-SHOCK-AMI: complete primary PubMed abstract retrieved; electronic article date November7,2026. N605 randomized at29 European hospitals; cangrelor30micrograms/kg then4micrograms/kg/min\u22652h versus crushed ticagrelor180mg. Death/MI/ischemic stroke38% versus41%,difference\u22124 percentage points (90%CI\u221210 to3);1-point noninferiority margin NOT met. Laboratory endpoint subset56/56 versus15/68; major bleeding19/298 versus16/307. Publisher/DOI/ScienceDirect Cache miss/inaccessible. Prior ESC2025 presentation surfaced; distinguish conference results from earliest full-paper release and confirm publisher history/legal full-text classification. Exact DOI correction/retraction search returned trial/substudy, no relevant correction surfaced; not proof of absence. Appraise before publication; surrogate inhibition does not establish clinical superiority.\n\nNovember15 follow-up: direct primary PubMed42998670 returned one-line HHS shell, not abstract or full text. Exact Lancet fulltext https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00976-1/fulltext403 Forbidden; independent exact-title Lancet search did not retrieve target. Prior abstract/date/appraisal uncertainty retained; access failure does not prove paywall.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-general",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42998670/",
+      "discoveredDate": "2026-11-12"
+    },
+    {
+      "doi": "10.1056/NEJMoa2602919",
+      "pmid": "43001740",
+      "reason": "OnScene prehospital ECPR: primary NEJM indexed abstract/history retrieved; first online November 7, 2026; nationwide NONRANDOMIZED Netherlands HEMS comparison. Primary discharge survival 57/144 versus17/87; OR2.72 (95%CI1.59\u20134.66);32 versus11 adverse events. Direct full-text open Cache miss. Retrieve complete selection, adjustment, time-to-flow, harms and legal availability category; compare randomized INCEPTION and current ECPR guidance, verify corrections. Do not imply causal survival benefit.\n\nNovember21: Indexed primary NEJM/PubMedabstracts reverified first-onlineNovember7,2026. OnScene nationwide nonrandomized NetherlandsHEMS comparison age<=50: survival57/144(40%)vs17/87(20%), OR2.72(95%CI1.59\u20134.66);6monthfavorable neurological51/141(36%)vs11/85(13%), OR4.22(2.82\u20136.32);32vs11adverseevents, not patientrates. Direct NEJM403; fulltextnotreviewed. Primary INCEPTION2023RCTabstract separately inspected, favorable30dayneurology20%vs16%, OR1.4(0.5\u20133.5); differentpopulation/delivery/outcome, no cross-trialcausaleffect. Retrieve OnSceneselection/timing, eventtypes, confounding and currentguidance/corrections before complete appraisal.\n\nNovember23: Indexed primary PubMed abstract re-retrieved; November7 electronic release and NONRANDOMIZED HEMS comparison verified. Full selection, time-to-flow, confounding/adjustment and adverse-event types still require legal primary full-text review. Preserve existing abstract appraisal and INCEPTION comparison; no causal benefit or new article inferred.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-general",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43001740/",
+      "discoveredDate": "2026-11-12"
+    },
+    {
+      "doi": "10.1097/XCS.0000000000002254",
+      "pmid": "43001744",
+      "reason": "ACS/SIR Rapid Endovascular Hemorrhage Control in Trauma: official ACS news datedNovember9,2026 retrieved; PubMed metadata DOI10.1097/XCS.0000000000002254 hints same electronic date. Primary journal/DOI inaccessible. Important guidance: retrieve complete position statement, operational timing/activation/transfer exceptions, indications, recommendation basis and earliest society release/corrections; official news is not comprehensive guideline appraisal. Hold date-eligible weekly issue.\n\nNovember 13: Primary co-publication PMID42492772 (DOI10.1016/j.jvir.2026.108978) shows July23,2026; indexed ScienceDirect https://www.sciencedirect.com/science/article/pii/S1051044326009899 explicitly says TEMPORARY REMOVAL, with replacement/reinstatement pending. Direct publisher403. Hold for current status, replacement explanation, version comparison and exact earliest date; do not assume November9 publicity/new journal date means new recommendations.",
+      "status": "held",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43001744/",
+      "discoveredDate": "2026-11-12"
+    },
+    {
+      "doi": "10.1056/NEJMoa2612757",
+      "pmid": "43001758",
+      "reason": "RACE-CARS: primary NEJM indexed abstract/history retrieved; first online November8,2026; registry-based cluster randomized North Carolina trial. 55 clusters,22459 patients; favorable-neurologic discharge9.0% versus9.4%,adjusted OR0.97 (95%CI0.75\u20131.26). Direct full text Cache miss. Retrieve implementation fidelity, clustering, harms, correction history and legal source availability before concise publication; do not infer CPR/AED ineffective.\n\nNovember 13: Primary NEJM indexed abstract and November8 online history re-retrieved; fulltext/abstract direct403. Exact DOI correction search returned original/recent contents but no relevant notice (not proof of absence). Keep pending implementation/safety and legal full-text availability classification; retrieval error alone does not prove paywall.\n\nNovember13 follow-up: primary NEJM indexed abstract/history re-retrieved; direct abs/full opens Cache miss. No new safety or implementation-fidelity information recovered. Keep existing full-review action; no unsupported paywall/full-text classification.\n\nNovember15 follow-up: indexed primary NEJM abstract/history re-retrieved with exact denominators1048/11608 versus1017/10839 and adjustedOR0.97(95%CI0.75\u20131.26); full text https://www.nejm.org/doi/full/10.1056/NEJMoa2612757 returned403. No new implementation-fidelity/safety/full-availability evidence; retained review action. Abstract result does not show CPR/AED itself ineffective.\n\nNovember 18: indexed primary NEJM abstract/history and PubMed abstract retrieved, confirming November8,2026, DOI10.1056/NEJMoa2612757. Registry cluster RCT:55clusters,22459adults; favorable neurological discharge1048/11608(9.0%) versus1017/10839(9.4%); adjustedOR0.97(95%CI0.75\u20131.26). Direct full-article open returned403; indexed original exposes abstract, not methods/safety tables. Correction/retraction/contradictory-trial searches returned original and AHA release, no verified correction contents. Source access failure does not establish paywall. Retrieve full legal paper/supplement or verified availability classification, intervention fidelity and harms before schema-valid article; do not interpret null program result as disproving CPR/AED benefit.\n\nNovember21: Working indexed primary NEJM and PubMed abstracts reverified first-onlineNovember8,2026. RACE-CARS registry clusterRCT55clusters/22459patients: favorable neurological discharge1048/11608(9.0%) vs1017/10839(9.4%), adjustedOR0.97(95%CI0.75\u20131.26). Intervention911recognition/telephoneCPRtraining, communityCPR and earlyAEDimplementation versususualcare. Direct NEJMoriginal/PDF403; fulltext not reviewed. Retrieve implementation fidelity, component uptake/contamination, adverseevents and clusteranalysis/supplement before complete operational appraisal. ExactDOIcorrection/retractionsearch returned original, no actualcorrection, not universalabsence. Neutral implementationtrial does not refute benefits of CPR/AED.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-general",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43001758/",
+      "discoveredDate": "2026-11-12"
+    },
+    {
+      "doi": "10.1016/j.annemergmed.2026.09.004",
+      "pmid": "43002154",
+      "reason": "Unintended exposure to medical-aid-in-dying drug mixtures: metadataNovember9. Retrieve primary evidence/design and actionable toxicology recommendations; exclude narrative review without new recommendations or substantial harm evidence.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43002154/",
+      "discoveredDate": "2026-11-12"
+    },
+    {
+      "doi": "10.1016/j.ajem.2026.10.038",
+      "pmid": "43002826",
+      "reason": "Molecular STI point-of-care ED testing cost/operational candidate: metadataOctober29. Retrieve primary design/sample, treatment-before-discharge, missed/overtreatment, turnaround/LOS, cost perspective and uncertainty; publish only if meaningful patient-care improvement.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43002826/",
+      "discoveredDate": "2026-11-12"
+    },
+    {
+      "doi": "10.1016/j.ajem.2026.11.007",
+      "pmid": "43002827",
+      "reason": "Geriatric rib fractures/flail chest direct ICU versus upgrade: metadataNovember5. Retrieve primary cohort, eligibility, severity adjustment, mortality/respiratory complications/CIs and first release; substantial confounding and selection likely require careful appraisal.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43002827/",
+      "discoveredDate": "2026-11-12"
+    },
+    {
+      "doi": "10.1542/peds.2026-078217",
+      "pmid": "43003124",
+      "reason": "Resuscitation weight estimation and dose-calculation systematic review/meta-analysis: metadataNovember10. Retrieve primary populations/settings, methods, dosing-error magnitude/CIs, study quality and clinical outcome relevance before patient-safety selection.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43003124/",
+      "discoveredDate": "2026-11-12"
+    },
+    {
+      "doi": "10.1007/s13181-026-01166-0",
+      "pmid": "43004055",
+      "reason": "ACMT expired naloxone: November9 journal metadata conflicts with earlier official release. Retrieved official ACMT directory (March2026) and linked2-page PDF explicitly Approved March2026, supporting use when unexpired naloxone unavailable. Do not label guidance new in November. Retrieve November paper and compare for substantive revisions; establish exact earliest day/corrections for retrospective review only if unchanged. Official PDF https://www.acmt.net/wp-content/uploads/2026/03/ACMT-Position-Statement_-Expired-Naloxone.pdf . Springer/PubMed opens inaccessible.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43004055/",
+      "discoveredDate": "2026-11-12"
+    },
+    {
+      "doi": "10.1080/10903127.2026.2759767",
+      "pmid": "43008208",
+      "reason": "Prehospital pediatric whole-blood cohort: metadataNovember10. Retrieve sample, comparator if any, transfusion indications, outcomes/harms and certainty; exclude if tiny descriptive series without clinically consequential new evidence.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43008208/",
+      "discoveredDate": "2026-11-12"
+    },
+    {
+      "doi": "10.1016/j.ajem.2026.10.041",
+      "pmid": "43008406",
+      "reason": "PE YEARS/PEGeD/age-adjusted/fixed D-dimer meta-analysis: metadata online November2; direct primary PubMed inaccessible, distinct exact-title publisher search did not retrieve target. Retrieve complete primary designs/patients, failure rates/CIs, efficiency, pretest restrictions, heterogeneity and earliest release; no rule-out recommendation from title.\n\nNovember23 weekly primary appraisal: indexed primary PubMed abstract verifies November2 electronic release, Shaban etal, DOI10.1016/j.ajem.2026.10.041. Meta-analysis24studies/63583patients; pooled sensitivity fixed98.3%(95%CI97.3\u201399.1), age-adjusted96.5%(94.3\u201398.2), YEARS91.8%(87.2\u201395.4), PEGeD91.0%(79.5\u201395.9). Imaging avoidance YEARS51%(23\u201379), PEGeD53%(25\u201381); few studies reported diagnostic failure. Cross-study pools do not establish safe interchangeability or justify changing pretest restrictions. Retrieve full designs/risk strata/failure denominators, heterogeneity, methods/corrections and legal availability before selection.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43008406/",
+      "discoveredDate": "2026-11-12"
+    },
+    {
+      "doi": "10.1097/CCM.0000000000007447",
+      "pmid": "43018426",
+      "reason": "NEWS-1 TRIPS pilot: cached electronic hint November12. Direct primary PubMed inaccessible; distinct LWW exact-title search did not retrieve results. Retrieve primary exact date, clustered sample/design, bundle adherence, clinical endpoints/CIs, harms and feasibility limits; not a proven sepsis mortality benefit.\n\nNovember16: exact primaryPubMed openURL not accessible; distinct LWW NEWS-1TRIPS query did not retrieve target. No clinical effects newly verified; retain primary results/date/harms action.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43018426/",
+      "discoveredDate": "2026-11-13"
+    },
+    {
+      "doi": "10.1016/j.anpede.2026.504397",
+      "pmid": "43015222",
+      "reason": "Pediatric thrombolysis/thrombectomy RAND/UCLA consensus: cached November11. Direct PubMed inaccessible, exact-DOI ScienceDirect search did not retrieve primary target. Important guidance: verify age/selection, time/imaging thresholds, doses, transfer pathways, contraindications, certainty, disagreements, first release and corrections before normal selection; hold eligible issue if important.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43015222/",
+      "discoveredDate": "2026-11-13"
+    },
+    {
+      "doi": "10.1007/s00134-026-08643-8",
+      "pmid": "43007421",
+      "reason": "CO-ROAM oliceridine versus remifentanil RCT: cached November10. Retrieve original first-online date, critically ill ventilated population, sample, analgesic doses/regimens, noninferiority margin, efficacy CIs, respiratory/hemodynamic adverse events and US applicability before selection.\n\nNovember15: primary Springer full text, methods/results/limitations and history retrieved; first onlineNovember10.307 randomized/304mITT, target-analgesia difference3.7 percentage points(95%CI\u22120.3 to5.7) vs\u221210% NI margin. Secondary respiratory/ADR results exploratory without multiplicity control; no established ventilation/LOS/mortality benefit. Not selected for limited direct US ED consequence, stable ChineseICU exclusions and author-reported US commercial discontinuation. Reconsider only if consequential confirmatory evidence or clinical availability changes.",
+      "status": "rejected",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43007421/",
+      "discoveredDate": "2026-11-13"
+    },
+    {
+      "doi": "10.1016/j.annemergmed.2026.06.039",
+      "pmid": "42618174",
+      "reason": "Official16-page Part2 clinical-practice consensus PDF retrieved, September2026 issue and April29 approval. Before normal coverageStart; retrospective only. Verify exact earliest public day, primary co-publication/corrections and complete recommendations/dosing/monitoring/discharge/exceptions before historical appraisal. PDF availability is not comprehensive full review.\n\nNovember16: Unscheduled Procedural Sedation multidisciplinary Delphi2026 Part2 actualPDF titleClinical Practice (ENA list misleadingly repeatsPart1 subtitle). Legal original16-pagePDF retrieved, abstract and limited passages inspected, not complete recommendation appraisal. September2026 print precedes normalcoverageStart; verify earliest publisher history/co-release/corrections. Retrospective only: review agents/regimens, fasting/aspiration exceptions, airway/monitoring/rescue, populations, adverse events and recommendation certainty; pair withPart1.",
+      "status": "needs-primary-review",
+      "sourceId": "ena",
+      "canonicalUrl": "https://www.ena.org/sites/default/files/2026-09/Part2UnscheduledProceduralSedation.pdf",
+      "discoveredDate": "2026-11-13"
+    },
+    {
+      "doi": "10.1016/j.annemergmed.2026.06.038",
+      "pmid": "42618173",
+      "reason": "Official14-page Part1 principles/oversight/quality consensus PDF retrieved. September2026 issue predates normal coverageStart; retrospective only. Retrieve exact DOI/earliest first-online day, methodology, endorsement limits and corrections; compare companion Part2. Not a new November guideline.\n\nNovember16: Unscheduled Procedural Sedation multidisciplinary Delphi2026 Part1: legal original14-page society-hostedPDF retrieved, abstract/methods inspected, not complete recommendations review. September2026 print/earlierACMT society copies establish pre-normalcoverageStart; exact earliest first-online still needed. Retrospective only: appraise oversight/credentialing, staffing/monitoring, quality/safety recommendations, consensus certainty, conflicts and corrections; pair withPart2 without duplicate co-publication.",
+      "status": "needs-primary-review",
+      "sourceId": "ena",
+      "canonicalUrl": "https://www.ena.org/sites/default/files/2026-09/Part1UnscheduledProceduralSedation.pdf",
+      "discoveredDate": "2026-11-13"
+    },
+    {
+      "doi": null,
+      "pmid": null,
+      "reason": "Official directory Chest Wall Injuries76-page PDF retrieved, not fully appraised. Filename hints2025, not a verified earliest date. Verify actual title/version, first release/corrections and ED analgesia, ventilation, admission/transfer and fixation pathways. Retrospective only if preOctober19; never relabel directory New tag as newly published.",
+      "status": "needs-primary-review",
+      "sourceId": "acs",
+      "canonicalUrl": "https://www.facs.org/media/qdgliayt/2025_tr_bestpracticesguidelines_chest-wall.pdf",
+      "discoveredDate": "2026-11-13"
+    },
+    {
+      "doi": null,
+      "pmid": null,
+      "reason": "Official directory Genitourinary Injury Management78-page PDF retrieved, not fully appraised. Verify earliest public release/version/corrections and clinically consequential imaging, bladder/urethral injury, catheter/consult/transfer thresholds before deciding eligibility. New tag is not first-online evidence.",
+      "status": "needs-primary-review",
+      "sourceId": "acs",
+      "canonicalUrl": "https://www.facs.org/media/ya5hcu0s/genitourinary_guidelines.pdf",
+      "discoveredDate": "2026-11-13"
+    },
+    {
+      "doi": "10.1542/peds.2026-076351",
+      "pmid": null,
+      "reason": "Primary abstract/history retrieved: October13,2026 before normal coverageStart. Pediatric ED antibiotic duration QI; retrieve full methods, balancing harms/return visits and correction status for retrospective appraisal only.",
+      "status": "needs-primary-review",
+      "sourceId": "aap",
+      "canonicalUrl": "https://publications.aap.org/pediatrics/article-abstract/doi/10.1542/peds.2026-076351/210925/Optimizing-Antibiotic-Duration-for-Pneumonia-and?redirectedFrom=fulltext",
+      "discoveredDate": "2026-11-13"
+    },
+    {
+      "doi": "10.1001/jama.2026.21322",
+      "pmid": null,
+      "reason": "Primary publisher abstract/date retrieved: October14,2026, before normal coverageStart. Intraoperative dobutamine plus norepinephrine RCT during surgical sepsis source control; retrieve complete methods/harms/corrections and US ED applicability for retrospective review; do not extrapolate to routine ED dobutamine.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-general",
+      "canonicalUrl": "https://jamanetwork.com/journals/jama/article-abstract/2855463",
+      "discoveredDate": "2026-11-13"
+    },
+    {
+      "doi": "10.1016/S0140-6736(26)02203-8",
+      "pmid": "42987881",
+      "reason": "PRESC1SE-MI Department of Error: primary PubMed original RCT PMID42667934 explicitly links ErratumIn PMID42987881; correction indexed metadata identifies November7,2026 print but actual electronic day/content unverified. Direct PubMed inaccessible; primary ScienceDirect https://www.sciencedirect.com/science/article/pii/S0140673626022038 Cache miss; distinct exact DOI/indexed searches metadata only. Retrieve exact correction and determine changes to trial data, safety margin/results or attribution, and consequences for queued troponin IPD meta-analysis PMID42956796 before release.\n\nNovember14: primary correction ScienceDirect403 after distinct exact-DOI search returned original RCT/comments and correction metadata, not correction text. Preserve held status and dependent troponin meta-analysis hold.\n\nNovember15: exact primary ScienceDirect correction open returned403; distinct Lancet exact-DOI search did not retrieve correction text. Hold remains; troponin meta-analysis cannot be cleared without correction-impact review.\n\nNovember16: primary ScienceDirect exact correction https://www.sciencedirect.com/science/article/pii/S0140673626022038 returned403; distinct exact correction/DOI searches did not retrieve text (one successful empty). Dependent troponin meta-analysis hold preserved.\n\nNovember16 weekly review: actual ScienceDirect correction open403Forbidden; genuinely distinct exact-DOI search retrieved PubMed42987881 ErratumFor42667934 linkage but not correction contents. No correction-impact resolution; dependent troponin meta-analysis remains held.\n\nNovember 17: Primary ScienceDirect correction returned 403. A distinct exact-DOI/Lancet search did not retrieve correction contents; indexed primary PubMed reconfirmed the original trial's ErratumIn linkage. The dependent troponin meta-analysis remains held pending exact correction-impact appraisal.",
+      "status": "held",
+      "sourceId": "pubmed-general",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42987881/",
+      "discoveredDate": "2026-11-13"
+    },
+    {
+      "doi": "10.1097/CCM.0000000000007434",
+      "pmid": "43012617",
+      "reason": "Normocapnia versus mild hypercapnia during lung-protective ARDS ventilation target-trial emulation; cache electronic hintNovember11. Direct primary PubMed inaccessible; distinct exact-title publisher search did not retrieve original target. Retrieve actual primary sample/design,PaCO2/RR targets,adjustment and immortal-time/confounding safeguards,mortality/ventilator-free-day CIs,barotrauma/hemodynamic harms,earliest online and corrections. No causal ventilation-target recommendation from metadata or secondary summaries.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43012617/",
+      "discoveredDate": "2026-11-13"
+    },
+    {
+      "doi": "10.1136/bmj-2026-101021",
+      "pmid": "43014818",
+      "reason": "Pregabalin use/overdose after Australian policy/media interventions: primary BMJ research index retrieved withNovember11,2026 posting, but original results unavailable. Attempted https://www.bmj.com/content/395/bmj-2026-101021 inaccessible; distinct exact-title BMJ search returned index only. Retrieve exact primary paper URL/history,overdose definitions/sample,interrupted-time-series estimates/CIs,coexposures,secular confounding and US prescribing/ED harm relevance; no causal policy claim from homepage highlights.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-general",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43014818/",
+      "discoveredDate": "2026-11-13"
+    },
+    {
+      "doi": "10.1007/s00063-026-01519-1",
+      "pmid": "43018718",
+      "reason": "German multisociety ECPR consensus; cache electronic hint November 12. Exact primary Springer DOI and PubMed open both URL not accessible; distinct indexed primary searches did not retrieve the target (related review DOI s12181-026-00844-1 is a different article). Verify earliest co-publication across DOI10.1007/s00101-026-01770-3, full selection/low-flow criteria, timing, exclusions, system requirements, ethical limits, certainty and corrections; hold eligible issue pending important guidance appraisal.\n\nNovember15: alternate co-publication DOI10.1007/s00101-026-01770-3 publisher abstract/date retrieved, publishedNovember12,2026; updates2018 document. Abstract available/full text paywalled. Retrieve legal complete recommendations and compare all co-publication histories/corrections; no full recommendation review from references/abstract. Original PubMed43018718 open inaccessible, distinct exact-DOI search did not retrieve original target.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43018718/",
+      "discoveredDate": "2026-11-14"
+    },
+    {
+      "doi": "10.1080/10903127.2026.2755967",
+      "pmid": "43019463",
+      "reason": "Prehospital advanced airway management in traumatic OHCA nationwide time-dependent propensity-matched cohort; cache hint November12. Retrieve exact primary date, sample, airway selection/timing, survival/CIs, confounding safeguards and harms. Do not infer causal benefit from metadata.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43019463/",
+      "discoveredDate": "2026-11-14"
+    },
+    {
+      "doi": "10.1016/j.ajem.2026.11.002",
+      "pmid": "43019615",
+      "reason": "POCUS cardiac motion/standstill Delphi definitions; cache hint November3. Retrieve primary definitions, consensus methods/participants, safeguards against using standstill alone for resuscitation termination, validation limits, earliest date and corrections before judging ED consequence.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43019615/",
+      "discoveredDate": "2026-11-14"
+    },
+    {
+      "doi": null,
+      "pmid": null,
+      "reason": "ACS directory now explicitly lists New! Transfusion in Trauma. Linked official PDF click returned400 Timeout fetching; distinct official exact-PDF/date search surfaced November4 report on September2026 activities, not complete primary recommendations or earliest release. Retrieve legal primary PDF/history, earliest public release/version/corrections and ED transfusion ratios/whole blood/fibrinogen/calcium/anticoagulant reversal, exceptions and certainty. New tag is not a first-online date; retrospective only if before October19. Important guidance unresolved; hold date-eligible issue.\n\nNovember16: original official71-pagePDF now retrieved by directory link, coverNovember2026. Contents,introduction and selected ED-adjunct passages inspected; not all recommendations reviewed. Exact earliest public day remains unverified (November4 report refers toSeptember25 board approval). Complete legal primary ED/reversal/pediatric chapters, correction/supersession check and conflicting pediatric calcium-dose passages before article; maintain hold. OfficialPDF available, no asset uploaded.\n\nNovember 17: Official ACS announcement dated November 16 retrieved: https://www.facs.org/media-center/press-releases/2026/american-college-of-surgeons-releases-new-best-practices-guidelines-for-transfusion-in-trauma/ . The official 71-page PDF remains available, with November 2026 on its cover. Announcement day is not earliest-release proof because earlier PDF availability is already documented. Verify exact posting day/version, complete ED, reversal and pediatric appraisal, the calcium-dose discrepancy, and corrections/superseding guidance before release.\n\nNovember 20: Working official 71-page PDF retrieved https://www.facs.org/media/4y2arm2q/acs-tqp-best-practices-for-transfusion.pdf ; returned extract only through printed p26, selected sections inspected, not full appraisal. Official November 16 release and November 17 brief retrieved. Reconcile earliest public electronic day against earlier directory/November 4 report. Differing pediatric calcium-dose passages printed pp11,24,25 need context/correction reconciliation before reproducing any regimen. Review remaining anticoagulant-reversal/pediatric/childbearing/harms sections; important hold remains.",
+      "status": "needs-primary-review",
+      "sourceId": "acs",
+      "canonicalUrl": "https://www.facs.org/media/4y2arm2q/acs-tqp-best-practices-for-transfusion.pdf",
+      "discoveredDate": "2026-11-14"
+    },
+    {
+      "doi": "10.1016/j.ajem.2026.10.013",
+      "pmid": "43019616",
+      "reason": "ECPR arterial-pH effect modification registry: cachedOctober30 hint. Retrieve primary cohort/sample, treatment selection/time-varying bias, absolute neurological outcomes/CIs, pH interaction and first release/corrections. No causal ECPR cutoff from metadata.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43019616/",
+      "discoveredDate": "2026-11-15"
+    },
+    {
+      "doi": "10.1016/j.resuscitation.2026.111389",
+      "pmid": "43020456",
+      "reason": "Pediatric in-hospital CPR coronary perfusion pressure/outcomes: cacheNovember12 hint. Retrieve primary sample/measurement, pressure targets and confounding, survival/neurological effects/CIs, harms and first release. Do not invent a target from association.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43020456/",
+      "discoveredDate": "2026-11-15"
+    },
+    {
+      "doi": "10.1016/j.ajem.2026.11.008",
+      "pmid": "43025003",
+      "reason": "Pediatric pneumonia lung-ultrasound risk score: cacheNovember6 hint. Retrieve primary derivation/validation populations, radiograph reference-standard/spectrum bias, sample, sensitivity/specificity/CIs, thresholds and missing-pneumonia harms before diagnostic selection.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43025003/",
+      "discoveredDate": "2026-11-15"
+    },
+    {
+      "doi": "10.1016/j.ajem.2026.10.039",
+      "pmid": "43025005",
+      "reason": "Whole-blood transfusion in adultTBI systematic review/meta-analysis: cacheNovember5 hint. Retrieve included designs/patients, mortality/neurological estimates/CIs, confounding, adverse events, certainty and earliest release/corrections; do not extrapolate observational pooling to routine whole-blood superiority.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43025005/",
+      "discoveredDate": "2026-11-15"
+    },
+    {
+      "doi": "10.1111/acem.70441",
+      "pmid": "43031329",
+      "reason": "Observation-care costs candidate, November month-only metadata. Retrieve exact primary history/design/sample, cost perspective, LOS/admission/return harms and uncertainty. Exclude costs-only administrative result without major meaningful patient-care improvement.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43031329/",
+      "discoveredDate": "2026-11-15"
+    },
+    {
+      "doi": "10.1080/15563650.2026.2757695",
+      "pmid": "43023338",
+      "reason": "Poisoning-agent shortages2014\u20132024: cacheNovember13 hint. Retrieve primary methods, shortage categories/durations, clinical harm or actionable availability findings and uncertainty, current applicability and first release/corrections. Historical frequency alone is not current stock guidance.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43023338/",
+      "discoveredDate": "2026-11-15"
+    },
+    {
+      "doi": "10.1161/STROKEAHA.125.053981",
+      "pmid": "43023572",
+      "reason": "Andexanet pooled thrombosis/mortality analysis: cacheNovember13 hint. Retrieve primary trial/cohort membership, overlap, predictors vs causal effects, sample/denominators, thrombotic timing and adjusted uncertainty, present US relevance, first release and corrections; do not issue reversal advice from title.\n\nNovember15 follow-up: exact primary AHA DOI open https://www.ahajournals.org/doi/10.1161/STROKEAHA.125.053981 returned Internal Error / URL not accessible. Distinct exact-DOI AHA indexed search did not retrieve target; no primary effects or predictors verified. Retain full primary harm-appraisal action.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43023572/",
+      "discoveredDate": "2026-11-15"
+    },
+    {
+      "doi": "10.1097/CCM.0000000000007435",
+      "pmid": "43024934",
+      "reason": "Japanese sepsis-care intensity/cost-effectiveness cohort: cacheNovember13 hint. Retrieve primary sample/severity, allocation/confounding, survival/CIs, cost model/assumptions, harms and US ED relevance; select only substantial operational/clinical consequence.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43024934/",
+      "discoveredDate": "2026-11-15"
+    },
+    {
+      "doi": "10.3390/jcm15218325",
+      "pmid": "43030469",
+      "reason": "Croatian emergency AECOPD consensus-driven algorithm preliminary initiative: cachedOctober26 hint. Retrieve original society endorsement/methods, exact earliest date, actionable oxygen/ventilation/bronchodilator/steroid/antibiotic/disposition recommendations, certainty/conflicts and corrections. Preliminary consensus without substantial new recommendation is not filler; important guidance if verified must remain held for appraisal.\n\nNovember16 weekly review: indexed PRIMARY MDPI original retrieved in search, describing5-specialist steering group/3iterative cycles and preliminary local QI/service-development algorithm based on existingGOLD/ERS/ATS/Spanish/Croatian guidance. Direct original open429TooManyRequests. Retrieve complete outcomes/validation/endorsement and earliest date/corrections; judge substantive new ED consequences before selection. Do not imply national society guideline or improved outcomes from preliminary consensus.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43030469/",
+      "discoveredDate": "2026-11-15"
+    },
+    {
+      "doi": null,
+      "pmid": null,
+      "reason": "November15 actual official public policy page retrieved and labels linkedPDF August2026, before normal coverageStart. Exact earliest primary release and substantive amendments/corrections need verification; retrieve legal complete policy, methods and recommendation grades for retrospective review only. Separate draft comment form is not a new final policy. No historical write here.",
+      "status": "needs-primary-review",
+      "sourceId": "acep",
+      "canonicalUrl": "https://www.acep.org/patient-care/clinical-policies/direct-oral-anticoagulants",
+      "discoveredDate": "2026-11-15"
+    },
+    {
+      "doi": "10.1016/j.lanepe.2026.101911",
+      "pmid": "43034829",
+      "reason": "Scandinavian Neurotrauma Committee2026 adult minimal/mild/moderate head-injury guideline: cache electronic hintNovember7,2026, not independently primary-verified. PubMed open inaccessible; distinct exact-PMID and publisher-domain searches empty successfully. Secondary discovery supplied correct publisher PII S2666-7762(26)00323-6; actual Lancet PDF403 and ScienceDirect https://www.sciencedirect.com/science/article/pii/S2666776226003236 403. Retrieve legal primary full guideline/history/corrections, actual CT/structured-observation criteria, anticoagulant/antiplatelet exceptions, biomarker assay/age/time thresholds, repeat-imaging and discharge safeguards, strength/certainty and differences from US ACEP pathways. Do not use secondary generated numerical summaries as evidence. Important unverified guidance; hold date-eligible issue.\n\nNovember 17: Indexed primary PubMed abstract retrieved; article date November 7, 2026 and PMCID PMC13769473 verified. The guideline used systematic review, GRADE and modified Delphi methods. ScienceDirect returned 403; the distinct PMC route was inaccessible, and indexed PMC search returned older different papers. Retrieve the actual seven recommendations and flowcharts, DOAC exceptions, structured observation, biomarker thresholds, recommendation strengths and validation limits. No clinical thresholds inferred; important issue hold remains.\n\nNovember 18: actual PMC13769473 open returned Internal Error / URL not accessible. Distinct indexed exact-PMC search recovered primary PubMed abstract, not complete seven recommendations/flowcharts. Prior date evidence preserved; important head-injury guidance remains unappraised and held.\n\nNovember19: Actual PMC13769473 open Internal Error / URL not accessible; distinct exact-PMC search retrieved other head-injury studies, not target recommendations. Prior November7 date preserved; seven recommendations/flowcharts/DOAC/observation/biomarker appraisal remains required.\n\nNovember 20: PMC13769473 open returned Internal Error / URL not accessible. Distinct exact-PMC indexed search re-retrieved primary abstract confirming November 7 and methods; complete seven recommendations/DOAC/observation/biomarker flowcharts remain unappraised.\n\nNovember21: Indexed primary PubMed metadata reverified DOI/PMC13769473 and electronicNovember7; actualPMCopen returned recaptcha/browsercheck shell. No bypass or full-textreview. Complete7pathways/biomarker/DOACappraisal remainsheld.\n\nNovember23: Actual PMC13769473 returned reCAPTCHA/browser-check shell, not bypassed. Distinct exactPMID/indexed primary search reverified November7 electronic release and GRADE/Delphi methods. Seven full recommendations/flowcharts and biomarker/DOAC/observation safeguards remain unappraised. Retrieve legal primary full text and correction history; important hold retained.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43034829/",
+      "discoveredDate": "2026-11-16"
+    },
+    {
+      "doi": "10.1016/j.jacc.2026.07.025",
+      "pmid": "42663357",
+      "reason": "Fifth Universal Definition of MI2026: official JACC indexed history says first-onlineAugust27,2026; primary PubMed metadata and officialACC release sayAugust28. Both precede normalOctober19 coverageStart; retrospective review only. JACC original open403; indexed original markedFree access, so failure is not proof of paywall. Retrieve full definitions, sex-specific assay thresholds, primary/secondary/procedure-related classification, unstable angina/MINOCA context and corrections; compare existing troponin wording without silently changing reviewed records. Resolve earliest co-publication day before any retrospective article.",
+      "status": "needs-primary-review",
+      "sourceId": "acc",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42663357/",
+      "discoveredDate": "2026-11-16"
+    },
+    {
+      "doi": "10.1016/j.jacc.2026.08.028",
+      "pmid": "42831847",
+      "reason": "ACC resistant-hypertension ECDP: primary PubMed and officialACC release identifyOctober5,2026, before normalcoverageStart. OriginalJACC403; official summary available, no comprehensive full-guideline appraisal. Retrospective review only: verify earliest co-release/corrections and whether substantial ED measurement,pseudoresistance,medication,follow-up or emergency exceptions add beyond existing guidance; chronicBP pathway is not emergencyIV lowering advice.",
+      "status": "needs-primary-review",
+      "sourceId": "acc",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42831847/",
+      "discoveredDate": "2026-11-16"
+    },
+    {
+      "doi": null,
+      "pmid": null,
+      "reason": "ACMT/AACT occupational-opioid-exposure position statement: official full webpage retrieved, datedNovember11,2025; actualAACT dated directory listsOctober16,2025. Before normalcoverageStart; retrospective/correction review only. Resolve earliest co-publication/version, compare stored2024 fentanyl-exposure-laws record (different topic), appraise passive-exposure vs airborne/mass-casualty exclusions, PPE/decontamination and objective-hypoventilation naloxone context, recommendation basis and supersession. No historical article write in daily task.",
+      "status": "needs-primary-review",
+      "sourceId": "acmt",
+      "canonicalUrl": "https://www.acmt.net/news/acmt-position-statement-preventing-occupational-opioid-exposure-to-emergency-responders/",
+      "discoveredDate": "2026-11-16"
+    },
+    {
+      "doi": "10.1097/AOG.0000000000006455",
+      "pmid": "42945501",
+      "reason": "Weekly cache title screening: Antidepressant Discontinuation During Pregnancy and Risk of Mental Health-Related Emergencies; electronic hintOctober27,2026, not primary-verified. Retrieve exact primary date, design/cohort, exposure/timing and relapse/emergency estimates/CIs, confounding and absolute risk, harms and correction/supersession; evaluate ED pregnancy psychiatric consequence. No medication-continuation instruction or causal claim from metadata.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42945501/",
+      "discoveredDate": "2026-11-16"
+    },
+    {
+      "doi": "10.1161/CIR.0000000000001479",
+      "pmid": "43036895",
+      "reason": "AHA PAD acute-care scientific statement: official Top Things to Know explicitly cites first online November 16, 2026: https://professional.heart.org/en/science-news/peripheral-artery-disease-in-acute-care-settings/top-things-to-know . Authors, DOI and PMID verified. Official society summary reviewed; original AHA click returned 403, exact-DOI indexed search did not recover the original full text, and direct PubMed was inaccessible. Retrieve complete acute limb ischemia triage, urgent revascularization, anticoagulation/contraindications, access and mechanical-support complications, wound care, disposition, recommendation basis, and corrections/superseding guidance. Important unresolved guidance holds the eligible issue. Do not infer drug-initiation advice from highlights.\n\nNovember 18: official AHA directory, science-news page and Top Things to Know/citation retrieved again, confirming November16 first online. Linked original returned actual403Forbidden; distinct exact-DOI indexed search recovered official summary but not complete original recommendations/corrections. Keep important guidance hold; no full-text review or inferred contraindication/dose recommendations.\n\nNovember19: Original AHA DOI open Internal Error / URL not accessible; distinct exact-DOI indexed search and official Top Things to Know retrieval confirm November16 citation and limited summary, not complete recommendations. Acute limb ischemia/revascularization/contraindications and access/MCS review still held.\n\nNovember 20: Original DOI open returned Internal Error / URL not accessible. Distinct indexed exact-DOI official AHA summary/citation reverified November 16. Complete acute-care recommendations/contraindications and correction appraisal remain pending.\n\nNovember21: Indexed primary PubMedabstract/citation and official AHAsummary reverifiedNovember16. OriginalAHA403Forbidden; fullrecommendations not reviewed. Keep ALI/revascularization/anticoagulationcontraindication and correctionactions held.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43036895/",
+      "discoveredDate": "2026-11-17"
+    },
+    {
+      "doi": "10.1186/s12882-026-05270-9",
+      "pmid": "43035656",
+      "reason": "UKKA AF/advanced CKD guideline: primary Springer original retrieved, journal date August 19, 2026; methods explicitly state the UKKA guidance was first posted in October 2025. Predates normal coverage; retrospective review only. Open-access primary title, methods and selected sections inspected, not complete guideline appraisal. Verify the exact earliest society posting day, substantive amendments and corrections, then compare with newer ESC guidance and US labeling before presenting current practice.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://link.springer.com/article/10.1186/s12882-026-05270-9",
+      "discoveredDate": "2026-11-17"
+    },
+    {
+      "doi": "10.1002/pmf2.70364",
+      "pmid": null,
+      "reason": "SMFM 2026 AFE checklist: official linked Wiley original retrieved, first published August 12, 2026, before normal coverage. Actual linked two-page correction DOI 10.1002/pmf2.70459 inspected: norepinephrine units changed from mg/kg/min to mcg/kg/min; dobutamine and milrinone notation also corrected. Original notes correction August 28; correction listing gives first publication September 21. Retrospective/correction review only. Verify earliest co-release and any stored dependent guidance/figures before publication. Never reproduce the erroneous units. No historical article write in this task.",
+      "status": "needs-primary-review",
+      "sourceId": "acog",
+      "canonicalUrl": "https://doi.org/10.1002/pmf2.70364",
+      "discoveredDate": "2026-11-17"
+    },
+    {
+      "doi": "10.1161/CIR.0000000000001496",
+      "pmid": "43038437",
+      "reason": "AHA infective-endocarditis correction: cache electronic hintNovember16,2026; DOI10.1161/CIR.0000000000001496. Actual primary AHA DOI and PubMed opens both Internal Error / URL not accessible. Distinct exact DOI/PMID indexed searches did not recover correction text. Retrieve actual correction, identify parent statement/version, changed antimicrobial regimens/doses or indications, exact first-online day and all stored dependent recommendations; hold affected guidance until assessed. No clinical change inferred from erratum title.\n\nNovember19: Direct PubMed open Internal Error / URL not accessible; distinct exact-DOI search did not retrieve actual correction text. Identify parent/version and changed treatment details before clearing dependent guidance.\n\nNovember 20: Actual PubMed open returned Internal Error / URL not accessible; distinct exact-DOI indexed query did not retrieve correction text. Parent/version and antimicrobial changes remain unresolved.\n\nNovember21: Indexed primary PubMed correction now identifies parent: PMID42708190 DOI10.1161/CIR.0000000000001466, Circulation2026Oct13;154:e593\u2013e619. DirectPubMed returned disclosure-onlyshell; no changedrecommendations retrieved. Retrieve actualerratum text and parent fullguidance; keep treatment/correctionhold.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43038437/",
+      "discoveredDate": "2026-11-18"
+    },
+    {
+      "doi": "10.1016/j.ajem.2026.10.024",
+      "pmid": "43038892",
+      "reason": "EHR visual cue/time to analgesia for sickle-cell vaso-occlusive crisis; cache hintOctober28,2026. Retrieve primary exact release, QI/cohort design, sample, absolute analgesia delays/effects and uncertainty, opioid/respiratory balancing harms and implementation context. A workflow title is not evidence of improved patient outcomes; select only clinically consequential operational evidence.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43038892/",
+      "discoveredDate": "2026-11-18"
+    },
+    {
+      "doi": "10.1055/a-2987-3389",
+      "pmid": "43039351",
+      "reason": "GSRM orthoplastic complex-extremity primary-reconstruction consensus; cache hintNovember16,2026, DOI10.1055/a-2987-3389. Retrieve primary earliest release, exact society endorsement, methods/strength, debridement/coverage timing, transfer/team requirements, contraindications and corrections; evaluate ED open-fracture consequences and differences from US guidance. Important guidance eligibility/appraisal unresolved.\n\nNovember19: Direct PubMed open Internal Error / URL not accessible; distinct exact-DOI indexed search did not retrieve target original. Full orthoplastic timing/transfer/contraindication and earliest-date appraisal unresolved.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43039351/",
+      "discoveredDate": "2026-11-18"
+    },
+    {
+      "doi": "10.1016/j.annemergmed.2026.09.009",
+      "pmid": "43043325",
+      "reason": "Suprascapular block versus IV fentanyl for traumatic scapular fractures; cache November16 hint. Direct PubMed Internal Error / URL not accessible; distinct exact-title search retrieved an older ten-patient case series, not this comparison. Retrieve target primary design/sample, regimens, analgesia effects/CIs, rescue opioids, pneumothorax/LAST and other harms, exact earliest date and corrections. Do not substitute the older case series.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43043325/",
+      "discoveredDate": "2026-11-19"
+    },
+    {
+      "doi": "10.1097/CCM.0000000000007451",
+      "pmid": "43049460",
+      "reason": "HFNC versus conventional oxygen in adult de novo hypoxemic failure systematic review/TSA; cache November18 hint; DOI confirmed by NCBI MedGen listing. Direct PubMed Internal Error / URL not accessible; distinct title search retrieved metadata and different September HFNC analyses, not target results. Retrieve exact primary date, trial membership/overlap, sample, intubation/mortality effects/CIs, harms/delayed escalation, heterogeneity, certainty and corrections.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43049460/",
+      "discoveredDate": "2026-11-19"
+    },
+    {
+      "doi": "10.3760/cma.j.cn121430-20260428-00210",
+      "pmid": "43045519",
+      "reason": "Chinese expert consensus on emergency acute asthma2026; cache October2026 month only, no verified first-online day. Direct PubMed Internal Error / URL not accessible; distinct exact-title search did not recover target recommendations. Retrieve legal primary document, exact release, issuing bodies, severity/admission thresholds, drug regimens, escalation/contraindications, certainty and US applicability. Important eligibility/appraisal unresolved; no thresholds inferred.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43045519/",
+      "discoveredDate": "2026-11-19"
+    },
+    {
+      "doi": "10.1176/appi.ajp.20260631",
+      "pmid": "43046292",
+      "reason": "Lithium for suicide prevention umbrella review/meta-analysis; cache November18 hint. Retrieve primary exact date, included reviews/trial overlap, suicide/attempt absolute and relative effects/CIs, randomized versus observational evidence, certainty, toxicity/harms and corrections/supersession. Assess ED consequence; title does not establish efficacy or justify lithium initiation.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43046292/",
+      "discoveredDate": "2026-11-19"
+    },
+    {
+      "doi": "10.1016/j.resuscitation.2026.111400",
+      "pmid": "43044728",
+      "reason": "Neonatal chest-compression survival Queensland population cohort; cache November17 hint. Retrieve primary exact date, sample, survival/neurological outcomes/CIs, resuscitation duration/selection and limits. Assess neonatal resuscitation consequence without converting associations into termination thresholds.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43044728/",
+      "discoveredDate": "2026-11-19"
+    },
+    {
+      "doi": "10.1016/j.gie.2026.11.021",
+      "pmid": "43044777",
+      "reason": "International EUS-guided gastric variceal coil embolization consensus; cache November17 hint. Retrieve exact primary date, societies/methods/strength, acute-bleeding rescue/transfer implications and limits versus US initial ED management before selection; avoid procedural specialty filler.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43044777/",
+      "discoveredDate": "2026-11-19"
+    },
+    {
+      "doi": "10.1093/cid/ciag738",
+      "pmid": "43049103",
+      "reason": "IDSA antibiotic-timing clarification and paired critique PMID43048874 DOI10.1093/cid/ciag735 have cache November18 hints. Retrieve both primary publications, exact dates, parent guidance and sepsis-without-shock scope. Distinguish hospital quality strategies from clinical antibiotic recommendations; verify actual changes/corrections. Correspondence titles alone are not a new guideline.\n\nNovember 20: Indexed official OUP original https://academic.oup.com/cid/advance-article-abstract/doi/10.1093/cid/ciag738/9089773 verifies November 18, authors Rhee/Klompas/Masur/Cosgrove and Letter Reply classification. Page explicitly PDF-only; content not retrieved. Direct original open inaccessible. Retrieve reply, paired ciag735 critique and parent ciag438 before interpreting antibiotic-timing changes.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43049103/",
+      "discoveredDate": "2026-11-19"
+    },
+    {
+      "doi": "10.1542/peds.2026-079371",
+      "pmid": "43051248",
+      "reason": "Joint pediatric traumatic out-of-hospital circulatory-arrest statement NAEMSP/ACS-COT/ACEP/AAP: November 19 cache hint; indexed official AAP homepage confirms title/latest-policy listing. PubMed/DOI opens inaccessible; AAP direct homepage 500 SSO redirect, not bypassed. Distinct exact DOI/PMID indexed searches successfully empty/unrelated, not request failures. Co-publications PMID43055685 DOI10.1080/10903127.2026.2660751 and PMID43055713 DOI10.1016/j.annemergmed.2026.09.022 are ONE candidate. Verify earliest co-release, authors, complete reversible-cause priorities, CPR/epinephrine/airway/hemorrhage, transport/termination exceptions, certainty and corrections. Important unverified guidance holds date-eligible issue.\n\nNovember21: Indexed primary PubMed abstract and officialAAPcollection verifyNovember19release, authors and DOI. Abstract emphasizes reversiblecauses/hemorrhage, leastinvasive effectiveairway, indicateddecompression without empiricalbilateraldecompression when no suspectedthoracictrauma, relatively greater pediatricCPR/ventilationrole and lowerpriorityepinephrine. These highlights are not complete termination/transport criteria. Retrieve complete resource document, age/mechanismexceptions, certainty, earliestco-release and correctioncheck before publication; co-publications still ONEcandidate.\n\nNovember22: Primary indexed PubMed abstract re-retrieved; withholding criteria include injury incompatible with life, prolonged-arrest physical signs, or applicable advance orders. Full resource and complete discontinuation/transport/POCUS criteria remain unavailable; DOI/direct PubMed failed Internal Error/inaccessible or Cache miss. No unverified termination threshold published; important guidance hold retained.\n\nNovember23: Actual resource-document DOI open returned Internal Error/URLnotaccessible; direct PubMed returned one-line HHS shell. Distinct indexed primary PubMed abstract and officialAAPpolicy collection retrieved, confirming November19/authors/DOI. Complete transport/discontinuation/POCUS exceptions not recovered; retain important guidance hold and retrieve legal full resource document before publication. ExactDOIcorrection search retrieved original/collections only, not proof of no correction.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43051248/",
+      "discoveredDate": "2026-11-20"
+    },
+    {
+      "doi": "10.1093/bjsopen/zrag184",
+      "pmid": "43050347",
+      "reason": "Initial oesophageal-perforation management: indexed legal OUP full text https://academic.oup.com/bjsopen/article/10/6/zrag184/9090028?searchresult=1 retrieved and methods/tables/discussion inspected; direct OUP/PubMed inaccessible. Publisher history first-online November 18, cache non-electronic pubDate November 3. Verify earliest electronic/co-release before article. Adult atraumatic/iatrogenic cases, major trauma excluded; low GRADE, 49 studies, 83/39 survey participants. Repeat CT 64% below 75% consensus; empiric antifungal US applicability and blind-NG harm context need careful wording. Exact-DOI correction search retrieved original but did not establish complete correction/supersession history; no outcome-benefit claim.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43050347/",
+      "discoveredDate": "2026-11-20"
+    },
+    {
+      "doi": "10.1007/s12519-026-01114-6",
+      "pmid": "43050032",
+      "reason": "Preschool recurrent-wheeze consensus, cache November 17 hint. Retrieve primary exact release, bodies/methods, acute severity/medication/admission exceptions, certainty and corrections; include only consequential new ED guidance rather than chronic specialty filler.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43050032/",
+      "discoveredDate": "2026-11-20"
+    },
+    {
+      "doi": "10.1590/2175-8239-JBN-2026-0026en",
+      "pmid": "43050617",
+      "reason": "Brazilian Society of Nephrology AKI renal-support initiation/interruption statement: month-only cache metadata. Retrieve primary exact earliest electronic release, urgent indications/threshold context, evidence grades, timing-trial conflicts, US applicability and corrections before selection.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43050617/",
+      "discoveredDate": "2026-11-20"
+    },
+    {
+      "doi": "10.1016/S0140-6736(26)02255-5",
+      "pmid": "43057256",
+      "reason": "Retraction title and identifiers verified in indexed primary PubMed; parent is 2006case PMID16920476 DOI10.1016/S0140-6736(06)69255-6. November21,2026 is print metadata, not verified earliest electronic release. Actual DOI open InternalError/URLnotaccessible; distinct indexed exactDOI search retrieved parent linkage but no rationale. Retrieve actual notice, earliest electronicday, retraction basis and relevant current official breastfeeding/codeine guidance; inspect stored dependent material before any revision. Do not infer codeine safety from a retracted case.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-general",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43057256/",
+      "discoveredDate": "2026-11-21"
+    },
+    {
+      "doi": "10.1080/15563650.2026.2761522",
+      "pmid": "43061852",
+      "reason": "Primary indexed PubMed abstract reviewed: November20,2026 electronicdate; Greene/Hampton/Koutsogiannis/White/Abouchedid/Hodgson, ClinToxicol. Multicentre retrospective154patients at18AustralianEDs with GHB>=300mg/L:116GCS3,101intubated,103ICU,39hypotension,1death. Opioidcodetection associated with hypotension aOR4.51(95%CI1.83\u201311.14) and hypoxaemia3.64(1.14\u201311.67); not causal. Retrieve publisher fulltext, selection/measurement, airway indications and complications, correction history and USapplicability before clinical selection. Concentration does not establish an intubation/discharge threshold.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43061852/",
+      "discoveredDate": "2026-11-21"
+    },
+    {
+      "doi": "10.1080/15563650.2026.2761523",
+      "pmid": "43061855",
+      "reason": "Cache title: 15-year multicentre kratom/phenibut/tianeptine exposure study; November20 electronic hint only. Retrieve legal primary exact earliestdate, exposureverification, sample, seriousoutcomes/uncertainty, coexposure/confounding, treatmentcontext and corrections. Include only consequential evidence; metadata alone not clinical appraisal.\n\nNovember22: Indexed PRIMARY PubMed abstract verifies Kent/Hacker Teper/Culbreth/Finkelstein/ToxIC, November20 electronic release and DOI. ToxIC registry2010\u20132024,152encounters:97kratom,44phenibut,11tianeptine;73coingestions(48%),35ICU(23%),1death. Selected toxicology-consult population; not population incidence or substance-specific causal risk. Abstract only; retrieve legal full text, exposure verification, drug-specific outcomes/management and corrections before selection.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43061855/",
+      "discoveredDate": "2026-11-21"
+    },
+    {
+      "doi": "10.1080/15563650.2026.2762170",
+      "pmid": "43061857",
+      "reason": "Primary indexed PubMed abstract reviewed: November20,2026 electronicdate; Marshall/Bradford/Griffin/Brown/Davis/Walter, ClinToxicol. Retrospective1165EDencounters2019\u20132024;227(19.5%)naloxoneinfusion. Fentanylpositivity aOR2.96(95%CI1.92\u20134.57), combinedopioid-stimulant3.00(1.99\u20134.53), opiatepositivity0.50(0.34\u20130.73) associated with infusionuse; not validated initiationrules or causaleffects. Abstract notes substantialfluidexposure from prolonged diluteinfusions without quantifying. Retrieve fulltext dosing/concentration, recurrenthypoventilation/clinicaloutcomes, confounding and corrections before selection.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43061857/",
+      "discoveredDate": "2026-11-21"
+    },
+    {
+      "doi": "10.1001/jamanetworkopen.2026.44991",
+      "pmid": "43056114",
+      "reason": "New cache lead: Bystander CPR Type and Outcomes After Pediatric Out-of-Hospital Cardiac Arrest. Metadata November2 is not primaryverified first-online. Retrieve JAMANetworkOpen primary DOI10.1001/jamanetworkopen.2026.44991, exactrelease, cohort/sample, rescuebreaths/compression-only groups, absolute and adjusted neurological/survivalresults/CIs, age/mechanismconfounding and corrections before selecting. Do not infer pediatric CPRprotocol changes from title.\n\nNovember21 follow-up: Indexed PRIMARY PubMed abstract retrieved: Obara etal,JAMANetworkOpen; electronic November2,2026 confirmed. JapanUtstein observationalcohort2005\u20132023,26785children<=17years. Favorable30dayneurology16.0%rescue-breathingCPR versus9.5%compression-only versus3.6%none; adjustedRRrescue-breathingversuscompression-only1.71(95%CI1.57\u20131.86). Notrandomized; confounding and training/etiology differences limitcausality and USgeneralizability. ExactDOIcorrection/retractionsearch returned original only, not universalabsence; publisherdomainsearch didnot retrieve target. ActualDOIopen InternalError/URLnotaccessible. Retrieve legalpublisherfulltext, preciseCPRdefinitions, adjustment/subgroups, harms and sourceavailability before selection; no causal survivalbenefit or protocolchange from abstract.\n\nNovember22: Indexed primary PubMed abstract re-retrieved; cohort/outcomes/authors/November2 electronic date verified. Limited abstract-based observational summary prepared as pediatric-bystander-cpr-japan-2026; not a protocol-changing trial. Publisher policy confirms open-access research, but DOI/direct PubMed retrieval failed. Remaining action: retrieve legal full text for detailed adjustment, definitions, subgroups and adverse events; update bounded summary if warranted. Limited correction/retraction/later-trial searches retrieved no target notice, not proof of absence.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-general",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43056114/",
+      "discoveredDate": "2026-11-21"
+    },
+    {
+      "doi": "10.1093/cid/ciag748",
+      "pmid": "43065302",
+      "reason": "Primary OUP accepted-manuscript abstract/history verifies November21 electronic release; Hawkes/Batte/Namazzi/Shackleford/Conroy/John. Severe pediatric malaria, secondary prospective-cohort analysis:600children,512CKmeasured,73/512CK>1000;44deaths overall. Unadjusted mortalityHR2.5(95%CI1.1\u20136.1),AKIOR2.0(1.2\u20133.6),hyperkalemiaOR2.7(1.3\u20135.5). Severity/confounding/missingCK limit causality. Openaccess PDF available, not retrieved. Retrieve full methods/adjusted estimates, corrections and ED testing/monitoring consequences before selection; no treatment threshold inferred.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-specialty",
+      "canonicalUrl": "https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciag748/9108555",
+      "discoveredDate": "2026-11-22"
+    },
+    {
+      "doi": "10.1056/NEJMoa2608397",
+      "pmid": null,
+      "reason": "Intermittent or Continuous Renal-Replacement Therapy in Acute Kidney Injury: primary NEJM history verifies October14,2026 first online. November18 summary is not new publication. Before coverageStart; retrospective review only. Retrieve full trial design/sample/regimens/endpoints/effects/CIs/harms and corrections before historical selection. No normal/backfill article here.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-general",
+      "canonicalUrl": "https://www.nejm.org/doi/full/10.1056/NEJMoa2608397",
+      "discoveredDate": "2026-11-22"
+    },
+    {
+      "doi": "10.1001/jama.2026.13310",
+      "pmid": null,
+      "reason": "STArT arginine sickle-cell pain trial: primary JAMA abstract/history verifies August19,2026 first online. Before coverageStart; retrospective review only. Halted for futility,274randomized/271receiveddrug,10USchildren'shospitals. Retrieve full trial, endpoint/difference-estimator detail, harms/corrections before historical selection; no normal/backfill article here.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-general",
+      "canonicalUrl": "https://jamanetwork.com/journals/jama/article-abstract/2853065",
+      "discoveredDate": "2026-11-22"
     }
   ],
   "sources": {
     "pubmed-em": {
-      "lastError": null,
+      "lastError": "November23 partial: all 347 unique matching cache candidates screened (EDAT2026-10-17\u20132026-11-22, actual snapshot 2026-11-22T16:13:21.731116+00:00); recovery2026-09-27\u20132026-11-23 incomplete at both ends. Actual search-service E-utilities and identical-query official PubMedHTML failed Internal Error / URL not accessible. successfulThrough unchanged. Exact URLs, ordinal ranges and important primary holds: daily-2026-11-23.",
       "resultCount": 280,
-      "lastAttemptAt": "2026-10-31T18:41:26Z",
+      "lastAttemptAt": "2026-11-23T10:02:39Z",
       "lastSuccessfulAt": "2026-10-31T18:41:26Z",
       "successfulThrough": "2026-10-31"
     },
     "pubmed-general": {
-      "lastError": null,
+      "lastError": "November23 partial: all 172 unique matching cache candidates screened (EDAT2026-10-17\u20132026-11-22, actual snapshot 2026-11-22T16:13:22.067264+00:00); recovery2026-09-27\u20132026-11-23 incomplete at both ends. Actual search-service E-utilities and identical-query official PubMedHTML failed Internal Error / URL not accessible. successfulThrough unchanged. Exact URLs, ordinal ranges and important primary holds: daily-2026-11-23.",
       "resultCount": 159,
-      "lastAttemptAt": "2026-10-31T18:41:26Z",
+      "lastAttemptAt": "2026-11-23T10:02:39Z",
       "lastSuccessfulAt": "2026-10-31T18:41:26Z",
       "successfulThrough": "2026-10-31"
     },
     "pubmed-guidance": {
-      "lastError": null,
+      "lastError": "November23 partial: all 161 unique matching cache candidates screened (EDAT2026-10-17\u20132026-11-22, actual snapshot 2026-11-22T16:13:23.182537+00:00); recovery2026-09-27\u20132026-11-23 incomplete at both ends. Actual search-service E-utilities and identical-query official PubMedHTML failed Internal Error / URL not accessible. successfulThrough unchanged. Exact URLs, ordinal ranges and important primary holds: daily-2026-11-23.",
       "resultCount": 158,
-      "lastAttemptAt": "2026-10-31T18:41:26Z",
+      "lastAttemptAt": "2026-11-23T10:02:39Z",
       "lastSuccessfulAt": "2026-10-31T18:41:26Z",
       "successfulThrough": "2026-10-31"
     },
     "pubmed-specialty": {
-      "lastError": null,
+      "lastError": "November23 partial: all 264 unique matching cache candidates screened (EDAT2026-10-17\u20132026-11-22, actual snapshot 2026-11-22T16:13:22.761517+00:00); recovery2026-09-27\u20132026-11-23 incomplete at both ends. Actual search-service E-utilities and identical-query official PubMedHTML failed Internal Error / URL not accessible. successfulThrough unchanged. Exact URLs, ordinal ranges and important primary holds: daily-2026-11-23.",
       "resultCount": 250,
-      "lastAttemptAt": "2026-10-31T18:41:26Z",
+      "lastAttemptAt": "2026-11-23T10:02:39Z",
       "lastSuccessfulAt": "2026-10-31T18:41:26Z",
       "successfulThrough": "2026-10-31"
     }
@@ -245,13 +1145,12 @@
     "testAudit": "state/audits/cloud-connection-test.json"
   },
   "completedIssues": [
-    "2024-06-17",
     "2026-10-19"
   ],
   "lastSuccessfulDeployment": {
-    "at": "2026-11-05T06:35:45.934071+00:00",
-    "commit": "6a0e50788977afd496d51fe4100743213585159b",
-    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/41981326760",
+    "at": "2026-11-24T00:04:57.690620+00:00",
+    "commit": "004918d591383d72cd823bcc68cbc70f784cb1e4",
+    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/45293990116",
     "url": "https://emweekly.samermetri.com/"
   },
   "lastSuccessfulResearchCheck": null

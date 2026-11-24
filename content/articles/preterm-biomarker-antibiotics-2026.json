@@ -1,0 +1,54 @@
+{
+  "id": "preterm-biomarker-antibiotics-2026",
+  "doi": "10.1001/jamanetworkopen.2026.43418",
+  "pmid": "43018973",
+  "title": "Procalcitonin- and Presepsin-Guided Antibiotics for Early-Onset Sepsis in Preterm Infants: A Randomized Clinical Trial",
+  "pinned": false,
+  "sample": false,
+  "source": "JAMA Network Open",
+  "status": "published",
+  "topics": [
+    "pediatrics",
+    "infectious-disease"
+  ],
+  "authors": [
+    "Carlo Dani",
+    "Chiara Poggi",
+    "Carlo Pietrasanta"
+  ],
+  "ranking": {
+    "design": 4,
+    "novelty": 3,
+    "edImpact": 3,
+    "guidelineRelevance": 0
+  },
+  "section": "Worth Knowing",
+  "summary": "In 17 Italian NICUs, 283 infants born at 25–31+6 weeks without major maternal early-onset sepsis risk factors were randomized to biomarker-guided or universal antibiotic initiation. Survival without major morbidity was 76/143 versus 77/140 (difference −1.8 percentage points; 90% CI −11.9 to 8.3), failing the prespecified −5-point noninferiority margin. Antibiotic use fell from 98% to 58%, but no infant developed early-onset sepsis.",
+  "backfill": false,
+  "excluded": false,
+  "findings": [
+    "Noninferiority was not demonstrated; this does not prove inferiority.",
+    "Deaths: 8/143 versus 9/140; antibiotic initiation median 6 versus 2 hours."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "Universal IV penicillin plus aminoglycoside initiation, with early discontinuation for negative cultures and absent clinical infection.",
+  "population": "Very preterm newborns in NICUs; untreated maternal GBS, chorioamnionitis and membrane rupture over 1 hour were excluded.",
+  "sampleSize": 283,
+  "shortTitle": "Biomarker-guided antibiotics in very preterm infants: safety not established",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "The open-label trial excluded major infection risk factors, had substantial protocol deviations, and observed no early-onset sepsis, preventing sensitivity assessment. Wide intervals permit meaningful harm; results do not establish a pathway for febrile infants presenting later to the ED.",
+  "retrievedAt": "2026-11-15",
+  "canonicalUrl": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856575",
+  "intervention": "Serial PCT/presepsin-guided IV antibiotic initiation, with treatment also permitted for clinical sepsis signs.",
+  "whyItMatters": "Reduced prescribing does not establish safe withholding of neonatal antibiotics. This trial does not support replacing established neonatal sepsis assessment with PCT/presepsin testing.",
+  "evidenceNotes": "Publisher full text, tables and history reviewed; supplements not independently appraised. November 12 publication overrides the cache's November 2 hint. Exact DOI correction/retraction and later-evidence searches found no matching notice; bounded searches cannot prove absence. No biomarker thresholds are recommended here.",
+  "discoveredDate": "2026-11-15",
+  "fullTextStatus": "Open-access full text available",
+  "firstOnlineDate": "2026-11-12",
+  "primaryEndpoint": "Survival to discharge without major prematurity morbidity, including late-onset sepsis.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-11-15"
+}

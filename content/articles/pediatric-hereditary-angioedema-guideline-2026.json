@@ -1,0 +1,62 @@
+{
+  "id": "pediatric-hereditary-angioedema-guideline-2026",
+  "doi": "10.1111/all.70207",
+  "pmid": "41618059",
+  "title": "International Guideline on the Diagnosis and Management of Pediatric Patients With Hereditary Angioedema",
+  "pinned": false,
+  "sample": false,
+  "source": "Allergy",
+  "status": "published",
+  "topics": [
+    "airway",
+    "pediatrics",
+    "guidelines"
+  ],
+  "authors": [
+    "Henriette Farkas",
+    "Inmaculada Martinez-Saguer",
+    "Konrad Bork",
+    "Hereditary Angioedema Working Group (HAWK Group)"
+  ],
+  "ranking": {
+    "design": 3,
+    "novelty": 4,
+    "edImpact": 5,
+    "guidelineRelevance": 5
+  },
+  "section": "Guidelines & Statements",
+  "summary": "This international pediatric guideline updates the 2017 consensus with age-specific diagnosis, acute treatment and prophylaxis recommendations for hereditary angioedema due to C1-inhibitor deficiency or dysfunction. Recurrent unexplained swelling or abdominal pain warrants consideration of HAE even without a family history; confirmation uses C4 plus C1-inhibitor antigen and function, with two concordant sets of results. Infant complement testing requires repeat testing after age one.\n\nTreat attacks early, with targeted rescue selected for age, availability and local approval. Upper-airway, facial and neck edema require treatment; upper-airway involvement also requires emergency referral to a hospital capable of airway management. Persistent abdominal symptoms despite HAE treatment require urgent assessment for another acute abdominal process. Ensure rescue for at least two attacks even during prophylaxis.\n\nThis is a focused review of the retrieved main text and selected primary drug-label evidence, not a complete supplemental-evidence review. International treatment options and US labeling differ, and some US approval information in the guideline was already outdated when it appeared; the specific qualifications below are essential to interpretation.",
+  "backfill": true,
+  "excluded": false,
+  "findings": [
+    "Acute choices and strength: IV plasma-derived C1 inhibitor is recommended from birth to under 2 years (strong recommendation; moderate evidence). Older children's and adolescents' first-line options have high evidence ratings in the guideline's classification, but this does not establish US approval for every listed age, head-to-head equivalence, or a pediatric airway-rescue RCT. The airway treatment/referral recommendation has 99% panel agreement but consensus-level evidence.",
+    "US acute-dose context: the initial July 2025 EKTERLY label specifies sebetralstat 600 mg orally at the earliest recognized attack for ages 12 and older, with one repeat after at least 3 hours if needed and maximum 1,200 mg/24 hours. The guideline table's 300 mg denotes tablet strength. Moderate CYP3A4 inhibition or Child-Pugh B requires 300 mg doses; avoid strong CYP3A4 inhibitors, moderate/strong inducers and Child-Pugh C. These are product-label restrictions, not additional guideline recommendations.",
+    "Sebetralstat uncertainty: the FDA-label trial treated 264 attacks in 110 participants, including only 13 adolescents. FDA analysis reported median onset of symptom relief around 2.0 hours (95% CI 1.5–2.8); placebo median was not estimable within 12 hours. Severe laryngeal attacks were not treated in that randomized trial. Later uncontrolled mucosal-attack data do not demonstrate pediatric airway safety or replace emergency airway assessment.",
+    "US recombinant-C1-inhibitor caveat: the manufacturer-linked RUCONEST PI revised April 2020 describes adolescent evidence at ages 13–17 and patient labeling excludes under 13, whereas guideline Table 4 lists US age 12 and older. Effectiveness in laryngeal attacks is not established. Rabbit allergy and previous life-threatening immediate hypersensitivity to C1-inhibitor preparations are contraindications; anaphylaxis can resemble worsening HAE. Do not import European pediatric eligibility into US practice.",
+    "Procedures and follow-up: consider short-term prophylaxis before medical, dental or surgical triggers, especially airway procedures; IV plasma-derived C1 inhibitor is the preferred agent. Rescue must remain available during and after procedures. Considering additional procedural prophylaxis despite long-term prophylaxis is a weak recommendation with low evidence, not a guarantee that either strategy prevents all attacks. Written plans, caregiver training and specialist follow-up support access after ED treatment.",
+    "Historical US prophylaxis correction: guideline Table 6 restricts berotralstat to ages 12 and older, but FDA approved oral pellets for ages 2 to under 12 on December 11, 2025. The December 23 alignment letter and December 2025 common label confirm this predates the January 30 guideline. This is a labeling-versus-guideline chronology difference, not simply a later 2026 approval.",
+    "Berotralstat is prevention only: the December 2025 and October 2026 labels both prohibit using extra doses as acute rescue because higher exposure can prolong QTc. Pediatric approval uses older-patient efficacy extrapolation plus a single-arm safety/PK study of 29 children; 17 completed 48 weeks. It is not a placebo-controlled pediatric efficacy trial. Current labeling also requires renal/hepatic and interaction checks; do not substitute maintenance medication for an acute agent.",
+    "Other prevention changes: the guideline discusses donidalorsen approval after the May 2025 voting meeting but makes no specific pediatric recommendation because adolescent evidence was insufficient for its process. The initial August 2025 FDA label permits prophylaxis from age 12, with serious hypersensitivity/anaphylaxis precautions. Regulatory availability and a formal guideline recommendation are separate judgments."
+  ],
+  "studyType": "Guideline",
+  "comparator": "Prior 2017 pediatric consensus and existing practice; this guideline is not a randomized comparison of treatment pathways or individual drugs.",
+  "population": "Neonates through adolescents with suspected or established HAE due to C1-inhibitor deficiency/dysfunction. Detailed treatment of HAE with normal C1 inhibitor is outside the guideline's main scope.",
+  "sampleSize": null,
+  "shortTitle": "Pediatric hereditary angioedema: early rescue, airway referral and US label caveats",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Supplemental Data S1, its trial-evidence tables and the voting figure were not retrieved. Pediatric trial participation and airway-specific evidence are limited; recommendation strength, evidence category and panel agreement are different measures. Selected labels and primary trials were appraised, not every underlying study or the complete regulatory archive. The unexplained August 2025 update to the older NEJM sebetralstat publication remains queued; the quantitative context here uses the independently retrieved FDA label rather than assuming that article's versions are interchangeable.",
+  "retrievedAt": "2026-11-05",
+  "canonicalUrl": "https://onlinelibrary.wiley.com/doi/10.1111/all.70207",
+  "intervention": "Age-specific diagnostic testing, early targeted acute therapy, airway-capable referral, procedural prophylaxis and individualized long-term prevention.",
+  "whyItMatters": "ED action plans should distinguish acute rescue from maintenance prophylaxis, identify the patient's actual product and age eligibility, and preserve an airway-capable referral pathway. Oral symptomatic treatment does not establish protection against airway deterioration or remove the need to assess alternative diagnoses.",
+  "evidenceNotes": "Retrieved Wiley main text verifies first publication January 30, 2026; PubMed PMID41618059 corroborates Epub date. Methods searched January 2016–January 14, 2025, with subsequent monitoring; recommendations were voted May 30, 2025. Main sections, tables and recommendation text reviewed; supplemental Data S1 and Figure S1 unavailable. Prior audit appraisals of FDA sebetralstat analyses and the uncontrolled laryngeal extension were reused; no complete supplement review claimed. Bounded DOI correction/retraction searches found no separate notice, not exhaustive assurance.\n\nPrimary label links: https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/219301s000lbl.pdf ; https://www.ruconest.com/wp-content/uploads/Ruconest_PI_Apr2020.pdf ; https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/219776Orig1s000ltr.pdf ; https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/214094Orig1s005ltr.pdf ; https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/214094s005lbl.pdf ; https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/214094s006lbl.pdf ; https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/219407s000lbl.pdf . Later uncontrolled mucosal-attack study: https://pmc.ncbi.nlm.nih.gov/articles/PMC12626162/ . December-versus-October label comparison covered indication, relevant dosing, safety and pediatric evidence; it was not a full redline. PDF screenshot tool returned text placeholders only, so no visual verification is claimed.",
+  "discoveredDate": "2026-11-05",
+  "fullTextStatus": "Open-access full text available",
+  "firstOnlineDate": "2026-01-30",
+  "primaryEndpoint": "Clinical recommendations for diagnosis, attack management and prevention; no single trial endpoint.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": "The authors use GRADE-style strong/weak wording, separately classify supporting evidence as high/moderate/low/consensus, and require at least 80% voting agreement. Many practical emergency recommendations rely on consensus; high overall ratings for age-group drug options should not be read as uniform pediatric certainty or regulatory endorsement. Initial literature cutoff and later drug approvals limit how current the tables are.",
+  "sitePublishedDate": "2026-11-05"
+}
