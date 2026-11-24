@@ -111,14 +111,12 @@ jobs:
         with:
           path: dist
           retention-days: 1
-      - name: Wait for Pages artifact indexing
-        if: steps.plan.outputs.build == 'true'
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        run: python3 scripts/wait-pages-artifact.py
-      - uses: actions/deploy-pages@v4
+      - name: Deploy validated Pages artifact through REST
         if: steps.plan.outputs.build == 'true'
         id: deploy
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/deploy-pages.py
       - name: Record successful deployment
         if: steps.plan.outputs.build == 'true'
         env:
