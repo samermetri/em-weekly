@@ -1,8 +1,12 @@
 import fs from 'node:fs';
 import {articleSchema,issueSchema} from './schema';
 import {rank,weeklyItems} from './publishing';
+import {publicationSource} from './source-policy';
 export function loadJsonFolder(folder:string){return fs.readdirSync(folder).filter(f=>f.endsWith('.json')).sort().map(f=>JSON.parse(fs.readFileSync(`${folder}/${f}`,'utf8')));}
-export const allArticles=loadJsonFolder('content/articles').map(a=>articleSchema.parse(a));
+const sourceHosts=JSON.parse(fs.readFileSync('config/sources.json','utf8')).allowedPrimaryHosts as string[];
+const sourceResults=loadJsonFolder('content/articles').map(a=>publicationSource(articleSchema.parse(a),sourceHosts));
+export const sourceNotices=sourceResults.flatMap(r=>r.notice?[r.notice]:[]);
+export const allArticles=sourceResults.map(r=>r.article);
 export const articles=allArticles.filter(a=>a.status==='published'&&!a.excluded).sort((a,b)=>b.sitePublishedDate.localeCompare(a.sitePublishedDate)||Number(b.pinned)-Number(a.pinned)||rank(b)-rank(a));
 export const currentArticles=articles.filter(a=>!a.backfill);
 export const historicalArticles=articles.filter(a=>a.backfill).sort((a,b)=>b.firstOnlineDate.localeCompare(a.firstOnlineDate)||rank(b)-rank(a));

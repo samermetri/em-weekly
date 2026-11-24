@@ -29,6 +29,7 @@ jobs:
     timeout-minutes: 20
     permissions:
       contents: write
+      actions: read
       pages: write
       id-token: write
     environment:
@@ -110,6 +111,11 @@ jobs:
         with:
           path: dist
           retention-days: 1
+      - name: Wait for Pages artifact indexing
+        if: steps.plan.outputs.build == 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/wait-pages-artifact.py
       - uses: actions/deploy-pages@v4
         if: steps.plan.outputs.build == 'true'
         id: deploy

@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
-import {allArticles,issues,topics,site} from '../src/lib/data';
+import {allArticles,issues,topics,site,sourceNotices} from '../src/lib/data';
+import {approvedSource} from '../src/lib/source-policy';
 import {auditSchema,connectionTestSchema,stateSchema,cloudProbeSchema,backfillSchema} from '../src/lib/schema';
 import {duplicate} from '../src/lib/publishing';
 import {backfillCompletionErrors} from '../src/lib/backfill-completion';
@@ -15,7 +16,7 @@ const ids=new Set<string>();
 for(const [n,a] of allArticles.entries()){
  assert(!ids.has(a.id),`Duplicate slug ${a.id}`);ids.add(a.id);
  assert(!duplicate(a,allArticles.slice(0,n)),`Duplicate identifiers for ${a.id}`);
- for(const link of [a.canonicalUrl,a.officialPdfUrl].filter(Boolean) as string[]){const host=new URL(link).hostname;assert(config.allowedPrimaryHosts.some((h:string)=>host===h||host.endsWith('.'+h)),`Unapproved primary source host ${host}`);}
+ if(a.status==='published'&&!a.excluded)for(const link of [a.canonicalUrl,a.officialPdfUrl].filter(Boolean) as string[])assert(approvedSource(link,config.allowedPrimaryHosts),`Unapproved primary source on ${a.id}`);
  assert(a.topics.every(t=>topicIds.has(t)),`Unknown topic on ${a.id}`);
  assert(fs.existsSync(`content/articles/${a.id}.json`),'Article filename must match id');
 }
@@ -31,6 +32,8 @@ for(const i of [...issues].reverse()){
  if(!i.sample){assert(i.searchAudit&&fs.existsSync(i.searchAudit),'Search audit required');assert(/^state\/audits\/[a-z0-9-]+\.json$/.test(i.searchAudit!),'Audit must be in state/audits');const audit=auditSchema.parse(JSON.parse(fs.readFileSync(i.searchAudit!,'utf8')));assert(audit.coverageStart===i.coverageStart&&audit.coverageEnd===i.coverageEnd,'Audit coverage mismatch');const checked=new Set(audit.sources.map(s=>s.sourceId));for(const source of [...config.sources,...config.manualChecks])assert(checked.has(source.id),'Audit missing source '+source.id);assert(audit.guidelineSearchCompleted&&audit.finalCrossCheckCompleted,'Separate guideline search and final cross-check required');}
 }
 console.log(`Validated ${allArticles.length} articles, ${issues.length} issues, and daily limits.`);
+for(const notice of sourceNotices)console.warn(`Source warning: ${notice}`);
+if(process.env.GITHUB_STEP_SUMMARY&&sourceNotices.length)fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,'\n### Article source warnings\n'+sourceNotices.map(n=>`- ${n}`).join('\n')+'\nOriginal database records are preserved. Other eligible articles continue publishing.\n');
 
 if(fs.existsSync('state/backfill.json')){const progress=backfillSchema.parse(JSON.parse(fs.readFileSync('state/backfill.json','utf8')));const audits=Object.fromEntries(fs.readdirSync('state/audits').filter(f=>f!=='cloud-connection-test.json'&&f.endsWith('.json')).map(f=>[f.slice(0,-5),auditSchema.parse(JSON.parse(fs.readFileSync('state/audits/'+f,'utf8')))]));const completionErrors=backfillCompletionErrors(progress,audits,[...config.sources,...config.manualChecks].map(s=>s.id));assert(!completionErrors.length,completionErrors.join('\n'));let next=progress.rangeStart;for(const w of progress.windows){assert(w.start===next&&w.end>=w.start&&w.end<=progress.rangeEnd,'Historical research windows must be contiguous');const d=new Date(w.end+'T12:00:00Z');d.setUTCDate(d.getUTCDate()+1);next=d.toISOString().slice(0,10);for(const id of w.articleIds){const a=allArticles.find(a=>a.id===id);assert(a?.backfill&&a.firstOnlineDate>=w.start&&a.firstOnlineDate<=w.end,'Historical window article mismatch');}if(w.status==='complete'){assert(w.auditId&&fs.existsSync('state/audits/'+w.auditId+'.json'),'Completed backfill window requires an audit');const audit=auditSchema.parse(JSON.parse(fs.readFileSync('state/audits/'+w.auditId+'.json','utf8')));assert(audit.coverageStart===w.start&&audit.coverageEnd===w.end&&audit.guidelineSearchCompleted&&audit.finalCrossCheckCompleted,'Historical audit incomplete');for(const source of [...config.sources,...config.manualChecks])assert(audit.sources.some(s=>s.sourceId===source.id&&s.status==='success'),'Historical audit missing a successful source: '+source.id);}}const last=progress.windows.at(-1);assert(last?.end===progress.rangeEnd,'Historical windows must cover the full requested range');assert(progress.status!=='complete'||progress.windows.every(w=>w.status==='complete'),'Historical project cannot be complete with unfinished windows');for(const a of allArticles.filter(a=>a.backfill)){assert(!a.sample&&a.firstOnlineDate>=progress.rangeStart&&a.firstOnlineDate<=progress.rangeEnd,'Backfill article outside requested interval');assert(progress.windows.some(w=>w.articleIds.includes(a.id)),'Historical article missing from progress records');}}
 
