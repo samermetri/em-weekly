@@ -1,0 +1,54 @@
+{
+  "id": "pitstop-fluids-prehospital-sepsis-2026",
+  "doi": "10.1001/jama.2026.25614",
+  "pmid": "43076208",
+  "title": "Prehospital Fluid Resuscitation for Patients With Suspected Sepsis: The PITSTOP-Fluids Factorial Randomized Clinical Trial",
+  "pinned": false,
+  "sample": false,
+  "source": "JAMA",
+  "status": "published",
+  "topics": [
+    "resuscitation",
+    "infectious-disease"
+  ],
+  "authors": [
+    "Damon C. Scales",
+    "Anna Rogowsky",
+    "Christopher W. Seymour",
+    "PITSTOP Investigators"
+  ],
+  "ranking": {
+    "design": 4,
+    "novelty": 5,
+    "edImpact": 5,
+    "guidelineRelevance": 3
+  },
+  "section": "Practice-Changing / High Priority",
+  "summary": "This Ontario factorial trial randomized 1,686 adults; 1,646 contributed primary mortality outcomes. Median prehospital saline volumes were 1,500 versus 500 mL, but in-hospital death through day 90 was 149/830 (18.0%) versus 149/816 (18.3%): RR 0.98 (95% CI 0.80–1.20). Transport pulmonary edema occurred in 2.2% versus 1.0%.",
+  "backfill": false,
+  "excluded": false,
+  "findings": [
+    "Pulmonary-edema checks followed each 250 mL; either group could stop fluids."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "Saline for SBP <90, stopping at ≥100 mm Hg.",
+  "population": "Adults with suspected infection, fever ≥38°C, SBP <100 mm Hg and IV access; four Ontario paramedic services.",
+  "sampleSize": 1686,
+  "shortTitle": "PITSTOP-Fluids: liberal prehospital saline",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Fever-selected suspected sepsis, saline-only regimens and unblinded clinicians limit generalizability. Small mortality differences remain possible; established vasopressor-dependent septic shock was not the studied population.",
+  "retrievedAt": "2026-11-25",
+  "canonicalUrl": "https://jamanetwork.com/journals/jama/fullarticle/2857282",
+  "intervention": "Up to 2 L IV saline regardless of subsequent SBP, until ED handover.",
+  "whyItMatters": "Automatically giving more saline before handover did not improve survival; reassess perfusion and fluid tolerance. These findings do not establish equivalence or replace individualized septic-shock resuscitation.",
+  "evidenceNotes": "Legal publisher full text reviewed, including methods/harms/limitations; supplements unreviewed. November 25 correction/later-evidence searches found originals/protocols, not a verified notice. Existing inpatient trials address different treatment stages.",
+  "discoveredDate": "2026-11-25",
+  "fullTextStatus": "Open-access full text available",
+  "firstOnlineDate": "2026-11-24",
+  "primaryEndpoint": "Death before hospital discharge, through day 90.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-11-25"
+}

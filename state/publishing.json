@@ -903,7 +903,7 @@
     {
       "doi": "10.1002/pmf2.70364",
       "pmid": null,
-      "reason": "SMFM 2026 AFE checklist: official linked Wiley original retrieved, first published August 12, 2026, before normal coverage. Actual linked two-page correction DOI 10.1002/pmf2.70459 inspected: norepinephrine units changed from mg/kg/min to mcg/kg/min; dobutamine and milrinone notation also corrected. Original notes correction August 28; correction listing gives first publication September 21. Retrospective/correction review only. Verify earliest co-release and any stored dependent guidance/figures before publication. Never reproduce the erroneous units. No historical article write in this task.",
+      "reason": "SMFM 2026 AFE checklist: official linked Wiley original retrieved, first published August 12, 2026, before normal coverage. Actual linked two-page correction DOI 10.1002/pmf2.70459 inspected: norepinephrine units changed from mg/kg/min to mcg/kg/min; dobutamine and milrinone notation also corrected. Original notes correction August 28; correction listing gives first publication September 21. Retrospective/correction review only. Verify earliest co-release and any stored dependent guidance/figures before publication. Never reproduce the erroneous units. No historical article write in this task.\n\nNovember25: SMFMAFEchecklistofficialsocietypage,legalWileyprimary andofficialcorrectionPDFretrieved. FirstonlineAugust12,2026;originalannotationcorrectionAugust28 andformalcorrectionDOI10.1002/pmf2.70459 September21. Norepinephrineunitscorrectedfrommg/kg/min tomcg/kg/min;dobutamine/milrinonenotationalsomcg/kg/min. Noexistingdependentarticleidentified. BeforeOctober19;retrospectivereviewonly,nomal/backfillarticlewritehere. Retrievefullcorrectedfigure/algorithm,specificrates/context,harms/grades/earliestco-releasebeforehistoricalselection;notnewNovemberguidance.",
       "status": "needs-primary-review",
       "sourceId": "acog",
       "canonicalUrl": "https://doi.org/10.1002/pmf2.70364",
@@ -1002,7 +1002,7 @@
     {
       "doi": "10.1542/peds.2026-079371",
       "pmid": "43051248",
-      "reason": "Joint pediatric traumatic out-of-hospital circulatory-arrest statement NAEMSP/ACS-COT/ACEP/AAP: November 19 cache hint; indexed official AAP homepage confirms title/latest-policy listing. PubMed/DOI opens inaccessible; AAP direct homepage 500 SSO redirect, not bypassed. Distinct exact DOI/PMID indexed searches successfully empty/unrelated, not request failures. Co-publications PMID43055685 DOI10.1080/10903127.2026.2660751 and PMID43055713 DOI10.1016/j.annemergmed.2026.09.022 are ONE candidate. Verify earliest co-release, authors, complete reversible-cause priorities, CPR/epinephrine/airway/hemorrhage, transport/termination exceptions, certainty and corrections. Important unverified guidance holds date-eligible issue.\n\nNovember21: Indexed primary PubMed abstract and officialAAPcollection verifyNovember19release, authors and DOI. Abstract emphasizes reversiblecauses/hemorrhage, leastinvasive effectiveairway, indicateddecompression without empiricalbilateraldecompression when no suspectedthoracictrauma, relatively greater pediatricCPR/ventilationrole and lowerpriorityepinephrine. These highlights are not complete termination/transport criteria. Retrieve complete resource document, age/mechanismexceptions, certainty, earliestco-release and correctioncheck before publication; co-publications still ONEcandidate.\n\nNovember22: Primary indexed PubMed abstract re-retrieved; withholding criteria include injury incompatible with life, prolonged-arrest physical signs, or applicable advance orders. Full resource and complete discontinuation/transport/POCUS criteria remain unavailable; DOI/direct PubMed failed Internal Error/inaccessible or Cache miss. No unverified termination threshold published; important guidance hold retained.\n\nNovember23: Actual resource-document DOI open returned Internal Error/URLnotaccessible; direct PubMed returned one-line HHS shell. Distinct indexed primary PubMed abstract and officialAAPpolicy collection retrieved, confirming November19/authors/DOI. Complete transport/discontinuation/POCUS exceptions not recovered; retain important guidance hold and retrieve legal full resource document before publication. ExactDOIcorrection search retrieved original/collections only, not proof of no correction.\n\nNovember24: Resource DOI10.1080/10903127.2026.2660751 and directPubMed43055685 opens returnedInternalError/URLnotaccessible. Distinct indexedofficialAAPEmergencyMedicine/endorsement collections again verifyNovember19/title/authors/DOI; no complete resourcecriteria retrieved. Fulltransport/termination/POCUSexceptions remainpending; importantguidancehold preserved. Correctionquery returnedoriginal/collectionsonly, notproof ofabsence.",
+      "reason": "Joint pediatric traumatic out-of-hospital circulatory-arrest statement NAEMSP/ACS-COT/ACEP/AAP: November 19 cache hint; indexed official AAP homepage confirms title/latest-policy listing. PubMed/DOI opens inaccessible; AAP direct homepage 500 SSO redirect, not bypassed. Distinct exact DOI/PMID indexed searches successfully empty/unrelated, not request failures. Co-publications PMID43055685 DOI10.1080/10903127.2026.2660751 and PMID43055713 DOI10.1016/j.annemergmed.2026.09.022 are ONE candidate. Verify earliest co-release, authors, complete reversible-cause priorities, CPR/epinephrine/airway/hemorrhage, transport/termination exceptions, certainty and corrections. Important unverified guidance holds date-eligible issue.\n\nNovember21: Indexed primary PubMed abstract and officialAAPcollection verifyNovember19release, authors and DOI. Abstract emphasizes reversiblecauses/hemorrhage, leastinvasive effectiveairway, indicateddecompression without empiricalbilateraldecompression when no suspectedthoracictrauma, relatively greater pediatricCPR/ventilationrole and lowerpriorityepinephrine. These highlights are not complete termination/transport criteria. Retrieve complete resource document, age/mechanismexceptions, certainty, earliestco-release and correctioncheck before publication; co-publications still ONEcandidate.\n\nNovember22: Primary indexed PubMed abstract re-retrieved; withholding criteria include injury incompatible with life, prolonged-arrest physical signs, or applicable advance orders. Full resource and complete discontinuation/transport/POCUS criteria remain unavailable; DOI/direct PubMed failed Internal Error/inaccessible or Cache miss. No unverified termination threshold published; important guidance hold retained.\n\nNovember23: Actual resource-document DOI open returned Internal Error/URLnotaccessible; direct PubMed returned one-line HHS shell. Distinct indexed primary PubMed abstract and officialAAPpolicy collection retrieved, confirming November19/authors/DOI. Complete transport/discontinuation/POCUS exceptions not recovered; retain important guidance hold and retrieve legal full resource document before publication. ExactDOIcorrection search retrieved original/collections only, not proof of no correction.\n\nNovember24: Resource DOI10.1080/10903127.2026.2660751 and directPubMed43055685 opens returnedInternalError/URLnotaccessible. Distinct indexedofficialAAPEmergencyMedicine/endorsement collections again verifyNovember19/title/authors/DOI; no complete resourcecriteria retrieved. Fulltransport/termination/POCUSexceptions remainpending; importantguidancehold preserved. Correctionquery returnedoriginal/collectionsonly, notproof ofabsence.\n\nNovember25: PRIMARY indexedPubMed43055685 abstract now retrieved complete15minuteCPR+reversiblecause-interventions andpossibleup-to30minute favorable-predictor language. These are not independently validated universalterminationcutoffs. ResourceDOI/directPubMedinaccessible; fullage/mechanism/POCUS/systemexceptions andcertainty still requirelegalresource appraisal. Keepimportantguidancehold; co-publicationsONEcandidate.",
       "status": "needs-primary-review",
       "sourceId": "pubmed-guidance",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43051248/",
@@ -1124,34 +1124,88 @@
       "sourceId": "pubmed-specialty",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43070652/",
       "discoveredDate": "2026-11-24"
+    },
+    {
+      "doi": "10.1001/jama.2026.25627",
+      "pmid": "43076168",
+      "reason": "November25 main-paper verification completed: JAMA NewOnline directory https://jamanetwork.com/journals/jama/newonline link38 led to actual full article https://jamanetwork.com/journals/jama/fullarticle/2857281. Published limited primary fulltext appraisal as pitstop-antibiotics-prehospital-sepsis-2026. November24 firstonline/authors/design/eligibility/regimen/outcomes/harms/limitations verified. Abstract andTable4 agree182/1009 versus186/1011 deaths; prose incorrectly lists75placebodeaths. Currentrecord explicitly discloses discrepancy and uses concordanttable/abstract. Remainingaction: retrieve legal supplementarytables for detailed adverseeventtypes and any published correction to narrative/timing discrepancy before expanding summary; no antibiotic delay or regimen-equivalence claim. Mainclinicalreview complete; residualsupplementaryreview is not an unverified newtrial hold.",
+      "status": "held",
+      "sourceId": "pubmed-general",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43076168/",
+      "discoveredDate": "2026-11-25"
+    },
+    {
+      "doi": "10.1001/jamanetworkopen.2026.45624",
+      "pmid": "43071377",
+      "reason": "DOAC/headinjury primary indexed PubMed abstract reviewed; November2 electronicdate;DOI10.1001/jamanetworkopen.2026.45624. CT-selected observational11401episodes/10625patients,565DOACepisodes;acuteICH40/565(7.1%) versus831/10836(7.7%);aOR0.93(95%CI0.70\u20131.21). Retrieve legalfulltext/authors/selection/adjustment/mechanism/mortality/harms/corrections. Doesnotvalidate omittingCT, establishequivalence, orremoveguidelineimagingindications.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-general",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43071377/",
+      "discoveredDate": "2026-11-25"
+    },
+    {
+      "doi": "10.1016/j.annemergmed.2026.10.008",
+      "pmid": "43076808",
+      "reason": "Acetaminophenhepatotoxicityprediction PRIMARYindexedPubMedabstract reviewed,November23electronicdate,DOI10.1016/j.annemergmed.2026.10.008.4705NAC-treatedadmissions,119hepatotoxicityevents;internaltest1175,AUC0.93(95%CI0.89\u20130.97)versusATproduct0.82(0.72\u20130.91). Retrieve primaryfulltext/authors/definitions/calibration/thresholds/externalvalidation/missingness/corrections. PredictionaccuracyisnotvalidatedNACcessation/escalationpolicy oroutcomebenefit; appraisebeforeselection.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43076808/",
+      "discoveredDate": "2026-11-25"
+    },
+    {
+      "doi": "10.1016/j.annemergmed.2026.09.025",
+      "pmid": "43076805",
+      "reason": "Newcachelead: Frequency and Causes of Waveform Capnography Failure After Successful Emergency Tracheal Intubation. Metadataonly; retrievelegalprimary firstelectronicdate,authors,design/sample,confirmedtrachealplacementstandard,failuremechanisms/rates/CIs,harms/corrections andconcreteEDimplications. Do notinfer thatabsentwaveformcanbeignored.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-em",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43076805/",
+      "discoveredDate": "2026-11-25"
+    },
+    {
+      "doi": "10.1001/jama.2026.19747",
+      "pmid": "42806496",
+      "reason": "PRESSURE pediatricMAPtrial discoveredviaJournalFeed andPRIMARYindexedPubMedabstract retrieved.1900randomized,23PICUs/3countries;permissiveMAP>5thagepercentile versususualtargets,1814primaryoutcomes;compositedeath/ventilation probabilisticindex0.52(95%CI0.49\u20130.54).October27isprintdate; earliest electronicdate notverified. ActualDOIopen inaccessible, distinctpublisherdatedqueryempty. Retrievepublisherhistory/fullmethods/harms/corrections andagedtargets; retrospectiveonlyifbeforeOctober19. Do notapplyPICUvasopressortargetstoallEDshock/postarrestpatients.",
+      "status": "needs-primary-review",
+      "sourceId": "journalfeed",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42806496/",
+      "discoveredDate": "2026-11-25"
+    },
+    {
+      "doi": "10.1111/1471-0528.70369",
+      "pmid": null,
+      "reason": "OfficialRCOGdirectory andlegalWileycorrectionfulltext retrieved,firstpublishedNovember16,2026. OriginalshoulderdystociaguidelineDOI10.1111/1471-0528.70258 firstonlineAugust27. CorrectionchangeserroneousHIEcomparisonfromrepeated<5min to>5min;alsoaddsresource/bibliographicfixes. Thisdoesnotestablishasafewaitingthreshold. Noexistingdependentarticleidentified. Retrievecompletecorrectedoriginalguideline/recommendationstrength/USdifferences,confirmnoticeauthors/date/co-releasebeforedecidingeligiblecorrectionrecord;originalguideline retrospectiveonly.",
+      "status": "needs-primary-review",
+      "sourceId": "acog",
+      "canonicalUrl": "https://doi.org/10.1111/1471-0528.70369",
+      "discoveredDate": "2026-11-25"
     }
   ],
   "sources": {
     "pubmed-em": {
-      "lastError": "November24 partial: all347 unique matching cache candidates screened (EDAT2026-10-17\u20132026-11-23; actualsnapshot2026-11-23T20:06:23.120930+00:00). Recovery2026-09-27\u20132026-11-24 incomplete atbothends. Actualsearch-serviceE-utilities andidentical-queryofficialPubMedHTML failed InternalError/URLnotaccessible. successfulThrough unchanged; exactURLs/ordinalranges/holds:daily-2026-11-24.",
+      "lastError": "November25 partial: all357 unique matching cache candidates screened, EDAT2026-10-17\u20132026-11-24, actualNovember24T19:28UTCsnapshot. Recovery2026-09-27\u20132026-11-25 incomplete atbothends. Actualsearch-serviceE-utilities andidentical-queryofficialPubMedHTML failed InternalError/URLnotaccessible. successfulThrough unchanged; exactURLs/pages/ordinalranges andimportantcandidateholds:daily-2026-11-25.",
       "resultCount": 280,
-      "lastAttemptAt": "2026-11-24T10:02:17Z",
+      "lastAttemptAt": "2026-11-25T10:08:24Z",
       "lastSuccessfulAt": "2026-10-31T18:41:26Z",
       "successfulThrough": "2026-10-31"
     },
     "pubmed-general": {
-      "lastError": "November24 partial: all172 unique matching cache candidates screened (EDAT2026-10-17\u20132026-11-23; actualsnapshot2026-11-23T20:06:23.612733+00:00). Recovery2026-09-27\u20132026-11-24 incomplete atbothends. Actualsearch-serviceE-utilities andidentical-queryofficialPubMedHTML failed InternalError/URLnotaccessible. successfulThrough unchanged; exactURLs/ordinalranges/holds:daily-2026-11-24.",
+      "lastError": "November25 partial: all185 unique matching cache candidates screened, EDAT2026-10-17\u20132026-11-24, actualNovember24T19:28UTCsnapshot. Recovery2026-09-27\u20132026-11-25 incomplete atbothends. Actualsearch-serviceE-utilities andidentical-queryofficialPubMedHTML failed InternalError/URLnotaccessible. successfulThrough unchanged; exactURLs/pages/ordinalranges andimportantcandidateholds:daily-2026-11-25.",
       "resultCount": 159,
-      "lastAttemptAt": "2026-11-24T10:02:17Z",
+      "lastAttemptAt": "2026-11-25T10:08:24Z",
       "lastSuccessfulAt": "2026-10-31T18:41:26Z",
       "successfulThrough": "2026-10-31"
     },
     "pubmed-guidance": {
-      "lastError": "November24 partial: all164 unique matching cache candidates screened (EDAT2026-10-17\u20132026-11-23; actualsnapshot2026-11-23T20:06:24.724049+00:00). Recovery2026-09-27\u20132026-11-24 incomplete atbothends. Actualsearch-serviceE-utilities andidentical-queryofficialPubMedHTML failed InternalError/URLnotaccessible. successfulThrough unchanged; exactURLs/ordinalranges/holds:daily-2026-11-24.",
+      "lastError": "November25 partial: all168 unique matching cache candidates screened, EDAT2026-10-17\u20132026-11-24, actualNovember24T19:28UTCsnapshot. Recovery2026-09-27\u20132026-11-25 incomplete atbothends. Actualsearch-serviceE-utilities andidentical-queryofficialPubMedHTML failed InternalError/URLnotaccessible. successfulThrough unchanged; exactURLs/pages/ordinalranges andimportantcandidateholds:daily-2026-11-25.",
       "resultCount": 158,
-      "lastAttemptAt": "2026-11-24T10:02:17Z",
+      "lastAttemptAt": "2026-11-25T10:08:24Z",
       "lastSuccessfulAt": "2026-10-31T18:41:26Z",
       "successfulThrough": "2026-10-31"
     },
     "pubmed-specialty": {
-      "lastError": "November24 partial: all267 unique matching cache candidates screened (EDAT2026-10-17\u20132026-11-23; actualsnapshot2026-11-23T20:06:24.303941+00:00). Recovery2026-09-27\u20132026-11-24 incomplete atbothends. Actualsearch-serviceE-utilities andidentical-queryofficialPubMedHTML failed InternalError/URLnotaccessible. successfulThrough unchanged; exactURLs/ordinalranges/holds:daily-2026-11-24.",
+      "lastError": "November25 partial: all283 unique matching cache candidates screened, EDAT2026-10-17\u20132026-11-24, actualNovember24T19:28UTCsnapshot. Recovery2026-09-27\u20132026-11-25 incomplete atbothends. Actualsearch-serviceE-utilities andidentical-queryofficialPubMedHTML failed InternalError/URLnotaccessible. successfulThrough unchanged; exactURLs/pages/ordinalranges andimportantcandidateholds:daily-2026-11-25.",
       "resultCount": 250,
-      "lastAttemptAt": "2026-11-24T10:02:17Z",
+      "lastAttemptAt": "2026-11-25T10:08:24Z",
       "lastSuccessfulAt": "2026-10-31T18:41:26Z",
       "successfulThrough": "2026-10-31"
     }
@@ -1166,9 +1220,9 @@
     "2026-10-19"
   ],
   "lastSuccessfulDeployment": {
-    "at": "2026-11-24T22:20:41.413439+00:00",
-    "commit": "37946a72a7f7987c170965a82b287abe87cd32f0",
-    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/45499848998",
+    "at": "2026-11-25T21:37:32.446358+00:00",
+    "commit": "bf843b9d7c15c4fea43e0a0583c90ec66d86dc0e",
+    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/45705851186",
     "url": "https://emweekly.samermetri.com/"
   },
   "lastSuccessfulResearchCheck": null

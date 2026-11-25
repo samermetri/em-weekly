@@ -1,5 +1,5 @@
 {
-  "snapshotHash": "87d9cabb2e63066da968a9e71e342ac3f252ce85616d8fd77485b932213ea7b4",
+  "snapshotHash": "da85fd1dbca10c912a1c7f7ee31e9b7249ba6b5c61e4a22a3bceacc70dc6516f",
   "documentRevisions": {
     "article:aap-child-adolescent-immunization-2026": 1,
     "article:aap-neonatal-hie-hypothermia-2026": 2,
@@ -53,11 +53,14 @@
     "article:ocafe-af-anticoagulation-2024": 1,
     "article:opportunistic-af-screening-ed-2025": 1,
     "article:paramedic-3-drug-route-2024": 1,
+    "article:peachy-m-pediatric-agitation-2026": 1,
     "article:pediatric-bystander-cpr-japan-2026": 1,
     "article:pediatric-hereditary-angioedema-guideline-2026": 1,
     "article:pediatric-intubation-cardiac-arrest": 1,
     "article:pediatric-sedation-oxygen-2025": 1,
     "article:peerless-thrombectomy-vs-thrombolysis-2024": 1,
+    "article:pitstop-antibiotics-prehospital-sepsis-2026": 1,
+    "article:pitstop-fluids-prehospital-sepsis-2026": 1,
     "article:preheart": 1,
     "article:preoxi": 1,
     "article:preterm-biomarker-antibiotics-2026": 1,
@@ -122,6 +125,7 @@
     "audit:daily-2026-11-22": 1,
     "audit:daily-2026-11-23": 1,
     "audit:daily-2026-11-24": 1,
+    "audit:daily-2026-11-25": 2,
     "audit:weekly-2026-11-02": 2,
     "audit:weekly-2026-11-09": 1,
     "issue:2024-06-17": 1,
@@ -131,7 +135,7 @@
     "probe:scheduled-2026-10-26": 1,
     "probe:weekly-connection-2026-10-26": 2,
     "state:backfill": 196,
-    "state:publishing": 33
+    "state:publishing": 35
   },
-  "revisionFingerprint": "74489c2be017f005ef119f5186dd938f"
+  "revisionFingerprint": "f6047e771abb05bc401c519d8ebf1187"
 }

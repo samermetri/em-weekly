@@ -1,0 +1,53 @@
+{
+  "id": "peachy-m-pediatric-agitation-2026",
+  "doi": "10.1001/jama.2026.25561",
+  "pmid": "43072799",
+  "title": "Intramuscular Olanzapine or Droperidol for Acute Behavioral Disturbance in Children and Adolescents: The PEAChY-M Randomized Clinical Trial",
+  "pinned": false,
+  "sample": false,
+  "source": "JAMA",
+  "status": "published",
+  "topics": [
+    "pediatrics"
+  ],
+  "authors": [
+    "Elyssia M. Bourke",
+    "Amit Kochar",
+    "Deborah Shellshear",
+    "PREDICT Research Network and the ACEM Clinical Trials Network"
+  ],
+  "ranking": {
+    "design": 4,
+    "novelty": 5,
+    "edImpact": 5,
+    "guidelineRelevance": 1
+  },
+  "section": "Practice-Changing / High Priority",
+  "summary": "In 348 youths across 10 Australian EDs, sedation without rescue medication at one hour occurred in 53% with olanzapine versus 62% with droperidol. Olanzapine was not superior: adjusted difference −8.3 percentage points (95% CI −18.6 to 2.1). Study-related adverse events occurred in 12% versus 15%; one olanzapine recipient developed apnea after multiple sedatives and recovered with ventilatory support.",
+  "backfill": false,
+  "excluded": false,
+  "findings": [
+    "Available primary outcomes: 89/167 versus 104/167; 176 versus 172 randomized."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "IM droperidol using the same weight bands.",
+  "population": "Ages 9–17, agitation persisting despite de-escalation, unable/unwilling to accept oral medication.",
+  "sampleSize": 348,
+  "shortTitle": "PEAChY-M: IM olanzapine versus droperidol",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Unblinded assessments and substantial nonadministration limit interpretation; uncommon harms were underpowered. Children under nine and known long-QT patients were excluded.",
+  "retrievedAt": "2026-11-25",
+  "canonicalUrl": "https://jamanetwork.com/journals/jama/fullarticle/2857277",
+  "intervention": "IM olanzapine: 5 mg below 40 kg; 10 mg at ≥40 kg, as studied.",
+  "whyItMatters": "No demonstrated reason to prefer olanzapine on effectiveness grounds; continue de-escalation, reassessment and respiratory monitoring. This superiority trial establishes neither equivalence nor droperidol superiority.",
+  "evidenceNotes": "Publisher methods, results, harms and limitations reviewed; supplements unreviewed. November 25 correction/later-evidence searches retrieved originals/protocols, without a verified notice; surveillance remains limited.",
+  "discoveredDate": "2026-11-25",
+  "fullTextStatus": "Open-access full text available",
+  "firstOnlineDate": "2026-11-23",
+  "primaryEndpoint": "SAT ≤0 without additional sedatives at one hour after randomization.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-11-25"
+}

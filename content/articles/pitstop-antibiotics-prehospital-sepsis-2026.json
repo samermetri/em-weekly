@@ -1,0 +1,54 @@
+{
+  "id": "pitstop-antibiotics-prehospital-sepsis-2026",
+  "doi": "10.1001/jama.2026.25627",
+  "pmid": "43076168",
+  "title": "Prehospital Antibiotics for Patients With Suspected Sepsis: The PITSTOP-Antibiotics Factorial Randomized Clinical Trial",
+  "pinned": false,
+  "sample": false,
+  "source": "JAMA",
+  "status": "published",
+  "topics": [
+    "resuscitation",
+    "infectious-disease"
+  ],
+  "authors": [
+    "Damon C. Scales",
+    "Anna Rogowsky",
+    "Christopher W. Seymour",
+    "PITSTOP Investigators"
+  ],
+  "ranking": {
+    "design": 4,
+    "novelty": 5,
+    "edImpact": 5,
+    "guidelineRelevance": 3
+  },
+  "section": "Practice-Changing / High Priority",
+  "summary": "In this blinded Ontario factorial trial, 2,091 adults were randomized and 2,020 had primary mortality outcomes. Prehospital ceftriaxone produced 182/1009 deaths (18.0%) versus 186/1011 (18.4%) with placebo: RR 0.97 (95% CI 0.81–1.17). Administration-related adverse events occurred in 6.2% versus 1.5%, mainly injection-site pain.",
+  "backfill": false,
+  "excluded": false,
+  "findings": [
+    "2,048 eligible; antibiotic/fluid interaction P=.82."
+  ],
+  "studyType": "Randomized trial",
+  "comparator": "IM saline placebo; subsequent hospital antibiotics permitted.",
+  "population": "Adults with suspected infection, fever ≥38°C and SBP <100 mm Hg; four Ontario paramedic services.",
+  "sampleSize": 2091,
+  "shortTitle": "PITSTOP-Antibiotics: prehospital IM ceftriaxone",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Fever/hypotension selection and a single antibiotic/route limit generalization to other EMS systems and infections. Small mortality effects remain possible; pre-antibiotic cultures were not obtained.",
+  "retrievedAt": "2026-11-25",
+  "canonicalUrl": "https://jamanetwork.com/journals/jama/fullarticle/2857281",
+  "intervention": "Ceftriaxone 1 g IM in the ambulance, as studied.",
+  "whyItMatters": "Adding 1 g IM ceftriaxone before hospital care did not improve survival. This challenges routine use of this specific prehospital regimen; it does not support delaying appropriate ED antibiotics.",
+  "evidenceNotes": "Publisher methods, tables, harms and limitations reviewed; supplements unreviewed. Abstract/Table4 agree; prose contains an inconsistent placebo death count, so table/abstract used. Exact-DOI searches found no verified correction. Prior PHANTASi and current guidance address differing populations; existing guideline recommendations are not automatically superseded. SSC2026 conditionally suggests EMS antibiotics for definite/probable sepsis with hypotension and >60-minute anticipated evaluation delay, with very-low-certainty evidence; this trial tests one regimen, not every implementation. Official source reviewed: https://www.sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026",
+  "discoveredDate": "2026-11-25",
+  "fullTextStatus": "Open-access full text available",
+  "firstOnlineDate": "2026-11-24",
+  "primaryEndpoint": "Death before hospital discharge, through day 90.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": null,
+  "sitePublishedDate": "2026-11-25"
+}
