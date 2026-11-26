@@ -849,7 +849,7 @@
     {
       "doi": "10.1016/j.jacc.2026.07.025",
       "pmid": "42663357",
-      "reason": "Fifth Universal Definition of MI2026: official JACC indexed history says first-onlineAugust27,2026; primary PubMed metadata and officialACC release sayAugust28. Both precede normalOctober19 coverageStart; retrospective review only. JACC original open403; indexed original markedFree access, so failure is not proof of paywall. Retrieve full definitions, sex-specific assay thresholds, primary/secondary/procedure-related classification, unstable angina/MINOCA context and corrections; compare existing troponin wording without silently changing reviewed records. Resolve earliest co-publication day before any retrospective article.",
+      "reason": "Fifth Universal Definition of MI2026: official JACC indexed history says first-onlineAugust27,2026; primary PubMed metadata and officialACC release sayAugust28. Both precede normalOctober19 coverageStart; retrospective review only. JACC original open403; indexed original markedFree access, so failure is not proof of paywall. Retrieve full definitions, sex-specific assay thresholds, primary/secondary/procedure-related classification, unstable angina/MINOCA context and corrections; compare existing troponin wording without silently changing reviewed records. Resolve earliest co-publication day before any retrospective article.\n\nNovember26: OUP parent DOI10.1093/eurheartj/ehag101 explicitly published August28,2026, before normal coverageStart. Actual full October21 correction DOI10.1093/eurheartj/ehag811 retrieved: appendix approval-body labels changed to ACC Presidential Team/AHA Executive Committee; no clinical criterion changed in this notice. Parent full appraisal/earliest co-release remains retrospective. No standalone administrative-correction article.",
       "status": "needs-primary-review",
       "sourceId": "acc",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42663357/",
@@ -1038,7 +1038,7 @@
     {
       "doi": "10.1016/S0140-6736(26)02255-5",
       "pmid": "43057256",
-      "reason": "Retraction title and identifiers verified in indexed primary PubMed; parent is 2006case PMID16920476 DOI10.1016/S0140-6736(06)69255-6. November21,2026 is print metadata, not verified earliest electronic release. Actual DOI open InternalError/URLnotaccessible; distinct indexed exactDOI search retrieved parent linkage but no rationale. Retrieve actual notice, earliest electronicday, retraction basis and relevant current official breastfeeding/codeine guidance; inspect stored dependent material before any revision. Do not infer codeine safety from a retracted case.",
+      "reason": "Retraction title and identifiers verified in indexed primary PubMed; parent is 2006case PMID16920476 DOI10.1016/S0140-6736(06)69255-6. November21,2026 is print metadata, not verified earliest electronic release. Actual DOI open InternalError/URLnotaccessible; distinct indexed exactDOI search retrieved parent linkage but no rationale. Retrieve actual notice, earliest electronicday, retraction basis and relevant current official breastfeeding/codeine guidance; inspect stored dependent material before any revision. Do not infer codeine safety from a retracted case.\n\nNovember26: Indexed primary notice and parent correction links reverified. DOI10.1016/S0140-6736(26)02255-5; parent16920476 links expression of concern and notice. November21 still print metadata; actual DOI open inaccessible. Rationale/earliest electronic day/current official guidance/dependent record review remain pending. No inference that codeine is safe.",
       "status": "needs-primary-review",
       "sourceId": "pubmed-general",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43057256/",
@@ -1146,7 +1146,7 @@
     {
       "doi": "10.1016/j.annemergmed.2026.10.008",
       "pmid": "43076808",
-      "reason": "Acetaminophenhepatotoxicityprediction PRIMARYindexedPubMedabstract reviewed,November23electronicdate,DOI10.1016/j.annemergmed.2026.10.008.4705NAC-treatedadmissions,119hepatotoxicityevents;internaltest1175,AUC0.93(95%CI0.89\u20130.97)versusATproduct0.82(0.72\u20130.91). Retrieve primaryfulltext/authors/definitions/calibration/thresholds/externalvalidation/missingness/corrections. PredictionaccuracyisnotvalidatedNACcessation/escalationpolicy oroutcomebenefit; appraisebeforeselection.",
+      "reason": "Acetaminophenhepatotoxicityprediction PRIMARYindexedPubMedabstract reviewed,November23electronicdate,DOI10.1016/j.annemergmed.2026.10.008.4705NAC-treatedadmissions,119hepatotoxicityevents;internaltest1175,AUC0.93(95%CI0.89\u20130.97)versusATproduct0.82(0.72\u20130.91). Retrieve primaryfulltext/authors/definitions/calibration/thresholds/externalvalidation/missingness/corrections. PredictionaccuracyisnotvalidatedNACcessation/escalationpolicy oroutcomebenefit; appraisebeforeselection.\n\nNovember26 follow-up: Indexed PRIMARY PubMed abstract verifies authors Humphries/Kilpatrick/Addison/Cartwright/Lyall/Schumacher/Forbes/Dear and November23 electronic release. Three UK hospitals, ages>=12, presentation ALT<=1000; retrospective elastic-net model, stratified ALT<=50 versus51\u20131000. Testset1175 of4705 admissions;119hepatotoxicity events overall; AUC0.93(95%CI0.89\u20130.97) versus0.82(0.72\u20130.91), paired difference0.11(0.01\u20130.22). Internal held-out validation only. Retrieve legal full methods/calibration/decision thresholds/external validation/harms and corrections before any clinical-risk-score article; no demonstrated benefit from changing NAC dose/duration.",
       "status": "needs-primary-review",
       "sourceId": "pubmed-em",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43076808/",
@@ -1155,7 +1155,7 @@
     {
       "doi": "10.1016/j.annemergmed.2026.09.025",
       "pmid": "43076805",
-      "reason": "Newcachelead: Frequency and Causes of Waveform Capnography Failure After Successful Emergency Tracheal Intubation. Metadataonly; retrievelegalprimary firstelectronicdate,authors,design/sample,confirmedtrachealplacementstandard,failuremechanisms/rates/CIs,harms/corrections andconcreteEDimplications. Do notinfer thatabsentwaveformcanbeignored.",
+      "reason": "Newcachelead: Frequency and Causes of Waveform Capnography Failure After Successful Emergency Tracheal Intubation. Metadataonly; retrievelegalprimary firstelectronicdate,authors,design/sample,confirmedtrachealplacementstandard,failuremechanisms/rates/CIs,harms/corrections andconcreteEDimplications. Do notinfer thatabsentwaveformcanbeignored.\n\nNovember26: PRIMARY indexed PubMed abstract retrieved: Driver/Robinson/Kuo/Prekker; first electronic November23,2026. Retrospective analysis of prospective single-centre QI data, age>=14:124/2875 successful tracheal intubations had waveform failure (4.3%,95%CI3.6\u20135.1). Human error83 (82 disconnected sampling line), equipment11, undetermined33; categories may overlap. One tube removed for absent waveform. Comparative harms/safer strategy not established. Direct PubMed HHS shell; Annals abstract URL inaccessible, ScienceDirect403. Exact-DOI correction search found no target notice in bounded results, not proof of absence. Retrieve legal full methods, placement confirmation standard/harms and actual availability;403does not establish paywall. Do not relax tube-verification safeguards. No article pending accurate source-availability/full appraisal.",
       "status": "needs-primary-review",
       "sourceId": "pubmed-em",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43076805/",
@@ -1178,34 +1178,61 @@
       "sourceId": "acog",
       "canonicalUrl": "https://doi.org/10.1111/1471-0528.70369",
       "discoveredDate": "2026-11-25"
+    },
+    {
+      "doi": "10.1093/eurheartj/ehag744",
+      "pmid": null,
+      "reason": "Acute heart failure in emergency settings: ACVC/HFA-ESC/EUSEM clinical consensus. Actual PRIMARY OUP full-text page/history retrieved November26: first published October22,2026, accepted August27. Abstract/initial diagnostic-treatment table/context inspected, not complete guideline appraisal. Priority hold for direct ED diagnosis, respiratory support, diuretic/vasodilator, phenotype and disposition consequences. Review complete pathways/thresholds/timing/exceptions/contraindications/harms/discharge-admission criteria, evidence strength, US differences, earliest co-release/corrections/superseding guidance. Exact-DOI correction search found original/indexed archive only, not proof of absence. Date falls October19\u201325 existing issue; weekly writer must reconcile after appraisal. Daily task makes no issue write. No comprehensive guideline from initial table alone.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehag744/8965496",
+      "discoveredDate": "2026-11-26"
+    },
+    {
+      "doi": "10.1016/j.oret.2026.11.020",
+      "pmid": "43072635",
+      "reason": "Ocular syphilis multimodal-imaging MUV Taskforce Report21: primary indexed PubMed abstract/identifiers/authors retrieved; electronic November23,2026. Specialist NGT consensus about posterior-uveitis phenotypes/imaging. Retrieve legal complete primary findings, exact earliest date/corrections, certainty and ED triage/urgent ophthalmology consequence; exclude if specialty imaging adds no meaningful ED decision. No treatment/imaging thresholds inferred from partial abstract.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43072635/",
+      "discoveredDate": "2026-11-26"
+    },
+    {
+      "doi": "10.1542/peds.2026-079368",
+      "pmid": null,
+      "reason": "AAP Recognizing and Responding to Medical Neglect: Clinical Report. Indexed PRIMARY Pediatrics original retrieved: publication labelNovember16,2026, authorsNorellRosado/KirstenSimonton/AmyRGavril, DOI10.1542/peds.2026-079368; publisher marks Free. Abstract and initial diagnostic-definitions sections inspected, not complete fulltext appraisal. Nonadherence alone doesnotestablish neglect: assess childharm/risk, meaningfulbenefit and favorable risk-benefit, demonstratedaccessibility and clear caregivercommunication; systemicbarriers and shared goalsmatter. Actual directoriginal500SSOredirect, notbypassed and not proof ofpaywall. Retrieve complete legal primary assessment/acute safety escalation, child-protection reporting, multidisciplinary supports/disposition, exceptions, recommendationbasis/certainty, earliest co-release and corrections/superseding report. Important potential ED safeguarding guidance; hold relevant issue pending appraisal. No clinical thresholds/legal reporting rule inferred from partialtext.",
+      "status": "needs-primary-review",
+      "sourceId": "aap",
+      "canonicalUrl": "https://publications.aap.org/pediatrics/article/doi/10.1542/peds.2026-079368/211355/Recognizing-and-Responding-to-Medical-Neglect",
+      "discoveredDate": "2026-11-26"
     }
   ],
   "sources": {
     "pubmed-em": {
-      "lastError": "November25 partial: all357 unique matching cache candidates screened, EDAT2026-10-17\u20132026-11-24, actualNovember24T19:28UTCsnapshot. Recovery2026-09-27\u20132026-11-25 incomplete atbothends. Actualsearch-serviceE-utilities andidentical-queryofficialPubMedHTML failed InternalError/URLnotaccessible. successfulThrough unchanged; exactURLs/pages/ordinalranges andimportantcandidateholds:daily-2026-11-25.",
+      "lastError": "November26 partial: all 357 unique matching cache candidates screened. Actual November25T18:37UTC snapshot EDAT October17\u2013November25. Recovery September27\u2013November26 incomplete. search_service.open E-utilities and identical-query PubMed HTML both InternalError/URLnotaccessible. successfulThrough unchanged; daily-2026-11-26 records exact URLs/ranges/primary holds.",
       "resultCount": 280,
-      "lastAttemptAt": "2026-11-25T10:08:24Z",
+      "lastAttemptAt": "2026-11-26T10:08:37Z",
       "lastSuccessfulAt": "2026-10-31T18:41:26Z",
       "successfulThrough": "2026-10-31"
     },
     "pubmed-general": {
-      "lastError": "November25 partial: all185 unique matching cache candidates screened, EDAT2026-10-17\u20132026-11-24, actualNovember24T19:28UTCsnapshot. Recovery2026-09-27\u20132026-11-25 incomplete atbothends. Actualsearch-serviceE-utilities andidentical-queryofficialPubMedHTML failed InternalError/URLnotaccessible. successfulThrough unchanged; exactURLs/pages/ordinalranges andimportantcandidateholds:daily-2026-11-25.",
+      "lastError": "November26 partial: all 188 unique matching cache candidates screened. Actual November25T18:37UTC snapshot EDAT October17\u2013November25. Recovery September27\u2013November26 incomplete. search_service.open E-utilities and identical-query PubMed HTML both InternalError/URLnotaccessible. successfulThrough unchanged; daily-2026-11-26 records exact URLs/ranges/primary holds.",
       "resultCount": 159,
-      "lastAttemptAt": "2026-11-25T10:08:24Z",
+      "lastAttemptAt": "2026-11-26T10:08:37Z",
       "lastSuccessfulAt": "2026-10-31T18:41:26Z",
       "successfulThrough": "2026-10-31"
     },
     "pubmed-guidance": {
-      "lastError": "November25 partial: all168 unique matching cache candidates screened, EDAT2026-10-17\u20132026-11-24, actualNovember24T19:28UTCsnapshot. Recovery2026-09-27\u20132026-11-25 incomplete atbothends. Actualsearch-serviceE-utilities andidentical-queryofficialPubMedHTML failed InternalError/URLnotaccessible. successfulThrough unchanged; exactURLs/pages/ordinalranges andimportantcandidateholds:daily-2026-11-25.",
+      "lastError": "November26 partial: all 172 unique matching cache candidates screened. Actual November25T18:37UTC snapshot EDAT October17\u2013November25. Recovery September27\u2013November26 incomplete. search_service.open E-utilities and identical-query PubMed HTML both InternalError/URLnotaccessible. successfulThrough unchanged; daily-2026-11-26 records exact URLs/ranges/primary holds.",
       "resultCount": 158,
-      "lastAttemptAt": "2026-11-25T10:08:24Z",
+      "lastAttemptAt": "2026-11-26T10:08:37Z",
       "lastSuccessfulAt": "2026-10-31T18:41:26Z",
       "successfulThrough": "2026-10-31"
     },
     "pubmed-specialty": {
-      "lastError": "November25 partial: all283 unique matching cache candidates screened, EDAT2026-10-17\u20132026-11-24, actualNovember24T19:28UTCsnapshot. Recovery2026-09-27\u20132026-11-25 incomplete atbothends. Actualsearch-serviceE-utilities andidentical-queryofficialPubMedHTML failed InternalError/URLnotaccessible. successfulThrough unchanged; exactURLs/pages/ordinalranges andimportantcandidateholds:daily-2026-11-25.",
+      "lastError": "November26 partial: all 284 unique matching cache candidates screened. Actual November25T18:37UTC snapshot EDAT October17\u2013November25. Recovery September27\u2013November26 incomplete. search_service.open E-utilities and identical-query PubMed HTML both InternalError/URLnotaccessible. successfulThrough unchanged; daily-2026-11-26 records exact URLs/ranges/primary holds.",
       "resultCount": 250,
-      "lastAttemptAt": "2026-11-25T10:08:24Z",
+      "lastAttemptAt": "2026-11-26T10:08:37Z",
       "lastSuccessfulAt": "2026-10-31T18:41:26Z",
       "successfulThrough": "2026-10-31"
     }
@@ -1220,9 +1247,9 @@
     "2026-10-19"
   ],
   "lastSuccessfulDeployment": {
-    "at": "2026-11-25T21:37:32.446358+00:00",
-    "commit": "bf843b9d7c15c4fea43e0a0583c90ec66d86dc0e",
-    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/45705851186",
+    "at": "2026-11-26T21:26:51.264780+00:00",
+    "commit": "65655be4572536474bdcee37d8448675c82225ea",
+    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/45898061398",
     "url": "https://emweekly.samermetri.com/"
   },
   "lastSuccessfulResearchCheck": null
