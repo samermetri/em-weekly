@@ -1,0 +1,58 @@
+{
+  "id": "aap-medical-neglect-clinical-report-2026",
+  "doi": "10.1542/peds.2026-079368",
+  "pmid": "43035104",
+  "title": "Recognizing and Responding to Medical Neglect: Clinical Report",
+  "pinned": false,
+  "sample": false,
+  "source": "Pediatrics / American Academy of Pediatrics",
+  "status": "published",
+  "topics": [
+    "pediatrics",
+    "guidelines"
+  ],
+  "authors": [
+    "Norell Rosado",
+    "Kirsten Simonton",
+    "Amy R. Gavril",
+    "AAP Council on Child Abuse and Neglect"
+  ],
+  "ranking": {
+    "design": 2,
+    "novelty": 3,
+    "edImpact": 4,
+    "guidelineRelevance": 5
+  },
+  "section": "Guidelines & Statements",
+  "summary": "This revised AAP clinical report makes the diagnostic framework explicit: nonadherence alone is insufficient. Assess child harm or risk, substantial benefit from care, benefits outweighing treatment morbidity, demonstrated access that went unused, and efforts to communicate recommendations clearly.\n\nFor emergency care, assess immediate safety and the need for hospitalization when illness is severe, psychiatric distress includes suicidality, or another form of maltreatment is suspected. Most presentations can be managed outside hospital when safety and follow-up permit; the report does not supply a validated discharge rule.\n\nDiagnostic criteria and reporting thresholds serve different purposes. Reasonable suspicion can require reporting before every diagnostic detail is established. Consultation with child abuse pediatrics or social work supports assessment but does not transfer the clinician’s reporting responsibility.",
+  "backfill": false,
+  "excluded": false,
+  "findings": [
+    "Investigate medication cost, transportation, language, health literacy, family stress, disability access and clinician bias. Document practical access and understanding instead of equating poverty with neglect.",
+    "Use professional interpretation, teach-back and a jointly developed written care plan; arrange feasible follow-up and community support.",
+    "Caregiver intent is not the diagnostic focus. Informed decisions aligned with the treating team for life-limiting illness do not, by themselves, establish neglect.",
+    "The AAP discourages treating vaccine refusal alone as medical neglect; emphasize discussion. This exception does not remove reporting duties for other suspected maltreatment.",
+    "Escalate when danger is imminent, other maltreatment is suspected, or harmful nonadherence persists after barriers are addressed. Consider whether other children in the household also need assessment."
+  ],
+  "studyType": "Consensus statement",
+  "comparator": "Not applicable; professional clinical report without a comparative intervention cohort.",
+  "population": "Children and adolescents with possible failure to obtain or follow necessary medical, dental or mental health care, including chronic illness and complex needs.",
+  "sampleSize": null,
+  "shortTitle": "AAP: distinguish medical neglect from nonadherence",
+  "aiGenerated": true,
+  "corrections": [],
+  "humanReview": "Not yet human-reviewed",
+  "limitations": "Clinical report, not a treatment trial or validated diagnostic/disposition instrument. No graded recommendation system or quantified intervention benefit is supplied. Reporting implementation depends on local law; the report’s diagnostic framework must not become a requirement to prove neglect before reporting.",
+  "retrievedAt": "2026-11-27",
+  "canonicalUrl": "https://publications.aap.org/pediatrics/article/doi/10.1542/peds.2026-079368/211355/Recognizing-and-Responding-to-Medical-Neglect",
+  "intervention": "Structured assessment, immediate safety evaluation, communication support and multidisciplinary response.",
+  "whyItMatters": "An ED revisit or missed medication should trigger assessment of harm, access and communication. Address barriers while securing the child’s safety; diagnostic uncertainty should not postpone a report that is otherwise required.",
+  "evidenceNotes": "Legal indexed publisher main clinical text reviewed, including Response and State Child Welfare Reporting; publisher labels the report Free. Direct publisher open failed Cache miss, so no direct-access success is claimed. Official author summary corroborated the revised framework: https://publications.aap.org/aapnews/news/36716/AAP-report-outlines-criteria-for-recognizing . Primary PubMed metadata/abstract verified electronic date and identifiers: https://pubmed.ncbi.nlm.nih.gov/43035104/ . Bounded exact-DOI correction/retraction search returned the original and official collections, without a target notice; this is not proof that no notice exists. No clinical disagreement was resolved by secondary summaries.",
+  "discoveredDate": "2026-11-27",
+  "fullTextStatus": "Open-access full text available",
+  "firstOnlineDate": "2026-11-16",
+  "primaryEndpoint": "Not applicable; recognition and response recommendations rather than a measured trial endpoint.",
+  "reviewedMaterial": "full text",
+  "guidelineStrength": "AAP clinical-report recommendations; no formal GRADE strength/certainty labels identified in the reviewed clinical text.",
+  "sitePublishedDate": "2026-11-27"
+}

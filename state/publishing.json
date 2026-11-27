@@ -498,7 +498,7 @@
     {
       "doi": "10.1016/j.chest.2026.10.033",
       "pmid": "42994751",
-      "reason": "ADJUST ulinastatin: primary indexed PubMed abstract retrieved, electronic dateNovember6.347 randomized,335 efficacy population after postrandomization exclusions;28-day deaths39/165 versus39/170;difference0.7% (95%CI\u22128.4 to9.7). Adverse events96/169 versus73/171. Retrieve complete protocol deviation/safety severity, first release/corrections and legal full text status; discuss Chinese ICU context and limited US applicability, not a proven sepsis benefit.",
+      "reason": "ADJUST ulinastatin: primary indexed PubMed abstract retrieved, electronic dateNovember6.347 randomized,335 efficacy population after postrandomization exclusions;28-day deaths39/165 versus39/170;difference0.7% (95%CI\u22128.4 to9.7). Adverse events96/169 versus73/171. Retrieve complete protocol deviation/safety severity, first release/corrections and legal full text status; discuss Chinese ICU context and limited US applicability, not a proven sepsis benefit.\n\nNovember27: actual CHEST fulltext request failed Cache miss. Distinct primary publisher-title/ADJUST search did not return target in mixed results. Prior abstract appraisal preserved; detailed safety/postrandomization-exclusion and legal fulltext-status review still required.",
       "status": "needs-primary-review",
       "sourceId": "pubmed-specialty",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/42994751/",
@@ -1155,7 +1155,7 @@
     {
       "doi": "10.1016/j.annemergmed.2026.09.025",
       "pmid": "43076805",
-      "reason": "Newcachelead: Frequency and Causes of Waveform Capnography Failure After Successful Emergency Tracheal Intubation. Metadataonly; retrievelegalprimary firstelectronicdate,authors,design/sample,confirmedtrachealplacementstandard,failuremechanisms/rates/CIs,harms/corrections andconcreteEDimplications. Do notinfer thatabsentwaveformcanbeignored.\n\nNovember26: PRIMARY indexed PubMed abstract retrieved: Driver/Robinson/Kuo/Prekker; first electronic November23,2026. Retrospective analysis of prospective single-centre QI data, age>=14:124/2875 successful tracheal intubations had waveform failure (4.3%,95%CI3.6\u20135.1). Human error83 (82 disconnected sampling line), equipment11, undetermined33; categories may overlap. One tube removed for absent waveform. Comparative harms/safer strategy not established. Direct PubMed HHS shell; Annals abstract URL inaccessible, ScienceDirect403. Exact-DOI correction search found no target notice in bounded results, not proof of absence. Retrieve legal full methods, placement confirmation standard/harms and actual availability;403does not establish paywall. Do not relax tube-verification safeguards. No article pending accurate source-availability/full appraisal.",
+      "reason": "Newcachelead: Frequency and Causes of Waveform Capnography Failure After Successful Emergency Tracheal Intubation. Metadataonly; retrievelegalprimary firstelectronicdate,authors,design/sample,confirmedtrachealplacementstandard,failuremechanisms/rates/CIs,harms/corrections andconcreteEDimplications. Do notinfer thatabsentwaveformcanbeignored.\n\nNovember26: PRIMARY indexed PubMed abstract retrieved: Driver/Robinson/Kuo/Prekker; first electronic November23,2026. Retrospective analysis of prospective single-centre QI data, age>=14:124/2875 successful tracheal intubations had waveform failure (4.3%,95%CI3.6\u20135.1). Human error83 (82 disconnected sampling line), equipment11, undetermined33; categories may overlap. One tube removed for absent waveform. Comparative harms/safer strategy not established. Direct PubMed HHS shell; Annals abstract URL inaccessible, ScienceDirect403. Exact-DOI correction search found no target notice in bounded results, not proof of absence. Retrieve legal full methods, placement confirmation standard/harms and actual availability;403does not establish paywall. Do not relax tube-verification safeguards. No article pending accurate source-availability/full appraisal.\n\nNovember27: indexed PRIMARY PubMed abstract re-retrieved, confirming November23 electronic date and single-centre QI database design. Full methods, tracheal-placement confirmation standard and legal full-text availability remain unresolved; no new clinical article or relaxed verification recommendation.",
       "status": "needs-primary-review",
       "sourceId": "pubmed-em",
       "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43076805/",
@@ -1182,7 +1182,7 @@
     {
       "doi": "10.1093/eurheartj/ehag744",
       "pmid": null,
-      "reason": "Acute heart failure in emergency settings: ACVC/HFA-ESC/EUSEM clinical consensus. Actual PRIMARY OUP full-text page/history retrieved November26: first published October22,2026, accepted August27. Abstract/initial diagnostic-treatment table/context inspected, not complete guideline appraisal. Priority hold for direct ED diagnosis, respiratory support, diuretic/vasodilator, phenotype and disposition consequences. Review complete pathways/thresholds/timing/exceptions/contraindications/harms/discharge-admission criteria, evidence strength, US differences, earliest co-release/corrections/superseding guidance. Exact-DOI correction search found original/indexed archive only, not proof of absence. Date falls October19\u201325 existing issue; weekly writer must reconcile after appraisal. Daily task makes no issue write. No comprehensive guideline from initial table alone.",
+      "reason": "Acute heart failure in emergency settings: ACVC/HFA-ESC/EUSEM clinical consensus. Actual PRIMARY OUP full-text page/history retrieved November26: first published October22,2026, accepted August27. Abstract/initial diagnostic-treatment table/context inspected, not complete guideline appraisal. Priority hold for direct ED diagnosis, respiratory support, diuretic/vasodilator, phenotype and disposition consequences. Review complete pathways/thresholds/timing/exceptions/contraindications/harms/discharge-admission criteria, evidence strength, US differences, earliest co-release/corrections/superseding guidance. Exact-DOI correction search found original/indexed archive only, not proof of absence. Date falls October19\u201325 existing issue; weekly writer must reconcile after appraisal. Daily task makes no issue write. No comprehensive guideline from initial table alone.\n\nNovember27: actual original OUP open failed Cache miss. Distinct indexed PRIMARY OUP article retrieved partial diagnostic/disposition text; comprehensive pathways and prior identified table-threshold inconsistencies are not resolved by these excerpts. Exact-DOI correction search returned original/advance archives, not a target correction; absence not established. Preserve important full-appraisal hold and October22 date evidence.",
       "status": "needs-primary-review",
       "sourceId": "pubmed-guidance",
       "canonicalUrl": "https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehag744/8965496",
@@ -1199,40 +1199,49 @@
     },
     {
       "doi": "10.1542/peds.2026-079368",
-      "pmid": null,
-      "reason": "AAP Recognizing and Responding to Medical Neglect: Clinical Report. Indexed PRIMARY Pediatrics original retrieved: publication labelNovember16,2026, authorsNorellRosado/KirstenSimonton/AmyRGavril, DOI10.1542/peds.2026-079368; publisher marks Free. Abstract and initial diagnostic-definitions sections inspected, not complete fulltext appraisal. Nonadherence alone doesnotestablish neglect: assess childharm/risk, meaningfulbenefit and favorable risk-benefit, demonstratedaccessibility and clear caregivercommunication; systemicbarriers and shared goalsmatter. Actual directoriginal500SSOredirect, notbypassed and not proof ofpaywall. Retrieve complete legal primary assessment/acute safety escalation, child-protection reporting, multidisciplinary supports/disposition, exceptions, recommendationbasis/certainty, earliest co-release and corrections/superseding report. Important potential ED safeguarding guidance; hold relevant issue pending appraisal. No clinical thresholds/legal reporting rule inferred from partialtext.",
-      "status": "needs-primary-review",
+      "pmid": "43035104",
+      "reason": "November27 primary clinical appraisal completed and published as aap-medical-neglect-clinical-report-2026. Legal indexed PRIMARY publisher main text inspected through Response, reporting and Summary; Free availability verified. PRIMARY PubMed43035104 confirms November16 electronic date and DOI; official author summary corroborates revised diagnostic framework. Diagnostic criteria distinguished from reasonable-suspicion reporting threshold; emergency safety, disposition limitations, barriers, vaccine-refusal and end-of-life exceptions included without invented grades. Main clinical review complete; this is no longer an unverified new-guidance issue hold. Retained queue entry only for routine correction/source-access follow-up. Exact-DOI correction/retraction search found original/collections without target notice; no known unavailable correction identified.",
+      "status": "held",
       "sourceId": "aap",
       "canonicalUrl": "https://publications.aap.org/pediatrics/article/doi/10.1542/peds.2026-079368/211355/Recognizing-and-Responding-to-Medical-Neglect",
       "discoveredDate": "2026-11-26"
+    },
+    {
+      "doi": "10.1001/jamanetworkopen.2026.44508",
+      "pmid": "43084303",
+      "reason": "Identification, Monitoring, and Management of Elevated Ketones in Ambulatory Settings: A Consensus Statement. Newly indexed matching cache metadata (also general-source member) gives November2 electronic hint, not independently verified earliest release. Official NCBI MedGen listing confirms title and author list only. Actual PubMed open failed URL not accessible; distinct exact-title JAMA publisher search did not retrieve target (successful search, no matching primary returned). Retrieve legal primary JAMA paper/abstract, exact first-online day/DOI, issuing organization, ketone-testing and escalation/ED referral thresholds, SGLT2/euglycemic DKA and pregnancy/pediatric exceptions, evidence strength/harms, funding/conflicts, corrections and superseding guidance. Potential direct ED consequence; keep date-eligible issue held pending primary appraisal. No numerical thresholds or treatment recommendations inferred from metadata.",
+      "status": "needs-primary-review",
+      "sourceId": "pubmed-guidance",
+      "canonicalUrl": "https://pubmed.ncbi.nlm.nih.gov/43084303/",
+      "discoveredDate": "2026-11-27"
     }
   ],
   "sources": {
     "pubmed-em": {
-      "lastError": "November26 partial: all 357 unique matching cache candidates screened. Actual November25T18:37UTC snapshot EDAT October17\u2013November25. Recovery September27\u2013November26 incomplete. search_service.open E-utilities and identical-query PubMed HTML both InternalError/URLnotaccessible. successfulThrough unchanged; daily-2026-11-26 records exact URLs/ranges/primary holds.",
+      "lastError": "November27 partial: all 361 unique matching cache candidates screened in bounded pages<=100. Actual 2026-11-26T18:22:41.045913+00:00 snapshot EDAT 2026-10-17\u20132026-11-26; recovery September27\u2013November27 incomplete. search_service.open E-utilities and identical-query PubMed HTML both Internal Error/URL not accessible. successfulThrough unchanged; daily-2026-11-27 records exact URLs/ranges and important holds.",
       "resultCount": 280,
-      "lastAttemptAt": "2026-11-26T10:08:37Z",
+      "lastAttemptAt": "2026-11-27T10:03:54Z",
       "lastSuccessfulAt": "2026-10-31T18:41:26Z",
       "successfulThrough": "2026-10-31"
     },
     "pubmed-general": {
-      "lastError": "November26 partial: all 188 unique matching cache candidates screened. Actual November25T18:37UTC snapshot EDAT October17\u2013November25. Recovery September27\u2013November26 incomplete. search_service.open E-utilities and identical-query PubMed HTML both InternalError/URLnotaccessible. successfulThrough unchanged; daily-2026-11-26 records exact URLs/ranges/primary holds.",
+      "lastError": "November27 partial: all 202 unique matching cache candidates screened in bounded pages<=100. Actual 2026-11-26T18:22:41.651168+00:00 snapshot EDAT 2026-10-17\u20132026-11-26; recovery September27\u2013November27 incomplete. search_service.open E-utilities and identical-query PubMed HTML both Internal Error/URL not accessible. successfulThrough unchanged; daily-2026-11-27 records exact URLs/ranges and important holds.",
       "resultCount": 159,
-      "lastAttemptAt": "2026-11-26T10:08:37Z",
+      "lastAttemptAt": "2026-11-27T10:03:54Z",
       "lastSuccessfulAt": "2026-10-31T18:41:26Z",
       "successfulThrough": "2026-10-31"
     },
     "pubmed-guidance": {
-      "lastError": "November26 partial: all 172 unique matching cache candidates screened. Actual November25T18:37UTC snapshot EDAT October17\u2013November25. Recovery September27\u2013November26 incomplete. search_service.open E-utilities and identical-query PubMed HTML both InternalError/URLnotaccessible. successfulThrough unchanged; daily-2026-11-26 records exact URLs/ranges/primary holds.",
+      "lastError": "November27 partial: all 179 unique matching cache candidates screened in bounded pages<=100. Actual 2026-11-26T18:22:42.775326+00:00 snapshot EDAT 2026-10-17\u20132026-11-26; recovery September27\u2013November27 incomplete. search_service.open E-utilities and identical-query PubMed HTML both Internal Error/URL not accessible. successfulThrough unchanged; daily-2026-11-27 records exact URLs/ranges and important holds.",
       "resultCount": 158,
-      "lastAttemptAt": "2026-11-26T10:08:37Z",
+      "lastAttemptAt": "2026-11-27T10:03:54Z",
       "lastSuccessfulAt": "2026-10-31T18:41:26Z",
       "successfulThrough": "2026-10-31"
     },
     "pubmed-specialty": {
-      "lastError": "November26 partial: all 284 unique matching cache candidates screened. Actual November25T18:37UTC snapshot EDAT October17\u2013November25. Recovery September27\u2013November26 incomplete. search_service.open E-utilities and identical-query PubMed HTML both InternalError/URLnotaccessible. successfulThrough unchanged; daily-2026-11-26 records exact URLs/ranges/primary holds.",
+      "lastError": "November27 partial: all 293 unique matching cache candidates screened in bounded pages<=100. Actual 2026-11-26T18:22:42.166349+00:00 snapshot EDAT 2026-10-17\u20132026-11-26; recovery September27\u2013November27 incomplete. search_service.open E-utilities and identical-query PubMed HTML both Internal Error/URL not accessible. successfulThrough unchanged; daily-2026-11-27 records exact URLs/ranges and important holds.",
       "resultCount": 250,
-      "lastAttemptAt": "2026-11-26T10:08:37Z",
+      "lastAttemptAt": "2026-11-27T10:03:54Z",
       "lastSuccessfulAt": "2026-10-31T18:41:26Z",
       "successfulThrough": "2026-10-31"
     }
@@ -1247,9 +1256,9 @@
     "2026-10-19"
   ],
   "lastSuccessfulDeployment": {
-    "at": "2026-11-26T21:26:51.264780+00:00",
-    "commit": "65655be4572536474bdcee37d8448675c82225ea",
-    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/45898061398",
+    "at": "2026-11-27T21:08:24.648967+00:00",
+    "commit": "af77320f61de9fcb6553c6e5769186c903790f09",
+    "runUrl": "https://github.com/samermetri/em-weekly/actions/runs/46068193645",
     "url": "https://emweekly.samermetri.com/"
   },
   "lastSuccessfulResearchCheck": null

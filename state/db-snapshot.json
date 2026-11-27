@@ -1,7 +1,8 @@
 {
-  "snapshotHash": "63e347bfb04276d94c76e4929530055f0c1a4ee64fddb2a9cbe2f70da2642b85",
+  "snapshotHash": "4398963a9b4c1ce4ccbc384b08aa321a94457b9119ed183ceb10cb766c6a10e9",
   "documentRevisions": {
     "article:aap-child-adolescent-immunization-2026": 1,
+    "article:aap-medical-neglect-clinical-report-2026": 1,
     "article:aap-neonatal-hie-hypothermia-2026": 2,
     "article:aap-pediatric-uti-2026": 2,
     "article:acmt-fentanyl-exposure-2024": 2,
@@ -127,6 +128,7 @@
     "audit:daily-2026-11-24": 1,
     "audit:daily-2026-11-25": 2,
     "audit:daily-2026-11-26": 2,
+    "audit:daily-2026-11-27": 2,
     "audit:weekly-2026-11-02": 2,
     "audit:weekly-2026-11-09": 1,
     "issue:2024-06-17": 1,
@@ -136,7 +138,7 @@
     "probe:scheduled-2026-10-26": 1,
     "probe:weekly-connection-2026-10-26": 2,
     "state:backfill": 196,
-    "state:publishing": 37
+    "state:publishing": 39
   },
-  "revisionFingerprint": "f181e8651c2504d7e2134637693e95b6"
+  "revisionFingerprint": "860f50326bd6ee06e08f5bf18e5e13c5"
 }
